@@ -1,0 +1,79 @@
+original_index,split,title,author,length
+0,test,The D'Arblay Mystery,Dorothy L. Sayers,448548
+5,train,The Adventure of Wisteria Lodge,Arthur Conan Doyle,62580
+10,train,The Adventure of the Six Napoleons,Arthur Conan Doyle,44924
+21,train,The Adventure of the Three Garridebs,Arthur Conan Doyle,34266
+24,test,The Adventure of Black Peter,Arthur Conan Doyle,43558
+35,test,The Adventure of the Illustrious Client,Arthur Conan Doyle,52811
+38,train,The Adventure of the Priory School,Arthur Conan Doyle,61934
+41,train,The Sign of the Four,Arthur Conan Doyle,231158
+43,train,Trent's Last Case,E. C. Bentley,405186
+50,test,The Insidious Dr. Fu Manchu,Sax Rohmer,415006
+74,test,The Fellowship of the Frog,Edgar Wallace,562112
+95,train,Crime and Punishment,Fyodor Dostoevsky,1120633
+99,test,The Man in Lower Ten,Mary Roberts Rinehart,350508
+127,train,Whose Body? A Lord Peter Wimsey Novel,Dorothy L. Sayers,331916
+132,train,The Secret Adversary,Agatha Christie,425781
+133,train,The Crystal Stopper,Maurice Leblanc,420363
+256,train,The Adventure of the Second Stain,Arthur Conan Doyle,58839
+257,train,The Adventure of the Beryl Coronet,Arthur Conan Doyle,50974
+258,test,A Case of Identity,Arthur Conan Doyle,37903
+259,train,The Opal Serpent,Fergus Hume,488865
+260,train,The Man in the Brown Suit,Agatha Christie,409087
+261,train,The Adventure of the Norwood Builder,Arthur Conan Doyle,55780
+262,test,The Mysterious Affair at Styles,Agatha Christie,318136
+263,train,The Adventure of the Three Gables,Arthur Conan Doyle,32848
+264,train,The Murder of Roger Ackroyd,Agatha Christie,395461
+265,train,The Adventure of the Copper Beeches,Arthur Conan Doyle,53108
+266,train,Find the Woman,Gaston Leroux,443958
+267,train,The Red-Headed League,Arthur Conan Doyle,6554
+268,train,Clouds of Witness,Dorothy L. Sayers,474118
+269,train,The Disappearance of Lady Frances Carfax,Arthur Conan Doyle,42390
+270,test,The Boscombe Valley Mystery,Arthur Conan Doyle,51331
+271,test,The Final Problem,Arthur Conan Doyle,42578
+272,train,The Murder on the Links,Agatha Christie,360108
+273,test,The Problem of Thor Bridge,Arthur Conan Doyle,52096
+274,test,The Adventure of the Egyptian Tomb,Agatha Christie,28551
+275,test,The Leavenworth Case,Anna Katharine Green,609548
+276,train,The Adventure of the Solitary Cyclist,Arthur Conan Doyle,46781
+277,train,That Affair Next Door,Anna Katharine Green,565114
+278,train,The Riddle of the Purple Emperor,Fergus Hume,365017
+279,test,The Mystery of the Yellow Room,Gaston Leroux,416459
+280,train,The Musgrave Ritual,Arthur Conan Doyle,44863
+282,train,The Unpleasantness at the Bellona Club,Dorothy L. Sayers,402322
+283,train,The Curved Blades,Maurice Leblanc,396657
+284,train,The Mystery of the Blue Train,Agatha Christie,391158
+285,test,The Adventure of the Dancing Men,Arthur Conan Doyle,57117
+286,train,The Valley of Fear,Arthur Conan Doyle,311902
+287,train,File No. 113,Emile Gaboriau,817588
+288,train,The Adventure of the Abbey Grange,Arthur Conan Doyle,53794
+289,train,The Adventure of the Blue Carbuncle,Arthur Conan Doyle,42086
+290,test,The Adventure of the Mazarin Stone,Arthur Conan Doyle,31336
+291,train,The Naval Treaty,Arthur Conan Doyle,75641
+292,train,X Y Z: A Detective Story,Anna Katharine Green,99019
+293,train,The Adventure of the Red Circle,Arthur Conan Doyle,39931
+294,test,The Borough Treasurer,J. S. Fletcher,438131
+295,test,The Adventure of the Cardboard Box,Arthur Conan Doyle,46130
+296,train,The Adventure of the Sussex Vampire,Arthur Conan Doyle,32711
+297,train,The Adventure of the Devil's Foot,Arthur Conan Doyle,55457
+298,train,The Hand in the Dark,Anna Katharine Green,600405
+299,test,The Crooked Man,Arthur Conan Doyle,42032
+300,train,The Five Orange Pips,Arthur Conan Doyle,39431
+301,train,The Hunter's Lodge Case,Agatha Christie,17970
+302,test,The Clue of the Twisted Candle,Edgar Wallace,315859
+304,train,The Adventure of the Speckled Band,Arthur Conan Doyle,52919
+305,train,The Adventure of the Empty House,Arthur Conan Doyle,52194
+306,train,The Adventure of Charles Augustus Milverton,Arthur Conan Doyle,40312
+307,train,The Teeth of the Tiger,Maurice Leblanc,709019
+308,test,The Lerouge Case,Emile Gaboriau,691231
+309,test,A Study in Scarlet,Arthur Conan Doyle,237979
+310,train,The Adventure of Shoscombe Old Place,Arthur Conan Doyle,33611
+311,train,The Sturgis Wager: A Detective Story,Edgar Wallace,265746
+312,train,The Hound of the Baskervilles,Arthur Conan Doyle,316963
+313,train,The Adventure of the Bruce-Partington Plans,Arthur Conan Doyle,58839
+314,test,Silver Blaze,Arthur Conan Doyle,58095
+315,train,The Adventure of the Dying Detective,Arthur Conan Doyle,31540
+316,train,The Adventure of the Engineerâ€™s Thumb,Arthur Conan Doyle,44570
+317,train,The Adventure of the Golden Pince-Nez,Arthur Conan Doyle,53247
+318,train,Unnatural Death,Dorothy L. Sayers,468781
+319,test,The Adventure of the Creeping Man,Arthur Conan Doyle,42685
