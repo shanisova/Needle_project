@@ -17,6 +17,7 @@ from typing import List, Dict, Tuple, Optional
 from datasets import load_dataset
 from pydantic import BaseModel
 from ollama import chat
+import argparse
 
 # Pydantic models for structured outputs
 class CharacterList(BaseModel):
@@ -123,14 +124,21 @@ Story Text:
 {text}
 
 Rules:
-- Find interactions ONLY between the specific characters listed above
+- Find interactions ONLY when two characters (or pronouns referring to them) appear in the SAME SENTENCE
 - When you see pronouns (he, she, they, him, her), figure out which character they refer to
 - Use ONLY the exact character names from the list above - no pronouns in results
-- Resolve references: if text says "Detective Smith questioned her" and "her" = "Mrs. Johnson", create the interaction as "Detective Smith questioned Mrs. Johnson"
-- Use simple actions: "talked to", "met with", "questioned", "argued with", "appeared with"
+- An interaction occurs when two different characters are mentioned together in one sentence
+- Resolve references: if sentence says "Detective Smith questioned her about the case" and "her" refers to "Mrs. Johnson", create interaction between "Detective Smith" and "Mrs. Johnson"
+- Use simple actions based on what happens in that sentence: "talked to", "met with", "questioned", "argued with", "appeared with", "mentioned"
 - Don't duplicate interactions (if A talked to B, don't also add B talked to A)
+- Only create interactions for characters that appear together in the same sentence
 
-Only create interactions where you can clearly match both people to names from the character list.
+Examples:
+- "Detective Smith questioned Mrs. Johnson about the murder." → Smith questioned Johnson
+- "He told her about the evidence." (if he=Smith, her=Johnson) → Smith told Johnson  
+- "Smith was in the garden. Johnson was in the house." → NO interaction (different sentences)
+
+Only create interactions where both characters appear in the same sentence.
 '''
             }],
             format=InteractionList.model_json_schema(),
@@ -159,7 +167,7 @@ Only create interactions where you can clearly match both people to names from t
     def chunk_text(self, text: str, chunk_size: int = 2000) -> List[str]:
         """Split text into overlapping chunks"""
         chunks = []
-        overlap = 200  # Overlap to catch interactions across chunk boundaries
+        overlap = min(200, chunk_size // 10)  # 10% overlap, max 200
         
         for i in range(0, len(text), chunk_size - overlap):
             chunk = text[i:i + chunk_size]
@@ -168,13 +176,13 @@ Only create interactions where you can clearly match both people to names from t
         
         return chunks
 
-    def analyze_story_batched(self, text: str, story_title: str) -> Tuple[List[Character], List[Interaction]]:
+    def analyze_story_batched(self, text: str, story_title: str, chunk_size: int = 2000) -> Tuple[List[Character], List[Interaction]]:
         """Analyze a story in batches using structured outputs"""
         print(f"Analyzing story: {story_title}")
         print(f"Text length: {len(text)} characters")
         
         # Split into chunks
-        chunks = self.chunk_text(text, chunk_size=2000)
+        chunks = self.chunk_text(text, chunk_size=chunk_size)
         print(f"Split into {len(chunks)} chunks")
         print("-" * 50)
         
@@ -246,7 +254,129 @@ Only create interactions where you can clearly match both people to names from t
         
         return char_filename, interaction_filename
 
-def analyze_whodunit_story(story_index: int = 0, use_batching: bool = True):
+    def analyze_story_batched_parallel(self, text: str, story_title: str, max_workers: int = 4, chunk_size: int = 2000) -> Tuple[List[Character], List[Interaction]]:
+        """Analyze story in parallel batches using structured outputs"""
+        import concurrent.futures
+        
+        print(f"Analyzing story: {story_title}")
+        print(f"Text length: {len(text)} characters")
+        
+        chunks = self.chunk_text(text, chunk_size=chunk_size)
+        print(f"Split into {len(chunks)} chunks")
+        print(f"Using {max_workers} parallel workers")
+        print("-" * 50)
+        
+        def process_chunk(chunk_data):
+            """Process a single chunk - designed for parallel execution"""
+            i, chunk = chunk_data
+            print(f"Processing chunk {i+1}/{len(chunks)}")
+            
+            # Extract characters from this chunk
+            chunk_characters = self.extract_characters(chunk, f"{story_title}_chunk_{i+1}")
+            
+            # Extract interactions from this chunk
+            chunk_interactions = self.extract_interactions(chunk, chunk_characters)
+            
+            return chunk_characters, chunk_interactions
+        
+        # Process chunks in parallel
+        all_characters = []
+        all_interactions = []
+        
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+            # Submit all chunks for processing
+            chunk_data = [(i, chunk) for i, chunk in enumerate(chunks)]
+            future_to_chunk = {executor.submit(process_chunk, data): data for data in chunk_data}
+            
+            # Collect results as they complete
+            for future in concurrent.futures.as_completed(future_to_chunk):
+                chunk_characters, chunk_interactions = future.result()
+                all_characters.extend(chunk_characters)
+                all_interactions.extend(chunk_interactions)
+        
+        # Deduplicate characters by name
+        unique_characters = []
+        seen_names = set()
+        char_id = 1
+        
+        for char in all_characters:
+            if char.name not in seen_names:
+                seen_names.add(char.name)
+                char.char_id = char_id
+                char.story_title = story_title
+                unique_characters.append(char)
+                char_id += 1
+        
+        # Deduplicate interactions
+        unique_interactions = []
+        seen_interactions = set()
+        
+        for interaction in all_interactions:
+            key = tuple(sorted([interaction.char1_name, interaction.char2_name]))
+            if key not in seen_interactions:
+                seen_interactions.add(key)
+                unique_interactions.append(interaction)
+        
+        print(f"\n" + "=" * 50)
+        print(f"PARALLEL PROCESSING COMPLETE:")
+        print(f"Total unique characters: {len(unique_characters)}")
+        print(f"Total unique interactions: {len(unique_interactions)}")
+        print("=" * 50)
+        
+        return unique_characters, unique_interactions
+
+def main():
+    """Main function with command line argument parsing"""
+    parser = argparse.ArgumentParser(description="Extract characters and interactions from WhoDunIt mystery stories using Ollama LLM")
+    
+    parser.add_argument('--story-index', '-s', type=int, default=0, 
+                        help='Index of story to analyze (default: 0)')
+    
+    parser.add_argument('--batch', '-b', action='store_true', default=True,
+                        help='Use batching for large stories (default: True)')
+    
+    parser.add_argument('--no-batch', action='store_true',
+                        help='Disable batching (process entire story at once)')
+    
+    parser.add_argument('--parallel', '-p', action='store_true', default=False,
+                        help='Use parallel processing for batches (default: False)')
+    
+    parser.add_argument('--batch-size', '--chunk-size', '-c', type=int, default=2000,
+                        help='Size of each text chunk in characters (default: 2000)')
+    
+    parser.add_argument('--max-workers', '-w', type=int, default=4,
+                        help='Maximum number of parallel workers (default: 4)')
+    
+    parser.add_argument('--model', '-m', type=str, default="llama3.2",
+                        help='Ollama model to use (default: llama3.2)')
+    
+    args = parser.parse_args()
+    
+    # Handle batch vs no-batch
+    use_batching = args.batch and not args.no_batch
+    
+    print("=" * 60)
+    print("CHARACTER AND INTERACTION EXTRACTION")
+    print("=" * 60)
+    print(f"Story Index: {args.story_index}")
+    print(f"Use Batching: {use_batching}")
+    print(f"Batch Size: {args.batch_size} characters")
+    print(f"Use Parallel: {args.parallel}")
+    print(f"Max Workers: {args.max_workers}")
+    print(f"Model: {args.model}")
+    print("=" * 60)
+    
+    # Run analysis with command line arguments
+    analyze_whodunit_story(
+        story_index=args.story_index,
+        use_batching=use_batching,
+        use_parallel=args.parallel,
+        max_workers=args.max_workers,
+        batch_size=args.batch_size,
+        model=args.model
+    )
+
+def analyze_whodunit_story(story_index: int = 0, use_batching: bool = True, use_parallel: bool = False, max_workers: int = 4, batch_size: int = 2000, model: str = "llama3.2"):
     """Analyze a story from the WhoDunIt dataset"""
     print("Loading WhoDunIt dataset...")
     
@@ -269,18 +399,21 @@ def analyze_whodunit_story(story_index: int = 0, use_batching: bool = True):
     print(f"Selected story: {story_title}")
     print(f"Story length: {len(story_text)} characters")
     print(f"Using batching: {use_batching}")
+    print(f"Batch size: {batch_size}")
     print("=" * 60)
     
-    # Initialize analyzer
-    analyzer = StoryAnalyzer()
+    # Initialize analyzer with custom model and batch size
+    analyzer = StoryAnalyzer(model_name=model)
     
-    # Choose analysis method based on batching preference
-    if use_batching:
+    # Choose analysis method
+    if use_parallel and use_batching:
+        print(f"Running PARALLEL BATCHED analysis with {max_workers} workers...")
+        characters, interactions = analyzer.analyze_story_batched_parallel(story_text, story_title, max_workers, batch_size)
+    elif use_batching:
         print("Running BATCHED analysis...")
-        characters, interactions = analyzer.analyze_story_batched(story_text, story_title)
+        characters, interactions = analyzer.analyze_story_batched(story_text, story_title, batch_size)
     else:
         print("Running SINGLE analysis...")
-        # Add a simple single analysis method
         characters = analyzer.extract_characters(story_text, story_title)
         interactions = analyzer.extract_interactions(story_text, characters)
     
@@ -347,8 +480,4 @@ def test_small_chunk():
 
 
 if __name__ == "__main__":
-    # Run with batching (default)
-    analyze_whodunit_story(0, use_batching=True)
-    
-    # Or run without batching  
-    # analyze_whodunit_story(0, use_batching=False) 
+    main() 
