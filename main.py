@@ -22,8 +22,8 @@ class CulpritPredictionOutput(BaseModel):
 class JudgingOutput(BaseModel):
     """Structured output model for LLM-based judging"""
     is_correct: bool = Field(description="Whether the prediction matches the actual culprits")
-    match_score: float = Field(description="Score from 0.0 to 1.0 indicating how well the prediction matches", ge=0.0,
-                               le=1.0)
+    match_score: int = Field(description="Score from 0 to 100 indicating how well the prediction matches", ge=0,
+                               le=100)
     reasoning: str = Field(description="Explanation of why the prediction is considered correct or incorrect")
     matched_culprits: List[str] = Field(description="List of predicted culprits that match actual culprits")
     missed_culprits: List[str] = Field(description="List of actual culprits that were missed in the prediction")
