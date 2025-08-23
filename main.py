@@ -39,7 +39,7 @@ class CulpritPrediction:
     confidence: int
     actual_culprits: List[str]
     is_correct: bool
-    match_score: float
+    match_score: int
     judging_reasoning: str
     matched_culprits: List[str]
     missed_culprits: List[str]
@@ -169,7 +169,7 @@ Evaluation Guidelines:
 
 Provide:
 - is_correct: True if the prediction substantially matches the actual culprits
-- match_score: 0.0 to 1.0 score (1.0 = perfect match, 0.0 = no match)
+- match_score: 0 to 100 score (100 = perfect match, 0 = no match)
 - reasoning: Detailed explanation of your judgment
 - matched_culprits: List of predicted culprits that match actual ones
 - missed_culprits: List of actual culprits not predicted
@@ -219,7 +219,7 @@ Be generous with partial name matches but strict about identifying the right cha
                 else:
                     return JudgingOutput(
                         is_correct=False,
-                        match_score=0.0,
+                        match_score=0,
                         reasoning="Failed to parse structured response",
                         matched_culprits=[],
                         missed_culprits=[],
@@ -237,7 +237,7 @@ Be generous with partial name matches but strict about identifying the right cha
             else:
                 return JudgingOutput(
                     is_correct=False,
-                    match_score=0.0,
+                    match_score=0,
                     reasoning=f"Error occurred during judging: {str(e)}",
                     matched_culprits=[],
                     missed_culprits=[],
@@ -284,7 +284,7 @@ Be generous with partial name matches but strict about identifying the right cha
         judging_placeholder.markdown(f"""
         **⚖️ Evaluation:**
         - **Is Correct:** {'✅ Yes' if judging_result.is_correct else '❌ No'}
-        - **Match Score:** {judging_result.match_score:.2f}
+        - **Match Score:** {judging_result.match_score}%
         - **Matched Culprits:** {judging_result.matched_culprits}
         - **Missed Culprits:** {judging_result.missed_culprits}
         - **Extra Culprits:** {judging_result.extra_culprits}
@@ -358,7 +358,7 @@ Evaluation Guidelines:
 
 Provide:
 - is_correct: True if the prediction substantially matches the actual culprits
-- match_score: 0.0 to 1.0 score (1.0 = perfect match, 0.0 = no match)
+- match_score: 00 to 1.0 score (100 = perfect match, 0 = no match)
 - reasoning: Detailed explanation of your judgment
 - matched_culprits: List of predicted culprits that match actual ones
 - missed_culprits: List of actual culprits not predicted
@@ -547,16 +547,16 @@ def main():
 
             # Status indicator
             if pred.is_correct:
-                st.success(f"✅ **CORRECT** (Match Score: {pred.match_score:.2f})")
+                st.success(f"✅ **CORRECT** (Match Score: {pred.match_score}%)")
             else:
-                st.error(f"❌ **INCORRECT** (Match Score: {pred.match_score:.2f})")
+                st.error(f"❌ **INCORRECT** (Match Score: {pred.match_score}%)")
 
             # Metrics
             col_a, col_b = st.columns(2)
             with col_a:
                 st.metric("Confidence", f"{pred.confidence}%")
             with col_b:
-                st.metric("Match Score", f"{pred.match_score:.2f}")
+                st.metric("Match Score", f"{pred.match_score}%")
 
     # Footer with model info
     st.markdown("---")
