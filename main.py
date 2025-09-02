@@ -6,6 +6,14 @@ from dataclasses import dataclass
 import ollama
 from datasets import load_dataset
 from pydantic import BaseModel, Field
+import os
+import numpy as np
+
+# Pure alias trope classifier
+try:
+    from pure_alias_classifier import PureAliasCharacterClassifier
+except Exception:
+    PureAliasCharacterClassifier = None
 
 # Import your existing models
 class CulpritPredictionOutput(BaseModel):
@@ -381,6 +389,7 @@ def main():
 
     # Check Ollama connection
     is_connected, models_or_error = st.session_state.detector._check_ollama_connection()
+    available_models = []  # Initialize to avoid UnboundLocalError
 
     if not is_connected:
         st.error(f"❌ Ollama connection failed: {models_or_error}")
@@ -402,6 +411,7 @@ def main():
     st.sidebar.header("⚙️ Configuration")
 
     # Model selection
+    current_model = st.session_state.detector.model_name
     if available_models:
         current_model = st.sidebar.selectbox(
             "Select Model:",
@@ -463,6 +473,92 @@ def main():
         range(len(st.session_state.dataset)),
         format_func=lambda x: f"{x + 1}. {st.session_state.dataset[x]['title']}"
     )
+
+    # Metadata-based trope analysis controls
+    st.sidebar.subheader("Pure Alias Trope Analysis")
+    enable_trope_analysis = st.sidebar.checkbox("Enable pure alias-based trope analysis", value=True)
+    trope_model_path = st.sidebar.text_input("Model file (pkl)", value="pure_alias_classifier_last_word_with_weights.pkl")
+    load_trope_model = st.sidebar.button("Load trope model")
+    
+    # Trope Dictionary Reference
+    if st.sidebar.checkbox("Show Trope Dictionary", value=False):
+        with st.sidebar.expander("📚 Complete Trope Dictionary", expanded=True):
+            try:
+                import json
+                with open('trope_categories_filtered.json', 'r') as f:
+                    trope_dict = json.load(f)
+                
+                st.write(f"**Total Categories:** {len(trope_dict)}")
+                total_tropes = sum(len(tropes) for tropes in trope_dict.values())
+                st.write(f"**Total Tropes:** {total_tropes}")
+                
+                # Show categories in alphabetical order
+                for category in sorted(trope_dict.keys()):
+                    tropes = trope_dict[category]
+                    with st.expander(f"{category.replace('_', ' ').title()} ({len(tropes)} tropes)", expanded=False):
+                        for trope in tropes:
+                            st.write(f"• {trope}")
+                            
+            except Exception as e:
+                st.sidebar.error(f"Error loading trope dictionary: {e}")
+
+    if 'trope_classifier' not in st.session_state:
+        st.session_state.trope_classifier = None
+    if 'trope_error' not in st.session_state:
+        st.session_state.trope_error = None
+
+    if load_trope_model and enable_trope_analysis:
+        st.session_state.trope_error = None
+        try:
+            if not os.path.exists(trope_model_path):
+                st.session_state.trope_error = f"File not found: {trope_model_path}. Train it via pure_alias_classifier.py."
+            else:
+                import pickle
+                with open(trope_model_path, 'rb') as f:
+                    clf = pickle.load(f)
+                # Basic API sanity checks
+                if not hasattr(clf, 'predict_all_candidates'):
+                    st.session_state.trope_error = "Loaded object is missing predict_all_candidates()"
+                else:
+                    st.session_state.trope_classifier = clf
+                    st.success("✅ Pure alias trope model loaded")
+                    
+                    # Display category weights if available
+                    if hasattr(clf, 'category_weights') and clf.category_weights:
+                        st.sidebar.subheader("🏷️ Category Weights")
+                        
+                        # Load trope dictionary
+                        trope_dict = {}
+                        try:
+                            import json
+                            with open('trope_categories_filtered.json', 'r') as f:
+                                trope_dict = json.load(f)
+                        except Exception as e:
+                            st.sidebar.warning(f"Could not load trope dictionary: {e}")
+                        
+                        sorted_weights = sorted(clf.category_weights.items(), key=lambda x: x[1], reverse=True)
+                        for category, weight in sorted_weights[:10]:  # Show top 10
+                            with st.sidebar.expander(f"{category.replace('_', ' ').title()} ({weight:.2f})", expanded=False):
+                                st.write(f"**Discriminative Weight:** {weight:.2f}")
+                                
+                                # Show tropes in this category
+                                if category in trope_dict:
+                                    st.write(f"**Tropes ({len(trope_dict[category])}):**")
+                                    tropes = trope_dict[category]
+                                    # Display tropes in a nice format
+                                    for i, trope in enumerate(tropes):
+                                        st.write(f"• {trope}")
+                                        if i >= 19:  # Show max 20 tropes
+                                            remaining = len(tropes) - 20
+                                            if remaining > 0:
+                                                st.write(f"*... and {remaining} more*")
+                                            break
+                                else:
+                                    st.write("*Tropes not found in dictionary*")
+        except Exception as e:
+            st.session_state.trope_error = str(e)
+    if st.session_state.trope_error:
+        st.sidebar.error(f"Trope model error: {st.session_state.trope_error}")
 
     # Get current story
     current_story = st.session_state.dataset[story_index]
@@ -537,6 +633,181 @@ def main():
         **🎯 Golden Answer:**
         - **Actual Culprits:** {current_story['culprit_ids']}
         """)
+
+        # Pure Alias-Based Trope Analysis UI - CULPRIT-FOCUSED
+        st.markdown("---")
+        st.subheader("📋 Pure Alias Trope Analysis (Culprit-Focused)")
+        if not enable_trope_analysis:
+            st.info("Enable in the sidebar to view how well tropes identify the actual culprits.")
+        else:
+            if st.session_state.trope_classifier is None:
+                st.warning("Load a trained pure alias trope model (pkl) from the sidebar.")
+            else:
+                try:
+                    # Get actual culprits from the dataset
+                    culprits_raw = current_story.get('culprit_ids', [])
+                    if isinstance(culprits_raw, str):
+                        try:
+                            import ast
+                            culprits_raw = ast.literal_eval(culprits_raw)
+                        except:
+                            culprits_raw = []
+                    
+                    if not culprits_raw:
+                        st.info("No culprits specified for this story.")
+                    else:
+                        st.markdown("**🎯 Pure Alias Trope-based Scores for Actual Culprits:**")
+                        st.markdown("*How well does the pure alias-based trope classifier identify the known culprits?*")
+                        
+                        # Show loading message while processing
+                        with st.spinner("🔍 Analyzing trope patterns for culprits..."):
+                            # Get all candidate scores to have context
+                            cand_scores, cand_details = st.session_state.trope_classifier.predict_all_candidates(current_story)
+                        
+                        culprit_results = []
+                        for culprit in culprits_raw:
+                            culprit_name = str(culprit).strip()
+                            
+                            # Find the best matching candidate for this culprit
+                            best_score = 0.0
+                            best_match = None
+                            best_details = None
+                            
+                            for cand_name, score in cand_scores.items():
+                                # Check if candidate matches culprit (exact or contains)
+                                if (culprit_name.lower() in cand_name.lower() or 
+                                    cand_name.lower() in culprit_name.lower() or
+                                    culprit_name.lower() == cand_name.lower()):
+                                    if score > best_score:
+                                        best_score = score
+                                        best_match = cand_name
+                                        best_details = cand_details.get(cand_name)
+                            
+                            culprit_results.append({
+                                'culprit': culprit_name,
+                                'score': best_score,
+                                'matched_candidate': best_match,
+                                'details': best_details
+                            })
+                        
+                        # Display culprit scores
+                        for i, result in enumerate(culprit_results, 1):
+                            if result['score'] > 0:
+                                confidence_level = "🔥 HIGH" if result['score'] > 0.8 else "🟡 MEDIUM" if result['score'] > 0.5 else "🔵 LOW"
+                                st.markdown(f"{i}. **{result['culprit']}** → {result['score']:.3f} {confidence_level}")
+                                if result['matched_candidate'] != result['culprit']:
+                                    st.markdown(f"   *Matched via: {result['matched_candidate']}*")
+                            else:
+                                st.markdown(f"{i}. **{result['culprit']}** → ❌ Not found as candidate")
+                        
+                        # Show average culprit score and accuracy metrics
+                        valid_scores = [r['score'] for r in culprit_results if r['score'] > 0]
+                        if valid_scores:
+                            avg_culprit_score = np.mean(valid_scores)
+                            
+                            # Calculate accuracy metrics - compare culprits vs all other candidates
+                            all_scores = list(cand_scores.values())
+                            non_culprit_scores = []
+                            culprit_names_lower = [str(c).lower().strip() for c in culprits_raw]
+                            
+                            for cand_name, score in cand_scores.items():
+                                is_culprit = any(
+                                    culprit_name.lower() in cand_name.lower() or 
+                                    cand_name.lower() in culprit_name.lower() or
+                                    culprit_name.lower() == cand_name.lower()
+                                    for culprit_name in culprit_names_lower
+                                )
+                                if not is_culprit:
+                                    non_culprit_scores.append(score)
+                            
+                            avg_non_culprit_score = np.mean(non_culprit_scores) if non_culprit_scores else 0.0
+                            
+                            # Display metrics
+                            col1, col2, col3 = st.columns(3)
+                            with col1:
+                                st.metric("📊 Avg Culprit Score", f"{avg_culprit_score:.3f}")
+                            with col2:
+                                st.metric("📊 Avg Non-Culprit Score", f"{avg_non_culprit_score:.3f}")
+                            with col3:
+                                discrimination = avg_culprit_score / avg_non_culprit_score if avg_non_culprit_score > 0 else float('inf')
+                                st.metric("📊 Discrimination Ratio", f"{discrimination:.2f}x")
+                            
+                            # Performance assessment with discrimination context
+                            st.markdown(f"\n**🎯 Model Performance Analysis:**")
+                            if discrimination > 2.0 and avg_culprit_score > 0.6:
+                                st.success(f"🎯 Excellent! Culprits score {discrimination:.1f}x higher than non-culprits.")
+                            elif discrimination > 1.5:
+                                st.warning(f"🟡 Moderate. Culprits score {discrimination:.1f}x higher than non-culprits.")
+                            elif discrimination > 1.1:
+                                st.info(f"🔵 Weak discrimination. Culprits only score {discrimination:.1f}x higher.")
+                            else:
+                                st.error("🔴 Poor! Model may be giving high scores to everyone.")
+                            
+                            # Show score distribution info
+                            st.markdown(f"- **Total candidates:** {len(all_scores)}")
+                            st.markdown(f"- **Culprits found:** {len(valid_scores)}/{len(culprits_raw)}")
+                            st.markdown(f"- **Score range:** {min(all_scores):.3f} - {max(all_scores):.3f}")
+                        
+                        # Detailed explanations for each culprit with scores > 0
+                        if culprit_results:
+                            st.markdown("\n**🔍 Detailed Explanations:**")
+                            
+                            # Create explanation tabs for each culprit that has a score
+                            culprits_with_scores = [r for r in culprit_results if r['score'] > 0 and r['details']]
+                            
+                            if culprits_with_scores:
+                                # Create tabs for each culprit
+                                tab_names = [f"{r['culprit']} ({r['score']:.3f})" for r in culprits_with_scores]
+                                tabs = st.tabs(tab_names)
+                                
+                                for tab, result in zip(tabs, culprits_with_scores):
+                                    with tab:
+                                        details = result['details']
+                                        features = details['features']
+                                        
+                                        st.markdown(f"**🎯 Analysis for '{result['culprit']}'**")
+                                        if result['matched_candidate'] != result['culprit']:
+                                            st.markdown(f"*Matched via candidate: {result['matched_candidate']}*")
+                                        
+                                        # Show top contributing trope categories
+                                        categories = set(name.rsplit('_', 2)[0] for name in features.keys())
+                                        contributions = []
+                                        for category in categories:
+                                            count = features.get(f"{category}_count_within_50", 0)
+                                            min_dist = features.get(f"{category}_min_dist", 999999)
+                                            kernel = features.get(f"{category}_kernel_sum", 0.0)
+                                            if count > 0:
+                                                weight = 1.0
+                                                if hasattr(st.session_state.trope_classifier, 'category_weights') and st.session_state.trope_classifier.category_weights:
+                                                    weight = st.session_state.trope_classifier.category_weights.get(category, 1.0)
+                                                contributions.append((category, count * weight, count, min_dist, kernel, weight))
+                                        
+                                        contributions.sort(key=lambda x: x[1], reverse=True)
+                                        if contributions:
+                                            st.markdown("**🔍 Top Contributing Trope Categories:**")
+                                            for i, (cat, contrib, cnt, dist, ker, w) in enumerate(contributions[:8], start=1):
+                                                st.markdown(f"{i}. **{cat}** — {cnt} tropes within 50 tokens, min_dist: {int(dist)}, discriminative_weight: {w:.2f}")
+                                            
+                                            # Show interpretation
+                                            st.markdown("\n**📖 Interpretation:**")
+                                            top_categories = [c[0] for c in contributions[:3]]
+                                            if 'poison_medical' in top_categories:
+                                                st.markdown("- 🧪 **Medical/poison themes** detected near this character")
+                                            if 'financial_motive' in top_categories:
+                                                st.markdown("- 💰 **Financial motives** detected near this character")
+                                            if 'crime_theme' in top_categories:
+                                                st.markdown("- 🔍 **Crime-related language** detected near this character")
+                                            if 'locations_places' in top_categories:
+                                                st.markdown("- 📍 **Significant locations** mentioned near this character")
+                                            if 'character_names' in top_categories:
+                                                st.markdown("- 👤 **Character interactions** detected near this character")
+                                        else:
+                                            st.write("❌ No significant trope activity detected for this culprit.")
+                            else:
+                                st.info("No culprits found with trope-based scores to explain.")
+                        
+                except Exception as e:
+                    st.error(f"Error running pure alias culprit-focused trope analysis: {e}")
 
         # Show previous results if they exist
         if 'current_prediction' in st.session_state:
