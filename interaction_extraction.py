@@ -1,0 +1,164 @@
+#!/usr/bin/env python3
+"""
+Interaction Extraction with Canonical Names
+
+Extract interactions where two characters appear in the same sentence.
+Uses canonical names from alias builder and maps aliases to canonicals.
+
+Usage:
+    python3 interaction_extraction.py --story path/to/story.txt --aliases path/to/aliases.json
+"""
+
+import argparse
+import json
+import os
+import re
+from typing import Dict, List, Set, Tuple
+
+import pandas as pd
+
+
+def load_canonical_mapping(aliases_file: str) -> Dict[str, str]:
+    """Load aliases and create mapping from alias to canonical name."""
+    with open(aliases_file, 'r', encoding='utf-8') as f:
+        aliases_data = json.load(f)
+    
+    # Create mapping: alias -> canonical
+    alias_to_canonical = {}
+    for canonical, aliases in aliases_data.items():
+        # Add canonical to its own mapping
+        alias_to_canonical[canonical] = canonical
+        # Add all aliases
+        for alias in aliases:
+            alias_to_canonical[alias] = canonical
+    
+    return alias_to_canonical
+
+
+def normalize_text(text: str) -> str:
+    """Normalize text for better matching."""
+    # Normalize apostrophes and quotes
+    text = text.replace("'", "'").replace("`", "'").replace("'", "'")
+    # Normalize dashes
+    text = text.replace("—", " ").replace("–", " ").replace("−", "-")
+    return text
+
+
+def find_character_mentions(sentence: str, canonical_mapping: Dict[str, str]) -> Set[str]:
+    """Find all character mentions in a sentence and return their canonical names."""
+    sentence = normalize_text(sentence)
+    found_canonicals = set()
+    
+    # Sort aliases by length (longest first) to prioritize longer matches
+    sorted_aliases = sorted(canonical_mapping.items(), key=lambda x: len(x[0]), reverse=True)
+    
+    # Check each alias/canonical name, longest first
+    for alias, canonical in sorted_aliases:
+        # Use case-insensitive matching with word boundaries
+        # Don't remove punctuation, just normalize apostrophes and dashes
+        alias_normalized = normalize_text(alias)
+        sentence_normalized = normalize_text(sentence)
+        
+        # Use word boundaries to avoid partial matches, case-insensitive
+        pattern = r'\b' + re.escape(alias_normalized) + r'\b'
+        if re.search(pattern, sentence_normalized, re.IGNORECASE):
+            found_canonicals.add(canonical)
+            # Remove the matched text from sentence to avoid shorter aliases matching the same text
+            sentence_normalized = re.sub(pattern, ' ' * len(alias_normalized), sentence_normalized, flags=re.IGNORECASE)
+    
+    return found_canonicals
+
+
+def chunk_text(text: str, chunk_size: int = 5000, overlap: int = 500) -> List[str]:
+    """Split text into overlapping chunks."""
+    chunks = []
+    for i in range(0, len(text), chunk_size - overlap):
+        chunk = text[i:i + chunk_size]
+        if chunk.strip():
+            chunks.append(chunk)
+    return chunks
+
+def extract_interactions_from_text(text: str, canonical_mapping: Dict[str, str], chunk_size: int = 5000) -> List[Tuple[str, str]]:
+    """Extract interactions from text where two characters appear in the same sentence."""
+    # Split text into chunks for processing
+    chunks = chunk_text(text, chunk_size)
+    print(f"Processing {len(chunks)} chunks...")
+    
+    all_interactions = []
+    
+    for i, chunk in enumerate(chunks):
+        if i % 10 == 0:  # Progress indicator
+            print(f"Processing chunk {i+1}/{len(chunks)}...")
+        
+        # Split chunk into sentences
+        sentences = re.split(r'[.!?]+', chunk)
+        
+        for sentence in sentences:
+            sentence = sentence.strip()
+            if not sentence or len(sentence) < 10:  # Skip very short sentences
+                continue
+            
+            # Find all character mentions in this sentence
+            characters = find_character_mentions(sentence, canonical_mapping)
+            
+            # If we have 2 or more characters, create interactions
+            if len(characters) >= 2:
+                char_list = list(characters)
+                for j in range(len(char_list)):
+                    for k in range(j + 1, len(char_list)):
+                        char1, char2 = char_list[j], char_list[k]
+                        if char1 != char2:  # Avoid self-interactions
+                            all_interactions.append((char1, char2))
+    
+    return all_interactions
+
+
+
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Extract character interactions from text")
+    parser.add_argument("--story", required=True, help="Path to story text file")
+    parser.add_argument("--aliases", required=True, help="Path to aliases JSON file")
+    parser.add_argument("--output", help="Output CSV file path")
+    parser.add_argument("--chunk-size", type=int, default=5000, help="Size of text chunks to process (default: 5000)")
+    args = parser.parse_args()
+    
+    # Load canonical mapping
+    print(f"Loading canonical mapping from {args.aliases}...")
+    canonical_mapping = load_canonical_mapping(args.aliases)
+    print(f"Loaded {len(canonical_mapping)} alias mappings")
+    
+    # Load story text
+    print(f"Loading story from {args.story}...")
+    with open(args.story, 'r', encoding='utf-8') as f:
+        story_text = f.read()
+    print(f"Story length: {len(story_text)} characters")
+    
+    # Extract interactions
+    print("Extracting interactions...")
+    interactions = extract_interactions_from_text(story_text, canonical_mapping, args.chunk_size)
+    print(f"Found {len(interactions)} interactions")
+    
+    # Convert to DataFrame
+    df = pd.DataFrame(interactions, columns=['character1', 'character2'])
+    
+    # Remove duplicates
+    df = df.drop_duplicates()
+    print(f"After deduplication: {len(df)} interactions")
+    
+    # Save output
+    output_file = args.output or "interactions.csv"
+    df.to_csv(output_file, index=False)
+    print(f"Saved interactions to {output_file}")
+    
+    # Print some examples
+    print("\nSample interactions:")
+    for i, (char1, char2) in enumerate(interactions[:10]):
+        print(f"  {char1} <-> {char2}")
+
+
+if __name__ == "__main__":
+    main()
+
+

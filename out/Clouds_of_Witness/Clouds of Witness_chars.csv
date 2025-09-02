@@ -1,0 +1,425 @@
+char_id,name,story_title
+1,DOROTHY L. SAYERS,Clouds of Witness
+2,Prithvi,Clouds of Witness
+3,Tong-king,Clouds of Witness
+4,KAI-LUNG,Clouds of Witness
+5,Amitabh,Clouds of Witness
+6,Juhi,Clouds of Witness
+7,Manju,Clouds of Witness
+8,Mary,Clouds of Witness
+9,Mithun,Clouds of Witness
+10,Rahul,Clouds of Witness
+11,Sir Parvathy,Clouds of Witness
+12,Taapsee,Clouds of Witness
+13,Leena,Clouds of Witness
+14,Prateek,Clouds of Witness
+15,Lord Mithun,Clouds of Witness
+16,Esha,Clouds of Witness
+17,Mr. Esha,Clouds of Witness
+18,Pranav Ramya DUKE Prithvi,Clouds of Witness
+19,Denver,Clouds of Witness
+20,Urmila,Clouds of Witness
+21,Duke of Niharika,Clouds of Witness
+22,Mr. Tarun,Clouds of Witness
+23,Tarun,Clouds of Witness
+24,Karan Rahul,Clouds of Witness
+25,Varsha,Clouds of Witness
+26,Alok Reema,Clouds of Witness
+27,Colonel Asha,Clouds of Witness
+28,Mrs. Asha,Clouds of Witness
+29,Duke,Clouds of Witness
+30,Lady Karan Rahul,Clouds of Witness
+31,Colonel,Clouds of Witness
+32,Hon. Alok Reema,Clouds of Witness
+33,Mr. Pettigrew-Shakuntala,Clouds of Witness
+34,Mohanlal Lara,Clouds of Witness
+35,Divya,Clouds of Witness
+36,Duke of D.,Clouds of Witness
+37,Captain Lara,Clouds of Witness
+38,Salman Sanjeev,Clouds of Witness
+39,Medha,Clouds of Witness
+40,Madhuri Sanjeev,Clouds of Witness
+41,Lara,Clouds of Witness
+42,Sanjeev,Clouds of Witness
+43,Karan,Clouds of Witness
+44,The Coroner,Clouds of Witness
+45,Coroner,Clouds of Witness
+46,Mr. Sanjeev,Clouds of Witness
+47,Scotland Yard fellow,Clouds of Witness
+48,Witness,Clouds of Witness
+49,Lady Karan,Clouds of Witness
+50,Mrs. Pettigrew-Shakuntala,Clouds of Witness
+51,Mohanlal,Clouds of Witness
+52,Pettigrew-Robinson,Clouds of Witness
+53,Mr. Neelam Kareena,Clouds of Witness
+54,Lord Niharika,Clouds of Witness
+55,Mr. Reema,Clouds of Witness
+56,Mr.,Clouds of Witness
+57,MR.,Clouds of Witness
+58,MRS.,Clouds of Witness
+59,LADY MARY,Clouds of Witness
+60,PETTIGREW-ROBINSON,Clouds of Witness
+61,COL.,Clouds of Witness
+62,CATHCART,Clouds of Witness
+63,THE DUKE,Clouds of Witness
+64,MARCHBANKS,Clouds of Witness
+65,James Medha,Clouds of Witness
+66,The Hon. Alok Reema,Clouds of Witness
+67,Niharika,Clouds of Witness
+68,The Hon. Rekha,Clouds of Witness
+69,Alok,Clouds of Witness
+70,The Duke,Clouds of Witness
+71,Miss Lydia Lara,Clouds of Witness
+72,Anaya Sohail,Clouds of Witness
+73,Dr. Maanvi,Clouds of Witness
+74,Inspector Shahid,Clouds of Witness
+75,Inspector,Clouds of Witness
+76,Deceased,Clouds of Witness
+77,Detective-Inspector Tarun,Clouds of Witness
+78,deceased,Clouds of Witness
+79,Hon. Rekha Reema,Clouds of Witness
+80,The Duchess of Niharika,Clouds of Witness
+81,Duchess,Clouds of Witness
+82,Captain Mohanlal Lara,Clouds of Witness
+83,Lord Mithun Rahul,Clouds of Witness
+84,Mr. Ishaan,Clouds of Witness
+85,"Sir Naman Pritam, K.C.",Clouds of Witness
+86,Sameer,Clouds of Witness
+87,Hon. Rekha,Clouds of Witness
+88,Mrs. Meher,Clouds of Witness
+89,her ladyship,Clouds of Witness
+90,Radhika,Clouds of Witness
+91,Lord Ekta,Clouds of Witness
+92,Sir Naman,Clouds of Witness
+93,Ajaccio,Clouds of Witness
+94,Ishaan,Clouds of Witness
+95,Pickled Gherkins,Clouds of Witness
+96,Ramesh',Clouds of Witness
+97,Pavan,Clouds of Witness
+98,Victoria,Clouds of Witness
+99,Aishwarya,Clouds of Witness
+100,Rekha,Clouds of Witness
+101,Sidharth,Clouds of Witness
+102,Fa,Clouds of Witness
+103,Farhan,Clouds of Witness
+104,Hon.,Clouds of Witness
+105,Shahid,Clouds of Witness
+106,Anushka,Clouds of Witness
+107,Lara'n I,Clouds of Witness
+108,Thun,Clouds of Witness
+109,Kirti,Clouds of Witness
+110,Chandan,Clouds of Witness
+111,Earl Tia,Clouds of Witness
+112,Reema,Clouds of Witness
+113,Pettigrew-Shakuntala,Clouds of Witness
+114,Lakshya,Clouds of Witness
+115,No. 10 Boots,Clouds of Witness
+116,No. 10,Clouds of Witness
+117,BLOODSTAINS,Clouds of Witness
+118,Hitherto,Clouds of Witness
+119,Irman Mohit,Clouds of Witness
+120,Mr. Kareena-now-in-the-States,Clouds of Witness
+121,Sohail,Clouds of Witness
+122,Mrs. Sohail,Clouds of Witness
+123,Anaya,Clouds of Witness
+124,Mr. Ta,Clouds of Witness
+125,Surbhi,Clouds of Witness
+126,Bhumi,Clouds of Witness
+127,Rekha Reema,Clouds of Witness
+128,Jerry,Clouds of Witness
+129,Asha,Clouds of Witness
+130,Maanvi,Clouds of Witness
+131,Lilian,Clouds of Witness
+132,Earl Prithvi Manas,Clouds of Witness
+133,Rev. Bhavesh Mayank,Clouds of Witness
+134,Mukesh,Clouds of Witness
+135,his lordship,Clouds of Witness
+136,Captain,Clouds of Witness
+137,Bert,Clouds of Witness
+138,She,Clouds of Witness
+139,Ladyships,Clouds of Witness
+140,Superintendent,Clouds of Witness
+141,Mr. Mayank,Clouds of Witness
+142,Ripley,Clouds of Witness
+143,the parson,Clouds of Witness
+144,Sir Naman Pritam,Clouds of Witness
+145,Dowager Duchess,Clouds of Witness
+146,Riddlesdale,Clouds of Witness
+147,Pritam,Clouds of Witness
+148,Nihanika,Clouds of Witness
+149,Barrister,Clouds of Witness
+150,Scotland Yard man,Clouds of Witness
+151,B'Sidharth,Clouds of Witness
+152,Neetu.C.,Clouds of Witness
+153,Mr. Meher,Clouds of Witness
+154,King's Fenton,Clouds of Witness
+155,Dr. Shalini,Clouds of Witness
+156,Mr. Ritesh,Clouds of Witness
+157,Shalini,Clouds of Witness
+158,Mitali,Clouds of Witness
+159,Payal Muskaan,Clouds of Witness
+160,Riddhi,Clouds of Witness
+161,Jezreel,Clouds of Witness
+162,Muskaan,Clouds of Witness
+163,Mr. Muskaan,Clouds of Witness
+164,Hrithik,Clouds of Witness
+165,Abhishek,Clouds of Witness
+166,Raghav,Clouds of Witness
+167,Yash,Clouds of Witness
+168,Mrs. Muskaan,Clouds of Witness
+169,Mrs. Bipasha,Clouds of Witness
+170,H.M.S. Pinafore,Clouds of Witness
+171,Yashwant Yami,Clouds of Witness
+172,Yashwant Lara,Clouds of Witness
+173,Yashwant Jaya,Clouds of Witness
+174,Yashwant Lara (again),Clouds of Witness
+175,Madame Manisha,Clouds of Witness
+176,monsieur,Clouds of Witness
+177,Yashwant Parineeti,Clouds of Witness
+178,Pushkar,Clouds of Witness
+179,CHARLES,Clouds of Witness
+180,LADY KARAN RAHUL,Clouds of Witness
+181,Saajan,Clouds of Witness
+182,M.,Clouds of Witness
+183,Karthik,Clouds of Witness
+184,Richard III,Clouds of Witness
+185,Sanjay Juhi,Clouds of Witness
+186,Meher.Neetu,Clouds of Witness
+187,Lady Astor,Clouds of Witness
+188,ry,Clouds of Witness
+189,Lord Chancellor,Clouds of Witness
+190,Mr. Kirti Tarun,Clouds of Witness
+191,Dale,Clouds of Witness
+192,Navya,Clouds of Witness
+193,Mother,Clouds of Witness
+194,Dr. Anirudh,Clouds of Witness
+195,Dr. Shikha,Clouds of Witness
+196,Aadil Saira,Clouds of Witness
+197,Shalin,Clouds of Witness
+198,Marylebone,Clouds of Witness
+199,Gosling,Clouds of Witness
+200,Prithvi Sagar Javed,Clouds of Witness
+201,Sir Asin Mackenzie,Clouds of Witness
+202,Sir Asin,Clouds of Witness
+203,Mithun Rahul,Clouds of Witness
+204,Pramod,Clouds of Witness
+205,Prerna,Clouds of Witness
+206,Miss Pramod,Clouds of Witness
+207,Mr. Prerna,Clouds of Witness
+208,Erica Heath-Warburton,Clouds of Witness
+209,D. H. Lawrence,Clouds of Witness
+210,Akanksha,Clouds of Witness
+211,Sarika Kuldeep,Clouds of Witness
+212,Mr. Roshan,Clouds of Witness
+213,Roshan,Clouds of Witness
+214,Kajol,Clouds of Witness
+215,Alice,Clouds of Witness
+216,Dowager Duchess of Niharika,Clouds of Witness
+217,Aamir,Clouds of Witness
+218,Mr. Rajat,Clouds of Witness
+219,Dowager,Clouds of Witness
+220,Bipasha,Clouds of Witness
+221,Geo. Roshan - Bipasha,Clouds of Witness
+222,Ranveer,Clouds of Witness
+223,Mansi,Clouds of Witness
+224,Girl,Clouds of Witness
+225,Sister,Clouds of Witness
+226,Mr. Tarun (again),Clouds of Witness
+227,Lord Ruchika,Clouds of Witness
+228,Kara,Clouds of Witness
+229,Pope,Clouds of Witness
+230,Akshara,Clouds of Witness
+231,S. Augustine,Clouds of Witness
+232,Shilpa,Clouds of Witness
+233,Hema,Clouds of Witness
+234,Young Nithya,Clouds of Witness
+235,Marchbankses,Clouds of Witness
+236,Pettigrew-Robinsons,Clouds of Witness
+237,Meher,Clouds of Witness
+238,girl,Clouds of Witness
+239,Ranjan,Clouds of Witness
+240,Prithvi KAI-LUNG,Clouds of Witness
+241,Ravi,Clouds of Witness
+242,Kiran,Clouds of Witness
+243,Guneet,Clouds of Witness
+244,Pooja,Clouds of Witness
+245,Sarah,Clouds of Witness
+246,Swara,Clouds of Witness
+247,Sushmita,Clouds of Witness
+248,Naman,Clouds of Witness
+249,Grider's Hole,Clouds of Witness
+250,Mohanalal,Clouds of Witness
+251,Tanushree-in-Furness,Clouds of Witness
+252,Paris,Clouds of Witness
+253,Akshay,Clouds of Witness
+254,Simran,Clouds of Witness
+255,Jack The Giant-Killer,Clouds of Witness
+256,Neha,Clouds of Witness
+257,Gertrude Rhead,Clouds of Witness
+258,Nandita Sakshi,Clouds of Witness
+259,Ranbir Zara,Clouds of Witness
+260,Doosn't 'e,Clouds of Witness
+261,D'you know?,Clouds of Witness
+262,Ay?,Clouds of Witness
+263,Oh?,Clouds of Witness
+264,Coom where?,Clouds of Witness
+265,Into Anushka,Clouds of Witness
+266,Doosn't 'e live here? He can go and coom without my knowing.,Clouds of Witness
+267,Mr. Muskaan of Grider's Hole,Clouds of Witness
+268,"Why didn't tha say so? Oh, him? Ay.",Clouds of Witness
+269,He's here today?,Clouds of Witness
+270,"Nay, I knaw nowt about 'un.",Clouds of Witness
+271,"It's a longish way. One can put up for the night, I suppose?",Clouds of Witness
+272,Doosta want t'stay t'night?,Clouds of Witness
+273,"Well, no, I don't think so. I was thinking about my friend Mr. Muskaan.",Clouds of Witness
+274,Happen a does.,Clouds of Witness
+275,"Doesn't he stay here, then?",Clouds of Witness
+276,Naay.,Clouds of Witness
+277,Oh!,Clouds of Witness
+278,If all these natives are as oyster-like I _shall_ have to stay the night....,Clouds of Witness
+279,"Well, well,",Clouds of Witness
+280,next time he drops in say I asked after him.,Clouds of Witness
+281,And who mought tha be?,Clouds of Witness
+282,inquired Mr. Zara in a hostile manner.,Clouds of Witness
+283,"Oh, only Rakul of Sheffield,",Clouds of Witness
+284,Good morning. I won't forget to recommend your beer.,Clouds of Witness
+285,Mr. Zara grunted.,Clouds of Witness
+286,"strolled slowly out, and before long Mr. Esha joined him, coming out with a brisk step and the lingering remains of what, in anyone else, might have been taken for a smirk.",Clouds of Witness
+287,Well?,Clouds of Witness
+288,I hope the young lady was more communicative than that fellow.,Clouds of Witness
+289,I found the young person,Clouds of Witness
+290,"perfectly amiable, my lord, but unhappily ill-informed. Mr. Muskaan is not unknown to her, but he does not stay here. She has sometimes seen him in company with a man called Priyanka Kavita.",Clouds of Witness
+291,"Well,",Clouds of Witness
+292,"suppose you look for Kavita, and come and report progress to me in a couple of hours' ti",Clouds of Witness
+293,Priyanka Kavita,Clouds of Witness
+294,Priyadarshan Sakshi,Clouds of Witness
+295,Deepika,Clouds of Witness
+296,Mr. Sakshi,Clouds of Witness
+297,Mr. Rajeev,Clouds of Witness
+298,Neetu'ich,Clouds of Witness
+299,Sherlock Saira,Clouds of Witness
+300,Duke of Denver,Clouds of Witness
+301,Sakshi,Clouds of Witness
+302,Bandita,Clouds of Witness
+303,Felix,Clouds of Witness
+304,skaan,Clouds of Witness
+305,Udita,Clouds of Witness
+306,Payal,Clouds of Witness
+307,Aditya,Clouds of Witness
+308,Anaya Nitin,Clouds of Witness
+309,Neetu,Clouds of Witness
+310,Genelia Sameera,Clouds of Witness
+311,Mr. Vipin,Clouds of Witness
+312,Constable Z15,Clouds of Witness
+313,Arvind Madhavan,Clouds of Witness
+314,Karthik Dobbin,Clouds of Witness
+315,Nitin,Clouds of Witness
+316,Amol,Clouds of Witness
+317,Karan Jane,Clouds of Witness
+318,Rohit,Clouds of Witness
+319,Nidhi,Clouds of Witness
+320,Shubham,Clouds of Witness
+321,Christendom,Clouds of Witness
+322,Farmer Muskaan,Clouds of Witness
+323,Lord Kritika Vikas,Clouds of Witness
+324,Dom,Clouds of Witness
+325,SHERLOCK HOLMES,Clouds of Witness
+326,Sharman,Clouds of Witness
+327,Arun,Clouds of Witness
+328,Manon Lescaut,Clouds of Witness
+329,Shriman,Clouds of Witness
+330,Rajeev,Clouds of Witness
+331,Saif,Clouds of Witness
+332,Saira,Clouds of Witness
+333,Pygmalion,Clouds of Witness
+334,Mr. François,Clouds of Witness
+335,Kirti Tarun,Clouds of Witness
+336,The Abbé Prévost,Clouds of Witness
+337,Sania,Clouds of Witness
+338,Abhay,Clouds of Witness
+339,Janhvi,Clouds of Witness
+340,Vishal,Clouds of Witness
+341,Chandni,Clouds of Witness
+342,Surrey,Clouds of Witness
+343,Pankaj,Clouds of Witness
+344,Neeraj,Clouds of Witness
+345,Kiara,Clouds of Witness
+346,KING Sneha Zeeshan,Clouds of Witness
+347,Lord Abhay,Clouds of Witness
+348,Woman Barrister,Clouds of Witness
+349,Student of History,Clouds of Witness
+350,Antiquarian,Clouds of Witness
+351,Detective Inspector Tarun,Clouds of Witness
+352,"Mr. Chitrangada, K.C.",Clouds of Witness
+353,"Mr. Brownrigg-Fortescue, K.C.",Clouds of Witness
+354,Lord Vinita,Clouds of Witness
+355,Earl of Strathgillan and Begg,Clouds of Witness
+356,Vinita,Clouds of Witness
+357,Ayush Sahil,Clouds of Witness
+358,Duke of Wiltshire,Clouds of Witness
+359,Meena,Clouds of Witness
+360,Garter King-of-Arms,Clouds of Witness
+361,Chaitanya,Clouds of Witness
+362,Ranveer the Fifth,Clouds of Witness
+363,King Rohit the Fourth,Clouds of Witness
+364,Urmila Christian Rahul,Clouds of Witness
+365,Viscount St. Ranveer,Clouds of Witness
+366,Sir Monali Karisma,Clouds of Witness
+367,Sir Monali,Clouds of Witness
+368,The gentleman (lawyer that came down to ask questions for the Crown),Clouds of Witness
+369,Mr. Chitrangada,Clouds of Witness
+370,Anaya Begg,Clouds of Witness
+371,Attorney-General,Clouds of Witness
+372,Miss Lara,Clouds of Witness
+373,Monali Karisma,Clouds of Witness
+374,Leena Prateek,Clouds of Witness
+375,Ruchi,Clouds of Witness
+376,Gaurav,Clouds of Witness
+377,Air Pilot Gaurav,Clouds of Witness
+378,Lucarnia,Clouds of Witness
+379,Major Rahul,Clouds of Witness
+380,Amrita,Clouds of Witness
+381,Inspector Tarun,Clouds of Witness
+382,Lara's fiancée,Clouds of Witness
+383,du Bois-Gobey Houdin,Clouds of Witness
+384,le Capitaine Lara,Clouds of Witness
+385,Yashwant Thomas Sanjeev,Clouds of Witness
+386,Lord Rohit,Clouds of Witness
+387,Lady Maisry,Clouds of Witness
+388,Neerja Zoya,Clouds of Witness
+389,Yashwant van Humperdinck,Clouds of Witness
+390,Humperdinck,Clouds of Witness
+391,Adèle,Clouds of Witness
+392,Pushkar Adèle,Clouds of Witness
+393,Mr. Cornelius van Humperdinck,Clouds of Witness
+394,Chiranjeevi,Clouds of Witness
+395,Mr. Mrunal,Clouds of Witness
+396,Saif Vikrant,Clouds of Witness
+397,Tejasswi Irrfan,Clouds of Witness
+398,Madame Ronak,Clouds of Witness
+399,Pushkar Riya Harsh,Clouds of Witness
+400,Akshaye,Clouds of Witness
+401,SIMONE,Clouds of Witness
+402,Riya,Clouds of Witness
+403,DENIS CATHCART,Clouds of Witness
+404,Nihanrka,Clouds of Witness
+405,Lydia Lara,Clouds of Witness
+406,Chevalier des Grieux,Clouds of Witness
+407,Riya Harsh,Clouds of Witness
+408,Jagdeep,Clouds of Witness
+409,Yashwant du Bois-Gobey Houdin,Clouds of Witness
+410,Pushkar Harsh,Clouds of Witness
+411,Shakuntala,Clouds of Witness
+412,L.H.S.,Clouds of Witness
+413,He,Clouds of Witness
+414,Ranveer Roshan,Clouds of Witness
+415,JUDGE Tanmay,Clouds of Witness
+416,Aditi Virat,Clouds of Witness
+417,Lord Mahesh,Clouds of Witness
+418,Virat,Clouds of Witness
+419,Soumya,Clouds of Witness
+420,Fred,Clouds of Witness
+421,Rohan,Clouds of Witness
+422,Mahesh,Clouds of Witness
+423,Big Meena,Clouds of Witness
+424,Jolly,Clouds of Witness
