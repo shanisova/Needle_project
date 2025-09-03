@@ -426,7 +426,7 @@ def main():
                 # every content token must be in allowed set exactly
                 return all(tok in allowed for tok in tokens)
 
-            if allowed:
+            if allowed and len(allowed) >= 5:
                 before = len(filtered)
                 filtered_after = [n for n in filtered if keep_by_metadata(n)]
                 after = len(filtered_after)
@@ -437,7 +437,7 @@ def main():
                     filtered = filtered_after
                     print(f"[metadata] Kept {after}/{before} names after sanity filter")
             else:
-                print("[metadata] No name_id_map keys found; skipping sanity filter")
+                print("[metadata] Not enough keys for sanity filter; skipping")
         except Exception as e:
             print(f"[metadata] skipped: {e}")
 
