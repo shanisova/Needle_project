@@ -19,19 +19,38 @@ import pandas as pd
 
 
 def load_canonical_mapping(aliases_file: str) -> Dict[str, str]:
-    """Load aliases and create mapping from alias to canonical name."""
+    """Load aliases and create mapping from alias to canonical name.
+    Supports JSON (canonical -> [aliases]) and CSV (canonical_name, alias_name).
+    """
+    alias_to_canonical: Dict[str, str] = {}
+
+    if aliases_file.lower().endswith('.csv'):
+        df = pd.read_csv(aliases_file)
+        if 'canonical_name' not in df.columns or 'alias_name' not in df.columns:
+            raise ValueError("CSV must contain 'canonical_name' and 'alias_name' columns")
+        # Ensure canonicals map to themselves
+        for canonical in df['canonical_name'].dropna().astype(str).unique():
+            canonical = canonical.strip()
+            if canonical:
+                alias_to_canonical[canonical] = canonical
+        # Map aliases to canonical
+        for _, row in df.iterrows():
+            canonical = str(row['canonical_name']).strip()
+            alias = str(row['alias_name']).strip() if not pd.isna(row['alias_name']) else ''
+            if canonical and alias:
+                alias_to_canonical[alias] = canonical
+        return alias_to_canonical
+
+    # Fallback: JSON
     with open(aliases_file, 'r', encoding='utf-8') as f:
         aliases_data = json.load(f)
-    
-    # Create mapping: alias -> canonical
-    alias_to_canonical = {}
+
     for canonical, aliases in aliases_data.items():
-        # Add canonical to its own mapping
-        alias_to_canonical[canonical] = canonical
-        # Add all aliases
+        alias_to_canonical[str(canonical).strip()] = str(canonical).strip()
         for alias in aliases:
-            alias_to_canonical[alias] = canonical
-    
+            s = str(alias).strip()
+            if s:
+                alias_to_canonical[s] = str(canonical).strip()
     return alias_to_canonical
 
 
@@ -119,7 +138,7 @@ def extract_interactions_from_text(text: str, canonical_mapping: Dict[str, str],
 def main():
     parser = argparse.ArgumentParser(description="Extract character interactions from text")
     parser.add_argument("--story", required=True, help="Path to story text file")
-    parser.add_argument("--aliases", required=True, help="Path to aliases JSON file")
+    parser.add_argument("--aliases", required=True, help="Path to aliases file (CSV or JSON)")
     parser.add_argument("--output", help="Output CSV file path")
     parser.add_argument("--chunk-size", type=int, default=5000, help="Size of text chunks to process (default: 5000)")
     args = parser.parse_args()

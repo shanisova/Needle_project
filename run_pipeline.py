@@ -17,6 +17,10 @@ import subprocess
 import sys
 from pathlib import Path
 from datasets import load_dataset
+import json
+import re
+import ast
+import shlex
 
 
 def run_command(cmd, description):
@@ -86,38 +90,97 @@ def run_pipeline(story_index: int, story_name=None):
         f.write(story_text)
     
     try:
-        # Step 1: Character extraction
+        # Step 1: Character extraction (reuse if CSV already exists)
         chars_file = output_dir / f"{story_name}_chars.csv"
-        if not run_command(
-            f"python3 character_extraction.py -s {story_index} -c 2000 -m llama3.2",
-            "Character Extraction"
-        ):
-            print("❌ Character extraction failed!")
-            return False
+        if chars_file.exists():
+            print(f"♻️  Reusing existing characters CSV: {chars_file}")
+        else:
+            if not run_command(
+                f"python3 character_extraction.py -s {story_index} -c 2000 -m llama3.2",
+                "Character Extraction"
+            ):
+                print("❌ Character extraction failed!")
+                return False
+            
+            # Move the generated file to our output directory
+            # The script saves to char/ directory, so we need to move it
+            import shutil
+            char_dir = Path("char")
+            if char_dir.exists():
+                for csv_file in char_dir.glob("*.csv"):
+                    shutil.move(str(csv_file), str(chars_file))
+                    break  # Move the first CSV file found
         
-        # Move the generated file to our output directory
-        # The script saves to char/ directory, so we need to move it
-        import shutil
-        char_dir = Path("char")
-        if char_dir.exists():
-            for csv_file in char_dir.glob("*.csv"):
-                shutil.move(str(csv_file), str(chars_file))
-                break  # Move the first CSV file found
-        
-        # Step 2: Alias building
-        aliases_json = output_dir / f"{story_name}_aliases.json"
+        # Step 2: Alias building (CSV only)
         aliases_csv = output_dir / f"{story_name}_aliases.csv"
         if not run_command(
-            f"python3 alias_builder.py --input {chars_file} --json-out {aliases_json} --csv-out {aliases_csv}",
+            f"python3 alias_builder.py --input {shlex.quote(str(chars_file))} --csv-out {shlex.quote(str(aliases_csv))}",
             "Alias Building"
         ):
             print("❌ Alias building failed!")
             return False
         
-        # Step 3: Interaction extraction
+        # Step 2.5: Remap alias canonical names to metadata keys (if available)
+        try:
+            print("Remapping aliases to metadata keys (if available)...")
+            dataset = load_dataset("kjgpta/WhoDunIt", split="train")
+            story = dataset[story_index]
+            meta = story.get("metadata", {})
+            if isinstance(meta, str):
+                try:
+                    meta_parsed = json.loads(meta)
+                except Exception:
+                    try:
+                        meta_parsed = ast.literal_eval(meta)
+                    except Exception:
+                        meta_parsed = {}
+                meta = meta_parsed if isinstance(meta_parsed, dict) else {}
+
+            name_id_map = meta.get("name_id_map", {}) if isinstance(meta, dict) else {}
+            if not isinstance(name_id_map, dict):
+                name_id_map = {}
+
+            def norm_key(s: str) -> str:
+                return re.sub(r"[^A-Za-z]", "", (s or "")).lower()
+
+            key_norm_map = {norm_key(k): k for k in name_id_map.keys()}
+
+            # Load current aliases mapping
+            with open(aliases_json, "r", encoding="utf-8") as f:
+                mapping = json.load(f)
+
+            remapped = {}
+            changed = 0
+            for canonical, aliases in mapping.items():
+                candidates = [canonical] + list(aliases or [])
+                matched_keys = []
+                for c in candidates:
+                    nk = norm_key(c)
+                    if nk in key_norm_map:
+                        matched_keys.append(key_norm_map[nk])
+                matched_keys = list(dict.fromkeys(matched_keys))  # dedupe, preserve order
+
+                if len(matched_keys) == 1:
+                    # Use the single matching metadata key as canonical
+                    new_can = matched_keys[0]
+                    # Keep aliases the same (surface forms)
+                    remapped[new_can] = list(aliases or [])
+                    changed += 1 if new_can != canonical else 0
+                else:
+                    # Ambiguous or no match: keep original
+                    remapped[canonical] = list(aliases or [])
+
+            with open(aliases_json, "w", encoding="utf-8") as f:
+                json.dump(remapped, f, ensure_ascii=False, indent=2)
+
+            print(f"Alias remapping complete. {changed} groups aligned to metadata keys.")
+        except Exception as e:
+            print(f"Alias remapping skipped due to error: {e}")
+
+        # Step 3: Interaction extraction (adjusted to use CSV)
         interactions_file = output_dir / f"{story_name}_interactions.csv"
         if not run_command(
-            f"python3 interaction_extraction.py --story {temp_story_file} --aliases {aliases_json} --output {interactions_file}",
+            f"python3 interaction_extraction.py --story {shlex.quote(str(temp_story_file))} --aliases {shlex.quote(str(aliases_csv))} --output {shlex.quote(str(interactions_file))}",
             "Interaction Extraction"
         ):
             print("❌ Interaction extraction failed!")
@@ -128,7 +191,6 @@ def run_pipeline(story_index: int, story_name=None):
         print(f"Output directory: {output_dir}")
         print(f"Files created:")
         print(f"  - Characters: {chars_file}")
-        print(f"  - Aliases (JSON): {aliases_json}")
         print(f"  - Aliases (CSV): {aliases_csv}")
         print(f"  - Interactions: {interactions_file}")
         print(f"{'='*80}")

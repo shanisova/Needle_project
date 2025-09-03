@@ -11,6 +11,7 @@ import subprocess
 import sys
 from pathlib import Path
 from datasets import load_dataset
+import shlex
 
 
 def run_command(cmd, description):
@@ -56,37 +57,39 @@ def run_pipeline_for_story(story_index: int, story_title: str, story_text: str):
         f.write(story_text)
     
     try:
-        # Step 1: Character extraction
+        # Step 1: Character extraction (reuse existing if present)
         chars_file = output_dir / f"{story_title}_chars.csv"
-        if not run_command(
-            f"python3 character_extraction.py -s {story_index} -c 2000 -m llama3.2",
-            f"Character Extraction for {story_title}"
-        ):
-            print(f"❌ Character extraction failed for {story_title}!")
-            return False
+        if chars_file.exists():
+            print(f"♻️  Reusing existing characters CSV: {chars_file}")
+        else:
+            if not run_command(
+                f"python3 character_extraction.py -s {story_index} -c 2000 -m llama3.2",
+                f"Character Extraction for {story_title}"
+            ):
+                print(f"❌ Character extraction failed for {story_title}!")
+                return False
+            
+            # Move the generated file to our output directory
+            import shutil
+            char_dir = Path("char")
+            if char_dir.exists():
+                for csv_file in char_dir.glob("*.csv"):
+                    shutil.move(str(csv_file), str(chars_file))
+                    break  # Move the first CSV file found
         
-        # Move the generated file to our output directory
-        import shutil
-        char_dir = Path("char")
-        if char_dir.exists():
-            for csv_file in char_dir.glob("*.csv"):
-                shutil.move(str(csv_file), str(chars_file))
-                break  # Move the first CSV file found
-        
-        # Step 2: Alias building
-        aliases_json = output_dir / f"{story_title}_aliases.json"
+        # Step 2: Alias building (CSV only)
         aliases_csv = output_dir / f"{story_title}_aliases.csv"
         if not run_command(
-            f"python3 alias_builder.py --input {chars_file} --json-out {aliases_json} --csv-out {aliases_csv}",
+            f"python3 alias_builder.py --input {shlex.quote(str(chars_file))} --csv-out {shlex.quote(str(aliases_csv))}",
             f"Alias Building for {story_title}"
         ):
             print(f"❌ Alias building failed for {story_title}!")
             return False
         
-        # Step 3: Interaction extraction
+        # Step 3: Interaction extraction using CSV
         interactions_file = output_dir / f"{story_title}_interactions.csv"
         if not run_command(
-            f"python3 interaction_extraction.py --story {temp_story_file} --aliases {aliases_json} --output {interactions_file}",
+            f"python3 interaction_extraction.py --story {shlex.quote(str(temp_story_file))} --aliases {shlex.quote(str(aliases_csv))} --output {shlex.quote(str(interactions_file))}",
             f"Interaction Extraction for {story_title}"
         ):
             print(f"❌ Interaction extraction failed for {story_title}!")
@@ -97,7 +100,6 @@ def run_pipeline_for_story(story_index: int, story_title: str, story_text: str):
         print(f"Output directory: {output_dir}")
         print(f"Files created:")
         print(f"  - Characters: {chars_file}")
-        print(f"  - Aliases (JSON): {aliases_json}")
         print(f"  - Aliases (CSV): {aliases_csv}")
         print(f"  - Interactions: {interactions_file}")
         print(f"{'='*80}")
