@@ -352,16 +352,10 @@ Actual Culprits: {actual_culprits}
 
 Your task is to evaluate whether the prediction is correct by considering:
 
-1. **Exact Matches**: Do the predicted names exactly match the actual culprit names?
-2. **Partial Matches**: Are there variations in naming (e.g., "John Smith" vs "John", "Dr. Watson" vs "Watson")?
-3. **Character References**: Do the predictions refer to the same characters using different names or titles?
-4. **Completeness**: Are all actual culprits covered in the prediction?
-5. **Extra Predictions**: Are there predicted culprits that are not actual culprits?
-
 Evaluation Guidelines:
-- A prediction is CORRECT if it identifies all actual culprits, even with minor name variations
+- A prediction is CORRECT if it identifies all actual culprits, even with name variations
 - A prediction is PARTIALLY CORRECT if it identifies some but not all culprits
-- A prediction is INCORRECT if it misses major culprits or identifies wrong people
+- A prediction is INCORRECT if it misses all major culprits or identifies wrong people
 - Consider common name variations (nicknames, titles, full names vs partial names)
 
 Provide:
@@ -372,7 +366,7 @@ Provide:
 - missed_culprits: List of actual culprits not predicted
 - extra_culprits: List of predicted culprits that are not actual culprits
 
-Be generous with partial name matches but strict about identifying the right characters."""
+Be generous with partial name matches but make sure to identify the right characters."""
 
     return default_detection_prompt, default_judging_prompt
 
@@ -424,7 +418,7 @@ def main():
     # Model parameters
     st.sidebar.subheader("Model Parameters")
     temperature = st.sidebar.slider("Temperature", 0.0, 2.0, 0.1, 0.1)
-    max_tokens = st.sidebar.slider("Max Tokens", 100, 120000, 800, 50)
+    max_tokens = st.sidebar.slider("Max Tokens", 100, 120000, 10000, 50)
 
     # Prompt configuration
     st.sidebar.subheader("Prompt Configuration")
