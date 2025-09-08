@@ -1,0 +1,58 @@
+char_id,name,story_title,is_victim
+1,Baker,The Adventure of the Blue Carbuncle,0
+2,Baker',The Adventure of the Blue Carbuncle,1
+3,Bill,The Adventure of the Blue Carbuncle,1
+4,Bradstreet,The Adventure of the Blue Carbuncle,0
+5,Catherine,The Adventure of the Blue Carbuncle,0
+6,Catherine Jem,The Adventure of the Blue Carbuncle,0
+7,Christ,The Adventure of the Blue Carbuncle,1
+8,Cocksure,The Adventure of the Blue Carbuncle,1
+9,Countess,The Adventure of the Blue Carbuncle,0
+10,Countess of B,The Adventure of the Blue Carbuncle,1
+11,Cusack,The Adventure of the Blue Carbuncle,1
+12,Doctor,The Adventure of the Blue Carbuncle,0
+13,H,The Adventure of the Blue Carbuncle,1
+14,H. B.,The Adventure of the Blue Carbuncle,0
+15,Henry,The Adventure of the Blue Carbuncle,0
+16,Horner,The Adventure of the Blue Carbuncle,1
+17,I,The Adventure of the Blue Carbuncle,0
+18,Inspector Sherlock,The Adventure of the Blue Carbuncle,0
+19,Irene Adler,The Adventure of the Blue Carbuncle,1
+20,Jem,The Adventure of the Blue Carbuncle,0
+21,John Cusack,The Adventure of the Blue Carbuncle,0
+22,John James,The Adventure of the Blue Carbuncle,0
+23,Maggie,The Adventure of the Blue Carbuncle,0
+24,Maggie Oakshott,The Adventure of the Blue Carbuncle,0
+25,Maggie Street,The Adventure of the Blue Carbuncle,0
+26,Mary Baker,The Adventure of the Blue Carbuncle,1
+27,Miss Sutherland Hudson,The Adventure of the Blue Carbuncle,0
+28,Morcar,The Adventure of the Blue Carbuncle,0
+29,Mr. Baker,The Adventure of the Blue Carbuncle,0
+30,Mr. Holmes,The Adventure of the Blue Carbuncle,0
+31,Mr. Maggie,The Adventure of the Blue Carbuncle,0
+32,Mr. Maudsley,The Adventure of the Blue Carbuncle,1
+33,Mr. Oakshott,The Adventure of the Blue Carbuncle,0
+34,Mr. Oakshott Maggie,The Adventure of the Blue Carbuncle,1
+35,Mr. Ryder,The Adventure of the Blue Carbuncle,0
+36,Mrs. Jove,The Adventure of the Blue Carbuncle,0
+37,Mrs. Oakshott Maggie,The Adventure of the Blue Carbuncle,1
+38,Mrs. Robinson,The Adventure of the Blue Carbuncle,0
+39,Oakshott Maggie,The Adventure of the Blue Carbuncle,0
+40,Robinson,The Adventure of the Blue Carbuncle,0
+41,Ryder,The Adventure of the Blue Carbuncle,0
+42,The Countess of B,The Adventure of the Blue Carbuncle,1
+43,The Countess of B's,The Adventure of the Blue Carbuncle,0
+44,Windigate Ryder,The Adventure of the Blue Carbuncle,1
+45,baker,The Adventure of the Blue Carbuncle,0
+46,holmes,The Adventure of the Blue Carbuncle,0
+47,mister,The Adventure of the Blue Carbuncle,0
+48,my pal,The Adventure of the Blue Carbuncle,0
+49,my sister,The Adventure of the Blue Carbuncle,0
+50,salesman,The Adventure of the Blue Carbuncle,1
+51,the King of Proosia,The Adventure of the Blue Carbuncle,0
+52,the detective,The Adventure of the Blue Carbuncle,0
+53,the geese,The Adventure of the Blue Carbuncle,0
+54,the inquirer,The Adventure of the Blue Carbuncle,0
+55,the little man,The Adventure of the Blue Carbuncle,1
+56,the man,The Adventure of the Blue Carbuncle,0
+57,the salesman,The Adventure of the Blue Carbuncle,0

@@ -17,18 +17,20 @@ import os
 # =========================
 class CharacterList(BaseModel):
     characters: List[str]
+    victims: List[str] = []
 
 # =========================
 # Data classes
 # =========================
 class CharacterData:
-    def __init__(self, char_id: int, name: str, story_title: str):
+    def __init__(self, char_id: int, name: str, story_title: str, is_victim: bool = False):
         self.char_id = char_id
         self.name = name  # surface form as extracted
         self.story_title = story_title
+        self.is_victim = is_victim
 
     def to_dict(self):
-        return {"char_id": self.char_id, "name": self.name, "story_title": self.story_title}
+        return {"char_id": self.char_id, "name": self.name, "story_title": self.story_title, "is_victim": int(bool(self.is_victim))}
 
 # =========================
 # Helpers
@@ -50,14 +52,17 @@ class StoryAnalyzer:
             messages=[{
                 "role": "user",
                 "content": f"""
-You are analyzing a mystery story to extract **character names exactly as they appear in the text**.
+You are analyzing a mystery story to extract:
+1) A list of unique character names exactly as they appear in the text
+2) The subset of those names who are the victim(s) — ONLY include persons who were DEFINITELY murdered. If there is ANY uncertainty (e.g., attempted murder, suspected, missing, assaulted, ambiguous), do NOT include them as victims.
+
+Rules:
+- Return names EXACTLY as written in the story (preserve casing and punctuation)
+- Do NOT invent names; only include names explicitly present in the text
+- The victims list must be a subset of the characters list and use the exact surface forms
 
 Story Text:
 {text}
-
-Extract ONLY proper names of people as they appear in the text. Keep all versions of a character's name as they appear. Always preserve capitalization exactly as written. Do not invent or infer names that are not explicitly in the text.
-
-Return the list of unique names found in the story, exactly as written.
 """
             }],
             format=CharacterList.model_json_schema(),
@@ -65,10 +70,13 @@ Return the list of unique names found in the story, exactly as written.
         )
         char_data = CharacterList.model_validate_json(response.message.content)
 
+        victim_set = {v.strip() for v in (getattr(char_data, 'victims', []) or []) if str(v).strip()}
+
         characters: List[CharacterData] = []
         for i, name in enumerate(char_data.characters, 1):
             if name.strip():
-                characters.append(CharacterData(i, name.strip(), story_title))
+                is_victim = name.strip() in victim_set
+                characters.append(CharacterData(i, name.strip(), story_title, is_victim=is_victim))
         return characters
 
     def analyze_story_batched(self, text: str, story_title: str, chunk_size: int = 2000) -> List[CharacterData]:
@@ -88,17 +96,16 @@ Return the list of unique names found in the story, exactly as written.
             chunk_chars = self.extract_characters(chunk, f"{story_title}_chunk_{i+1}")
             all_characters.extend(chunk_chars)
 
-        # Deduplicate by surface name
-        unique_characters: List[CharacterData] = []
-        seen_names = set()
-        next_id = 1
+        # Deduplicate by surface name and aggregate victim flags
+        name_to_victim = {}
         for c in all_characters:
-            if c.name not in seen_names:
-                seen_names.add(c.name)
-                c.char_id = next_id
-                c.story_title = story_title
-                unique_characters.append(c)
-                next_id += 1
+            name_to_victim[c.name] = name_to_victim.get(c.name, False) or bool(getattr(c, 'is_victim', False))
+
+        unique_characters: List[CharacterData] = []
+        next_id = 1
+        for name, is_victim in sorted(name_to_victim.items()):
+            unique_characters.append(CharacterData(next_id, name, story_title, is_victim=is_victim))
+            next_id += 1
 
         print("=" * 60)
         print(f"Character extraction complete → {len(unique_characters)} unique surface forms")
@@ -110,7 +117,7 @@ Return the list of unique names found in the story, exactly as written.
         os.makedirs(out_dir, exist_ok=True)
         base = clean_title_for_filename(story_title)
 
-        # Characters CSV
+        # Characters CSV (includes is_victim column)
         char_df = pd.DataFrame([c.to_dict() for c in characters])
         char_csv = os.path.join(out_dir, f"{base}_chars.csv")
         char_df.to_csv(char_csv, index=False)
@@ -118,7 +125,8 @@ Return the list of unique names found in the story, exactly as written.
         # Print characters to stdout
         print("\nCharacters (unique surface forms):")
         for c in characters:
-            print(f"- {c.name}")
+            tag = " [victim]" if getattr(c, 'is_victim', False) else ""
+            print(f"- {c.name}{tag}")
 
         print("=" * 50)
         print(f"SAVED:\n- {char_csv}")

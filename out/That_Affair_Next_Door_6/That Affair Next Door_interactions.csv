@@ -1,0 +1,135 @@
+character1,character2,count
+Albus Wands,Mr. Sorting Wands Veela,314
+Albus Wands,Mr. Albus,40
+Albus Wands,Mr. Sorting,38
+Mr. Albus,Mr. Sorting Wands Veela,38
+Mr. Sorting,Mr. Sorting Wands Veela,37
+Albus Wands,Mrs. Albus Wands Veela,29
+Mr. Albus,Mrs. Albus Wands Veela,29
+Mr. Sorting Wands Veela,Mrs. Albus Wands Veela,29
+Albus Wands,Wands Deathly,19
+Albus Wands,Riddle,18
+Albus Wands,Riddle Wands Veela,18
+Mr. Sorting Wands Veela,Riddle,18
+Mr. Sorting Wands Veela,Riddle Wands Veela,18
+Riddle,Riddle Wands Veela,18
+Mr. Albus,Mr. Sorting,17
+Alastor,Fenrir,12
+Crumplehorn,Crumplehorn Dennis,10
+Miss Snape,Miss Snape Credence,10
+Miss Pansy,Phoenix Goblet,6
+Miss Snape,Mrs. Crimes,6
+Miss Snape Credence,Mrs. Crimes,6
+Albus Wands,Fenrir Wands Veela,5
+Fenrir Wands Veela,Mr. Sorting Wands Veela,5
+Miss Snape Credence,Mr. Sorting,5
+Alastor,Miss Acromantula,4
+Albus Wands,Nimbus,4
+Crumplehorn,Dennis Witchcraft,4
+Crumplehorn Dennis,Dennis Witchcraft,4
+Mr. Sorting Wands Veela,Nimbus,4
+Mrs. Crimes,Phoenix Goblet,4
+Padma,Padma Dennis,4
+Alastor,Mr. Sorting,3
+Albus Wands,Miss Pansy,3
+Albus Wands,Miss Snape Credence,3
+Albus Wands,Rose,3
+Basilisk,Miss Snape,3
+Find,Miss Snape Credence,3
+Find,Mr. Albus,3
+Miss Pansy,Miss Snape Credence,3
+Miss Pansy,Mr. Sorting Wands Veela,3
+Miss Snape Credence,Mr. Albus,3
+Miss Snape Credence,Mr. Sorting Wands Veela,3
+Mr. Albus,Riddle,3
+Mr. Sorting Wands Veela,Rose,3
+Alastor,Mr. Albus,2
+Albus Wands,Find,2
+Albus Wands,Mrs. Crimes,2
+Dennis Witchcraft,Miss Pansy,2
+Dennis Witchcraft,Mr. Sorting,2
+Dennis Witchcraft,Phoenix Goblet,2
+Fenrir,Miss Acromantula,2
+Find,Longbottom,2
+Find,Miss Pansy,2
+Find,Mr. Sorting Wands Veela,2
+Find,Mrs. Albus Wands Veela,2
+Find,Phoenix Goblet,2
+Hogwarts,Horace,2
+Hogwarts,Miss Snape Credence,2
+Miss Acromantula,Miss Snape Credence,2
+Miss Pansy,Mrs. Crimes,2
+Miss Riddle Diagon,Mr. Albus,2
+Mr. Albus,Mrs. Crimes,2
+Mr. Albus,Riddle Wands Veela,2
+Mr. Albus,Wands Deathly,2
+Mr. Narcissa,Mrs. Crimes,2
+Mr. Narcissa,Rose,2
+Mr. Sorting Wands Veela,Mrs. Crimes,2
+Mrs. Albus Wands Veela,Riddle,2
+Mrs. Albus Wands Veela,Riddle Wands Veela,2
+Albus Wands,Crumplehorn,1
+Albus Wands,Crumplehorn Dennis,1
+Albus Wands,Dennis Witchcraft,1
+Albus Wands,Fenrir,1
+Albus Wands,Miss Riddle Diagon,1
+Albus Wands,Mr. Narcissa,1
+Albus Wands,Phoenix Goblet,1
+Albus Wands,Weasley's,1
+Basilisk,Find,1
+Crumplehorn,Fleur,1
+Crumplehorn,Miss Pansy,1
+Crumplehorn,Mr. Albus,1
+Crumplehorn,Mr. Sorting,1
+Crumplehorn,Mr. Sorting Wands Veela,1
+Crumplehorn Dennis,Fleur,1
+Crumplehorn Dennis,Miss Pansy,1
+Crumplehorn Dennis,Mr. Albus,1
+Crumplehorn Dennis,Mr. Sorting,1
+Crumplehorn Dennis,Mr. Sorting Wands Veela,1
+Dennis Witchcraft,Miss Acromantula,1
+Dennis Witchcraft,Mr. Albus,1
+Dennis Witchcraft,Mr. Sorting Wands Veela,1
+Fenrir,Fenrir Wands Veela,1
+Fenrir,Mr. Albus,1
+Fenrir,Mr. Sorting Wands Veela,1
+Find,Miss Acromantula,1
+Find,Miss Snape,1
+Find,Mr. Sorting,1
+Fire,Patronus,1
+Fleur,Miss Pansy,1
+Hogwarts,Miss Acromantula,1
+Hogwarts,Mrs. Crimes,1
+Hogwarts,Phoenix Goblet,1
+Karkaroff Fawkes,Vernon Flitwick,1
+Lily,Miss Pansy,1
+Lily,Phoenix Goblet,1
+Miss Acromantula,Miss Pansy,1
+Miss Acromantula,Mr. Albus,1
+Miss Acromantula,Rose,1
+Miss Bludger,Miss Riddle Diagon,1
+Miss Pansy,Mr. Albus,1
+Miss Pansy,Riddle,1
+Miss Pansy,Riddle Wands Veela,1
+Miss Pomona,Nimbus,1
+Miss Riddle Diagon,Mr. Sorting,1
+Miss Riddle Diagon,Mr. Sorting Wands Veela,1
+Miss Riddle Diagon,Mrs. Albus Wands Veela,1
+Miss Riddle Diagon,Riddle,1
+Miss Snape Credence,Mr. Narcissa,1
+Miss Snape Credence,Rose,1
+Molly,Mr. Sorting,1
+Mr. Artifact,Rose,1
+Mr. Colin,Remus,1
+Mr. Narcissa,Mr. Sorting Wands Veela,1
+Mr. Sorting,Mrs. Crimes,1
+Mr. Sorting,Phoenix Goblet,1
+Mr. Sorting,Rose,1
+Mr. Sorting,Wands Deathly,1
+Mr. Sorting,Weasley's,1
+Mr. Sorting Wands Veela,Phoenix Goblet,1
+Mr. Sorting Wands Veela,Weasley's,1
+Mrs. Crimes,Weasley's,1
+Mrs. Voldemort Prince,Weasley's,1
+Nimbus,Weasley's,1
+Phoenix Goblet,Rose,1

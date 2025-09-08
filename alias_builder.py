@@ -74,6 +74,20 @@ ORG_PHRASES = {
 SUFFIX_WORDS = {"jr","sr","esq","esquire","ii","iii","iv"}
 TITLE_EQUIV  = {"dr":"doctor","prof":"professor","sgt":"sergeant","supt":"superintendent"}
 
+# Common sentence/function words – used to reject full-sentence fragments
+STOPWORDS = {
+    "the","a","an","and","or","but","if","then","else","than","that","this","those","these",
+    "i","you","he","she","we","they","me","him","her","us","them","my","your","his","her","our","their",
+    "is","are","was","were","be","been","being","am","do","does","did","have","has","had","shall","will","would",
+    "to","of","in","on","at","by","for","from","with","about","over","under","into","onto","without","within",
+    "as","not","no","yes","oh","ay","nay","nowt"
+}
+
+# Allow some formal patterns after a leading "The" (e.g., titles or ordinals)
+ALLOW_AFTER_THE = {
+    "great","second","third","fourth","fifth","sixth","seventh","eighth","ninth","tenth"
+}
+
 # =========================
 # Normalization / token helpers
 # =========================
@@ -205,6 +219,15 @@ def valid_name(name: str) -> bool:
     if not toks:
         return False
 
+    # Drop single-word 'God'
+    if len(toks) == 1 and toks[0].lower() == "god":
+        return False
+
+    # Drop leading "The ..." unless followed by allowed patterns (e.g., The Great, The Second)
+    if toks and toks[0].lower() == "the":
+        if len(toks) < 2 or toks[1].lower() not in ALLOW_AFTER_THE:
+            return False
+
     # drop lone/bare titles
     if len(toks) == 1 and _norm_title(toks[0]):
         return False
@@ -227,6 +250,23 @@ def valid_name(name: str) -> bool:
     ct = content_tokens(raw)
     if ct and len(set(ct)) < len(ct):
         return False
+
+    # HARD FILTER: likely full sentences
+    # - Too many content tokens (e.g., >=5)
+    if len(ct) >= 5:
+        return False
+    # - Contains sentence-ending punctuation and many tokens
+    if ("." in name or "?" in name or "!" in name or "..." in name) and len(toks) >= 5:
+        return False
+    # - Too many stopwords relative to length (signals a sentence, not a name)
+    sw = sum(1 for t in toks if t.lower() in STOPWORDS)
+    if len(toks) >= 4 and sw >= 2:
+            return False
+    # - Low ratio of capitalized tokens for longer strings
+    if len(toks) >= 5:
+        caps = sum(1 for t in toks if t and t[0].isupper())
+        if caps / max(1, len(toks)) < 0.6:
+            return False
 
     return True
 
@@ -396,17 +436,29 @@ def main():
     # optional metadata sanity filter (strict): drop any name whose content tokens
     # contain tokens not present in metadata keys (excluding titles). Apply ONLY if
     # metadata keys are present; otherwise skip the filter entirely.
+    allowed_raw_keys: List[str] = []
     if _load_dataset is not None:
         try:
             ds = _load_dataset("kjgpta/WhoDunIt", split="train")
-            # Attempt to infer story index from input filename when present
+            # Infer story index by matching title from CSV or directory name
             story_idx = None
-            m = re.search(r"_(\d+)\\D*$", os.path.basename(args.input))
-            if m:
-                story_idx = int(m.group(1))
-            else:
-                story_idx = 0
-            meta = ds[story_idx].get("metadata", {})
+            story_title = None
+            if "story_title" in df.columns and df["story_title"].dropna().shape[0] > 0:
+                story_title = str(df["story_title"].dropna().iloc[0]).strip()
+            if not story_title:
+                # Fallback: use parent directory name
+                parent = os.path.basename(os.path.dirname(args.input))
+                story_title = parent.replace("_", " ").strip()
+            # Find index by exact (case-insensitive) title match
+            target = story_title.lower() if story_title else None
+            if target:
+                for i, row in enumerate(ds):
+                    t = str(row.get("title", "")).strip().lower()
+                    if t == target:
+                        story_idx = i
+                        break
+            # If still unknown, skip metadata usage
+            meta = ds[story_idx].get("metadata", {}) if story_idx is not None else {}
             if isinstance(meta, str):
                 try:
                     meta = _json.loads(meta)
@@ -416,7 +468,11 @@ def main():
                     except Exception:
                         meta = {}
             name_id_map = meta.get("name_id_map", {}) if isinstance(meta, dict) else {}
-            allowed = { _norm(k) for k in name_id_map.keys() if _norm(k) }
+            # Build key/value pools (as they appear in metadata)
+            allowed_raw_keys = [str(k) for k in name_id_map.keys() if _norm(str(k))]
+            allowed_raw_vals = [str(v) for v in name_id_map.values() if _norm(str(v))]
+            allowed_keys_norm = { _norm(k) for k in allowed_raw_keys }
+            allowed_vals_norm = { _norm(v) for v in allowed_raw_vals }
 
             def keep_by_metadata(nm: str) -> bool:
                 _, given, sur = split_name(nm)
@@ -426,16 +482,40 @@ def main():
                 # every content token must be in allowed set exactly
                 return all(tok in allowed for tok in tokens)
 
-            if allowed and len(allowed) >= 5:
+            # Decide whether to use keys or values based on which side matches more names
+            def name_tokens_ok(nm: str, pool: set) -> bool:
+                t, g, s = split_name(nm)
+                toks = list(g)
+                if s:
+                    toks.append(s)
+                return bool(toks) and all(tok in pool for tok in toks)
+
+            matches_keys = sum(1 for n in filtered if name_tokens_ok(n, allowed_keys_norm)) if allowed_keys_norm else 0
+            matches_vals = sum(1 for n in filtered if name_tokens_ok(n, allowed_vals_norm)) if allowed_vals_norm else 0
+
+            use_side = None
+            chosen_norm_pool: set = set()
+            chosen_raw_pool: list = []
+            if len(allowed_keys_norm) >= 5 or len(allowed_vals_norm) >= 5:
+                if matches_keys >= matches_vals and len(allowed_keys_norm) >= 5:
+                    use_side = "keys"
+                    chosen_norm_pool = allowed_keys_norm
+                    chosen_raw_pool = allowed_raw_keys
+                elif len(allowed_vals_norm) >= 5:
+                    use_side = "values"
+                    chosen_norm_pool = allowed_vals_norm
+                    chosen_raw_pool = allowed_raw_vals
+
+            if use_side:
                 before = len(filtered)
-                filtered_after = [n for n in filtered if keep_by_metadata(n)]
+                filtered_after = [n for n in filtered if name_tokens_ok(n, chosen_norm_pool)]
                 after = len(filtered_after)
                 # Fallback: if the strict filter removes everything (or almost everything), skip it
                 if after == 0 or after < max(2, int(0.05 * before)):
-                    print(f"[metadata] Filter too aggressive ({after}/{before}); skipping for this story")
+                    print(f"[metadata] {use_side} filter too aggressive ({after}/{before}); skipping for this story")
                 else:
                     filtered = filtered_after
-                    print(f"[metadata] Kept {after}/{before} names after sanity filter")
+                    print(f"[metadata] Using {use_side}; kept {after}/{before} names after sanity filter")
             else:
                 print("[metadata] Not enough keys for sanity filter; skipping")
         except Exception as e:
@@ -444,17 +524,50 @@ def main():
     # grouping
     mapping = group_names(filtered)
 
+    # Add singleton entries for metadata keys not present in mapping (ensure presence in CSV)
+    # Add singleton entries from the chosen metadata side if available
+    if 'chosen_raw_pool' in locals() and chosen_raw_pool:
+        # Build a set of all token-level normals present in existing mapping (canonical + aliases)
+        present_token_norms = set()
+        def add_tokens(nm: str):
+            for tok in content_tokens(nm):
+                if tok:
+                    present_token_norms.add(tok)
+        for can, als in mapping.items():
+            add_tokens(can)
+            for a in als:
+                add_tokens(a)
+
+        added = 0
+        for item in chosen_raw_pool:
+            norm_item = _norm(item)
+            if not norm_item:
+                continue
+            # Skip adding metadata singleton for bare 'the'
+            if norm_item == "the":
+                continue
+            # Only add singleton if its token does NOT already appear anywhere in existing names
+            if norm_item in present_token_norms:
+                continue
+            if item not in mapping:
+                mapping[item] = []
+                added += 1
+        if added:
+            print(f"[metadata] Added {added} singleton canonical entries from metadata {use_side}")
+
     # outputs
     base = os.path.splitext(os.path.basename(args.input))[0]
     # Only write CSV per user request
     csv_out  = args.csv_out  or base + "_aliases.csv"
 
-    rows = [{"canonical_name": c, "alias_name": a}
-            for c, als in mapping.items() for a in als]
-    if rows:
-        pd.DataFrame(rows).to_csv(csv_out, index=False)
-    else:
-        pd.DataFrame(columns=["canonical_name", "alias_name"]).to_csv(csv_out, index=False)
+    rows: List[Dict[str, str]] = []
+    for c, als in mapping.items():
+        # Always include a singleton row for the canonical
+        rows.append({"canonical_name": c, "alias_name": ""})
+        # Then include alias rows
+        for a in als:
+            rows.append({"canonical_name": c, "alias_name": a})
+    pd.DataFrame(rows, columns=["canonical_name", "alias_name"]).to_csv(csv_out, index=False)
 
     print(f"Loaded: {len(raw)} | Kept after filters: {len(filtered)} | Groups: {len(mapping)}")
     print(f"Wrote: {csv_out}")

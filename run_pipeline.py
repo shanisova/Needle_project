@@ -40,11 +40,11 @@ def run_command(cmd, description):
         return False
 
 
-def create_output_directory(story_name):
-    """Create output directory for the story."""
+def create_output_directory(story_name, story_index: int):
+    """Create output directory for the story, suffixed with story index to avoid collisions."""
     # Clean story name for directory
     clean_name = story_name.replace(' ', '_').replace("'", '').replace('"', '').replace(':', '').replace(';', '')
-    output_dir = Path("out") / clean_name
+    output_dir = Path("out") / f"{clean_name}_{story_index}"
     output_dir.mkdir(parents=True, exist_ok=True)
     return output_dir
 
@@ -67,7 +67,7 @@ def load_story_from_dataset(story_index: int):
     return story_title, story_text
 
 
-def run_pipeline(story_index: int, story_name=None):
+def run_pipeline(story_index: int, story_name=None, skip_extract: bool = False, reuse_chars: bool = False):
     """Run the complete pipeline for a story from the dataset."""
     # Load story from dataset
     story_title, story_text = load_story_from_dataset(story_index)
@@ -80,8 +80,8 @@ def run_pipeline(story_index: int, story_name=None):
     print(f"Story index: {story_index}")
     print(f"{'='*80}")
     
-    # Create output directory
-    output_dir = create_output_directory(story_name)
+    # Create output directory (include index to disambiguate duplicates)
+    output_dir = create_output_directory(story_name, story_index)
     print(f"Output directory: {output_dir}")
     
     # Create temporary story file for processing
@@ -90,26 +90,53 @@ def run_pipeline(story_index: int, story_name=None):
         f.write(story_text)
     
     try:
-        # Step 1: Character extraction (reuse if CSV already exists)
+        # Step 1: Character extraction (controlled by --reuse-chars and --skip-extract)
         chars_file = output_dir / f"{story_name}_chars.csv"
-        if chars_file.exists():
+        if chars_file.exists() and reuse_chars:
             print(f"♻️  Reusing existing characters CSV: {chars_file}")
         else:
-            if not run_command(
-                f"python3 character_extraction.py -s {story_index} -c 2000 -m llama3.2",
-                "Character Extraction"
-            ):
-                print("❌ Character extraction failed!")
-                return False
-            
-            # Move the generated file to our output directory
-            # The script saves to char/ directory, so we need to move it
-            import shutil
-            char_dir = Path("char")
-            if char_dir.exists():
-                for csv_file in char_dir.glob("*.csv"):
-                    shutil.move(str(csv_file), str(chars_file))
-                    break  # Move the first CSV file found
+            if skip_extract:
+                # Build chars CSV from metadata keys as a fallback (no LLM)
+                try:
+                    from datasets import load_dataset as _ld
+                    ds = _ld("kjgpta/WhoDunIt", split="train")
+                    meta = ds[story_index].get("metadata", {})
+                    if isinstance(meta, str):
+                        try:
+                            meta = json.loads(meta)
+                        except Exception:
+                            try:
+                                meta = ast.literal_eval(meta)
+                            except Exception:
+                                meta = {}
+                    name_id_map = meta.get("name_id_map", {}) if isinstance(meta, dict) else {}
+                    keys = [str(k).strip() for k in name_id_map.keys() if str(k).strip()]
+                    if not keys:
+                        print("⚠️  No metadata keys found; skipping story")
+                        return False
+                    import pandas as pd
+                    rows = [{"char_id": i+1, "name": nm, "story_title": story_name} for i, nm in enumerate(keys)]
+                    pd.DataFrame(rows).to_csv(chars_file, index=False)
+                    print(f"🧰 Built characters CSV from metadata: {chars_file}")
+                except Exception as e:
+                    print(f"⚠️  Failed to build characters from metadata: {e}; skipping story")
+                    return False
+            else:
+                if not run_command(
+                    f"python3 character_extraction.py -s {story_index} -c 2000 -m llama3.2",
+                    "Character Extraction"
+                ):
+                    print("❌ Character extraction failed!")
+                    return False
+                
+                # Move the generated file to our output directory
+                # The script saves to char/ directory, so we need to move it
+                import shutil
+                char_dir = Path("char")
+                if char_dir.exists():
+                    for csv_file in char_dir.glob("*.csv"):
+                        shutil.move(str(csv_file), str(chars_file))
+                        break  # Move the first CSV file found
         
         # Step 2: Alias building (CSV only)
         aliases_csv = output_dir / f"{story_name}_aliases.csv"
@@ -209,6 +236,8 @@ def main():
     parser.add_argument("story_index", type=int, help="Story index from WhoDunIt dataset (0-based)")
     parser.add_argument("--story-name", help="Custom name for the story (default: use title from dataset)")
     parser.add_argument("--clean", action="store_true", help="Clean up existing output files before running")
+    parser.add_argument("--skip-extract", action="store_true", help="Skip LLM character extraction; build from metadata if needed")
+    parser.add_argument("--reuse-chars", action="store_true", help="Reuse existing chars CSV if present (default: regenerate)")
     
     args = parser.parse_args()
     
@@ -220,7 +249,7 @@ def main():
         print("✅ Cleanup completed")
     
     # Run pipeline
-    success = run_pipeline(args.story_index, args.story_name)
+    success = run_pipeline(args.story_index, args.story_name, skip_extract=args.skip_extract, reuse_chars=args.reuse_chars)
     
     if not success:
         print("❌ Pipeline failed!")

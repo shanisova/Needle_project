@@ -1,0 +1,24 @@
+character1,character2,count
+Annie,Mr. Annie Hudson,7
+Briarbrae,Mr. Briarbrae Harrison,7
+Miss Hudson,Mr. Joseph Tut,4
+Mr. Briarbrae Harrison,Mr. Joseph Tut,3
+Mr. Joseph Tut,ferrier,3
+Percy,ferrier,3
+Briarbrae,Mr. Joseph Tut,2
+Forbes,holmes,2
+Mr. Joseph Tut,Percy,2
+Mr. Joseph Tut,holmes,2
+Annie,Briarbrae,1
+Annie,Mrs. Charles,1
+Annie,Tangey,1
+Briarbrae,Mr. Annie Hudson,1
+Briarbrae,Tangey,1
+Forbes,Mr. Briarbrae Harrison,1
+Forbes,Tadpole,1
+Mr. Annie Hudson,Mrs. Charles,1
+Mr. Annie Hudson,Tangey,1
+Mr. Briarbrae Harrison,Percy,1
+Mr. Briarbrae Harrison,Tadpole,1
+Mr. Joseph Tut,Mr. Watson,1
+Mr. Joseph Tut,Mrs. Charles,1

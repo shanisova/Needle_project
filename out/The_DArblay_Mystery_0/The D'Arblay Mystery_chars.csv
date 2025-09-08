@@ -1,0 +1,427 @@
+char_id,name,story_title,is_victim
+1,"""rude",The D'Arblay Mystery,0
+2,",",The D'Arblay Mystery,0
+3,Anne,The D'Arblay Mystery,0
+4,Artemus,The D'Arblay Mystery,0
+5,Barber R,The D'Arblay Mystery,1
+6,Bendelow,The D'Arblay Mystery,0
+7,Boler,The D'Arblay Mystery,1
+8,Bonington,The D'Arblay Mystery,0
+9,Bronzino,The D'Arblay Mystery,1
+10,But,The D'Arblay Mystery,0
+11,By,The D'Arblay Mystery,0
+12,Carolus,The D'Arblay Mystery,0
+13,Chappie Artemus,The D'Arblay Mystery,0
+14,Charles,The D'Arblay Mystery,0
+15,Charles the Second,The D'Arblay Mystery,0
+16,Colonel Moran,The D'Arblay Mystery,1
+17,Constable,The D'Arblay Mystery,0
+18,Cornish,The D'Arblay Mystery,0
+19,Cornishes,The D'Arblay Mystery,0
+20,Crile,The D'Arblay Mystery,0
+21,Cropper,The D'Arblay Mystery,1
+22,D'Arblay,The D'Arblay Mystery,1
+23,Darblay,The D'Arblay Mystery,1
+24,Darblay D'Arblay,The D'Arblay Mystery,1
+25,Detective-Superintendent Hollands,The D'Arblay Mystery,0
+26,Detective-sergeant Man,The D'Arblay Mystery,0
+27,Dewsnep,The D'Arblay Mystery,1
+28,Dewsnep—Gray,The D'Arblay Mystery,0
+29,Doctor,The D'Arblay Mystery,0
+30,Dr.,The D'Arblay Mystery,0
+31,Dr. Artemus,The D'Arblay Mystery,1
+32,Dr. Chappie Artemus,The D'Arblay Mystery,0
+33,Dr. Cropper,The D'Arblay Mystery,0
+34,Dr. Diogenes,The D'Arblay Mystery,1
+35,Dr. Freeman,The D'Arblay Mystery,0
+36,Dr. Jonathan Simon,The D'Arblay Mystery,0
+37,Dr. Pepys Cropper,The D'Arblay Mystery,0
+38,Dr. Porter,The D'Arblay Mystery,1
+39,Dr. Simon,The D'Arblay Mystery,1
+40,Dr. Simon's stenographer,The D'Arblay Mystery,0
+41,Dr. Watson,The D'Arblay Mystery,0
+42,Dr. Woodford Freeman,The D'Arblay Mystery,0
+43,Elizabeth,The D'Arblay Mystery,0
+44,Fortune,The D'Arblay Mystery,1
+45,Fox,The D'Arblay Mystery,1
+46,Freeman,The D'Arblay Mystery,1
+47,Garroll,The D'Arblay Mystery,0
+48,Gawd,The D'Arblay Mystery,0
+49,God,The D'Arblay Mystery,0
+50,Gray,The D'Arblay Mystery,1
+51,He,The D'Arblay Mystery,0
+52,Highgate,The D'Arblay Mystery,0
+53,Hollands,The D'Arblay Mystery,0
+54,Hornsey,The D'Arblay Mystery,0
+55,Hudson's servant,The D'Arblay Mystery,0
+56,I,The D'Arblay Mystery,0
+57,Inspector,The D'Arblay Mystery,1
+58,Inspector Lestrade,The D'Arblay Mystery,0
+59,Inspector Solomon,The D'Arblay Mystery,0
+60,J. D'Arblay,The D'Arblay Mystery,1
+61,J. Dewsnep,The D'Arblay Mystery,0
+62,James,The D'Arblay Mystery,0
+63,James Moriarty,The D'Arblay Mystery,0
+64,John Clay,The D'Arblay Mystery,0
+65,John Pylorus,The D'Arblay Mystery,1
+66,Jonathan Simon,The D'Arblay Mystery,0
+67,Julius D'Arblay,The D'Arblay Mystery,1
+68,Lady Frances Carfax,The D'Arblay Mystery,0
+69,Lewis,The D'Arblay Mystery,0
+70,Madame Tussaud's,The D'Arblay Mystery,0
+71,Martha,The D'Arblay Mystery,1
+72,Miller,The D'Arblay Mystery,1
+73,Miss Carolus,The D'Arblay Mystery,1
+74,Miss D'Arblay,The D'Arblay Mystery,1
+75,Miss Darblay,The D'Arblay Mystery,0
+76,Miss Darblay D'Arblay,The D'Arblay Mystery,0
+77,Miss Sarah,The D'Arblay Mystery,1
+78,Miss Van,The D'Arblay Mystery,1
+79,Most,The D'Arblay Mystery,0
+80,Mr Dewsnep',The D'Arblay Mystery,0
+81,Mr Gray,The D'Arblay Mystery,1
+82,Mr. Arabella,The D'Arblay Mystery,1
+83,Mr. D'Arblay,The D'Arblay Mystery,1
+84,Mr. Dewsnep,The D'Arblay Mystery,1
+85,Mr. Dewsnep',The D'Arblay Mystery,0
+86,Mr. Gray,The D'Arblay Mystery,1
+87,Mr. Hollands,The D'Arblay Mystery,0
+88,Mr. J. D'Arblay,The D'Arblay Mystery,0
+89,Mr. Jaffrey,The D'Arblay Mystery,0
+90,Mr. J—,The D'Arblay Mystery,1
+91,Mr. Martha,The D'Arblay Mystery,1
+92,Mr. Miller,The D'Arblay Mystery,0
+93,Mr. R,The D'Arblay Mystery,1
+94,Mr. R.,The D'Arblay Mystery,1
+95,Mrs Dewsnep,The D'Arblay Mystery,0
+96,Mrs.,The D'Arblay Mystery,0
+97,Mrs. Barrymore,The D'Arblay Mystery,0
+98,Mrs. Barrymore's daughter,The D'Arblay Mystery,0
+99,Mrs. Barrymore's son,The D'Arblay Mystery,0
+100,Mrs. Dewsnep,The D'Arblay Mystery,1
+101,Mrs. Hudson,The D'Arblay Mystery,0
+102,Mrs. Usher,The D'Arblay Mystery,1
+103,My friend,The D'Arblay Mystery,0
+104,Myself (no name mentioned),The D'Arblay Mystery,0
+105,Pepper,The D'Arblay Mystery,0
+106,Pepper Dewsnep,The D'Arblay Mystery,0
+107,Plonk,The D'Arblay Mystery,0
+108,Polton,The D'Arblay Mystery,1
+109,Porter,The D'Arblay Mystery,0
+110,Professor Moriarty,The D'Arblay Mystery,0
+111,Professor Stephen,The D'Arblay Mystery,0
+112,Progress,The D'Arblay Mystery,0
+113,R,The D'Arblay Mystery,1
+114,R (Barber),The D'Arblay Mystery,1
+115,Sarah,The D'Arblay Mystery,0
+116,Saturday,The D'Arblay Mystery,0
+117,Sergeant,The D'Arblay Mystery,0
+118,Sergeant James,The D'Arblay Mystery,0
+119,Sergeant Man,The D'Arblay Mystery,0
+120,She,The D'Arblay Mystery,1
+121,Simon,The D'Arblay Mystery,1
+122,Simon Gray,The D'Arblay Mystery,1
+123,Simon Roettier,The D'Arblay Mystery,0
+124,Sir,The D'Arblay Mystery,0
+125,Slingsby Jove,The D'Arblay Mystery,0
+126,Solomon,The D'Arblay Mystery,0
+127,Solomon's,The D'Arblay Mystery,0
+128,Some,The D'Arblay Mystery,0
+129,Superintendent,The D'Arblay Mystery,0
+130,Superintendent Hollands,The D'Arblay Mystery,0
+131,Susan,The D'Arblay Mystery,0
+132,Tee,The D'Arblay Mystery,0
+133,The,The D'Arblay Mystery,0
+134,The Narrator,The D'Arblay Mystery,0
+135,The narrator,The D'Arblay Mystery,0
+136,The narrator's name,The D'Arblay Mystery,0
+137,Toby,The D'Arblay Mystery,0
+138,Van,The D'Arblay Mystery,0
+139,Vandervelde,The D'Arblay Mystery,0
+140,Vandyke,The D'Arblay Mystery,1
+141,Very,The D'Arblay Mystery,0
+142,W-i-n-d-e-r winder,The D'Arblay Mystery,1
+143,We,The D'Arblay Mystery,0
+144,Wilson,The D'Arblay Mystery,0
+145,Woodford,The D'Arblay Mystery,1
+146,Woodford Freeman,The D'Arblay Mystery,0
+147,You,The D'Arblay Mystery,0
+148,_He_,The D'Arblay Mystery,1
+149,_you_,The D'Arblay Mystery,1
+150,a,The D'Arblay Mystery,0
+151,about,The D'Arblay Mystery,0
+152,accordingly,The D'Arblay Mystery,0
+153,accustomed,The D'Arblay Mystery,0
+154,address,The D'Arblay Mystery,0
+155,admiring,The D'Arblay Mystery,0
+156,advancing,The D'Arblay Mystery,0
+157,all,The D'Arblay Mystery,0
+158,almos,The D'Arblay Mystery,0
+159,anathematizing,The D'Arblay Mystery,0
+160,ancient,The D'Arblay Mystery,0
+161,and,The D'Arblay Mystery,0
+162,anticipations,The D'Arblay Mystery,0
+163,any,The D'Arblay Mystery,0
+164,aptitudes,The D'Arblay Mystery,0
+165,are,The D'Arblay Mystery,0
+166,arrived,The D'Arblay Mystery,0
+167,as,The D'Arblay Mystery,0
+168,assumed,The D'Arblay Mystery,0
+169,astonishment,The D'Arblay Mystery,0
+170,ault,The D'Arblay Mystery,1
+171,aware,The D'Arblay Mystery,0
+172,be,The D'Arblay Mystery,0
+173,been,The D'Arblay Mystery,0
+174,box,The D'Arblay Mystery,0
+175,brick,The D'Arblay Mystery,0
+176,buildings,The D'Arblay Mystery,0
+177,bureau,The D'Arblay Mystery,0
+178,business,The D'Arblay Mystery,0
+179,but,The D'Arblay Mystery,0
+180,by,The D'Arblay Mystery,0
+181,case,The D'Arblay Mystery,0
+182,cemetery official,The D'Arblay Mystery,0
+183,certain,The D'Arblay Mystery,0
+184,certificate,The D'Arblay Mystery,0
+185,clause,The D'Arblay Mystery,0
+186,clock,The D'Arblay Mystery,0
+187,coin,The D'Arblay Mystery,1
+188,conscious,The D'Arblay Mystery,0
+189,consultant,The D'Arblay Mystery,0
+190,consultations,The D'Arblay Mystery,0
+191,counterpoise,The D'Arblay Mystery,0
+192,cremated,The D'Arblay Mystery,0
+193,crime,The D'Arblay Mystery,0
+194,d,The D'Arblay Mystery,0
+195,death,The D'Arblay Mystery,0
+196,deceased,The D'Arblay Mystery,1
+197,delightful,The D'Arblay Mystery,0
+198,denied,The D'Arblay Mystery,0
+199,despatched,The D'Arblay Mystery,0
+200,dford,The D'Arblay Mystery,0
+201,different,The D'Arblay Mystery,0
+202,doctor,The D'Arblay Mystery,0
+203,document,The D'Arblay Mystery,0
+204,done,The D'Arblay Mystery,0
+205,dr. freeman,The D'Arblay Mystery,0
+206,early,The D'Arblay Mystery,0
+207,eight,The D'Arblay Mystery,0
+208,ekly,The D'Arblay Mystery,0
+209,endowed,The D'Arblay Mystery,0
+210,envelope,The D'Arblay Mystery,0
+211,evening,The D'Arblay Mystery,0
+212,ex-Sergeant James,The D'Arblay Mystery,0
+213,executrix,The D'Arblay Mystery,0
+214,exigencies,The D'Arblay Mystery,0
+215,f,The D'Arblay Mystery,0
+216,fact,The D'Arblay Mystery,0
+217,father,The D'Arblay Mystery,1
+218,filled,The D'Arblay Mystery,0
+219,foolscap,The D'Arblay Mystery,0
+220,for,The D'Arblay Mystery,0
+221,forefathers,The D'Arblay Mystery,0
+222,"forefathers""",The D'Arblay Mystery,0
+223,gain,The D'Arblay Mystery,0
+224,galleries,The D'Arblay Mystery,0
+225,gasp,The D'Arblay Mystery,0
+226,generation,The D'Arblay Mystery,0
+227,had,The D'Arblay Mystery,0
+228,has,The D'Arblay Mystery,0
+229,have,The D'Arblay Mystery,0
+230,having,The D'Arblay Mystery,0
+231,he,The D'Arblay Mystery,1
+232,hear,The D'Arblay Mystery,0
+233,heavy,The D'Arblay Mystery,0
+234,her,The D'Arblay Mystery,0
+235,her father,The D'Arblay Mystery,1
+236,her husband,The D'Arblay Mystery,0
+237,him,The D'Arblay Mystery,0
+238,himself,The D'Arblay Mystery,0
+239,his,The D'Arblay Mystery,0
+240,his daughter,The D'Arblay Mystery,0
+241,his department,The D'Arblay Mystery,0
+242,his wife,The D'Arblay Mystery,0
+243,hospital,The D'Arblay Mystery,0
+244,hour,The D'Arblay Mystery,0
+245,houses,The D'Arblay Mystery,0
+246,hypothesis,The D'Arblay Mystery,0
+247,impressions,The D'Arblay Mystery,0
+248,in,The D'Arblay Mystery,0
+249,incident,The D'Arblay Mystery,0
+250,inquiry,The D'Arblay Mystery,0
+251,inspector,The D'Arblay Mystery,0
+252,instructors,The D'Arblay Mystery,0
+253,is,The D'Arblay Mystery,0
+254,it,The D'Arblay Mystery,0
+255,knowledge,The D'Arblay Mystery,0
+256,legatee,The D'Arblay Mystery,0
+257,letter,The D'Arblay Mystery,0
+258,little,The D'Arblay Mystery,0
+259,look,The D'Arblay Mystery,0
+260,loss,The D'Arblay Mystery,0
+261,made,The D'Arblay Mystery,0
+262,maid,The D'Arblay Mystery,0
+263,martha,The D'Arblay Mystery,0
+264,matter,The D'Arblay Mystery,0
+265,me,The D'Arblay Mystery,0
+266,mellow,The D'Arblay Mystery,0
+267,mind,The D'Arblay Mystery,0
+268,misgivings,The D'Arblay Mystery,0
+269,miss d'arblay,The D'Arblay Mystery,0
+270,moderns,The D'Arblay Mystery,0
+271,morning,The D'Arblay Mystery,0
+272,morrow,The D'Arblay Mystery,0
+273,much,The D'Arblay Mystery,0
+274,museums,The D'Arblay Mystery,0
+275,my,The D'Arblay Mystery,0
+276,my assailant,The D'Arblay Mystery,0
+277,my dear father,The D'Arblay Mystery,1
+278,my father,The D'Arblay Mystery,0
+279,my follower,The D'Arblay Mystery,0
+280,myself,The D'Arblay Mystery,1
+281,nearly,The D'Arblay Mystery,0
+282,neighbourhood,The D'Arblay Mystery,0
+283,new,The D'Arblay Mystery,0
+284,not,The D'Arblay Mystery,0
+285,objects,The D'Arblay Mystery,0
+286,of,The D'Arblay Mystery,0
+287,old,The D'Arblay Mystery,0
+288,on,The D'Arblay Mystery,0
+289,our,The D'Arblay Mystery,0
+290,our man,The D'Arblay Mystery,0
+291,parcel,The D'Arblay Mystery,0
+292,passage,The D'Arblay Mystery,0
+293,passed,The D'Arblay Mystery,0
+294,patient,The D'Arblay Mystery,0
+295,pector,The D'Arblay Mystery,0
+296,plaster,The D'Arblay Mystery,0
+297,pleasurable,The D'Arblay Mystery,0
+298,powers,The D'Arblay Mystery,0
+299,present,The D'Arblay Mystery,0
+300,projected,The D'Arblay Mystery,0
+301,provisions,The D'Arblay Mystery,0
+302,puffed,The D'Arblay Mystery,0
+303,r,The D'Arblay Mystery,0
+304,red,The D'Arblay Mystery,0
+305,reflections,The D'Arblay Mystery,0
+306,reopening,The D'Arblay Mystery,0
+307,residuary,The D'Arblay Mystery,0
+308,same,The D'Arblay Mystery,0
+309,sauntered,The D'Arblay Mystery,0
+310,seem,The D'Arblay Mystery,0
+311,she,The D'Arblay Mystery,0
+312,significance,The D'Arblay Mystery,0
+313,simon,The D'Arblay Mystery,0
+314,sir,The D'Arblay Mystery,0
+315,so,The D'Arblay Mystery,0
+316,some of the women (plural),The D'Arblay Mystery,0
+317,some one,The D'Arblay Mystery,1
+318,sometimes,The D'Arblay Mystery,0
+319,somewhat,The D'Arblay Mystery,0
+320,spinsters,The D'Arblay Mystery,0
+321,such,The D'Arblay Mystery,0
+322,superiority,The D'Arblay Mystery,0
+323,tale,The D'Arblay Mystery,0
+324,telegram,The D'Arblay Mystery,0
+325,tell,The D'Arblay Mystery,0
+326,that,The D'Arblay Mystery,0
+327,that chap,The D'Arblay Mystery,0
+328,the,The D'Arblay Mystery,1
+329,the Morrises,The D'Arblay Mystery,0
+330,the Second,The D'Arblay Mystery,0
+331,the Superintendent,The D'Arblay Mystery,0
+332,the assailant,The D'Arblay Mystery,0
+333,the body,The D'Arblay Mystery,0
+334,the bottle-nosed person,The D'Arblay Mystery,0
+335,the cabman,The D'Arblay Mystery,0
+336,the collector,The D'Arblay Mystery,0
+337,the constable,The D'Arblay Mystery,0
+338,the constables,The D'Arblay Mystery,0
+339,the coroner,The D'Arblay Mystery,0
+340,the criminal,The D'Arblay Mystery,0
+341,the daughter of the dead man,The D'Arblay Mystery,1
+342,the dead man,The D'Arblay Mystery,1
+343,the detective,The D'Arblay Mystery,0
+344,the detective officer,The D'Arblay Mystery,0
+345,the doctor,The D'Arblay Mystery,0
+346,the face above the half-blind of glazed shop-door,The D'Arblay Mystery,0
+347,the fellow,The D'Arblay Mystery,0
+348,the figure in the background of Mr Dewsnep's shop (unnamed),The D'Arblay Mystery,0
+349,the first man,The D'Arblay Mystery,1
+350,the foreman,The D'Arblay Mystery,0
+351,the girl,The D'Arblay Mystery,1
+352,the inspector,The D'Arblay Mystery,0
+353,the jury,The D'Arblay Mystery,0
+354,the keeper of the coins and medals,The D'Arblay Mystery,0
+355,the lady,The D'Arblay Mystery,1
+356,the main path,The D'Arblay Mystery,0
+357,the man,The D'Arblay Mystery,1
+358,the man (unnamed),The D'Arblay Mystery,0
+359,the man whose photograph i had in my pocket,The D'Arblay Mystery,0
+360,the mate (unnamed),The D'Arblay Mystery,0
+361,the men (plural),The D'Arblay Mystery,0
+362,the middle-aged woman,The D'Arblay Mystery,0
+363,the missus,The D'Arblay Mystery,0
+364,the mysterious maiden,The D'Arblay Mystery,0
+365,the narrator,The D'Arblay Mystery,0
+366,the narrator (unnamed),The D'Arblay Mystery,0
+367,the narrator's companion (unnamed),The D'Arblay Mystery,0
+368,the narrator's father,The D'Arblay Mystery,0
+369,the narrator's father (in the bust/head),The D'Arblay Mystery,0
+370,the narrator's father (mentioned but not present),The D'Arblay Mystery,0
+371,the narrow track,The D'Arblay Mystery,0
+372,the naturalist,The D'Arblay Mystery,0
+373,the newcomer,The D'Arblay Mystery,0
+374,the officer,The D'Arblay Mystery,1
+375,the officer in charge,The D'Arblay Mystery,0
+376,the official friend,The D'Arblay Mystery,0
+377,the other man,The D'Arblay Mystery,0
+378,the painter-detective,The D'Arblay Mystery,0
+379,"the pallid, impassive face",The D'Arblay Mystery,0
+380,the parson,The D'Arblay Mystery,0
+381,the patient,The D'Arblay Mystery,0
+382,the person who killed the deceased,The D'Arblay Mystery,0
+383,the police,The D'Arblay Mystery,0
+384,the police surgeon,The D'Arblay Mystery,0
+385,the pond,The D'Arblay Mystery,0
+386,the second man,The D'Arblay Mystery,0
+387,the sloop's crew (unnamed),The D'Arblay Mystery,0
+388,the snuff-taker,The D'Arblay Mystery,1
+389,the spinsters,The D'Arblay Mystery,0
+390,the victim,The D'Arblay Mystery,1
+391,the victim's daughter,The D'Arblay Mystery,0
+392,the wax-work policeman,The D'Arblay Mystery,0
+393,the witness,The D'Arblay Mystery,0
+394,the woman,The D'Arblay Mystery,1
+395,the woman who lives in the adjoining house,The D'Arblay Mystery,0
+396,them,The D'Arblay Mystery,0
+397,these,The D'Arblay Mystery,0
+398,this,The D'Arblay Mystery,0
+399,this man,The D'Arblay Mystery,1
+400,this unknown wretch,The D'Arblay Mystery,0
+401,through,The D'Arblay Mystery,0
+402,timber,The D'Arblay Mystery,0
+403,to,The D'Arblay Mystery,0
+404,too,The D'Arblay Mystery,0
+405,u,The D'Arblay Mystery,0
+406,undoubted,The D'Arblay Mystery,0
+407,up,The D'Arblay Mystery,0
+408,upon,The D'Arblay Mystery,0
+409,us,The D'Arblay Mystery,0
+410,village,The D'Arblay Mystery,0
+411,visit,The D'Arblay Mystery,0
+412,was,The D'Arblay Mystery,0
+413,wax,The D'Arblay Mystery,0
+414,we,The D'Arblay Mystery,0
+415,well,The D'Arblay Mystery,0
+416,were,The D'Arblay Mystery,0
+417,whether,The D'Arblay Mystery,0
+418,which,The D'Arblay Mystery,0
+419,will,The D'Arblay Mystery,0
+420,with,The D'Arblay Mystery,0
+421,woman,The D'Arblay Mystery,1
+422,wood,The D'Arblay Mystery,0
+423,world,The D'Arblay Mystery,0
+424,would,The D'Arblay Mystery,0
+425,you,The D'Arblay Mystery,0
+426,your father,The D'Arblay Mystery,0

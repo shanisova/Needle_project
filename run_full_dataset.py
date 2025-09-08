@@ -31,24 +31,24 @@ def run_command(cmd, description):
         return False
 
 
-def create_output_directory(story_name):
-    """Create output directory for the story."""
+def create_output_directory(story_name, story_index: int):
+    """Create output directory for the story (suffixed with index to avoid collisions)."""
     # Clean story name for directory
     clean_name = story_name.replace(' ', '_').replace("'", '').replace('"', '').replace(':', '').replace(';', '')
-    output_dir = Path("out") / clean_name
+    output_dir = Path("out") / f"{clean_name}_{story_index}"
     output_dir.mkdir(parents=True, exist_ok=True)
     return output_dir
 
 
-def run_pipeline_for_story(story_index: int, story_title: str, story_text: str):
+def run_pipeline_for_story(story_index: int, story_title: str, story_text: str, skip_extract: bool = True, reuse_chars: bool = False):
     """Run the complete pipeline for a single story."""
     print(f"\n{'='*80}")
     print(f"Processing Story {story_index}: {story_title}")
     print(f"Story length: {len(story_text)} characters")
     print(f"{'='*80}")
     
-    # Create output directory
-    output_dir = create_output_directory(story_title)
+    # Create output directory (include index)
+    output_dir = create_output_directory(story_title, story_index)
     print(f"Output directory: {output_dir}")
     
     # Create temporary story file for processing
@@ -57,17 +57,45 @@ def run_pipeline_for_story(story_index: int, story_title: str, story_text: str):
         f.write(story_text)
     
     try:
-        # Step 1: Character extraction (reuse existing if present)
+        # Step 1: Character extraction (controlled by --reuse-chars and --skip-extract)
         chars_file = output_dir / f"{story_title}_chars.csv"
-        if chars_file.exists():
+        if chars_file.exists() and reuse_chars:
             print(f"♻️  Reusing existing characters CSV: {chars_file}")
         else:
-            if not run_command(
-                f"python3 character_extraction.py -s {story_index} -c 2000 -m llama3.2",
-                f"Character Extraction for {story_title}"
-            ):
-                print(f"❌ Character extraction failed for {story_title}!")
-                return False
+            if not skip_extract:
+                if not run_command(
+                    f"python3 character_extraction.py -s {story_index} -c 2000 -m llama3.2",
+                    f"Character Extraction for {story_title}"
+                ):
+                    print(f"❌ Character extraction failed for {story_title}!")
+                    return False
+            else:
+                # Build chars CSV from metadata keys as a fallback (no LLM)
+                try:
+                    from datasets import load_dataset as _ld
+                    ds2 = _ld("kjgpta/WhoDunIt", split="train")
+                    meta = ds2[story_index].get("metadata", {})
+                    if isinstance(meta, str):
+                        import json, ast
+                        try:
+                            meta = json.loads(meta)
+                        except Exception:
+                            try:
+                                meta = ast.literal_eval(meta)
+                            except Exception:
+                                meta = {}
+                    name_id_map = meta.get("name_id_map", {}) if isinstance(meta, dict) else {}
+                    keys = [str(k).strip() for k in name_id_map.keys() if str(k).strip()]
+                    if not keys:
+                        print(f"⚠️  No metadata keys found for {story_title}; skipping story")
+                        return False
+                    import pandas as pd
+                    rows = [{"char_id": i+1, "name": nm, "story_title": story_title} for i, nm in enumerate(keys)]
+                    pd.DataFrame(rows).to_csv(chars_file, index=False)
+                    print(f"🧰 Built characters CSV from metadata: {chars_file}")
+                except Exception as e:
+                    print(f"⚠️  Failed to build characters from metadata for {story_title}: {e}; skipping story")
+                    return False
             
             # Move the generated file to our output directory
             import shutil
@@ -113,7 +141,7 @@ def run_pipeline_for_story(story_index: int, story_title: str, story_text: str):
             print(f"🧹 Cleaned up temporary story file for {story_title}")
 
 
-def run_full_dataset(start_index: int = 0, end_index: int = None, skip_existing: bool = True):
+def run_full_dataset(start_index: int = 0, end_index: int = None, skip_existing: bool = True, skip_extract: bool = True, reuse_chars: bool = False):
     """Run pipeline over the entire WhoDunIt dataset."""
     print("Loading WhoDunIt dataset...")
     dataset = load_dataset("kjgpta/WhoDunIt", split="train")
@@ -134,7 +162,7 @@ def run_full_dataset(start_index: int = 0, end_index: int = None, skip_existing:
         
         # Check if output already exists
         if skip_existing:
-            output_dir = create_output_directory(story_title)
+            output_dir = create_output_directory(story_title, story_index)
             interactions_file = output_dir / f"{story_title}_interactions.csv"
             if interactions_file.exists():
                 print(f"⏭️  Skipping {story_title} (output already exists)")
@@ -144,7 +172,7 @@ def run_full_dataset(start_index: int = 0, end_index: int = None, skip_existing:
         print(f"PROCESSING STORY {story_index + 1}/{end_index}: {story_title}")
         print(f"{'='*100}")
         
-        success = run_pipeline_for_story(story_index, story_title, story_text)
+        success = run_pipeline_for_story(story_index, story_title, story_text, skip_extract=skip_extract, reuse_chars=reuse_chars)
         
         if success:
             successful += 1
@@ -173,6 +201,8 @@ def main():
     parser.add_argument("--end", type=int, help="Ending story index (exclusive, default: all stories)")
     parser.add_argument("--no-skip", action="store_true", help="Don't skip existing outputs")
     parser.add_argument("--clean", action="store_true", help="Clean up existing output files before running")
+    parser.add_argument("--skip-extract", action="store_true", help="Skip LLM character extraction; build from metadata if needed")
+    parser.add_argument("--reuse-chars", action="store_true", help="Reuse existing chars CSV if present (default: regenerate)")
     
     args = parser.parse_args()
     
@@ -187,7 +217,9 @@ def main():
     run_full_dataset(
         start_index=args.start,
         end_index=args.end,
-        skip_existing=not args.no_skip
+        skip_existing=not args.no_skip,
+        skip_extract=args.skip_extract,
+        reuse_chars=args.reuse_chars
     )
 
 

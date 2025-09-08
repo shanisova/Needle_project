@@ -1,0 +1,584 @@
+char_id,name,story_title,is_victim
+1,'s,That Affair Next Door,0
+2,",",That Affair Next Door,0
+3,.,That Affair Next Door,0
+4,:,That Affair Next Door,0
+5,?,That Affair Next Door,0
+6,A,That Affair Next Door,0
+7,A. L.,That Affair Next Door,0
+8,Acromantula,That Affair Next Door,1
+9,Acromantula Miss Pansy,That Affair Next Door,1
+10,Alastor,That Affair Next Door,1
+11,Albus,That Affair Next Door,1
+12,Albus Wands,That Affair Next Door,0
+13,Albus Wands Veela,That Affair Next Door,1
+14,Albus Wands Veela's wife,That Affair Next Door,0
+15,Albus's wife,That Affair Next Door,1
+16,Amelia Credence,That Affair Next Door,1
+17,Anna Katharine Rohlfs,That Affair Next Door,0
+18,Appearances,That Affair Next Door,0
+19,Arnold,That Affair Next Door,0
+20,Artifact,That Affair Next Door,0
+21,Azkaban Malfoy,That Affair Next Door,0
+22,Barty,That Affair Next Door,0
+23,Basilisk,That Affair Next Door,0
+24,Binns Aberforth,That Affair Next Door,0
+25,But,That Affair Next Door,0
+26,"But he had received a shock that made him cruel. 'You cannot make a silk purse out of a sow's ear,' he sneered, and was silent all the rest of the way home. I was silent too, for I never talk when I am angry, but when we arrived in our own little room I confronted him. ''Are you going to say any more such cruel things to me?' I asked, 'for if you are, I should like you to say them now and be done with it.'",That Affair Next Door,0
+27,"But he looked desperately angry, but there was yet a little love left in his heart for me, for he laughed after he had looked at me for a minute, and took me in his arms and said some of the fine things with which he had previously won my heart, but not with the old fire and not with the old effect upon me. Yet my love had not grown cold, it had only changed from the unthinking stage to the thinking one, and I was quite in earnest when I said: 'I know I am not as pretty or as nice as the ladies you are accustomed to. But I have a heart that has never known any other passion than its love for you, and from such a heart you ought to expect a lady to grow, and there will. Only give me the chance, Crumplehorn; only let me learn to read and write.'",That Affair Next Door,0
+28,"But he was in an incredulous state of mind, and it ended in his going away without making any arrangements for my education. He was bound for San Francisco, where he had business to transact, and he promised to be back in four weeks, but before the four weeks elapsed, he wrote me that it would be five, and later on that it would be six, and afterwards that it would be when he had finished a big piece of work he was engaged upon, and which would bring him a large amount of money. I believed him and I doubted him at the same time, but I was not altogether sorry he delayed his return for I had begun school on my own account and was fast",That Affair Next Door,0
+29,Clark's Patronus Fire,That Affair Next Door,0
+30,Colin,That Affair Next Door,0
+31,Colonial woman,That Affair Next Door,1
+32,Coroner,That Affair Next Door,0
+33,Coroner Slughorn,That Affair Next Door,0
+34,Coroner's physician,That Affair Next Door,0
+35,Credence,That Affair Next Door,0
+36,Crimes,That Affair Next Door,0
+37,Crumplehorn,That Affair Next Door,1
+38,Crumplehorn Dennis,That Affair Next Door,1
+39,D'Aubigny,That Affair Next Door,0
+40,Dennis Witchcraft,That Affair Next Door,0
+41,Diagon,That Affair Next Door,0
+42,Doctor,That Affair Next Door,0
+43,Dr. Chaser,That Affair Next Door,0
+44,Dr. Platform,That Affair Next Door,0
+45,Dresden figures,That Affair Next Door,0
+46,Duane,That Affair Next Door,0
+47,Duane Street,That Affair Next Door,0
+48,EBENEZAR Crimes,That Affair Next Door,0
+49,Ebenezer Crimes,That Affair Next Door,0
+50,Ella Pansy,That Affair Next Door,1
+51,Fantastic,That Affair Next Door,1
+52,Father,That Affair Next Door,0
+53,Fenrir,That Affair Next Door,0
+54,Fenrir Wands Veela,That Affair Next Door,0
+55,Fleur,That Affair Next Door,0
+56,Franklin Wands Burnam,That Affair Next Door,1
+57,Franklin Wands Veela,That Affair Next Door,0
+58,Ginny,That Affair Next Door,1
+59,Ginny!,That Affair Next Door,0
+60,Givee tickee,That Affair Next Door,0
+61,Goblet,That Affair Next Door,0
+62,God,That Affair Next Door,0
+63,He,That Affair Next Door,0
+64,He (referring to an unnamed male witness),That Affair Next Door,0
+65,Him,That Affair Next Door,0
+66,Him (Chinaman),That Affair Next Door,0
+67,Hogwarts,That Affair Next Door,0
+68,Horace,That Affair Next Door,0
+69,Howard Wands Veela,That Affair Next Door,0
+70,I,That Affair Next Door,1
+71,If,That Affair Next Door,0
+72,Invisibility,That Affair Next Door,0
+73,It,That Affair Next Door,0
+74,J. H. Denham,That Affair Next Door,0
+75,Jacob,That Affair Next Door,0
+76,Jane Molly,That Affair Next Door,0
+77,Karkaroff Fawkes,That Affair Next Door,0
+78,Katie,That Affair Next Door,1
+79,Kreacher,That Affair Next Door,0
+80,La Mole,That Affair Next Door,0
+81,La Mole's,That Affair Next Door,0
+82,Lily,That Affair Next Door,1
+83,Luna,That Affair Next Door,0
+84,MISS Credence,That Affair Next Door,0
+85,MR.,That Affair Next Door,0
+86,MR. WANDS VEELA,That Affair Next Door,0
+87,MRS. HOWARD WANDS VEELA,That Affair Next Door,0
+88,Madam,That Affair Next Door,0
+89,Madame More,That Affair Next Door,1
+90,Michigan,That Affair Next Door,0
+91,Miss,That Affair Next Door,0
+92,Miss Acromantula,That Affair Next Door,1
+93,Miss Bludger,That Affair Next Door,0
+94,Miss Credence,That Affair Next Door,1
+95,Miss Diagon,That Affair Next Door,0
+96,Miss Goblet,That Affair Next Door,1
+97,Miss Pansy,That Affair Next Door,1
+98,Miss Pomona,That Affair Next Door,0
+99,Miss Riddle Diagon,That Affair Next Door,0
+100,Miss Snape,That Affair Next Door,0
+101,Miss Snape Credence,That Affair Next Door,0
+102,Miss Wands Veela,That Affair Next Door,0
+103,Misses Wands Veela,That Affair Next Door,1
+104,Molly,That Affair Next Door,1
+105,More's,That Affair Next Door,0
+106,Mr,That Affair Next Door,0
+107,Mr.,That Affair Next Door,0
+108,Mr. Albus,That Affair Next Door,0
+109,Mr. Albus Wands Veela,That Affair Next Door,0
+110,Mr. Artifact,That Affair Next Door,0
+111,Mr. Bludger,That Affair Next Door,0
+112,Mr. Colin,That Affair Next Door,0
+113,Mr. Crimes,That Affair Next Door,1
+114,Mr. Dennis,That Affair Next Door,1
+115,Mr. Franklin Wands Veela,That Affair Next Door,1
+116,Mr. Gryce,That Affair Next Door,1
+117,Mr. Manticore,That Affair Next Door,0
+118,Mr. Narcissa,That Affair Next Door,0
+119,Mr. Pope,That Affair Next Door,1
+120,Mr. Silas Wands Veela,That Affair Next Door,1
+121,Mr. Snidget,That Affair Next Door,0
+122,Mr. Sorting,That Affair Next Door,0
+123,Mr. Sorting Wands Veela,That Affair Next Door,1
+124,Mr. Voldemort Prince,That Affair Next Door,1
+125,Mr. Voldemort Prince of Philadelphia,That Affair Next Door,0
+126,Mr. Wands,That Affair Next Door,0
+127,Mr. Wands Veela,That Affair Next Door,1
+128,Mr. Wands Veela's,That Affair Next Door,0
+129,Mr. Wands Veela's brother,That Affair Next Door,0
+130,Mr. Wands Veela's eldest son Sorting,That Affair Next Door,0
+131,Mr. Wands Veela's father,That Affair Next Door,0
+132,Mr. Wands Veela's house,That Affair Next Door,0
+133,Mr. Wands Veela's lady,That Affair Next Door,0
+134,Mr. Witchcraft,That Affair Next Door,0
+135,Mrs. Albus Wands Veela,That Affair Next Door,1
+136,Mrs. Crimes,That Affair Next Door,1
+137,Mrs. Firebolt,That Affair Next Door,1
+138,Mrs. Hat,That Affair Next Door,1
+139,Mrs. Hat's,That Affair Next Door,0
+140,Mrs. Marauder,That Affair Next Door,1
+141,Mrs. Marauder's,That Affair Next Door,0
+142,Mrs. Pope,That Affair Next Door,0
+143,Mrs. Tina,That Affair Next Door,0
+144,Mrs. Voldemort Prince,That Affair Next Door,1
+145,Mrs. Voldemort Prince of Philadelphia,That Affair Next Door,1
+146,Mrs. Wands,That Affair Next Door,1
+147,Mrs. Wands Veela,That Affair Next Door,1
+148,Mrs. Wands Veela's husband,That Affair Next Door,0
+149,Narcissa,That Affair Next Door,1
+150,Narcissa Z----,That Affair Next Door,0
+151,Nicee lalee,That Affair Next Door,0
+152,Nicee man,That Affair Next Door,0
+153,Nimbus,That Affair Next Door,1
+154,Officer,That Affair Next Door,0
+155,Ogress,That Affair Next Door,0
+156,Padma,That Affair Next Door,1
+157,Padma Dennis,That Affair Next Door,0
+158,Pansy,That Affair Next Door,0
+159,Phoenix Goblet,That Affair Next Door,1
+160,Pletty,That Affair Next Door,0
+161,Pope,That Affair Next Door,0
+162,Pope's husband,That Affair Next Door,0
+163,Quaffle,That Affair Next Door,0
+164,R.,That Affair Next Door,0
+165,Richard Jacob,That Affair Next Door,0
+166,Richmond,That Affair Next Door,0
+167,Riddle,That Affair Next Door,1
+168,Riddle Wands Veela,That Affair Next Door,1
+169,Ruth Oliver,That Affair Next Door,1
+170,S Silas,That Affair Next Door,0
+171,School,That Affair Next Door,0
+172,She,That Affair Next Door,1
+173,Shylock,That Affair Next Door,1
+174,Silas Wands,That Affair Next Door,1
+175,Silas Wands Veela,That Affair Next Door,1
+176,Slughorn,That Affair Next Door,0
+177,Snape,That Affair Next Door,0
+178,Snape Credence,That Affair Next Door,0
+179,Snidget,That Affair Next Door,0
+180,Sorting,That Affair Next Door,1
+181,Sorting Wands Veela,That Affair Next Door,1
+182,Stern's,That Affair Next Door,0
+183,Sunday,That Affair Next Door,0
+184,Superintendent,That Affair Next Door,0
+185,Superintendent of Police,That Affair Next Door,0
+186,Susan Pomona,That Affair Next Door,0
+187,T. W. Manticore,That Affair Next Door,0
+188,TILT,That Affair Next Door,0
+189,That,That Affair Next Door,0
+190,The,That Affair Next Door,0
+191,The Coroner,That Affair Next Door,0
+192,The Lady,That Affair Next Door,1
+193,The Queen of Siam,That Affair Next Door,0
+194,The Witness,That Affair Next Door,0
+195,Triwizard,That Affair Next Door,0
+196,V.,That Affair Next Door,0
+197,Veela,That Affair Next Door,1
+198,Veela's,That Affair Next Door,0
+199,Vernon Flitwick,That Affair Next Door,0
+200,Voldemort Prince,That Affair Next Door,1
+201,WITH,That Affair Next Door,0
+202,Wands,That Affair Next Door,0
+203,Wands Deathly,That Affair Next Door,1
+204,Wands Veela,That Affair Next Door,1
+205,Wands Veela (first),That Affair Next Door,0
+206,Wands Veela (second),That Affair Next Door,1
+207,Was,That Affair Next Door,0
+208,Weasley,That Affair Next Door,0
+209,Weasley's,That Affair Next Door,0
+210,Where Hat,That Affair Next Door,0
+211,Witchcraft,That Affair Next Door,0
+212,XXVI,That Affair Next Door,0
+213,YING,That Affair Next Door,1
+214,_,That Affair Next Door,0
+215,_Acromantula_,That Affair Next Door,1
+216,_She_,That Affair Next Door,0
+217,a,That Affair Next Door,0
+218,a gentleman,That Affair Next Door,0
+219,accident,That Affair Next Door,0
+220,acromantula,That Affair Next Door,1
+221,affected,That Affair Next Door,0
+222,again,That Affair Next Door,0
+223,all,That Affair Next Door,0
+224,am,That Affair Next Door,0
+225,an,That Affair Next Door,0
+226,an official,That Affair Next Door,0
+227,and,That Affair Next Door,0
+228,answer,That Affair Next Door,0
+229,any,That Affair Next Door,0
+230,appealed,That Affair Next Door,0
+231,appearances,That Affair Next Door,0
+232,as,That Affair Next Door,0
+233,asseverations,That Affair Next Door,0
+234,at,That Affair Next Door,0
+235,attitude,That Affair Next Door,0
+236,away,That Affair Next Door,0
+237,be,That Affair Next Door,0
+238,been,That Affair Next Door,0
+239,before,That Affair Next Door,0
+240,being,That Affair Next Door,0
+241,believe,That Affair Next Door,0
+242,between,That Affair Next Door,0
+243,blind,That Affair Next Door,0
+244,blood,That Affair Next Door,0
+245,broke,That Affair Next Door,0
+246,brother,That Affair Next Door,0
+247,brought,That Affair Next Door,0
+248,bundles,That Affair Next Door,0
+249,but,That Affair Next Door,0
+250,by,That Affair Next Door,0
+251,cabinet,That Affair Next Door,0
+252,callous,That Affair Next Door,0
+253,can,That Affair Next Door,0
+254,child,That Affair Next Door,0
+255,church clock,That Affair Next Door,0
+256,closed,That Affair Next Door,0
+257,clouded,That Affair Next Door,0
+258,coincidences,That Affair Next Door,0
+259,comes,That Affair Next Door,0
+260,committed,That Affair Next Door,0
+261,could,That Affair Next Door,0
+262,courage,That Affair Next Door,0
+263,crockery,That Affair Next Door,0
+264,curiosity,That Affair Next Door,0
+265,dead,That Affair Next Door,0
+266,death,That Affair Next Door,0
+267,death-struggle,That Affair Next Door,0
+268,deceased,That Affair Next Door,1
+269,declare,That Affair Next Door,0
+270,deliberately,That Affair Next Door,0
+271,denying,That Affair Next Door,0
+272,detective,That Affair Next Door,0
+273,did,That Affair Next Door,0
+274,dignity,That Affair Next Door,0
+275,discovery,That Affair Next Door,0
+276,do,That Affair Next Door,0
+277,doctor,That Affair Next Door,0
+278,does,That Affair Next Door,0
+279,down,That Affair Next Door,0
+280,during,That Affair Next Door,0
+281,e,That Affair Next Door,0
+282,effected,That Affair Next Door,0
+283,engaged,That Affair Next Door,0
+284,entrance,That Affair Next Door,0
+285,everybody,That Affair Next Door,0
+286,evidence,That Affair Next Door,0
+287,existence,That Affair Next Door,0
+288,expression,That Affair Next Door,0
+289,eye,That Affair Next Door,0
+290,eyes,That Affair Next Door,0
+291,face,That Affair Next Door,0
+292,fact,That Affair Next Door,0
+293,fail,That Affair Next Door,0
+294,father,That Affair Next Door,0
+295,feet,That Affair Next Door,0
+296,fell,That Affair Next Door,0
+297,felt,That Affair Next Door,0
+298,few,That Affair Next Door,0
+299,fine appearance,That Affair Next Door,0
+300,fire,That Affair Next Door,0
+301,flown,That Affair Next Door,0
+302,fool,That Affair Next Door,0
+303,foot,That Affair Next Door,0
+304,for,That Affair Next Door,0
+305,found,That Affair Next Door,0
+306,four,That Affair Next Door,0
+307,free,That Affair Next Door,0
+308,from,That Affair Next Door,0
+309,gentleman,That Affair Next Door,0
+310,girls,That Affair Next Door,0
+311,had,That Affair Next Door,0
+312,han,That Affair Next Door,0
+313,hands,That Affair Next Door,0
+314,has,That Affair Next Door,0
+315,hat,That Affair Next Door,0
+316,hat-pin,That Affair Next Door,0
+317,have,That Affair Next Door,0
+318,he,That Affair Next Door,0
+319,head,That Affair Next Door,0
+320,hear,That Affair Next Door,0
+321,heard,That Affair Next Door,0
+322,her,That Affair Next Door,0
+323,her arms,That Affair Next Door,0
+324,her husband,That Affair Next Door,1
+325,here,That Affair Next Door,0
+326,herself,That Affair Next Door,0
+327,him,That Affair Next Door,0
+328,himself,That Affair Next Door,0
+329,his,That Affair Next Door,0
+330,his brother,That Affair Next Door,0
+331,his father,That Affair Next Door,0
+332,his father's house,That Affair Next Door,0
+333,his wife,That Affair Next Door,1
+334,honor,That Affair Next Door,0
+335,hours,That Affair Next Door,0
+336,how,That Affair Next Door,0
+337,husband,That Affair Next Door,0
+338,if,That Affair Next Door,0
+339,in,That Affair Next Door,0
+340,innocent-looking girls and boys,That Affair Next Door,0
+341,inquiry,That Affair Next Door,0
+342,instant,That Affair Next Door,0
+343,integrity,That Affair Next Door,0
+344,intent,That Affair Next Door,0
+345,into,That Affair Next Door,0
+346,is,That Affair Next Door,0
+347,it,That Affair Next Door,0
+348,its,That Affair Next Door,0
+349,jury,That Affair Next Door,0
+350,justice,That Affair Next Door,0
+351,kicked,That Affair Next Door,0
+352,knee,That Affair Next Door,0
+353,known,That Affair Next Door,0
+354,language,That Affair Next Door,0
+355,last,That Affair Next Door,0
+356,letter paper,That Affair Next Door,0
+357,lies,That Affair Next Door,0
+358,light,That Affair Next Door,0
+359,like,That Affair Next Door,0
+360,lips,That Affair Next Door,0
+361,ma'am,That Affair Next Door,0
+362,madam,That Affair Next Door,0
+363,man,That Affair Next Door,0
+364,many,That Affair Next Door,0
+365,may,That Affair Next Door,0
+366,me,That Affair Next Door,0
+367,might,That Affair Next Door,0
+368,minutes,That Affair Next Door,0
+369,mirror,That Affair Next Door,0
+370,more,That Affair Next Door,0
+371,most,That Affair Next Door,0
+372,move,That Affair Next Door,0
+373,much,That Affair Next Door,0
+374,murderer,That Affair Next Door,0
+375,must,That Affair Next Door,0
+376,my,That Affair Next Door,0
+377,my brother,That Affair Next Door,0
+378,my dear,That Affair Next Door,0
+379,my father,That Affair Next Door,1
+380,my husband,That Affair Next Door,1
+381,my lover,That Affair Next Door,0
+382,my next-door neighbor,That Affair Next Door,0
+383,my part,That Affair Next Door,0
+384,my patient,That Affair Next Door,0
+385,my servant-girl,That Affair Next Door,0
+386,my sisters,That Affair Next Door,0
+387,my wife,That Affair Next Door,1
+388,myself,That Affair Next Door,1
+389,never,That Affair Next Door,0
+390,next-door neighbor,That Affair Next Door,0
+391,night,That Affair Next Door,0
+392,no,That Affair Next Door,0
+393,not,That Affair Next Door,0
+394,observed,That Affair Next Door,0
+395,of,That Affair Next Door,0
+396,officer,That Affair Next Door,0
+397,oks,That Affair Next Door,0
+398,on,That Affair Next Door,0
+399,one,That Affair Next Door,1
+400,oor,That Affair Next Door,0
+401,or,That Affair Next Door,0
+402,ormulu clock,That Affair Next Door,0
+403,other,That Affair Next Door,0
+404,our,That Affair Next Door,0
+405,out,That Affair Next Door,0
+406,outbreak,That Affair Next Door,0
+407,over,That Affair Next Door,0
+408,pages,That Affair Next Door,0
+409,papa,That Affair Next Door,0
+410,parlor,That Affair Next Door,0
+411,passed,That Affair Next Door,0
+412,passing,That Affair Next Door,0
+413,passion,That Affair Next Door,0
+414,people,That Affair Next Door,0
+415,person,That Affair Next Door,0
+416,pin,That Affair Next Door,0
+417,pitiful object,That Affair Next Door,0
+418,place,That Affair Next Door,0
+419,point,That Affair Next Door,0
+420,policeman,That Affair Next Door,0
+421,policemen,That Affair Next Door,0
+422,pon,That Affair Next Door,1
+423,potent,That Affair Next Door,0
+424,present,That Affair Next Door,0
+425,probable,That Affair Next Door,0
+426,pulled,That Affair Next Door,0
+427,quietly,That Affair Next Door,0
+428,r,That Affair Next Door,0
+429,ready,That Affair Next Door,0
+430,recovered,That Affair Next Door,0
+431,register,That Affair Next Door,0
+432,reporter from the New York _World_,That Affair Next Door,0
+433,rest,That Affair Next Door,0
+434,room,That Affair Next Door,0
+435,rose,That Affair Next Door,0
+436,rs,That Affair Next Door,0
+437,said,That Affair Next Door,0
+438,sat,That Affair Next Door,0
+439,scrub-woman,That Affair Next Door,0
+440,sensible,That Affair Next Door,0
+441,shall,That Affair Next Door,0
+442,she,That Affair Next Door,1
+443,should,That Affair Next Door,0
+444,sighs,That Affair Next Door,0
+445,since,That Affair Next Door,0
+446,singularly,That Affair Next Door,0
+447,so,That Affair Next Door,0
+448,some,That Affair Next Door,0
+449,speedily,That Affair Next Door,0
+450,spine,That Affair Next Door,0
+451,still,That Affair Next Door,0
+452,stranger,That Affair Next Door,0
+453,struggle,That Affair Next Door,0
+454,subt,That Affair Next Door,0
+455,such,That Affair Next Door,0
+456,suicide,That Affair Next Door,0
+457,supper-time,That Affair Next Door,0
+458,surprise,That Affair Next Door,0
+459,taken,That Affair Next Door,0
+460,tears,That Affair Next Door,0
+461,terror,That Affair Next Door,0
+462,than,That Affair Next Door,0
+463,that,That Affair Next Door,0
+464,the,That Affair Next Door,0
+465,the Chinaman,That Affair Next Door,0
+466,the Coroner,That Affair Next Door,0
+467,the Wands Deathly,That Affair Next Door,0
+468,the bell-boy,That Affair Next Door,0
+469,the chambermaid,That Affair Next Door,0
+470,the cleaner,That Affair Next Door,0
+471,the clerk of the Hotel D----,That Affair Next Door,0
+472,the clock,That Affair Next Door,0
+473,the coachman,That Affair Next Door,0
+474,the cook,That Affair Next Door,0
+475,the dead form of the one within,That Affair Next Door,0
+476,the dead girl,That Affair Next Door,1
+477,the dead woman,That Affair Next Door,1
+478,the detective,That Affair Next Door,0
+479,the doctor,That Affair Next Door,0
+480,the driver,That Affair Next Door,0
+481,the elder brother,That Affair Next Door,0
+482,the family,That Affair Next Door,0
+483,the gentleman,That Affair Next Door,1
+484,the gentleman's wife,That Affair Next Door,0
+485,the girl,That Affair Next Door,1
+486,the girl whose dead body was shown to me,That Affair Next Door,1
+487,the good woman,That Affair Next Door,0
+488,the hackman,That Affair Next Door,0
+489,the heavier man,That Affair Next Door,0
+490,the house-cleaner,That Affair Next Door,0
+491,the jury,That Affair Next Door,0
+492,the lady,That Affair Next Door,1
+493,the latter,That Affair Next Door,0
+494,the magistrate,That Affair Next Door,0
+495,the man,That Affair Next Door,0
+496,the man (hackman),That Affair Next Door,0
+497,the man in charge,That Affair Next Door,0
+498,the mistress of the house,That Affair Next Door,0
+499,the mob of shouting boys,That Affair Next Door,0
+500,the murderer,That Affair Next Door,0
+501,the narrator,That Affair Next Door,0
+502,the nurse,That Affair Next Door,0
+503,the officer,That Affair Next Door,0
+504,the old detective,That Affair Next Door,0
+505,the old woman,That Affair Next Door,0
+506,the one,That Affair Next Door,0
+507,the one within,That Affair Next Door,1
+508,the other,That Affair Next Door,0
+509,the other gentleman,That Affair Next Door,0
+510,the policeman,That Affair Next Door,0
+511,the poor dear,That Affair Next Door,1
+512,the poor girl,That Affair Next Door,1
+513,the porter,That Affair Next Door,0
+514,the portly man,That Affair Next Door,0
+515,the rival,That Affair Next Door,0
+516,the scrub-woman,That Affair Next Door,1
+517,the so-called cleaner,That Affair Next Door,0
+518,the son,That Affair Next Door,0
+519,the sweet lady,That Affair Next Door,0
+520,the victim,That Affair Next Door,1
+521,the victim(s),That Affair Next Door,0
+522,the wary old gentleman,That Affair Next Door,0
+523,the witness,That Affair Next Door,1
+524,the woman,That Affair Next Door,1
+525,the woman (unnamed),That Affair Next Door,1
+526,the woman herself,That Affair Next Door,0
+527,the woman who was killed,That Affair Next Door,1
+528,the woman who was killed there,That Affair Next Door,0
+529,the woman whom you saw fall under a cruel stab,That Affair Next Door,1
+530,the young gentleman,That Affair Next Door,0
+531,the young girl,That Affair Next Door,0
+532,the young lady,That Affair Next Door,1
+533,the young man,That Affair Next Door,0
+534,the young person I am watching,That Affair Next Door,0
+535,the young woman,That Affair Next Door,1
+536,the young woman as you call her,That Affair Next Door,1
+537,the young woman whom I had seen enter these doors at midnight,That Affair Next Door,1
+538,them,That Affair Next Door,0
+539,theories,That Affair Next Door,0
+540,there,That Affair Next Door,0
+541,therefor,That Affair Next Door,0
+542,these,That Affair Next Door,0
+543,this,That Affair Next Door,0
+544,this young man's friend,That Affair Next Door,0
+545,thus,That Affair Next Door,0
+546,time,That Affair Next Door,0
+547,to,That Affair Next Door,0
+548,train of thought,That Affair Next Door,0
+549,truth,That Affair Next Door,0
+550,unequal,That Affair Next Door,0
+551,unexpected,That Affair Next Door,0
+552,untenable,That Affair Next Door,0
+553,upon,That Affair Next Door,0
+554,urged,That Affair Next Door,0
+555,urging,That Affair Next Door,0
+556,us,That Affair Next Door,0
+557,vehement,That Affair Next Door,0
+558,was,That Affair Next Door,0
+559,we,That Affair Next Door,0
+560,weary,That Affair Next Door,0
+561,what,That Affair Next Door,0
+562,when,That Affair Next Door,0
+563,which,That Affair Next Door,0
+564,who,That Affair Next Door,0
+565,wife,That Affair Next Door,0
+566,will,That Affair Next Door,0
+567,window,That Affair Next Door,0
+568,with,That Affair Next Door,0
+569,witness,That Affair Next Door,1
+570,woman,That Affair Next Door,1
+571,words,That Affair Next Door,0
+572,would,That Affair Next Door,0
+573,you,That Affair Next Door,0
+574,young Mr. Sorting,That Affair Next Door,0
+575,young Mrs. Wands Veela,That Affair Next Door,1
+576,young girl,That Affair Next Door,0
+577,young ladies,That Affair Next Door,0
+578,young man,That Affair Next Door,0
+579,young woman,That Affair Next Door,1
+580,your,That Affair Next Door,0
+581,your wife,That Affair Next Door,1
+582,your witness,That Affair Next Door,0
+583,yourself,That Affair Next Door,0

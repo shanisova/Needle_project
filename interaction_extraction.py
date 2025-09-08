@@ -14,6 +14,7 @@ import json
 import os
 import re
 from typing import Dict, List, Set, Tuple
+from itertools import combinations
 
 import pandas as pd
 
@@ -97,39 +98,32 @@ def chunk_text(text: str, chunk_size: int = 5000, overlap: int = 500) -> List[st
             chunks.append(chunk)
     return chunks
 
-def extract_interactions_from_text(text: str, canonical_mapping: Dict[str, str], chunk_size: int = 5000) -> List[Tuple[str, str]]:
-    """Extract interactions from text where two characters appear in the same sentence."""
-    # Split text into chunks for processing
+def extract_pair_counts_from_text(text: str, canonical_mapping: Dict[str, str], chunk_size: int = 5000) -> Dict[Tuple[str, str], int]:
+    """Count pair co-occurrences: for each sentence, count all unique character pairs present."""
     chunks = chunk_text(text, chunk_size)
     print(f"Processing {len(chunks)} chunks...")
-    
-    all_interactions = []
-    
+
+    pair_to_count: Dict[Tuple[str, str], int] = {}
+
     for i, chunk in enumerate(chunks):
-        if i % 10 == 0:  # Progress indicator
+        if i % 10 == 0:
             print(f"Processing chunk {i+1}/{len(chunks)}...")
-        
-        # Split chunk into sentences
+
         sentences = re.split(r'[.!?]+', chunk)
-        
         for sentence in sentences:
             sentence = sentence.strip()
-            if not sentence or len(sentence) < 10:  # Skip very short sentences
+            if not sentence or len(sentence) < 5:
                 continue
-            
-            # Find all character mentions in this sentence
-            characters = find_character_mentions(sentence, canonical_mapping)
-            
-            # If we have 2 or more characters, create interactions
+
+            characters = sorted(find_character_mentions(sentence, canonical_mapping))
             if len(characters) >= 2:
-                char_list = list(characters)
-                for j in range(len(char_list)):
-                    for k in range(j + 1, len(char_list)):
-                        char1, char2 = char_list[j], char_list[k]
-                        if char1 != char2:  # Avoid self-interactions
-                            all_interactions.append((char1, char2))
-    
-    return all_interactions
+                for c1, c2 in combinations(characters, 2):
+                    if c1 == c2:
+                        continue
+                    key = (c1, c2) if c1 <= c2 else (c2, c1)
+                    pair_to_count[key] = pair_to_count.get(key, 0) + 1
+
+    return pair_to_count
 
 
 
@@ -154,27 +148,29 @@ def main():
         story_text = f.read()
     print(f"Story length: {len(story_text)} characters")
     
-    # Extract interactions
-    print("Extracting interactions...")
-    interactions = extract_interactions_from_text(story_text, canonical_mapping, args.chunk_size)
-    print(f"Found {len(interactions)} interactions")
-    
-    # Convert to DataFrame
-    df = pd.DataFrame(interactions, columns=['character1', 'character2'])
-    
-    # Remove duplicates
-    df = df.drop_duplicates()
-    print(f"After deduplication: {len(df)} interactions")
-    
+    # Extract pair counts
+    print("Extracting interactions (pair counts)...")
+    pair_counts = extract_pair_counts_from_text(story_text, canonical_mapping, args.chunk_size)
+    print(f"Found {sum(pair_counts.values())} total pair mentions across sentences")
+
+    # Convert to DataFrame with counts
+    if pair_counts:
+        rows = [{"character1": a, "character2": b, "count": cnt} for (a, b), cnt in pair_counts.items()]
+        df = pd.DataFrame(rows, columns=["character1", "character2", "count"])
+        df = df.sort_values(["count", "character1", "character2"], ascending=[False, True, True])
+    else:
+        df = pd.DataFrame(columns=["character1", "character2", "count"])
+
     # Save output
     output_file = args.output or "interactions.csv"
     df.to_csv(output_file, index=False)
     print(f"Saved interactions to {output_file}")
     
     # Print some examples
-    print("\nSample interactions:")
-    for i, (char1, char2) in enumerate(interactions[:10]):
-        print(f"  {char1} <-> {char2}")
+    if not df.empty:
+        print("\nTop interactions:")
+        for _, row in df.head(10).iterrows():
+            print(f"  {row['character1']} <-> {row['character2']}  (count={int(row['count'])})")
 
 
 if __name__ == "__main__":
