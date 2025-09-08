@@ -424,7 +424,7 @@ def main():
     # Model parameters
     st.sidebar.subheader("Model Parameters")
     temperature = st.sidebar.slider("Temperature", 0.0, 2.0, 0.1, 0.1)
-    max_tokens = st.sidebar.slider("Max Tokens", 100, 2000, 800, 50)
+    max_tokens = st.sidebar.slider("Max Tokens", 100, 120000, 800, 50)
 
     # Prompt configuration
     st.sidebar.subheader("Prompt Configuration")
