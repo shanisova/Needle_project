@@ -244,52 +244,70 @@ Be generous with partial name matches but strict about identifying the right cha
                     extra_culprits=[]
                 )
 
-    def process_story_streaming(self, story_data: Dict[str, Any], prediction_placeholder, judging_placeholder,
-                                custom_prompt: str = None, custom_judging_prompt: str = None,
-                                temperature: float = 0.1, max_tokens: int = 800) -> CulpritPrediction:
-        """Process a single story with streaming output"""
+    # NEW: non-streaming structured generation for batch evaluation
+    def generate_structured(self, prompt: str, output_model: BaseModel, temperature: float = 0.1,
+                            max_tokens: int = 800):
+        """Generate a structured response without streaming (for batch runs)."""
+        try:
+            resp = ollama.generate(
+                model=self.model_name,
+                prompt=prompt,
+                format=output_model.model_json_schema(),
+                stream=False,
+                options={'temperature': temperature, 'num_predict': max_tokens}
+            )
+            text = resp.get('response', '')
+            try:
+                data = json.loads(text)
+                return output_model(**data)
+            except json.JSONDecodeError:
+                if output_model == CulpritPredictionOutput:
+                    return CulpritPredictionOutput(
+                        culprits=["Parse Error"],
+                        reasoning="Failed to parse structured response",
+                        confidence=0
+                    )
+                else:
+                    return JudgingOutput(
+                        is_correct=False,
+                        match_score=0,
+                        reasoning="Failed to parse structured response",
+                        matched_culprits=[],
+                        missed_culprits=[],
+                        extra_culprits=[]
+                    )
+        except Exception as e:
+            if output_model == CulpritPredictionOutput:
+                return CulpritPredictionOutput(
+                    culprits=["Error"],
+                    reasoning=f"Error occurred: {str(e)}",
+                    confidence=0
+                )
+            else:
+                return JudgingOutput(
+                    is_correct=False,
+                    match_score=0,
+                    reasoning=f"Error occurred during judging: {str(e)}",
+                    matched_culprits=[],
+                    missed_culprits=[],
+                    extra_culprits=[]
+                )
+
+    # NEW: non-streaming single-story processing for batch evaluation
+    def process_story(self, story_data: Dict[str, Any], custom_prompt: str = None, custom_judging_prompt: str = None,
+                      temperature: float = 0.1, max_tokens: int = 800) -> CulpritPrediction:
+        """Process a single story without streaming (used in batch evaluation)."""
         title = story_data['title']
         author = story_data['author']
         text = story_data['text']
         actual_culprits = story_data['culprit_ids']
 
-        # Truncate text if too long
         truncated_text = self.truncate_text(text)
+        pred_prompt = self.create_prompt(truncated_text, title, author, custom_prompt)
+        result = self.generate_structured(pred_prompt, CulpritPredictionOutput, temperature, max_tokens)
 
-        # Create prompt and stream prediction
-        prompt = self.create_prompt(truncated_text, title, author, custom_prompt)
-        result = self.stream_ollama_response(prompt, CulpritPredictionOutput, prediction_placeholder, temperature,
-                                             max_tokens)
-
-        # Update prediction display
-        prediction_placeholder.markdown(f"""
-        **🔍 Model Prediction:**
-        - **Predicted Culprits:** {result.culprits}
-        - **Confidence:** {result.confidence}%
-        - **Reasoning:** {result.reasoning}
-        - **Additional Suspects:** {result.additional_suspects or 'None'}
-        - **Key Evidence:** {result.key_evidence or 'None'}
-        """)
-
-        # Stream judging
-        judging_result = self.stream_ollama_response(
-            self.create_judging_prompt(result.culprits, actual_culprits, title, custom_judging_prompt),
-            JudgingOutput,
-            judging_placeholder,
-            temperature,
-            max_tokens
-        )
-
-        # Update judging display
-        judging_placeholder.markdown(f"""
-        **⚖️ Evaluation:**
-        - **Is Correct:** {'✅ Yes' if judging_result.is_correct else '❌ No'}
-        - **Match Score:** {judging_result.match_score}%
-        - **Matched Culprits:** {judging_result.matched_culprits}
-        - **Missed Culprits:** {judging_result.missed_culprits}
-        - **Extra Culprits:** {judging_result.extra_culprits}
-        - **Reasoning:** {judging_result.reasoning}
-        """)
+        judge_prompt = self.create_judging_prompt(result.culprits, actual_culprits, title, custom_judging_prompt)
+        judging_result = self.generate_structured(judge_prompt, JudgingOutput, temperature, max_tokens)
 
         return CulpritPrediction(
             story_title=title,
@@ -401,6 +419,9 @@ def main():
     # Sidebar for configuration
     st.sidebar.header("⚙️ Configuration")
 
+    # NEW: App mode
+    mode = st.sidebar.radio("App Mode", ["Interactive Analysis", "Run Evaluation"], index=0)
+
     # Model selection
     if available_models:
         current_model = st.sidebar.selectbox(
@@ -456,112 +477,182 @@ def main():
                 st.session_state.custom_judging_prompt = default_judging_prompt
                 st.rerun()
 
-    # Story selection
-    st.sidebar.subheader("Story Selection")
-    story_index = st.sidebar.selectbox(
-        "Choose a story:",
-        range(len(st.session_state.dataset)),
-        format_func=lambda x: f"{x + 1}. {st.session_state.dataset[x]['title']}"
-    )
+    # NOTE: Move story selection and interactive UI under mode check
+    if mode == "Interactive Analysis":
+        # Story selection
+        st.sidebar.subheader("Story Selection")
+        story_index = st.sidebar.selectbox(
+            "Choose a story:",
+            range(len(st.session_state.dataset)),
+            format_func=lambda x: f"{x + 1}. {st.session_state.dataset[x]['title']}"
+        )
 
-    # Get current story
-    current_story = st.session_state.dataset[story_index]
+        # Get current story
+        current_story = st.session_state.dataset[story_index]
 
-    # Main layout
-    col1, col2 = st.columns([1, 1])
+        # Main layout
+        col1, col2 = st.columns([1, 1])
 
-    with col1:
-        st.header("📚 Story")
-        st.subheader(f"Title: {current_story['title']}")
-        st.markdown(f"**Author:** {current_story['author']}")
-        st.markdown(f"**Actual Culprits:** {current_story['culprit_ids']}")
+        with col1:
+            st.header("📚 Story")
+            st.subheader(f"Title: {current_story['title']}")
+            st.markdown(f"**Author:** {current_story['author']}")
+            st.markdown(f"**Actual Culprits:** {current_story['culprit_ids']}")
 
-        # Display story text in scrollable container
-        st.markdown("**Story Text:**")
-        story_container = st.container()
-        with story_container:
-            st.markdown(
-                f'<div style="height: 600px; overflow-y: auto; padding: 10px; border: 1px solid #ddd; border-radius: 5px; background-color: #f8f9fa;">'
-                f'{current_story["text"].replace(chr(10), "<br>")}'
-                f'</div>',
-                unsafe_allow_html=True
-            )
+            # Display story text in scrollable container
+            st.markdown("**Story Text:**")
+            story_container = st.container()
+            with story_container:
+                st.markdown(
+                    f'<div style="height: 600px; overflow-y: auto; padding: 10px; border: 1px solid #ddd; border-radius: 5px; background-color: #f8f9fa;">'
+                    f'{current_story["text"].replace(chr(10), "<br>")}'
+                    f'</div>',
+                    unsafe_allow_html=True
+                )
 
-    with col2:
-        st.header("🤖 AI Analysis")
+        with col2:
+            st.header("🤖 AI Analysis")
 
-        # Current configuration display
-        with st.expander("Current Configuration", expanded=False):
+            # Current configuration display
+            with st.expander("Current Configuration", expanded=False):
+                st.markdown(f"""
+                **Model:** {current_model}
+                **Temperature:** {temperature}
+                **Max Tokens:** {max_tokens}
+                **Custom Prompts:** {'Yes' if edit_prompts else 'No (Using defaults)'}
+                """)
+
+            # Generate button
+            if st.button("🔍 Generate Analysis", type="primary", use_container_width=True):
+                # Clear previous results
+                st.session_state.pop('current_prediction', None)
+
+                # Create placeholders for streaming
+                prediction_placeholder = st.empty()
+                judging_placeholder = st.empty()
+
+                # Show loading message
+                prediction_placeholder.markdown("**🔄 Generating prediction...**")
+                judging_placeholder.markdown("**🔄 Preparing evaluation...**")
+
+                # Process story with streaming
+                try:
+                    prediction = st.session_state.detector.process_story_streaming(
+                        current_story,
+                        prediction_placeholder,
+                        judging_placeholder,
+                        custom_prompt=st.session_state.custom_detection_prompt if edit_prompts else None,
+                        custom_judging_prompt=st.session_state.custom_judging_prompt if edit_prompts else None,
+                        temperature=temperature,
+                        max_tokens=max_tokens
+                    )
+                    st.session_state.current_prediction = prediction
+
+                    # Success message
+                    st.success("✅ Analysis complete!")
+
+                except Exception as e:
+                    st.error(f"❌ Error during analysis: {e}")
+
+            # Display golden answer
+            st.markdown("---")
             st.markdown(f"""
-            **Model:** {current_model}
-            **Temperature:** {temperature}
-            **Max Tokens:** {max_tokens}
-            **Custom Prompts:** {'Yes' if edit_prompts else 'No (Using defaults)'}
+            **🎯 Golden Answer:**
+            - **Actual Culprits:** {current_story['culprit_ids']}
             """)
 
-        # Generate button
-        if st.button("🔍 Generate Analysis", type="primary", use_container_width=True):
-            # Clear previous results
-            st.session_state.pop('current_prediction', None)
+            # Show previous results if they exist
+            if 'current_prediction' in st.session_state:
+                pred = st.session_state.current_prediction
 
-            # Create placeholders for streaming
-            prediction_placeholder = st.empty()
-            judging_placeholder = st.empty()
+                st.markdown("---")
+                st.markdown("**📊 Summary:**")
 
-            # Show loading message
-            prediction_placeholder.markdown("**🔄 Generating prediction...**")
-            judging_placeholder.markdown("**🔄 Preparing evaluation...**")
+                # Status indicator
+                if pred.is_correct:
+                    st.success(f"✅ **CORRECT** (Match Score: {pred.match_score}%)")
+                else:
+                    st.error(f"❌ **INCORRECT** (Match Score: {pred.match_score}%)")
 
-            # Process story with streaming
-            try:
-                prediction = st.session_state.detector.process_story_streaming(
-                    current_story,
-                    prediction_placeholder,
-                    judging_placeholder,
-                    custom_prompt=st.session_state.custom_detection_prompt if edit_prompts else None,
-                    custom_judging_prompt=st.session_state.custom_judging_prompt if edit_prompts else None,
-                    temperature=temperature,
-                    max_tokens=max_tokens
-                )
-                st.session_state.current_prediction = prediction
+                # Metrics
+                col_a, col_b = st.columns(2)
+                with col_a:
+                    st.metric("Confidence", f"{pred.confidence}%")
+                with col_b:
+                    st.metric("Match Score", f"{pred.match_score}%")
 
-                # Success message
-                st.success("✅ Analysis complete!")
+    else:
+        # RUN EVALUATION PAGE
+        st.header("🧪 Run Evaluation")
+        st.markdown("Select one or more models and evaluate the dataset. Reports mean match score and accuracy.")
 
-            except Exception as e:
-                st.error(f"❌ Error during analysis: {e}")
+        # Model multi-select
+        available_models = st.session_state.detector.available_models or []
+        default_models = [m for m in [st.session_state.detector.model_name] if m in available_models] or (available_models[:1] if available_models else [])
+        selected_models = st.multiselect("Models to evaluate", options=available_models, default=default_models)
 
-        # Display golden answer
-        st.markdown("---")
-        st.markdown(f"""
-        **🎯 Golden Answer:**
-        - **Actual Culprits:** {current_story['culprit_ids']}
-        """)
+        # Number of stories (defaults to full dataset)
+        total_stories = len(st.session_state.dataset)
+        max_stories = st.number_input(
+            "Number of stories to evaluate",
+            min_value=1, max_value=total_stories, value=total_stories, step=1
+        )
 
-        # Show previous results if they exist
-        if 'current_prediction' in st.session_state:
-            pred = st.session_state.current_prediction
-
-            st.markdown("---")
-            st.markdown("**📊 Summary:**")
-
-            # Status indicator
-            if pred.is_correct:
-                st.success(f"✅ **CORRECT** (Match Score: {pred.match_score}%)")
+        run = st.button("▶️ Run Evaluation", type="primary", use_container_width=True)
+        if run:
+            if not selected_models:
+                st.warning("Please select at least one model.")
             else:
-                st.error(f"❌ **INCORRECT** (Match Score: {pred.match_score}%)")
+                progress = st.progress(0)
+                status = st.empty()
+                results = []
+                total_steps = len(selected_models) * max_stories
+                completed = 0
 
-            # Metrics
-            col_a, col_b = st.columns(2)
-            with col_a:
-                st.metric("Confidence", f"{pred.confidence}%")
-            with col_b:
-                st.metric("Match Score", f"{pred.match_score}%")
+                for mi, model_name in enumerate(selected_models, start=1):
+                    st.session_state.detector.update_model(model_name)
+                    scores = []
+                    correct = 0
+
+                    for i in range(int(max_stories)):
+                        story = st.session_state.dataset[i]
+                        status.markdown(f"Evaluating model {mi}/{len(selected_models)}: {model_name} — story {i+1}/{int(max_stories)}")
+                        try:
+                            pred = st.session_state.detector.process_story(
+                                story,
+                                custom_prompt=st.session_state.custom_detection_prompt if edit_prompts else None,
+                                custom_judging_prompt=st.session_state.custom_judging_prompt if edit_prompts else None,
+                                temperature=temperature,
+                                max_tokens=max_tokens
+                            )
+                            scores.append(pred.match_score)
+                            if pred.is_correct:
+                                correct += 1
+                        except Exception:
+                            # Count failure as 0 score for robustness
+                            scores.append(0)
+
+                        completed += 1
+                        progress.progress(min(1.0, completed / total_steps))
+
+                    mean_score = round(sum(scores) / len(scores), 2) if scores else 0.0
+                    accuracy_pct = round((correct / len(scores)) * 100, 2) if scores else 0.0
+
+                    results.append({
+                        "model": model_name,
+                        "mean_match_score": mean_score,
+                        "accuracy_percent": accuracy_pct
+                    })
+
+                status.markdown("✅ Evaluation complete.")
+                st.subheader("Results")
+                st.dataframe(results, use_container_width=True, hide_index=True)
 
     # Footer with model info
     st.markdown("---")
     st.markdown(
-        f"**Model:** {st.session_state.detector.model_name} | **Total Stories:** {len(st.session_state.dataset)} | **Temperature:** {temperature} | **Max Tokens:** {max_tokens}")
+        f"**Model:** {st.session_state.detector.model_name} | **Total Stories:** {len(st.session_state.dataset)} | **Temperature:** {temperature} | **Max Tokens:** {max_tokens}"
+    )
 
 
 if __name__ == "__main__":
