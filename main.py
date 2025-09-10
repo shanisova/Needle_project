@@ -8,6 +8,8 @@ from datasets import load_dataset
 from pydantic import BaseModel, Field
 import os
 import numpy as np
+import pandas as pd
+
 
 # Pure alias trope classifier
 try:
@@ -371,6 +373,46 @@ Be generous with partial name matches but make sure to identify the right charac
     return default_detection_prompt, default_judging_prompt
 
 
+def load_priority_stories():
+    """Load priority stories from CSV"""
+    try:
+        priority_df = pd.read_csv('priority_stories.csv')
+        return priority_df
+    except FileNotFoundError:
+        st.warning("Priority stories CSV not found. Using default order.")
+        return None
+
+
+def create_story_selection_options(dataset, priority_df):
+    """Create organized story selection with priorities first"""
+    story_options = []
+    story_indices = []
+    
+    if priority_df is not None:
+        # Add priority stories first (no stars)
+        for _, row in priority_df.iterrows():
+            story_idx = int(row["story_index"])
+            if story_idx < len(dataset):
+                story_title = dataset[story_idx]["title"]
+                story_options.append(story_title)
+                story_indices.append(story_idx)
+        
+        # Add remaining stories (no separator)
+        priority_indices = set(priority_df["story_index"].tolist())
+        for i in range(len(dataset)):
+            if i not in priority_indices:
+                story_title = dataset[i]["title"]
+                story_options.append(story_title)
+                story_indices.append(i)
+    else:
+        # Fallback to original format
+        for i in range(len(dataset)):
+            story_title = dataset[i]["title"]
+            story_options.append(story_title)
+            story_indices.append(i)
+    
+    return story_options, story_indices
+
 def main():
     st.set_page_config(page_title="WhoDunIt Detective", layout="wide")
 
@@ -400,6 +442,10 @@ def main():
         with st.spinner("Loading dataset..."):
             st.session_state.dataset = load_dataset("kjgpta/WhoDunIt", split="train")
             st.success(f"Loaded {len(st.session_state.dataset)} stories")
+
+    # Load priority stories
+    if 'priority_df' not in st.session_state:
+        st.session_state.priority_df = load_priority_stories()
 
     # Sidebar for configuration
     st.sidebar.header("⚙️ Configuration")
@@ -460,13 +506,109 @@ def main():
                 st.session_state.custom_judging_prompt = default_judging_prompt
                 st.rerun()
 
-    # Story selection
+    # Enhanced Story selection
     st.sidebar.subheader("Story Selection")
-    story_index = st.sidebar.selectbox(
+    
+    # Create story options with priorities
+    story_options, story_indices = create_story_selection_options(st.session_state.dataset, st.session_state.priority_df)
+    
+    selected_option = st.sidebar.selectbox(
         "Choose a story:",
-        range(len(st.session_state.dataset)),
-        format_func=lambda x: f"{x + 1}. {st.session_state.dataset[x]['title']}"
+        story_options,
+        help="story from the dataset by title"
     )
+    
+    # Get the actual story index
+    
+    selected_idx = story_options.index(selected_option)
+    story_index = story_indices[selected_idx]
+    
+
+    # Metadata-based trope analysis controls
+    st.sidebar.subheader("Pure Alias Trope Analysis")
+    enable_trope_analysis = st.sidebar.checkbox("Enable pure alias-based trope analysis", value=True)
+    trope_model_path = st.sidebar.text_input("Model file (pkl)", value="pure_alias_classifier_last_word_with_weights.pkl")
+    load_trope_model = st.sidebar.button("Load trope model")
+    
+    # Trope Dictionary Reference
+    if st.sidebar.checkbox("Show Trope Dictionary", value=False):
+        with st.sidebar.expander("📚 Complete Trope Dictionary", expanded=True):
+            try:
+                import json
+                with open('trope_categories_filtered.json', 'r') as f:
+                    trope_dict = json.load(f)
+                
+                st.write(f"**Total Categories:** {len(trope_dict)}")
+                total_tropes = sum(len(tropes) for tropes in trope_dict.values())
+                st.write(f"**Total Tropes:** {total_tropes}")
+                
+                # Show categories in alphabetical order
+                for category in sorted(trope_dict.keys()):
+                    tropes = trope_dict[category]
+                    with st.expander(f"{category.replace('_', ' ').title()} ({len(tropes)} tropes)", expanded=False):
+                        for trope in tropes:
+                            st.write(f"• {trope}")
+                            
+            except Exception as e:
+                st.sidebar.error(f"Error loading trope dictionary: {e}")
+
+    if 'trope_classifier' not in st.session_state:
+        st.session_state.trope_classifier = None
+    if 'trope_error' not in st.session_state:
+        st.session_state.trope_error = None
+
+    if load_trope_model and enable_trope_analysis:
+        st.session_state.trope_error = None
+        try:
+            if not os.path.exists(trope_model_path):
+                st.session_state.trope_error = f"File not found: {trope_model_path}. Train it via pure_alias_classifier.py."
+            else:
+                import pickle
+                with open(trope_model_path, 'rb') as f:
+                    clf = pickle.load(f)
+                # Basic API sanity checks
+                if not hasattr(clf, 'predict_all_candidates'):
+                    st.session_state.trope_error = "Loaded object is missing predict_all_candidates()"
+                else:
+                    st.session_state.trope_classifier = clf
+                    st.success("✅ Pure alias trope model loaded")
+                    
+                    # Display category weights if available
+                    if hasattr(clf, 'category_weights') and clf.category_weights:
+                        st.sidebar.subheader("🏷️ Category Weights")
+                        
+                        # Load trope dictionary
+                        trope_dict = {}
+                        try:
+                            import json
+                            with open('trope_categories_filtered.json', 'r') as f:
+                                trope_dict = json.load(f)
+                        except Exception as e:
+                            st.sidebar.warning(f"Could not load trope dictionary: {e}")
+                        
+                        sorted_weights = sorted(clf.category_weights.items(), key=lambda x: x[1], reverse=True)
+                        for category, weight in sorted_weights[:10]:  # Show top 10
+                            with st.sidebar.expander(f"{category.replace('_', ' ').title()} ({weight:.2f})", expanded=False):
+                                st.write(f"**Discriminative Weight:** {weight:.2f}")
+                                
+                                # Show tropes in this category
+                                if category in trope_dict:
+                                    st.write(f"**Tropes ({len(trope_dict[category])}):**")
+                                    tropes = trope_dict[category]
+                                    # Display tropes in a nice format
+                                    for i, trope in enumerate(tropes):
+                                        st.write(f"• {trope}")
+                                        if i >= 19:  # Show max 20 tropes
+                                            remaining = len(tropes) - 20
+                                            if remaining > 0:
+                                                st.write(f"*... and {remaining} more*")
+                                            break
+                                else:
+                                    st.write("*Tropes not found in dictionary*")
+        except Exception as e:
+            st.session_state.trope_error = str(e)
+    if st.session_state.trope_error:
+        st.sidebar.error(f"Trope model error: {st.session_state.trope_error}")
 
     # Metadata-based trope analysis controls
     st.sidebar.subheader("Pure Alias Trope Analysis")
@@ -668,10 +810,23 @@ def main():
                             best_details = None
                             
                             for cand_name, score in cand_scores.items():
-                                # Check if candidate matches culprit (exact or contains)
-                                if (culprit_name.lower() in cand_name.lower() or 
+                                # Enhanced word-based matching
+                                culprit_words = set(culprit_name.lower().split())
+                                cand_words = set(cand_name.lower().split())
+                                
+                                # Match if:
+                                # 1. Exact match
+                                # 2. Candidate is substring of culprit (e.g., "diaz" in "diaz fanning")
+                                # 3. Culprit is substring of candidate (e.g., "smith" matches "john smith")
+                                # 4. Any word overlap between culprit and candidate
+                                is_match = (
+                                    culprit_name.lower() == cand_name.lower() or
+                                    culprit_name.lower() in cand_name.lower() or
                                     cand_name.lower() in culprit_name.lower() or
-                                    culprit_name.lower() == cand_name.lower()):
+                                    len(culprit_words & cand_words) > 0  # Word overlap
+                                )
+                                
+                                if is_match:
                                     if score > best_score:
                                         best_score = score
                                         best_match = cand_name
@@ -705,11 +860,17 @@ def main():
                             culprit_names_lower = [str(c).lower().strip() for c in culprits_raw]
                             
                             for cand_name, score in cand_scores.items():
+<<<<<<< HEAD
+                                culprit_words_sets = [set(culprit_name.lower().split()) for culprit_name in culprit_names_lower]
+                                cand_words = set(cand_name.lower().split())
+                                
                                 is_culprit = any(
-                                    culprit_name.lower() in cand_name.lower() or 
+                                    culprit_name.lower() == cand_name.lower() or
+                                    culprit_name.lower() in cand_name.lower() or
                                     cand_name.lower() in culprit_name.lower() or
-                                    culprit_name.lower() == cand_name.lower()
-                                    for culprit_name in culprit_names_lower
+                                    len(culprit_words & cand_words) > 0
+                                    for culprit_name, culprit_words in zip(culprit_names_lower, culprit_words_sets)
+
                                 )
                                 if not is_culprit:
                                     non_culprit_scores.append(score)
@@ -823,12 +984,17 @@ def main():
             with col_b:
                 st.metric("Match Score", f"{pred.match_score}%")
 
-    # Footer with model info
+    # Footer with model info and story index
     st.markdown("---")
-    st.markdown(
-        f"**Model:** {st.session_state.detector.model_name} | **Total Stories:** {len(st.session_state.dataset)} | **Temperature:** {temperature} | **Max Tokens:** {max_tokens}")
+    footer_col1, footer_col2 = st.columns([3, 1])
+    
+    with footer_col1:
+        st.markdown(
+            f"**Model:** {st.session_state.detector.model_name} | **Total Stories:** {len(st.session_state.dataset)} | **Temperature:** {temperature} | **Max Tokens:** {max_tokens}")
+    
+    with footer_col2:
+        st.markdown(f"**Story Index:** {story_index}")
 
 
 if __name__ == "__main__":
     main()
-
