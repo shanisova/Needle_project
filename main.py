@@ -1234,7 +1234,7 @@ def main():
     # Graph-based analysis option
     st.sidebar.subheader("Graph-Enhanced Analysis")
     use_graph_insights = st.sidebar.checkbox("Use character graph insights", value=False, 
-                                            help="Include character network analysis in the AI prediction")
+                                            help="Include character network analysis in the AI prediction", key="graph_insights")
     
     if use_graph_insights:
         st.sidebar.markdown("📊 **Graph insights will provide:**")
@@ -1256,7 +1256,7 @@ def main():
         st.session_state.custom_judging_prompt = default_judging_prompt
 
     # Prompt editor toggle
-    edit_prompts = st.sidebar.checkbox("Edit Prompts", value=False)
+    edit_prompts = st.sidebar.checkbox("Edit Prompts", value=False, key="edit_prompts")
 
     if edit_prompts:
         with st.sidebar.expander("Detection Prompt", expanded=True):
@@ -1302,12 +1302,12 @@ def main():
 
     # Metadata-based trope analysis controls
     st.sidebar.subheader("Pure Alias Trope Analysis")
-    enable_trope_analysis = st.sidebar.checkbox("Enable pure alias-based trope analysis", value=True)
-    trope_model_path = st.sidebar.text_input("Model file (pkl)", value="pure_alias_classifier_last_word_with_weights.pkl")
-    load_trope_model = st.sidebar.button("Load trope model")
+    enable_trope_analysis = st.sidebar.checkbox("Enable pure alias-based trope analysis", value=True, key="enable_trope_analysis_1")
+    trope_model_path = st.sidebar.text_input("Model file (pkl)", value="pure_alias_classifier_last_word_with_weights.pkl", key="trope_model_path_1")
+    load_trope_model = st.sidebar.button("Load trope model", key="load_trope_model_1")
     
     # Trope Dictionary Reference
-    if st.sidebar.checkbox("Show Trope Dictionary", value=False):
+    if st.sidebar.checkbox("Show Trope Dictionary", value=False, key="show_trope_dict_1"):
         with st.sidebar.expander("📚 Complete Trope Dictionary", expanded=True):
             try:
                 import json
@@ -1388,12 +1388,12 @@ def main():
 
     # Metadata-based trope analysis controls
     st.sidebar.subheader("Pure Alias Trope Analysis")
-    enable_trope_analysis = st.sidebar.checkbox("Enable pure alias-based trope analysis", value=True)
-    trope_model_path = st.sidebar.text_input("Model file (pkl)", value="pure_alias_classifier_last_word_with_weights.pkl")
-    load_trope_model = st.sidebar.button("Load trope model")
+    enable_trope_analysis = st.sidebar.checkbox("Enable pure alias-based trope analysis", value=True, key="enable_trope_analysis_2")
+    trope_model_path = st.sidebar.text_input("Model file (pkl)", value="pure_alias_classifier_last_word_with_weights.pkl", key="trope_model_path_2")
+    load_trope_model = st.sidebar.button("Load trope model", key="load_trope_model_2")
     
     # Trope Dictionary Reference
-    if st.sidebar.checkbox("Show Trope Dictionary", value=False):
+    if st.sidebar.checkbox("Show Trope Dictionary", value=False, key="show_trope_dict_2"):
         with st.sidebar.expander("📚 Complete Trope Dictionary", expanded=True):
             try:
                 import json
@@ -1479,8 +1479,8 @@ def main():
     tab1, tab2 = st.tabs(["🔍 AI Detective", "📊 Character Graph"])
     
     with tab1:
-    # Main layout
-    col1, col2 = st.columns([1, 1])
+        # Main layout
+        col1, col2 = st.columns([1, 1])
 
     with col1:
         st.header("📚 Story")
@@ -1518,7 +1518,7 @@ def main():
                     st.markdown(graph_insights)
 
         # Generate button
-            if st.button("🔍 Generate Analysis", type="primary", width="stretch"):
+        if st.button("🔍 Generate Analysis", type="primary", width="stretch"):
             # Clear previous results
             st.session_state.pop('current_prediction', None)
 
@@ -1530,27 +1530,27 @@ def main():
             prediction_placeholder.markdown("**🔄 Generating prediction...**")
             judging_placeholder.markdown("**🔄 Preparing evaluation...**")
 
-                # Prepare prompt (enhanced with graph insights if enabled)
-                detection_prompt = st.session_state.custom_detection_prompt if edit_prompts else None
+            # Prepare prompt (enhanced with graph insights if enabled)
+            detection_prompt = st.session_state.custom_detection_prompt if edit_prompts else None
+            
+            if use_graph_insights:
+                # Get graph insights for prompt enhancement
+                graph_insights = analyze_character_metrics_for_culprits(story_index, st.session_state.dataset)
                 
-                if use_graph_insights:
-                    # Get graph insights for prompt enhancement
-                    graph_insights = analyze_character_metrics_for_culprits(story_index, st.session_state.dataset)
+                if not graph_insights.startswith("⚠️") and not graph_insights.startswith("❌"):
+                    # Create enhanced prompt with graph insights
+                    base_prompt = detection_prompt or st.session_state.detector.create_prompt(
+                        current_story['text'], current_story['title'], current_story['author']
+                    )
+                    detection_prompt = create_enhanced_prompt_with_graph_insights(
+                        base_prompt, current_story['text'], current_story['title'], 
+                        current_story['author'], graph_insights
+                    )
                     
-                    if not graph_insights.startswith("⚠️") and not graph_insights.startswith("❌"):
-                        # Create enhanced prompt with graph insights
-                        base_prompt = detection_prompt or st.session_state.detector.create_prompt(
-                            current_story['text'], current_story['title'], current_story['author']
-                        )
-                        detection_prompt = create_enhanced_prompt_with_graph_insights(
-                            base_prompt, current_story['text'], current_story['title'], 
-                            current_story['author'], graph_insights
-                        )
-                        
-                        # Show that graph insights are being used
-                        st.info("🔗 **Graph-enhanced analysis activated** - Using character network insights for better prediction")
-                    else:
-                        st.warning("⚠️ Graph insights unavailable - using standard analysis")
+                    # Show that graph insights are being used
+                    st.info("🔗 **Graph-enhanced analysis activated** - Using character network insights for better prediction")
+                else:
+                    st.warning("⚠️ Graph insights unavailable - using standard analysis")
 
             # Process story with streaming
             try:
@@ -1859,85 +1859,85 @@ def main():
 
         # Show previous results if they exist
         if 'current_prediction' in st.session_state:
-                # Add a clear results button
-                if st.button("🗑️ Clear Results", help="Clear previous prediction to run a fresh analysis"):
-                    del st.session_state.current_prediction
-                    st.rerun()
+            # Add a clear results button
+            if st.button("🗑️ Clear Results", help="Clear previous prediction to run a fresh analysis"):
+                del st.session_state.current_prediction
+                st.rerun()
             pred = st.session_state.current_prediction
 
             st.markdown("---")
-                st.markdown("**📊 Analysis Results:**")
+            st.markdown("**📊 Analysis Results:**")
 
-                # Enhanced matching with metadata translation
-                translation_results = translate_and_match_culprit_names(
-                    pred.predicted_culprits, pred.actual_culprits, story_index
-                )
+            # Enhanced matching with metadata translation
+            translation_results = translate_and_match_culprit_names(
+                pred.predicted_culprits, pred.actual_culprits, story_index
+            )
 
-                # Status indicator with enhanced matching
-                correct_matches = len(translation_results['matched_culprits'])
-                total_actual = len(pred.actual_culprits)
-                enhanced_score = (correct_matches / total_actual * 100) if total_actual > 0 else 0
+            # Status indicator with enhanced matching
+            correct_matches = len(translation_results['matched_culprits'])
+            total_actual = len(pred.actual_culprits)
+            enhanced_score = (correct_matches / total_actual * 100) if total_actual > 0 else 0
 
-                if correct_matches == total_actual and len(translation_results['extra_culprits']) == 0:
-                    st.success(f"✅ **PERFECT MATCH** (Enhanced Score: {enhanced_score:.0f}%)")
-                elif correct_matches > 0:
-                    st.warning(f"🟡 **PARTIAL MATCH** (Enhanced Score: {enhanced_score:.0f}%)")
+            if correct_matches == total_actual and len(translation_results['extra_culprits']) == 0:
+                st.success(f"✅ **PERFECT MATCH** (Enhanced Score: {enhanced_score:.0f}%)")
+            elif correct_matches > 0:
+                st.warning(f"🟡 **PARTIAL MATCH** (Enhanced Score: {enhanced_score:.0f}%)")
             else:
-                    st.error(f"❌ **NO MATCH** (Enhanced Score: {enhanced_score:.0f}%)")
+                st.error(f"❌ **NO MATCH** (Enhanced Score: {enhanced_score:.0f}%)")
 
-                # Detailed Translation Results
-                with st.expander("🔍 **Name Translation & Matching Analysis**", expanded=True):
-                    st.markdown("### 📝 **AI Predictions vs Actual Culprits:**")
-                    
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        st.markdown("**🤖 AI Predicted:**")
-                        for pred_culprit in pred.predicted_culprits:
-                            st.markdown(f"• **{pred_culprit}**")
-                    
-                    with col2:
-                        st.markdown("**🎯 Actual Culprits:**")
-                        for actual_culprit in pred.actual_culprits:
-                            st.markdown(f"• **{actual_culprit}**")
-                    
-                    if translation_results['matched_pairs']:
-                        st.markdown("### ✅ **Successful Matches:**")
-                        for pair in translation_results['matched_pairs']:
-                            if (pair['predicted_translated'] != pair['predicted'] or 
-                                pair['actual_translated'] != pair['actual']):
-                                st.markdown(
-                                    f"• **{pair['predicted']}** → *{pair['predicted_translated']}* ≈ "
-                                    f"*{pair['actual_translated']}* ← **{pair['actual']}**"
-                                )
-                            else:
-                                st.markdown(f"• **{pair['predicted']}** ≈ **{pair['actual']}** (direct match)")
-                    
-                    if translation_results['translation_notes']:
-                        st.markdown("### 📋 **Matching Details:**")
-                        for note in translation_results['translation_notes']:
-                            st.markdown(f"• {note}")
-                    
-                    st.markdown("### ⚖️ **Summary:**")
-                    if translation_results['matched_culprits']:
-                        st.markdown("**✅ Correctly Identified:**")
-                        for matched in translation_results['matched_culprits']:
-                            st.markdown(f"• **{matched}**")
-                    
-                    if translation_results['missed_culprits']:
-                        st.markdown("**❌ Missed Culprits:**")
-                        for missed in translation_results['missed_culprits']:
-                            st.markdown(f"• **{missed}**")
-                    
-                    if translation_results['extra_culprits']:
-                        st.markdown("**🚫 Incorrect Predictions:**")
-                        for extra in translation_results['extra_culprits']:
-                            st.markdown(f"• **{extra}**")
+            # Detailed Translation Results
+            with st.expander("🔍 **Name Translation & Matching Analysis**", expanded=True):
+                st.markdown("### 📝 **AI Predictions vs Actual Culprits:**")
+                
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.markdown("**🤖 AI Predicted:**")
+                    for pred_culprit in pred.predicted_culprits:
+                        st.markdown(f"• **{pred_culprit}**")
+                
+                with col2:
+                    st.markdown("**🎯 Actual Culprits:**")
+                    for actual_culprit in pred.actual_culprits:
+                        st.markdown(f"• **{actual_culprit}**")
+                
+                if translation_results['matched_pairs']:
+                    st.markdown("### ✅ **Successful Matches:**")
+                    for pair in translation_results['matched_pairs']:
+                        if (pair['predicted_translated'] != pair['predicted'] or 
+                            pair['actual_translated'] != pair['actual']):
+                            st.markdown(
+                                f"• **{pair['predicted']}** → *{pair['predicted_translated']}* ≈ "
+                                f"*{pair['actual_translated']}* ← **{pair['actual']}**"
+                            )
+                        else:
+                            st.markdown(f"• **{pair['predicted']}** ≈ **{pair['actual']}** (direct match)")
+                
+                if translation_results['translation_notes']:
+                    st.markdown("### 📋 **Matching Details:**")
+                    for note in translation_results['translation_notes']:
+                        st.markdown(f"• {note}")
+                
+                st.markdown("### ⚖️ **Summary:**")
+                if translation_results['matched_culprits']:
+                    st.markdown("**✅ Correctly Identified:**")
+                    for matched in translation_results['matched_culprits']:
+                        st.markdown(f"• **{matched}**")
+                
+                if translation_results['missed_culprits']:
+                    st.markdown("**❌ Missed Culprits:**")
+                    for missed in translation_results['missed_culprits']:
+                        st.markdown(f"• **{missed}**")
+                
+                if translation_results['extra_culprits']:
+                    st.markdown("**🚫 Incorrect Predictions:**")
+                    for extra in translation_results['extra_culprits']:
+                        st.markdown(f"• **{extra}**")
 
                 # Metrics comparison
                 col_a, col_b, col_c = st.columns(3)
-            with col_a:
+                with col_a:
                     st.metric("AI Confidence", f"{pred.confidence}%")
-            with col_b:
+                with col_b:
                     st.metric("Original Score", f"{pred.match_score}%")
                 with col_c:
                     st.metric("Enhanced Score", f"{enhanced_score:.0f}%")
@@ -2170,8 +2170,8 @@ def main():
     footer_col1, footer_col2 = st.columns([3, 1])
     
     with footer_col1:
-    st.markdown(
-        f"**Model:** {st.session_state.detector.model_name} | **Total Stories:** {len(st.session_state.dataset)} | **Temperature:** {temperature} | **Max Tokens:** {max_tokens}")
+        st.markdown(
+            f"**Model:** {st.session_state.detector.model_name} | **Total Stories:** {len(st.session_state.dataset)} | **Temperature:** {temperature} | **Max Tokens:** {max_tokens}")
     
     with footer_col2:
         st.markdown(f"**Story Index:** {story_index}")
