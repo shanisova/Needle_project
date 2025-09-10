@@ -79,6 +79,30 @@ def try_load_metadata_name_id_map(story_index: int) -> Dict[str, str]:
     return {}
 
 
+def check_name_compatibility_with_alias_rules(victim_name: str, canonical_name: str) -> bool:
+    """Check if victim_name would be grouped with canonical_name using alias_builder rules."""
+    try:
+        # Import the functions from alias_builder
+        import sys
+        import importlib.util
+        
+        # Load alias_builder module
+        spec = importlib.util.spec_from_file_location("alias_builder", "alias_builder.py")
+        alias_builder = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(alias_builder)
+        
+        # Use the same compatibility check as alias_builder
+        return alias_builder.persons_compatible(victim_name, canonical_name)
+    except Exception:
+        # Fallback to simple substring matching if import fails
+        def norm_alpha(s: str) -> str:
+            return re.sub(r"[^A-Za-z]", "", (s or "")).lower()
+        
+        victim_norm = norm_alpha(victim_name)
+        canonical_norm = norm_alpha(canonical_name)
+        return victim_norm in canonical_norm or canonical_norm in victim_norm
+
+
 def find_victims(story_dir: Path, story_title: str, story_index: int, alias_to_can: Dict[str, str], victim_list_path: Path) -> Set[str]:
     """
     Return set of canonical victim names from curated CSV keyed by story title.
@@ -143,6 +167,43 @@ def find_victims(story_dir: Path, story_title: str, story_index: int, alias_to_c
             can = alias_norm_to_can.get(key)
             if can:
                 victims_can.add(can)
+            else:
+                # Try to resolve through metadata mapping if direct alias lookup fails
+                name_id_map = try_load_metadata_name_id_map(story_index)
+                if name_id_map:
+                    # Split victim name and try to map each part
+                    victim_parts = alias.lower().split()
+                    mapped_parts = []
+                    for part in victim_parts:
+                        # Look for the part in metadata keys
+                        for meta_key, meta_value in name_id_map.items():
+                            if part == meta_key.lower():
+                                mapped_parts.append(meta_value)
+                                break
+                        else:
+                            mapped_parts.append(part)  # Keep original if no mapping found
+                    
+                    # Try to find the mapped name in aliases
+                    if mapped_parts:
+                        mapped_name = ' '.join(mapped_parts)
+                        mapped_key = norm_alpha(mapped_name)
+                        mapped_can = alias_norm_to_can.get(mapped_key)
+                        if mapped_can:
+                            victims_can.add(mapped_can)
+                        else:
+                            # Try different combinations and capitalizations
+                            for possible_name in [mapped_name, mapped_name.title(), ' '.join(mapped_parts).title()]:
+                                possible_key = norm_alpha(possible_name)
+                                possible_can = alias_norm_to_can.get(possible_key)
+                                if possible_can:
+                                    victims_can.add(possible_can)
+                                    break
+                            else:
+                                # Use alias builder matching rules to check compatibility
+                                for canonical in set(alias_to_can.values()):
+                                    if check_name_compatibility_with_alias_rules(mapped_name, canonical):
+                                        victims_can.add(canonical)
+                                        break
     except Exception:
         return victims_can
 
@@ -246,7 +307,7 @@ def main():
     interactions = load_interactions(interactions_csv)
     G = build_graph(interactions)
 
-    default_victim_csv = Path("/Users/amirtbl/Personal/Needle_project/murdered_victims_by_story_with_aliases.csv")
+    default_victim_csv = Path("/Users/amirtbl/Personal/Needle_project/victim_list.csv")
     victim_csv = Path(args.victim_list) if args.victim_list else default_victim_csv
     victims = find_victims(story_dir, story_title, args.story_index, alias_to_can, victim_csv)
     # Keep only victims present as nodes

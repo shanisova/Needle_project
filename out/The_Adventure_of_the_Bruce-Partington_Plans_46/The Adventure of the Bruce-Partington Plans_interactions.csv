@@ -1,0 +1,31 @@
+character1,character2,count
+Brother Watson,Rothiere Violet,7
+Brother Watson,Watson Violet,7
+Rothiere Violet,Watson Violet,7
+Mr. Adolph,Rothiere Violet,4
+Sir Valentine,Sir Valentine Hugo,4
+Brother Watson,Mr. Adolph,3
+Rothiere,Rothiere Violet,3
+Sherlock Hugo,Sir Valentine,2
+Sherlock Hugo,cadogan,2
+Sir Valentine,cadogan,2
+Arthur,Jove Mycroft,1
+Arthur,Louis,1
+Arthur,Mr. George Walter,1
+Brother Watson,Mr. George Walter,1
+Brother Watson,Rothiere,1
+Brother Watson,Sidney Mayer Halloa,1
+Holmes,Westbury,1
+Johnson,Mason,1
+Johnson,Rothiere Violet,1
+Jove Mycroft,Louis,1
+Jove Mycroft,Mr. George Walter,1
+Louis,Mr. George Walter,1
+Mr. Adolph,Rothiere,1
+Mr. Adolph,Watson Violet,1
+Mr. George Walter,Rothiere Violet,1
+Mr. George Walter,Sidney Mayer Halloa,1
+Mr. George Walter,Watson Violet,1
+Rothiere,Watson Violet,1
+Sidney,Sidney Mayer Halloa,1
+Sidney Mayer Halloa,Sir Valentine,1

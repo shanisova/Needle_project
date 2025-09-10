@@ -1,0 +1,11 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Bradstreet,0,0.04003209339076618,0,1,1.0
+Catherine,0,0.17669896339216146,0,4,6.0
+Catherine Jem,0,0.11465071777828621,0,2,4.0
+Cocksure,0,0.05344259526353093,0,1,1.0
+Inspector Sherlock,0,0.04130044310970501,0,1,1.0
+John Cusack,0,0.12376921838286006,0,2,4.0
+Mary Baker,0,0.14130181606727327,0,4,4.0
+Mrs. Oakshott Maggie,0,0.045026835821016624,0,1,1.0
+Mrs. Robinson,0,0.09045367884243867,0,2,2.0
+Windigate Ryder,0,0.17332363795196176,0,4,6.0

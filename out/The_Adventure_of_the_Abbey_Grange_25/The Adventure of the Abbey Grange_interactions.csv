@@ -1,0 +1,28 @@
+character1,character2,count
+Lady Randalls,Sir Randall Randalls,15
+Sir Randall,Sir Randall Randalls,4
+Theresa,Theresa Chiselhurst,3
+Watson,Watson Wright,3
+abbey,grange,3
+Brackenstall Holmes,Mr. Sherlock,2
+Inspector Stanley Hopkins,Mr. Sherlock,2
+Lady Randalls,Mr. Sherlock,2
+Mr. Sherlock,Sir Randall Randalls,2
+Brackenstall Holmes,Inspector Stanley Hopkins,1
+Dr. Sydenham,palladio,1
+Inspector Stanley Hopkins,Jack Hopkins,1
+Lady Randalls,Sir Randall,1
+Lady Randalls,Theresa,1
+Lady Randalls,Theresa Chiselhurst,1
+Lady Randalls,abbey,1
+Lady Randalls,grange,1
+Mr. Sherlock,Theresa,1
+Sir Randall Randalls,Theresa,1
+Sir Randall Randalls,Theresa Chiselhurst,1
+Sir Randall Randalls,abbey,1
+Sir Randall Randalls,grange,1
+Theresa,Watson,1
+Theresa,abbey,1
+Theresa,grange,1
+Theresa Chiselhurst,abbey,1
+Theresa Chiselhurst,grange,1

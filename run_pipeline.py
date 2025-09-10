@@ -26,16 +26,17 @@ import shlex
 def run_command(cmd, description):
     """Run a command and handle errors."""
     print(f"\n{'='*60}")
-    print(f"Running: {description}")
+    print(f"🔄 Running: {description}")
     print(f"Command: {cmd}")
     print(f"{'='*60}")
     
     try:
         # Run without capturing output so we see real-time progress
         result = subprocess.run(cmd, shell=True, check=True)
+        print(f"✅ {description} completed successfully")
         return True
     except subprocess.CalledProcessError as e:
-        print(f"ERROR running {description}:")
+        print(f"❌ ERROR running {description}:")
         print(f"Exit code: {e.returncode}")
         return False
 
@@ -76,13 +77,15 @@ def run_pipeline(story_index: int, story_name=None, skip_extract: bool = False, 
         story_name = story_title
     
     print(f"\n{'='*80}")
-    print(f"Starting pipeline for: {story_name}")
-    print(f"Story index: {story_index}")
+    print(f"🚀 Starting Character Data Collection Pipeline")
+    print(f"📖 Story: {story_name}")
+    print(f"🔢 Index: {story_index}")
     print(f"{'='*80}")
     
     # Create output directory (include index to disambiguate duplicates)
     output_dir = create_output_directory(story_name, story_index)
-    print(f"Output directory: {output_dir}")
+    print(f"📁 Output directory: {output_dir}")
+    print(f"📝 Story length: {len(story_text):,} characters")
     
     # Create temporary story file for processing
     temp_story_file = output_dir / f"{story_name}_temp.txt"
@@ -147,62 +150,8 @@ def run_pipeline(story_index: int, story_name=None, skip_extract: bool = False, 
             print("❌ Alias building failed!")
             return False
         
-        # Step 2.5: Remap alias canonical names to metadata keys (if available)
-        try:
-            print("Remapping aliases to metadata keys (if available)...")
-            dataset = load_dataset("kjgpta/WhoDunIt", split="train")
-            story = dataset[story_index]
-            meta = story.get("metadata", {})
-            if isinstance(meta, str):
-                try:
-                    meta_parsed = json.loads(meta)
-                except Exception:
-                    try:
-                        meta_parsed = ast.literal_eval(meta)
-                    except Exception:
-                        meta_parsed = {}
-                meta = meta_parsed if isinstance(meta_parsed, dict) else {}
-
-            name_id_map = meta.get("name_id_map", {}) if isinstance(meta, dict) else {}
-            if not isinstance(name_id_map, dict):
-                name_id_map = {}
-
-            def norm_key(s: str) -> str:
-                return re.sub(r"[^A-Za-z]", "", (s or "")).lower()
-
-            key_norm_map = {norm_key(k): k for k in name_id_map.keys()}
-
-            # Load current aliases mapping
-            with open(aliases_json, "r", encoding="utf-8") as f:
-                mapping = json.load(f)
-
-            remapped = {}
-            changed = 0
-            for canonical, aliases in mapping.items():
-                candidates = [canonical] + list(aliases or [])
-                matched_keys = []
-                for c in candidates:
-                    nk = norm_key(c)
-                    if nk in key_norm_map:
-                        matched_keys.append(key_norm_map[nk])
-                matched_keys = list(dict.fromkeys(matched_keys))  # dedupe, preserve order
-
-                if len(matched_keys) == 1:
-                    # Use the single matching metadata key as canonical
-                    new_can = matched_keys[0]
-                    # Keep aliases the same (surface forms)
-                    remapped[new_can] = list(aliases or [])
-                    changed += 1 if new_can != canonical else 0
-                else:
-                    # Ambiguous or no match: keep original
-                    remapped[canonical] = list(aliases or [])
-
-            with open(aliases_json, "w", encoding="utf-8") as f:
-                json.dump(remapped, f, ensure_ascii=False, indent=2)
-
-            print(f"Alias remapping complete. {changed} groups aligned to metadata keys.")
-        except Exception as e:
-            print(f"Alias remapping skipped due to error: {e}")
+        # Step 2.5: Skip alias remapping (not needed for CSV-only output)
+        print("Skipping alias remapping (CSV output only)...")
 
         # Step 3: Interaction extraction (adjusted to use CSV)
         interactions_file = output_dir / f"{story_name}_interactions.csv"
@@ -214,13 +163,14 @@ def run_pipeline(story_index: int, story_name=None, skip_extract: bool = False, 
             return False
         
         print(f"\n{'='*80}")
-        print(f"✅ Pipeline completed successfully!")
-        print(f"Output directory: {output_dir}")
-        print(f"Files created:")
-        print(f"  - Characters: {chars_file}")
-        print(f"  - Aliases (CSV): {aliases_csv}")
-        print(f"  - Interactions: {interactions_file}")
+        print(f"🎉 Character Data Collection Pipeline Completed Successfully!")
+        print(f"📁 Output directory: {output_dir}")
+        print(f"📊 Files created:")
+        print(f"  • 👥 Characters: {chars_file}")
+        print(f"  • 🔗 Aliases: {aliases_csv}")  
+        print(f"  • 📈 Interactions: {interactions_file}")
         print(f"{'='*80}")
+        print(f"✨ Ready for graph analysis and AI detective insights!")
         
         return True
         

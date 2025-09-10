@@ -1,15 +1,21 @@
 import streamlit as st
 import json
 import time
+import subprocess
+import shlex
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
+from pathlib import Path
 import ollama
 from datasets import load_dataset
 from pydantic import BaseModel, Field
 import os
 import numpy as np
 import pandas as pd
-
+import networkx as nx
+import matplotlib.pyplot as plt
+import re
+import ast
 
 # Pure alias trope classifier
 try:
@@ -413,6 +419,765 @@ def create_story_selection_options(dataset, priority_df):
     
     return story_options, story_indices
 
+
+# Character Graph Analysis Functions
+def clean_dir_name(title: str) -> str:
+    """Clean story title for directory naming."""
+    return title.replace(' ', '_').replace("'", '').replace('"', '').replace(':', '').replace(';', '')
+
+
+def run_pipeline_for_story(story_index: int, progress_callback=None) -> bool:
+    """Run the pipeline for a story and return success status."""
+    try:
+        if progress_callback:
+            progress_callback("🚀 Starting character data collection pipeline...")
+        
+        # Load story info for better progress messages
+        try:
+            dataset = load_dataset("kjgpta/WhoDunIt", split="train")
+            story_title = dataset[story_index].get("title", f"Story_{story_index}")
+            if progress_callback:
+                progress_callback(f"📖 Processing: {story_title}")
+        except:
+            story_title = f"Story {story_index}"
+        
+        if progress_callback:
+            progress_callback("🔍 Step 1/3: Starting Character Extraction...")
+        
+        # Create command
+        cmd = f"python3 run_pipeline.py {story_index} --reuse-chars"
+        
+        # Run the pipeline with real-time output
+        import threading
+        import time
+        
+        process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, 
+                                 stderr=subprocess.STDOUT, text=True, cwd=Path.cwd())
+        
+        # Variables to track progress
+        step1_started = False
+        step1_done = False
+        step2_done = False
+        step3_done = False
+        heartbeat_counter = 0
+        
+        # Function to send periodic heartbeat during long operations
+        def heartbeat_thread():
+            nonlocal heartbeat_counter
+            while process.poll() is None:
+                time.sleep(10)  # Wait 10 seconds
+                if not step1_done and step1_started and progress_callback:
+                    heartbeat_counter += 1
+                    dots = "." * ((heartbeat_counter % 4) + 1)
+                    progress_callback(f"🔍 Step 1/3: Character Extraction in progress{dots} (LLM is working, please wait)")
+        
+        # Start heartbeat thread
+        heartbeat = threading.Thread(target=heartbeat_thread, daemon=True)
+        heartbeat.start()
+        
+        # Read output line by line
+        output_lines = []
+        for line in iter(process.stdout.readline, ''):
+            line = line.strip()
+            if not line:
+                continue
+            
+            output_lines.append(line)
+            
+            if progress_callback:
+                # More detailed progress tracking
+                if "Character Extraction" in line and "Running" in line and not step1_started:
+                    progress_callback("🔍 Step 1/3: Character Extraction starting...")
+                    step1_started = True
+                elif "Character Extraction" in line and "completed" in line and not step1_done:
+                    progress_callback("✅ Step 1/3: Character Extraction completed!")
+                    step1_done = True
+                elif "Alias Building" in line and "Running" in line and not step2_done:
+                    progress_callback("🔗 Step 2/3: Alias Building in progress...")
+                elif "Alias Building" in line and "completed" in line and not step2_done:
+                    progress_callback("✅ Step 2/3: Alias Building completed!")
+                    step2_done = True
+                elif "Interaction Extraction" in line and "Running" in line and not step3_done:
+                    progress_callback("📊 Step 3/3: Interaction Analysis in progress...")
+                elif "Interaction Extraction" in line and "completed" in line and not step3_done:
+                    progress_callback("✅ Step 3/3: Interaction Analysis completed!")
+                    step3_done = True
+                elif "Pipeline Completed Successfully" in line:
+                    progress_callback("🎉 All steps completed successfully!")
+                elif "ERROR" in line or "❌" in line:
+                    progress_callback(f"⚠️ {line}")
+        
+        # Wait for process to complete
+        return_code = process.wait()
+        
+        # Create a result-like object for compatibility
+        class Result:
+            def __init__(self, returncode, stdout_lines):
+                self.returncode = returncode
+                self.stdout = '\n'.join(stdout_lines)
+                self.stderr = ''
+        
+        result = Result(return_code, output_lines)
+        
+        if result.returncode == 0:
+            if progress_callback:
+                # Parse output to provide step-by-step progress updates
+                output_lines = (result.stdout + result.stderr).split('\n')
+                step1_done = False
+                step2_done = False
+                step3_done = False
+                
+                for line in output_lines:
+                    if "Character Extraction" in line and "Running" in line and not step1_done:
+                        progress_callback("🔍 Step 1/3: Character Extraction in progress...")
+                    elif "Character Extraction" in line and "completed" in line and not step1_done:
+                        progress_callback("✅ Step 1/3: Character Extraction completed!")
+                        step1_done = True
+                    elif "Alias Building" in line and "Running" in line and not step2_done:
+                        progress_callback("🔗 Step 2/3: Alias Building in progress...")
+                    elif "Alias Building" in line and "completed" in line and not step2_done:
+                        progress_callback("✅ Step 2/3: Alias Building completed!")
+                        step2_done = True
+                    elif "Interaction Extraction" in line and "Running" in line and not step3_done:
+                        progress_callback("📊 Step 3/3: Interaction Analysis in progress...")
+                    elif "Interaction Extraction" in line and "completed" in line and not step3_done:
+                        progress_callback("✅ Step 3/3: Interaction Analysis completed!")
+                        step3_done = True
+                
+                progress_callback("🎉 All steps completed successfully!")
+                progress_callback("📊 Generated: Character list, Name aliases, Character interactions")
+            return True
+        else:
+            if progress_callback:
+                # Parse the output to provide more specific progress updates
+                output_lines = (result.stdout + result.stderr).split('\n')
+                for line in output_lines:
+                    if "Character Extraction" in line and "Running" in line:
+                        progress_callback("🔍 Step 1/3: Character Extraction in progress...")
+                    elif "Alias Building" in line and "Running" in line:
+                        progress_callback("🔗 Step 2/3: Alias Building in progress...")
+                    elif "Interaction Extraction" in line and "Running" in line:
+                        progress_callback("📊 Step 3/3: Interaction Analysis in progress...")
+                    elif "ERROR" in line.upper() or "FAILED" in line.upper():
+                        progress_callback(f"❌ Error: {line}")
+                
+                # Show final error
+                error_msg = result.stderr.strip() if result.stderr else "Unknown error"
+                progress_callback(f"❌ Pipeline failed: {error_msg}")
+            return False
+            
+    except Exception as e:
+        if progress_callback:
+            progress_callback(f"❌ Error running pipeline: {str(e)}")
+        return False
+
+
+def load_story_graph_data(story_index: int, dataset):
+    """Load graph data for a story."""
+    story = dataset[story_index]
+    story_title = story.get("title", f"Story_{story_index}")
+    
+    # Locate pipeline outputs
+    story_dir = Path("out") / f"{clean_dir_name(story_title)}_{story_index}"
+    aliases_csv = story_dir / f"{story_title}_aliases.csv"
+    interactions_csv = story_dir / f"{story_title}_interactions.csv"
+    chars_csv = story_dir / f"{story_title}_chars.csv"
+    
+    return story_title, story_dir, aliases_csv, interactions_csv, chars_csv
+
+
+def check_pipeline_outputs_exist(aliases_csv: Path, interactions_csv: Path) -> bool:
+    """Check if pipeline outputs exist."""
+    return aliases_csv.exists() and interactions_csv.exists()
+
+
+def load_alias_mapping(aliases_csv_path: Path):
+    """Load canonical->aliases and alias->canonical from CSV."""
+    if not aliases_csv_path.exists():
+        return {}, {}
+        
+    df = pd.read_csv(aliases_csv_path)
+    can_to_aliases = {}
+    alias_to_can = {}
+    
+    for _, row in df.iterrows():
+        can = str(row['canonical_name'])
+        al = str(row['alias_name']) if not (pd.isna(row['alias_name']) or row['alias_name'] == '') else None
+        can_to_aliases.setdefault(can, [])
+        if al:
+            can_to_aliases[can].append(al)
+            alias_to_can[al] = can
+        # also map canonical to itself for resolution convenience
+        alias_to_can.setdefault(can, can)
+        
+    return can_to_aliases, alias_to_can
+
+
+def check_name_compatibility_with_alias_rules(victim_name: str, canonical_name: str) -> bool:
+    """Check if victim_name would be grouped with canonical_name using alias_builder rules."""
+    try:
+        # Import the functions from alias_builder
+        import sys
+        import importlib.util
+        
+        # Load alias_builder module
+        spec = importlib.util.spec_from_file_location("alias_builder", "alias_builder.py")
+        alias_builder = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(alias_builder)
+        
+        # Use the same compatibility check as alias_builder
+        return alias_builder.persons_compatible(victim_name, canonical_name)
+    except Exception:
+        # Fallback to simple substring matching if import fails
+        def norm_alpha(s: str) -> str:
+            return re.sub(r"[^A-Za-z]", "", (s or "")).lower()
+        
+        victim_norm = norm_alpha(victim_name)
+        canonical_norm = norm_alpha(canonical_name)
+        return victim_norm in canonical_norm or canonical_norm in victim_norm
+
+
+def find_victims_from_csv(story_title: str, alias_to_can: dict, story_index: int = None) -> set:
+    """Find victims from the curated CSV file."""
+    victims_can = set()
+    curated_path = Path("victim_list.csv")
+    
+    if not curated_path.exists():
+        return victims_can
+
+    def norm_alpha(s: str) -> str:
+        return re.sub(r"[^A-Za-z]", "", (s or "")).lower()
+
+    alias_norm_to_can = {norm_alpha(a): c for a, c in alias_to_can.items()}
+    # Ensure canonicals also resolve to themselves
+    for can in set(alias_to_can.values()):
+        alias_norm_to_can.setdefault(norm_alpha(can), can)
+
+    try:
+        df = pd.read_csv(curated_path)
+        row = df.loc[df['Story'] == story_title]
+        if row.empty:
+            return victims_can
+            
+        victims_field = str(row.iloc[0].get('Victim(s)', '') or '')
+
+        def strip_brackets(text: str) -> str:
+            return re.sub(r"\s*[\(\[].*?[\)\]]\s*", " ", text).strip()
+
+        def parse_list_field(text: str) -> list:
+            t = text.strip().strip('{}')
+            parts = re.split(r"[;,]", t) if t else []
+            cleaned = []
+            for p in parts:
+                p = p.strip()
+                if not p:
+                    continue
+                p = strip_brackets(p)
+                if p:
+                    cleaned.append(p)
+            return cleaned
+
+        # Treat 'none' as no victims
+        if victims_field.strip().lower() in {'none', '', '{none}', '—', '-'}:
+            victim_aliases = []
+        else:
+            victim_aliases = parse_list_field(victims_field)
+
+        for alias in victim_aliases:
+            alias = strip_brackets(alias)
+            key = norm_alpha(alias)
+            can = alias_norm_to_can.get(key)
+            if can:
+                victims_can.add(can)
+            else:
+                # Try to resolve through metadata mapping if direct alias lookup fails
+                if story_index is not None:
+                    try:
+                        from datasets import load_dataset
+                        ds = load_dataset("kjgpta/WhoDunIt", split="train")
+                        meta = ds[story_index].get("metadata", {})
+                        if isinstance(meta, str):
+                            try:
+                                meta = json.loads(meta)
+                            except Exception:
+                                try:
+                                    meta = ast.literal_eval(meta)
+                                except Exception:
+                                    meta = {}
+                        
+                        name_id_map = meta.get('name_id_map', {}) if isinstance(meta, dict) else {}
+                        if name_id_map:
+                            # Split victim name and try to map each part
+                            victim_parts = alias.lower().split()
+                            mapped_parts = []
+                            for part in victim_parts:
+                                # Look for the part in metadata keys
+                                for meta_key, meta_value in name_id_map.items():
+                                    if part == meta_key.lower():
+                                        mapped_parts.append(meta_value)
+                                        break
+                                else:
+                                    mapped_parts.append(part)  # Keep original if no mapping found
+                            
+                            # Try to find the mapped name in aliases
+                            if mapped_parts:
+                                mapped_name = ' '.join(mapped_parts)
+                                mapped_key = norm_alpha(mapped_name)
+                                mapped_can = alias_norm_to_can.get(mapped_key)
+                                if mapped_can:
+                                    victims_can.add(mapped_can)
+                                else:
+                                    # Try different combinations and capitalizations
+                                    for possible_name in [mapped_name, mapped_name.title(), ' '.join(mapped_parts).title()]:
+                                        possible_key = norm_alpha(possible_name)
+                                        possible_can = alias_norm_to_can.get(possible_key)
+                                        if possible_can:
+                                            victims_can.add(possible_can)
+                                            break
+                                    else:
+                                        # Use alias builder matching rules to check compatibility
+                                        for canonical in set(alias_to_can.values()):
+                                            if check_name_compatibility_with_alias_rules(mapped_name, canonical):
+                                                victims_can.add(canonical)
+                                                break
+                    except Exception:
+                        pass
+                
+    except Exception:
+        pass
+
+    return victims_can
+
+
+def build_graph_from_interactions(interactions_csv: Path):
+    """Build NetworkX graph from interactions CSV."""
+    if not interactions_csv.exists():
+        return nx.Graph()
+        
+    df = pd.read_csv(interactions_csv)
+    G = nx.Graph()
+    
+    for _, row in df.iterrows():
+        a = str(row['character1'])
+        b = str(row['character2'])
+        w = int(row['count'])
+        if a == b:
+            continue
+        if G.has_edge(a, b):
+            G[a][b]['weight'] += w
+        else:
+            G.add_edge(a, b, weight=w)
+            
+    return G
+
+
+def compute_victim_connection_scores(G: nx.Graph, victims: set) -> dict:
+    """Compute connection scores to victims for each node."""
+    scores = {}
+    for node in G.nodes():
+        total = 0
+        for v in victims:
+            if G.has_edge(node, v):
+                total += int(G[node][v].get('weight', 0))
+        scores[node] = total
+    return scores
+
+
+def create_graph_plot(G: nx.Graph, victims: set, story_title: str):
+    """Create and return a matplotlib figure for the graph."""
+    fig, ax = plt.subplots(figsize=(12, 8))
+    
+    if len(G.nodes()) == 0:
+        ax.text(0.5, 0.5, 'No character interactions found', 
+                ha='center', va='center', transform=ax.transAxes, fontsize=16)
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1)
+        ax.axis('off')
+        return fig
+    
+    pos = nx.spring_layout(G, weight='weight', seed=42, k=1, iterations=50)
+    
+    # Calculate PageRank and victim connection scores
+    pagerank = nx.pagerank(G, weight='weight') if len(G) > 0 else {}
+    victim_scores = compute_victim_connection_scores(G, victims)
+    
+    # Node sizes: if victims known, use victim connection score; else use PageRank
+    sizes = []
+    if victims:
+        for n in G.nodes():
+            s = victim_scores.get(n, 0)
+            sizes.append(max(300, 100 * (1 + s)))
+    else:
+        # Scale by PageRank
+        pr_vals = [pagerank.get(n, 0.0) for n in G.nodes()]
+        max_pr = max(pr_vals) if pr_vals else 1.0
+        for n in G.nodes():
+            pr = pagerank.get(n, 0.0) / max_pr if max_pr > 0 else 0.0
+            sizes.append(max(300, 3000 * pr))
+
+    # Colors: highlight victims in red; others by PageRank (blue intensity)
+    pr_vals = [pagerank.get(n, 0.0) for n in G.nodes()]
+    max_pr = max(pr_vals) if pr_vals else 1.0
+    node_colors = []
+    for n in G.nodes():
+        if n in victims:
+            node_colors.append('#d62728')  # red
+        else:
+            pr = pagerank.get(n, 0.0) / max_pr if max_pr > 0 else 0
+            # map to light->dark blue
+            node_colors.append((0.2, 0.2, 0.8 * (0.3 + 0.7 * pr)))
+
+    # Draw nodes
+    nx.draw_networkx_nodes(G, pos, node_size=sizes, node_color=node_colors, 
+                          alpha=0.85, linewidths=1, edgecolors='black', ax=ax)
+    
+    # Edge widths by weight
+    weights = [G[e[0]][e[1]].get('weight', 1) for e in G.edges()]
+    max_w = max(weights) if weights else 1
+    scaled_w = [1 + 4 * (w / max_w) for w in weights]
+    nx.draw_networkx_edges(G, pos, width=scaled_w, alpha=0.6, ax=ax)
+    
+    # Labels
+    nx.draw_networkx_labels(G, pos, font_size=8, font_weight='bold', ax=ax)
+
+    ax.set_title(f"{story_title} - Character Interaction Graph", fontsize=14, fontweight='bold')
+    ax.axis('off')
+    
+    return fig
+
+
+def get_node_metrics(G: nx.Graph, victims: set, story_dir: Path):
+    """Get node metrics and optionally save to CSV."""
+    if len(G.nodes()) == 0:
+        return pd.DataFrame()
+        
+    pagerank = nx.pagerank(G, weight='weight')
+    victim_scores = compute_victim_connection_scores(G, victims)
+    
+    rows = []
+    for n in sorted(G.nodes()):
+        rows.append({
+            'node': n,
+            'is_victim': int(n in victims),
+            'pagerank': pagerank.get(n, 0.0),
+            'victim_connection_weight': victim_scores.get(n, 0),
+            'degree': int(G.degree(n, weight=None)),
+            'strength': float(sum(G[n][nbr].get('weight', 0) for nbr in G.neighbors(n))),
+        })
+    
+    df = pd.DataFrame(rows)
+    
+    # Save to CSV in story directory
+    metrics_csv = story_dir / "node_metrics.csv"
+    df.to_csv(metrics_csv, index=False)
+    
+    return df
+
+
+def analyze_character_metrics_for_culprits(story_index: int, dataset) -> str:
+    """Analyze character graph metrics to provide culprit insights."""
+    try:
+        # Load story data
+        story_title, story_dir, aliases_csv, interactions_csv, chars_csv = load_story_graph_data(
+            story_index, dataset
+        )
+        
+        # Check if pipeline outputs exist
+        if not check_pipeline_outputs_exist(aliases_csv, interactions_csv):
+            return "⚠️ **Graph data not available.** Run the character pipeline first in the Graph tab to enable graph-based insights."
+        
+        # Load graph data
+        can_to_aliases, alias_to_can = load_alias_mapping(aliases_csv)
+        G = build_graph_from_interactions(interactions_csv)
+        victims = find_victims_from_csv(story_title, alias_to_can, story_index)
+        
+        if len(G.nodes()) == 0:
+            return "⚠️ **No character interactions found** in the graph data."
+        
+        # Get metrics
+        df_metrics = get_node_metrics(G, victims, story_dir)
+        if df_metrics.empty:
+            return "⚠️ **No character metrics available.**"
+        
+        # Sort by different criteria for analysis
+        df_sorted = df_metrics.sort_values('pagerank', ascending=False)
+        
+        # Build insights text
+        insights = []
+        insights.append("## 📊 **Character Network Analysis**\n")
+        
+        # Victims section
+        if victims:
+            victim_list = sorted(list(victims))
+            insights.append(f"**🔴 Identified Victims:** {', '.join(victim_list)}\n")
+        else:
+            insights.append("**⚪ No victims identified** in the graph data.\n")
+        
+        # Top characters by importance
+        insights.append("### **🎯 Top Characters by Network Importance (PageRank):**")
+        top_chars = df_sorted.head(5)
+        for i, (_, row) in enumerate(top_chars.iterrows(), 1):
+            victim_indicator = "🔴" if row['is_victim'] else "🔵"
+            insights.append(
+                f"{i}. {victim_indicator} **{row['node']}** — PageRank: {row['pagerank']:.3f}, "
+                f"Connections: {int(row['degree'])}, Total Interactions: {int(row['strength'])}"
+            )
+        
+        # Victim connection analysis
+        if victims:
+            insights.append("\n### **🔗 Connections to Victims Analysis:**")
+            victim_connections = df_metrics[df_metrics['victim_connection_weight'] > 0].sort_values(
+                'victim_connection_weight', ascending=False
+            )
+            
+            if len(victim_connections) > 0:
+                insights.append("*Characters with direct interactions to victims (suspicious connections):*")
+                for i, (_, row) in enumerate(victim_connections.head(5).iterrows(), 1):
+                    connection_strength = int(row['victim_connection_weight'])
+                    strength_desc = "VERY HIGH" if connection_strength >= 10 else "HIGH" if connection_strength >= 5 else "MODERATE"
+                    insights.append(
+                        f"{i}. **{row['node']}** — {connection_strength} victim interactions ({strength_desc} connection)"
+                    )
+            else:
+                insights.append("*No direct victim connections found in the data.*")
+        
+        # Culprit candidate recommendations
+        insights.append("\n### **🕵️ Culprit Candidate Analysis:**")
+        
+        # High PageRank non-victims (influential characters)
+        high_importance = df_metrics[
+            (df_metrics['is_victim'] == 0) & 
+            (df_metrics['pagerank'] > df_metrics['pagerank'].median())
+        ].sort_values('pagerank', ascending=False)
+        
+        # Characters with victim connections (suspicious)
+        victim_connected = df_metrics[
+            (df_metrics['is_victim'] == 0) & 
+            (df_metrics['victim_connection_weight'] > 0)
+        ].sort_values('victim_connection_weight', ascending=False)
+        
+        # Well-connected characters (network hubs)
+        highly_connected = df_metrics[
+            (df_metrics['is_victim'] == 0) & 
+            (df_metrics['degree'] >= df_metrics['degree'].quantile(0.7))
+        ].sort_values('degree', ascending=False)
+        
+        insights.append("**🎯 PRIMARY SUSPECTS (Recommended focus):**")
+        
+        # Combine different criteria for recommendations
+        primary_suspects = set()
+        
+        # Add top importance characters
+        primary_suspects.update(high_importance.head(3)['node'].tolist())
+        
+        # Add characters with victim connections
+        primary_suspects.update(victim_connected.head(3)['node'].tolist())
+        
+        # Add highly connected characters
+        primary_suspects.update(highly_connected.head(2)['node'].tolist())
+        
+        if primary_suspects:
+            for i, suspect in enumerate(sorted(primary_suspects)[:5], 1):
+                suspect_data = df_metrics[df_metrics['node'] == suspect].iloc[0]
+                
+                reasons = []
+                if suspect_data['pagerank'] > df_metrics['pagerank'].median():
+                    reasons.append(f"High network importance (PageRank: {suspect_data['pagerank']:.3f})")
+                if suspect_data['victim_connection_weight'] > 0:
+                    reasons.append(f"Connected to victims ({int(suspect_data['victim_connection_weight'])} interactions)")
+                if suspect_data['degree'] >= df_metrics['degree'].quantile(0.7):
+                    reasons.append(f"Highly connected ({int(suspect_data['degree'])} different characters)")
+                
+                insights.append(f"{i}. **{suspect}** — {'; '.join(reasons)}")
+        else:
+            insights.append("*Unable to identify clear primary suspects from graph data.*")
+        
+        # Secondary considerations
+        insights.append("\n**🔍 SECONDARY CONSIDERATIONS:**")
+        
+        # Characters with medium influence
+        medium_importance = df_metrics[
+            (df_metrics['is_victim'] == 0) & 
+            (df_metrics['pagerank'] <= df_metrics['pagerank'].median()) &
+            (df_metrics['pagerank'] > df_metrics['pagerank'].quantile(0.25))
+        ].sort_values('pagerank', ascending=False)
+        
+        if len(medium_importance) > 0:
+            insights.append("*Characters with moderate network influence:*")
+            for suspect in medium_importance.head(3)['node'].tolist():
+                suspect_data = df_metrics[df_metrics['node'] == suspect].iloc[0]
+                insights.append(f"- **{suspect}** (PageRank: {suspect_data['pagerank']:.3f})")
+        
+        insights.append("\n---")
+        insights.append("**💡 Analysis Tips:**")
+        insights.append("- **High PageRank** suggests central importance in the story")
+        insights.append("- **Victim connections** may indicate motive, opportunity, or involvement")
+        insights.append("- **High connectivity** suggests active participation in events")
+        insights.append("- **Consider combining** graph insights with story context and evidence")
+        
+        return "\n".join(insights)
+        
+    except Exception as e:
+        return f"❌ **Error analyzing graph data:** {str(e)}"
+
+
+def create_enhanced_prompt_with_graph_insights(original_prompt: str, story_text: str, story_title: str, 
+                                             story_author: str, graph_insights: str) -> str:
+    """Create an enhanced prompt that includes graph-based character insights."""
+    
+    # Insert graph insights before the main analysis instructions
+    enhanced_prompt = original_prompt.replace(
+        "Your task is to analyze this mystery story",
+        f"""**ADDITIONAL CONTEXT - CHARACTER NETWORK ANALYSIS:**
+
+{graph_insights}
+
+---
+
+Your task is to analyze this mystery story"""
+    )
+    
+    # Add instruction to consider graph insights
+    enhanced_prompt = enhanced_prompt.replace(
+        "Focus on finding the actual perpetrator(s) based on evidence presented in the story.",
+        """Focus on finding the actual perpetrator(s) based on evidence presented in the story.
+
+**IMPORTANT:** Consider the character network analysis provided above. Pay special attention to:
+- Characters identified as PRIMARY SUSPECTS based on network metrics
+- Characters with high victim connections (suspicious relationships)
+- Characters with high network importance (central to the story)
+- Use this graph-based intelligence alongside story evidence for your analysis."""
+    )
+    
+    return enhanced_prompt
+
+
+def translate_and_match_culprit_names(predicted_culprits: List[str], actual_culprits: List[str], 
+                                    story_index: int) -> dict:
+    """Check if predicted and actual culprits would be grouped together using alias rules."""
+    try:
+        # Load story data for metadata
+        dataset = load_dataset("kjgpta/WhoDunIt", split="train")
+        story = dataset[story_index]
+        
+        # Get metadata for translation
+        meta = story.get("metadata", {})
+        if isinstance(meta, str):
+            try:
+                meta = json.loads(meta)
+            except Exception:
+                try:
+                    meta = ast.literal_eval(meta)
+                except Exception:
+                    meta = {}
+        
+        name_id_map = meta.get('name_id_map', {}) if isinstance(meta, dict) else {}
+        
+        # Function to translate a name using metadata
+        def translate_name_with_metadata(name: str) -> str:
+            if not name_id_map:
+                return name
+                
+            # Split name and try to map each part
+            name_parts = name.lower().split()
+            mapped_parts = []
+            for part in name_parts:
+                # Look for the part in metadata keys
+                for meta_key, meta_value in name_id_map.items():
+                    if part == meta_key.lower():
+                        mapped_parts.append(meta_value)
+                        break
+                else:
+                    mapped_parts.append(part)  # Keep original if no mapping found
+            
+            return ' '.join(mapped_parts)
+        
+        # Function to check if two names would be grouped together
+        def would_be_grouped(name1: str, name2: str) -> bool:
+            # Try direct alias builder compatibility
+            if check_name_compatibility_with_alias_rules(name1, name2):
+                return True
+            
+            # Try with metadata translation of name1
+            translated_name1 = translate_name_with_metadata(name1)
+            if translated_name1 != name1:
+                if check_name_compatibility_with_alias_rules(translated_name1, name2):
+                    return True
+            
+            # Try with metadata translation of name2
+            translated_name2 = translate_name_with_metadata(name2)
+            if translated_name2 != name2:
+                if check_name_compatibility_with_alias_rules(name1, translated_name2):
+                    return True
+            
+            # Try with both translated
+            if translated_name1 != name1 and translated_name2 != name2:
+                if check_name_compatibility_with_alias_rules(translated_name1, translated_name2):
+                    return True
+            
+            return False
+        
+        # Match predicted culprits against actual culprits
+        matched_pairs = []
+        extra_culprits = []
+        translation_notes = []
+        
+        # For each predicted culprit, try to match with any actual culprit
+        for pred_culprit in predicted_culprits:
+            matched = False
+            for actual_culprit in actual_culprits:
+                if would_be_grouped(pred_culprit, actual_culprit):
+                    matched_pairs.append({
+                        'predicted': pred_culprit,
+                        'actual': actual_culprit,
+                        'predicted_translated': translate_name_with_metadata(pred_culprit),
+                        'actual_translated': translate_name_with_metadata(actual_culprit)
+                    })
+                    
+                    # Add translation note if there was a translation
+                    pred_trans = translate_name_with_metadata(pred_culprit)
+                    actual_trans = translate_name_with_metadata(actual_culprit)
+                    
+                    if pred_trans != pred_culprit or actual_trans != actual_culprit:
+                        translation_notes.append(
+                            f"'{pred_culprit}' → '{pred_trans}' matches '{actual_culprit}' → '{actual_trans}'"
+                        )
+                    else:
+                        translation_notes.append(f"'{pred_culprit}' matches '{actual_culprit}' (direct)")
+                    
+                    matched = True
+                    break
+            
+            if not matched:
+                extra_culprits.append(pred_culprit)
+                pred_trans = translate_name_with_metadata(pred_culprit)
+                if pred_trans != pred_culprit:
+                    translation_notes.append(f"'{pred_culprit}' → '{pred_trans}' (no match found)")
+                else:
+                    translation_notes.append(f"'{pred_culprit}' (no match found)")
+        
+        # Find which actual culprits were correctly identified
+        matched_actual_culprits = [pair['actual'] for pair in matched_pairs]
+        missed_culprits = [actual for actual in actual_culprits if actual not in matched_actual_culprits]
+        
+        return {
+            'matched_pairs': matched_pairs,
+            'matched_culprits': [pair['actual'] for pair in matched_pairs],
+            'missed_culprits': missed_culprits,
+            'extra_culprits': extra_culprits,
+            'translation_notes': translation_notes
+        }
+        
+    except Exception as e:
+        return {
+            'matched_pairs': [],
+            'matched_culprits': [],
+            'missed_culprits': actual_culprits,
+            'extra_culprits': predicted_culprits,
+            'translation_notes': [f"Error in translation: {str(e)}"]
+        }
+
+
 def main():
     st.set_page_config(page_title="WhoDunIt Detective", layout="wide")
 
@@ -465,6 +1230,18 @@ def main():
     st.sidebar.subheader("Model Parameters")
     temperature = st.sidebar.slider("Temperature", 0.0, 2.0, 0.1, 0.1)
     max_tokens = st.sidebar.slider("Max Tokens", 100, 120000, 10000, 50)
+    
+    # Graph-based analysis option
+    st.sidebar.subheader("Graph-Enhanced Analysis")
+    use_graph_insights = st.sidebar.checkbox("Use character graph insights", value=False, 
+                                            help="Include character network analysis in the AI prediction")
+    
+    if use_graph_insights:
+        st.sidebar.markdown("📊 **Graph insights will provide:**")
+        st.sidebar.markdown("- Character importance (PageRank)")
+        st.sidebar.markdown("- Connections to victims") 
+        st.sidebar.markdown("- Interaction patterns")
+        st.sidebar.markdown("- Culprit candidate recommendations")
 
     # Prompt configuration
     st.sidebar.subheader("Prompt Configuration")
@@ -507,19 +1284,18 @@ def main():
                 st.rerun()
 
     # Enhanced Story selection
-    st.sidebar.subheader("Story Selection")
+    st.sidebar.subheader("📚 Story Selection")
     
     # Create story options with priorities
     story_options, story_indices = create_story_selection_options(st.session_state.dataset, st.session_state.priority_df)
     
     selected_option = st.sidebar.selectbox(
-        "Choose a story:",
+        "Choose a story for analysis:",
         story_options,
-        help="story from the dataset by title"
+        help="This story will be used in both AI Detective and Character Graph tabs"
     )
     
     # Get the actual story index
-    
     selected_idx = story_options.index(selected_option)
     story_index = story_indices[selected_idx]
     
@@ -699,6 +1475,10 @@ def main():
     # Get current story
     current_story = st.session_state.dataset[story_index]
 
+    # Create tabs for different features
+    tab1, tab2 = st.tabs(["🔍 AI Detective", "📊 Character Graph"])
+    
+    with tab1:
     # Main layout
     col1, col2 = st.columns([1, 1])
 
@@ -731,8 +1511,14 @@ def main():
             **Custom Prompts:** {'Yes' if edit_prompts else 'No (Using defaults)'}
             """)
 
+            # Graph insights display (if enabled)
+            if use_graph_insights:
+                with st.expander("📊 Character Network Insights", expanded=False):
+                    graph_insights = analyze_character_metrics_for_culprits(story_index, st.session_state.dataset)
+                    st.markdown(graph_insights)
+
         # Generate button
-        if st.button("🔍 Generate Analysis", type="primary", use_container_width=True):
+            if st.button("🔍 Generate Analysis", type="primary", width="stretch"):
             # Clear previous results
             st.session_state.pop('current_prediction', None)
 
@@ -744,13 +1530,35 @@ def main():
             prediction_placeholder.markdown("**🔄 Generating prediction...**")
             judging_placeholder.markdown("**🔄 Preparing evaluation...**")
 
+                # Prepare prompt (enhanced with graph insights if enabled)
+                detection_prompt = st.session_state.custom_detection_prompt if edit_prompts else None
+                
+                if use_graph_insights:
+                    # Get graph insights for prompt enhancement
+                    graph_insights = analyze_character_metrics_for_culprits(story_index, st.session_state.dataset)
+                    
+                    if not graph_insights.startswith("⚠️") and not graph_insights.startswith("❌"):
+                        # Create enhanced prompt with graph insights
+                        base_prompt = detection_prompt or st.session_state.detector.create_prompt(
+                            current_story['text'], current_story['title'], current_story['author']
+                        )
+                        detection_prompt = create_enhanced_prompt_with_graph_insights(
+                            base_prompt, current_story['text'], current_story['title'], 
+                            current_story['author'], graph_insights
+                        )
+                        
+                        # Show that graph insights are being used
+                        st.info("🔗 **Graph-enhanced analysis activated** - Using character network insights for better prediction")
+                    else:
+                        st.warning("⚠️ Graph insights unavailable - using standard analysis")
+
             # Process story with streaming
             try:
                 prediction = st.session_state.detector.process_story_streaming(
                     current_story,
                     prediction_placeholder,
                     judging_placeholder,
-                    custom_prompt=st.session_state.custom_detection_prompt if edit_prompts else None,
+                        custom_prompt=detection_prompt,
                     custom_judging_prompt=st.session_state.custom_judging_prompt if edit_prompts else None,
                     temperature=temperature,
                     max_tokens=max_tokens
@@ -800,15 +1608,6 @@ def main():
                             # Get all candidate scores to have context
                             cand_scores, cand_details = st.session_state.trope_classifier.predict_all_candidates(current_story)
                         
-                        culprit_results = []
-                        for culprit in culprits_raw:
-                            culprit_name = str(culprit).strip()
-                            
-                            # Find the best matching candidate for this culprit
-                            best_score = 0.0
-                            best_match = None
-                            best_details = None
-                            
                             for cand_name, score in cand_scores.items():
                                 # Enhanced word-based matching
                                 culprit_words = set(culprit_name.lower().split())
@@ -860,7 +1659,6 @@ def main():
                             culprit_names_lower = [str(c).lower().strip() for c in culprits_raw]
                             
                             for cand_name, score in cand_scores.items():
-<<<<<<< HEAD
                                 culprit_words_sets = [set(culprit_name.lower().split()) for culprit_name in culprit_names_lower]
                                 cand_words = set(cand_name.lower().split())
                                 
@@ -871,6 +1669,101 @@ def main():
                                     len(culprit_words & cand_words) > 0
                                     for culprit_name, culprit_words in zip(culprit_names_lower, culprit_words_sets)
 
+                                )
+                                if not is_culprit:
+                                    non_culprit_scores.append(score)
+                            
+                            avg_non_culprit_score = np.mean(non_culprit_scores) if non_culprit_scores else 0.0
+                            
+                            # Display metrics
+                            col1, col2, col3 = st.columns(3)
+                            with col1:
+                                st.metric("📊 Avg Culprit Score", f"{avg_culprit_score:.3f}")
+                            with col2:
+                                st.metric("📊 Avg Non-Culprit Score", f"{avg_non_culprit_score:.3f}")
+                            with col3:
+                                discrimination = avg_culprit_score / avg_non_culprit_score if avg_non_culprit_score > 0 else float('inf')
+                                st.metric("📊 Discrimination Ratio", f"{discrimination:.2f}x")
+                            
+                            # Performance assessment with discrimination context
+                            st.markdown(f"\n**🎯 Model Performance Analysis:**")
+                            if discrimination > 2.0 and avg_culprit_score > 0.6:
+                                st.success(f"🎯 Excellent! Culprits score {discrimination:.1f}x higher than non-culprits.")
+                            elif discrimination > 1.5:
+                                st.warning(f"🟡 Moderate. Culprits score {discrimination:.1f}x higher than non-culprits.")
+                            elif discrimination > 1.1:
+                                st.info(f"🔵 Weak discrimination. Culprits only score {discrimination:.1f}x higher.")
+                            else:
+                                st.error("🔴 Poor! Model may be giving high scores to everyone.")
+                            
+                            # Show score distribution info
+                            st.markdown(f"- **Total candidates:** {len(all_scores)}")
+                            st.markdown(f"- **Culprits found:** {len(valid_scores)}/{len(culprits_raw)}")
+                            st.markdown(f"- **Score range:** {min(all_scores):.3f} - {max(all_scores):.3f}")
+                        
+                        # Detailed explanations for each culprit with scores > 0
+                        if culprit_results:
+                            st.markdown("\n**🔍 Detailed Explanations:**")
+                            
+                            # Create explanation tabs for each culprit that has a score
+                            culprits_with_scores = [r for r in culprit_results if r['score'] > 0 and r['details']]
+                            
+                            if culprits_with_scores:
+                                # Create tabs for each culprit
+                                tab_names = [f"{r['culprit']} ({r['score']:.3f})" for r in culprits_with_scores]
+                                tabs = st.tabs(tab_names)
+                        culprit_results = []
+                        for culprit in culprits_raw:
+                            culprit_name = str(culprit).strip()
+                            
+                            # Find the best matching candidate for this culprit
+                            best_score = 0.0
+                            best_match = None
+                            best_details = None
+                            
+                            for cand_name, score in cand_scores.items():
+                                # Check if candidate matches culprit (exact or contains)
+                                if (culprit_name.lower() in cand_name.lower() or 
+                                    cand_name.lower() in culprit_name.lower() or
+                                    culprit_name.lower() == cand_name.lower()):
+                                    if score > best_score:
+                                        best_score = score
+                                        best_match = cand_name
+                                        best_details = cand_details.get(cand_name)
+                            
+                            culprit_results.append({
+                                'culprit': culprit_name,
+                                'score': best_score,
+                                'matched_candidate': best_match,
+                                'details': best_details
+                            })
+                        
+                        # Display culprit scores
+                        for i, result in enumerate(culprit_results, 1):
+                            if result['score'] > 0:
+                                confidence_level = "🔥 HIGH" if result['score'] > 0.8 else "🟡 MEDIUM" if result['score'] > 0.5 else "🔵 LOW"
+                                st.markdown(f"{i}. **{result['culprit']}** → {result['score']:.3f} {confidence_level}")
+                                if result['matched_candidate'] != result['culprit']:
+                                    st.markdown(f"   *Matched via: {result['matched_candidate']}*")
+                            else:
+                                st.markdown(f"{i}. **{result['culprit']}** → ❌ Not found as candidate")
+                        
+                        # Show average culprit score and accuracy metrics
+                        valid_scores = [r['score'] for r in culprit_results if r['score'] > 0]
+                        if valid_scores:
+                            avg_culprit_score = np.mean(valid_scores)
+                            
+                            # Calculate accuracy metrics - compare culprits vs all other candidates
+                            all_scores = list(cand_scores.values())
+                            non_culprit_scores = []
+                            culprit_names_lower = [str(c).lower().strip() for c in culprits_raw]
+                            
+                            for cand_name, score in cand_scores.items():
+                                is_culprit = any(
+                                    culprit_name.lower() in cand_name.lower() or 
+                                    cand_name.lower() in culprit_name.lower() or
+                                    culprit_name.lower() == cand_name.lower()
+                                    for culprit_name in culprit_names_lower
                                 )
                                 if not is_culprit:
                                     non_culprit_scores.append(score)
@@ -966,31 +1859,319 @@ def main():
 
         # Show previous results if they exist
         if 'current_prediction' in st.session_state:
+                # Add a clear results button
+                if st.button("🗑️ Clear Results", help="Clear previous prediction to run a fresh analysis"):
+                    del st.session_state.current_prediction
+                    st.rerun()
             pred = st.session_state.current_prediction
 
             st.markdown("---")
-            st.markdown("**📊 Summary:**")
+                st.markdown("**📊 Analysis Results:**")
 
-            # Status indicator
-            if pred.is_correct:
-                st.success(f"✅ **CORRECT** (Match Score: {pred.match_score}%)")
+                # Enhanced matching with metadata translation
+                translation_results = translate_and_match_culprit_names(
+                    pred.predicted_culprits, pred.actual_culprits, story_index
+                )
+
+                # Status indicator with enhanced matching
+                correct_matches = len(translation_results['matched_culprits'])
+                total_actual = len(pred.actual_culprits)
+                enhanced_score = (correct_matches / total_actual * 100) if total_actual > 0 else 0
+
+                if correct_matches == total_actual and len(translation_results['extra_culprits']) == 0:
+                    st.success(f"✅ **PERFECT MATCH** (Enhanced Score: {enhanced_score:.0f}%)")
+                elif correct_matches > 0:
+                    st.warning(f"🟡 **PARTIAL MATCH** (Enhanced Score: {enhanced_score:.0f}%)")
             else:
-                st.error(f"❌ **INCORRECT** (Match Score: {pred.match_score}%)")
+                    st.error(f"❌ **NO MATCH** (Enhanced Score: {enhanced_score:.0f}%)")
 
-            # Metrics
-            col_a, col_b = st.columns(2)
+                # Detailed Translation Results
+                with st.expander("🔍 **Name Translation & Matching Analysis**", expanded=True):
+                    st.markdown("### 📝 **AI Predictions vs Actual Culprits:**")
+                    
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        st.markdown("**🤖 AI Predicted:**")
+                        for pred_culprit in pred.predicted_culprits:
+                            st.markdown(f"• **{pred_culprit}**")
+                    
+                    with col2:
+                        st.markdown("**🎯 Actual Culprits:**")
+                        for actual_culprit in pred.actual_culprits:
+                            st.markdown(f"• **{actual_culprit}**")
+                    
+                    if translation_results['matched_pairs']:
+                        st.markdown("### ✅ **Successful Matches:**")
+                        for pair in translation_results['matched_pairs']:
+                            if (pair['predicted_translated'] != pair['predicted'] or 
+                                pair['actual_translated'] != pair['actual']):
+                                st.markdown(
+                                    f"• **{pair['predicted']}** → *{pair['predicted_translated']}* ≈ "
+                                    f"*{pair['actual_translated']}* ← **{pair['actual']}**"
+                                )
+                            else:
+                                st.markdown(f"• **{pair['predicted']}** ≈ **{pair['actual']}** (direct match)")
+                    
+                    if translation_results['translation_notes']:
+                        st.markdown("### 📋 **Matching Details:**")
+                        for note in translation_results['translation_notes']:
+                            st.markdown(f"• {note}")
+                    
+                    st.markdown("### ⚖️ **Summary:**")
+                    if translation_results['matched_culprits']:
+                        st.markdown("**✅ Correctly Identified:**")
+                        for matched in translation_results['matched_culprits']:
+                            st.markdown(f"• **{matched}**")
+                    
+                    if translation_results['missed_culprits']:
+                        st.markdown("**❌ Missed Culprits:**")
+                        for missed in translation_results['missed_culprits']:
+                            st.markdown(f"• **{missed}**")
+                    
+                    if translation_results['extra_culprits']:
+                        st.markdown("**🚫 Incorrect Predictions:**")
+                        for extra in translation_results['extra_culprits']:
+                            st.markdown(f"• **{extra}**")
+
+                # Metrics comparison
+                col_a, col_b, col_c = st.columns(3)
             with col_a:
-                st.metric("Confidence", f"{pred.confidence}%")
+                    st.metric("AI Confidence", f"{pred.confidence}%")
             with col_b:
-                st.metric("Match Score", f"{pred.match_score}%")
+                    st.metric("Original Score", f"{pred.match_score}%")
+                with col_c:
+                    st.metric("Enhanced Score", f"{enhanced_score:.0f}%")
+
+    with tab2:
+        st.header("📊 Character Interaction Analysis")
+        
+        # Use the same story selection from sidebar
+        graph_story_index = story_index
+        
+        # Load story data
+        story_title, story_dir, aliases_csv, interactions_csv, chars_csv = load_story_graph_data(
+            graph_story_index, st.session_state.dataset
+        )
+        
+        col1, col2 = st.columns([2, 1])
+        
+        with col2:
+            st.subheader("🛠️ Pipeline Controls")
+            
+            # Check if pipeline outputs exist
+            outputs_exist = check_pipeline_outputs_exist(aliases_csv, interactions_csv)
+            
+            if outputs_exist:
+                st.success("✅ Pipeline outputs found")
+                st.markdown(f"**Story:** {story_title}")
+                st.markdown(f"**Output directory:** `{story_dir}`")
+                
+                # Show file info
+                if aliases_csv.exists():
+                    aliases_df = pd.read_csv(aliases_csv)
+                    st.markdown(f"**Characters:** {len(aliases_df)} canonical names")
+                    
+                if interactions_csv.exists():
+                    interactions_df = pd.read_csv(interactions_csv)
+                    st.markdown(f"**Interactions:** {len(interactions_df)} pairs")
+            else:
+                st.warning("⚠️ Character data not found")
+                st.markdown("**What the pipeline does:**")
+                st.markdown("• 🔍 **Extract characters** from story text using AI")
+                st.markdown("• 🔗 **Build aliases** for different name variations")  
+                st.markdown("• 📊 **Analyze interactions** between characters")
+                st.markdown("• 🎯 **Identify victims** using curated data")
+                st.markdown("\n👇 **Click below to start the process**")
+            
+            # Pipeline control buttons
+            if st.button("📊 Collect Character Data & Connections", type="primary", key="run_pipeline"):
+                # Create expandable progress section
+                with st.expander("📋 Pipeline Progress", expanded=True):
+                    # Overall progress
+                    overall_progress = st.progress(0)
+                    overall_status = st.empty()
+                    
+                    # Step progress bars
+                    st.markdown("### 📊 Step Progress")
+                    
+                    # Step 1: Character Extraction
+                    step1_col1, step1_col2 = st.columns([3, 1])
+                    with step1_col1:
+                        st.markdown("🔍 **Step 1:** Character Extraction")
+                        step1_progress = st.progress(0)
+                    with step1_col2:
+                        step1_status = st.empty()
+                        step1_status.markdown("⏳ Waiting...")
+                    
+                    # Step 2: Alias Building  
+                    step2_col1, step2_col2 = st.columns([3, 1])
+                    with step2_col1:
+                        st.markdown("🔗 **Step 2:** Alias Building")
+                        step2_progress = st.progress(0)
+                    with step2_col2:
+                        step2_status = st.empty()
+                        step2_status.markdown("⏳ Waiting...")
+                    
+                    # Step 3: Interaction Extraction
+                    step3_col1, step3_col2 = st.columns([3, 1])
+                    with step3_col1:
+                        st.markdown("📊 **Step 3:** Interaction Analysis")
+                        step3_progress = st.progress(0)
+                    with step3_col2:
+                        step3_status = st.empty()
+                        step3_status.markdown("⏳ Waiting...")
+                    
+                    # Detailed logs
+                    st.markdown("### 📝 Detailed Logs")
+                    progress_placeholder = st.empty()
+                    
+                    def update_progress(msg):
+                        # Accumulate messages in session state
+                        if 'pipeline_logs' not in st.session_state:
+                            st.session_state.pipeline_logs = []
+                        st.session_state.pipeline_logs.append(msg)
+                        
+                        # Update overall status
+                        overall_status.markdown(f"**Current:** {msg}")
+                        
+                        # Update step progress based on message content
+                        if "Step 1" in msg or "Character Extraction" in msg or "Extracting character" in msg:
+                            if "starting" in msg.lower() or "step 1" in msg.lower():
+                                step1_progress.progress(0.3)
+                                step1_status.markdown("🔄 Running...")
+                                overall_progress.progress(0.1)
+                            elif "completed" in msg.lower() or "✅" in msg:
+                                step1_progress.progress(1.0)
+                                step1_status.markdown("✅ Done")
+                                overall_progress.progress(0.33)
+                        
+                        elif "Step 2" in msg or "Alias Building" in msg or "alias" in msg.lower():
+                            if "starting" in msg.lower() or "step 2" in msg.lower():
+                                step2_progress.progress(0.3)
+                                step2_status.markdown("🔄 Running...")
+                                overall_progress.progress(0.4)
+                            elif "completed" in msg.lower() or "✅" in msg:
+                                step2_progress.progress(1.0)
+                                step2_status.markdown("✅ Done")
+                                overall_progress.progress(0.66)
+                        
+                        elif "Step 3" in msg or "Interaction" in msg or "interaction" in msg.lower():
+                            if "starting" in msg.lower() or "step 3" in msg.lower():
+                                step3_progress.progress(0.3)
+                                step3_status.markdown("🔄 Running...")
+                                overall_progress.progress(0.7)
+                            elif "completed" in msg.lower() or "✅" in msg:
+                                step3_progress.progress(1.0)
+                                step3_status.markdown("✅ Done")
+                                overall_progress.progress(1.0)
+                        
+                        # Show all logs
+                        log_text = "\n".join([f"• {log}" for log in st.session_state.pipeline_logs[-10:]])  # Show last 10 messages
+                        progress_placeholder.markdown(f"```\n{log_text}\n```")
+                    
+                    # Clear previous logs
+                    st.session_state.pipeline_logs = []
+                    
+                    success = run_pipeline_for_story(graph_story_index, update_progress)
+                    
+                    if success:
+                        # Complete all progress bars
+                        overall_progress.progress(1.0)
+                        step1_progress.progress(1.0)
+                        step2_progress.progress(1.0) 
+                        step3_progress.progress(1.0)
+                        step1_status.markdown("✅ Done")
+                        step2_status.markdown("✅ Done")
+                        step3_status.markdown("✅ Done")
+                        overall_status.markdown("**Status:** 🎉 All steps completed!")
+                        
+                        st.success("✅ Character data collection completed successfully!")
+                        st.balloons()  # Celebration animation
+                        st.rerun()
+                    else:
+                        # Show failed status
+                        overall_status.markdown("**Status:** ❌ Pipeline failed")
+                        st.error("❌ Character data collection failed. Check the logs above.")
+            
+            if outputs_exist and st.button("🔄 Refresh Graph", key="refresh_graph"):
+                st.rerun()
+        
+        with col1:
+            st.subheader("🕸️ Character Interaction Graph")
+            
+            if outputs_exist:
+                try:
+                    # Load data
+                    can_to_aliases, alias_to_can = load_alias_mapping(aliases_csv)
+                    G = build_graph_from_interactions(interactions_csv)
+                    victims = find_victims_from_csv(story_title, alias_to_can, graph_story_index)
+                    
+                    if len(G.nodes()) == 0:
+                        st.warning("No character interactions found for this story.")
+                    else:
+                        # Create and display the graph
+                        fig = create_graph_plot(G, victims, story_title)
+                        st.pyplot(fig)
+                        plt.close(fig)  # Clean up to avoid memory issues
+                        
+                        # Graph statistics
+                        st.markdown("### 📈 Graph Statistics")
+                        
+                        total_nodes = len(G.nodes())
+                        total_edges = len(G.edges())
+                        total_victims = len(victims)
+                        
+                        col_stats1, col_stats2, col_stats3 = st.columns(3)
+                        with col_stats1:
+                            st.metric("Characters", total_nodes)
+                        with col_stats2:
+                            st.metric("Interactions", total_edges)
+                        with col_stats3:
+                            st.metric("Victims", total_victims)
+                        
+                        # Victims list
+                        if victims:
+                            st.markdown("**🔴 Identified Victims:**")
+                            for victim in sorted(victims):
+                                st.markdown(f"- {victim}")
+                        
+                        # Node metrics table
+                        st.markdown("### 📋 Character Metrics")
+                        
+                        df_metrics = get_node_metrics(G, victims, story_dir)
+                        if not df_metrics.empty:
+                            # Sort by PageRank descending
+                            df_display = df_metrics.sort_values('pagerank', ascending=False)
+                            
+                            # Color code the victims
+                            def highlight_victims(row):
+                                if row['is_victim'] == 1:
+                                    return ['background-color: #ffcccc'] * len(row)
+                                return [''] * len(row)
+                            
+                            styled_df = df_display.style.apply(highlight_victims, axis=1)
+                            st.dataframe(styled_df, width="stretch")
+                            
+                            st.markdown("**Legend:**")
+                            st.markdown("- 🔴 Red background = Victim")
+                            st.markdown("- **PageRank**: Importance based on network position")
+                            st.markdown("- **Victim Connection Weight**: Total interaction strength with victims")
+                            st.markdown("- **Degree**: Number of different characters interacted with")
+                            st.markdown("- **Strength**: Total interaction weight")
+                        
+                except Exception as e:
+                    st.error(f"Error creating graph: {str(e)}")
+                    st.markdown("Please check that the pipeline has completed successfully.")
+            else:
+                st.info("👆 Run the pipeline first to generate the character interaction graph.")
 
     # Footer with model info and story index
     st.markdown("---")
     footer_col1, footer_col2 = st.columns([3, 1])
     
     with footer_col1:
-        st.markdown(
-            f"**Model:** {st.session_state.detector.model_name} | **Total Stories:** {len(st.session_state.dataset)} | **Temperature:** {temperature} | **Max Tokens:** {max_tokens}")
+    st.markdown(
+        f"**Model:** {st.session_state.detector.model_name} | **Total Stories:** {len(st.session_state.dataset)} | **Temperature:** {temperature} | **Max Tokens:** {max_tokens}")
     
     with footer_col2:
         st.markdown(f"**Story Index:** {story_index}")

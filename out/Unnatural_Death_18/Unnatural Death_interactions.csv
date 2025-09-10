@@ -1,0 +1,461 @@
+character1,character2,count
+Miss Ashok Salman,Rev. Sameera Salman,117
+Gauri,Miss Chandni Naman,65
+Gauri,Miss Gauri Naman,62
+Miss Chandni Naman,Miss Gauri Naman,62
+Miss Chandni Naman,Rev. Sameera Salman,29
+Darshan Mithun,Ruchika Saira,28
+Miss Ashok Salman,Miss Chandni Naman,25
+Miss Harsh,Miss Harsh Akshay,20
+Arvind Siddharth,Miss Arvind,19
+Sidharth,Sidharth Sneha,19
+Rev. Darshan,Sir Darshan,17
+Miss Chandni Naman,Miss Harsh Akshay,16
+Nithya Ruchika,Ruchika Saira,16
+Sidharth,Sidharth Shakuntala,15
+Darshan Mithun,Nithya Ruchika,13
+Gauri,Rev. Sameera Salman,12
+Miss Chandni,Miss Chandni Naman,12
+Ayush,Darshan Mithun,11
+Gauri,Miss Ashok Salman,11
+Ayush,Ayush Mithun,10
+Ayush Mithun,Darshan Mithun,10
+Miss Akanksha,Miss Chandni Naman,10
+Miss Akanksha,Ruchika Saira,10
+Miss Arvind,Miss Chandni Naman,10
+Rev. Sameera,Rev. Sameera Salman,9
+Gauri,Miss Harsh,8
+Miss Akanksha,Nithya Ruchika,8
+Miss Gauri Naman,Rev. Sameera Salman,8
+Miss Ashok,Rev. Sameera Salman,7
+Miss Ashok Salman,Miss Gauri Naman,7
+Miss Chandni Naman,Miss Harsh,7
+Nithya Ruchika,Rev. Sameera Salman,7
+Gauri,Miss Harsh Akshay,6
+Miss Ashok,Miss Ashok Salman,6
+Rev. Darshan,Sir Darshan Manisha,6
+Sir Darshan,Sir Darshan Manisha,6
+Aditya,Rev. Sameera Salman,5
+Arvind Siddharth,Miss Rahul,5
+Arvind Siddharth,Rahul Siddharth,5
+Charu,Darshan Mithun,5
+Karisma,Sanjay,5
+Miss Akanksha,Miss Harsh,5
+Miss Akanksha,Miss Harsh Akshay,5
+Miss Ashok Salman,Nithya Ruchika,5
+Miss Ashok Salman,Sidharth,5
+Miss Chandni Naman,Nithya Ruchika,5
+Miss Gauri Naman,Miss Harsh,5
+Miss Gauri Naman,Miss Harsh Akshay,5
+Miss Rahul,Rahul Siddharth,5
+Rev. Sameera Salman,Sidharth,5
+Aditya,Aditya Salman,4
+Aditya Salman,Rev. Sameera Salman,4
+Charu,Ruchika Saira,4
+Darshan Mithun,Miss Chandni Naman,4
+Darshan Mithun,Miss Harsh Akshay,4
+Gauri,Miss Chandni,4
+Janhvi,Janhvi Irrfan,4
+Meher,Shikha,4
+Miss Arvind,Miss Ashok Salman,4
+Miss Arvind,Miss Rahul,4
+Miss Arvind,Rev. Sameera Salman,4
+Miss Ashok Salman,Miss Chandni,4
+Miss Chandni,Rev. Sameera Salman,4
+Miss Chandni Naman,Pallavi,4
+Miss Rahul,Rahul Nandita,4
+Rev. Darshan,Taapsee,4
+Arvind Siddharth,Miss Ashok Salman,3
+Arvind Siddharth,Miss Harsh Akshay,3
+Arvind Siddharth,Rev. Sameera Salman,3
+Charu,Disha,3
+Charu,Nithya Ruchika,3
+Darshan Mithun,Miss Akanksha,3
+Darshan Mithun,Rev. Darshan,3
+Darshan Mithun,Sir Darshan Manisha,3
+Disha,Miss Chandni Naman,3
+Disha,Ruchika Saira,3
+Gauri,Miss Akanksha,3
+Gauri,Rev. Sameera,3
+Gauri,Sanjay,3
+Kiran,Mr. Kiran Swara,3
+Mayank,Miss Chandni Naman,3
+Miss Akanksha,Miss Ashok Salman,3
+Miss Akanksha,Miss Gauri Naman,3
+Miss Akanksha,Mrs. Kalyani,3
+Miss Akanksha,Rev. Sameera Salman,3
+Miss Chandni Naman,Mr. Pallavi Naman,3
+Miss Chandni Naman,Mr. Simran,3
+Miss Chandni Naman,Mrs. Asha,3
+Miss Chandni Naman,Mrs. Bipasha,3
+Miss Chandni Naman,Mrs. Chiranjeevi Ruchi,3
+Miss Chandni Naman,Mrs. Shalu,3
+Miss Chandni Naman,Rev. Darshan,3
+Miss Chandni Naman,Rev. Sameera,3
+Miss Chandni Naman,Sidharth,3
+Miss Jaya,Rev. Sameera Salman,3
+Mr. Neerja,Neerja Tanushree,3
+Mr. Pallavi Naman,Pallavi,3
+Mr. Simran,Nithya Ruchika,3
+Mr. Simran,Ruchika Saira,3
+Pallavi,Sir Pallavi Aparna,3
+Rev. Darshan,Ruchika Saira,3
+Rev. Sameera Salman,Ruchika Saira,3
+Ruchika Saira,Taapsee,3
+Sir Saif,Sir Saif Ranveer,3
+Aditya,Tia,2
+Alok,Zara,2
+Anaya,Miss Vinita,2
+Anaya,Sania,2
+Arvind Siddharth,Miss Harsh,2
+Arvind Siddharth,Mr. Simran,2
+Arvind Siddharth,Rahul Nandita,2
+Ayush,Nithya Ruchika,2
+Ayush,Ruchika Saira,2
+Ayush Mithun,Nithya Ruchika,2
+Ayush Mithun,Ruchika Saira,2
+Darshan Mithun,Gauri,2
+Darshan Mithun,Miss Ashok Salman,2
+Darshan Mithun,Miss Gauri Naman,2
+Darshan Mithun,Mr. Ramya,2
+Darshan Mithun,Mrs. Asha,2
+Darshan Mithun,Parineeti,2
+Darshan Mithun,Rev. Sameera,2
+Darshan Mithun,Rev. Sameera Salman,2
+Darshan Mithun,Sir Darshan,2
+Darshan Mithun,Zeeshan,2
+Darshan Naman,Miss Chandni Naman,2
+Darshan Naman,Rev. Darshan,2
+Gauri,Mayank,2
+Janhvi Irrfan,Rev. Sameera,2
+Karisma,Nithya Ruchika,2
+Mayank,Miss Gauri Naman,2
+Miss Akanksha,Mrs. Chiranjeevi Ruchi,2
+Miss Akanksha,Pushkar,2
+Miss Akanksha,Shriman,2
+Miss Arvind,Pushkar,2
+Miss Arvind,Rahul Siddharth,2
+Miss Ashok,Miss Chandni Naman,2
+Miss Ashok Salman,Miss Jaya,2
+Miss Ashok Salman,Miss Vinita,2
+Miss Ashok Salman,Mr. Ramya,2
+Miss Ashok Salman,Mr. Simran,2
+Miss Ashok Salman,Mrs. Chiranjeevi Ruchi,2
+Miss Ashok Salman,Rev. Darshan,2
+Miss Ashok Salman,Sidharth Shakuntala,2
+Miss Chandni,Miss Gauri Naman,2
+Miss Chandni,Miss Yami,2
+Miss Chandni,Pallavi,2
+Miss Chandni Naman,Miss Jaya,2
+Miss Chandni Naman,Miss Yami,2
+Miss Chandni Naman,Ruchika Saira,2
+Miss Gauri Naman,Rev. Sameera,2
+Miss Harsh,Ruchika Saira,2
+Miss Harsh Akshay,Ruchika Saira,2
+Miss Harsh Akshay,Sonakshi,2
+Miss Jaya,Sidharth,2
+Miss Jaya,Sidharth Sneha,2
+Miss Rahul,Pushkar,2
+Miss Vinita,Rev. Sameera Salman,2
+Miss Vinita,Sania,2
+Miss Yami,Pallavi,2
+Mr. Alia,Ruchika Saira,2
+Mr. Neerja,Rev. Sameera,2
+Mr. Neerja,Ruchika Saira,2
+Mr. Ramya,Rev. Sameera Salman,2
+Mr. Simran,Rev. Sameera Salman,2
+Mr. Vipin,Rev. Sameera Salman,2
+Mr. Vipin,Roshan,2
+Mrs. Asha,Ruchika Saira,2
+Mrs. Chiranjeevi Ruchi,Rev. Sameera Salman,2
+Mrs. Kalyani,Sidharth,2
+Mrs. Kalyani,Sidharth Sneha,2
+Mrs. Mrunal,Ruchika Saira,2
+Neerja Tanushree,Ruchika Saira,2
+Nithya Ruchika,Rev. Darshan,2
+Nithya Ruchika,Taapsee,2
+Pushkar,Ruchika Saira,2
+Rahul Nandita,Rahul Siddharth,2
+Rev. Darshan,Rev. Sameera Salman,2
+Rev. Sameera,Ruchika Saira,2
+Rev. Sameera Salman,Sidharth Shakuntala,2
+Sir Hrithik,Sir Hrithik Prateek,2
+Aadil,Neha,1
+Aadil,Nithya Ruchika,1
+Abhay,Janhvi,1
+Abhay,Janhvi Irrfan,1
+Abhishek,Kuldeep,1
+Abhishek,Neeraj,1
+Aditi Anushka,Karisma,1
+Aditi Anushka,Meenal Tanushree,1
+Aditi Anushka,Ruchika Saira,1
+Aditi Anushka,Sanjay,1
+Aditya,Aditya Sameer,1
+Aditya,Gauri,1
+Aditya,Miss Chandni Naman,1
+Aditya,Miss Gauri Naman,1
+Aditya,Pushkar,1
+Aditya,Rajeev,1
+Aditya,Rev. Sameera,1
+Aditya,Ruchika Saira,1
+Aditya,Taapsee,1
+Aditya Salman,Rajeev,1
+Aditya Salman,Rev. Sameera,1
+Aditya Salman,Ruchika Saira,1
+Anil,Miss Chandni,1
+Anjali,Taapsee,1
+Anjali,Vidya,1
+Arvind Siddharth,Ayush,1
+Arvind Siddharth,Darshan Mithun,1
+Arvind Siddharth,Miss Akanksha,1
+Arvind Siddharth,Miss Ashok,1
+Arvind Siddharth,Miss Chandni Naman,1
+Arvind Siddharth,Mr. Kriti,1
+Arvind Siddharth,Mrs. Asha,1
+Arvind Siddharth,Nithya Ruchika,1
+Arvind Siddharth,Pushkar,1
+Arvind Siddharth,Ruchika Saira,1
+Arvind Siddharth,Zeeshan,1
+Ayush,Ayush Rani,1
+Ayush,Charu,1
+Ayush,Miss Chandni Naman,1
+Ayush,Miss Rahul,1
+Ayush,Miss Ronak,1
+Ayush,Mrs. Asha,1
+Ayush,Rahul Siddharth,1
+Ayush Mithun,Charu,1
+Bhavesh,Jagdeep,1
+Bhavesh,Shubham,1
+Chaitanya,Darshan Mithun,1
+Chandan,Lakshya,1
+Chandan,Ruchika Saira,1
+Charu,Rahul Nandita,1
+Charu,Sahil,1
+Charu,Taapsee,1
+Darshan Mithun,Janhvi Irrfan,1
+Darshan Mithun,Manju,1
+Darshan Mithun,Miss Arvind,1
+Darshan Mithun,Miss Harsh,1
+Darshan Mithun,Mr. Kiran Swara,1
+Darshan Mithun,Mr. Kriti,1
+Darshan Mithun,Mr. Simran,1
+Darshan Mithun,Mr. Vicky,1
+Darshan Mithun,Rakul,1
+Darshan Mithun,Sahil,1
+Darshan Mithun,Sir Hrithik,1
+Darshan Mithun,Sir Hrithik Prateek,1
+Darshan Mithun,Tanvi,1
+Darshan Naman,Miss Chandni,1
+Dharmendra,Nithya Ruchika,1
+Dharmendra,Yash,1
+Disha,Gauri,1
+Disha,Miss Arvind,1
+Disha,Rajkummar,1
+Disha,Ramesh,1
+Disha,Ranjan Aishwarya,1
+Disha,Ranjit,1
+Disha,Rev. Sameera,1
+Disha,Rev. Sameera Salman,1
+Dr. Lakshmi Pavan,Miss Ashok Salman,1
+Dr. Lakshmi Pavan,Miss Chandni Naman,1
+Dr. Lakshmi Pavan,Nithya Ruchika,1
+Dr. Lakshmi Pavan,Rev. Sameera Salman,1
+Dr. Lakshmi Pavan,Sidharth,1
+Dr. Lakshmi Pavan,Sidharth Shakuntala,1
+Ekta,Kiara,1
+Esha,Esha Muskaan,1
+Esha,Sanjay,1
+Farhan Amrita,Miss Arvind,1
+Farhan Amrita,Nithya Ruchika,1
+Gaurav,Gopika Anirudh,1
+Gaurav,Mr. Vipin,1
+Gaurav,Nithya Ruchika,1
+Gaurav,Ruchika Saira,1
+Gauri,Karisma,1
+Gauri,Keshav,1
+Gauri,Miss Ashok,1
+Gauri,Mr. Simran,1
+Gauri,Mrs. Asha,1
+Gauri,Nithya Ruchika,1
+Gauri,Pushkar,1
+Gauri,Ruchika Saira,1
+Gopika Anirudh,Nithya Ruchika,1
+Gopika Anirudh,Ruchika Saira,1
+Hema,Richa,1
+Hina Akshaye,Ruchika Saira,1
+Jagdeep,Shubham,1
+Janhvi,Miss Ashok Salman,1
+Janhvi,Miss Chandni Naman,1
+Janhvi,Rev. Sameera,1
+Janhvi,Rev. Sameera Salman,1
+Janhvi,Udita,1
+Janhvi Irrfan,Miss Ashok Salman,1
+Janhvi Irrfan,Rev. Sameera Salman,1
+Janhvi Irrfan,Soumya,1
+Juhi,Mrs. Asha,1
+Juhi,Mrs. Mrunal,1
+Juhi,Nithya Ruchika,1
+Kajol,Nithya Ruchika,1
+Karan,Nithya Ruchika,1
+Karisma,Meenal Tanushree,1
+Karisma,Ruchika Saira,1
+Keshav,Miss Chandni Naman,1
+Keshav,Miss Gauri Naman,1
+Keshav,Rev. Sameera,1
+Keshav,Rev. Sameera Salman,1
+Kiran,Rev. Darshan,1
+Kuldeep,Neeraj,1
+Lakshya,Ruchika Saira,1
+Leena,Miss Chandni Naman,1
+Madhavan,Madhavan Monali,1
+Madhavan,Miss Akanksha,1
+Madhavan,Nithya Ruchika,1
+Madhavan,Ruchika Saira,1
+Manan,Miss Harsh,1
+Manan,Pranav,1
+Manan,Rev. Darshan,1
+Manan,Ruchika Saira,1
+Manju,Nithya Ruchika,1
+Manju,Rahul Nandita,1
+Mansi,Ruchika Saira,1
+Mayank,Miss Harsh,1
+Mayank,Miss Harsh Akshay,1
+Mayank,Mrs. Chiranjeevi Ruchi,1
+Mayank,Ruchika Saira,1
+Medha,Sarika,1
+Meenal Tanushree,Ruchika Saira,1
+Meenal Tanushree,Sanjay,1
+Meher,Rev. Sameera Salman,1
+Miss Akanksha,Miss Arvind,1
+Miss Akanksha,Miss Vinita,1
+Miss Akanksha,Mr. Kiran Swara,1
+Miss Akanksha,Mr. Vipin,1
+Miss Akanksha,Rakul,1
+Miss Akanksha,Shailesh Rekha,1
+Miss Akanksha,Taapsee,1
+Miss Akanksha,Tanisha,1
+Miss Akanksha,Tarun,1
+Miss Arvind,Miss Ashok,1
+Miss Arvind,Miss Harsh,1
+Miss Arvind,Miss Harsh Akshay,1
+Miss Arvind,Mr. Alia,1
+Miss Arvind,Mr. Kriti,1
+Miss Arvind,Mr. Simran,1
+Miss Arvind,Mrs. Asha,1
+Miss Arvind,Nithya Ruchika,1
+Miss Arvind,Ramesh,1
+Miss Arvind,Ranjit,1
+Miss Arvind,Reema,1
+Miss Arvind,Ruchika Saira,1
+Miss Arvind,Udita,1
+Miss Arvind,Zeeshan,1
+Miss Ashok,Miss Chandni,1
+Miss Ashok,Miss Gauri Naman,1
+Miss Ashok,Miss Rahul,1
+Miss Ashok,Miss Yami,1
+Miss Ashok,Mr. Neerja,1
+Miss Ashok,Mr. Ramya,1
+Miss Ashok,Mr. Vipin,1
+Miss Ashok,Rahul Siddharth,1
+Miss Ashok Salman,Miss Rahul,1
+Miss Ashok Salman,Mr. Kareena,1
+Miss Ashok Salman,Mr. Kriti,1
+Miss Ashok Salman,Mr. Neerja,1
+Miss Ashok Salman,Rahul Siddharth,1
+Miss Ashok Salman,Rev. Sameera,1
+Miss Ashok Salman,Ruchika Saira,1
+Miss Ashok Salman,Sidharth Sneha,1
+Miss Chandni,Mr. Pallavi Naman,1
+Miss Chandni,Nithya Ruchika,1
+Miss Chandni,Rev. Darshan,1
+Miss Chandni Naman,Miss Rahul,1
+Miss Chandni Naman,Mr. Kriti,1
+Miss Chandni Naman,Pushkar,1
+Miss Chandni Naman,Rahul Nandita,1
+Miss Chandni Naman,Ramesh,1
+Miss Chandni Naman,Ranjit,1
+Miss Chandni Naman,Reema,1
+Miss Chandni Naman,Sidharth Shakuntala,1
+Miss Chandni Naman,Sidharth Sneha,1
+Miss Chandni Naman,Sonakshi,1
+Miss Gauri Naman,Mr. Simran,1
+Miss Gauri Naman,Mrs. Asha,1
+Miss Gauri Naman,Nithya Ruchika,1
+Miss Gauri Naman,Pushkar,1
+Miss Harsh,Mr. Kiran Swara,1
+Miss Harsh Akshay,Mrs. Asha,1
+Miss Harsh Akshay,Nithya Ruchika,1
+Miss Harsh Akshay,Sir Darshan Manisha,1
+Miss Harsh Akshay,Taapsee,1
+Miss Jaya,Mrs. Kalyani,1
+Miss Jaya,Raghav,1
+Miss Rahul,Rev. Sameera Salman,1
+Miss Rahul,Sidharth,1
+Miss Vinita,Rev. Sameera,1
+Miss Yami,Mr. Vipin,1
+Miss Yami,Vipin Pooja,1
+Miss Yami,Yami Pooja,1
+Mohanlal,Pushkar,1
+Mr. Divya,Nithya Ruchika,1
+Mr. Kareena,Rev. Sameera Salman,1
+Mr. Kriti,Rev. Sameera Salman,1
+Mr. Neerja,Nithya Ruchika,1
+Mr. Neerja,Pritam,1
+Mr. Neerja,Rev. Sameera Salman,1
+Mr. Ramya,Mr. Simran,1
+Mr. Ramya,Rev. Sameera,1
+Mr. Ramya,Virat,1
+Mr. Simran,Pushkar,1
+Mr. Simran,Reema,1
+Mr. Simran,Rev. Darshan,1
+Mr. Vicky,Pushkar,1
+Mr. Vicky,Ruchika Saira,1
+Mr. Vipin,Nithya Ruchika,1
+Mr. Vipin,Ruchika Saira,1
+Mr. Vipin,Vipin Pooja,1
+Mr. Vipin,Yami Pooja,1
+Mrs. Asha,Mrs. Mrunal,1
+Mrs. Asha,Zeeshan,1
+Mrs. Bipasha,Nithya Ruchika,1
+Mrs. Bipasha,Taapsee,1
+Mukesh,Ruchika Saira,1
+Mukesh,Taapsee,1
+Neerja Tanushree,Nithya Ruchika,1
+Neerja Tanushree,Pritam,1
+Niharika,Rev. Sameera,1
+Nithya Ruchika,Pallavi,1
+Nithya Ruchika,Pritam,1
+Nithya Ruchika,Pushkar,1
+Nithya Ruchika,Rahul Nandita,1
+Nithya Ruchika,Sir Hrithik,1
+Nithya Ruchika,Sir Hrithik Prateek,1
+Nithya Ruchika,Sir Pallavi Aparna,1
+Nithya Ruchika,Yash,1
+Om,Virat,1
+Parth,Parth Salman,1
+Parth,Rev. Sameera Salman,1
+Parth Salman,Rev. Sameera Salman,1
+Prithvi,Sanjay,1
+Pushkar,Rahul Siddharth,1
+Rahul Nandita,Ruchika Saira,1
+Rahul Siddharth,Rev. Sameera Salman,1
+Rajeev,Rev. Sameera,1
+Rajeev,Rev. Sameera Salman,1
+Rajeev,Ruchika Saira,1
+Ramesh,Ranjit,1
+Rev. Darshan,Sir Saif,1
+Rev. Darshan,Sir Saif Ranveer,1
+Rev. Sameera,Soumya,1
+Rev. Sameera,Virat,1
+Rev. Sameera Salman,Shikha,1
+Rev. Sameera Salman,Sidharth Sneha,1
+Rev. Sameera Salman,Taapsee,1
+Rev. Sameera Salman,Tia,1
+Ruchika Saira,Sanjay,1
+Ruchika Saira,Sir Darshan,1
+Ruchika Saira,Sir Darshan Manisha,1
+Sidharth Shakuntala,Sidharth Sneha,1
+Sir Darshan,Taapsee,1
+Taapsee,Tia,1
+Taapsee,Vidya,1
+Vipin Pooja,Yami Pooja,1
