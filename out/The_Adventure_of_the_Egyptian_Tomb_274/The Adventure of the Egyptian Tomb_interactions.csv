@@ -1,0 +1,26 @@
+character1,character2,count
+Lady Willard,Sir John Willard,9
+Poirot,Sir John Willard,3
+Sir Guy,Sir Guy Willard,3
+Sir Guy,Sir John Willard,3
+Sir Guy Willard,Sir John Willard,3
+Dr. Tosswill,Sir Guy,2
+Hassan,anubis,2
+Hastings,Poirot,2
+Lady Willard,Poirot,2
+Poirot,Sir Guy,2
+Robert Ames,Rupert Bleibner,2
+Dr. Tosswill,Hastings,1
+Dr. Tosswill,Poirot,1
+Dr. Tosswill,Sir Guy Willard,1
+Dr. Tosswill,Sir John Willard,1
+Hassan,Poirot,1
+Hassan,Robert Ames,1
+Hassan,Sir John Willard,1
+Hastings,Sir Guy,1
+Mr. Harper,Robert Ames,1
+Mr. Harper,Rupert Bleibner,1
+Mr. Harper,Sir Guy,1
+Mr. Schneider,Robert Ames,1
+Rupert,Rupert Bleibner,1
+Sir John Willard,carnarvon,1

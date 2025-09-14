@@ -1,0 +1,524 @@
+character1,character2,count
+i,this,116
+Don Luis,Don Luis Perenna,112
+Monsieur,i,111
+Gaston,Gaston Sauverand,101
+Florence,Florence Levasseur,93
+Hippolyte Fauville,Marie,79
+Hippolyte,Hippolyte Fauville,75
+Cosmo,Mr. Cosmo Mornington,74
+Hippolyte Fauville,Marie Fauville,66
+Marie,Marie Fauville,66
+Don Luis,i,59
+Don Luis,this,56
+Florence,i,55
+Don Luis,M. Mazeroux,50
+Gaston Sauverand,Hippolyte Fauville,43
+Gaston Sauverand,Marie,43
+Don Luis Perenna,i,40
+Florence,this,39
+Don Luis,Monsieur,38
+Marie,i,38
+M. Mazeroux,i,37
+Hippolyte Fauville,i,34
+Florence,Gaston Sauverand,33
+Gaston,Hippolyte Fauville,30
+Don Luis,Lupin,28
+Don Luis Perenna,this,27
+Lupin,i,26
+Don Luis,Florence,25
+Mr. Cosmo Mornington,i,25
+Don Luis Perenna,M. Mazeroux,24
+Gaston,Marie,24
+Gaston Sauverand,Marie Fauville,23
+Gaston Sauverand,i,23
+Cosmo,i,21
+Don Luis,M. Weber,21
+Gaston Sauverand,this,21
+Don Luis Perenna,Lupin,19
+Lupin,this,19
+Monsieur,this,19
+Don Luis,Monsieur Desmalions,18
+Hippolyte Fauville,Mr. Cosmo Mornington,18
+Hippolyte Fauville,this,18
+Florence Levasseur,this,17
+Edmond,Hippolyte Fauville,16
+Gaston,Marie Fauville,16
+Florence,Gaston,15
+Florence,Marie,15
+Hippolyte,i,15
+M. Mazeroux,Monsieur,15
+Gaston Sauverand,Mr. Cosmo Mornington,14
+Mr. Cosmo Mornington,this,14
+Florence,Lupin,13
+Florence Levasseur,Gaston Sauverand,13
+Gaston,i,13
+Gaston,this,13
+Monsieur Desmalions,this,13
+Cosmo,Hippolyte Fauville,12
+Don Luis Perenna,Monsieur,12
+Marie,this,12
+Marie Fauville,i,12
+Don Luis,Florence Levasseur,11
+Don Luis,Gaston Sauverand,11
+Don Luis Perenna,Gaston Sauverand,11
+Lupin,M. Valenglay,11
+Chief Inspector Ancenis,Inspector Ancenis,10
+Florence,Hippolyte Fauville,10
+Florence,Monsieur,10
+Florence Levasseur,i,10
+Gaston,Mr. Cosmo Mornington,10
+Gaston Sauverand,Lupin,10
+M. Mazeroux,M. Weber,10
+M. Weber,i,10
+M. Weber,this,10
+Monsieur,Monsieur Desmalions,10
+Monsieur Desmalions,i,10
+Edmond,Hippolyte,9
+Elizabeth Roussel,i,9
+Hippolyte Fauville,M. Langernault,9
+M. Mazeroux,Monsieur Desmalions,9
+Marie,Mr. Cosmo Mornington,9
+Alexandre,i,8
+Edmond,i,8
+Elizabeth Roussel,Victor,8
+Florence,M. Mazeroux,8
+Florence,M. Weber,8
+Florence,Monsieur Desmalions,8
+Florence Levasseur,Gaston,8
+Florence Levasseur,Lupin,8
+Hippolyte,Marie,8
+Hippolyte,Mr. Cosmo Mornington,8
+M. Mazeroux,this,8
+Cosmo,Gaston Sauverand,7
+Don Luis,Mr. Cosmo Mornington,7
+Don Luis Perenna,Florence,7
+Don Luis Perenna,M. Weber,7
+Don Luis Perenna,Monsieur Desmalions,7
+Elizabeth,Elizabeth Roussel,7
+Elizabeth Roussel,Mr. Cosmo Mornington,7
+Florence,Jean Vernocq,7
+Hippolyte,this,7
+Lepertuis,i,7
+M. Valenglay,Monsieur,7
+M. Weber,Monsieur,7
+Armande Roussel,Elizabeth Roussel,6
+Cosmo,Gaston,6
+Cosmo,this,6
+Davanne,Don Luis,6
+Don Luis,Gaston,6
+Don Luis,Hippolyte Fauville,6
+Don Luis,M. Valenglay,6
+Don Luis Perenna,Florence Levasseur,6
+Don Luis Perenna,Gaston,6
+Edmond,Marie,6
+Elizabeth Roussel,Hippolyte Fauville,6
+Florence,Mr. Cosmo Mornington,6
+Florence Levasseur,Hippolyte Fauville,6
+Gaston Sauverand,M. Mazeroux,6
+Marie Fauville,Mr. Cosmo Mornington,6
+Alexandre,Don Luis Perenna,5
+Cosmo,Don Luis,5
+Cosmo,Edmond,5
+Cosmo,Elizabeth Roussel,5
+Cosmo,Hippolyte,5
+Cosmo,Marie,5
+Don Luis,Elizabeth Roussel,5
+Don Luis Perenna,Hippolyte Fauville,5
+Don Luis Perenna,Mr. Cosmo Mornington,5
+Edmond,Edmond Fauville,5
+Edmond,Mr. Cosmo Mornington,5
+Edmond Fauville,Hippolyte Fauville,5
+Elizabeth Roussel,Ermeline,5
+Florence,Marie Fauville,5
+Florence,superior,5
+Florence Levasseur,M. Weber,5
+Gaston Sauverand,Victor,5
+Gaston Sauverand,Victor Sauverand,5
+Hippolyte,Marie Fauville,5
+Hippolyte Fauville,Monsieur,5
+Job,i,5
+Marie Fauville,this,5
+Monsieur,Mr. Cosmo Mornington,5
+Victor,Victor Sauverand,5
+la,muette,5
+Armande Roussel,Elizabeth,4
+Chief Inspector Ancenis,M. Mazeroux,4
+Cosmo,Marie Fauville,4
+D'Artagnan,Porthos,4
+Don Luis Perenna,Lepertuis,4
+Edmond,Gaston Sauverand,4
+Elizabeth Roussel,Ermeline Roussel,4
+Ermeline,Ermeline Roussel,4
+Florence Levasseur,Monsieur,4
+Gaston,Hippolyte,4
+Gaston,Lupin,4
+Gaston Sauverand,Hippolyte,4
+Hippolyte,M. Langernault,4
+Lupin,Monsieur,4
+M. Langernault,this,4
+M. Valenglay,i,4
+M. Valenglay,this,4
+Silvestre,i,4
+Cosmo,Don Luis Perenna,3
+Cosmo,Fauvilles,3
+Dolores,Dolores Kesselbach,3
+Don Luis,Marie,3
+Don Luis Perenna,Elizabeth Roussel,3
+Don Luis Perenna,M. Valenglay,3
+Edmond,Gaston,3
+Edmond,Marie Fauville,3
+Edmond Fauville,Hippolyte,3
+Elizabeth Roussel,Gaston Sauverand,3
+Elizabeth Roussel,Hippolyte,3
+Elizabeth Roussel,Lepertuis,3
+Elizabeth Roussel,Victor Sauverand,3
+Florence Levasseur,Marie,3
+Florence Levasseur,Marie Fauville,3
+Gaston Sauverand,Monsieur,3
+Gaston Sauverand,Raoul,3
+Hippolyte Fauville,Jean Vernocq,3
+Hippolyte Fauville,M. Mazeroux,3
+Inspector Ancenis,M. Mazeroux,3
+Jean Vernocq,i,3
+Juan Caceres,M. Mazeroux,3
+Lepertuis,Monsieur Desmalions,3
+Lepertuis,Mr. Cosmo Mornington,3
+Lupin,M. Weber,3
+Lupin,Marie,3
+Lupin,Mr. Cosmo Mornington,3
+Lupin,lupins,3
+Mr. Cosmo Mornington,Victor,3
+Alexandre,Don Luis,2
+Alexandre,M. Mazeroux,2
+Alfred,Victorine,2
+Armande Roussel,Hippolyte Fauville,2
+Armande Roussel,Victor,2
+Armande Roussel,i,2
+Chief Inspector Ancenis,Gaston,2
+Chief Inspector Ancenis,Gaston Sauverand,2
+Chief Inspector Ancenis,Hippolyte Fauville,2
+Chief Inspector Ancenis,i,2
+Cosmo,Edmond Fauville,2
+Cosmo,Florence,2
+Cosmo,Lepertuis,2
+Cosmo,Monsieur,2
+Cosmo,Victor,2
+Cosmo,Victor Sauverand,2
+D'Artagnan,Lupin,2
+Don Luis,Hippolyte,2
+Don Luis,Lepertuis,2
+Don Luis,Marie Fauville,2
+Don Luis,superior,2
+Don Luis Perenna,Job,2
+Don Luis Perenna,superior,2
+Edmond,this,2
+Edmond Fauville,Gaston,2
+Edmond Fauville,Gaston Sauverand,2
+Edmond Fauville,Marie,2
+Edmond Fauville,Marie Fauville,2
+Edmond Fauville,Mr. Cosmo Mornington,2
+Edmond Fauville,i,2
+Elizabeth,Victor,2
+Elizabeth,i,2
+Elizabeth Roussel,Florence,2
+Elizabeth Roussel,M. Langernault,2
+Elizabeth Roussel,this,2
+Fauvilles,M. Mazeroux,2
+Fauvilles,Mr. Cosmo Mornington,2
+Florence,M. Langernault,2
+Florence,M. Valenglay,2
+Florence Levasseur,Jean Vernocq,2
+Florence Levasseur,M. Mazeroux,2
+Florence Levasseur,Mr. Cosmo Mornington,2
+Gaston,Inspector Ancenis,2
+Gaston,M. Mazeroux,2
+Gaston,Monsieur Desmalions,2
+Gaston,Raoul,2
+Gaston Sauverand,Inspector Ancenis,2
+Gaston Sauverand,Jean Vernocq,2
+Gaston Sauverand,Monsieur Desmalions,2
+Gaston Sauverand,Raoul Sauverand,2
+Hippolyte,Monsieur,2
+Hippolyte Fauville,Inspector Ancenis,2
+Hippolyte Fauville,Lupin,2
+Hippolyte Fauville,M. Weber,2
+Hippolyte Fauville,Silvestre,2
+Inspector Ancenis,i,2
+Jean Vernocq,M. Langernault,2
+Jean Vernocq,this,2
+Job,this,2
+Joseph Le Jeune,Tristan Le Roux,2
+Joseph Le Jeune,pierre,2
+Juan Caceres,Lepertuis,2
+Juan Caceres,Monsieur,2
+Lupin,M. Mazeroux,2
+Lupin,Marie Fauville,2
+Lupin,Porthos,2
+M. Langernault,Mr. Cosmo Mornington,2
+M. Langernault,dedessuslamare,2
+M. Mazeroux,Marie,2
+M. Mazeroux,Mr. Cosmo Mornington,2
+M. Weber,Shakespeare,2
+Malonyi,this,2
+Monsieur,maire,2
+Monsieur,superior,2
+Monsieur Desmalions,superior,2
+Mr. Cosmo Mornington,Victor Sauverand,2
+Raoul,Raoul Sauverand,2
+Shakespeare,this,2
+Tristan Le Roux,pierre,2
+Victor,i,2
+Victor,this,2
+gad,this,2
+Alexandre,Lupin,1
+Alexandre,this,1
+Armande Roussel,Cosmo,1
+Armande Roussel,Edmond,1
+Armande Roussel,Ermeline,1
+Armande Roussel,Hippolyte,1
+Armande Roussel,Lepertuis,1
+Armande Roussel,Mr. Cosmo Mornington,1
+Armande Roussel,Victor Roussel,1
+Armande Roussel,this,1
+Auguste,Marco,1
+Auguste,Monsieur,1
+Balzac,Monsieur,1
+Balzac,i,1
+Beuzeville,ajaxes,1
+Beuzeville,i,1
+Chief Inspector Ancenis,Cosmo,1
+Chief Inspector Ancenis,Fauvilles,1
+Chief Inspector Ancenis,Hippolyte,1
+Chief Inspector Ancenis,M. Weber,1
+Chief Inspector Ancenis,Marie,1
+Chief Inspector Ancenis,Marie Fauville,1
+Chief Inspector Ancenis,Mr. Cosmo Mornington,1
+Chief Inspector Ancenis,Shakespeare,1
+Chief Inspector Ancenis,Victor,1
+Chief Inspector Ancenis,Victor Sauverand,1
+Cosmo,Ermeline,1
+Cosmo,Ermeline Roussel,1
+Cosmo,Hubert Mornington,1
+Cosmo,Inspector Ancenis,1
+Cosmo,Lupin,1
+Cosmo,M. Langernault,1
+Cosmo,Monsieur Desmalions,1
+Cosmo,Raoul,1
+Croesus,Job,1
+Croesus,i,1
+D'Artagnan,Monsieur,1
+D'Artagnan,bussy,1
+D'Artagnan,lupins,1
+Davanne,Don Luis Perenna,1
+Davanne,Lupin,1
+Davanne,M. Weber,1
+Dolores,Lupin,1
+Dolores,i,1
+Dolores Kesselbach,Lupin,1
+Don Luis,Ermeline,1
+Don Luis,Ermeline Roussel,1
+Don Luis,Job,1
+Don Luis,Juan Caceres,1
+Don Luis,M. Langernault,1
+Don Luis,Malonyi,1
+Don Luis,Victor,1
+Don Luis,hullo,1
+Don Luis,la,1
+Don Luis,muette,1
+Don Luis Perenna,Hippolyte,1
+Don Luis Perenna,Lepertais,1
+Don Luis Perenna,Marie,1
+Don Luis Perenna,Marie Fauville,1
+Don Luis Perenna,Victor,1
+Don Luis Perenna,fardet,1
+Don Luis Perenna,fez,1
+Don Luis Perenna,maire,1
+Don Luis Perenna,moors,1
+Don Luis Perenna,pollex,1
+Edmond,Elizabeth Roussel,1
+Edmond,Florence,1
+Edmond,Florence Levasseur,1
+Elizabeth,Ermeline,1
+Elizabeth,Hippolyte Fauville,1
+Elizabeth,Lepertuis,1
+Elizabeth,Victor Roussel,1
+Elizabeth Roussel,Florence Levasseur,1
+Elizabeth Roussel,Hubert Mornington,1
+Elizabeth Roussel,Jean Vernocq,1
+Elizabeth Roussel,Monsieur,1
+Elizabeth Roussel,Monsieur Desmalions,1
+Elizabeth Roussel,Victor Roussel,1
+Ermeline,Hubert Mornington,1
+Ermeline,Mr. Cosmo Mornington,1
+Ermeline,Victor,1
+Ermeline Roussel,Hubert Mornington,1
+Ermeline Roussel,Mr. Cosmo Mornington,1
+Fauvilles,Inspector Ancenis,1
+Fauvilles,Marie,1
+Fauvilles,Shakespeare,1
+Fauvilles,this,1
+Florence,Hippolyte,1
+Florence,Juan Caceres,1
+Florence,Malonyi,1
+Florence,Raoul,1
+Florence,Raoul Sauverand,1
+Florence,Victor,1
+Florence,Victor Sauverand,1
+Florence Levasseur,Juan Caceres,1
+Florence Levasseur,M. Valenglay,1
+Florence Levasseur,Monsieur Desmalions,1
+Florence Levasseur,Raoul,1
+Florence Levasseur,Raoul Sauverand,1
+Florence Levasseur,Victor,1
+Florence Levasseur,Victor Sauverand,1
+Florence Levasseur,superior,1
+Floriani,Lupin,1
+Floriani,this,1
+Gaston,M. Langernault,1
+Gaston,M. Weber,1
+Gaston,Monsieur,1
+Gaston,Raoul Sauverand,1
+Gaston,Victor,1
+Gaston,Victor Sauverand,1
+Gaston,dedessuslamare,1
+Gaston Sauverand,M. Langernault,1
+Gaston Sauverand,M. Weber,1
+Gaston Sauverand,dedessuslamare,1
+Gaston Sauverand,la,1
+Gaston Sauverand,muette,1
+Hippolyte,Inspector Ancenis,1
+Hippolyte,M. Mazeroux,1
+Hippolyte Fauville,Monsieur Desmalions,1
+Hippolyte Fauville,Shakespeare,1
+Hippolyte Fauville,Victor,1
+Hippolyte Fauville,Victor Sauverand,1
+Hippolyte Fauville,dedessuslamare,1
+Hubert Mornington,Mr. Cosmo Mornington,1
+Inspector Ancenis,Marie,1
+Inspector Ancenis,Marie Fauville,1
+Inspector Ancenis,Mr. Cosmo Mornington,1
+Inspector Ancenis,Shakespeare,1
+Inspector Ancenis,Victor,1
+Inspector Ancenis,Victor Sauverand,1
+Jean Vernocq,Marie,1
+Jean Vernocq,Monsieur,1
+Jean Vernocq,Mr. Cosmo Mornington,1
+Jean Vernocq,Shakespeare,1
+Jean Vernocq,Victor,1
+Jean Vernocq,Victor Sauverand,1
+Job,Lupin,1
+Job,M. Mazeroux,1
+Job,jove,1
+Juan Caceres,Lupin,1
+Juan Caceres,Mr. Archibald Bright,1
+Juan Caceres,i,1
+Juan Caceres,this,1
+Juliet Sutherland,Mary Meehan,1
+Lepertuis,M. Mazeroux,1
+Lepertuis,Mr. Archibald Bright,1
+Lepertuis,Victor,1
+Lepertuis,Victor Roussel,1
+Lupin,Marcus Aurelius,1
+Lupin,Maurice Leblanc,1
+Lupin,Monsieur Desmalions,1
+Lupin,frerzon,1
+Lupin,mahomet,1
+Lupin,paul,1
+Lupin,sernine,1
+Lupin,sultans,1
+M. Langernault,M. Mazeroux,1
+M. Langernault,Marie,1
+M. Langernault,Monsieur,1
+M. Langernault,i,1
+M. Mazeroux,Silvestre,1
+M. Mazeroux,la,1
+M. Valenglay,Monsieur Desmalions,1
+M. Valenglay,columbus,1
+M. Valenglay,jove,1
+M. Valenglay,lupins,1
+M. Weber,Monsieur Desmalions,1
+M. Weber,gad,1
+M. Weber,superior,1
+Malonyi,Marie,1
+Marco,Monsieur,1
+Marie,Monsieur Desmalions,1
+Marie,Victor,1
+Marie,Victor Sauverand,1
+Marie,dedessuslamare,1
+Marie Fauville,Monsieur Desmalions,1
+Marie Fauville,Victor,1
+Marie Fauville,Victor Sauverand,1
+Maurice Leblanc,i,1
+Mirza,this,1
+Monsieur,Monte Cristo,1
+Monsieur,Porthos,1
+Monsieur,Shakespeare,1
+Monsieur,Silvestre,1
+Monsieur Desmalions,Mr. Cosmo Mornington,1
+Monsieur Desmalions,Shakespeare,1
+Monsieur Desmalions,la,1
+Monsieur Desmalions,mademoiselle,1
+Monte Cristo,ii,1
+Monte Cristo,this,1
+Mr. Cosmo Mornington,Raoul,1
+Mr. Cosmo Mornington,dedessuslamare,1
+Porthos,bussy,1
+Porthos,lupins,1
+Raoul,i,1
+Raoul Sauverand,i,1
+Victor,Victor Roussel,1
+Victor Roussel,i,1
+ajaxes,i,1
+caesar,hannibal,1
+dante,edgar,1
+dante,goethe,1
+dante,montaigne,1
+dante,poe,1
+dante,racine,1
+dante,stendhal,1
+dante,virgil,1
+edgar,goethe,1
+edgar,montaigne,1
+edgar,poe,1
+edgar,racine,1
+edgar,stendhal,1
+edgar,virgil,1
+fardet,moors,1
+fau,i,1
+fez,this,1
+frerzon,i,1
+frerzon,mahomet,1
+frerzon,sultans,1
+gad,i,1
+goethe,montaigne,1
+goethe,poe,1
+goethe,racine,1
+goethe,stendhal,1
+goethe,virgil,1
+i,jingo,1
+i,jove,1
+i,lot,1
+i,lupins,1
+i,mahomet,1
+i,napoleon,1
+i,perseus,1
+i,sue,1
+i,sultans,1
+i,superior,1
+jingo,this,1
+lupins,this,1
+mahomet,sultans,1
+montaigne,poe,1
+montaigne,racine,1
+montaigne,stendhal,1
+montaigne,virgil,1
+moors,this,1
+paul,sernine,1
+poe,racine,1
+poe,stendhal,1
+poe,virgil,1
+racine,stendhal,1
+racine,virgil,1
+stendhal,virgil,1
+superior,this,1

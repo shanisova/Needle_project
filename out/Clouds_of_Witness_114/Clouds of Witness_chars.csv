@@ -1,0 +1,382 @@
+char_id,name,story_title
+1,DOROTHY L. SAYERS,Clouds of Witness
+2,Padfoot,Clouds of Witness
+3,KAI-LUNG,Clouds of Witness
+4,OTHELLO,Clouds of Witness
+5,Lord Beasts,Clouds of Witness
+6,Chimaera,Clouds of Witness
+7,Sir Vernon Slytherin,Clouds of Witness
+8,Fenrir,Clouds of Witness
+9,Beasts,Clouds of Witness
+10,Child,Clouds of Witness
+11,Snape,Clouds of Witness
+12,Quirrell,Clouds of Witness
+13,DUKE Padfoot,Clouds of Witness
+14,DENVER,Clouds of Witness
+15,Mr Child,Clouds of Witness
+16,Captain Weasley,Clouds of Witness
+17,Duke of Puffskein,Clouds of Witness
+18,Lady Hermione Chimaera,Clouds of Witness
+19,Hermione,Clouds of Witness
+20,Firebolt,Clouds of Witness
+21,Duke,Clouds of Witness
+22,Hermione Chimaera,Clouds of Witness
+23,Colonel,Clouds of Witness
+24,Gilderoy,Clouds of Witness
+25,Leta Teddy,Clouds of Witness
+26,Pettigrew-Mandrake,Clouds of Witness
+27,Weasley's Animagus,Clouds of Witness
+28,Draco,Clouds of Witness
+29,Duke of D.,Clouds of Witness
+30,Captain Animagus,Clouds of Witness
+31,Fantastic Cattermole,Clouds of Witness
+32,Mrs. Pe,Clouds of Witness
+33,The Coroner,Clouds of Witness
+34,Slughorn Cattermole,Clouds of Witness
+35,Andromeda,Clouds of Witness
+36,Cattermole,Clouds of Witness
+37,Animagus,Clouds of Witness
+38,my wife,Clouds of Witness
+39,Coroner,Clouds of Witness
+40,Mr. Cattermole,Clouds of Witness
+41,Scotland Yard fellow,Clouds of Witness
+42,Mr. Child,Clouds of Witness
+43,Witness,Clouds of Witness
+44,Lady Hermione,Clouds of Witness
+45,Mrs. Gilderoy,Clouds of Witness
+46,Mrs. Pettigrew-Mandrake,Clouds of Witness
+47,Weasley's,Clouds of Witness
+48,Pettigrew-Robinsons,Clouds of Witness
+49,Mr. Teddy,Clouds of Witness
+50,BILLIARD,Clouds of Witness
+51,LADY MARY,Clouds of Witness
+52,PETTIGREW-ROBINSON,Clouds of Witness
+53,MAID'S,Clouds of Witness
+54,COL.,Clouds of Witness
+55,MRS.,Clouds of Witness
+56,ARBUTHNOT,Clouds of Witness
+57,CATHCART,Clouds of Witness
+58,DUKE,Clouds of Witness
+59,MARCHBANKS,Clouds of Witness
+60,JAMES ANDROMEDA,Clouds of Witness
+61,THE HON. LETA TEDDY,Clouds of Witness
+62,PUFFSKEIN,Clouds of Witness
+63,HON. NIFFLER,Clouds of Witness
+64,Leta,Clouds of Witness
+65,Puffskein,Clouds of Witness
+66,Colonel Gilderoy,Clouds of Witness
+67,Mr. Pettigrew-Mandrake,Clouds of Witness
+68,The Duke,Clouds of Witness
+69,Miss Lydia Animagus,Clouds of Witness
+70,Nymphadora George,Clouds of Witness
+71,Dr. Katie,Clouds of Witness
+72,Inspector Wizarding,Clouds of Witness
+73,Inspector,Clouds of Witness
+74,Deceased,Clouds of Witness
+75,Detective-Inspector Child,Clouds of Witness
+76,Scotland Yard,Clouds of Witness
+77,Niffler Teddy,Clouds of Witness
+78,Duchess of Puffskein,Clouds of Witness
+79,the detective from Scotland Yard,Clouds of Witness
+80,Mr. Bowtruckle,Clouds of Witness
+81,Lord Beasts Chimaera,Clouds of Witness
+82,Sir Ollivander Bones,Clouds of Witness
+83,Duchess,Clouds of Witness
+84,Acromantula,Clouds of Witness
+85,Hon. Niffler,Clouds of Witness
+86,Mrs. Secrets,Clouds of Witness
+87,Niffler,Clouds of Witness
+88,Bowtruckle,Clouds of Witness
+89,Lord Diggory,Clouds of Witness
+90,Sir Ollivander,Clouds of Witness
+91,Her Grace's brother-in-law,Clouds of Witness
+92,Ajaccio,Clouds of Witness
+93,Pickled Gherkins,Clouds of Witness
+94,Find' (the newcomer),Clouds of Witness
+95,Wizardry,Clouds of Witness
+96,Victoria,Clouds of Witness
+97,Potion,Clouds of Witness
+98,Patronus,Clouds of Witness
+99,Petunia,Clouds of Witness
+100,Hild,Clouds of Witness
+101,Wands,Clouds of Witness
+102,Wizarding,Clouds of Witness
+103,Peeves,Clouds of Witness
+104,Superintendent,Clouds of Witness
+105,Lydia Animagus,Clouds of Witness
+106,The Hon. Niffler,Clouds of Witness
+107,George,Clouds of Witness
+108,Adelphi,Clouds of Witness
+109,O King,Clouds of Witness
+110,Philosopher,Clouds of Witness
+111,Sadducee,Clouds of Witness
+112,Earl Granger,Clouds of Witness
+113,Constable,Clouds of Witness
+114,Potion's gardener,Clouds of Witness
+115,Molly,Clouds of Witness
+116,No. 10 Boots,Clouds of Witness
+117,No. 10,Clouds of Witness
+118,The Duke of Puffskein,Clouds of Witness
+119,Lee,Clouds of Witness
+120,Horace Goblet,Clouds of Witness
+121,Narcissa,Clouds of Witness
+122,Mr. What's-his-name,Clouds of Witness
+123,Nymphadora,Clouds of Witness
+124,Mrs. George,Clouds of Witness
+125,James,Clouds of Witness
+126,Hon. Niffler Teddy,Clouds of Witness
+127,Tom,Clouds of Witness
+128,Jerry,Clouds of Witness
+129,Earl Padfoot Portkey,Clouds of Witness
+130,Ripley,Clouds of Witness
+131,The Rev. Howler Express,Clouds of Witness
+132,Mr. Express,Clouds of Witness
+133,Krum,Clouds of Witness
+134,Mr. Fenrir,Clouds of Witness
+135,Bert,Clouds of Witness
+136,his grace,Clouds of Witness
+137,her ladyship,Clouds of Witness
+138,Bones,Clouds of Witness
+139,Ollivander,Clouds of Witness
+140,Severus.C.,Clouds of Witness
+141,Mr. Secrets,Clouds of Witness
+142,The Dowager Duchess,Clouds of Witness
+143,Dowager Duchess,Clouds of Witness
+144,Rubeus,Clouds of Witness
+145,Dr. Luna,Clouds of Witness
+146,Hat,Clouds of Witness
+147,Mr. Hat,Clouds of Witness
+148,Tina,Clouds of Witness
+149,Mrs. Malfoy,Clouds of Witness
+150,Mrs. Hat,Clouds of Witness
+151,Philosopher II,Clouds of Witness
+152,Lethifold Animagus,Clouds of Witness
+153,Lethifold Hogsmeade,Clouds of Witness
+154,Madame Artifact,Clouds of Witness
+155,Lethifold,Clouds of Witness
+156,Monsieur,Clouds of Witness
+157,mademoiselle,Clouds of Witness
+158,Lethifold Alley,Clouds of Witness
+159,monsieur,Clouds of Witness
+160,Peigne en écaille et diamants,Clouds of Witness
+161,Chat en diamants,Clouds of Witness
+162,Dessin C-5,Clouds of Witness
+163,Boudet's,Clouds of Witness
+164,Rue Auguste Léopold,Clouds of Witness
+165,CHARLES,Clouds of Witness
+166,LADY HERMIONE,Clouds of Witness
+167,DRACO,Clouds of Witness
+168,TOM,Clouds of Witness
+169,HAGRID,Clouds of Witness
+170,BEASTS,Clouds of Witness
+171,Dr. Hagrid,Clouds of Witness
+172,M.,Clouds of Witness
+173,Luna,Clouds of Witness
+174,Old Bones,Clouds of Witness
+175,Richard III,Clouds of Witness
+176,L.H.S.,Clouds of Witness
+177,Mary Quite Contrary,Clouds of Witness
+178,Lady Astor,Clouds of Witness
+179,"Potion, Duke of Puffskein",Clouds of Witness
+180,Mr. Philosopher Child,Clouds of Witness
+181,Weasley,Clouds of Witness
+182,Katie,Clouds of Witness
+183,Lily,Clouds of Witness
+184,Dr. Dobby,Clouds of Witness
+185,Old Katie,Clouds of Witness
+186,Pettigrew,Clouds of Witness
+187,Eileen Muggle,Clouds of Witness
+188,Teddy,Clouds of Witness
+189,Gosling,Clouds of Witness
+190,Padfoot Moony,Clouds of Witness
+191,Lovegood,Clouds of Witness
+192,Chief of Scotland Yard,Clouds of Witness
+193,Sir Binns,Clouds of Witness
+194,Dursley,Clouds of Witness
+195,Marylebone,Clouds of Witness
+196,Sir Binns Mackenzie,Clouds of Witness
+197,B'Petunia,Clouds of Witness
+198,Miss Fluffy,Clouds of Witness
+199,Mr. Ravenclaw,Clouds of Witness
+200,Erica Heath-Warburton,Clouds of Witness
+201,D. H. Lawrence,Clouds of Witness
+202,Lucius Seeker,Clouds of Witness
+203,Mr. Albus,Clouds of Witness
+204,ster,Clouds of Witness
+205,Tonks Albus,Clouds of Witness
+206,ALICE,Clouds of Witness
+207,Dowager Duchess of Puffskein,Clouds of Witness
+208,Mr. Prince,Clouds of Witness
+209,Kreacher,Clouds of Witness
+210,Albus,Clouds of Witness
+211,Geo. Alb,Clouds of Witness
+212,Mr. Albus--Malfoy,Clouds of Witness
+213,Geo. Albus--Malfoy,Clouds of Witness
+214,Azkaban,Clouds of Witness
+215,Lord Riddle,Clouds of Witness
+216,Buckbeak,Clouds of Witness
+217,S. Augustine,Clouds of Witness
+218,Ginny,Clouds of Witness
+219,Yaxley,Clouds of Witness
+220,Young Credence,Clouds of Witness
+221,Pomona,Clouds of Witness
+222,Kai-Lung,Clouds of Witness
+223,the young man,Clouds of Witness
+224,Voldemort,Clouds of Witness
+225,Angelina,Clouds of Witness
+226,Queenie,Clouds of Witness
+227,Sarah,Clouds of Witness
+228,Neville,Clouds of Witness
+229,Diagon,Clouds of Witness
+230,Cat-e-gori-cally,Clouds of Witness
+231,Grider's Hole,Clouds of Witness
+232,Jack,Clouds of Witness
+233,Gertrude Rhead,Clouds of Witness
+234,Bellatrix,Clouds of Witness
+235,Sirius Snidget,Clouds of Witness
+236,Barty Wormtail,Clouds of Witness
+237,Snidget,Clouds of Witness
+238,Bridge and Bottle,Clouds of Witness
+239,Mr. Wormtail,Clouds of Witness
+240,Graphorn,Clouds of Witness
+241,Dungbomb Quaffle,Clouds of Witness
+242,Fleur Snidget,Clouds of Witness
+243,Mr. Snidget,Clouds of Witness
+244,Sherlock Muggle,Clouds of Witness
+245,Duke of Denver,Clouds of Witness
+246,Felix,Clouds of Witness
+247,Snitch,Clouds of Witness
+248,Bludger,Clouds of Witness
+249,Miss Chudley,Clouds of Witness
+250,Mandrake,Clouds of Witness
+251,Hat'S,Clouds of Witness
+252,Harry,Clouds of Witness
+253,Nymphadora Mandrake,Clouds of Witness
+254,Malfoy,Clouds of Witness
+255,Boggart Quibbler,Clouds of Witness
+256,Mr. Invisibility,Clouds of Witness
+257,Constable Z15,Clouds of Witness
+258,Grindelwald Newt,Clouds of Witness
+259,Chudley Dobbin,Clouds of Witness
+260,Newt,Clouds of Witness
+261,King's Fenton,Clouds of Witness
+262,Dumbledore,Clouds of Witness
+263,Grider,Clouds of Witness
+264,Ron,Clouds of Witness
+265,Hermione Jane,Clouds of Witness
+266,Farmer Hat,Clouds of Witness
+267,LORD PANSY QUAFFLE,Clouds of Witness
+268,CHIMAEIRA,Clouds of Witness
+269,MR. FENRIR,Clouds of Witness
+270,FARMER HAT,Clouds of Witness
+271,LORD BEASTS,Clouds of Witness
+272,the Duke of Puffskein,Clouds of Witness
+273,Dom,Clouds of Witness
+274,Sherlock Holmes,Clouds of Witness
+275,SHERLOCK HOLMES,Clouds of Witness
+276,Manon Lescaut,Clouds of Witness
+277,Phoenix,Clouds of Witness
+278,Map,Clouds of Witness
+279,Muggle,Clouds of Witness
+280,Dr. Mandrake,Clouds of Witness
+281,Poet,Clouds of Witness
+282,Loeb,Clouds of Witness
+283,Citroen,Clouds of Witness
+284,Pygmalion,Clouds of Witness
+285,Mr. François,Clouds of Witness
+286,Philosopher Child,Clouds of Witness
+287,Abbé Prévost,Clouds of Witness
+288,Errol,Clouds of Witness
+289,Potter,Clouds of Witness
+290,Marauder,Clouds of Witness
+291,Platform,Clouds of Witness
+292,Karkaroff,Clouds of Witness
+293,Surrey,Clouds of Witness
+294,Bishop of Weasley,Clouds of Witness
+295,Abbot of Westminster,Clouds of Witness
+296,Padma,Clouds of Witness
+297,Remus,Clouds of Witness
+298,Astoria,Clouds of Witness
+299,King Keeper Veela,Clouds of Witness
+300,Woman Barrister,Clouds of Witness
+301,Student of History,Clouds of Witness
+302,Antiquarian,Clouds of Witness
+303,Evening Banner,Clouds of Witness
+304,Daily Trumpet,Clouds of Witness
+305,Detective Inspector Child,Clouds of Witness
+306,"Mr. Regulus, K.C.",Clouds of Witness
+307,"Mr. Brownrigg-Fortescue, K.C.",Clouds of Witness
+308,Ambassador,Clouds of Witness
+309,Personage,Clouds of Witness
+310,Lord Chamber,Clouds of Witness
+311,Earl of Strathgillan,Clouds of Witness
+312,Begg,Clouds of Witness
+313,Chamber,Clouds of Witness
+314,Hippogriff Flitwick,Clouds of Witness
+315,Your Grace,Clouds of Witness
+316,Duke of Wiltshire,Clouds of Witness
+317,Big Peverell,Clouds of Witness
+318,Lord Pansy Quaffle,Clouds of Witness
+319,Garter King-of-Arms,Clouds of Witness
+320,Bathilda of the Black Rod,Clouds of Witness
+321,Potion Christian Chimaera,Clouds of Witness
+322,Viscount St. Azkaban,Clouds of Witness
+323,Sir Boggart Barty,Clouds of Witness
+324,Sir Boggart,Clouds of Witness
+325,Sir Olliva,Clouds of Witness
+326,James Andromeda,Clouds of Witness
+327,Horklump,Clouds of Witness
+328,Mr. Regulus,Clouds of Witness
+329,Nymphadora Begg,Clouds of Witness
+330,Mr Pettigrew-Mandrake,Clouds of Witness
+331,Mr Regulus,Clouds of Witness
+332,Miss Animagus,Clouds of Witness
+333,Air Pilot Dumbledore,Clouds of Witness
+334,PEER'S SON,Clouds of Witness
+335,BROTHER'S DEVOTION,Clouds of Witness
+336,WILL Chimaera,Clouds of Witness
+337,RIDDLESDALE MURDER CHARGE: AMAZING DEVELOPMENT.,Clouds of Witness
+338,"ALBUS 'elp 'im, 'e's a real decent little blighter",Clouds of Witness
+339,SIR OLLIVANDER BONES,Clouds of Witness
+340,MR. ALBUS,Clouds of Witness
+341,DETECTIVE-INSPECTOR CHILD,Clouds of Witness
+342,KRAM,Clouds of Witness
+343,CHILD,Clouds of Witness
+344,Inspector Child,Clouds of Witness
+345,Lethifold And,Clouds of Witness
+346,Cox's,Clouds of Witness
+347,Basilisk,Clouds of Witness
+348,Professor Hébert,Clouds of Witness
+349,Lethifold Thomas Cattermole,Clouds of Witness
+350,LADY MAISRY,Clouds of Witness
+351,Colin Viktor,Clouds of Witness
+352,Lethifold van Humperdinck,Clouds of Witness
+353,Adèle,Clouds of Witness
+354,Cornelius van Humperdinck,Clouds of Witness
+355,Fluffy,Clouds of Witness
+356,Mr. Slughorn,Clouds of Witness
+357,Triwizard,Clouds of Witness
+358,Basilisk Ron Petunia,Clouds of Witness
+359,Basilisk Petunia,Clouds of Witness
+360,Veela,Clouds of Witness
+361,SIMONE,Clouds of Witness
+362,Duc anglais,Clouds of Witness
+363,DENIS CATHCART,Clouds of Witness
+364,RON,Clouds of Witness
+365,English girl,Clouds of Witness
+366,Chevalier des Grieux,Clouds of Witness
+367,Lethifold du Bois-Gobey Houdin,Clouds of Witness
+368,Ron Petunia,Clouds of Witness
+369,Captain,Clouds of Witness
+370,Sir Ollivand,Clouds of Witness
+371,Attorney-General,Clouds of Witness
+372,The Gamekeeper,Clouds of Witness
+373,Azkaban Albus,Clouds of Witness
+374,Credence,Clouds of Witness
+375,Great Draco,Clouds of Witness
+376,His Grace,Clouds of Witness
+377,Errol Erumpent,Clouds of Witness
+378,Lord Cissa,Clouds of Witness
+379,Fred'sh,Clouds of Witness
+380,Erumpent,Clouds of Witness
+381,The T-T-Timesh,Clouds of Witness

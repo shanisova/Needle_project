@@ -1,0 +1,386 @@
+character1,character2,count
+Miss Pauline,a,110
+Fleming Stone,a,105
+Miss Lucy Carrington,a,90
+Fleming Stone,Miss Pauline,48
+Cousin Lucy,Miss Lucy,40
+Gray Haviland,a,39
+Anita,Miss Pauline,36
+Pauline Stuart,a,36
+Carrington Loria,a,35
+Gray,Gray Haviland,33
+Anita,a,31
+Cousin Lucy,a,30
+Cousin Lucy,Miss Lucy Carrington,29
+Miss Pauline,Pauline Stuart,25
+Tom Hardy,a,25
+Anita Frayne,a,24
+Carrington Loria,Cousin Carr,24
+Anita,Anita Frayne,23
+Gray Haviland,Miss Pauline,20
+Anita,Fleming Stone,19
+a,snake,19
+Carr Loria,Carrington Loria,18
+Carr Loria,Cousin Carr,18
+Inspector Brunt,inspector,18
+Estelle,a,17
+Fleming Stone,Miss Lucy Carrington,17
+Gray,Miss Pauline,17
+Carrington Loria,Fleming Stone,16
+Carrington Loria,Miss Pauline,16
+Cousin Lucy,Miss Pauline,15
+Fleming Stone,Pauline Stuart,15
+Anita,Gray Haviland,14
+Carrington Loria,Miss Lucy Carrington,14
+Cousin Carr,Miss Pauline,14
+Fleming Stone,Tom Hardy,14
+Gray,a,14
+Miss Lucy Carrington,Pauline Stuart,14
+Anita Frayne,Miss Lucy Carrington,13
+Bates,a,13
+Fleming Stone,Gray Haviland,13
+Miss Lucy Carrington,Miss Pauline,13
+Anita,Miss Lucy Carrington,12
+Coroner Scofield,Mr. Coroner,12
+Cousin,a,12
+a,fortune,12
+Miss Lucy,Miss Lucy Carrington,11
+Miss Lucy,a,11
+Mrs. Frothingham,a,11
+Ahri,a,10
+Anita,Gray,10
+Anita Frayne,Pauline Stuart,10
+Cousin Lucy,Lady Lucy,10
+Mr. Coroner,a,10
+a,inspector,10
+Anita Frayne,Fleming Stone,9
+Cousin Carr,Fleming Stone,9
+Cousin Carr,a,9
+Ahri,Carrington Loria,8
+Cousin,Miss Pauline,8
+Gray Haviland,Miss Lucy Carrington,8
+Henri,Henri Charlier,8
+Henri Charlier,a,8
+Inspector Brunt,a,8
+a,boudoir,8
+Anita Frayne,Gray Haviland,7
+Bates,Estelle,7
+Carr Loria,a,7
+Carrington Loria,Gray Haviland,7
+Estelle,Miss Pauline,7
+Fleming Stone,boudoir,7
+Miss Lucy Carrington,boudoir,7
+Miss Lucy Carrington,fortune,7
+Bates,Fleming Stone,6
+Bates,Miss Lucy Carrington,6
+Carr Loria,Miss Pauline,6
+Cleopatra,a,6
+Coroner Scofield,a,6
+Cousin,Cousin Lucy,6
+Cousin Lucy,Fleming Stone,6
+Cousin Lucy,Gray Haviland,6
+Gray Haviland,Tom Hardy,6
+Miss Lucy Carrington,Mr. Coroner,6
+Anita,Estelle,5
+Cousin Lucy,Gray,5
+Detective Hardy,Tom Hardy,5
+Doctor Stanton,a,5
+Fleming Stone,Gray,5
+Miss Pauline,Mr. Coroner,5
+Pauline Stuart,snake,5
+Ahri,Miss Pauline,4
+Anita,Pauline Stuart,4
+Anita,Tom Hardy,4
+Anita Frayne,Gray,4
+Anita Frayne,Miss Pauline,4
+Cleopatra,Miss Lucy Carrington,4
+Cousin,Miss Lucy Carrington,4
+Cousin Lucy,fortune,4
+Estelle,Fleming Stone,4
+Estelle,Gray Haviland,4
+Estelle,Miss Lucy Carrington,4
+GEORGE MACDONALD,a,4
+Gray Haviland,Nita,4
+Henri,Miss Lucy Carrington,4
+Henri Charlier,Miss Lucy Carrington,4
+Lady Lucy,Miss Pauline,4
+Miss Lucy Carrington,Mrs. Frothingham,4
+Miss Pauline,boudoir,4
+Miss Pauline,fortune,4
+Miss Pauline,snake,4
+Pauline Stuart,Tom Hardy,4
+Polly,a,4
+Tom Hardy,snake,4
+Ahri,Fleming Stone,3
+Ahri,Miss Lucy Carrington,3
+Ahri,Miss Stoort,3
+Anita,Cousin Lucy,3
+Anita,Henri Charlier,3
+Anita,Mr. Coroner,3
+Carrington Loria,Cousin,3
+Carrington Loria,Mr. Pitts,3
+Carrington Loria,Pauline Stuart,3
+Cousin,Fleming Stone,3
+Cousin,fortune,3
+Cousin Carr,Cousin Lucy,3
+Cousin Lucy,boudoir,3
+Detective Hardy,a,3
+Fleming Stone,snake,3
+GEORGE MACDONALD,Miss Pauline,3
+Gray Haviland,Miss Lucy,3
+HEIDI,JOHANNA SPYRI,3
+Henri,a,3
+Maurice Hewlett,a,3
+Miss Lucy,boudoir,3
+Miss Pauline,Nita,3
+Miss Pauline,Stephen Illsley,3
+Miss Pauline,Tom Hardy,3
+Miss Pauline,inspector,3
+Pauline Stuart,fortune,3
+a,clues,3
+Ahri,GEORGE MACDONALD,2
+Ahri,Pauline Stuart,2
+Anita,snake,2
+Anita,viii,2
+Anita Frayne,boudoir,2
+Anita Frayne,inspector,2
+Anita Frayne,jove,2
+Bates,Higgins,2
+CAROLYN WELLS,Fleming Stone,2
+Carr Loria,Fleming Stone,2
+Carrington Loria,GEORGE MACDONALD,2
+Carrington Loria,Gray,2
+Cleopatra,Tom Hardy,2
+Cleopatra,snake,2
+Cousin,Cousin Carr,2
+Cousin,Gray Haviland,2
+Cousin,Pauline Stuart,2
+Cousin Carr,Estelle,2
+Cousin Carr,Gray,2
+Cousin Carr,fortune,2
+Cousin Lucy,snake,2
+Doctor Stanton,Miss Lucy Carrington,2
+Estelle,Gray,2
+Estelle,Haskins,2
+Fleming Stone,GEORGE MACDONALD,2
+Fleming Stone,Henri Charlier,2
+Fleming Stone,Lady Lucy,2
+Fleming Stone,Mr. Pitts,2
+Fleming Stone,Polly,2
+Fleming Stone,fortune,2
+Fleming Stone,xii,2
+Gray,Miss Lucy Carrington,2
+Gray,Tom Hardy,2
+Gray Haviland,Pauline Stuart,2
+Gray Haviland,Polly,2
+Gray Haviland,boudoir,2
+Gray Haviland,inspector,2
+Henri Charlier,Miss Pauline,2
+Henri Charlier,Mr. Coroner,2
+Henri Charlier,Mrs. Frothingham,2
+Henri Charlier,Pauline Stuart,2
+Henri Charlier,Tom Hardy,2
+Inspector Brunt,Tom Hardy,2
+Inspector Brunt,fortune,2
+Jane,a,2
+Lady Lucy,Miss Lucy Carrington,2
+Lady Lucy,a,2
+Miss Lucy,Miss Pauline,2
+Miss Pauline,Mr. Pitts,2
+Miss Pauline,xxiii,2
+Mr. Coroner,Pauline Stuart,2
+Mr. Coroner,viii,2
+Nita,a,2
+OUIDA,a,2
+OUIDA,bimbi,2
+Stephen Illsley,a,2
+Tom Hardy,inspector,2
+a,hammond,2
+a,helen,2
+a,tongues,2
+a,troy,2
+antoinette,marie,2
+fortune,inspector,2
+grace,lutz,2
+helen,troy,2
+jr,thomas,2
+raphael,sabatini,2
+Ahri,Cousin,1
+Allan Shortland,Beryl Vernon,1
+Allan Shortland,a,1
+Anita,Bates,1
+Anita,Lady Lucy,1
+Anita,Mrs. Frothingham,1
+Anita,boudoir,1
+Anita,inspector,1
+Anita,iv,1
+Anita Frayne,Bates,1
+Anita Frayne,Carr Loria,1
+Anita Frayne,Carrington Loria,1
+Anita Frayne,Cousin Carr,1
+Anita Frayne,Cousin Lucy,1
+Anita Frayne,Lady Lucy,1
+Anita Frayne,Mr. Coroner,1
+Bates,Cousin Carr,1
+Bates,Haskins,1
+Bates,Pauline Stuart,1
+Bates,xiii,1
+Benjamin Franklin,William Penn,1
+Benjamin Franklin,a,1
+Beryl Vernon,a,1
+Bruce Burt,a,1
+CAROLYN WELLS,Pauline Stuart,1
+CAROLYN WELLS,a,1
+Carr Loria,Estelle,1
+Carr Loria,Gray,1
+Carr Loria,Mr. Pitts,1
+Carr Loria,Pauline Stuart,1
+Carrington Loria,Cousin Lucy,1
+Carrington Loria,Estelle,1
+Carrington Loria,Henri Charlier,1
+Carrington Loria,fortune,1
+Carrington Loria,wills,1
+Carrington Loria,xxiii,1
+Cleopatra,Cousin Lucy,1
+Cleopatra,Fleming Stone,1
+Cleopatra,Mark Antony,1
+Coroner Scofield,Doctor Moore,1
+Coroner Scofield,Estelle,1
+Coroner Scofield,Gray Haviland,1
+Coroner Scofield,Henri Charlier,1
+Coroner Scofield,Miss Lucy Carrington,1
+Coroner Scofield,Miss Pauline,1
+Coroner Scofield,snake,1
+Cousin,Gray,1
+Cousin,snake,1
+Cousin Carr,Ethel,1
+Cousin Carr,Gray Haviland,1
+Cousin Carr,Miss Lucy Carrington,1
+Cousin Carr,Mr. Pitts,1
+Cousin Carr,Pauline Stuart,1
+Cousin Lucy,Estelle,1
+Cousin Lucy,Mark Antony,1
+Cousin Lucy,Mr. Coroner,1
+Cousin Lucy,Polly,1
+Cousin Lucy,Stephen Illsley,1
+Cousin Lucy,raffles,1
+Detective Hardy,Fleming Stone,1
+Doctor Moore,Mr. Coroner,1
+Doctor Moore,a,1
+ELIZABETH ROBINS,ELIZABETH ROBINS PENNELL,1
+ELIZABETH ROBINS,Joseph Pennell,1
+ELIZABETH ROBINS,whistler,1
+Estelle,Higgins,1
+Estelle,Tom Hardy,1
+Estelle,boudoir,1
+Estelle,iv,1
+Estelle,snake,1
+Estelle,xii,1
+Estelle,xiii,1
+Fleming Stone,Miss Lucy,1
+Fleming Stone,clues,1
+Fleming Stone,h,1
+Fleming Stone,xv,1
+Fleming Stone,xx,1
+Fleming Stone,xxii,1
+Frenchy,a,1
+GEORGE FREDERICK KUNZ,a,1
+Gamaliel,Tom Hardy,1
+Gamaliel,a,1
+Gayle Hoskins,a,1
+Gayle Hoskins,j,1
+Gray,Henri Charlier,1
+Gray,Pauline Stuart,1
+Gray,fortune,1
+Gray,h,1
+Gray Haviland,Haskins,1
+Gray Haviland,Henri Charlier,1
+Gray Haviland,Mr. Coroner,1
+Gray Haviland,h,1
+Gray Haviland,xii,1
+Haskins,Higgins,1
+Haskins,Miss Lucy Carrington,1
+Haskins,a,1
+Haskins,inspector,1
+Henri,Mrs. Frothingham,1
+Henri,Pauline Stuart,1
+Higgins,a,1
+Inspector Brunt,Miss Lucy Carrington,1
+John,hammond,1
+Joseph Pennell,a,1
+Joseph Pennell,rackham,1
+Joseph Pennell,whistler,1
+Mardi Desjardins,Stephen Hutcheson,1
+Mark Antony,Miss Lucy Carrington,1
+Maurice Hewlett,Neitschean,1
+Miranda,grace,1
+Miranda,lutz,1
+Miss Lucy,Stephen Illsley,1
+Miss Lucy,fortune,1
+Miss Lucy,raffles,1
+Miss Lucy,snake,1
+Miss Lucy Carrington,Stephen Illsley,1
+Miss Lucy Carrington,Tom Hardy,1
+Miss Lucy Carrington,helen,1
+Miss Lucy Carrington,inspector,1
+Miss Lucy Carrington,snake,1
+Miss Lucy Carrington,tongues,1
+Miss Lucy Carrington,troy,1
+Miss Pauline,Mrs. Frothingham,1
+Miss Pauline,Polly,1
+Miss Pauline,iv,1
+Miss Pauline,wills,1
+Miss Pauline,xv,1
+Miss Pauline,xx,1
+Miss Pauline,xxii,1
+Miss Stoort,a,1
+Mr. Coroner,Tom Hardy,1
+Mr. Coroner,snake,1
+Mrs. Frothingham,Pauline Stuart,1
+Neitschean,a,1
+Nita,Polly,1
+Pauline Stuart,Stephen Illsley,1
+Pauline Stuart,boudoir,1
+Pauline Stuart,inspector,1
+Pauline Stuart,matthews,1
+Pollypops,a,1
+Sappho,a,1
+Stephen Illsley,fortune,1
+Tom Hardy,boudoir,1
+Tom Hardy,h,1
+Tom Hardy,madonna,1
+Tom Hardy,milo,1
+William Penn,a,1
+a,boardman,1
+a,eleanor,1
+a,god,1
+a,grace,1
+a,h,1
+a,iv,1
+a,j,1
+a,madonna,1
+a,matthews,1
+a,milo,1
+a,molly,1
+a,rackham,1
+a,raffles,1
+a,robert,1
+a,seawell,1
+a,wills,1
+a,xii,1
+a,xiii,1
+a,xxiii,1
+a,yarborough,1
+boudoir,snake,1
+boudoir,xx,1
+caroline,lockhart,1
+clues,x,1
+eberlein,harold,1
+holloway,taylor,1
+humphreys,phebe,1
+inspector,snake,1
+iv,snake,1
+madonna,milo,1
+molly,seawell,1
+wills,xxiii,1
+wilson,woodrow,1

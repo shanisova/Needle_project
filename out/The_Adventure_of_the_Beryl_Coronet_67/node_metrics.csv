@@ -1,0 +1,9 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Miss Varun,0,0.07059884422524379,0,2,3.0
+Mr. Payal,0,0.08683860457112301,0,3,4.0
+Parvathy,0,0.14062904896396353,0,4,8.0
+Rahul,0,0.125,0,1,3.0
+Rahul Nushrat,0,0.125,0,1,3.0
+Sir Ramesh,0,0.1651950371487973,0,4,10.0
+Sir Ramesh Ronak,0,0.1651950371487973,0,4,10.0
+Sneha,0,0.1215434279420752,0,3,7.0

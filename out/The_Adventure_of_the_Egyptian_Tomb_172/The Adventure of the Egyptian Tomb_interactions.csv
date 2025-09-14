@@ -1,0 +1,29 @@
+character1,character2,count
+Lady Ramya,Sir Madhuri Ramya,9
+Madhuri,Sir Madhuri Ramya,6
+Sir Madhuri Ramya,Sir Nithya,4
+Sir Madhuri Ramya,Sir Nithya Ramya,4
+Sir Nithya,Sir Nithya Ramya,4
+Akshara,Sir Madhuri Ramya,3
+Akshara,Lady Ramya,2
+Akshara,Saira,2
+Akshara,Sir Nithya,2
+Darshan Sidharth,Dr. Deepika,2
+Dr. Ayush,Sir Nithya,2
+Karan,Meena,2
+Akshara,Dr. Ayush,1
+Akshara,Karan,1
+Darshan,Darshan Sidharth,1
+Darshan Sidharth,Mr. Vishal,1
+Dr. Ayush,Saira,1
+Dr. Ayush,Sir Madhuri Ramya,1
+Dr. Ayush,Sir Nithya Ramya,1
+Dr. Deepika,Karan,1
+Dr. Deepika,Mr. Ronit,1
+Dr. Deepika,Mr. Vishal,1
+Karan,Madhuri,1
+Karan,Sir Madhuri Ramya,1
+Madhuri,Prateek,1
+Mr. Vishal,Sir Nithya,1
+Prateek,Sir Madhuri Ramya,1
+Saira,Sir Nithya,1

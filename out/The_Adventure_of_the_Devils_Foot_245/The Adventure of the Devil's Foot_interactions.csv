@@ -1,0 +1,30 @@
+character1,character2,count
+Ishaan,Miss Shailesh Vicky,25
+Ishaan,Mr. Ishaan Vicky,25
+Miss Shailesh Vicky,Mr. Ishaan Vicky,25
+Miss Shailesh Vicky,Shailesh,4
+Mr. Kavya Karisma,Vicar,4
+Africa,Plymouth,3
+Chitrangada,Cornish,2
+Chitrangada,Plymouth,2
+Neeraj,Neerja,2
+Cornish,Miss Shailesh Vicky,1
+Cornish,Mr. Kavya Karisma,1
+Dr. Shakuntala Akshaye,Mr. Kavya Karisma,1
+Harsh Pushkar,Neeraj,1
+Harsh Pushkar,Neerja,1
+Harsh Pushkar,Shailesh,1
+Ishaan,Mr. Kavya Karisma,1
+Ishaan,Shailesh,1
+Karisma I,Mr. Kavya Karisma,1
+Miss Shailesh Vicky,Mr. Kavya Karisma,1
+Miss Shailesh Vicky,Vicar,1
+Mr. Dhruv,Mr. Kavya Karisma,1
+Mr. Dhruv,Vicar,1
+Mr. Ishaan Vicky,Mr. Kavya Karisma,1
+Mr. Ishaan Vicky,Shailesh,1
+Mr. Kavya Karisma,Neeraj,1
+Neeraj,Shailesh,1
+Neeraj,Vicar,1
+Neerja,Shailesh,1
+Plymouth,Vicar,1

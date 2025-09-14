@@ -1,0 +1,533 @@
+character1,character2,count
+Sanjay Komal,a,237
+Miss Anushka,Priyadarshan Shubham,87
+Anushka Shubham,Miss Anushka,86
+Anushka Shubham,Priyadarshan Shubham,86
+Priyadarshan Shubham,a,65
+Komal Payal,Sanjay Komal,58
+Komal Payal,a,56
+Alia-Kavya Harsh,Kavya,51
+Alia-Kavya Harsh,Kavya Harsh,50
+Kavya,Kavya Harsh,50
+Mr. Sohail Ritesh,a,50
+Hina Mitali,a,47
+Hina,Hina Mitali,44
+Urmila Sonam,a,42
+Judge Meher,a,40
+Sonakshi Tanmay,a,39
+Priyadarshan Shubham,Sanjay Komal,38
+Kalyani,Miss Kalyani Ronit,34
+a,don,34
+MY DEAR MR. Kavita,a,32
+Manisha,Mlle. Manisha DeLisle,31
+Sneha,a,31
+New York,a,30
+Sanjay Komal,Sonakshi Tanmay,29
+Kirti,Kirti Arvind,28
+Mr. Sohail Ritesh,Sanjay Komal,28
+Kavya,a,27
+Miss Anushka,a,27
+Priyadarshan,Priyadarshan Shubham,26
+Miss Anushka,Sanjay Komal,24
+Ruchi,Ruchi Sameera,24
+Judge Meher,Sanjay Komal,23
+Ruchi,a,23
+Kirti,a,22
+Anushka Shubham,a,21
+Mr. Sohail Ritesh,Sohail,21
+Ramesh,a,20
+Ruchi Sameera,a,19
+Alia-Kavya Harsh,a,18
+Rajat,a,18
+Sonakshi,Sonakshi Tanmay,18
+Hina Mitali,Kavya,17
+MY DEAR MR. Kavita,Ruchi Sameera,17
+Ruchi Sameera,Sanjay Komal,17
+Anushka Shubham,Sanjay Komal,16
+Sanjay Komal,Sneha,16
+Miss Kalyani Ronit,a,15
+Ramesh,Sanjay Komal,15
+Alia-Kavya Harsh,Hina Mitali,14
+Manisha,Sanjay Komal,14
+Ruchi Sameera,Urmila Sonam,14
+Hina Mitali,Priyadarshan Shubham,13
+Lips,Sanjay Komal,13
+MY DEAR MR. Kavita,Urmila Sonam,13
+Maine,Sanjay Komal,13
+Maine,a,13
+Manisha,a,13
+Miss Kalyani Ronit,Sanjay Komal,13
+Mr. Sohail Ritesh,Ramesh,13
+New York,Sanjay Komal,13
+Judge Meher,Mr. Sohail Ritesh,12
+Kavya,Mr. Sohail Ritesh,12
+Kavya Harsh,a,12
+Lips,a,12
+Sanjay Komal,Urmila Sonam,12
+Alia-Kavya Harsh,Sanjay Komal,11
+Kalyani,a,11
+Kavya,Sanjay Komal,11
+Madame Meenal,a,11
+Mlle. Manisha DeLisle,Sanjay Komal,11
+Priyadarshan,a,11
+Alia-Kavya Harsh,Mr. Sohail Ritesh,10
+Hina Mitali,Kavya Harsh,10
+Hina Mitali,Urmila Sonam,10
+Kavya Harsh,Mr. Sohail Ritesh,10
+Kavya Harsh,Sanjay Komal,10
+Kirti Arvind,a,10
+Komal Payal,don,10
+MY DEAR MR. Kavita,Sanjay Komal,10
+Mlle. Manisha DeLisle,a,10
+Mr. Sohail Ritesh,Sonakshi Tanmay,10
+Priyadarshan Shubham,Rajat,10
+Ruchi,Urmila Sonam,10
+Sonam Films,Urmila Sonam,10
+Alia-Kavya Harsh,Komal Payal,9
+Hina,a,9
+Sanjay Komal,don,9
+Alia-Kavya Harsh,Manisha,8
+Hina Mitali,Mr. Sohail Ritesh,8
+Kalyani,Sanjay Komal,8
+Kavya,Manisha,8
+Kavya,Urmila Sonam,8
+Kavya Harsh,Manisha,8
+Komal Payal,Mr. Sohail Ritesh,8
+Komal Payal,Priyadarshan,8
+Priyadarshan Shubham,Sonakshi Tanmay,8
+Sonakshi,a,8
+Alia-Kavya Harsh,Mlle. Manisha DeLisle,7
+Hina,Kavya,7
+Judge Meher,Urmila Sonam,7
+Kavya,Komal Payal,7
+Kavya,Mlle. Manisha DeLisle,7
+Kavya Harsh,Komal Payal,7
+Kavya Harsh,Mlle. Manisha DeLisle,7
+Komal Payal,Sneha,7
+Sanjay Komal,care,7
+Tuesday,a,7
+care,don,7
+Alia-Kavya Harsh,Hina,6
+Alia-Kavya Harsh,Urmila Sonam,6
+Hina Mitali,Manas Saket,6
+Hina Mitali,Sanjay Komal,6
+Kavya Harsh,Urmila Sonam,6
+Kirti,Ruchi,6
+Kirti,Ruchi Sameera,6
+Kirti,Urmila Sonam,6
+Kirti Arvind,Urmila Sonam,6
+Komal Payal,Manisha,6
+Komal Payal,Urmila Sonam,6
+Maine,Sneha,6
+Miss Anushka,Sonakshi Tanmay,6
+Mr. Sohail Ritesh,Priyadarshan Shubham,6
+New York,Priyadarshan Shubham,6
+Parineeti,a,6
+Ramesh,don,6
+Sohail,a,6
+Anushka Shubham,Sonakshi Tanmay,5
+Hina,Sanjay Komal,5
+Hina Mitali,Komal Payal,5
+Hina Mitali,MY DEAR MR. Kavita,5
+Hina Mitali,Ramesh,5
+Hina Mitali,Tuesday,5
+Kalyani,Priyadarshan Shubham,5
+Kavya,Ruchi Sameera,5
+Kirti Arvind,Ruchi,5
+Kirti Arvind,Ruchi Sameera,5
+Komal Payal,Maine,5
+Komal Payal,Mlle. Manisha DeLisle,5
+Miss Kalyani Ronit,Priyadarshan Shubham,5
+New York,Sneha,5
+Ramesh,Sonakshi Tanmay,5
+Sanjay Komal,Sohail,5
+Urmila,a,5
+Urmila Sonam,care,5
+Urmila Sonam,don,5
+Aunt Rani,a,4
+Hina,Kavya Harsh,4
+Hina,Urmila Sonam,4
+Hina Mitali,Ruchi Sameera,4
+Karthik,a,4
+Kavya,Priyadarshan,4
+Kirti Arvind,New York,4
+Komal Payal,Miss Anushka,4
+Komal Payal,Priyadarshan Shubham,4
+Komal Payal,Sonakshi Tanmay,4
+MY DEAR MR. Kavita,Miss Kalyani Ronit,4
+MY DEAR MR. Kavita,fate,4
+Madame Meenal,Sanjay Komal,4
+Manisha,Mr. Sohail Ritesh,4
+Mlle. Manisha DeLisle,Mr. Sohail Ritesh,4
+Mrs. Sahil Asin,a,4
+New York,Ruchi Sameera,4
+Parineeti,Sanjay Komal,4
+Priyadarshan,Sanjay Komal,4
+Rajat,Sanjay Komal,4
+Sidharth,a,4
+Yashwant,a,4
+a,care,4
+a,fate,4
+Alia-Kavya Harsh,don,3
+Anushka Shubham,Kalyani,3
+Anushka Shubham,Miss Kalyani Ronit,3
+Aunt Rani,Sanjay Komal,3
+Hina,Komal Payal,3
+Hina,Manisha,3
+Hina,Mr. Sohail Ritesh,3
+Hina,Priyadarshan Shubham,3
+Hina Mitali,Judge Meher,3
+Hina Mitali,Kirti,3
+Hina Mitali,Kirti Arvind,3
+Hina Mitali,Madame Meenal,3
+Hina Mitali,Manisha,3
+Judge Meher,Sonakshi Tanmay,3
+Judge Meher,Sonam Films,3
+Kalyani,Miss Anushka,3
+Karthik,Miss Kalyani Ronit,3
+Karthik,Sanjay Komal,3
+Kavya,New York,3
+Kirti,New York,3
+Kirti,Sanjay Komal,3
+Komal Payal,Ramesh,3
+Komal Payal,Shraddha,3
+Lips,Mr. Sohail Ritesh,3
+Madhavan,Madhavan Shubham,3
+Madhavan,Priyadarshan Shubham,3
+Madhavan Shubham,Priyadarshan Shubham,3
+Manas,Mr. Manas Ekta,3
+Miss Anushka,Miss Kalyani Ronit,3
+Mr. Sohail Ritesh,Rajat,3
+Mr. Sohail Ritesh,Sidharth,3
+Mr. Sohail Ritesh,Sidharth Ritesh,3
+Mr. Sohail Ritesh,Sonakshi,3
+Mrs. Sahil Asin,Sanjay Komal,3
+Priyadarshan,don,3
+Priyadarshan Shubham,Ramesh,3
+Priyadarshan Shubham,Sonakshi,3
+Rajat,Ramesh,3
+Ruchi,don,3
+Saira,a,3
+Sanjay Komal,Timidly,3
+Sidharth,Sidharth Ritesh,3
+Sonam Films,a,3
+Trevor,a,3
+Urmila,Urmila Sonam,3
+Alia-Kavya Harsh,Judge Meher,2
+Alia-Kavya Harsh,Kirti,2
+Alia-Kavya Harsh,Kirti Arvind,2
+Alia-Kavya Harsh,Madame Meenal,2
+Alia-Kavya Harsh,Manas Saket,2
+Anushka Shubham,Komal Payal,2
+Anushka Shubham,New York,2
+Anushka Shubham,Parineeti,2
+Anushka Shubham,Sonakshi,2
+Hema,New York,2
+Hema,Priyadarshan Shubham,2
+Hema,Tabu,2
+Hina,Manas Saket,2
+Hina,Mlle. Manisha DeLisle,2
+Hina,Priyadarshan,2
+Hina Mitali,Mlle. Manisha DeLisle,2
+Hina Mitali,New York,2
+Hina Mitali,Priyadarshan,2
+Hina Mitali,fate,2
+Judge Meher,Kavya,2
+Judge Meher,Kavya Harsh,2
+Judge Meher,Maine,2
+Judge Meher,Miss Anushka,2
+Kalyani,MY DEAR MR. Kavita,2
+Kavya,Kirti,2
+Kavya,Kirti Arvind,2
+Kavya,MY DEAR MR. Kavita,2
+Kavya,Madame Meenal,2
+Kavya,Manas Saket,2
+Kavya,Ramesh,2
+Kavya,don,2
+Kavya Harsh,Kirti,2
+Kavya Harsh,Kirti Arvind,2
+Kavya Harsh,Madame Meenal,2
+Kavya Harsh,Manas Saket,2
+Kirti Arvind,don,2
+Komal Payal,MY DEAR MR. Kavita,2
+Komal Payal,Manas,2
+Komal Payal,Miss Kalyani Ronit,2
+Komal Payal,Rajat,2
+Komal Payal,Roscoe,2
+Komal Payal,Ruchi Sameera,2
+Lavanya,a,2
+Lips,Sneha,2
+MY DEAR MR. Kavita,Mr. Sohail Ritesh,2
+Madame Meenal,Sonakshi Tanmay,2
+Manas,Manas Saket,2
+Manas,a,2
+Manas Saket,a,2
+Manisha,Sohail,2
+Manon,Salman,2
+Miss Anushka,Mr. Sohail Ritesh,2
+Miss Anushka,New York,2
+Miss Anushka,Parineeti,2
+Miss Anushka,Priyadarshan,2
+Miss Anushka,Rajat,2
+Miss Anushka,Sonakshi,2
+Miss Kalyani Ronit,Mr. Sohail Ritesh,2
+Miss Kalyani Ronit,Vinay Gully,2
+Mlle. Manisha DeLisle,Sohail,2
+Mr. Sohail Ritesh,New York,2
+Mr. Sohail Ritesh,Parineeti,2
+Mr. Sohail Ritesh,Shraddha,2
+Mr. Sohail Ritesh,Urmila Sonam,2
+Mr. Sohail Ritesh,don,2
+New York,Tabu,2
+New York,Urmila Sonam,2
+Parineeti,Priyadarshan Shubham,2
+Priyadarshan Shubham,Tabu,2
+Priyadarshan Shubham,don,2
+Ramesh,Ranbir,2
+Ramesh,Ruchi Sameera,2
+Ranbir,Sanjay Komal,2
+Roscoe,Shraddha,2
+Roshan,Roshan Larkin,2
+Ruchi,Sanjay Komal,2
+Ruchi Sameera,Urmila,2
+Ruchi Sameera,don,2
+Sanjay Komal,Sonakshi,2
+Sanjay Komal,Sonam Films,2
+Sanjay Komal,Vinay Gully,2
+Sidharth,Sonakshi,2
+Sidharth Ritesh,Sonakshi,2
+Sidharth Ritesh,a,2
+Sneha,Sonakshi Tanmay,2
+Sneha,Urmila Sonam,2
+Sonakshi,don,2
+Sonam Films,care,2
+Swara DeLisle,a,2
+Urmila,don,2
+Vinay,Vinay Gully,2
+a,jack,2
+Akshay,Ruchi Sameera,1
+Akshay,a,1
+Alia-Kavya Harsh,Anushka Shubham,1
+Alia-Kavya Harsh,Kalyani,1
+Alia-Kavya Harsh,Miss Anushka,1
+Alia-Kavya Harsh,Miss Kalyani Ronit,1
+Alia-Kavya Harsh,New York,1
+Alia-Kavya Harsh,Priyadarshan Shubham,1
+Alia-Kavya Harsh,Ruchi Sameera,1
+Alia-Kavya Harsh,Sneha,1
+Anjenoo,Manas,1
+Anjenoo,a,1
+Anushka Shubham,Kavya,1
+Anushka Shubham,Kavya Harsh,1
+Anushka Shubham,Mr. Sohail Ritesh,1
+Anushka Shubham,Ragans,1
+Anushka Shubham,fate,1
+Aunt Rani,Manisha,1
+Aunt Rani,Mlle. Manisha DeLisle,1
+Aunt Rani,Prithvi Karun,1
+Aunt Rani,Sneha,1
+Cat,a,1
+Dean Cornwell,Komal Payal,1
+Dean Cornwell,MY DEAR MR. Kavita,1
+Dean Cornwell,Sanjay Komal,1
+Garnsey,Karthik,1
+Garnsey,Sanjay Komal,1
+Heberworth Building elevator-man,Ramesh,1
+Heberworth Building elevator-man,Sanjay Komal,1
+Hina,Kirti,1
+Hina,Kirti Arvind,1
+Hina,MY DEAR MR. Kavita,1
+Hina,Madame Meenal,1
+Hina,Mademoiselle DeLisle,1
+Hina,Rajat,1
+Hina,Ruchi Sameera,1
+Hina Mitali,Lips,1
+Hina Mitali,Mademoiselle DeLisle,1
+Hina Mitali,Rajat,1
+Hina Mitali,Rekha Taapsee,1
+Hina Mitali,Ruchi,1
+Hina Mitali,Sneha,1
+Hina Mitali,Sohail,1
+Hina Mitali,Swara DeLisle,1
+Hina Mitali,care,1
+Hina Mitali,don,1
+Janhvi,Vishal Karisma,1
+Janhvi,a,1
+Judge Meher,Kalyani,1
+Judge Meher,Komal Payal,1
+Judge Meher,Miss Kalyani Ronit,1
+Judge Meher,Mohanlal Ritesh,1
+Judge Meher,Parineeti,1
+Judge Meher,Parvathy,1
+Judge Meher,Priyadarshan,1
+Judge Meher,Priyadarshan Shubham,1
+Judge Meher,Rajat,1
+Judge Meher,Ramesh,1
+Judge Meher,Sameer,1
+Judge Meher,Shahid,1
+Judge Meher,Shilpa,1
+Judge Meher,Sohail,1
+Judge Meher,Urmila,1
+Judge Meher,Urmila Jones,1
+Judge Meher,fate,1
+Kalyani,Kavya,1
+Kalyani,Kavya Harsh,1
+Kalyani,Mr. Sohail Ritesh,1
+Kalyani,Vinay Gully,1
+Karthik,MY DEAR MR. Kavita,1
+Karthik,Ramesh,1
+Kavya,Maine,1
+Kavya,Miss Anushka,1
+Kavya,Miss Kalyani Ronit,1
+Kavya,Priyadarshan Shubham,1
+Kavya,Sneha,1
+Kavya Harsh,Miss Anushka,1
+Kavya Harsh,Miss Kalyani Ronit,1
+Kavya Harsh,New York,1
+Kavya Harsh,Priyadarshan Shubham,1
+Kavya Harsh,Ruchi Sameera,1
+Kavya Harsh,Sneha,1
+Kirti,MY DEAR MR. Kavita,1
+Kirti,Madame Meenal,1
+Kirti,Ramesh,1
+Kirti,Tuesday,1
+Kirti,don,1
+Kirti Arvind,Ramesh,1
+Kirti Arvind,Sanjay Komal,1
+Kirti Arvind,Tuesday,1
+Komal Deanes,Sanjay Komal,1
+Komal Payal,Lips,1
+Komal Payal,Madame Meenal,1
+Komal Payal,New York,1
+Komal Payal,Ruchi,1
+Komal Payal,Sidharth,1
+Komal Payal,Sidharth Sheridan,1
+Komal Payal,Sohail,1
+Komal Payal,Sonam Films,1
+Komal Payal,Tuesday,1
+Komal Payal,care,1
+Komal Payal,frank,1
+Landseer,a,1
+Lavanya,Urmila Sonam,1
+Lavanya,jack,1
+Lips,MY DEAR MR. Kavita,1
+MY DEAR MR. Kavita,Ramesh,1
+MY DEAR MR. Kavita,Sonam Films,1
+MY DEAR MR. Kavita,Timidly,1
+MY DEAR MR. Kavita,care,1
+MY DEAR MR. Kavita,don,1
+Madame Meenal,Mrs. Sahil Asin,1
+Madame Meenal,New York,1
+Madame Meenal,Ramesh,1
+Madame Meenal,Tuesday,1
+Mademoiselle DeLisle,New York,1
+Mademoiselle DeLisle,Sanjay Komal,1
+Mademoiselle DeLisle,Sneha,1
+Mademoiselle DeLisle,a,1
+Madhavan,Miss Anushka,1
+Madhavan,Sanjay Komal,1
+Madhavan,Tabu,1
+Madhavan,a,1
+Madhavan Shubham,Miss Anushka,1
+Madhavan Shubham,Sanjay Komal,1
+Maine,Ramesh,1
+Maine,don,1
+Manas,Sneha,1
+Manisha,New York,1
+Manisha,Sneha,1
+Miss Anushka,Ragans,1
+Miss Anushka,fate,1
+Miss Kalyani Ronit,Ruchi,1
+Miss Kalyani Ronit,Ruchi Sameera,1
+Miss Kalyani Ronit,Yani,1
+Miss Kalyani Ronit,don,1
+Mlle. Manisha DeLisle,New York,1
+Mlle. Manisha DeLisle,Sneha,1
+Mohanlal Ritesh,Mr. Sohail Ritesh,1
+Mohanlal Ritesh,a,1
+Mr. Manas Ekta,Sneha,1
+Mr. Manas Ekta,a,1
+Mr. Sohail Ritesh,Priyadarshan,1
+Mr. Sohail Ritesh,Ruchi Sameera,1
+Mr. Sohail Ritesh,Thompson Street,1
+Mr. Sohail Ritesh,Tuesday,1
+Mr. Sohail Ritesh,Urmila,1
+Mr. Sohail Ritesh,Urmila Jones,1
+Mrs. Sahil Asin,don,1
+New York,Nidhi Bhavesh,1
+New York,Priyadarshan,1
+New York,Ramesh,1
+New York,Ruchi,1
+New York,Trevor,1
+New York,care,1
+New York,don,1
+New York,fate,1
+Parineeti,Sidharth,1
+Parineeti,Sidharth Ritesh,1
+Parineeti,Sohail,1
+Parineeti,Sonakshi,1
+Parineeti,Sonakshi Tanmay,1
+Parineeti,Sonam Films,1
+Parineeti,Urmila Sonam,1
+Prithvi Karun,Sanjay Komal,1
+Prithvi Karun,a,1
+Priyadarshan,Rajat,1
+Priyadarshan,Ramesh,1
+Priyadarshan,Zeeshan,1
+Priyadarshan,care,1
+Priyadarshan,frank,1
+Priyadarshan Shubham,Ragans,1
+Priyadarshan Shubham,Sidewise,1
+Priyadarshan Shubham,fate,1
+Priyadarshan Shubham,jack,1
+Radhika,a,1
+Raghav,a,1
+Rajat,Sohail,1
+Rajat,don,1
+Rajat,jack,1
+Ramesh,Ruchi,1
+Ramesh,Sohail,1
+Ramesh,Thompson Street,1
+Ramesh,Urmila Sonam,1
+Ramesh,jack,1
+Roshan,Ruchi Sameera,1
+Roshan,Urmila Sonam,1
+Roshan Larkin,Ruchi Sameera,1
+Roshan Larkin,Urmila Sonam,1
+Ruchi,Sneha,1
+Ruchi,Urmila,1
+Ruchi Sameera,Sneha,1
+Ruchi Sameera,Tuesday,1
+Ruchi Sameera,Yashwant,1
+Ruchi Sameera,fate,1
+Sakshi,a,1
+Sameer,Shahid,1
+Sameer,Shilpa,1
+Sameer,a,1
+Sanjay Komal,Shraddha,1
+Sanjay Komal,Sidharth,1
+Sanjay Komal,Sidharth Sheridan,1
+Sanjay Komal,Trevor,1
+Sanjay Komal,sage,1
+Shahid,Shilpa,1
+Shahid,a,1
+Shilpa,a,1
+Shraddha,a,1
+Sidewise,a,1
+Sidharth,Sidharth Sheridan,1
+Sidharth,don,1
+Sneha,Trevor,1
+Sneha,frank,1
+Sohail,Tuesday,1
+Sonakshi Tanmay,don,1
+Tabu,a,1
+Thompson Street,a,1
+Trevor,frank,1
+Tuesday,Urmila Sonam,1
+Urmila,Urmila Jones,1
+Urmila Jones,a,1
+Urmila Sonam,Yashwant,1
+Urmila Sonam,fate,1
+Vinay Gully,a,1
+Vishal Karisma,a,1
+a,frank,1

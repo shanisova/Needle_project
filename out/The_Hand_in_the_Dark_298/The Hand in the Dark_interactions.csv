@@ -1,0 +1,296 @@
+character1,character2,count
+Miss Alethea Heredith,her,119
+Hazel,Hazel Rath,108
+Mr. Philip,Sir Philip,54
+Miss Alethea Heredith,Mr. Philip,51
+Miss Alethea Heredith,Mr. Phil,39
+Superintendent Merrington,her,39
+Detective Caldew,Superintendent Merrington,37
+Miss Alethea Heredith,Sir Philip Heredith,33
+Mr. Philip,Sir Philip Heredith,33
+Hazel,her,32
+Hazel Rath,her,32
+Miss Alethea Heredith,Vincent Musard,32
+Mr. Phil,her,31
+Vincent Musard,her,28
+Nepcote,Superintendent Merrington,25
+Miss Alethea Heredith,Superintendent Merrington,24
+Detective Caldew,Miss Alethea Heredith,22
+Stanhill,Superintendent Merrington,22
+her,old,22
+Mr. Phil,Vincent Musard,21
+Hazel Rath,Miss Alethea Heredith,20
+Miss Alethea Heredith,Sir Philip,19
+Mr. Colwyn,Mr. Phil,18
+Hazel,Miss Alethea Heredith,17
+Hazel,Superintendent Merrington,17
+Milly,Milly Saker,17
+Miss Alethea Heredith,Mr. Colwyn,17
+Mr. Colwyn,Superintendent Merrington,17
+Violet,her,17
+Hazel,Nepcote,15
+Miss Alethea Heredith,Nepcote,15
+Miss Alethea Heredith,Phil Heredith,15
+Miss Alethea Heredith,Violet,15
+Mr. Phil,Phil Heredith,15
+Detective Caldew,her,13
+Hazel,Mr. Phil,13
+Hazel Rath,Nepcote,13
+Mr. Colwyn,Nepcote,13
+Mr. Colwyn,Vincent Musard,12
+Mr. Philip,her,12
+Hazel Rath,Superintendent Merrington,11
+Miss Alethea Heredith,Vincent,11
+Miss Alethea Heredith,old,11
+Nepcote,her,11
+Hazel Rath,Miss Rath,10
+Sir Philip,Sir Philip Heredith,10
+Vincent,Vincent Musard,10
+Detective Caldew,Sergeant Lumbe,9
+Hazel Rath,Mr. Phil,9
+Milly,her,9
+Mr. Philip,old,9
+Mr. Tufnell,her,9
+Detective Caldew,Vincent Musard,8
+Mr. Philip,Violet,8
+Sir Philip,old,8
+Detective Caldew,Hazel,7
+Detective Caldew,Mr. Phil,7
+Miss Alethea Heredith,Mr. Tufnell,7
+Miss Alethea Heredith,Violet Heredith,7
+Mr. Philip,Vincent Musard,7
+Vincent Musard,old,7
+Violet,Violet Heredith,7
+Detective Caldew,Hazel Rath,6
+Detective Caldew,Stanhill,6
+Hazel,Mr. Colwyn,6
+Milly Saker,her,6
+Mr. Colwyn,Mr. Philip,6
+Mr. Colwyn,her,6
+Mr. Colwyn,old,6
+Sir Philip,Violet,6
+Detective Caldew,Mr. Colwyn,5
+Detective Caldew,Nepcote,5
+Hazel Rath,Mr. Colwyn,5
+Hazel Rath,Mr. Philip,5
+Miss Alethea Heredith,death,5
+Mr. Phil,Mr. Philip,5
+Mr. Phil,Superintendent Merrington,5
+Sir Philip,Vincent Musard,5
+Sir Philip Heredith,her,5
+death,her,5
+Bridges,her,4
+Detective Caldew,old,4
+Hazel,Mr. Philip,4
+Hazel,Sir Philip Heredith,4
+Hazel Rath,Sir Philip Heredith,4
+Herediths,Miss Alethea Heredith,4
+Mary Theberton,her,4
+Miss Alethea Heredith,Stanhill,4
+Mr. Phil,Sir Philip,4
+Mr. Phil,Vincent,4
+Mr. Phil,Violet,4
+Mr. Philip,Vincent,4
+Phil Heredith,her,4
+Sir Philip,Vincent,4
+Sir Philip,her,4
+Stanhill,her,4
+Vincent Musard,Violet,4
+fate,her,4
+Detective Caldew,Mr. Philip,3
+Detective Caldew,Sir Philip Heredith,3
+Detective Caldew,Tom,3
+Hazel,Vincent Musard,3
+Hazel Rath,Milly,3
+Hazel Rath,Milly Saker,3
+Hazel Rath,Vincent Musard,3
+Miss Alethea Heredith,Teddy Weyne,3
+Mr. Colwyn,Mr. Tufnell,3
+Mr. Colwyn,Sir Philip,3
+Mr. Colwyn,Sir Philip Heredith,3
+Mr. Phil,old,3
+Mr. Philip,Nepcote,3
+Mr. Philip,Superintendent Merrington,3
+Mr. Tufnell,Sergeant Lumbe,3
+Mr. Tufnell,old,3
+Nepcote,Sir Philip Heredith,3
+Sir Philip Heredith,old,3
+god,her,3
+Alethea,Miss Alethea Heredith,2
+Bridges,Mary Theberton,2
+Detective Caldew,Mr. Tufnell,2
+Detective Caldew,fate,2
+Hazel,Milly,2
+Hazel,Milly Saker,2
+Hazel,Phil Heredith,2
+Hazel,Violet,2
+Hazel,death,2
+Hazel,truth,2
+Hazel Rath,Phil Heredith,2
+Hazel Rath,Violet,2
+Hazel Rath,death,2
+Hazel Rath,truth,2
+Herediths,Vincent Musard,2
+Inspector Weyling,Sergeant Lumbe,2
+Inspector Weyling,Superintendent Merrington,2
+Milly,Miss Alethea Heredith,2
+Milly,Superintendent Merrington,2
+Milly Saker,Superintendent Merrington,2
+Miss Alethea Heredith,Sergeant Lumbe,2
+Miss Alethea Heredith,god,2
+Miss Alethea Heredith,truth,2
+Miss Rath,her,2
+Mr. Austin Wendover,Nepcote,2
+Mr. Phil,Mr. Tufnell,2
+Mr. Philip,Mr. Tufnell,2
+Mr. Philip,Rusher,2
+Mr. Philip,Stanhill,2
+Mr. Philip,death,2
+Mr. Philip,god,2
+Mr. Tufnell,Nepcote,2
+Mr. Tufnell,Sir Philip,2
+Mr. Tufnell,Vincent Musard,2
+Mr. Tufnell,cook,2
+Nepcote,Violet,2
+Nepcote,old,2
+Nepcote,truth,2
+Phil Heredith,Vincent Musard,2
+Rusher,Sir Philip,2
+Sergeant Lumbe,Vincent Musard,2
+Sergeant Lumbe,her,2
+Sir Philip,death,2
+Sir Philip Heredith,Superintendent Merrington,2
+Superintendent Merrington,Violet,2
+Superintendent Merrington,Violet Heredith,2
+Superintendent Merrington,truth,2
+Vincent,old,2
+Vincent Musard,truth,2
+Violet,death,2
+cook,her,2
+her,truth,2
+Adelina,her,1
+Alethea,Mr. Philip,1
+Alethea,Sir Philip,1
+Alethea,Sir Philip Heredith,1
+Alethea,Vincent,1
+Alethea,Vincent Musard,1
+Alethea,death,1
+Bridges,death,1
+Bridges,old,1
+Cain,abel,1
+Cain,god,1
+Detective Caldew,Inspector Weyling,1
+Detective Caldew,Mr. Austin Wendover,1
+Detective Caldew,Sir Philip,1
+Detective Caldew,Vincent,1
+Detective Caldew,Violet,1
+Detective Caldew,death,1
+Detective Caldew,fortune,1
+Detective Caldew,jove,1
+Diana,her,1
+Dick,Mr. Philip,1
+Dick,Sir Philip,1
+Dick,egg,1
+Dolly Weyne,Teddy Weyne,1
+Doyne,Moynglass,1
+Freeling,putney,1
+Graham,Harding,1
+Graham,old,1
+Harry,Mr. Philip,1
+Harry,Sir Harry Ravenworth,1
+Hazel,Violet Heredith,1
+Hazel Rath,Stanhill,1
+Hazel Rath,Violet Heredith,1
+Henry Hobbs,Nepcote,1
+Henry Hobbs,Superintendent Merrington,1
+Henry Hobbs,cockney,1
+Henry Hobbs,obbs,1
+Herediths,Mr. Philip,1
+Herediths,Sir Philip,1
+Herediths,Superintendent Merrington,1
+Herediths,death,1
+Herediths,old,1
+Inspector Weyling,Stanhill,1
+Jack Tar,nelson,1
+Jem,her,1
+Lady Vaughan,Sir William Vaughan,1
+Linton,Miss Alethea Heredith,1
+Linton,Thomas,1
+Mary Meehan,Suzanne Shell,1
+Milly,Mr. Colwyn,1
+Milly,old,1
+Milly Saker,Miss Alethea Heredith,1
+Milly Saker,Mr. Colwyn,1
+Miss Alethea Heredith,Miss Rath,1
+Miss Alethea Heredith,Philip Here-Deith,1
+Miss Alethea Heredith,Sir Arthur,1
+Miss Alethea Heredith,Sir Arthur Wellesley,1
+Miss Alethea Heredith,Thomas,1
+Miss Alethea Heredith,Tom,1
+Miss Alethea Heredith,cook,1
+Miss Garton,her,1
+Miss Rath,Mr. Philip,1
+Miss Rath,Stanhill,1
+Moynglass,fortune,1
+Mr. Austin Wendover,Superintendent Merrington,1
+Mr. Austin Wendover,truth,1
+Mr. Colwyn,Phil Heredith,1
+Mr. Colwyn,horatio,1
+Mr. Colwyn,lane,1
+Mr. Colwyn,nelson,1
+Mr. Colwyn,nile,1
+Mr. Phil,Sir Philip Heredith,1
+Mr. Phil,god,1
+Mr. Philip,Phil Heredith,1
+Mr. Philip,Philip Here-Deith,1
+Mr. Philip,Sir Harry Ravenworth,1
+Mr. Philip,egg,1
+Mr. Tufnell,Superintendent Merrington,1
+Mr. Tufnell,fate,1
+Phil Heredith,Sir Philip,1
+Phil Heredith,Sir Philip Heredith,1
+Phil Heredith,Superintendent Merrington,1
+Platt,Thomas,1
+Sergeant Lumbe,Stanhill,1
+Sergeant Lumbe,Superintendent Merrington,1
+Sir Arthur,Sir Arthur Wellesley,1
+Sir Arthur,Vincent,1
+Sir Arthur Wellesley,Vincent,1
+Sir Philip,Stanhill,1
+Sir Philip,egg,1
+Sir Philip Heredith,Vincent Musard,1
+Sir Philip Heredith,death,1
+Sir Philip Heredith,god,1
+Stanhill,truth,1
+Suckling,old,1
+Superintendent Merrington,Vincent Musard,1
+Superintendent Merrington,death,1
+Superintendent Merrington,fate,1
+Superintendent Merrington,old,1
+Teddy Weyne,her,1
+Tom,maggie,1
+Upden,old,1
+Vincent,her,1
+Vincent Musard,Wellington,1
+Vincent Musard,death,1
+Vincent Musard,gardner,1
+Violet Heredith,death,1
+abel,god,1
+aig,old,1
+chianti,old,1
+christ,her,1
+christ,jesus,1
+cockney,obbs,1
+cook,old,1
+czars,fate,1
+dormer,old,1
+granger,old,1
+her,highness,1
+her,jesus,1
+horatio,nelson,1
+horatio,nile,1
+john,lane,1
+john,rees,1
+lane,rees,1
+nelson,nile,1
+rees,watson,1

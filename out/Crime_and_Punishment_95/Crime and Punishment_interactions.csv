@@ -1,0 +1,499 @@
+character1,character2,count
+Gere O'brien,Murdoch O'brien,228
+Costner,Costner Redford,183
+Pryor,Pryor Zhang,93
+Costner Redford,Ellis,85
+Costner Redford,Ellis Redford,85
+Ellis,Ellis Redford,85
+Cher O'brien,Murdoch O'brien,57
+Mr. Zane,Pryor Zhang Charles,39
+Ellis,Pryor Zhang Charles,38
+Costner Redford,Pryor Zhang Charles,30
+Mckellen,Zane Mckellen Swift,27
+Murdoch O'brien,Sister Ruffalo,27
+Gere O'brien,Sister Ruffalo,26
+Pryor Zhang Charles,Sister Ruffalo,24
+Cher O'brien,Gere O'brien,22
+Mr. Zane,Waller Page,18
+Costner,Hathaway,15
+Costner Redford,Hathaway,15
+Ellis Redford,Pryor Zhang Charles,15
+Eisenberg Moore,Hathaway,13
+Hemsworth,Pearson,13
+Caplan,Cooper Rapp,12
+Caplan,Hathaway,12
+Cooper Rapp,Hathaway,12
+Costner,Sister Ruffalo,12
+Costner Redford,Sister Ruffalo,12
+Dorsey O'brien,Murdoch O'brien,12
+Ellis,Mr. Zane,12
+Heard,Murdoch O'brien,12
+Mr. Pugh,Pryor Zhang Charles,12
+Pryor Zhang Charles,Thomas Sarandon Rourke,12
+Cooper Rapp,Mr. Zane,11
+Heard,Pryor Zhang Charles,11
+Murdoch O'brien,Pryor Zhang Charles,11
+Costner,Pryor Zhang Charles,10
+Costner Redford Tyrese,Sister Ruffalo,10
+Gere O'brien,Pryor Zhang Charles,10
+Cooper Rapp,Pryor Zhang Charles,9
+Costner,Miller Arquette Behar,9
+Costner Redford,Miller Arquette Behar,9
+Gad,Heard,9
+Gere O'brien,Thomas Sarandon Rourke,9
+Hathaway,Mr. Zane,9
+Mckellen,Perry,9
+Murdoch O'brien,Thomas Sarandon Rourke,9
+Pryor Zhang Charles,Waller Page,9
+Costner Redford,Mr. Zane,8
+Costner Redford Tyrese,Pryor Zhang Charles,8
+Dickinson,Pryor Zhang Charles,8
+Gere O'brien,Heard,8
+Hathaway,Pryor Zhang Charles,8
+Heard,Sister Ruffalo,8
+Miller Arquette Behar,Sister Ruffalo,8
+Costner,Miller Arquette,7
+Costner Redford,Miller Arquette,7
+Costner Redford Tyrese,Mr. Zane,7
+Elgort,Pearson,7
+Ellis,Heard,7
+Miller Arquette Behar,Pryor Zhang Charles,7
+Carrey Dinklage,Costner Redford,6
+Cher Benning,Murdoch O'brien,6
+Costner,Costner Redford Tyrese,6
+Costner,Firth,6
+Costner,Mr. Zane,6
+Costner,Murdoch O'brien,6
+Costner Redford,Costner Redford Tyrese,6
+Costner Redford,Firth,6
+Costner Redford,Heard,6
+Costner Redford,Murdoch O'brien,6
+Costner Redford Tyrese,Murdoch O'brien,6
+Hathaway,Sister Ruffalo,6
+Hutton,Murdoch O'brien,6
+Hutton,Pryor Zhang Charles,6
+Pryor,Pryor Zhang Charles,6
+Caplan,Costner,5
+Caplan,Costner Redford,5
+Cher Benning,Cher O'brien,5
+Cooper Rapp,Costner,5
+Cooper Rapp,Costner Redford,5
+Cooper Rapp,Costner Redford Tyrese,5
+Cooper Rapp,Diaz,5
+Costner,Gere O'brien,5
+Costner Redford,Gere O'brien,5
+Costner Redford,Waller Page,5
+Costner Redford Tyrese,Gere O'brien,5
+Costner Redford Tyrese,Hathaway,5
+Eisenberg Moore,Heard,5
+Elgort,Gere O'brien,5
+Elgort,Murdoch O'brien,5
+Elgort,Sister Ruffalo,5
+Ellis,Pryor,5
+Ellis,Pryor Zhang,5
+Gere O'brien,Thomas Sarandon,5
+Hutton,Hutton O'brien,5
+Hutton O'brien,Murdoch O'brien,5
+Miller Arquette,Miller Arquette Behar,5
+Murdoch O'brien,Thomas Sarandon,5
+Pryor Zhang,Pryor Zhang Charles,5
+Charles Zeta,Mr. Zane,4
+Cher Benning,Gere O'brien,4
+Costner,Heard,4
+Costner,Waller Page,4
+Costner Redford,Pryor,4
+Diaz,Pryor Zhang Charles,4
+Elgort,Hemsworth,4
+Ellis,Perry,4
+Gad,Perry,4
+Gere O'brien,Miller Arquette Behar,4
+Gere O'brien,Pearson,4
+Hall,Sister Ruffalo,4
+Hathaway,Heard,4
+Heard,Perry,4
+Miller Arquette Behar,Murdoch O'brien,4
+Mr. Zane,Perry,4
+Mr. Zane,Sister Ruffalo,4
+Murdoch O'brien,Pearson,4
+Perry,Pryor Zhang Charles,4
+Affleck,Paltrow,3
+Bell,Pryor Zhang Charles,3
+Bening,Pryor Zhang Charles,3
+Bruce,Dickinson,3
+Caplan,Heard,3
+Carrey Dinklage,Pryor Zhang Charles,3
+Charles Zeta,Eisenberg Moore,3
+Charles Zeta,Pryor Zhang Charles,3
+Cher O'brien,Heard,3
+Cooper Rapp,Sister Ruffalo,3
+Costner,Mckellen,3
+Costner,Zane Mckellen Swift,3
+Costner Redford,Mckellen,3
+Costner Redford,Pryor Zhang,3
+Costner Redford,Zane Mckellen Swift,3
+Costner Redford Tyrese,Eisenberg Moore,3
+Costner Redford Tyrese,Miller Arquette Behar,3
+Dickinson,Heard,3
+Dorsey O'brien,Heard,3
+Ellis Redford,Pryor,3
+Ellis Redford,Pryor Zhang,3
+Firth,Pryor,3
+Firth,Pryor Zhang,3
+Gad,Mckellen,3
+Gere O'brien,Green,3
+Green,Murdoch O'brien,3
+Hathaway,Thomas Sarandon,3
+Heard,Mckellen,3
+Murdoch O'brien,Thomas O'brien,3
+Waller Page,Zeta. Reynolds,3
+Adele,Bassey,2
+Adele,Parsons,2
+Affleck,Green,2
+BLACK,Cher O'brien,2
+BLACK,Costner Redford,2
+BLACK,Mr. Zane,2
+BLACK,Murdoch O'brien,2
+BLACK,Pryor Zhang Charles,2
+Bell,Zeta. Reynolds,2
+Bening,Gere O'brien,2
+Bening,Murdoch O'brien,2
+Bruce,Heard,2
+Caplan,Dickinson,2
+Caplan,Mr. Zane,2
+Caplan,Pryor Zhang Charles,2
+Charles Zeta,Cooper Rapp,2
+Charles Zeta,Downey Jolie,2
+Charles Zeta,Heard,2
+Cher Benning,Miller Arquette Behar,2
+Cher O'brien,Costner,2
+Cher O'brien,Costner Redford,2
+Cher O'brien,Costner Redford Tyrese,2
+Cher O'brien,Sister Ruffalo,2
+Cooper Rapp,Downey Jolie,2
+Cooper Rapp,Eisenberg Moore,2
+Cooper Rapp,Heard,2
+Cooper Rapp,Waller Page,2
+Cooper Rapp Charles,Pryor Zhang Charles,2
+Costner,Diaz,2
+Costner,Thomas Sarandon,2
+Costner Redford,Diaz,2
+Costner Redford,Thomas Sarandon,2
+Costner Redford Tyrese,Heard,2
+Costner Redford Tyrese,Zeta. Reynolds,2
+Criss,Murdoch O'brien,2
+Cyndi,Penn,2
+Cyndi,Zendaya,2
+Davidson,Heard,2
+Diaz,Hathaway,2
+Diaz,Pryor,2
+Diaz,Pryor Zhang,2
+Diaz,Sister Ruffalo,2
+Dorsey O'brien,Hutton,2
+Dorsey O'brien,Hutton O'brien,2
+Downey Jolie,Pryor Zhang Charles,2
+Downey Jolie,Waller Page,2
+Eisenberg Moore,Firth,2
+Ellis,Mr. Pugh,2
+Ellis,Waller Page,2
+Ellis Redford,Heard,2
+Ellis Redford,Mr. Zane,2
+Firth,Hathaway,2
+Firth,Mr. Zane,2
+Green,Paltrow,2
+Green,Pryor Zhang Charles,2
+Green,Thomas Sarandon Rourke,2
+Gyllenhaal,Mckellen,2
+Gyllenhaal,Perry,2
+Hall,Pryor Zhang Charles,2
+Harris,Mr. Zane,2
+Hathaway,Miller Arquette,2
+Heard,Hiddleston Armstrong,2
+Heard,Hutton,2
+Heard,Miller Arquette,2
+Heard,Miller Arquette Behar,2
+Heard,Paltrow,2
+Hiddleston Armstrong,Hiddleston Armstrong Blythe,2
+Jordan,Winslet,2
+Lee,Mckellen,2
+Lee,Perry,2
+Mckellen,Mr. Zane,2
+Mr. Pugh,Waller Page,2
+Mr. Zane,Zane Mckellen Swift,2
+Mr. Zane,Zeta. Reynolds,2
+Pearson,Thomas Sarandon Rourke,2
+Penn,Zendaya,2
+Perry,Pryor,2
+Perry,Pryor Zhang,2
+Pryor Zhang Charles,Waller,2
+Pryor Zhang Charles,Waller Charles,2
+Sister Ruffalo,Waller,2
+Sister Ruffalo,Waller Charles,2
+Thomas Sarandon,Thomas Sarandon Rourke,2
+Waller,Waller Charles,2
+Adele,James,1
+Adler,Lautner,1
+Affleck,Heard,1
+Akerman,Brolin,1
+Anderson,BLACK,1
+Atkinson,Pryor,1
+Atkinson,Pryor Zhang,1
+Atkinson,Pryor Zhang Charles,1
+BLACK,Costner,1
+BLACK,Hathaway,1
+BLACK,Heard,1
+BLACK,Kidman,1
+BLACK,Leto,1
+BLACK,Mr. Pugh,1
+BLACK,Sister Ruffalo,1
+BLACK,Zeta. Reynolds,1
+Banks,Nixon,1
+Banks,Pryor Zhang Charles,1
+Banks,Shyamalan,1
+Barrymore,Carrey Dinklage,1
+Barrymore,Costner Redford,1
+Bassey,James,1
+Bassey,Parsons,1
+Beales,Perry,1
+Bell,CUMMINGS DICAPRIO,1
+Bell,Firth,1
+Bell,Heard,1
+Bell,KUTCHER,1
+Bell,Neeson,1
+Bell,OLDMAN,1
+Bell,Williams,1
+Bening,Costner,1
+Bening,Costner Redford,1
+Bening,Eisenberg Moore,1
+Bening,Mr. Zane,1
+Bening,Pryor,1
+Bening,Pryor Zhang,1
+Bening,Tyson,1
+Bening,Wood,1
+Bergman,Lively,1
+Blige,Dickinson,1
+Blige,Eisenberg Moore,1
+Bohemian,Eisenberg Moore,1
+Bohemian,Hanks,1
+Bohemian,Jagger,1
+Bohemian,Olsen,1
+Bohemian,Shyamalan,1
+Bradbury,Caplan,1
+Brooks,O'Dowd,1
+Brooks,Parsons,1
+Brosnan,Lively,1
+Brosnan,Sister Ruffalo,1
+Brown Knightley,Heard,1
+Brown Lewis,Quaid,1
+Bruce,Caplan,1
+Bruce,Dunaway,1
+Bruce,Hill,1
+Bruce,Mr. Pugh,1
+Bruce,Mr. Zane,1
+Bullock Arquette,Hiddleston Armstrong,1
+Bullock Tatum,Pryor Zhang Charles,1
+CUMMINGS DICAPRIO,Williams,1
+Campbell,Jason,1
+Caplan,Cooper Rapp Charles,1
+Caplan,Diaz,1
+Caplan,Eisenberg Moore,1
+Caplan,Firth,1
+Carrey Dinklage,Ellis,1
+Carrey Dinklage,Ellis Redford,1
+Carrey Dinklage,Heard,1
+Carrey Dinklage,Mr. Pugh,1
+Charles Zeta,Costner,1
+Charles Zeta,Costner Redford,1
+Charles Zeta,Costner Redford Tyrese,1
+Charles Zeta,Dorsey O'brien,1
+Charles Zeta,Firth,1
+Charles Zeta,Jett,1
+Charles Zeta,Murdoch O'brien,1
+Cher Adam,Gere O'brien,1
+Cher Adam,Murdoch O'brien,1
+Cher Adam,Segel O'neal,1
+Cher Benning,Winfrey,1
+Cher O'brien,Elgort,1
+Cher O'brien,Firth,1
+Cher O'brien,Jason,1
+Cher O'brien,Thomas O'brien,1
+Cher O'brien,Winfrey,1
+Cher Verne,Heard,1
+Collette,Emmerich,1
+Cooper Rapp,Cooper Rapp Charles,1
+Cooper Rapp,Dickinson,1
+Cooper Rapp,Ellis,1
+Cooper Rapp,Harris,1
+Cooper Rapp,Mckellen,1
+Cooper Rapp,Pryor,1
+Cooper Rapp,Zane Mckellen Swift,1
+Cooper Rapp,Zeta. Reynolds,1
+Cooper Rapp Charles,Dickinson,1
+Cooper Rapp Charles,Hathaway,1
+Cooper Rapp Charles,Heard,1
+Costner,Eisenberg Moore,1
+Costner,Elgort,1
+Costner,Hiddleston Armstrong,1
+Costner,Lively,1
+Costner,Neeson,1
+Costner,Pryor,1
+Costner,Zeta. Reynolds,1
+Costner Redford,Eisenberg Moore,1
+Costner Redford,Elgort,1
+Costner Redford,Hiddleston Armstrong,1
+Costner Redford,Lively,1
+Costner Redford,Neeson,1
+Costner Redford,Parsons,1
+Costner Redford,Perry,1
+Costner Redford,Zeta. Reynolds,1
+Costner Redford Tyrese,Elgort,1
+Costner Redford Tyrese,Harris,1
+Costner Redford Tyrese,Mckellen,1
+Costner Redford Tyrese,Smith,1
+Costner Redford Tyrese,Thomas Sarandon,1
+Costner Redford Tyrese,Waller,1
+Costner Redford Tyrese,Waller Charles,1
+Costner Redford Tyrese,Waller Page,1
+Costner Redford Tyrese,Zane Mckellen Swift,1
+Davidson,Firth,1
+Davidson,Zeta. Reynolds,1
+Dehaan,Hiddleston Armstrong,1
+Dehaan,Hiddleston Armstrong Blythe,1
+Deschanel,Elgort,1
+Diaz,Dickinson,1
+Diaz,Dunst,1
+Diaz,Eisenberg Moore,1
+Diaz,Ellis,1
+Diaz,Gadot,1
+Diaz,Mckellen,1
+Diaz,Mr. Zane,1
+Diaz,Paltrow,1
+Diaz,Zane Mckellen Swift,1
+Dickinson,Downey Jolie,1
+Dickinson,Dunaway,1
+Dickinson,Firth,1
+Dickinson,Hathaway,1
+Dickinson,Hill,1
+Dickinson,Hutton,1
+Dickinson,Mr. Pugh,1
+Dickinson,Mr. Zane,1
+Dickinson,Waller Page,1
+Dorsey O'brien,Jett,1
+Dorsey O'brien,Lively,1
+Dunaway,Hill,1
+Dunaway,Mr. Pugh,1
+Eisenberg Moore,Hanks,1
+Eisenberg Moore,Jagger,1
+Eisenberg Moore,Mckellen,1
+Eisenberg Moore,Olsen,1
+Eisenberg Moore,Pryor,1
+Eisenberg Moore,Pryor Zhang,1
+Eisenberg Moore,Pryor Zhang Charles,1
+Eisenberg Moore,Shyamalan,1
+Eisenberg Moore,Zane Mckellen Swift,1
+Eisenberg Moore,Zeta. Reynolds,1
+Elgort,Hutton,1
+Elgort,Pryor,1
+Elgort,Thomas Sarandon,1
+Elliott,Glover,1
+Ellis,Lively,1
+Ellis,Parsons,1
+Ellis Redford,Parsons,1
+Ellis Redford,Perry,1
+Ellis Redford,Waller Page,1
+Firth,Gere O'brien,1
+Firth,Heard,1
+Firth,Murdoch O'brien,1
+Firth,Ronan Armstrong,1
+Firth,Vance,1
+Gad,Gyllenhaal,1
+Gad,Hutton,1
+Gere O'brien,Hemsworth,1
+Gere O'brien,Hutton,1
+Gere O'brien,Jason,1
+Gere O'brien,Miller Arquette,1
+Gere O'brien,Roberts,1
+Gere O'brien,Winfrey,1
+Goodman,Miller Arquette Behar,1
+Green,Heard,1
+Green,Sister Ruffalo,1
+Gyllenhaal,Heard,1
+Hall,Mr. Zane,1
+Hall,Pryor,1
+Hall,Pryor Zhang,1
+Hanks,Jagger,1
+Hanks,Olsen,1
+Hanks,Shyamalan,1
+Harris,Hathaway,1
+Harris,Miller Arquette,1
+Harris,Miller Arquette Behar,1
+Harris,Pryor Zhang Charles,1
+Hart,Norton,1
+Hart,Walken,1
+Hathaway,Hiddleston Armstrong,1
+Hathaway,Mckellen,1
+Hathaway,Waller Page,1
+Hathaway,Zane Mckellen Swift,1
+Hathaway,Zeta. Reynolds,1
+Heard,Hiddleston Armstrong Blythe,1
+Heard,Hutton O'brien,1
+Heard,Lee,1
+Heard,Leto,1
+Heard,Mr. Zane,1
+Heard,Pryor,1
+Heard,Pryor Zhang,1
+Heard,Zeta. Reynolds,1
+Hemsworth,Murdoch O'brien,1
+Hemsworth,Pryor,1
+Hemsworth,Pryor Zhang,1
+Hiddleston Armstrong,Pryor Zhang Charles,1
+Hiddleston Armstrong Blythe,Pryor Zhang Charles,1
+Hill,Mr. Pugh,1
+Hutton,Mckellen,1
+Hutton,Perry,1
+Hutton,Sister Ruffalo,1
+Hutton O'brien,Pryor Zhang Charles,1
+Jagger,Olsen,1
+Jagger,Shyamalan,1
+James,Parsons,1
+Jason,Murdoch O'brien,1
+Jett,Murdoch O'brien,1
+Jordan,Mr. Zane,1
+Kidman,Ledger,1
+Leto,Zeta. Reynolds,1
+Lively,Murdoch O'brien,1
+Lively,Pryor Zhang Charles,1
+Lively,Sister Ruffalo,1
+Mcconaughey,Shyamalan,1
+Miller Arquette,Murdoch O'brien,1
+Miller Arquette,Pryor Zhang Charles,1
+Miller Arquette Behar,Thomas Sarandon,1
+Mr. Pugh,Murdoch O'brien,1
+Mr. Zane,Pattinson,1
+Mr. Zane,Thomas Sarandon,1
+Murdoch O'brien,Roberts,1
+Murdoch O'brien,Winfrey,1
+Neeson,OLDMAN,1
+Norton,Walken,1
+Norton,Waller Page,1
+O'Dowd,Parsons,1
+Olsen,Shyamalan,1
+Parsons,Travolta,1
+Perry,Sister Ruffalo,1
+Pitt,Wood,1
+Pryor,Thomas Sarandon,1
+Pryor,Waller Page,1
+Pryor,Zeta. Reynolds,1
+Pryor Zhang,Thomas Sarandon,1
+Pryor Zhang,Waller Page,1
+Pryor Zhang Charles,Smith,1
+Pryor Zhang Charles,Thomas Sarandon,1
+Pryor Zhang Charles,Zeta. Reynolds,1
+Ruffalo Rourke,Sister Ruffalo,1
+Ruffalo Rourke,Thomas Sarandon Rourke,1
+Sandler,Sister Ruffalo,1
+Segel O'neal,Thomas Sarandon,1
+Sister Ruffalo,Thomas O'brien,1
+Sister Ruffalo,Thomas Sarandon Rourke,1
+Sister Ruffalo,Wood,1
+Sister Ruffalo,Zeta. Reynolds,1
+Waller,Waller Page,1

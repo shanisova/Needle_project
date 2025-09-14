@@ -1,0 +1,652 @@
+character1,character2,count
+Ollivander,Ollivander Chaser,227
+Horace Weasley Umbridge,that,138
+Horace,Horace Weasley,122
+Lestrange,that,100
+George Arthur Binns,Remus,89
+George Arthur Binns,Remus Binns,89
+Remus,Remus Binns,89
+School,that,81
+Ollivander,that,76
+Ollivander Chaser,that,76
+Horklump,Horklump Invisibility,73
+George Arthur Binns,that,71
+Mr. Pettigrew,that,64
+Remus,that,44
+Horace Weasley Umbridge,Mr. Pettigrew,39
+Horace Weasley Umbridge,Remus,37
+Mr. Order,that,36
+George Arthur Binns,Ilya Binns,35
+Horace,that,34
+Horace Weasley,that,34
+Lethifold Parvati Svidrigaïlov,that,32
+Acromantula,Acromantula Quaffle,31
+George Arthur Binns,Horace Weasley Umbridge,31
+George,that,30
+Ollivander,School,30
+Ollivander Chaser,School,30
+Diagon,that,29
+Horklump,that,29
+Dursley,Dursley Wands,26
+Horace Weasley Umbridge,School,26
+Horklump Invisibility,that,26
+Severus Chaser,that,25
+Sorting Minerva,that,24
+Arthur Binns Dungbomb,that,23
+Hippogriff,that,21
+Ollivander,Severus Chaser,21
+Ollivander Chaser,Severus Chaser,21
+Rubeus Gilderoy,that,20
+Them Marauder,that,20
+Bludger,that,18
+Good Credence,that,18
+Hippogriff,Mr. Pettigrew,18
+George Arthur Binns,Lestrange,17
+Horace Weasley Umbridge,Remus Binns,16
+fancy,that,15
+Horace Weasley Umbridge,Mr. Order,14
+Lestrange,Rubeus Gilderoy,14
+Flitwick,Triwizard,13
+Horace Weasley Umbridge,Lethifold Parvati Svidrigaïlov,13
+Lestrange,Sorting Minerva,13
+Mr. Scorpius,that,13
+Remus Binns,that,13
+Cattermole,that,12
+George,Lestrange,12
+Horace Weasley Umbridge,Horklump Invisibility Fluffy,12
+Arthur Binns Dungbomb,Horace Weasley Umbridge,11
+Bathilda,Leta,11
+George Arthur Binns,School,11
+Hippogriff,Horace Weasley Umbridge,11
+Lestrange,Lethifold Parvati Svidrigaïlov,11
+Mr. Pettigrew,Remus,11
+Acromantula,Diagon,10
+Arthur Binns Dungbomb,School,10
+George,Sorting Minerva,10
+Horace Weasley Umbridge,Ollivander,10
+Horace Weasley Umbridge,Ollivander Chaser,10
+Phoenix,that,10
+Ravenclaw,that,10
+linen,that,10
+George Arthur Binns,Mr. Scorpius,9
+Hermione,Hermione Rose,9
+George Arthur Binns,Mr. Pettigrew,8
+Horace Weasley Umbridge,Mr. Scorpius,8
+Horklump Invisibility Fluffy,Ollivander,8
+Horklump Invisibility Fluffy,Ollivander Chaser,8
+Horklump Invisibility Fluffy,that,8
+Lestrange,Mr. Pettigrew,8
+Lethifold Parvati Svidrigaïlov,School,8
+Mr. Pettigrew,Sorting Minerva,8
+Mr. Scorpius,School,8
+Acromantula,that,7
+Arthur Binns Dungbomb,Mr. Pettigrew,7
+Cattermole,Horace Weasley Umbridge,7
+Chamber,Chamber Parvati,7
+Dursley,George Arthur Binns,7
+Dursley Wands,George Arthur Binns,7
+George Arthur Binns,Ginny Weasley,7
+George Arthur Binns,Sorting Minerva,7
+Ginny Weasley,that,7
+Horace Weasley Umbridge,Lestrange,7
+Horace Weasley Umbridge,Phoenix,7
+Mamma,that,7
+Ravenclaw,Triwizard,7
+Arthur Binns Dungbomb,George Arthur Binns,6
+Arthur Binns Dungbomb,Lestrange,6
+Bathilda,that,6
+Cattermole,Cattermole Chaser,6
+Dursley,Ilya Binns,6
+Dursley Wands,Ilya Binns,6
+Good Credence,Sorting Minerva,6
+Horace,Mr. Pettigrew,6
+Horace Weasley,Mr. Pettigrew,6
+Horace Weasley Umbridge,Sorting Minerva,6
+Lestrange,School,6
+Padfoot,that,6
+Ravenclaw,School,6
+Severus Malfoy,that,6
+Tom,that,6
+Ach,that,5
+Arthur Binns Dungbomb,Ollivander,5
+Arthur Binns Dungbomb,Ollivander Chaser,5
+Arthur Binns Dungbomb,Sorting Minerva,5
+Bathilda,Diagon,5
+Bludger,George Arthur Binns,5
+Diagon,Remus,5
+Express,that,5
+Fire,that,5
+George,George Arthur Binns,5
+George Arthur Binns,Hippogriff,5
+George Arthur Binns,Ollivander,5
+George Arthur Binns,Ollivander Chaser,5
+Ginny Weasley,Mr. Scorpius,5
+Horace,Rubeus Gilderoy,5
+Horace Weasley,Rubeus Gilderoy,5
+Horace Weasley Umbridge,Ilya Binns,5
+Horace Weasley Umbridge,Them Marauder,5
+Horace Weasley Umbridge,Them Marauder Umbridge,5
+Horklump,Ollivander,5
+Horklump,Ollivander Chaser,5
+Horklump Invisibility,Ollivander,5
+Horklump Invisibility,Ollivander Chaser,5
+My word,that,5
+Ollivander,Ravenclaw,5
+Ollivander Chaser,Ravenclaw,5
+Padfoot,Padfoot woman,5
+School,Severus Chaser,5
+Severus Chaser,Severus Malfoy,5
+Acromantula,Bathilda,4
+Bludger,Lethifold Parvati Svidrigaïlov,4
+Diagon,Leta,4
+Diagon,Mr. Pettigrew,4
+Dumbledore,School,4
+Dursley,Horace Weasley Umbridge,4
+Dursley Wands,Horace Weasley Umbridge,4
+Flitwick,Ravenclaw,4
+Good Credence,Horace Weasley Umbridge,4
+Hat,Horace Weasley Umbridge,4
+Lethifold Parvati,Lethifold Parvati Svidrigaïlov,4
+Lethifold Parvati,that,4
+Lethifold Parvati Svidrigaïlov,Ollivander,4
+Lethifold Parvati Svidrigaïlov,Ollivander Chaser,4
+Lethifold Parvati Svidrigaïlov,Remus,4
+Mr. Pettigrew,School,4
+Mr. Scorpius,Ollivander,4
+Mr. Scorpius,Ollivander Chaser,4
+Ollivander,Padfoot,4
+Ollivander,Severus Malfoy,4
+Ollivander Chaser,Padfoot,4
+Ollivander Chaser,Severus Malfoy,4
+Prisoner,that,4
+Puffskein,that,4
+Quibbler,that,4
+Remus,Them Marauder,4
+Seeker,that,4
+Teddy,that,4
+Them Marauder,Them Marauder Umbridge,4
+Ach,George,3
+Acromantula,George Arthur Binns,3
+Acromantula,Leta,3
+Acromantula,Mr. Pettigrew,3
+Acromantula Quaffle,George Arthur Binns,3
+Acromantula Quaffle,Mr. Pettigrew,3
+Acromantula Quaffle,that,3
+Andromeda,that,3
+Arthur Binns Dungbomb,Horace,3
+Arthur Binns Dungbomb,Horace Weasley,3
+Arthur Binns Dungbomb,Mr. Scorpius,3
+Arthur Binns Dungbomb,Rubeus Gilderoy,3
+Bludger,Fire,3
+Bludger,Them Marauder,3
+Bowtruckle,Quibbler,3
+Chamber,Chamber Parvati Kreacher,3
+Chamber,that,3
+Chamber Parvati,Chamber Parvati Kreacher,3
+Chamber Parvati,that,3
+Cissa,that,3
+Deathly,that,3
+Diagon,Horace Weasley Umbridge,3
+Fire,Horace Weasley Umbridge,3
+George Arthur Binns,Good Credence,3
+George Arthur Binns,Severus Chaser,3
+Gryffindor,that,3
+Hat,that,3
+Hermione,that,3
+Hermione Rose,that,3
+Hippogriff,Mr. Order,3
+Hippogriff,Remus,3
+Hippogriff,Sorting Minerva,3
+Horace,Horace Weasley Umbridge,3
+Horace Weasley,Horace Weasley Umbridge,3
+Horace Weasley Umbridge,Padfoot,3
+Horklump,Horklump Chaser,3
+Ilya Binns,that,3
+Jacob Weasley,Mamma,3
+Leta,that,3
+Lethifold Parvati Svidrigaïlov,Prisoner,3
+Lethifold Parvati Svidrigaïlov,Rubeus Gilderoy,3
+Lethifold Parvati Svidrigaïlov,Them Marauder,3
+Lord,that,3
+Madame Slytherin,Ollivander,3
+Madame Slytherin,Ollivander Chaser,3
+Madame Yaxley,that,3
+Mr. Order,Ollivander,3
+Mr. Order,Ollivander Chaser,3
+Mr. Order,Remus,3
+Ollivander,Triwizard,3
+Ollivander Chaser,Triwizard,3
+Peeves,that,3
+School,Sorting Minerva,3
+Triwizard,that,3
+Yusupov,Yusupov garden,3
+papa,that,3
+Acromantula,Arthur Binns Dungbomb,2
+Acromantula,Good Credence,2
+Acromantula,Oliver,2
+Acromantula,Sorting Minerva,2
+Acromantula Quaffle,Arthur Binns Dungbomb,2
+Acromantula Quaffle,Good Credence,2
+Acromantula Quaffle,Sorting Minerva,2
+Alyona Chaser,Cattermole,2
+Alyona Chaser,Cattermole Chaser,2
+Alyona Chaser,Horace Weasley Umbridge,2
+Andromeda,Bowtruckle,2
+Andromeda,Lord,2
+Andromeda,Quibbler,2
+Arthur Binns Dungbomb,Mr. Order,2
+Arthur Binns Dungbomb,Severus Chaser,2
+Arthur Binns Dungbomb,Teddy,2
+Astoria,that,2
+Bludger,Lestrange,2
+Bludger,Mr. Pettigrew,2
+Bludger,Prince Alley,2
+Bludger,Rubeus Gilderoy,2
+Bones,Mr. Pettigrew,2
+Cattermole,Snape Chaser,2
+Cattermole Chaser,Horace Weasley Umbridge,2
+Cattermole Chaser,Snape Chaser,2
+Cedric,Gryffindor,2
+Chamber,Mamma,2
+Chamber,Svidrigaïlovs,2
+Chamber Parvati,Mamma,2
+Chamber Parvati,Svidrigaïlovs,2
+Chamber Parvati Kreacher,Svidrigaïlovs,2
+Deathly,Lethifold Parvati Svidrigaïlov,2
+Deathly,Vassilyevsky Ostrov,2
+Diagon,Oliver,2
+Diagon,Them Marauder,2
+Dumbledore,Horace Weasley Umbridge,2
+Dumbledore,Lethifold Parvati Svidrigaïlov,2
+Dursley,that,2
+Dursley Wands,that,2
+Erumpent,that,2
+Express,George Arthur Binns,2
+George,Horace Weasley Umbridge,2
+George,Mr. Pettigrew,2
+George,Phoenix,2
+George,fancy,2
+George Arthur Binns,Horace,2
+George Arthur Binns,Horace Weasley,2
+George Arthur Binns,Horklump,2
+George Arthur Binns,Horklump Invisibility,2
+George Arthur Binns,Them Marauder,2
+George Arthur Binns,linen,2
+Ginny Weasley,Lestrange,2
+Ginny Weasley,Madame Slytherin,2
+Good Credence,Lestrange,2
+Good Credence,School,2
+Good Credence,Them Marauder,2
+Halfblood,papa,2
+Halfblood,that,2
+Hat,Lestrange,2
+Hat,Mr. Scorpius,2
+Hat,Padfoot,2
+Hat,Padfoot Hatter,2
+Hat,School,2
+Hippogriff,Horace,2
+Hippogriff,Horace Weasley,2
+Hippogriff,Remus Binns,2
+Horace,Seeker,2
+Horace,Sorting Minerva,2
+Horace Weasley,Seeker,2
+Horace Weasley,Sorting Minerva,2
+Horace Weasley Umbridge,fancy,2
+Horklump,Horklump Invisibility Fluffy,2
+Horklump,Lestrange,2
+Horklump Invisibility,Horklump Invisibility Fluffy,2
+Horklump Invisibility,Lestrange,2
+Horklump Invisibility Fluffy,School,2
+Jacob And,that,2
+Lestrange,Mamma,2
+Lethifold Parvati Svidrigaïlov,Seeker,2
+Lord,Quibbler,2
+Madame Slytherin,Mr. Scorpius,2
+Moony,that,2
+Mr. Order,Nimbus Chaser,2
+Mr. Pettigrew,Remus Binns,2
+Nimbus Chaser,that,2
+Oliver,that,2
+Ollivander,Padfoot woman,2
+Ollivander,linen,2
+Ollivander Chaser,Padfoot woman,2
+Ollivander Chaser,linen,2
+Padfoot,Padfoot Hatter,2
+Padma,that,2
+Peeves,Phoenix,2
+Philosopher,that,2
+Phoenix,linen,2
+Remus,Sorting Minerva,2
+Remus Binns,Them Marauder,2
+Rubeus Gilderoy,Sorting Minerva,2
+Snape Chaser,that,2
+Them Marauder Umbridge,that,2
+Tonks,that,2
+Voldemort,that,2
+providence,that,2
+Aberforth,that,1
+Ach,Bludger,1
+Ach,Horace,1
+Ach,Horace Weasley,1
+Ach,Lestrange,1
+Ach,School,1
+Ach,Them Marauder,1
+Acromantula,Cattermole,1
+Acromantula,Hat,1
+Acromantula,Lestrange,1
+Acromantula,Rubeus Gilderoy,1
+Acromantula Quaffle,Lestrange,1
+Acromantula Quaffle,Rubeus Gilderoy,1
+Albus Pansy,Mr. Order,1
+Albus Pansy,Peeves,1
+Albus Pansy,Phoenix,1
+Alyona Chaser,that,1
+Arthur Binns Dungbomb,Bones,1
+Arthur Binns Dungbomb,Hippogriff,1
+Arthur Binns Dungbomb,Horklump,1
+Arthur Binns Dungbomb,Horklump Invisibility,1
+Arthur Binns Dungbomb,Mamma,1
+Arthur Binns Dungbomb,My word,1
+Arthur Binns Dungbomb,Ravenclaw,1
+Arthur Binns Dungbomb,fancy,1
+Basilisk,Buckbeak,1
+Basilisk,Chimaera,1
+Basilisk,Draco,1
+Basilisk,Rubeus Gilderoy,1
+Basilisk,Slughorn,1
+Bathilda,Cattermole,1
+Bathilda,Hat,1
+Bellatrix Karkaroff,that,1
+Bludger,Bludger Finn,1
+Bludger,Bones,1
+Bludger,Dobby Grindelwald,1
+Bludger,George,1
+Bludger,Horace,1
+Bludger,Horace Weasley,1
+Bludger,Lethifold Parvati,1
+Bludger,Mr. Order,1
+Bludger,Ollivander,1
+Bludger,Ollivander Chaser,1
+Bludger,Phoenix,1
+Bludger,School,1
+Bludger,Seeker,1
+Bludger,Severus Chaser,1
+Bludger Finn,Ollivander,1
+Bludger Finn,Ollivander Chaser,1
+Bludger Finn,Severus Chaser,1
+Bludger Finn,that,1
+Bones,Ginny Weasley,1
+Bones,Horace Weasley Umbridge,1
+Bones,Lestrange,1
+Bones,Madame Slytherin,1
+Bones,Mr. Scorpius,1
+Bones,Sorting Minerva,1
+Bones,that,1
+Bowtruckle,Lord,1
+Bowtruckle,that,1
+Buckbeak,Chimaera,1
+Buckbeak,Draco,1
+Buckbeak,Rubeus Gilderoy,1
+Buckbeak,Slughorn,1
+Cattermole,Diagon,1
+Cattermole,Ollivander,1
+Cattermole,Ollivander Chaser,1
+Cattermole,Phoenix,1
+Cattermole,Ravenclaw,1
+Cattermole,School,1
+Cattermole Chaser,that,1
+Cedric,Tom,1
+Cedric,that,1
+Centaur,Voldemort,1
+Centaur,that,1
+Chamber,George Arthur Binns,1
+Chamber,Horace Weasley Umbridge,1
+Chamber,Jacob Weasley,1
+Chamber,Lestrange,1
+Chamber,Lethifold Parvati Svidrigaïlov,1
+Chamber Parvati,George Arthur Binns,1
+Chamber Parvati,Horace Weasley Umbridge,1
+Chamber Parvati,Jacob Weasley,1
+Chamber Parvati,Lestrange,1
+Chamber Parvati Kreacher,Horace Weasley Umbridge,1
+Chamber Parvati Kreacher,Mamma,1
+Chimaera,Draco,1
+Chimaera,Horklump,1
+Chimaera,Rubeus Gilderoy,1
+Chimaera,Slughorn,1
+Chimaera,Voldemort,1
+Chudley,Mr. Pettigrew,1
+Cursed,Mr. Pettigrew,1
+Cursed,Ollivander,1
+Cursed,Ollivander Chaser,1
+Deathly,Nymphadora,1
+Diagon,Diagon Dementyev,1
+Diagon,George Arthur Binns,1
+Diagon,Hat,1
+Diagon,Mr. Order,1
+Diagon,Prisoner,1
+Diagon,Remus Binns,1
+Diagon,School,1
+Diagon,Widow So-and-so,1
+Dobby Grindelwald,Fred,1
+Dobby Grindelwald,Granger,1
+Dobby Grindelwald,Horace Weasley Umbridge,1
+Dobby Grindelwald,Hufflepuff Prince,1
+Dobby Grindelwald,School,1
+Dobby Grindelwald,Vernon,1
+Dobby Grindelwald,that,1
+Draco,Rubeus Gilderoy,1
+Draco,Slughorn,1
+Draco,Yusupov,1
+Draco,Yusupov garden,1
+Dumbledore,Mr. Pettigrew,1
+Dumbledore,Them Marauder,1
+Dumbledore,that,1
+Dursley,Mr. Order,1
+Dursley,Remus,1
+Dursley,Remus Binns,1
+Dursley Wands,Mr. Order,1
+Dursley Wands,Remus,1
+Dursley Wands,Remus Binns,1
+Dussauts,that,1
+Eileen Wizardry,Horklump,1
+Eileen Wizardry,Horklump Invisibility,1
+Eileen Wizardry,Severus Errol,1
+Eileen Wizardry,that,1
+Express,Madame Yaxley,1
+Express,Mr. Pettigrew,1
+Express,School,1
+Fire,Lestrange,1
+Fire,Lethifold Parvati Svidrigaïlov,1
+Fire,Mr. Pettigrew,1
+Flitwick,Ollivander,1
+Flitwick,Ollivander Chaser,1
+Flitwick,Them Marauder,1
+Flitwick,that,1
+General Diggory,Prisoner,1
+General Diggory,Tom,1
+General Diggory,that,1
+George,Good Credence,1
+George,Lieutenant Wizarding,1
+George,Minerva Umbridge,1
+George,Mr. Order,1
+George,Peeves,1
+George,Rubeus Gilderoy,1
+George Arthur Binns,Hat,1
+George Arthur Binns,Madame Slytherin,1
+George Arthur Binns,Mr. Order,1
+George Arthur Binns,Padfoot,1
+George Arthur Binns,Ravenclaw,1
+George Arthur Binns,Rubeus Gilderoy,1
+George Arthur Binns,Tom,1
+George Arthur Binns,Vernon,1
+Ginny Weasley,Horace Weasley Umbridge,1
+Ginny Weasley,Ollivander,1
+Ginny Weasley,Ollivander Chaser,1
+Good Credence,Lethifold Parvati Svidrigaïlov,1
+Good Credence,Lord,1
+Good Credence,Mr. Order,1
+Good Credence,Mr. Pettigrew,1
+Good Credence,Philosopher,1
+Good Credence,Phoenix,1
+Good Credence,Quibbler,1
+Good Credence,Remus,1
+Good Credence,Rubeus Gilderoy,1
+Granger,Vernon,1
+Graphorn,Padfoot,1
+Gryffindor,Tom,1
+Hat,Hippogriff,1
+Hat,Horace,1
+Hat,Horace Weasley,1
+Hat,Leta,1
+Hat,Ollivander,1
+Hat,Ollivander Chaser,1
+Hat,Phoenix,1
+Hermione,Hippogriff,1
+Hermione,Horace,1
+Hermione,Horace Weasley,1
+Hermione,Horace Weasley Umbridge,1
+Hermione,Phoenix,1
+Hermione,Sorting Minerva,1
+Hermione Rose,Hippogriff,1
+Hermione Rose,Horace,1
+Hermione Rose,Horace Weasley,1
+Hermione Rose,Horace Weasley Umbridge,1
+Hermione Rose,Phoenix,1
+Hermione Rose,Sorting Minerva,1
+Hippogriff,Lestrange,1
+Hippogriff,Phoenix,1
+Hippogriff,Them Marauder,1
+Hippogriff,Them Marauder Umbridge,1
+Hippogriff,fancy,1
+Hogsmeade,Snape Chaser,1
+Hogwarts,School,1
+Hogwarts,that,1
+Horace,Lestrange,1
+Horace,Mr. Order,1
+Horace,Mr. Scorpius,1
+Horace,School,1
+Horace Weasley,Lestrange,1
+Horace Weasley,Mr. Order,1
+Horace Weasley,Mr. Scorpius,1
+Horace Weasley,School,1
+Horace Weasley Umbridge,Horklump,1
+Horace Weasley Umbridge,Horklump Invisibility,1
+Horace Weasley Umbridge,Jacob And,1
+Horace Weasley Umbridge,Mamma,1
+Horace Weasley Umbridge,Minerva Umbridge,1
+Horace Weasley Umbridge,Rubeus Gilderoy,1
+Horace Weasley Umbridge,Sorting Umbridge,1
+Horace Weasley Umbridge,Teddy,1
+Horace Weasley Umbridge,linen,1
+Horklump,Lethifold Parvati Svidrigaïlov,1
+Horklump,Mamma,1
+Horklump,Mr. Pettigrew,1
+Horklump,Mr. Scorpius,1
+Horklump,Ravenclaw,1
+Horklump,School,1
+Horklump,Semyonova,1
+Horklump,Severus Chaser,1
+Horklump,Them Marauder,1
+Horklump Chaser,School,1
+Horklump Chaser,Severus Chaser,1
+Horklump Chaser,that,1
+Horklump Invisibility,Lethifold Parvati Svidrigaïlov,1
+Horklump Invisibility,Mamma,1
+Horklump Invisibility,Mr. Pettigrew,1
+Horklump Invisibility,Mr. Scorpius,1
+Horklump Invisibility,Ravenclaw,1
+Horklump Invisibility,Semyonova,1
+Horklump Invisibility,Them Marauder,1
+Horklump Invisibility Fluffy,Triwizard,1
+Jacob Weasley,that,1
+James,that,1
+Lestrange,Minerva Umbridge,1
+Lestrange,Phoenix,1
+Lestrange,Svidrigaïlovs,1
+Lestrange,fancy,1
+Lestrange,linen,1
+Lethifold Parvati Svidrigaïlov,Madame Yaxley,1
+Lethifold Parvati Svidrigaïlov,Mamma,1
+Lethifold Parvati Svidrigaïlov,Mr. Order,1
+Lethifold Parvati Svidrigaïlov,Mr. Pettigrew,1
+Lethifold Parvati Svidrigaïlov,My word,1
+Lethifold Parvati Svidrigaïlov,linen,1
+Longbottom Luna,Molly,1
+Longbottom Luna,that,1
+Lord,Philosopher,1
+Lord,School,1
+Madame Slytherin,Mr. Order,1
+Madame Slytherin,that,1
+Madame Yaxley,School,1
+Mamma,Ravenclaw,1
+Mamma,School,1
+Mamma,papa,1
+Mihailovsky Palace,that,1
+Minerva Umbridge,Phoenix,1
+Minerva Umbridge,Sorting Minerva,1
+Minerva Umbridge,that,1
+Molly,that,1
+Mr. Order,Mr. Scorpius,1
+Mr. Order,Oliver,1
+Mr. Order,Peeves,1
+Mr. Order,Phoenix,1
+Mr. Order,Remus Binns,1
+Mr. Order,Severus Errol Slytherin,1
+Mr. Order,linen,1
+Mr. Pettigrew,Padfoot,1
+Mr. Pettigrew,Peeves,1
+Mr. Pettigrew,Phoenix,1
+Mr. Pettigrew,Vassilyevsky Ostrov,1
+Mr. Pettigrew,Viktor,1
+Mr. Scorpius,Severus Malfoy,1
+My word,Snape Chaser,1
+My word,Them Marauder,1
+Nymphadora,Nymphadora Cho,1
+Nymphadora,that,1
+Nymphadora Cho,that,1
+Ollivander,Padma,1
+Ollivander,Semyonova,1
+Ollivander,Severus Errol,1
+Ollivander,papa,1
+Ollivander Chaser,Padma,1
+Ollivander Chaser,Semyonova,1
+Ollivander Chaser,Severus Errol,1
+Ollivander Chaser,papa,1
+Padfoot,Rubeus Gilderoy,1
+Padfoot,Them Marauder,1
+Padfoot woman,Rubeus Gilderoy,1
+Padfoot woman,Them Marauder,1
+Padma,Severus Chaser,1
+Padma,fancy,1
+Philosopher,Seeker,1
+Phoenix,Sorting Minerva,1
+Princess Portkey,Ravenclaw,1
+Princess Portkey,that,1
+Prisoner,Tom,1
+Prisoner,aie,1
+Ravenclaw,Severus Chaser,1
+Ravenclaw,papa,1
+Remus,Tom,1
+Remus,linen,1
+Remus Binns,Tom,1
+Remus Binns,linen,1
+Rodionovitch,that,1
+Ron,that,1
+Rubeus Gilderoy,Slughorn,1
+Rubeus Gilderoy,Them Marauder,1
+Rubeus Gilderoy,fancy,1
+Rubeus Gilderoy,linen,1
+School,fancy,1
+School,linen,1
+Semyonova,that,1
+Severus Chaser,linen,1
+Severus Chaser,papa,1
+Severus Errol,Severus Errol Slytherin,1
+Sirius,Sirius Kreacher,1
+Svidrigaïlovs,that,1
+Them Marauder,fancy,1
+Tournament Weasley,that,1
+Vassilyevsky Ostrov,Vassilyevsky Prospect,1
+Widow So-and-so,that,1
+ivan,that,1

@@ -1,0 +1,29 @@
+character1,character2,count
+Sherlock Holmes,Sir Robert,3
+Dr. Watson,Sherlock Holmes,2
+Lady Beatrice,Lady Beatrice Falder,2
+Mr. John Mason,Sherlock Holmes,2
+Sir Robert,Stephens,2
+Dr. Watson,Sir Robert,1
+Mr. John Mason,denis,1
+Mr. John Mason,hugos,1
+Mr. John Mason,norman,1
+Mr. John Mason,odos,1
+Mr. John Mason,william,1
+Sherlock Holmes,denis,1
+Sherlock Holmes,hugos,1
+Sherlock Holmes,norman,1
+Sherlock Holmes,odos,1
+Sherlock Holmes,william,1
+Sir Robert,Sir Robert Norberton,1
+bain,sandy,1
+denis,hugos,1
+denis,norman,1
+denis,odos,1
+denis,william,1
+hugos,norman,1
+hugos,odos,1
+hugos,william,1
+norman,odos,1
+norman,william,1
+odos,william,1

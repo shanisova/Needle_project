@@ -1,0 +1,443 @@
+character1,character2,count
+Derek,Monsieur Derek Kettering,66
+Monsieur le Comte,roche,55
+Monsieur,Monsieur Hercule Poirot,33
+Monsieur Derek Kettering,Ruth,25
+Monsieur Derek Kettering,Ruth Kettering,24
+Ruth,Ruth Kettering,24
+Monsieur,Monsieur le Comte,23
+Mademoiselle Katherine,Miss Katherine Grey,19
+Monsieur,Monsieur Van Aldin,18
+Mademoiselle,Monsieur Hercule Poirot,17
+Mademoiselle Katherine,Mademoiselle Lenox,17
+Monsieur Hercule Poirot,Monsieur Van Aldin,16
+Monsieur Hercule Poirot,Richard Knighton,15
+Monsieur,Monsieur Derek Kettering,14
+Mademoiselle Katherine,Monsieur Hercule Poirot,13
+Mademoiselle Papopolous,Monsieur,13
+Monsieur Van Aldin,Ruth,13
+Monsieur Van Aldin,Richard Knighton,12
+Monsieur Derek Kettering,Monsieur Van Aldin,11
+Monsieur Van Aldin,Rufus Van Aldin,11
+Mademoiselle,Mademoiselle Mirelle,10
+Mademoiselle,Mademoiselle Zia,10
+Mademoiselle Katherine,Richard Knighton,10
+Mademoiselle Papopolous,Monsieur Papopolous,10
+Monsieur,Monsieur Papopolous,10
+Mademoiselle Katherine,Rosalie Tamplin,8
+Derek,Monsieur Van Aldin,7
+Derek,Monsieur le Comte,7
+Mademoiselle,Mademoiselle Katherine,7
+Mademoiselle Lenox,Mother,7
+Mademoiselle Papopolous,Monsieur Hercule Poirot,7
+Monsieur Hercule Poirot,Monsieur le Comte,7
+Mademoiselle Katherine,Monsieur Van Aldin,6
+Mademoiselle Lenox,Miss Lenox Tamplin,6
+Mademoiselle Lenox,Richard Knighton,6
+Monsieur Derek Kettering,Monsieur Hercule Poirot,6
+Monsieur Derek Kettering,Monsieur le Comte,6
+Monsieur Derek Kettering,lyons,6
+policier,roman,6
+Ada Mason,Monsieur le Comte,5
+Ada Mason,Richard Knighton,5
+Ada Mason,roche,5
+Derek,Mademoiselle Katherine,5
+Derek,Richard Knighton,5
+Miss Katherine Grey,Monsieur Van Aldin,5
+Monsieur Derek Kettering,Richard Knighton,5
+Rosalie Tamplin,darling,5
+Amelia Viner,Mademoiselle Katherine,4
+Chubby,Mademoiselle Katherine,4
+Derek,roche,4
+Kitty,Kitty Kidd,4
+M. le Marquis,Richard Knighton,4
+Mademoiselle Lenox,Monsieur Hercule Poirot,4
+Mademoiselle Lenox,Monsieur Van Aldin,4
+Mademoiselle Lenox,Rosalie Tamplin,4
+Mademoiselle Papopolous,Mademoiselle Zia,4
+Miss Katherine Grey,Monsieur Derek Kettering,4
+Richard Knighton,Rosalie Tamplin,4
+Ada Mason,Monsieur Derek Kettering,3
+Armand,roche,3
+Chubby,Rosalie Tamplin,3
+Derek,Miss Katherine Grey,3
+Derek,Monsieur,3
+Derek,Monsieur Hercule Poirot,3
+Derek,Rosalie Tamplin,3
+Georges,Monsieur Hercule Poirot,3
+Hippolyte,Monsieur le Comte,3
+Leconbury,Ruth,3
+M. le Marquis,Mademoiselle Zia,3
+M. le Marquis,Monsieur,3
+Mademoiselle Katherine,Monsieur Derek Kettering,3
+Mademoiselle Katherine,Monsieur le Comte,3
+Mademoiselle Katherine,roche,3
+Mademoiselle Mirelle,Monsieur Hercule Poirot,3
+Mademoiselle Zia,Monsieur Hercule Poirot,3
+Marie,Monsieur le Comte,3
+Miss Katherine Grey,Monsieur,3
+Miss Katherine Grey,Richard Knighton,3
+Miss Katherine Grey,Rosalie Tamplin,3
+Miss Katherine Grey,cap,3
+Miss Lenox Tamplin,Richard Knighton,3
+Monsieur Derek Kettering,roche,3
+Monsieur Hercule Poirot,roche,3
+Monsieur Van Aldin,Ruth Kettering,3
+Olga,Olga Demiroff,3
+Rosalie,Rosalie Tamplin,3
+Ruth,roche,3
+cap,martin,3
+edward,frampton,3
+Ada Mason,Derek,2
+Ada Mason,Monsieur Hercule Poirot,2
+Ambrose,claud,2
+Ambrose,ibsen,2
+Anitra,Mademoiselle Mirelle,2
+Antonio,Antonio Pirezzio,2
+Armand,Monsieur le Comte,2
+Boris,Boris Ivanovitch,2
+Chubby,Mademoiselle Lenox,2
+Colton,Monsieur Van Aldin,2
+Derek,Mademoiselle Lenox,2
+Derek,Mademoiselle Mirelle,2
+Derek,Pavett,2
+Derek,Rufus Van Aldin,2
+Derek,Ruth,2
+Ellen,Helen,2
+Hippolyte,Marie,2
+Hippolyte,Monsieur,2
+Jane,Jane Harfield,2
+Jane,Miss Katherine Grey,2
+M. le Marquis,Mademoiselle Papopolous,2
+Mademoiselle,Mademoiselle Grey,2
+Mademoiselle,Monsieur Derek Kettering,2
+Mademoiselle,Monsieur le Comte,2
+Mademoiselle Katherine,Monsieur,2
+Mademoiselle Katherine,Mother,2
+Mademoiselle Katherine,Ruth,2
+Mademoiselle Lenox,Rosalie,2
+Mademoiselle Mirelle,Monsieur,2
+Mademoiselle Mirelle,Monsieur Derek Kettering,2
+Mademoiselle Mirelle,Monsieur le Comte,2
+Mademoiselle Mirelle,Ruth,2
+Mademoiselle Papopolous,Zia Papopolous,2
+Mademoiselle Zia,Monsieur,2
+Mademoiselle Zia,Zia Papopolous,2
+Marie,Marie Antoinette,2
+Marie Antoinette,Monsieur le Comte,2
+Miss Lenox Tamplin,Monsieur Hercule Poirot,2
+Miss Lenox Tamplin,Monsieur Van Aldin,2
+Miss Lenox Tamplin,Mother,2
+Monsieur,Richard Knighton,2
+Monsieur,Ruth,2
+Monsieur,Ruth Kettering,2
+Monsieur,cap,2
+Monsieur,roche,2
+Monsieur Derek Kettering,Rufus Van Aldin,2
+Monsieur Van Aldin,Monsieur le Comte,2
+Monsieur Van Aldin,Rosalie Tamplin,2
+Monsieur Van Aldin,Ruth Van Aldin,2
+Monsieur Van Aldin,cap,2
+Monsieur Van Aldin,roche,2
+Mother,Richard Knighton,2
+Richard Knighton,Rufus Van Aldin,2
+Richard Knighton,Ruth,2
+Richard Knighton,Ruth Kettering,2
+Rufus Van Aldin,Ruth,2
+Ruth,Ruth Van Aldin,2
+Virginie,clothilde,2
+claud,ibsen,2
+Ada Mason,Armand,1
+Ada Mason,Kitty,1
+Ada Mason,Kitty Kidd,1
+Ada Mason,Mademoiselle Katherine,1
+Ada Mason,Mademoiselle Papopolous,1
+Ada Mason,Miss Katherine Grey,1
+Ada Mason,Monsieur,1
+Ada Mason,Monsieur Van Aldin,1
+Ada Mason,Ruth,1
+Ada Mason,Ruth Kettering,1
+Ada Mason,beatrice,1
+Ada Mason,lyons,1
+Albert Dykes,Tommy Saunders,1
+Amelia Viner,Ellen,1
+Amelia Viner,Helen,1
+Amelia Viner,Richard Knighton,1
+Armand,Monsieur Derek Kettering,1
+Armand,Monsieur Hercule Poirot,1
+Armand,Ruth,1
+Armand,Ruth Kettering,1
+Armand,dad,1
+Charlie,Miss Katherine Grey,1
+Chubby,Miss Katherine Grey,1
+Chubby,darling,1
+Colton,Rufus Van Aldin,1
+DEMETRIUS PAPOPOLOUS,Demetrius,1
+DEMETRIUS PAPOPOLOUS,Derek,1
+DEMETRIUS PAPOPOLOUS,Leconbury,1
+DEMETRIUS PAPOPOLOUS,M. le Marquis,1
+DEMETRIUS PAPOPOLOUS,Mademoiselle Katherine,1
+DEMETRIUS PAPOPOLOUS,Mademoiselle Lenox,1
+DEMETRIUS PAPOPOLOUS,Mademoiselle Mirelle,1
+DEMETRIUS PAPOPOLOUS,Mademoiselle Papopolous,1
+DEMETRIUS PAPOPOLOUS,Mademoiselle Zia,1
+DEMETRIUS PAPOPOLOUS,Miss Katherine Grey,1
+DEMETRIUS PAPOPOLOUS,Miss Lenox Tamplin,1
+DEMETRIUS PAPOPOLOUS,Monsieur,1
+DEMETRIUS PAPOPOLOUS,Monsieur Derek Kettering,1
+DEMETRIUS PAPOPOLOUS,Monsieur Van Aldin,1
+DEMETRIUS PAPOPOLOUS,Mother,1
+DEMETRIUS PAPOPOLOUS,PETER,1
+DEMETRIUS PAPOPOLOUS,Richard Knighton,1
+DEMETRIUS PAPOPOLOUS,Rosalie,1
+DEMETRIUS PAPOPOLOUS,Rosalie Tamplin,1
+DEMETRIUS PAPOPOLOUS,Rufus Van Aldin,1
+DEMETRIUS PAPOPOLOUS,Ruth,1
+DEMETRIUS PAPOPOLOUS,Ruth Kettering,1
+DEMETRIUS PAPOPOLOUS,Zia Papopolous,1
+Demetrius,Derek,1
+Demetrius,Leconbury,1
+Demetrius,M. le Marquis,1
+Demetrius,Mademoiselle Katherine,1
+Demetrius,Mademoiselle Lenox,1
+Demetrius,Mademoiselle Mirelle,1
+Demetrius,Mademoiselle Papopolous,1
+Demetrius,Mademoiselle Zia,1
+Demetrius,Miss Katherine Grey,1
+Demetrius,Miss Lenox Tamplin,1
+Demetrius,Monsieur,1
+Demetrius,Monsieur Derek Kettering,1
+Demetrius,Monsieur Van Aldin,1
+Demetrius,Mother,1
+Demetrius,PETER,1
+Demetrius,Richard Knighton,1
+Demetrius,Rosalie,1
+Demetrius,Rosalie Tamplin,1
+Demetrius,Rufus Van Aldin,1
+Demetrius,Ruth,1
+Demetrius,Ruth Kettering,1
+Demetrius,Zia Papopolous,1
+Dereek,Derek,1
+Dereek,Monsieur le Comte,1
+Dereek,lyons,1
+Derek,Leconbury,1
+Derek,M. le Marquis,1
+Derek,Mademoiselle,1
+Derek,Mademoiselle Papopolous,1
+Derek,Mademoiselle Zia,1
+Derek,Miss Lenox Tamplin,1
+Derek,Mother,1
+Derek,PETER,1
+Derek,Rosalie,1
+Derek,Ruth Kettering,1
+Derek,Zia Papopolous,1
+Ellen,Miss Katherine Grey,1
+Georges,edward,1
+Georges,frampton,1
+Hippolyte,Hippolyte Flavelle,1
+Hippolyte,roche,1
+Kitty,Monsieur,1
+Kitty,Monsieur Van Aldin,1
+Kitty Kidd,Monsieur,1
+Kitty Kidd,Monsieur Van Aldin,1
+Leconbury,M. le Marquis,1
+Leconbury,Mademoiselle Katherine,1
+Leconbury,Mademoiselle Lenox,1
+Leconbury,Mademoiselle Mirelle,1
+Leconbury,Mademoiselle Papopolous,1
+Leconbury,Mademoiselle Zia,1
+Leconbury,Miss Katherine Grey,1
+Leconbury,Miss Lenox Tamplin,1
+Leconbury,Monsieur,1
+Leconbury,Monsieur Derek Kettering,1
+Leconbury,Monsieur Van Aldin,1
+Leconbury,Mother,1
+Leconbury,PETER,1
+Leconbury,Richard Knighton,1
+Leconbury,Rosalie,1
+Leconbury,Rosalie Tamplin,1
+Leconbury,Rufus Van Aldin,1
+Leconbury,Ruth Kettering,1
+Leconbury,Zia Papopolous,1
+M. Caux,Monsieur Hercule Poirot,1
+M. le Marquis,Mademoiselle,1
+M. le Marquis,Mademoiselle Katherine,1
+M. le Marquis,Mademoiselle Lenox,1
+M. le Marquis,Mademoiselle Mirelle,1
+M. le Marquis,Miss Katherine Grey,1
+M. le Marquis,Miss Lenox Tamplin,1
+M. le Marquis,Monsieur Derek Kettering,1
+M. le Marquis,Monsieur Van Aldin,1
+M. le Marquis,Mother,1
+M. le Marquis,PETER,1
+M. le Marquis,Rosalie,1
+M. le Marquis,Rosalie Tamplin,1
+M. le Marquis,Rufus Van Aldin,1
+M. le Marquis,Ruth,1
+M. le Marquis,Ruth Kettering,1
+M. le Marquis,Zia Papopolous,1
+Mademoiselle,Mademoiselle Lenox,1
+Mademoiselle,Mademoiselle Papopolous,1
+Mademoiselle,Marie,1
+Mademoiselle,Monsieur,1
+Mademoiselle,Richard Knighton,1
+Mademoiselle,lyons,1
+Mademoiselle Grey,Monsieur Hercule Poirot,1
+Mademoiselle Katherine,Mademoiselle Mirelle,1
+Mademoiselle Katherine,Mademoiselle Papopolous,1
+Mademoiselle Katherine,Mademoiselle Zia,1
+Mademoiselle Katherine,Miss Lenox Tamplin,1
+Mademoiselle Katherine,Mrs. Samuel Harfield,1
+Mademoiselle Katherine,PETER,1
+Mademoiselle Katherine,Rosalie,1
+Mademoiselle Katherine,Rufus Van Aldin,1
+Mademoiselle Katherine,Ruth Kettering,1
+Mademoiselle Katherine,Zia Papopolous,1
+Mademoiselle Katherine,cook,1
+Mademoiselle Katherine,somebody,1
+Mademoiselle Katherine,victoria,1
+Mademoiselle Lenox,Mademoiselle Mirelle,1
+Mademoiselle Lenox,Mademoiselle Papopolous,1
+Mademoiselle Lenox,Mademoiselle Zia,1
+Mademoiselle Lenox,Miss Katherine Grey,1
+Mademoiselle Lenox,Monsieur,1
+Mademoiselle Lenox,Monsieur Derek Kettering,1
+Mademoiselle Lenox,PETER,1
+Mademoiselle Lenox,Rufus Van Aldin,1
+Mademoiselle Lenox,Ruth,1
+Mademoiselle Lenox,Ruth Kettering,1
+Mademoiselle Lenox,Zia Papopolous,1
+Mademoiselle Mirelle,Mademoiselle Papopolous,1
+Mademoiselle Mirelle,Mademoiselle Zia,1
+Mademoiselle Mirelle,Miss Katherine Grey,1
+Mademoiselle Mirelle,Miss Lenox Tamplin,1
+Mademoiselle Mirelle,Monsieur Van Aldin,1
+Mademoiselle Mirelle,Mother,1
+Mademoiselle Mirelle,PETER,1
+Mademoiselle Mirelle,Richard Knighton,1
+Mademoiselle Mirelle,Rosalie,1
+Mademoiselle Mirelle,Rosalie Tamplin,1
+Mademoiselle Mirelle,Rufus Van Aldin,1
+Mademoiselle Mirelle,Ruth Kettering,1
+Mademoiselle Mirelle,Zia Papopolous,1
+Mademoiselle Mirelle,roche,1
+Mademoiselle Papopolous,Miss Katherine Grey,1
+Mademoiselle Papopolous,Miss Lenox Tamplin,1
+Mademoiselle Papopolous,Monsieur Derek Kettering,1
+Mademoiselle Papopolous,Monsieur Van Aldin,1
+Mademoiselle Papopolous,Mother,1
+Mademoiselle Papopolous,PETER,1
+Mademoiselle Papopolous,Richard Knighton,1
+Mademoiselle Papopolous,Rosalie,1
+Mademoiselle Papopolous,Rosalie Tamplin,1
+Mademoiselle Papopolous,Rufus Van Aldin,1
+Mademoiselle Papopolous,Ruth,1
+Mademoiselle Papopolous,Ruth Kettering,1
+Mademoiselle Zia,Miss Katherine Grey,1
+Mademoiselle Zia,Miss Lenox Tamplin,1
+Mademoiselle Zia,Monsieur Derek Kettering,1
+Mademoiselle Zia,Monsieur Papopolous,1
+Mademoiselle Zia,Monsieur Van Aldin,1
+Mademoiselle Zia,Mother,1
+Mademoiselle Zia,PETER,1
+Mademoiselle Zia,Richard Knighton,1
+Mademoiselle Zia,Rosalie,1
+Mademoiselle Zia,Rosalie Tamplin,1
+Mademoiselle Zia,Rufus Van Aldin,1
+Mademoiselle Zia,Ruth,1
+Mademoiselle Zia,Ruth Kettering,1
+Marie,Marie Flavelle,1
+Marie,Monsieur,1
+Miss Katherine Grey,Miss Lenox Tamplin,1
+Miss Katherine Grey,Mother,1
+Miss Katherine Grey,Mrs. Samuel Harfield,1
+Miss Katherine Grey,PETER,1
+Miss Katherine Grey,Rosalie,1
+Miss Katherine Grey,Rufus Van Aldin,1
+Miss Katherine Grey,Ruth,1
+Miss Katherine Grey,Ruth Kettering,1
+Miss Katherine Grey,Zia Papopolous,1
+Miss Katherine Grey,martin,1
+Miss Lenox Tamplin,Monsieur,1
+Miss Lenox Tamplin,Monsieur Derek Kettering,1
+Miss Lenox Tamplin,PETER,1
+Miss Lenox Tamplin,Rosalie,1
+Miss Lenox Tamplin,Rosalie Tamplin,1
+Miss Lenox Tamplin,Rufus Van Aldin,1
+Miss Lenox Tamplin,Ruth,1
+Miss Lenox Tamplin,Ruth Kettering,1
+Miss Lenox Tamplin,Zia Papopolous,1
+Monsieur,Mother,1
+Monsieur,Mr. Joseph Aarons,1
+Monsieur,PETER,1
+Monsieur,Rosalie,1
+Monsieur,Rosalie Tamplin,1
+Monsieur,Rufus Van Aldin,1
+Monsieur,Zia Papopolous,1
+Monsieur,lyons,1
+Monsieur Derek Kettering,Mother,1
+Monsieur Derek Kettering,PETER,1
+Monsieur Derek Kettering,Rosalie,1
+Monsieur Derek Kettering,Rosalie Tamplin,1
+Monsieur Derek Kettering,Zia Papopolous,1
+Monsieur Hercule Poirot,Monsieur Papopolous,1
+Monsieur Hercule Poirot,Ruth,1
+Monsieur Hercule Poirot,Ruth Kettering,1
+Monsieur Hercule Poirot,edward,1
+Monsieur Hercule Poirot,frampton,1
+Monsieur Hercule Poirot,lyons,1
+Monsieur Hercule Poirot,papa,1
+Monsieur Van Aldin,Mother,1
+Monsieur Van Aldin,PETER,1
+Monsieur Van Aldin,Rosalie,1
+Monsieur Van Aldin,Zia Papopolous,1
+Monsieur Van Aldin,carrots,1
+Monsieur Van Aldin,cuthbertson,1
+Monsieur Van Aldin,galbraith,1
+Monsieur le Comte,Ruth,1
+Monsieur le Comte,Ruth Kettering,1
+Monsieur le Comte,dad,1
+Mother,PETER,1
+Mother,Rosalie,1
+Mother,Rosalie Tamplin,1
+Mother,Rufus Van Aldin,1
+Mother,Ruth,1
+Mother,Ruth Kettering,1
+Mother,Zia Papopolous,1
+Mother,punch,1
+Mr. Joseph Aarons,joe,1
+Olga,Olga Vassilovna,1
+PETER,Richard Knighton,1
+PETER,Rosalie,1
+PETER,Rosalie Tamplin,1
+PETER,Rufus Van Aldin,1
+PETER,Ruth,1
+PETER,Ruth Kettering,1
+PETER,Zia Papopolous,1
+Pavett,cook,1
+Richard Knighton,Rosalie,1
+Richard Knighton,Zia Papopolous,1
+Richard Knighton,catherine,1
+Rosalie,Rufus Van Aldin,1
+Rosalie,Ruth,1
+Rosalie,Ruth Kettering,1
+Rosalie,Zia Papopolous,1
+Rosalie Tamplin,Rufus Van Aldin,1
+Rosalie Tamplin,Ruth,1
+Rosalie Tamplin,Ruth Kettering,1
+Rosalie Tamplin,Zia Papopolous,1
+Rosalie Tamplin,cap,1
+Rosalie Tamplin,martin,1
+Rufus Van Aldin,Ruth Kettering,1
+Rufus Van Aldin,Ruth Van Aldin,1
+Rufus Van Aldin,Zia Papopolous,1
+Ruth,Zia Papopolous,1
+Ruth,carrots,1
+Ruth,dad,1
+Ruth Kettering,Zia Papopolous,1
+Ruth Kettering,roche,1
+Virginie,marcelle,1
+clothilde,marcelle,1
+cook,thomas,1
+cuthbertson,galbraith,1
+dad,roche,1

@@ -1,0 +1,8 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Astin,0,0.06985874206200449,0,2,2.0
+Harrelson,0,0.0459159357443143,0,1,1.0
+Mercer,0,0.04873218457031009,0,1,1.0
+Miss Miller,0,0.22534634243343124,0,3,8.0
+Mr. Green Lewis,0,0.1927313512380673,0,4,6.0
+Mr. Trevor Cobain,0,0.1005231620277916,0,2,3.0
+Professor Miller,0,0.31689228192408064,0,5,11.0

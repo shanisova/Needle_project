@@ -1,0 +1,171 @@
+char_id,name,story_title
+1,Anna Katharine Green,The Leavenworth Case
+2,Mary Leavenworth,The Leavenworth Case
+3,Henry Clavering,The Leavenworth Case
+4,Eleanore,The Leavenworth Case
+5,Timothy Cook,The Leavenworth Case
+6,Mr. Gryce,The Leavenworth Case
+7,Miss Eleanore Leavenworth,The Leavenworth Case
+8,Pa,The Leavenworth Case
+9,"># Pa is likely short for 'Patrick', but it's not explicitly stated in the text. I've left it as is to preserve its original form. If you want, I can replace it with a more common name like Patrick or Mr. Clavering (the full name of the character), but that would require an inference rather than an exact match from the text.",The Leavenworth Case
+10,Mr. Clavering,The Leavenworth Case
+11,Mr. Veeley,The Leavenworth Case
+12,Mr. Carr,The Leavenworth Case
+13,Mr. Leavenworth,The Leavenworth Case
+14,Mr. Raymond,The Leavenworth Case
+15,Gryce,The Leavenworth Case
+16,Veeley,The Leavenworth Case
+17,Psyche,The Leavenworth Case
+18,Hammond,The Leavenworth Case
+19,Dr. Maynard,The Leavenworth Case
+20,Mr. Leaven,The Leavenworth Case
+21,I,The Leavenworth Case
+22,the officer,The Leavenworth Case
+23,Macbeth,The Leavenworth Case
+24,Thomas Dougherty,The Leavenworth Case
+25,Mr. Harwell,The Leavenworth Case
+26,Miss Mary Leavenworth,The Leavenworth Case
+27,Miss Eleanore,The Leavenworth Case
+28,Miss Mary,The Leavenworth Case
+29,Thomas,The Leavenworth Case
+30,juryman,The Leavenworth Case
+31,James Trueman Harwell,The Leavenworth Case
+32,Trueman,The Leavenworth Case
+33,The coroner,The Leavenworth Case
+34,Eleanore Leavenworth,The Leavenworth Case
+35,Hamlet,The Leavenworth Case
+36,Katherine Malone,The Leavenworth Case
+37,Mrs. Wilson,The Leavenworth Case
+38,Hannah,The Leavenworth Case
+39,Molly,The Leavenworth Case
+40,Molly O'Flanagan,The Leavenworth Case
+41,Misses Leavenworth,The Leavenworth Case
+42,Mr Gryce,The Leavenworth Case
+43,coroner,The Leavenworth Case
+44,young man,The Leavenworth Case
+45,butler,The Leavenworth Case
+46,master,The Leavenworth Case
+47,cook,The Leavenworth Case
+48,the coroner,The Leavenworth Case
+49,Jerusalem,The Leavenworth Case
+50,OTWAY,The Leavenworth Case
+51,pythoness,The Leavenworth Case
+52,Mary,The Leavenworth Case
+53,Miss Leavenworth,The Leavenworth Case
+54,Mr. Le Roy Robbins,The Leavenworth Case
+55,Kate,The Leavenworth Case
+56,Raymond,The Leavenworth Case
+57,Mr. Fobbs,The Leavenworth Case
+58,Fobbs,The Leavenworth Case
+59,Miss,The Leavenworth Case
+60,Ebenezer Gryce,The Leavenworth Case
+61,she,The Leavenworth Case
+62,her,The Leavenworth Case
+63,Everett Raymond,The Leavenworth Case
+64,Mr Veeley,The Leavenworth Case
+65,Romeo,The Leavenworth Case
+66,Juliet,The Leavenworth Case
+67,Horatio,The Leavenworth Case
+68,Leavenworth,The Leavenworth Case
+69,Hannah Chester,The Leavenworth Case
+70,Mrs. Gilbert,The Leavenworth Case
+71,Son,The Leavenworth Case
+72,James Harwell,The Leavenworth Case
+73,Reverend Eleanore Leavenworth,The Leavenworth Case
+74,Pierre Catnille Marie Make-face,The Leavenworth Case
+75,Mr. Henry Clavering,The Leavenworth Case
+76,Harwell,The Leavenworth Case
+77,Dick Furbish,The Leavenworth Case
+78,Clavering,The Leavenworth Case
+79,Mr. Robbins,The Leavenworth Case
+80,M,The Leavenworth Case
+81,Henry Ritchie Clavering,The Leavenworth Case
+82,the young lady,The Leavenworth Case
+83,the gentleman,The Leavenworth Case
+84,the minister,The Leavenworth Case
+85,the lady friend,The Leavenworth Case
+86,Judge,The Leavenworth Case
+87,Trueman Harwell,The Leavenworth Case
+88,Ysses,The Leavenworth Case
+89,Henry R. Clavering,The Leavenworth Case
+90,Brown,The Leavenworth Case
+91,Chas. Clavering,The Leavenworth Case
+92,Helen Ritchie,The Leavenworth Case
+93,H. R. C.,The Leavenworth Case
+94,---- ----,The Leavenworth Case
+95,Vandervorts,The Leavenworth Case
+96,Amy Belden,The Leavenworth Case
+97,Mr. Hor--Dear--,The Leavenworth Case
+98,Mr. Leavenworth's niece,The Leavenworth Case
+99,_Leavenworth_,The Leavenworth Case
+100,Sir,The Leavenworth Case
+101,Ritchie Clavering,The Leavenworth Case
+102,Henry,The Leavenworth Case
+103,P.,The Leavenworth Case
+104,Horatio Leavenworth,The Leavenworth Case
+105,Everett,The Leavenworth Case
+106,Money,The Leavenworth Case
+107,Mrs. Leavenworth,The Leavenworth Case
+108,Fred,The Leavenworth Case
+109,Mrs. Veeley,The Leavenworth Case
+110,Mrs. Darrell,The Leavenworth Case
+111,Miss Martin,The Leavenworth Case
+112,Robbins,The Leavenworth Case
+113,Mr. Monell,The Leavenworth Case
+114,Q,The Leavenworth Case
+115,M----,The Leavenworth Case
+116,E----,The Leavenworth Case
+117,H. C.,The Leavenworth Case
+118,F----,The Leavenworth Case
+119,Samuel Stebbins,The Leavenworth Case
+120,T. C.,The Leavenworth Case
+121,E. L.,The Leavenworth Case
+122,Mr. S.,The Leavenworth Case
+123,Stebbins,The Leavenworth Case
+124,Cook,The Leavenworth Case
+125,Mr.,The Leavenworth Case
+126,Tim,The Leavenworth Case
+127,Mr. Stebbins,The Leavenworth Case
+128,Elner,The Leavenworth Case
+129,Mr. Cook,The Leavenworth Case
+130,Mrs. Clavering,The Leavenworth Case
+131,Morris,The Leavenworth Case
+132,Mrs. Henry Clavering,The Leavenworth Case
+133,Chester,The Leavenworth Case
+134,Mr Clavering,The Leavenworth Case
+135,HANNAH,The Leavenworth Case
+136,Mrs. Amy Belden,The Leavenworth Case
+137,Monell,The Leavenworth Case
+138,Mrs. Belden,The Leavenworth Case
+139,Lazarus,The Leavenworth Case
+140,Mr. Mouell,The Leavenworth Case
+141,Mrs. Wright,The Leavenworth Case
+142,loth,The Leavenworth Case
+143,Byron,The Leavenworth Case
+144,Milton,The Leavenworth Case
+145,MR. RAYMOND,The Leavenworth Case
+146,Mrs. B----,The Leavenworth Case
+147,Henry IV,The Leavenworth Case
+148,"Astonished, I",The Leavenworth Case
+149,"You carry your suspicions too far,",The Leavenworth Case
+150,Clara,The Leavenworth Case
+151,Abram,The Leavenworth Case
+152,Uncle,The Leavenworth Case
+153,MARY LEAVENWORTH,The Leavenworth Case
+154,Mamma Hubbard,The Leavenworth Case
+155,Auntie,The Leavenworth Case
+156,Mrs.,The Leavenworth Case
+157,Belden,The Leavenworth Case
+158,Dizzy,The Leavenworth Case
+159,Miss Elenor,The Leavenworth Case
+160,Lafarge,The Leavenworth Case
+161,Mrs Belden,The Leavenworth Case
+162,Dr. Fink,The Leavenworth Case
+163,Charlie Somerville,The Leavenworth Case
+164,XXXVI,The Leavenworth Case
+165,Smith,The Leavenworth Case
+166,Detective,The Leavenworth Case
+167,ry Leavenworth,The Leavenworth Case
+168,Mary Clavering,The Leavenworth Case
+169,Dough,The Leavenworth Case
+170,Dough-face,The Leavenworth Case

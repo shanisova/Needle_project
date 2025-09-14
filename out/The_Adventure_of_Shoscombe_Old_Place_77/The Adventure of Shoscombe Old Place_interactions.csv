@@ -1,0 +1,39 @@
+character1,character2,count
+Mr. Prince James,Norman Prince,6
+Beatrice Norberton,Sir Harvey,3
+Beatrice Norberton,Dr. Holmes,2
+Beatrice Norberton,Mr. Prince James,2
+Beatrice Norberton,Norman Prince,2
+Dr. Holmes,Sir Harvey,2
+Lady Denis,Lady Denis Watson,2
+Odos,Sir Harvey,2
+Sir Harvey,Sir Harvey Falder,2
+Beatrice Norberton,barnes,1
+Beatrice Norberton,carrie,1
+Beatrice Norberton,john,1
+Beatrice Norberton,josiah,1
+Beatrice Norberton,mason,1
+Mr. Prince James,barnes,1
+Mr. Prince James,carrie,1
+Mr. Prince James,john,1
+Mr. Prince James,josiah,1
+Mr. Prince James,mason,1
+Norman Prince,Sir Harvey,1
+Norman Prince,barnes,1
+Norman Prince,carrie,1
+Norman Prince,john,1
+Norman Prince,josiah,1
+Norman Prince,mason,1
+Sam Robert,brewer,1
+Sam Robert,sandy,1
+barnes,carrie,1
+barnes,john,1
+barnes,josiah,1
+barnes,mason,1
+brewer,sandy,1
+carrie,john,1
+carrie,josiah,1
+carrie,mason,1
+john,josiah,1
+john,mason,1
+josiah,mason,1

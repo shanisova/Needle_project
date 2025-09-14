@@ -1,0 +1,5 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Andromeda,0,0.25,0,1,1.0
+Pettigrew,0,0.25,0,1,1.0
+Severus,0,0.25,0,1,1.0
+Sir Beasts Manticore,0,0.25,0,1,1.0

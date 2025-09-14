@@ -1,0 +1,16 @@
+character1,character2,count
+moran,stoke,14
+Dr. Grimesby Roylott,moran,5
+Dr. Grimesby Roylott,stoke,5
+Miss Stoner,Sherlock Holmes,5
+Helen,Helen Stoner,2
+moran,roylotts,2
+roylotts,stoke,2
+Dr. Watson,Sherlock Holmes,1
+Helen,moran,1
+Helen,roylotts,1
+Helen,stoke,1
+Helen Stoner,moran,1
+Helen Stoner,roylotts,1
+Helen Stoner,stoke,1
+Palmer,Pritchard,1

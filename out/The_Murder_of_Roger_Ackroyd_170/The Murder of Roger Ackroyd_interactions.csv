@@ -1,0 +1,31 @@
+character1,character2,count
+m,this,9
+Miss Zane,this,6
+dunlap,grosset,5
+Charles,Miss Zane,3
+Miss Zane,dunlap,3
+Miss Zane,grosset,3
+mademoiselle,this,3
+dagger,this,2
+son,this,2
+Miss Zane,desert,1
+Miss Zane,m,1
+POIROT,Parker,1
+POIROT,RALPH PATON,1
+POIROT,fernly,1
+POIROT,flora,1
+Parker,RALPH PATON,1
+Parker,flora,1
+RALPH PATON,flora,1
+Uncle,m,1
+Uncle,this,1
+american,this,1
+black,dagger,1
+dagger,m,1
+dunlap,rafael,1
+dunlap,sabatini,1
+elizabeth,john,1
+grosset,rafael,1
+grosset,sabatini,1
+pond,this,1
+rafael,sabatini,1

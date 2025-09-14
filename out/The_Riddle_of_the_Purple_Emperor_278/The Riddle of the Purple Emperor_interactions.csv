@@ -1,0 +1,327 @@
+character1,character2,count
+Lady Margaret Cheyne,Marion Cheyne,128
+Cheyne Court,Lady Margaret Cheyne,84
+Lady Brenton,Sir Edgar Brenton,81
+Constable Roberts,constable,41
+Lady Margaret,Lady Margaret Cheyne,35
+Sir Edgar,Sir Edgar Brenton,32
+Hamilton Cleek,Lady Margaret Cheyne,30
+Hamilton Cleek,Mr. Maverick Narkom,28
+Dollops,Hamilton Cleek,27
+Ailsa,Hamilton Cleek,22
+Hamilton Cleek,Sir Edgar,22
+Miss Jennifer,Miss Jennifer Wynne,22
+Hamilton Cleek,Lady Margaret,20
+Bobby,Miss Jennifer Wynne,19
+Bobby,Bobby Wynne,18
+Bobby Wynne,Miss Jennifer Wynne,18
+Lady Margaret,Sir Edgar,18
+Hamilton Cleek,Miss Jennifer Wynne,16
+Hamilton Cleek,Sir Edgar Brenton,16
+Hamilton Cleek,Miss Jennifer,14
+Hamilton Cleek,superintendent,14
+Lady Margaret,Marion Cheyne,14
+Lady Margaret Cheyne,Sir Edgar,14
+Cheyne Court,Hamilton Cleek,13
+Constable Roberts,Hamilton Cleek,13
+Lady Margaret Cheyne,Sir Edgar Brenton,13
+Hamilton Cleek,Lady Brenton,12
+James Blake,Professor James,12
+Hamilton Cleek,case,11
+Hamilton Cleek,constable,11
+Lady Brenton,Sir Edgar,9
+Hamilton Cleek,Marion Cheyne,8
+James Blake,Lady Margaret Cheyne,8
+Marion Cheyne,Sir Edgar,8
+Miss Jennifer,Sir Edgar,8
+Mr. Maverick Narkom,superintendent,8
+Aggie,Lady Margaret,7
+Ailsa,Miss Ailsa Lorne,7
+Ailsa,Sir Edgar Brenton,7
+Bobby,Miss Jennifer,7
+Hammond,Petrie,7
+Lady Margaret,Sir Edgar Brenton,7
+Lady Margaret Cheyne,constable,7
+Marion Cheyne,Sir Edgar Brenton,7
+Miss Jennifer,Sir Edgar Brenton,7
+Sir Edgar,mother,7
+Ailsa,Lady Brenton,6
+Bobby,Hamilton Cleek,6
+Constable Roberts,Lady Margaret Cheyne,6
+Lady Brenton,Lady Margaret Cheyne,6
+Lady Brenton,Miss Jennifer,6
+Lady Margaret,Miss Ailsa Lorne,6
+Mr. Gunga Dall,Sir Edgar,6
+Aggie,Lady Margaret Cheyne,5
+Aggie,Marion Cheyne,5
+Bobby,James Blake,5
+Bobby,Lady Margaret Cheyne,5
+Cheyne Court,James Blake,5
+Cheyne Court,Marion Cheyne,5
+Cheyne Court,case,5
+Dollops,superintendent,5
+Hamilton Cleek,Miss Ailsa Lorne,5
+Lady Brenton,Mr. Gunga Dall,5
+Lady Margaret,emperor,5
+Lady Margaret Cheyne,Mr. Maverick Narkom,5
+Lady Margaret Cheyne,case,5
+Mr. Gunga Dall,Sir Edgar Brenton,5
+Mr. Maverick Narkom,constable,5
+Ailsa,Lady Margaret,4
+Cheyne Court,Dollops,4
+Constable Roberts,Marion Cheyne,4
+Dollops,Lady Margaret Cheyne,4
+Dollops,Mr. Maverick Narkom,4
+Dollops,Sir Edgar,4
+Hamilton Cleek,Mr. Gunga Dall,4
+Lady Brenton,Lady Margaret,4
+Lady Margaret,case,4
+Lor,lumme,4
+Miss Jennifer Wynne,Sir Edgar,4
+Mr. Maverick Narkom,Superintendent Narkom,4
+Mr. Maverick Narkom,case,4
+Superintendent Narkom,superintendent,4
+Bobby,Cheyne Court,3
+Bobby Wynne,Hamilton Cleek,3
+Bobby Wynne,Miss Jennifer,3
+Cheyne Court,Lady Margaret,3
+Cheyne Court,Mr. Maverick Narkom,3
+Cheyne Court,Sir Edgar,3
+Constable Roberts,Mr. Maverick Narkom,3
+Constable Roberts,case,3
+Hamilton Cleek,Superintendent Narkom,3
+Hamilton Cleek,emperor,3
+Hamilton Cleek,hampton,3
+James Blake,Sam,3
+Lady Brenton,Marion Cheyne,3
+Lady Margaret,Miss Jennifer Wynne,3
+Lady Margaret Cheyne,Miss Jennifer,3
+Lady Margaret Cheyne,Miss Jennifer Wynne,3
+Lady Margaret Cheyne,Peggy,3
+Lady Margaret Cheyne,hampton,3
+Marion Cheyne,Miss Jennifer,3
+Marion Cheyne,constable,3
+Miss Ailsa Lorne,Sir Edgar,3
+Mr. Coroner,Mr. Maverick Narkom,3
+Mr. Maverick Narkom,Sir Edgar,3
+Mr. Shallcott,Woodward,3
+Sir Edgar,case,3
+Sir Edgar,hampton,3
+Sir Edgar Brenton,mother,3
+emperor,shiva,3
+Aggie,John,2
+Ailsa,Miss Jennifer Wynne,2
+Ailsa,Mr. Deland,2
+Ailsa,Sir Edgar,2
+Auntie,Sir Edgar,2
+Bobby,Marion Cheyne,2
+Bobby,Miss Ailsa Lorne,2
+Bobby Wynne,James Blake,2
+Bobby Wynne,Miss Ailsa Lorne,2
+Cheyne Court,Lennard,2
+Cheyne Court,Miss Jennifer Wynne,2
+Cheyne Court,Sir Edgar Brenton,2
+Cheyne Court,constable,2
+Cheyne Court,hampton,2
+Cheyne Court,superintendent,2
+Constable Roberts,Dollops,2
+Constable Roberts,Sir Edgar,2
+Dollops,Superintendent Narkom,2
+Dollops,case,2
+Dollops,constable,2
+Edgar Verrall,Sir Edgar,2
+Edgar Verrall,Sir Edgar Brenton,2
+Hamilton Cleek,James Blake,2
+Hamilton Cleek,Mr. Coroner,2
+Hamilton Cleek,shadows,2
+James Blake,Marion Cheyne,2
+James Blake,Miss Jennifer Wynne,2
+James Blake,Sammy,2
+James Blake,Sammy Blake,2
+John,Lady Margaret,2
+Jove,Lady Margaret Cheyne,2
+Jove,Meg,2
+Lady Brenton,Miss Ailsa Lorne,2
+Lady Margaret,Mr. Deland,2
+Lady Margaret,Mr. Shallcott,2
+Lady Margaret,mother,2
+Lady Margaret Cheyne,Lennard,2
+Lady Margaret Cheyne,Meg,2
+Lady Margaret Cheyne,Miss Ailsa Lorne,2
+Lady Margaret Cheyne,Policeman,2
+Lady Margaret Cheyne,emperor,2
+Lady Margaret Cheyne,mother,2
+Lady Margaret Cheyne,superintendent,2
+Marion Cheyne,Mr. Maverick Narkom,2
+Marion Cheyne,Policeman,2
+Marion Cheyne,mother,2
+Miss Ailsa Lorne,Miss Jennifer,2
+Miss Ailsa Lorne,Miss Jennifer Wynne,2
+Miss Ailsa Lorne,Mr. Deland,2
+Miss Ailsa Lorne,Sir Edgar Brenton,2
+Miss Jennifer Wynne,Sir Edgar Brenton,2
+Mr. Coroner,case,2
+Mr. Deland,Sir Edgar,2
+Mr. Deland,constable,2
+Mr. George Headland,hullo,2
+Mr. Maverick Narkom,Policeman,2
+Mr. Maverick Narkom,Professor James,2
+Mr. Maverick Narkom,Sir Edgar Brenton,2
+Mr. Maverick Narkom,hampton,2
+Sammy,Sammy Blake,2
+Sir Edgar,emperor,2
+Sir Edgar Brenton,case,2
+Sir Edgar Brenton,hampton,2
+case,constable,2
+case,superintendent,2
+Aggie,Auntie,1
+Aggie,Miss Ailsa Lorne,1
+Aggie,Mr. Gunga Dall,1
+Aggie,Sir Edgar,1
+Ailsa,Auntie,1
+Ailsa,Lady Margaret Cheyne,1
+Ailsa,Marion Cheyne,1
+Ailsa,emperor,1
+Auntie,Lady Margaret Cheyne,1
+Auntie,Miss Ailsa Lorne,1
+Auntie,Mr. Deland,1
+Beland,Mr. Deland,1
+Bobby,Mr. Gunga Dall,1
+Bobby,Professor James,1
+Bobby Wynne,Cheyne Court,1
+Bobby Wynne,Lady Margaret Cheyne,1
+Bobby Wynne,Mr. Gunga Dall,1
+Bobby Wynne,Professor James,1
+Cheyne Cleek,Hamilton Cleek,1
+Cheyne Cleek,Lady Margaret Cheyne,1
+Cheyne Cleek,Marion Cheyne,1
+Cheyne Court,Constable Roberts,1
+Cheyne Court,Hammond,1
+Cheyne Court,Lady Brenton,1
+Cheyne Court,Petrie,1
+Constable Roberts,Hammond,1
+Constable Roberts,Jack,1
+Constable Roberts,Lady Margaret,1
+Constable Roberts,Mr. Coroner,1
+Constable Roberts,Petrie,1
+Constable Roberts,Policeman,1
+Constable Roberts,Professor James,1
+Constable Roberts,hampton,1
+Constable Roberts,shadows,1
+Constable Roberts,superintendent,1
+Constable Roberts,yessir,1
+Dollops,Lady Margaret,1
+Dollops,Lor,1
+Dollops,Miss Jennifer,1
+Dollops,Miss Jennifer Wynne,1
+Dollops,Mr. Deland,1
+Dollops,Petrie,1
+Dollops,Sir Edgar Brenton,1
+Dollops,hampton,1
+Dollops,shadows,1
+Edgar Verrall,Miss Jennifer Wynne,1
+Graves,Mr. Gunga Dall,1
+Hamilton Cleek,Jack,1
+Hamilton Cleek,Lor,1
+Hamilton Cleek,Mr. Deland,1
+Hamilton Cleek,Mr. George Headland,1
+Hamilton Cleek,Policeman,1
+Hamilton Cleek,brahma,1
+Hamilton Cleek,cracksman,1
+Hamilton Cleek,gad,1
+Hamilton Cleek,gawd,1
+Hamilton Cleek,juliet,1
+Hamilton Cleek,mother,1
+Hamilton Cleek,romeo,1
+Hamilton Cleek,shiva,1
+Hammond,Lady Margaret Cheyne,1
+Hammond,constable,1
+Hammond,yessir,1
+Inspector Headland,Mr. George Headland,1
+Jack,constable,1
+James Blake,Jen,1
+James Blake,Jim,1
+James Blake,Lady Margaret,1
+James Blake,Mr. Gunga Dall,1
+James Blake,Mr. Maverick Narkom,1
+James Blake,Sam Blake,1
+James Blake,Sir Edgar,1
+Jim,Professor James,1
+Jim,constable,1
+Lady Brenton,Mr. George Headland,1
+Lady Brenton,case,1
+Lady Brenton,mother,1
+Lady Margaret,Miss Marion,1
+Lady Margaret,Mr. Gunga Dall,1
+Lady Margaret,Mr. Maverick Narkom,1
+Lady Margaret,Peggy,1
+Lady Margaret,Sammy,1
+Lady Margaret,brahma,1
+Lady Margaret,constable,1
+Lady Margaret,hampton,1
+Lady Margaret,juliet,1
+Lady Margaret,romeo,1
+Lady Margaret,shiva,1
+Lady Margaret Cheyne,Miss Marion,1
+Lady Margaret Cheyne,Mr. Deland,1
+Lady Margaret Cheyne,Peggy Wynne,1
+Lady Margaret Cheyne,Petrie,1
+Lady Margaret Cheyne,Professor James,1
+Lady Margaret Cheyne,Sam,1
+Lennard,Mr. Maverick Narkom,1
+Lor,Sir Edgar,1
+Margot,Mr. Maverick Narkom,1
+Margot,cracksman,1
+Marion Cheyne,Miss Ailsa Lorne,1
+Marion Cheyne,Miss Marion,1
+Marion Cheyne,Mr. Deland,1
+Marion Cheyne,Peggy,1
+Marion Cheyne,Professor James,1
+Marion Cheyne,Sam,1
+Miss Ailsa Lorne,mother,1
+Miss Jennifer,case,1
+Miss Jennifer,hampton,1
+Miss Jennifer,superintendent,1
+Miss Jennifer Wynne,Mr. Gunga Dall,1
+Miss Jennifer Wynne,Peggy,1
+Miss Jennifer Wynne,Peggy Wynne,1
+Miss Jennifer Wynne,Policeman,1
+Miss Jennifer Wynne,Professor James,1
+Miss Jennifer Wynne,case,1
+Miss Jennifer Wynne,hampton,1
+Miss Marion,Mr. Maverick Narkom,1
+Miss Marion,Sir Edgar,1
+Miss Marion,Sir Edgar Brenton,1
+Miss Marion,Timms,1
+Mr. Coroner,Sir Edgar,1
+Mr. Deland,Mr. George Headland,1
+Mr. George Headland,Sir Edgar,1
+Mr. George Headland,Sir Edgar Brenton,1
+Mr. George Headland,emperor,1
+Mr. George Headland,superintendent,1
+Mr. Gunga Dall,Professor James,1
+Mr. Gunga Dall,Sam,1
+Mr. Maverick Narkom,Petrie,1
+Peggy,Peggy Wynne,1
+Petrie,constable,1
+Petrie,hampton,1
+Policeman,case,1
+Policeman,constable,1
+Professor James,Sam,1
+Professor James,constable,1
+Sam,Sam Blake,1
+Sam,emperor,1
+Sir Edgar,constable,1
+Sir Edgar,juliet,1
+Sir Edgar,romeo,1
+Superintendent Narkom,case,1
+brahma,shiva,1
+case,emperor,1
+case,hampton,1
+case,juliet,1
+case,romeo,1
+case,shadows,1
+constable,hampton,1
+constable,shadows,1
+constable,yessir,1
+juliet,romeo,1

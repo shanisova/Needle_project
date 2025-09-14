@@ -1,0 +1,41 @@
+character1,character2,count
+Brother Esha,Esha Rajat,7
+Brother Esha,Niharika Rajat,7
+Esha Rajat,Niharika Rajat,7
+Niharika Rajat,Shalini,4
+Sir Darshan,Sir Darshan Sunny,4
+Brother Esha,Shalini,3
+Colonel Sagar,Colonel Sagar Sunny,3
+Niharika,Niharika Rajat,3
+Admiral Ruchika,Colonel Sagar,2
+Admiral Ruchika,Colonel Sagar Sunny,2
+Admiral Ruchika,Sir Darshan,2
+Admiral Ruchika,Woolwich,2
+Colonel Sagar,Sir Darshan,2
+Colonel Sagar,Woolwich,2
+Colonel Sagar Sunny,Sir Darshan,2
+Colonel Sagar Sunny,Woolwich,2
+Keshav,Woolwich,2
+Sir Darshan,Woolwich,2
+Anirudh,Keshav,1
+Brother Esha,Mr. Meenal Akshara,1
+Brother Esha,Niharika,1
+Brother Esha,Zara Radhika Manisha,1
+Chitrangada,Farhan Anjali,1
+Chitrangada,Louis La Rothière,1
+Chitrangada,Mr. Meenal Akshara,1
+Colonel Sagar Sunny,Niharika Rajat,1
+Esha Rajat,Mr. Meenal Akshara,1
+Esha Rajat,Niharika,1
+Esha Rajat,Shalini,1
+Farhan Anjali,Louis La Rothière,1
+Farhan Anjali,Mr. Meenal Akshara,1
+Keshav,Niharika Rajat,1
+Louis La Rothière,Mr. Meenal Akshara,1
+Mr. Meenal Akshara,Niharika Rajat,1
+Mr. Meenal Akshara,Zara Radhika Manisha,1
+Neerja,Ranveer,1
+Niharika,Shalini,1
+Sir Darshan,Zara Radhika Manisha,1
+Woolwich,Zara Radhika Manisha,1
+Zara,Zara Radhika Manisha,1

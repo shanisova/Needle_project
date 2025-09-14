@@ -1,0 +1,27 @@
+character1,character2,count
+Lady Hassan,Sir Hastings Hassan,9
+Sir Bleibner,Sir Bleibner Hassan,4
+Sir Bleibner,Sir Hastings Hassan,4
+Sir Bleibner Hassan,Sir Hastings Hassan,4
+Harper,Sir Hastings Hassan,3
+Anubis,Poirot,2
+Carnarvon,Harper,2
+Doctor Tosswill,Sir Bleibner,2
+Harper,Lady Hassan,2
+Harper,Sir Bleibner,2
+Robert,Robert Guy,2
+Robert Ames,Robert Guy,2
+Anubis,Harper,1
+Anubis,Robert Ames,1
+Anubis,Sir Hastings Hassan,1
+Carnarvon,Doctor Tosswill,1
+Carnarvon,Sir Bleibner,1
+Doctor Tosswill,Harper,1
+Doctor Tosswill,Sir Bleibner Hassan,1
+Doctor Tosswill,Sir Hastings Hassan,1
+Mr. Rupert,Robert Ames,1
+Mr. Rupert,Robert Guy,1
+Mr. Rupert,Sir Bleibner,1
+Mr. Schneider,Robert Ames,1
+Robert,Robert Ames,1
+Sir Hastings Hassan,willard,1

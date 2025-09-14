@@ -1,0 +1,357 @@
+character1,character2,count
+Laddie Susan,Mr. Dells Susan,170
+Anthony Isobel,Milford Mallows,65
+Chidforth A Spillington,Moor Mars,38
+Mr. Dells,Mr. Dells Susan,37
+Milford Mallows,Moor Mars,36
+Anthony Isobel,Carthoris Brereton,29
+By,Milford Mallows,29
+By,Chidforth A Spillington,26
+Milford Mallows,Mr. Jacobs,25
+Carthoris Brereton,Milford Mallows,23
+Anthony Isobel,By,22
+By,Carthoris Brereton,22
+Chidforth A Spillington,Milford Mallows,22
+Kitely,Moor Mars,22
+By,Mr. Jacobs,21
+John Helen,Strattonporter Stilman,21
+Anthony Isobel,Mr. Jacobs,19
+Anthony Isobel,Mr. Dells Susan,18
+Chidforth A Spillington,Leykin Rellit,18
+Chidforth A Spillington,Mr. Dells Susan,18
+Anthony Isobel,Laddie Susan,17
+Chidforth A Spillington,Leykin,17
+By,Mr. Dells Susan,16
+Anthony Isobel,Mr. Carter,14
+By,Laddie Susan,14
+Carthoris Brereton,Mr. Jacobs,14
+Chidforth A Spillington,Mr. Jacobs,13
+Kitely,Milford Mallows,12
+Laddie Susan,Mr. Dells,12
+By,Leykin Rellit,11
+Carthoris Brereton,Florence Gradston,11
+Chidforth A Spillington,Mr. Desert,11
+Leykin,Leykin Rellit,11
+Leykin Rellit,Mr. Jacobs,11
+Milford Mallows,Mr. Desert,11
+Milford Mallows,Rogers,10
+Moor,Moor Mars,10
+Mr. Dells Susan,Mr. Jacobs,10
+By,Moor Mars,9
+Carthoris Brereton,Chidforth A Spillington,9
+John Helen,Rogers,9
+Laddie Susan,Mr. Jacobs,9
+Rogers,Strattonporter Stilman,9
+Anthony Isobel,Rogers,8
+By,Mr. Pilboody,8
+Leykin Rellit,Moor Mars,8
+Leykin Rellit,Mr. Dells Susan,8
+Moor Mars,Mr. Desert,8
+Moor Mars,Mr. Jacobs,8
+Bruce,Bruce Gradston,7
+Bruce,Florence Gradston,7
+Bruce Gradston,Florence Gradston,7
+By,Mr. Desert,7
+Laddie Susan,Leykin Rellit,7
+Anthony Isobel,Chidforth A Spillington,6
+Anthony Isobel,John Helen,6
+Anthony Isobel,Moor Mars,6
+Carthoris Brereton,Rogers,6
+Chidforth A Spillington,Kitely,6
+Chidforth A Spillington,Laddie Susan,6
+John Helen,Milford Mallows,6
+Milford Mallows,Strattonporter Stilman,6
+Moor Mars,Mr. Dells Susan,6
+Anthony Isobel,Leykin Rellit,5
+Anthony Isobel,Strattonporter Stilman,5
+By,Mr. Dells,5
+Leykin,Moor Mars,5
+Milford Mallows,Moor,5
+Mr. Jacobs,Rogers,5
+Anthony Isobel,Florence Gradston,4
+Anthony Isobel,Mr. Dells,4
+By,stop,4
+Chidforth,Chidforth Star,4
+Chidforth A Spillington,Mr. Carter,4
+Chidforth A Spillington,Mr. Harborough,4
+Chidforth A Spillington,Mrs. Forester,4
+Leykin,Mr. Pilboody,4
+Leykin,Mrs. Forester,4
+Leykin Rellit,Popsie,4
+Leykin Rellit,Popsie Rellit,4
+Milford Mallows,m,4
+Moor Mars,Thuvia,4
+Mr. Forest,Mr. Stoner,4
+Mr. Harborough,Mr. Stoner,4
+Popsie,Popsie Rellit,4
+Anthony Isobel,Mrs. Forester,3
+Anthony Isobel,wood,3
+Bert Northrop,Moor Mars,3
+By,Ethel,3
+By,Kitely,3
+By,Leykin,3
+By,Moor,3
+By,chance,3
+By,wood,3
+Carthoris Brereton,chance,3
+Chidforth A Spillington,Thuvia,3
+John,John Rellit,3
+John,Leykin Rellit,3
+John Helen,Mr. Jacobs,3
+John Rellit,Leykin Rellit,3
+Leykin Rellit,Mr. Pilboody,3
+Leykin Rellit,wood,3
+Milford Mallows,Thuvia,3
+Moor,Mr. Jacobs,3
+Moor Mars,m,3
+Moor Mars,stop,3
+Mr. Dells Susan,Mr. Forest,3
+Mr. Jacobs,Strattonporter Stilman,3
+Anthony Isobel,Bruce,2
+Anthony Isobel,Bruce Gradston,2
+Anthony Isobel,Ethel Albrecht,2
+Anthony Isobel,Freckles,2
+Anthony Isobel,Snare,2
+Anthony Isobel,m,2
+Avice Featherby,By,2
+Bert Northrop,Chidforth,2
+Bert Northrop,Chidforth Star,2
+Bert Northrop,fletcher,2
+By,Chidforth,2
+By,Gene Stratton-Porter,2
+By,Mr. Carter,2
+By,north,2
+By,plum,2
+Carthoris Brereton,Tars,2
+Carthoris Brereton,m,2
+Chidforth,Chidforth A Spillington,2
+Chidforth,Dick Dave,2
+Chidforth,Milford Mallows,2
+Chidforth,Moor Mars,2
+Chidforth,Wraythwaite Gill,2
+Chidforth,barclays,2
+Chidforth,fletcher,2
+Chidforth,mayor,2
+Chidforth A Spillington,Moor,2
+Chidforth A Spillington,Mr. Dells,2
+Chidforth A Spillington,Mr. Forest,2
+Chidforth A Spillington,Mr. Gifford Spillington,2
+Chidforth A Spillington,Mr. Stoner,2
+Chidforth A Spillington,m,2
+Chidforth A Spillington,plum,2
+Chidforth A Spillington,wood,2
+Chidforth Star,Dick Dave,2
+Chidforth Star,Moor Mars,2
+Chidforth Star,Wraythwaite Gill,2
+Chidforth Star,fletcher,2
+Dick Dave,Wraythwaite Gill,2
+Ethel,Laddie Susan,2
+Ethel,Mr. Dells Susan,2
+Ethel Albrecht,Milford Mallows,2
+Florence Gradston,Mr. Myler,2
+Florence Gradston,Rogers,2
+Freckles,Snare,2
+John,John Helen,2
+John,Strattonporter Stilman,2
+Kitely,Thuvia,2
+Laddie,Laddie Susan,2
+Laddie,Mr. Dells Susan,2
+Laddie Susan,Moor Mars,2
+Laddie Susan,Mr. Forest,2
+Laddie Susan,Mr. Stoner,2
+Laddie Susan,wood,2
+Leykin,m,2
+Leykin Rellit,Milford Mallows,2
+Leykin Rellit,Mr. Carter,2
+Leykin Rellit,Mr. Harborough,2
+Leykin Rellit,Mrs. Forester,2
+Leykin Rellit,m,2
+Milford Mallows,wood,2
+Moor,mark,2
+Moor Mars,fletcher,2
+Moor Mars,mark,2
+Moor Mars,wood,2
+Mr. Dells Susan,Mr. Stoner,2
+Mr. Dells Susan,wood,2
+Mr. Desert,Mr. Jacobs,2
+Mr. Harborough,Mr. Pilboody,2
+Mr. Jacobs,mark,2
+Mr. Jacobs,wood,2
+Zane,Zane Grey,2
+Anthony Isobel,Kitely,1
+Anthony Isobel,Moor,1
+Anthony Isobel,Mr. Desert,1
+Anthony Isobel,Popsie,1
+Anthony Isobel,Popsie Rellit,1
+Anthony Isobel,Zane,1
+Anthony Isobel,chance,1
+Anthony Isobel,h,1
+Anthony Isobel,mark,1
+Anthony Isobel,tardos,1
+Baree,By,1
+Baree,fletcher,1
+Baree,joseph,1
+Bert Northrop,Carfax,1
+Bert Northrop,Smith,1
+Bruce,Carthoris Brereton,1
+Bruce Gradston,Carthoris Brereton,1
+By,Desert Spillington,1
+By,Florence Gradston,1
+By,Frances Pettit,1
+By,Gifford Hamthwaite,1
+By,Greys,1
+By,Jack Christopher,1
+By,John,1
+By,John Rellit,1
+By,Kitely Mallows,1
+By,Lady Postick,1
+By,Maria Rockcliffe,1
+By,Pett Bent,1
+By,Tallington,1
+By,Thuvia,1
+By,Zane,1
+By,esquire,1
+By,fletcher,1
+By,joseph,1
+By,tardos,1
+By,w,1
+Carfax,Smith,1
+Carthoris,Carthoris Brereton,1
+Carthoris,Milford Mallows,1
+Carthoris Brereton,Chidforth,1
+Carthoris Brereton,Desert Spillington,1
+Carthoris Brereton,John Helen,1
+Carthoris Brereton,Moor,1
+Carthoris Brereton,Mr. Desert,1
+Carthoris Brereton,Mr. Myler,1
+Carthoris Brereton,Strattonporter Stilman,1
+Carthoris Brereton,barclays,1
+Carthoris Brereton,mark,1
+Carthoris Brereton,tardos,1
+Chidforth,Chidforth God,1
+Chidforth,James,1
+Chidforth,John,1
+Chidforth,Kitely,1
+Chidforth,Lady Postick,1
+Chidforth,Mallalieu,1
+Chidforth,Mr. Dells,1
+Chidforth,Mr. Dells Susan,1
+Chidforth,Mr. Desert,1
+Chidforth,Mr. Jacobs,1
+Chidforth,Ohalloran,1
+Chidforth,Zane,1
+Chidforth,Zane Grey,1
+Chidforth,chance,1
+Chidforth,esquire,1
+Chidforth,greatheart,1
+Chidforth,joseph,1
+Chidforth,mark,1
+Chidforth,plum,1
+Chidforth,stilby,1
+Chidforth,stop,1
+Chidforth,thor,1
+Chidforth A Spillington,Desert Spillington,1
+Chidforth A Spillington,Ethel,1
+Chidforth A Spillington,Ethel Albrecht,1
+Chidforth A Spillington,John,1
+Chidforth A Spillington,John Rellit,1
+Chidforth A Spillington,Popsie,1
+Chidforth A Spillington,mark,1
+Chidforth A Spillington,mayor,1
+Cotherstone,issus,1
+Desert Spillington,Mr. Desert,1
+Ethel,Ethel Albrecht,1
+Ethel,Mr. Jacobs,1
+Ethel Albrecht,Rogers,1
+Florence,Florence Gradston,1
+Florence Gradston,Milford Mallows,1
+Florence Gradston,Mr. Desert,1
+Frances Pettit,Pett Bent,1
+Gad,Rogers,1
+Jack Christopher,Maria Rockcliffe,1
+Jack Christopher,Mr. Desert,1
+Jack Christopher,Zane,1
+James,John,1
+James,Zane,1
+James,Zane Grey,1
+John,Moor Mars,1
+John,Mr. Gifford Spillington,1
+John,Mr. Jacobs,1
+John,Zane,1
+John,Zane Grey,1
+John Rellit,Moor Mars,1
+John Rellit,Mr. Gifford Spillington,1
+John Rellit,Mr. Jacobs,1
+King,plum,1
+Kitely,Kitely Mallows,1
+Kitely,m,1
+Kitely Mallows,Milford Mallows,1
+Laddie Susan,Milford Mallows,1
+Laddie Susan,Mr. Pilboody,1
+Laddie Susan,h,1
+Laddie Susan,north,1
+Lady Postick,stop,1
+Leykin,Mr. Harborough,1
+Leykin Rellit,Mr. Gifford Spillington,1
+Leykin Rellit,Susan Martin,1
+Leykin Rellit,stop,1
+Mallalieu,joseph,1
+Mallalieu,m,1
+Maria Rockcliffe,Mr. Desert,1
+Maria Rockcliffe,Zane,1
+Milford Mallows,Mr. Carter,1
+Milford Mallows,Mr. Dells Susan,1
+Milford Mallows,Mr. Pilboody,1
+Milford Mallows,Mrs. Forester,1
+Milford Mallows,chance,1
+Milford Mallows,mark,1
+Milford Mallows,north,1
+Moor,chance,1
+Moor,tardos,1
+Moor Mars,Mr. Carter,1
+Moor Mars,Mr. Dells,1
+Moor Mars,Popsie,1
+Moor Mars,Smith,1
+Moor Mars,chance,1
+Moor Mars,mayor,1
+Mr. Carter,Mr. Pilboody,1
+Mr. Carter,Zane,1
+Mr. Dells,barclays,1
+Mr. Dells,m,1
+Mr. Dells,mayor,1
+Mr. Dells,plum,1
+Mr. Dells,tardos,1
+Mr. Dells Susan,Mr. Pilboody,1
+Mr. Dells Susan,Susan Martin,1
+Mr. Dells Susan,barclays,1
+Mr. Dells Susan,chance,1
+Mr. Dells Susan,h,1
+Mr. Dells Susan,mayor,1
+Mr. Dells Susan,north,1
+Mr. Dells Susan,plum,1
+Mr. Desert,Rogers,1
+Mr. Desert,Zane,1
+Mr. Desert,greatheart,1
+Mr. Forest,Mr. Harborough,1
+Mr. Gifford Spillington,Mr. Jacobs,1
+Mr. Harborough,Wraye,1
+Mr. Jacobs,Mr. Pilboody,1
+Mr. Jacobs,Thuvia,1
+Mr. Jacobs,m,1
+Mr. Jacobs,mors,1
+Mr. Jacobs,w,1
+Mr. Myler,Rogers,1
+Mr. Pilboody,north,1
+Ohalloran,chance,1
+Popsie,mayor,1
+Popsie,wood,1
+Popsie Rellit,wood,1
+Rogers,mark,1
+Thuvia,m,1
+barclays,mayor,1
+barclays,plum,1
+chance,north,1
+fletcher,joseph,1
+m,north,1
+mark,mayor,1
+mayor,plum,1

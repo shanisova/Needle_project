@@ -1,0 +1,741 @@
+character1,character2,count
+a,i,463
+Mr. Paul,a,163
+don,i,162
+Miss Sylvia,a,136
+Mr. Paul,i,119
+Deborah,a,106
+Miss Sylvia Krill,a,98
+Mr. Billy Hurd,a,93
+Miss Sylvia,Mr. Paul,92
+Miss Sylvia Krill,i,92
+Miss Sylvia,i,90
+Mr. Grexon Hay,a,85
+Mr. Paul Beecot,a,81
+Mr. Paul Beecot,i,78
+Mr. Grexon Hay,i,74
+Mr. Billy Hurd,i,70
+Sylvia Norman,i,66
+a,woman,65
+Aaron,Sylvia Norman,64
+Sylvia Norman,a,60
+Aaron,Aaron Norman,59
+Aaron Norman,Sylvia Norman,59
+a,don,59
+Deborah,Miss Sylvia,58
+Deborah,i,56
+Miss Norman,Sylvia Norman,54
+Mr. Jabez Pash,i,52
+a,old,49
+Lemuel,Miss Sylvia Krill,44
+Lemuel,Mr. Lemuel Krill,43
+Miss Sylvia Krill,Mr. Lemuel Krill,43
+Tray,i,40
+i,old,40
+Mr. Jabez Pash,a,36
+i,woman,35
+Aaron,a,34
+Bart,Deborah,34
+Miss Sylvia Krill,Sylvia Norman,34
+Miss Maud,a,33
+Bart,i,32
+Tray,a,32
+Miss Aurora Qian,a,30
+Mr. Paul,Mr. Paul Beecot,29
+Mrs. Krill/Jessop,i,29
+Bart,a,28
+Miss Maud,Miss Sylvia Krill,28
+Deborah,Mr. Paul,27
+Grexon,Mr. Grexon Hay,27
+Aaron,i,26
+Debby,a,26
+Mrs. Krill/Jessop,a,26
+Miss Norman,i,25
+Miss Maud,i,24
+Miss Sylvia,Sylvia Norman,24
+Miss Sylvia,Mr. Paul Beecot,23
+Mr. Grexon Hay,Mr. Paul,23
+Mr. Paul,don,23
+Debby,Miss Sylvia,22
+Debby,i,21
+Miss Sylvia Krill,Mr. Billy Hurd,21
+Mr. Billy Hurd,Mr. Paul,20
+Miss Sylvia,Miss Sylvia Krill,19
+Miss Sylvia Krill,Mrs. Krill/Jessop,19
+Mr. Paul,old,19
+Bart,Miss Sylvia,18
+Matilda,a,18
+Mr. Billy Hurd,Mrs. Krill/Jessop,18
+Aaron Norman,i,17
+Matilda Junk,a,17
+Aurora,a,16
+Lady Rachel Sandal,i,16
+Miss Sylvia Krill,woman,16
+Aaron,Miss Sylvia Krill,15
+Aaron Norman,Miss Sylvia Krill,15
+George,i,15
+Lady Rachel,Lady Rachel Sandal,15
+Lady Rachel Sandal,a,15
+Mr. Grexon Hay,Mr. Paul Beecot,15
+Mr. Hokar,a,15
+Aurora,i,14
+Bart,Mr. Bartholemew Tawsey,14
+Grexon,a,14
+Lady Rachel,i,14
+Lemuel,a,14
+Lemuel,i,14
+Miss Norman,a,14
+Miss Sylvia,don,14
+Miss Sylvia Krill,Mr. Jabez Pash,14
+Mr. Billy Hurd,Tray,14
+a,policeman,14
+Aaron Norman,a,13
+Deborah,Miss Maud,13
+Deborah,Sylvia Norman,13
+Deborah,old,13
+Matilda,Matilda Junk,13
+Mr. Billy Hurd,Sylvia Norman,13
+Mr. Lemuel Krill,a,13
+Mr. Paul,woman,13
+Mr. Paul Beecot,Sylvia Norman,13
+Mr. Paul Beecot,don,13
+Aaron,Mr. Paul,12
+Deborah,don,12
+Granny Purr,a,12
+Lady Rachel Sandal,Mr. Grexon Hay,12
+Matilda Junk,i,12
+Maud Krill,Miss Maud,12
+Maud Krill,Miss Sylvia Krill,12
+Miss Maud,Miss Sylvia,12
+Miss Sylvia Krill,Mr. Paul,12
+Mr. Billy Hurd,Mr. Paul Beecot,12
+Mr. Paul Beecot,old,12
+Bart,Mr. Paul,11
+Lady Rachel,Miss Sylvia Krill,11
+Mr. Billy Hurd,don,11
+Mr. Lemuel Krill,i,11
+Deborah,Mr. Paul Beecot,10
+Grexon,Mr. Paul,10
+Lemuel,Sylvia Norman,10
+Miss Sylvia Krill,Mr. Grexon Hay,10
+Mr. Billy Hurd,Mr. Jabez Pash,10
+Mr. Grexon Hay,don,10
+Mr. Lemuel Krill,Sylvia Norman,10
+Mr. Paul,Sylvia Norman,10
+darling,i,10
+i,stowley,10
+Aaron,Lemuel,9
+Aaron,Mr. Lemuel Krill,9
+Aaron Norman,Lemuel,9
+Aaron Norman,Mr. Lemuel Krill,9
+Aurora,Mr. Grexon Hay,9
+Bart,Tray,9
+Bart,don,9
+Billy,i,9
+Deborah,Deborah Junk,9
+George,Mr. Grexon Hay,9
+George,a,9
+Lady Rachel,a,9
+Miss Sylvia,old,9
+Miss Sylvia Krill,Tray,9
+Mr. Billy Hurd,Mr. Grexon Hay,9
+Mr. Billy Hurd,woman,9
+Mr. Grexon Hay,Tempest,9
+Aurora,don,8
+Bart,Bart Tawsey,8
+Bart Tawsey,Mr. Bartholemew Tawsey,8
+Deborah,Mr. Jabez Pash,8
+Grexon,i,8
+Matilda,i,8
+Mr. Hokar,i,8
+Mr. Paul,darling,8
+old,woman,8
+Bart,old,7
+Billy,Mr. Billy Hurd,7
+Debby,Mr. Paul,7
+Deborah,Mr. Bartholemew Tawsey,7
+Matilda,Miss Sylvia Krill,7
+Miss Aurora Qian,i,7
+Miss Maud,Mr. Billy Hurd,7
+Miss Sylvia,Mr. Jabez Pash,7
+Miss Sylvia Krill,don,7
+Mr. Bartholemew Tawsey,a,7
+Mr. Grexon Hay,Sylvia Norman,7
+Mr. Jabez Pash,Tray,7
+a,stowley,7
+don,woman,7
+Aaron,Bart,6
+Aaron,Miss Sylvia,6
+Aaron,Mr. Paul Beecot,6
+Bart,Sylvia Norman,6
+Billy,a,6
+Deborah,Miss Sylvia Krill,6
+Deborah,Mr. Billy Hurd,6
+Deborah,Tray,6
+Deborah,woman,6
+Jarvey Jessop,Mrs. Krill/Jessop,6
+Lady Rachel,Mrs. Krill/Jessop,6
+Lady Rachel Sandal,don,6
+Matilda,Mr. Billy Hurd,6
+Miss Aurora Qian,Mr. Grexon Hay,6
+Miss Sylvia,darling,6
+Miss Sylvia,woman,6
+Miss Sylvia Krill,Mr. Paul Beecot,6
+Mr. Bartholemew Tawsey,i,6
+Mr. Hokar,Mrs. Krill/Jessop,6
+Mr. Jabez Pash,Mr. Paul,6
+Mr. Jabez Pash,Mrs. Krill/Jessop,6
+Mrs. Krill/Jessop,Sylvia Norman,6
+Mrs. Krill/Jessop,stowley,6
+Sylvia Norman,old,6
+a,darling,6
+a,heaven,6
+don,old,6
+Aaron,Deborah,5
+Aaron,Mr. Billy Hurd,5
+Aurora,Miss Aurora Qian,5
+Deborah Junk,Sylvia Norman,5
+George,Lady Rachel Sandal,5
+Lady Rachel,Sylvia Norman,5
+Matilda,Miss Maud,5
+Miss Maud,don,5
+Miss Sylvia,Mr. Billy Hurd,5
+Miss Sylvia Krill,beechill,5
+Miss Sylvia Krill,old,5
+Mr. Ford,i,5
+Mr. Grexon Hay,woman,5
+Mr. Jabez Pash,Mr. Paul Beecot,5
+Mr. Jabez Pash,Sylvia Norman,5
+Mr. Jabez Pash,old,5
+Mr. Paul Beecot,wargrove,5
+Sylvia Norman,don,5
+Tempest,a,5
+Tempest,i,5
+Tray,don,5
+a,beechill,5
+a,commercial,5
+a,green,5
+i,policeman,5
+Aaron,don,4
+Aaron,old,4
+Aaron Norman,Mr. Billy Hurd,4
+Aaron Norman,Mr. Paul Beecot,4
+Anne Tyler,Miss Sylvia Krill,4
+Bart,wargrove,4
+Debby,don,4
+Deborah,Matilda,4
+George,George Sandal,4
+George Sandal,Lady Rachel Sandal,4
+Granny Purr,Mr. Billy Hurd,4
+Granny Purr,Mr. Paul,4
+Jarvey Jessop,a,4
+Lady Rachel Sandal,Miss Sylvia Krill,4
+Lillian,a,4
+Lillian Garner,a,4
+Matilda,Mr. Grexon Hay,4
+Matilda,Mr. Hokar,4
+Matilda,Mrs. Krill/Jessop,4
+Matilda,Tray,4
+Matilda Junk,Miss Sylvia,4
+Matilda Junk,Mr. Hokar,4
+Matilder,i,4
+Miss Aurora Qian,Mr. Paul,4
+Miss Aurora Qian,don,4
+Miss Maud,Mrs. Krill/Jessop,4
+Miss Sylvia Krill,stowley,4
+Mr. Billy Hurd,old,4
+Mr. Billy Hurd,policeman,4
+Mr. Grexon Hay,old,4
+Mr. Jabez Pash,don,4
+Mr. Paul,Tray,4
+Mr. Paul Beecot,Tray,4
+Sylvia Norman,woman,4
+Tinker,i,4
+Tinker,old,4
+Tray,old,4
+baileys,old,4
+commercial,i,4
+darling,don,4
+i,wargrove,4
+Aaron,Lady Rachel,3
+Aaron,Mr. Jabez Pash,3
+Aaron,Mrs. Krill/Jessop,3
+Aaron,Tray,3
+Anne Tyler,Lemuel,3
+Anne Tyler,Mr. Lemuel Krill,3
+Anne Tyler,Mrs. Krill/Jessop,3
+Anne Tyler,a,3
+Anne Tyler,stowley,3
+Aurora,Sylvia Norman,3
+Aurora,stowley,3
+Bart,Debby,3
+Billy,don,3
+Debby,Miss Sylvia Krill,3
+Debby,old,3
+Deborah,Deborah Tawsey,3
+Deborah,yuss,3
+Deborah Junk,a,3
+Deborah Junk,i,3
+Deborah Tawsey,Mr. Bartholemew Tawsey,3
+Dulcinea,Mr. Paul,3
+Fergus Hume,a,3
+George,Miss Sylvia Krill,3
+George Sandal,Mr. Grexon Hay,3
+Granny Purr,i,3
+Grexon,Miss Maud,3
+Lady Rachel Sandal,Mr. Billy Hurd,3
+Lady Rachel Sandal,Tempest,3
+Lemuel,Miss Maud,3
+Lemuel,Miss Sylvia,3
+Lillian,Lillian Garner,3
+Master Clump,a,3
+Master Clump,i,3
+Maud Jessop,Miss Maud,3
+Maud Jessop,Mrs. Krill/Jessop,3
+Miss Aurora Qian,Miss Sylvia Krill,3
+Miss Maud,Mr. Grexon Hay,3
+Miss Maud,Mr. Paul Beecot,3
+Miss Maud,Tray,3
+Miss Maud,old,3
+Miss Maud,woman,3
+Miss Norman,Miss Sylvia Krill,3
+Miss Stably,a,3
+Miss Stably,old,3
+Miss Sylvia,Mr. Bartholemew Tawsey,3
+Miss Sylvia,Tray,3
+Miss Sylvia Krill,Mr. Hokar,3
+Mr. Billy Hurd,Mr. Hokar,3
+Mr. Billy Hurd,stowley,3
+Mr. Ford,Mr. Paul,3
+Mr. Ford,Mr. Paul Beecot,3
+Mr. Grexon Hay,Mr. Jabez Pash,3
+Mr. Hokar,Tray,3
+Mr. Paul,Scott,3
+Mr. Paul,wargrove,3
+Mr. Paul Beecot,Simon Beecot,3
+Mr. Paul Beecot,woman,3
+a,god,3
+a,wargrove,3
+don,quixote,3
+i,jove,3
+i,judson,3
+Aaron,Bhowanee,2
+Aaron,Debby,2
+Aaron,Grexon,2
+Aaron,Mr. Grexon Hay,2
+Aaron Norman,Bhowanee,2
+Aaron Norman,Lady Rachel,2
+Aaron Norman,Miss Sylvia,2
+Aaron Norman,Mrs. Krill/Jessop,2
+Anne Tyler,Jarvey Jessop,2
+Anne Tyler,beechill,2
+Anne Tyler,i,2
+Aurora,Billy,2
+Aurora,Grexon,2
+Aurora,Lady Rachel,2
+Aurora,Miss Stably,2
+Aurora,Miss Sylvia,2
+Aurora,Miss Sylvia Krill,2
+Aurora,Mr. Billy Hurd,2
+Bart Tawsey,i,2
+Becky Sharp,a,2
+Bhowanee,Sylvia Norman,2
+Debby,Deborah,2
+Debby,Mr. Paul Beecot,2
+Debby,darling,2
+Debby,god,2
+Deborah,Granny Purr,2
+Deborah,Maud Krill,2
+Deborah,Miss Norman,2
+Deborah,baileys,2
+Deborah,darling,2
+Deborah,duenna,2
+Deborah,heaven,2
+Deborah,wargrove,2
+Deborah Junk,Miss Norman,2
+Deborah Junk,duenna,2
+Deborah Junk,woman,2
+Dulcinea,Grexon,2
+Dulcinea,a,2
+George,Miss Aurora Qian,2
+George,Miss Maud,2
+George,Mr. Paul,2
+George,Mr. Paul Beecot,2
+George,jove,2
+Grexon,Miss Sylvia,2
+Grexon,Mr. Billy Hurd,2
+Grexon,don,2
+Hants,a,2
+Jarvey Jessop,Lemuel,2
+Jarvey Jessop,Miss Sylvia Krill,2
+Jarvey Jessop,Mr. Lemuel Krill,2
+Jarvey Jessop,beechill,2
+Lady Rachel,Lemuel,2
+Lady Rachel,Miss Maud,2
+Lady Rachel,Mr. Lemuel Krill,2
+Lady Rachel,Mr. Paul,2
+Lady Rachel,don,2
+Lady Rachel,old,2
+Lady Rachel,woman,2
+Lady Rachel Sandal,Mrs. Krill/Jessop,2
+Lemuel,Mr. Jabez Pash,2
+Lemuel,Mrs. Krill/Jessop,2
+Lemuel,beechill,2
+Lemuel,old,2
+Matilda,Miss Sylvia,2
+Matilda,don,2
+Matilda,woman,2
+Matilda Junk,Miss Aurora Qian,2
+Matilda Junk,Mr. Grexon Hay,2
+Matilda Junk,Mrs. Krill/Jessop,2
+Matilder,don,2
+Maud Krill,Mr. Billy Hurd,2
+Maud Krill,i,2
+Miss Aurora Qian,Miss Maud,2
+Miss Aurora Qian,Miss Sylvia,2
+Miss Aurora Qian,Mr. Billy Hurd,2
+Miss Aurora Qian,beechill,2
+Miss Aurora Qian,woman,2
+Miss Maud,Mr. Jabez Pash,2
+Miss Maud,Mr. Paul,2
+Miss Norman,Mr. Jabez Pash,2
+Miss Norman,Mr. Paul,2
+Miss Norman,Mr. Paul Beecot,2
+Miss Norman,don,2
+Miss Norman,woman,2
+Miss Sylvia,Mr. Ford,2
+Miss Sylvia,Mr. Grexon Hay,2
+Miss Sylvia,Mr. Lemuel Krill,2
+Miss Sylvia,Mrs. Krill/Jessop,2
+Miss Sylvia,god,2
+Miss Sylvia,heaven,2
+Miss Sylvia Krill,Mr. Ford,2
+Miss Sylvia Krill,bay,2
+Mr. Bartholemew Tawsey,Mr. Paul,2
+Mr. Bartholemew Tawsey,don,2
+Mr. Bartholemew Tawsey,old,2
+Mr. Ford,Mr. Jabez Pash,2
+Mr. Ford,a,2
+Mr. Jabez Pash,Mr. Lemuel Krill,2
+Mr. Lemuel Krill,Mrs. Krill/Jessop,2
+Mr. Lemuel Krill,beechill,2
+Mr. Paul,Mrs. Krill/Jessop,2
+Mr. Paul,god,2
+Mr. Paul Beecot,heaven,2
+Mrs. Krill/Jessop,Tray,2
+Mrs. Krill/Jessop,beechill,2
+Mrs. Krill/Jessop,don,2
+Sahib,zat,2
+Scott,a,2
+Simon Beecot,wargrove,2
+Tilly,don,2
+Tilly,i,2
+Tray,heaven,2
+Tray,woman,2
+a,joseph,2
+a,shylock,2
+a,sunbeam,2
+beechill,i,2
+beechill,stowley,2
+i,joseph,2
+i,page,2
+i,sunbeam,2
+i,yuss,2
+louis,quatorz,2
+old,wargrove,2
+Aaron,Aurora,1
+Aaron,Hants,1
+Aaron,Jarvey Jessop,1
+Aaron,Lady Rachel Sandal,1
+Aaron,Miss Aurora Qian,1
+Aaron,Mr. Hokar,1
+Aaron,Tupounee,1
+Aaron,policeman,1
+Aaron Norman,Aurora,1
+Aaron Norman,Bart,1
+Aaron Norman,Hants,1
+Aaron Norman,Miss Aurora Qian,1
+Aaron Norman,Mr. Grexon Hay,1
+Aaron Norman,Mr. Hokar,1
+Aaron Norman,Mr. Jabez Pash,1
+Aaron Norman,Tupounee,1
+Aaron Norman,don,1
+Aaron Norman,policeman,1
+Andrew Wainwright,Suzanne Shell,1
+Anne Beecot,Mr. Paul,1
+Anne Beecot,Mr. Paul Beecot,1
+Aurora,Lady Rachel Sandal,1
+Aurora,Matilda,1
+Aurora,Matilda Junk,1
+Aurora,Mr. Ford,1
+Aurora,Mr. Paul,1
+Aurora,Tempest,1
+Aurora,Tray,1
+Aurora,old,1
+Aurora,woman,1
+Bart,Deborah Junk,1
+Bart,Granny Purr,1
+Bart,Matilda Junk,1
+Bart,Mr. Hokar,1
+Bart,Mr. Jabez Pash,1
+Bart,Mr. Paul Beecot,1
+Bart,baileys,1
+Bart,othello,1
+Bart,shylock,1
+Bart,stowley,1
+Bart,sunbeam,1
+Bart,yuss,1
+Bart Tawsey,Deborah,1
+Bart Tawsey,Matilda Junk,1
+Bart Tawsey,Miss Sylvia,1
+Bart Tawsey,Tray,1
+Bart Tawsey,a,1
+Becky Sharp,Miss Aurora Qian,1
+Becky Sharp,dorrit,1
+Bhowanee,Miss Sylvia Krill,1
+Bhowanee,Mr. Hokar,1
+Bhowanee,i,1
+Billy,Mr. Grexon Hay,1
+David Copperfield,Mr. Paul,1
+David Copperfield,Steerforth,1
+David Copperfield,i,1
+Debby,Goliath,1
+Debby,Miss Norman,1
+Debby,Mr. Grexon Hay,1
+Debby,Sampson,1
+Debby,Sylvia Norman,1
+Debby,Tray,1
+Deborah,Matilda Junk,1
+Deborah,page,1
+Deborah,policeman,1
+Deborah,sunbeam,1
+Deborah Junk,Miss Sylvia,1
+Deborah Junk,Mr. Bartholemew Tawsey,1
+Deborah Junk,Mr. Billy Hurd,1
+Deborah Junk,Mr. Jabez Pash,1
+Deborah Junk,old,1
+Deborah Tawsey,i,1
+Dulcinea,Miss Sylvia,1
+Dulcinea,don,1
+Dulcinea,quixote,1
+Falstaff,a,1
+Gaboriau,a,1
+George,Grexon,1
+George,Lemuel,1
+George,Mr. Lemuel Krill,1
+George,charming,1
+George,don,1
+George Sandal,Grexon,1
+George Sandal,charming,1
+Goethe,a,1
+Goliath,Sampson,1
+Goliath,i,1
+Granny Clump,a,1
+Granny Clump,i,1
+Granny Purr,Miss Sylvia,1
+Granny Purr,Mr. Jabez Pash,1
+Granny Purr,Tray,1
+Granny Purr,old,1
+Granny Purr,woman,1
+Grexon,Lady Rachel Sandal,1
+Grexon,Maud Krill,1
+Grexon,Miss Aurora Qian,1
+Grexon,Miss Sylvia Krill,1
+Grexon,Mr. Paul Beecot,1
+Grexon,galahad,1
+Grexon,old,1
+Grexon,quixote,1
+Hants,Mr. Billy Hurd,1
+Hants,Mr. Paul,1
+Hants,Sylvia Norman,1
+Hants,i,1
+Jacko,Mr. Jabez Pash,1
+Jacko,a,1
+Jacko,i,1
+Jarvey Jessop,Lady Rachel,1
+Jarvey Jessop,Lady Rachel Sandal,1
+Jarvey Jessop,Mr. Billy Hurd,1
+Jarvey Jessop,Mr. Jabez Pash,1
+Jarvey Jessop,Sylvia Norman,1
+Jezebel,Judas,1
+Jezebel,Miss Sylvia Krill,1
+Jezebel,a,1
+Jezebel,i,1
+Judas,Julius Cezar,1
+Judas,Mr. Paul Beecot,1
+Judas,i,1
+Julius Cezar,Mr. Paul Beecot,1
+Lady Rachel,Mr. Billy Hurd,1
+Lady Rachel,Mr. Grexon Hay,1
+Lady Rachel,Mr. Paul Beecot,1
+Lady Rachel,Tray,1
+Lady Rachel Sandal,Lemuel,1
+Lady Rachel Sandal,Miss Aurora Qian,1
+Lady Rachel Sandal,Miss Maud,1
+Lady Rachel Sandal,Mr. Lemuel Krill,1
+Lady Rachel Sandal,Mr. Paul,1
+Lady Rachel Sandal,Mr. Paul Beecot,1
+Lady Rachel Sandal,Sylvia Norman,1
+Lady Rachel Sandal,charming,1
+Lady Rachel Sandal,humph,1
+Lemuel,Lillian,1
+Lemuel,Lillian Garner,1
+Lemuel,Matilda,1
+Lemuel,Mr. Billy Hurd,1
+Lemuel,Mr. Paul,1
+Lemuel,Mr. Paul Beecot,1
+Lillian,Miss Sylvia,1
+Lillian,Miss Sylvia Krill,1
+Lillian,Mr. Lemuel Krill,1
+Lillian,old,1
+Lillian Garner,Miss Sylvia Krill,1
+Lillian Garner,Mr. Lemuel Krill,1
+Lillian Garner,Mr. Paul,1
+Lillian Garner,old,1
+Master Clump,Mr. Billy Hurd,1
+Matilda,Maud Krill,1
+Matilda,Mr. Bartholemew Tawsey,1
+Matilda,Mr. Lemuel Krill,1
+Matilda,Sylvia Norman,1
+Matilda Junk,Mr. Bartholemew Tawsey,1
+Matilda Junk,Mr. Billy Hurd,1
+Matilda Junk,Mr. Paul,1
+Matilda Junk,Tray,1
+Matilda Junk,baileys,1
+Matilda Junk,don,1
+Matilda Junk,old,1
+Matilder,Mr. Bartholemew Tawsey,1
+Matilder,a,1
+Maud Jessop,a,1
+Maud Jessop,stowley,1
+Maud Krill,Miss Sylvia,1
+Maud Krill,Mr. Paul,1
+Maud Krill,Mr. Paul Beecot,1
+Maud Krill,a,1
+Miss Aurora Qian,Mr. Ford,1
+Miss Aurora Qian,Sylvia Norman,1
+Miss Aurora Qian,Tempest,1
+Miss Aurora Qian,old,1
+Miss Aurora Qian,pish,1
+Miss Aurora Qian,stowley,1
+Miss Maud,Mr. Lemuel Krill,1
+Miss Maud,Sylvia Norman,1
+Miss Maud,judson,1
+Miss Maud,stowley,1
+Miss Stably,Mr. Grexon Hay,1
+Miss Sylvia,baileys,1
+Miss Sylvia,charming,1
+Miss Sylvia,goor,1
+Miss Sylvia,green,1
+Miss Sylvia,wargrove,1
+Miss Sylvia Krill,baileys,1
+Miss Sylvia Krill,shakespeare,1
+Miss Sylvia Krill,yuss,1
+Mr. Bartholemew Tawsey,Mr. Billy Hurd,1
+Mr. Bartholemew Tawsey,Tray,1
+Mr. Billy Hurd,Mr. Ford,1
+Mr. Billy Hurd,Mr. Lemuel Krill,1
+Mr. Billy Hurd,Sahib,1
+Mr. Billy Hurd,Tempest,1
+Mr. Billy Hurd,Tinker,1
+Mr. Billy Hurd,bay,1
+Mr. Billy Hurd,goor,1
+Mr. Billy Hurd,hullo,1
+Mr. Billy Hurd,wargrove,1
+Mr. Grexon Hay,Mrs. Krill/Jessop,1
+Mr. Grexon Hay,charming,1
+Mr. Grexon Hay,hawk,1
+Mr. Hokar,Sylvia Norman,1
+Mr. Hokar,englis,1
+Mr. Hokar,green,1
+Mr. Hokar,policeman,1
+Mr. Jabez Pash,charming,1
+Mr. Jabez Pash,heaven,1
+Mr. Jabez Pash,herrick,1
+Mr. Jabez Pash,stowley,1
+Mr. Jabez Pash,sunbeam,1
+Mr. Jabez Pash,woman,1
+Mr. Lemuel Krill,Mr. Paul,1
+Mr. Lemuel Krill,Mr. Paul Beecot,1
+Mr. Paul,Paterfamilias,1
+Mr. Paul,Steerforth,1
+Mr. Paul,beechill,1
+Mr. Paul,gad,1
+Mr. Paul,goor,1
+Mr. Paul,heaven,1
+Mr. Paul,stowley,1
+Mr. Paul,unforeseen,1
+Mr. Paul Beecot,beatrice,1
+Mr. Paul Beecot,elizabeth,1
+Mr. Paul Beecot,god,1
+Mr. Paul Beecot,green,1
+Mr. Paul Beecot,quixote,1
+Mr. Paul Beecot,stowley,1
+Mrs. Krill/Jessop,Tinker,1
+Mrs. Krill/Jessop,old,1
+Mrs. Krill/Jessop,woman,1
+Paterfamilias,a,1
+Sahib,a,1
+Sampson,i,1
+Scott,i,1
+Simon Beecot,a,1
+Simon Beecot,don,1
+Simon Beecot,i,1
+Simon Beecot,quixote,1
+Steerforth,i,1
+Sylvia Norman,Tray,1
+Sylvia Norman,Tupounee,1
+Sylvia Norman,baileys,1
+Sylvia Norman,policeman,1
+Tempest,don,1
+Tilly,Tilly Junk,1
+Tilly Junk,i,1
+Tupounee,a,1
+a,antoinette,1
+a,baileys,1
+a,charming,1
+a,dorrit,1
+a,duenna,1
+a,humph,1
+a,jove,1
+a,judson,1
+a,marie,1
+a,page,1
+a,quixote,1
+a,stretchers,1
+antoinette,marie,1
+baileys,i,1
+balzac,don,1
+balzac,i,1
+beatrice,elizabeth,1
+charming,darling,1
+charming,heaven,1
+charming,herrick,1
+charming,i,1
+don,god,1
+don,heaven,1
+don,humph,1
+don,judson,1
+don,policeman,1
+don,sunbeam,1
+don,wargrove,1
+duenna,old,1
+englis,i,1
+gad,woman,1
+god,old,1
+god,woman,1
+goor,i,1
+green,i,1
+heaven,i,1
+humph,i,1
+i,pish,1
+i,quixote,1
+i,wittington,1
+louis,quinze,1
+meadow,taylor,1
+meadows,taylor,1
+old,stowley,1
+policeman,stowley,1
+policeman,woman,1
+stowley,wargrove,1
+stowley,woman,1

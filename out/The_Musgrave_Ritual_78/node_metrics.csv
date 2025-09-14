@@ -1,0 +1,9 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Brooks,0,0.1499816882049685,0,2,8.0
+Brooks Page,0,0.1499816882049685,0,2,8.0
+Burnett,0,0.11308203558036825,0,3,5.0
+Ellis Gad,0,0.1323416617243705,0,4,5.0
+Kidman the Second,0,0.035622418421231705,0,1,1.0
+Richard Mckellen,0,0.09984236304133756,0,3,4.0
+Sir Ralph Page,0,0.2779002194552756,0,6,14.0
+Smith Redford,0,0.04124792536747929,0,1,1.0

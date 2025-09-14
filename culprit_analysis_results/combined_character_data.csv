@@ -1,0 +1,364 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength,role,story_title,story_index
+Dennis Luna,0,0.1111111111111111,0,1,1.0,Other,The Final Problem,1
+Firebolt,0,0.0970788493786667,1,2,2.0,Other,The Final Problem,1
+Flitwick,0,0.0575899617913175,0,1,1.0,Other,The Final Problem,1
+Howler,0,0.0970788493786667,1,2,2.0,Other,The Final Problem,1
+Lee,0,0.0575899617913175,0,1,1.0,Other,The Final Problem,1
+Mr. Snitch Tournament,1,0.1381900206326818,0,3,3.0,Other,The Final Problem,1
+Mrs. Diagon,0,0.1376668403311862,1,2,3.0,Other,The Final Problem,1
+Niffler,0,0.1111111111111111,0,1,1.0,Other,The Final Problem,1
+Professor Slytherin,0,0.1925832944739409,0,3,4.0,Culprit,The Final Problem,1
+Adler,0,0.0714285714285714,0,1,1.0,Other,The Adventure of the Blue Carbuncle,2
+Bean,0,0.0764241813095151,0,3,4.0,Other,The Adventure of the Blue Carbuncle,2
+Collette,0,0.0321385090302355,0,1,1.0,Other,The Adventure of the Blue Carbuncle,2
+D'arcy Blunt,0,0.1260282847201004,0,5,5.0,Other,The Adventure of the Blue Carbuncle,2
+Heard,0,0.1226472264432959,0,5,6.0,Other,The Adventure of the Blue Carbuncle,2
+Inspector Lamarr,0,0.0273335810291327,0,1,1.0,Other,The Adventure of the Blue Carbuncle,2
+Mckellen Winslet,0,0.0977610837767264,0,3,5.0,Other,The Adventure of the Blue Carbuncle,2
+Miss Davidson Astin,0,0.0714285714285714,0,1,1.0,Other,The Adventure of the Blue Carbuncle,2
+Mrs. Arquette Cooper,0,0.0321385090302355,0,1,1.0,Other,The Adventure of the Blue Carbuncle,2
+Mrs. Beckinsale,0,0.0645721492781999,0,2,2.0,Other,The Adventure of the Blue Carbuncle,2
+O'hara,0,0.0280894548396925,0,1,1.0,Other,The Adventure of the Blue Carbuncle,2
+Saldana Barrymore,0,0.1679042067426782,0,5,9.0,Culprit,The Adventure of the Blue Carbuncle,2
+Segel,0,0.0439471704171803,0,2,2.0,Other,The Adventure of the Blue Carbuncle,2
+Wright,0,0.038158500525864,0,1,1.0,Other,The Adventure of the Blue Carbuncle,2
+Annie,0,0.0948425470286972,0,4,10.0,Other,The Naval Treaty,3
+Briarbrae,0,0.1106840521763585,0,5,12.0,Other,The Naval Treaty,3
+Forbes,0,0.0530624099801056,0,3,4.0,Other,The Naval Treaty,3
+Miss Hudson,0,0.0449942846531708,0,1,4.0,Other,The Naval Treaty,3
+Mr. Annie Hudson,0,0.0948425470286972,0,4,10.0,Culprit,The Naval Treaty,3
+Mr. Briarbrae Harrison,0,0.1242771615589642,0,5,13.0,Other,The Naval Treaty,3
+Mr. Joseph Tut,0,0.181484959747639,0,8,18.0,Other,The Naval Treaty,3
+Mr. Watson,0,0.019284285449007,0,1,1.0,Victim,The Naval Treaty,3
+Mrs. Charles,0,0.0354073761700756,0,3,3.0,Other,The Naval Treaty,3
+Percy,0,0.0628051984190088,0,3,6.0,Victim,The Naval Treaty,3
+Tadpole,0,0.0301157804038373,0,2,2.0,Other,The Naval Treaty,3
+Tangey,0,0.0346774578154382,0,3,3.0,Other,The Naval Treaty,3
+ferrier,0,0.0631165025903845,0,2,6.0,Other,The Naval Treaty,3
+holmes,0,0.0504054369786155,0,2,4.0,Other,The Naval Treaty,3
+Bradstreet,0,0.0400320933907661,0,1,1.0,Other,The Adventure of the Blue Carbuncle,4
+Catherine,0,0.1766989633921614,0,4,6.0,Other,The Adventure of the Blue Carbuncle,4
+Catherine Jem,0,0.1146507177782862,0,2,4.0,Other,The Adventure of the Blue Carbuncle,4
+Cocksure,0,0.0534425952635309,0,1,1.0,Other,The Adventure of the Blue Carbuncle,4
+Inspector Sherlock,0,0.041300443109705,0,1,1.0,Other,The Adventure of the Blue Carbuncle,4
+John Cusack,0,0.12376921838286,0,2,4.0,Other,The Adventure of the Blue Carbuncle,4
+Mary Baker,0,0.1413018160672732,0,4,4.0,Other,The Adventure of the Blue Carbuncle,4
+Mrs. Oakshott Maggie,0,0.0450268358210166,0,1,1.0,Other,The Adventure of the Blue Carbuncle,4
+Mrs. Robinson,0,0.0904536788424386,0,2,2.0,Other,The Adventure of the Blue Carbuncle,4
+Windigate Ryder,0,0.1733236379519617,0,4,6.0,Culprit,The Adventure of the Blue Carbuncle,4
+Constable Stone,0,0.0189360644079903,0,1,2.0,Other,The Adventure of Wisteria Lodge,5
+David,0,0.051732877986317,0,3,4.0,Other,The Adventure of Wisteria Lodge,5
+Don,0,0.012326370040691,0,1,1.0,Other,The Adventure of Wisteria Lodge,5
+Doyle Signor,0,0.0373050495958819,0,2,3.0,Culprit,The Adventure of Wisteria Lodge,5
+Dr. Arthur,0,0.0477124184214731,3,4,6.0,Other,The Adventure of Wisteria Lodge,5
+Durando,0,0.0167628687774299,0,1,1.0,Other,The Adventure of Wisteria Lodge,5
+Esher Jove,0,0.1084311673032421,0,9,14.0,Other,The Adventure of Wisteria Lodge,5
+George,0,0.0269037428177558,0,2,2.0,Other,The Adventure of Wisteria Lodge,5
+Godspeed Inspector,0,0.01971549660562,1,2,2.0,Other,The Adventure of Wisteria Lodge,5
+Godspeed Murillo,0,0.0382069971935595,1,5,5.0,Other,The Adventure of Wisteria Lodge,5
+Henderson Signor,0,0.0715845854662715,0,4,6.0,Culprit,The Adventure of Wisteria Lodge,5
+Hudson Lee,0,0.0214830138799354,0,2,2.0,Other,The Adventure of Wisteria Lodge,5
+John,0,0.0127010435418616,0,1,1.0,Other,The Adventure of Wisteria Lodge,5
+John Carruthers Eckermann,0,0.0489306912625094,1,5,6.0,Other,The Adventure of Wisteria Lodge,5
+Juan,0,0.0264801061255743,0,2,2.0,Other,The Adventure of Wisteria Lodge,5
+Lopez,0,0.0548700856451851,0,6,6.0,Other,The Adventure of Wisteria Lodge,5
+Miss Lodge,0,0.0235531504085345,0,2,2.0,Other,The Adventure of Wisteria Lodge,5
+Mr. Harringby,0,0.0848564565772641,0,6,11.0,Other,The Adventure of Wisteria Lodge,5
+Scott Aloysius,0,0.0266832721426551,0,3,3.0,Other,The Adventure of Wisteria Lodge,5
+Sherlock,0,0.0437144506950587,4,3,6.0,Other,The Adventure of Wisteria Lodge,5
+Sherlock Garcia,1,0.0726226291905918,0,5,10.0,Victim,The Adventure of Wisteria Lodge,5
+Sir Lucas Dolores,0,0.0384615384615384,0,1,1.0,Other,The Adventure of Wisteria Lodge,5
+Sir Williams Eccles,0,0.0214830138799354,0,2,2.0,Other,The Adventure of Wisteria Lodge,5
+Wisteria,0,0.0235531504085345,0,2,2.0,Other,The Adventure of Wisteria Lodge,5
+marx,0,0.0125282207030499,0,1,1.0,Other,The Adventure of Wisteria Lodge,5
+warner,0,0.0384615384615384,0,1,1.0,Other,The Adventure of Wisteria Lodge,5
+Alastor,0,0.0161010255486076,0,4,21.0,Other,That Affair Next Door,6
+Albus Wands,0,0.1590432288820426,0,22,506.0,Other,That Affair Next Door,6
+Basilisk,0,0.0062960275469233,0,2,4.0,Other,That Affair Next Door,6
+Crumplehorn,0,0.0161506176712123,0,8,20.0,Other,That Affair Next Door,6
+Crumplehorn Dennis,0,0.0161506176712123,0,8,20.0,Other,That Affair Next Door,6
+Dennis Witchcraft,0,0.0139050757995583,0,9,18.0,Other,That Affair Next Door,6
+Fenrir,0,0.0140854748318762,0,6,18.0,Other,That Affair Next Door,6
+Fenrir Wands Veela,0,0.0066650722665736,0,3,11.0,Other,That Affair Next Door,6
+Find,0,0.0176369641147864,0,12,22.0,Other,That Affair Next Door,6
+Fire,0,0.0222222222222222,0,1,1.0,Other,That Affair Next Door,6
+Fleur,0,0.0053442263974245,0,3,3.0,Other,That Affair Next Door,6
+Hogwarts,0,0.0120327300356801,0,5,7.0,Other,That Affair Next Door,6
+Horace,0,0.0062557334025295,0,1,2.0,Other,That Affair Next Door,6
+Karkaroff Fawkes,0,0.0222222222222222,0,1,1.0,Other,That Affair Next Door,6
+Lily,0,0.0047209622224156,0,2,2.0,Other,That Affair Next Door,6
+Longbottom,0,0.0046962418413484,0,1,2.0,Other,That Affair Next Door,6
+Miss Acromantula,0,0.0130278570428194,0,9,14.0,Other,That Affair Next Door,6
+Miss Bludger,0,0.0042930564044217,0,1,1.0,Other,That Affair Next Door,6
+Miss Pansy,0,0.0217664424913148,0,15,29.0,Other,That Affair Next Door,6
+Miss Pomona,0,0.0042204095202661,0,1,1.0,Other,That Affair Next Door,6
+Miss Riddle Diagon,0,0.0090327871772575,0,7,8.0,Other,That Affair Next Door,6
+Miss Snape,0,0.0178907393404007,0,4,20.0,Other,That Affair Next Door,6
+Miss Snape Credence,0,0.0292763074497691,0,12,42.0,Other,That Affair Next Door,6
+Molly,0,0.0036733000918723,0,1,1.0,Other,That Affair Next Door,6
+Mr. Albus,0,0.0527115551855975,0,18,149.0,Other,That Affair Next Door,6
+Mr. Artifact,0,0.0041673582298446,0,1,1.0,Other,That Affair Next Door,6
+Mr. Colin,0,0.0222222222222222,0,1,1.0,Other,That Affair Next Door,6
+Mr. Narcissa,0,0.0074394634128649,0,5,7.0,Other,That Affair Next Door,6
+Mr. Sorting,0,0.0447958899409549,0,16,112.0,Other,That Affair Next Door,6
+Mr. Sorting Wands Veela,0,0.1515545364268229,0,21,484.0,Culprit,That Affair Next Door,6
+Mrs. Albus Wands Veela,0,0.0310104408837006,0,7,94.0,Other,That Affair Next Door,6
+Mrs. Crimes,0,0.0223838766266284,0,11,29.0,Other,That Affair Next Door,6
+Mrs. Voldemort Prince,0,0.0047157473112027,0,1,1.0,Other,That Affair Next Door,6
+Nimbus,0,0.0104363195525185,0,4,10.0,Other,That Affair Next Door,6
+Padma,0,0.0222222222222222,0,1,4.0,Other,That Affair Next Door,6
+Padma Dennis,0,0.0222222222222222,0,1,4.0,Other,That Affair Next Door,6
+Patronus,0,0.0222222222222222,0,1,1.0,Other,That Affair Next Door,6
+Phoenix Goblet,0,0.017637084470125,0,10,20.0,Other,That Affair Next Door,6
+Remus,0,0.0222222222222222,0,1,1.0,Other,That Affair Next Door,6
+Riddle,0,0.0211923188331944,0,7,61.0,Other,That Affair Next Door,6
+Riddle Wands Veela,0,0.020048365107871,0,6,59.0,Other,That Affair Next Door,6
+Rose,0,0.0127554527231505,0,8,13.0,Other,That Affair Next Door,6
+Vernon Flitwick,0,0.0222222222222222,0,1,1.0,Other,That Affair Next Door,6
+Wands Deathly,0,0.0093507223608162,0,3,22.0,Other,That Affair Next Door,6
+Weasley's,0,0.0097581934066158,0,6,6.0,Other,That Affair Next Door,6
+Aberforth Jacob,0,0.0412796697626418,0,1,1.0,Other,The Adventure of the Red Circle,7
+Alley,0,0.0763673890608875,1,2,2.0,Other,The Adventure of the Red Circle,7
+Bones,0,0.0588235294117647,0,1,1.0,Other,The Adventure of the Red Circle,7
+Broomstick,0,0.0318135414026281,0,1,1.0,Other,The Adventure of the Red Circle,7
+Buckbeak,0,0.0588235294117647,0,1,1.0,Other,The Adventure of the Red Circle,7
+Centaur,0,0.0588235294117647,0,1,1.0,Other,The Adventure of the Red Circle,7
+Diagon,0,0.0412796697626418,1,1,1.0,Other,The Adventure of the Red Circle,7
+Dobby,0,0.0588235294117647,0,1,1.0,Other,The Adventure of the Red Circle,7
+Dr. Where,0,0.0811450785664004,0,3,3.0,Other,The Adventure of the Red Circle,7
+Dungbomb Katie,0,0.0858129315826719,0,2,4.0,Other,The Adventure of the Red Circle,7
+Hermione Arthur,1,0.0763673890608875,0,2,2.0,Other,The Adventure of the Red Circle,7
+Mr. Animagus,0,0.0635325541044948,0,1,3.0,Other,The Adventure of the Red Circle,7
+Neville,0,0.0588235294117647,0,1,1.0,Other,The Adventure of the Red Circle,7
+Prince Alastor,0,0.0588235294117647,0,1,2.0,Other,The Adventure of the Red Circle,7
+Seeker,0,0.0318135414026281,0,1,1.0,Other,The Adventure of the Red Circle,7
+Sorting,0,0.0588235294117647,0,1,1.0,Other,The Adventure of the Red Circle,7
+Triwizard,0,0.0588235294117647,0,1,2.0,Other,The Adventure of the Red Circle,7
+Ashley,0,0.0454545454545454,0,1,1.0,Other,The Adventure of the Empty House,8
+Christenson,0,0.0232131769968065,0,2,2.0,Other,The Adventure of the Empty House,8
+Criss,0,0.0454545454545454,0,2,2.0,Other,The Adventure of the Empty House,8
+D'Arcy,0,0.0454545454545454,0,1,1.0,Other,The Adventure of the Empty House,8
+Depp Tatum,0,0.0205367438309585,0,1,1.0,Other,The Adventure of the Empty House,8
+Diaz,0,0.0454545454545454,0,2,2.0,Other,The Adventure of the Empty House,8
+Eisenberg,0,0.0473925709016024,0,3,3.0,Other,The Adventure of the Empty House,8
+Ferrell,0,0.0844982376903262,4,6,11.0,Culprit,The Adventure of the Empty House,8
+Firth,0,0.0447133478091529,0,2,2.0,Other,The Adventure of the Empty House,8
+Firth Collette,0,0.0447133478091529,0,2,2.0,Other,The Adventure of the Empty House,8
+Fox,0,0.0257092849387202,0,1,1.0,Other,The Adventure of the Empty House,8
+Hart,0,0.0473925709016024,0,3,3.0,Other,The Adventure of the Empty House,8
+Jagger,0,0.0179590621537887,1,2,2.0,Other,The Adventure of the Empty House,8
+Mr. Morgan Collette,0,0.0666822012611556,0,3,3.0,Other,The Adventure of the Empty House,8
+Mullen,0,0.0454545454545454,0,2,2.0,Other,The Adventure of the Empty House,8
+Pitt Reynolds,0,0.0232131769968065,0,2,2.0,Other,The Adventure of the Empty House,8
+Plummer,0,0.0473925709016024,0,3,3.0,Other,The Adventure of the Empty House,8
+Professor Gyllenhaal,0,0.0645582707369613,0,4,4.0,Other,The Adventure of the Empty House,8
+Sir Pugh Bean,0,0.0133475431256104,0,1,1.0,Other,The Adventure of the Empty House,8
+Winfrey,0,0.0786564497248612,8,4,12.0,Other,The Adventure of the Empty House,8
+Winfrey Charles,1,0.0917309321795176,0,4,14.0,Other,The Adventure of the Empty House,8
+Zhang,0,0.031017784768646,1,3,4.0,Culprit,The Adventure of the Empty House,8
+Aadil,0,0.0033761672008656,0,2,2.0,Other,Unnatural Death,18
+Abhay,0,0.0018530356310463,0,2,2.0,Other,Unnatural Death,18
+Abhishek,0,0.0066225165562913,0,2,2.0,Other,Unnatural Death,18
+Aditi Anushka,0,0.0029452555672375,0,4,4.0,Other,Unnatural Death,18
+Aditya,0,0.0076390272535607,0,12,20.0,Other,Unnatural Death,18
+Aditya Salman,0,0.0041352022533118,0,5,11.0,Other,Unnatural Death,18
+Aditya Sameer,0,0.0013180245401448,0,1,1.0,Other,Unnatural Death,18
+Alok,0,0.0066225165562913,0,1,2.0,Other,Unnatural Death,18
+Anaya,0,0.0032439864963491,0,2,4.0,Other,Unnatural Death,18
+Anil,0,0.0012315798508826,0,1,1.0,Other,Unnatural Death,18
+Anjali,0,0.0023872861580092,0,2,2.0,Other,Unnatural Death,18
+Arvind Siddharth,0,0.0147315673433564,3,20,55.0,Other,Unnatural Death,18
+Ayush,0,0.0120561899096564,0,12,33.0,Other,Unnatural Death,18
+Ayush Mithun,0,0.0085309093701801,0,5,25.0,Other,Unnatural Death,18
+Ayush Rani,0,0.0013039681277239,0,1,1.0,Other,Unnatural Death,18
+Bhavesh,0,0.0066225165562913,0,2,2.0,Other,Unnatural Death,18
+Chaitanya,0,0.0012786283865686,0,1,1.0,Other,Unnatural Death,18
+Chandan,0,0.0022622195586361,0,2,2.0,Other,Unnatural Death,18
+Charu,0,0.0077313151085863,0,9,20.0,Other,Unnatural Death,18
+Darshan Mithun,0,0.0399291926756173,2,35,119.0,Other,Unnatural Death,18
+Darshan Naman,0,0.0021957694268655,0,3,5.0,Other,Unnatural Death,18
+Dharmendra,0,0.0022806482676306,0,2,2.0,Other,Unnatural Death,18
+Disha,0,0.0077483256190353,0,11,17.0,Other,Unnatural Death,18
+Dr. Lakshmi Pavan,0,0.002327401815967,1,6,6.0,Other,Unnatural Death,18
+Ekta,0,0.0066225165562913,0,1,1.0,Other,Unnatural Death,18
+Esha,0,0.0037356533038842,0,2,2.0,Other,Unnatural Death,18
+Esha Muskaan,0,0.0025816918050535,0,1,1.0,Other,Unnatural Death,18
+Farhan Amrita,0,0.0015525880206225,0,2,2.0,Other,Unnatural Death,18
+Gaurav,0,0.002710477686746,0,4,4.0,Other,Unnatural Death,18
+Gauri,0,0.0408949504168387,11,22,191.0,Culprit,Unnatural Death,18
+Gopika Anirudh,0,0.0021946495550252,0,3,3.0,Other,Unnatural Death,18
+Hema,0,0.0066225165562913,0,1,1.0,Other,Unnatural Death,18
+Hina Akshaye,0,0.0013006942865198,0,1,1.0,Other,Unnatural Death,18
+Jagdeep,0,0.0066225165562913,0,2,2.0,Other,Unnatural Death,18
+Janhvi,0,0.0050912703335606,1,7,10.0,Other,Unnatural Death,18
+Janhvi Irrfan,0,0.0055250541548195,1,7,11.0,Other,Unnatural Death,18
+Juhi,0,0.0021464867350822,0,3,3.0,Other,Unnatural Death,18
+Kajol,0,0.0013113043769737,0,1,1.0,Other,Unnatural Death,18
+Karan,0,0.0013113043769737,0,1,1.0,Other,Unnatural Death,18
+Karisma,0,0.0061037799493843,0,6,11.0,Other,Unnatural Death,18
+Keshav,0,0.0020530606252717,0,5,5.0,Other,Unnatural Death,18
+Kiara,0,0.0066225165562913,0,1,1.0,Other,Unnatural Death,18
+Kiran,0,0.002785330700521,0,2,4.0,Other,Unnatural Death,18
+Kuldeep,0,0.0066225165562913,0,2,2.0,Other,Unnatural Death,18
+Lakshya,0,0.0022622195586361,0,2,2.0,Other,Unnatural Death,18
+Leena,0,0.001190137708101,0,1,1.0,Other,Unnatural Death,18
+Madhavan,0,0.0033487970791791,0,4,4.0,Other,Unnatural Death,18
+Madhavan Monali,0,0.0017050410558624,0,1,1.0,Other,Unnatural Death,18
+Manan,0,0.0032217387661426,0,4,4.0,Other,Unnatural Death,18
+Manju,0,0.0018998632677705,0,3,3.0,Other,Unnatural Death,18
+Mansi,0,0.0013006942865198,0,1,1.0,Other,Unnatural Death,18
+Mayank,0,0.0032957605062966,0,7,11.0,Other,Unnatural Death,18
+Medha,0,0.0066225165562913,0,1,1.0,Other,Unnatural Death,18
+Meenal Tanushree,0,0.0029452555672375,0,4,4.0,Other,Unnatural Death,18
+Meher,0,0.003747156616521,0,2,5.0,Other,Unnatural Death,18
+Miss Akanksha,0,0.024117795937948,3,25,73.0,Other,Unnatural Death,18
+Miss Arvind,0,0.0178845658727374,4,25,63.0,Other,Unnatural Death,18
+Miss Ashok,0,0.0071214536783088,6,14,26.0,Other,Unnatural Death,18
+Miss Ashok Salman,1,0.0491932441130556,0,30,217.0,Other,Unnatural Death,18
+Miss Chandni,0,0.0100896712909952,4,13,36.0,Victim,Unnatural Death,18
+Miss Chandni Naman,0,0.071537685673962,25,45,309.0,Culprit,Unnatural Death,18
+Miss Gauri Naman,0,0.034646836139949,7,18,167.0,Other,Unnatural Death,18
+Miss Harsh,0,0.0132972949984732,0,12,54.0,Other,Unnatural Death,18
+Miss Harsh Akshay,0,0.0168335962959353,0,15,69.0,Other,Unnatural Death,18
+Miss Jaya,0,0.0046544826749076,2,7,13.0,Other,Unnatural Death,18
+Miss Rahul,0,0.0075684208092082,1,11,26.0,Other,Unnatural Death,18
+Miss Ronak,0,0.0013039681277239,0,1,1.0,Other,Unnatural Death,18
+Miss Vinita,0,0.0051269727916317,2,6,10.0,Other,Unnatural Death,18
+Miss Yami,0,0.0047051286856976,0,7,10.0,Other,Unnatural Death,18
+Mohanlal,0,0.0013117607365615,0,1,1.0,Other,Unnatural Death,18
+Mr. Alia,0,0.0018492947332448,0,2,3.0,Other,Unnatural Death,18
+Mr. Divya,0,0.0013113043769737,0,1,1.0,Other,Unnatural Death,18
+Mr. Kareena,0,0.0013909969691574,1,2,2.0,Other,Unnatural Death,18
+Mr. Kiran Swara,0,0.0035446122470374,0,4,6.0,Other,Unnatural Death,18
+Mr. Kriti,0,0.0023419481604842,1,6,6.0,Other,Unnatural Death,18
+Mr. Neerja,0,0.0050640347275984,1,8,12.0,Other,Unnatural Death,18
+Mr. Pallavi Naman,0,0.002820450587642,0,3,7.0,Other,Unnatural Death,18
+Mr. Ramya,0,0.0040782842242959,2,7,10.0,Other,Unnatural Death,18
+Mr. Simran,0,0.0070242373146965,2,14,23.0,Other,Unnatural Death,18
+Mr. Vicky,0,0.0019043284427627,0,3,3.0,Other,Unnatural Death,18
+Mr. Vipin,0,0.0066348234516599,0,10,12.0,Other,Unnatural Death,18
+Mrs. Asha,0,0.0056536532715781,0,12,16.0,Culprit,Unnatural Death,18
+Mrs. Bipasha,0,0.0022807942162276,0,3,5.0,Other,Unnatural Death,18
+Mrs. Chiranjeevi Ruchi,0,0.0031951948465109,2,5,10.0,Other,Unnatural Death,18
+Mrs. Kalyani,0,0.0029872715542779,0,4,8.0,Other,Unnatural Death,18
+Mrs. Mrunal,0,0.0025165822439778,0,3,4.0,Other,Unnatural Death,18
+Mrs. Shalu,0,0.0015836581574155,0,1,3.0,Other,Unnatural Death,18
+Mukesh,0,0.0016799034518018,0,2,2.0,Other,Unnatural Death,18
+Neeraj,0,0.0066225165562913,0,2,2.0,Other,Unnatural Death,18
+Neerja Tanushree,0,0.0035991742209403,0,4,7.0,Other,Unnatural Death,18
+Neha,0,0.0024283841292816,0,1,1.0,Other,Unnatural Death,18
+Niharika,0,0.0012930581475292,0,1,1.0,Other,Unnatural Death,18
+Nithya Ruchika,0,0.0373983358437317,5,43,100.0,Other,Unnatural Death,18
+Om,0,0.0019204784667992,0,1,1.0,Other,Unnatural Death,18
+Pallavi,0,0.0058744769891475,0,6,15.0,Other,Unnatural Death,18
+Parineeti,0,0.0015638792896936,0,1,2.0,Other,Unnatural Death,18
+Parth,0,0.0020839839547091,0,2,2.0,Other,Unnatural Death,18
+Parth Salman,0,0.0020839839547091,0,2,2.0,Other,Unnatural Death,18
+Pranav,0,0.0016780512178537,0,1,1.0,Other,Unnatural Death,18
+Pritam,0,0.0021071174188224,0,3,3.0,Other,Unnatural Death,18
+Prithvi,0,0.0015399905078328,0,1,1.0,Other,Unnatural Death,18
+Pushkar,0,0.006742272247969,0,14,18.0,Other,Unnatural Death,18
+Raghav,0,0.0012976369719248,0,1,1.0,Other,Unnatural Death,18
+Rahul Nandita,0,0.0046388178540661,0,8,13.0,Other,Unnatural Death,18
+Rahul Siddharth,0,0.0057172882360224,1,9,19.0,Other,Unnatural Death,18
+Rajeev,0,0.0024495037467496,0,5,5.0,Other,Unnatural Death,18
+Rajkummar,0,0.0013808018514781,0,1,1.0,Other,Unnatural Death,18
+Rakul,0,0.0015594530116126,0,2,2.0,Other,Unnatural Death,18
+Ramesh,0,0.0023096238867211,0,4,4.0,Other,Unnatural Death,18
+Ranjan Aishwarya,0,0.0013808018514781,0,1,1.0,Other,Unnatural Death,18
+Ranjit,0,0.0023096238867211,0,4,4.0,Other,Unnatural Death,18
+Reema,0,0.0016910149692167,0,3,3.0,Other,Unnatural Death,18
+Rev. Darshan,0,0.0167793750839201,2,16,50.0,Other,Unnatural Death,18
+Rev. Sameera,0,0.0130452956194124,1,20,37.0,Other,Unnatural Death,18
+Rev. Sameera Salman,0,0.0619773916776253,117,42,257.0,Other,Unnatural Death,18
+Richa,0,0.0066225165562913,0,1,1.0,Other,Unnatural Death,18
+Roshan,0,0.0019333422317934,0,1,2.0,Other,Unnatural Death,18
+Ruchika Saira,0,0.0444640234152794,1,47,123.0,Other,Unnatural Death,18
+Sahil,0,0.0016072574060402,0,2,2.0,Other,Unnatural Death,18
+Sania,0,0.0032439864963491,0,2,4.0,Other,Unnatural Death,18
+Sanjay,0,0.0083556334541966,0,7,13.0,Other,Unnatural Death,18
+Sarika,0,0.0066225165562913,0,1,1.0,Other,Unnatural Death,18
+Shailesh Rekha,0,0.0012742021084876,0,1,1.0,Other,Unnatural Death,18
+Shikha,0,0.003747156616521,0,2,5.0,Other,Unnatural Death,18
+Shriman,0,0.0015550267335315,0,1,2.0,Other,Unnatural Death,18
+Shubham,0,0.0066225165562913,0,2,2.0,Other,Unnatural Death,18
+Sidharth,0,0.012793308390417,5,9,53.0,Other,Unnatural Death,18
+Sidharth Shakuntala,0,0.0056096462631755,2,6,22.0,Other,Unnatural Death,18
+Sidharth Sneha,0,0.00694396211413,1,7,27.0,Other,Unnatural Death,18
+Sir Darshan,0,0.0088246336747097,0,5,27.0,Other,Unnatural Death,18
+Sir Darshan Manisha,0,0.0057432847792755,0,5,17.0,Other,Unnatural Death,18
+Sir Hrithik,0,0.0027768678403721,0,3,4.0,Other,Unnatural Death,18
+Sir Hrithik Prateek,0,0.0027768678403721,0,3,4.0,Other,Unnatural Death,18
+Sir Pallavi Aparna,0,0.0023098944397612,0,2,4.0,Other,Unnatural Death,18
+Sir Saif,0,0.0035302204641609,0,2,4.0,Other,Unnatural Death,18
+Sir Saif Ranveer,0,0.0035302204641609,0,2,4.0,Other,Unnatural Death,18
+Sonakshi,0,0.001604850774814,0,2,3.0,Other,Unnatural Death,18
+Soumya,0,0.0017199800490475,0,2,2.0,Other,Unnatural Death,18
+Taapsee,0,0.0089212137737442,0,14,20.0,Other,Unnatural Death,18
+Tanisha,0,0.0012742021084876,0,1,1.0,Other,Unnatural Death,18
+Tanvi,0,0.0012786283865686,0,1,1.0,Other,Unnatural Death,18
+Tarun,0,0.0012742021084876,0,1,1.0,Other,Unnatural Death,18
+Tia,0,0.0022268375704351,0,3,4.0,Other,Unnatural Death,18
+Udita,0,0.0016673973731767,0,2,2.0,Other,Unnatural Death,18
+Vidya,0,0.0023872861580092,0,2,2.0,Other,Unnatural Death,18
+Vipin Pooja,0,0.0025999444287667,0,3,3.0,Other,Unnatural Death,18
+Virat,0,0.0032721890450498,0,3,3.0,Other,Unnatural Death,18
+Yami Pooja,0,0.0025999444287667,0,3,3.0,Other,Unnatural Death,18
+Yash,0,0.0022806482676306,0,2,2.0,Other,Unnatural Death,18
+Zara,0,0.0066225165562913,0,1,2.0,Other,Unnatural Death,18
+Zeeshan,0,0.0023331818650164,0,4,5.0,Other,Unnatural Death,18
+Abhay Shalu,0,0.0714285714285714,0,1,3.0,Other,The Adventure of the Red Circle,53
+Aishwarya,0,0.1047816763243722,0,3,3.0,Other,The Adventure of the Red Circle,53
+Anaya,0,0.0550177491685617,0,1,1.0,Other,The Adventure of the Red Circle,53
+Irrfan,0,0.0702650910252158,0,2,2.0,Other,The Adventure of the Red Circle,53
+Kiara,0,0.0404024273394817,0,1,1.0,Other,The Adventure of the Red Circle,53
+Mr. Sahil,0,0.0714285714285714,0,1,3.0,Other,The Adventure of the Red Circle,53
+Payal Pushkar,0,0.1042502159485908,0,2,2.0,Other,The Adventure of the Red Circle,53
+Priyadarshan Imran,0,0.1037612233788411,0,3,5.0,Other,The Adventure of the Red Circle,53
+Rajesh,0,0.0640221146710291,0,2,3.0,Other,The Adventure of the Red Circle,53
+Sharman,0,0.0730931058886092,0,3,3.0,Other,The Adventure of the Red Circle,53
+Sharman Bipasha,0,0.0314239990493895,0,1,1.0,Culprit,The Adventure of the Red Circle,53
+black,0,0.0550177491685617,0,1,1.0,Other,The Adventure of the Red Circle,53
+pericolo,0,0.0702650910252158,0,2,2.0,Other,The Adventure of the Red Circle,53
+signor,0,0.084842414154988,0,3,4.0,Other,The Adventure of the Red Circle,53
+Dr. Verner,0,0.0530308669021154,0,2,2.0,Other,The Adventure of the Norwood Builder,66
+Hyams,0,0.1627046744205443,0,3,13.0,Other,The Adventure of the Norwood Builder,66
+Jonas,0,0.0382997575471163,0,1,2.0,Other,The Adventure of the Norwood Builder,66
+Mr. Cornelius Sherlock,0,0.1099170534094197,0,2,5.0,Culprit,The Adventure of the Norwood Builder,66
+Mr. Hyams Lexington,0,0.292687202517165,0,5,23.0,Other,The Adventure of the Norwood Builder,66
+Mr. Moriarty,0,0.1247852118251132,0,3,6.0,Other,The Adventure of the Norwood Builder,66
+Murillo,0,0.0274832121068915,0,1,1.0,Other,The Adventure of the Norwood Builder,66
+Oldacre,0,0.1529704020217457,0,3,12.0,Other,The Adventure of the Norwood Builder,66
+Professor Stevens,0,0.0381216192498882,0,2,2.0,Other,The Adventure of the Norwood Builder,66
+Chaitanya,0,0.0666666666666666,0,1,1.0,Other,Silver Blaze,76
+Disha,0,0.0426919700508063,0,2,2.0,Other,Silver Blaze,76
+Dr. Chandan,0,0.035372946340417,0,1,2.0,Other,Silver Blaze,76
+Inspector Pallavi,0,0.0679006080975311,0,2,5.0,Other,Silver Blaze,76
+Kajol Santhosh,0,0.1562116080959253,0,5,14.0,Culprit,Silver Blaze,76
+Krish Kiran,0,0.0767540481667904,0,2,7.0,Other,Silver Blaze,76
+Kriti,0,0.0637812604461763,0,3,5.0,Other,Silver Blaze,76
+Lavanya,0,0.0293333486666405,0,1,2.0,Other,Silver Blaze,76
+Leena,0,0.0218512801341558,0,1,1.0,Other,Silver Blaze,76
+Mr. Chaitanya Ronit,0,0.0666666666666666,0,1,1.0,Other,Silver Blaze,76
+Mr. Prerna,0,0.0895540853484702,0,4,6.0,Other,Silver Blaze,76
+Mr. Sanjeev Shubham,0,0.0684589450313825,0,4,4.0,Other,Silver Blaze,76
+Roshan,0,0.0426919700508063,0,2,2.0,Other,Silver Blaze,76
+Sunny Kuldeep,0,0.1023523954417179,0,4,9.0,Other,Silver Blaze,76
+Vicky Pranav,0,0.0697122007958463,0,3,5.0,Other,Silver Blaze,76
+Henry,0,0.0588235294117647,0,1,1.0,Victim,The Crooked Man,89
+Jackson Barclay,0,0.0178428242030026,0,1,1.0,Victim,The Crooked Man,89
+James,0,0.0588235294117647,0,1,1.0,Other,The Crooked Man,89
+Jane,0,0.0588235294117647,0,1,1.0,Other,The Crooked Man,89
+Miss Harry,0,0.0268621189942405,0,1,2.0,Other,The Crooked Man,89
+Miss Simpson Bathsheba,0,0.0457576831905825,0,2,4.0,Other,The Crooked Man,89
+Murphy,0,0.0588235294117647,0,1,1.0,Other,The Crooked Man,89
+Nancy,0,0.0588235294117647,0,1,1.0,Other,The Crooked Man,89
+Neill Bhurtee,0,0.0291680397834229,0,2,2.0,Other,The Crooked Man,89
+Samuel David,0,0.0285960210665826,0,2,2.0,Other,The Crooked Man,89
+Sherlock,0,0.0707274165774264,0,4,6.0,Other,The Crooked Man,89
+Sherlock David,0,0.0728805455980515,0,4,6.0,Other,The Crooked Man,89
+Simpson,0,0.0778063771498456,0,4,7.0,Other,The Crooked Man,89
+Teddy,0,0.0455643724657879,0,3,4.0,Other,The Crooked Man,89
+Watson,0,0.0833047680655085,0,3,8.0,Other,The Crooked Man,89
+Watson Morrison,0,0.14854865643496,0,6,14.0,Culprit,The Crooked Man,89
+devoy,0,0.0588235294117647,0,1,1.0,Other,The Crooked Man,89

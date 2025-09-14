@@ -1,0 +1,22 @@
+character1,character2,count
+Miss Bellatrix Hogwarts,Mr. Tina Hogwarts,25
+Miss Bellatrix Hogwarts,Tina,25
+Mr. Tina Hogwarts,Tina,25
+Bellatrix,Miss Bellatrix Hogwarts,4
+Cissa,Find,2
+Bellatrix,Cissa,1
+Bellatrix,Find,1
+Bellatrix,Mr. Tina Hogwarts,1
+Bellatrix,Tina,1
+Find,Ginny Philosopher,1
+Find,Miss Bellatrix Hogwarts,1
+Find,Mr. Tina Hogwarts,1
+Find,Tina,1
+Find,Wizardry,1
+Ginny Philosopher,Mandrake Wands,1
+Ginny Philosopher,Miss Bellatrix Hogwarts,1
+Ginny Philosopher,Mr. Tina Hogwarts,1
+Ginny Philosopher,Mr. Tonks,1
+Ginny Philosopher,Philosopher I,1
+Ginny Philosopher,Tina,1
+Mandrake Wands,Philosopher I,1

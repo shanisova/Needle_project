@@ -1,0 +1,201 @@
+character1,character2,count
+Lady Amol,Sir Aparna Amol,38
+Sir Aparna,Sir Aparna Amol,25
+Sir Swara,Sir Swara Dharmendra,24
+Hrithik,Hrithik Krish,17
+Hrithik,Ramya Kritika,15
+Shubham,Shubham Aamir,12
+Sir Aparna Amol,Sir Swara Dharmendra,12
+Detective Leena,Hrithik,11
+Hrithik,Mr. Chiranjeevi,9
+Hrithik,Sir Aparna Amol,9
+Detective Leena,Inspector Abhay,8
+Hrithik,Inspector Abhay,8
+Sakshi Vikrant,Suman Riya,7
+Detective Leena,Sir Aparna Amol,6
+Hrithik,Kuldeep,6
+Prateek Riddhi,Sir Swara Dharmendra,6
+Detective Leena,Ramya Kritika,5
+Inspector Abhay,Lady Amol,5
+Inspector Abhay,Sakshi Vikrant,5
+Inspector Abhay,Sir Aparna Amol,5
+Sakshi Vikrant,Shubham Aamir,5
+Detective Leena,Hrithik Krish,4
+Hrithik,Lady Amol,4
+Hrithik,Mr. Sharman,4
+Hrithik,Sakshi Vikrant,4
+Hrithik,Sania,4
+Hrithik,Sir Aparna,4
+Lady Amol,Sir Aparna,4
+Mr. Chiranjeevi,Sir Aparna Amol,4
+Sakshi Vikrant,Shubham,4
+Sir Aparna,Sir Swara,4
+Detective Leena,Sir Swara Dharmendra,3
+Hrithik,Sir Swara,3
+Hrithik Krish,Sir Aparna Amol,3
+Mr. Monali,Mr. Sharman,3
+Ramya Kritika,Vidya,3
+Sakshi,Sakshi Vikrant,3
+Sakshi Vikrant,Sir Aparna,3
+Sakshi Vikrant,Sir Aparna Amol,3
+Sir Aparna Amol,Sir Swara,3
+Aditi Mohanlal,Inspector Abhay,2
+Alok,Hrithik,2
+Ayush,Hrithik,2
+Ayush,Mr. Chiranjeevi,2
+Ayush,Sania,2
+Bandita,Bandita Komal,2
+Darshan Gaurav,Shubham Aamir,2
+Detective Leena,Lady Amol,2
+Detective Leena,Mr. Sharman,2
+Detective Leena,Sir Aparna,2
+Detective Leena,Sir Swara,2
+Esha,Hrithik,2
+Esha,Hrithik Krish,2
+Harsh,Hrithik,2
+Hrithik,Kiara,2
+Hrithik,Mithun,2
+Hrithik,Sir Swara Dharmendra,2
+Hrithik,Tejasswi,2
+Hrithik,Tia,2
+Hrithik,Vidya,2
+Hrithik,Vishal,2
+Hrithik,Yash,2
+Hrithik Krish,Prateek Riddhi,2
+Hrithik Krish,Sir Swara Dharmendra,2
+Inspector Abhay,Sir Aparna,2
+Inspector Abhay,Sir Swara,2
+Kajol,Sir Aparna Amol,2
+Kiara,Pooja,2
+Kuldeep,Sir Aparna Amol,2
+Lavanya,Lavanya Hema,2
+Meher Genelia,Sir Swara Dharmendra,2
+Mithun,Sania,2
+Mr. Chiranjeevi,Sania,2
+Mr. Sharman,Sakshi Vikrant,2
+Sir Swara,Suman Riya,2
+Sir Swara Dharmendra,Suman Riya,2
+Aadil,Hrithik,1
+Aadil,Hrithik Krish,1
+Abhishek,Hrithik,1
+Aditi Mohanlal,Detective Leena,1
+Aditi Mohanlal,Sakshi Vikrant,1
+Akshay Sarika,Prateek Katrina,1
+Akshay Sarika,Sir Aparna,1
+Akshay Sarika,Sir Aparna Amol,1
+Amitabh,Inspector Abhay,1
+Amrita,Bandita Komal,1
+Amrita,Ramya Kritika,1
+Amrita,Sir Aparna,1
+Anaya,Lakshmi Shakuntala,1
+Anjali,Shalu,1
+Arjun,Vishal,1
+Arvind Medha,Javed,1
+Ashok,Inspector Abhay,1
+Bandita Komal,Ramya Kritika,1
+Bandita Komal,Sir Aparna,1
+Chaitanya Gauri,Hrithik,1
+Chaitanya Gauri,Ramya Kritika,1
+Darshan,Darshan Gaurav,1
+Darshan Gaurav,Sakshi Vikrant,1
+Darshan Gaurav,Shubham,1
+Detective Leena,Kajol,1
+Detective Leena,Kuldeep,1
+Detective Leena,Meher Akanksha,1
+Detective Leena,Mr. Monali,1
+Detective Leena,Mr. Nidhi,1
+Detective Leena,Om Ekta,1
+Detective Leena,Shahid,1
+Detective Leena,Suman Riya,1
+Detective Leena,Tanmay Alia,1
+Detective Leena,Tia,1
+Dr. Prithvi,Hrithik,1
+Dr. Prithvi,Hrithik Krish,1
+Dr. Prithvi,Lady Amol,1
+Dr. Prithvi,Sir Aparna Amol,1
+Dr. Prithvi,Sir Swara Dharmendra,1
+Harsh,Ramya Kritika,1
+Harsh,Rekha Tushar,1
+Harsh,Santhosh,1
+Hrithik,Lady Ronak,1
+Hrithik,Lakshmi Shakuntala,1
+Hrithik,Lavanya,1
+Hrithik,Lavanya Hema,1
+Hrithik,Mr. Disha,1
+Hrithik,Mr. Keshav,1
+Hrithik,Mr. Monali,1
+Hrithik,Mr. Nidhi,1
+Hrithik,Pooja,1
+Hrithik,Taapsee,1
+Hrithik,Udita,1
+Hrithik Krish,Inspector Abhay,1
+Hrithik Krish,Kuldeep,1
+Hrithik Krish,Lady Amol,1
+Hrithik Krish,Lavanya,1
+Hrithik Krish,Mr. Chiranjeevi,1
+Hrithik Krish,Mr. Monali,1
+Hrithik Krish,Mr. Nidhi,1
+Hrithik Krish,Mr. Sharman,1
+Hrithik Krish,Ramya Kritika,1
+Hrithik Krish,Sakshi Vikrant,1
+Hrithik Krish,Taapsee,1
+Hrithik Krish,Udita,1
+Inspector Abhay,Payal,1
+Inspector Abhay,Suman Riya,1
+Inspector Abhay,Taapsee,1
+Inspector Abhay,Tia,1
+Jagdeep,Rani Ranbir,1
+Jaya,Mr. Chiranjeevi,1
+Juhi,Tabu Rajat,1
+Kajol,Lady Amol,1
+Kajol,Sir Swara Dharmendra,1
+Kiran,Ruchika,1
+Kuldeep,Lady Ronak,1
+Kuldeep,Mr. Chiranjeevi,1
+Kuldeep,Sakshi Vikrant,1
+Kuldeep,Yashwant,1
+Lady Amol,Sir Swara,1
+Lavanya,Ramya Kritika,1
+Lavanya Hema,Manisha,1
+Lavanya Hema,Ramya Kritika,1
+Meenal,Neeraj,1
+Meher Genelia,Sir Swara,1
+Meher Genelia,Suman Riya,1
+Mithun,Sir Aparna Amol,1
+Mr. Chiranjeevi,Mr. Disha,1
+Mr. Chiranjeevi,Mr. Sharman,1
+Mr. Chiranjeevi,Ramya Kritika,1
+Mr. Chiranjeevi,Sakshi Vikrant,1
+Mr. Chiranjeevi,Sir Swara Dharmendra,1
+Mr. Chiranjeevi,Vidya,1
+Mr. Monali,Sakshi Vikrant,1
+Mr. Monali,Udita,1
+Mr. Sharman,Professor Mahesh,1
+Mr. Sharman,Sir Swara Dharmendra,1
+Mrs. Ronit,Vinita,1
+Om Ekta,Professor Surbhi,1
+Parth,Sir Swara Dharmendra,1
+Prateek Katrina,Sir Aparna,1
+Prateek Katrina,Sir Aparna Amol,1
+Prateek Riddhi,Sir Aparna Amol,1
+Prateek Riddhi,Sir Swara,1
+Ramesh,Zara,1
+Ramya Kritika,Sergeant Kritika,1
+Ramya Kritika,Sir Aparna,1
+Saket,Siddharth,1
+Saket,Tanushree,1
+Sakshi,Shubham,1
+Sakshi,Shubham Aamir,1
+Sakshi Vikrant,Sir Swara Dharmendra,1
+Sakshi Vikrant,Sonakshi,1
+Sakshi Vikrant,Vishal,1
+Sania,Sir Aparna Amol,1
+Shruti,Vicky,1
+Shubham,Suman Riya,1
+Shubham Aamir,Suman Riya,1
+Siddharth,Tanushree,1
+Sir Aparna,Soumya,1
+Sir Aparna,Vishal,1
+Sir Aparna Amol,Sir Rajeev Ritesh,1
+Sir Aparna Amol,Vishal,1
+Taapsee,Vishal,1

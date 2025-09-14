@@ -1,0 +1,555 @@
+character1,character2,count
+Miss Lydia Brigette,Moses,28
+Miss Lydia Brigette,Moses Brigette,28
+Moses,Moses Brigette,28
+Mother (of Jake),Mr. Gerald,25
+Lady Mudstains,Lady Mudstains Gargoyles,24
+lochinvar,tom,24
+Sir Farmer,Sir Farmer Arbuthnot,20
+Lady Mudstains,Mother (of Jake),17
+Bach Ii,Miss Lydia Brigette,15
+Lady Mudstains Gargoyles,Mother (of Jake),15
+Bach Ii,ii,14
+Detective Inspector Marchbanks,Lady Mudstains,14
+Detective Inspector Marchbanks,Lady Mudstains Gargoyles,14
+Jake Gargoyles,Lady Mudstains Gargoyles,14
+Jake Gargoyles,Mother (of Jake),14
+Inquest,Miss Lydia Brigette,12
+Lady Mudstains,Miss Lydia Brigette,12
+Bach Brigette,Bach Ii,11
+Bach Brigette,Miss Lydia Brigette,11
+Detective Inspector Marchbanks,Mother (of Jake),11
+Sir Conchy,Sir Conchy Of,10
+Lady Mudstains Gargoyles,Miss Lydia Brigette,9
+Mother (of Jake),d,9
+Charles Marchbanks,Detective Inspector Marchbanks,8
+Detective Inspector Marchbanks,Miss Lydia Brigette,8
+Inquest,Turgeot,8
+Lady Mudstains,d,8
+Detective Inspector Marchbanks,cat,7
+Sir Conchy,Sir Farmer,7
+Bar,Lady Mudstains,6
+Lady Mudstains,Mother,6
+Lady Mudstains,Zedekiah,6
+Lady Mudstains Gargoyles,Turgeot,6
+Miss Lydia Brigette,Montague Mester,6
+Moses,Turgeot,6
+Turgeot,d,6
+Bar,d,5
+Bar,lochinvar,5
+Bar,tom,5
+DENIS CATHCART,Mr. Gerald,5
+Detective Inspector Marchbanks,notes,5
+Farmer Counsel,Sir Farmer,5
+James,James Perkins,5
+Lady Mudstains,cat,5
+Lydia,Miss Lydia Brigette,5
+Miss Lydia Brigette,Sir Farmer,5
+Miss Lydia Brigette,Turgeot,5
+Miss Lydia Brigette,d,5
+Mother (of Jake),blood,5
+Turgeot,Zedekiah,5
+Zedekiah,d,5
+cat,ii,5
+Bach Ii,Detective Inspector Marchbanks,4
+Bach Ii,cat,4
+Chesterton,Farmer Counsel,4
+Detective Inspector Marchbanks,Eliza Robinson Riddlesdale,4
+Detective Inspector Marchbanks,John,4
+Detective Inspector Marchbanks,Mr. John Marchbanks,4
+Detective Inspector Marchbanks,high,4
+Eliza KAI-LUNG,Smith Kailung Watson,4
+Eliza Robinson Riddlesdale,Inquest,4
+Farmer Counsel,Miss Lydia Brigette,4
+Farmer Counsel,lochinvar,4
+Farmer Counsel,tom,4
+Inquest,Lady Mudstains,4
+Inquest,Lady Mudstains Gargoyles,4
+Inquest,tom,4
+John,Mr. John Marchbanks,4
+Lady Mudstains,Mr. Gerald,4
+Lady Mudstains,Nelson,4
+Lady Mudstains Gargoyles,Sir Farmer,4
+Miss Him,Mother (of Jake),4
+Miss Lydia Brigette,Mother (of Jake),4
+Miss Lydia Brigette,Smith Kailung Watson,4
+Miss Lydia Brigette,blood,4
+Miss Lydia Brigette,truth,4
+Montague Mester,Mother (of Jake),4
+Moses,Zedekiah,4
+Mr. Fitzwater,Sir Farmer,4
+Smith,Smith Kailung Watson,4
+blood,d,4
+Aladdin,Mother (of Jake),3
+Aladdin,Mr. Gerald,3
+Bar,Detective Inspector Marchbanks,3
+Bar,Inquest,3
+Bar,Turgeot,3
+Ben,Lady Mudstains,3
+Bourgois,Manichee,3
+Briquet,Lady Mudstains Gargoyles,3
+Chesterton,Eliza Robinson Riddlesdale,3
+Chesterton,d,3
+DENIS CATHCART,blood,3
+DENIS CATHCART,d,3
+Detective Inspector Marchbanks,Inquest,3
+Eliza,Eliza KAI-LUNG,3
+Eliza KAI-LUNG,Miss Lydia Brigette,3
+Eliza Robinson Riddlesdale,Miss Lydia Brigette,3
+Eliza Robinson Riddlesdale,Montague Mester,3
+Eliza Robinson Riddlesdale,Mother (of Jake),3
+Eliza Robinson Riddlesdale,Mr. Gerald,3
+Eliza Robinson Riddlesdale,cat,3
+Eliza Robinson Riddlesdale,d,3
+Farmer Counsel,Montague Mester,3
+Farmer Counsel,d,3
+Farmer Counsel,g,3
+Freke Bone,Sherlock Bone,3
+GEORGE MORNIN,Hullo,3
+Hullo,d,3
+Inquest,Mother (of Jake),3
+Inquest,truth,3
+John,Miss Lydia Brigette,3
+Lady Mudstains,Montague Mester,3
+Lady Mudstains,Moses,3
+Lady Mudstains,Turgeot,3
+Lady Mudstains Gargoyles,Montague Mester,3
+Lady Mudstains Gargoyles,Mother,3
+Miss Lydia Brigette,Mrs. Wordsworth,3
+Miss Lydia Brigette,Nelson,3
+Miss Lydia Brigette,Smith,3
+Mother,Mother (of Jake),3
+Mother,d,3
+Mother (of Jake),Turgeot,3
+Mr. Fitzwater,d,3
+Sir Conchy,Sir Farmer Arbuthnot,3
+Sir Conchy Of,Sir Farmer,3
+Sir Conchy Of,Sir Farmer Arbuthnot,3
+d,g,3
+high,lochinvar,3
+high,tom,3
+Aumerle,Bourgois,2
+Bach Denver,Bach Ii,2
+Bach Ii,Bach Lhs,2
+Bach Ii,notes,2
+Ballad Grant,Detective Inspector Marchbanks,2
+Ballad Grant,Mother (of Jake),2
+Ballad Grant,Vonderaa Begg,2
+Bar,Miss Lydia Brigette,2
+Bar,Mother,2
+Bar,Mudstains Jane,2
+Bar,Zedekiah,2
+Bar,g,2
+Bar,high,2
+Barrow,Mother (of Jake),2
+Barrow,blood,2
+Ben,d,2
+Biggy Counsel,Farmer Counsel,2
+Chesterton,Mother (of Jake),2
+DENIS CATHCART,James,2
+DENIS CATHCART,James Perkins,2
+DENIS CATHCART,Lady Mudstains,2
+DENIS CATHCART,Miss Lydia Brigette,2
+DENIS CATHCART,Mother (of Jake),2
+Detective Inspector Marchbanks,James,2
+Detective Inspector Marchbanks,Montague Mester,2
+Detective Inspector Marchbanks,Mr. Fitzwater,2
+Detective Inspector Marchbanks,Mr. Gerald,2
+Detective Inspector Marchbanks,Pettigrew-Robinsons,2
+Detective Inspector Marchbanks,Sir Farmer Arbuthnot,2
+Detective Inspector Marchbanks,d,2
+Detective Inspector Marchbanks,ii,2
+Dr. Pinafore,Lady Mudstains,2
+Dr. Pinafore,Mother,2
+Eliza,Eliza Robinson Riddlesdale,2
+Eliza,Mother (of Jake),2
+Eliza KAI-LUNG,Lady Mudstains Gargoyles,2
+Eliza Robinson Riddlesdale,Moses,2
+Eliza Robinson Riddlesdale,Moses Brigette,2
+Farmer Counsel,Lady Mudstains,2
+Farmer Counsel,Lady Mudstains Gargoyles,2
+Farmer Counsel,Mother (of Jake),2
+Farmer Counsel,Mr. Fitzwater,2
+Farmer Counsel,Mr. Gerald,2
+Farmer Counsel,high,2
+Ferrers,Turgeot,2
+Freke Bone,Mother,2
+GEORGE MORNIN,Inquest,2
+GEORGE MORNIN,Miss Lydia Brigette,2
+GEORGE MORNIN,Pettigrew-Robinsons,2
+Gooch Heathwarburton,Mr. Lob Heathwarburton,2
+Hullo,Pettigrew-Robinsons,2
+Inquest,Moses,2
+Inquest,Moses Brigette,2
+Inquest,Nelson,2
+Inquest,Sir Conchy,2
+Inquest,Sir Farmer,2
+Inquest,Zedekiah,2
+Inquest,cat,2
+Inquest,grimethorpe,2
+Inquest,lochinvar,2
+James,Miss Lydia Brigette,2
+James Perkins,Miss Lydia Brigette,2
+John,blood,2
+John,d,2
+Lady Mudstains,Miss Him,2
+Lady Mudstains,Moses Brigette,2
+Lady Mudstains,Mr. Fitzwater,2
+Lady Mudstains,Mudstains Jane,2
+Lady Mudstains,Zedekiah Mester,2
+Lady Mudstains,truth,2
+Lady Mudstains Gargoyles,Miss Him,2
+Lady Mudstains Gargoyles,Mr. Gerald,2
+Lady Mudstains Gargoyles,Sherlock Bone,2
+Lady Mudstains Gargoyles,Usher,2
+Lady Mudstains Gargoyles,Zedekiah,2
+Lady Mudstains Gargoyles,Zedekiah Mester,2
+Lady Mudstains Gargoyles,blood,2
+Lady Mudstains Gargoyles,cat,2
+Lady Mudstains Gargoyles,d,2
+Lady Mudstains Gargoyles,notes,2
+Lubbock,Walter,2
+Melbourne Parker,Racine Parker,2
+Melbourne Parker,d,2
+Miss Him,Montague Mester,2
+Miss Him,d,2
+Miss Lydia Brigette,Mother,2
+Miss Lydia Brigette,cat,2
+Miss Lydia Brigette,ii,2
+Miss Lydia Brigette,notes,2
+Montague Mester,Zedekiah,2
+Montague Mester,Zedekiah Mester,2
+Montague Mester,d,2
+Moses,Nelson,2
+Moses,Smith,2
+Moses,Smith Kailung Watson,2
+Moses,d,2
+Moses Brigette,Nelson,2
+Moses Brigette,Smith,2
+Moses Brigette,Smith Kailung Watson,2
+Mother,Sherlock Bone,2
+Mother (of Jake),Mr. Fitzwater,2
+Mother (of Jake),Sir Farmer,2
+Mother (of Jake),Sir Farmer Arbuthnot,2
+Mother (of Jake),cat,2
+Mother (of Jake),pot,2
+Mr. Fitzwater,Sir Farmer Arbuthnot,2
+Mr. Gerald,Sir Farmer,2
+Mr. Gerald,d,2
+Sir Conchy,lochinvar,2
+Sir Conchy,tom,2
+Sir Farmer,notes,2
+Zedekiah,Zedekiah Mester,2
+cat,d,2
+cat,tom,2
+Aladdin,Xv,1
+Alma Shakespeare,Smith,1
+Andrew,Sir Farmer,1
+Andrew,notes,1
+Aumerle,Bet,1
+Aumerle,Dragon,1
+Aumerle,Helen,1
+Aumerle,Manichee,1
+Aumerle,Mother,1
+Aumerle,Steward,1
+Bach Brigette,Smith,1
+Bach Brigette,notes,1
+Bach Denver,Miss Lydia Brigette,1
+Bach Ii,Bach van Humperdinck,1
+Bach Ii,Melbourne Parker,1
+Bach Ii,Smith,1
+Ballad Grant,Hullo,1
+Ballad Grant,LADY MARY,1
+Bar,Ben,1
+Bar,Biggy Counsel,1
+Bar,Eliza,1
+Bar,Eliza SHERLOCK HOLMES,1
+Bar,Farmer Counsel,1
+Bar,Jerry,1
+Bar,John,1
+Bar,Johnson,1
+Bar,Mother (of Jake),1
+Bar,Mr. John Marchbanks,1
+Bar,Mr. Lob Heathwarburton,1
+Bar,Percy,1
+Bar,Sherlock,1
+Bar,Sir Farmer Arbuthnot,1
+Bar,sugg,1
+Ben,Dr. Pinafore,1
+Ben,Mother,1
+Ben,g,1
+Bet,Bourgois,1
+Bet,Dragon,1
+Bet,GEORGE MORNIN,1
+Bet,Helen,1
+Bet,Manichee,1
+Bet,Miss Lydia Brigette,1
+Bet,Mother,1
+Bet,Steward,1
+Bet,cat,1
+Bourgois,Dragon,1
+Bourgois,Helen,1
+Bourgois,Mother,1
+Bourgois,Steward,1
+Briggs,high,1
+Briquet,Mother (of Jake),1
+Briquet,Mr. Fitzwater,1
+Briquet,d,1
+Bunter,Lubbock,1
+Bunter,Walter,1
+Bunter,Xv,1
+Carlisle,truth,1
+Charles Marchbanks,Mr. Fitzwater,1
+Charles Marchbanks,Sir Farmer,1
+Charles Marchbanks,Sir Farmer Arbuthnot,1
+Chesterton,Detective Inspector Marchbanks,1
+Chesterton,Eliza SHERLOCK HOLMES,1
+Chesterton,Montague Mester,1
+Coke,Detective Inspector Marchbanks,1
+DENIS CATHCART,Detective Inspector Marchbanks,1
+DENIS CATHCART,Inquest,1
+DENIS CATHCART,Mater,1
+DENIS CATHCART,Mother,1
+DENIS CATHCART,Sir Farmer Arbuthnot,1
+Detective Inspector Marchbanks,Eliza,1
+Detective Inspector Marchbanks,Eliza SHERLOCK HOLMES,1
+Detective Inspector Marchbanks,Ferrers,1
+Detective Inspector Marchbanks,Hullo,1
+Detective Inspector Marchbanks,James Perkins,1
+Detective Inspector Marchbanks,LADY MARY,1
+Detective Inspector Marchbanks,Liz,1
+Detective Inspector Marchbanks,MONTAGUE,1
+Detective Inspector Marchbanks,Moses,1
+Detective Inspector Marchbanks,Moses Brigette,1
+Detective Inspector Marchbanks,Sherlock,1
+Detective Inspector Marchbanks,Sir Conchy,1
+Detective Inspector Marchbanks,Sir Conchy Of,1
+Detective Inspector Marchbanks,Sir Farmer,1
+Detective Inspector Marchbanks,Smith,1
+Detective Inspector Marchbanks,Turgeot,1
+Detective Inspector Marchbanks,Vonderaa Freeborn,1
+Detective Inspector Marchbanks,Zedekiah,1
+Detective Inspector Marchbanks,blood,1
+Detective Inspector Marchbanks,mark,1
+Detective Inspector Marchbanks,truth,1
+Detective Inspector Marchbanks,vii,1
+Dragon,Helen,1
+Dragon,Manichee,1
+Dragon,Mother,1
+Dragon,Steward,1
+Eliza,Eliza SHERLOCK HOLMES,1
+Eliza,LADY MAISRY,1
+Eliza,Lady Mudstains Gargoyles,1
+Eliza,Mr. Gerald,1
+Eliza,Sherlock,1
+Eliza,Xv,1
+Eliza,attenbury,1
+Eliza,dolby,1
+Eliza,elizabeth,1
+Eliza,ii,1
+Eliza KAI-LUNG,Jake Gargoyles,1
+Eliza KAI-LUNG,Moses,1
+Eliza KAI-LUNG,Moses Brigette,1
+Eliza KAI-LUNG,Mother (of Jake),1
+Eliza KAI-LUNG,Smith,1
+Eliza Robinson Riddlesdale,Farmer Counsel,1
+Eliza Robinson Riddlesdale,Lady Mudstains,1
+Eliza Robinson Riddlesdale,Mother,1
+Eliza Robinson Riddlesdale,Nelson,1
+Eliza Robinson Riddlesdale,Xv,1
+Eliza Robinson Riddlesdale,Zedekiah,1
+Eliza Robinson Riddlesdale,notes,1
+Eliza SHERLOCK HOLMES,Inquest,1
+Eliza SHERLOCK HOLMES,Lady Mudstains,1
+Eliza SHERLOCK HOLMES,Miss Lydia Brigette,1
+Eliza SHERLOCK HOLMES,Sherlock,1
+Eliza SHERLOCK HOLMES,Turgeot,1
+Erica Heath-Warburton,Mr. Lob Heathwarburton,1
+Farmer Counsel,Inquest,1
+Farmer Counsel,Mother,1
+Farmer Counsel,Mr. Lob Heathwarburton,1
+Farmer Counsel,Nathaniel,1
+Farmer Counsel,pot,1
+Ferrers,Freke Bone,1
+Ferrers,Lady Mudstains,1
+Ferrers,Mother,1
+Ferrers,Mrs. Wordsworth,1
+Ferrers,Sherlock Bone,1
+Freke Bone,Lady Mudstains Gargoyles,1
+GEORGE MORNIN,Sir Farmer,1
+GEORGE MORNIN,cat,1
+GEORGE MORNIN,d,1
+GEORGE MORNIN,truth,1
+God Fleetwhite,tom,1
+Greg,LADY MAISRY,1
+Hardraw,Usher,1
+Helen,Manichee,1
+Helen,Mother,1
+Helen,Steward,1
+Hullo,Lady Mudstains,1
+Hullo,Miss Lydia Brigette,1
+Hullo,Mother (of Jake),1
+Hullo,Nelson,1
+Hullo,Tarrant,1
+Hullo,hiya,1
+Impey,Mr. Gerald,1
+Inquest,Jack The Giant-Killer,1
+Inquest,Jake Gargoyles,1
+Inquest,James Perkins,1
+Inquest,Montague Mester,1
+Inquest,Sir Conchy Of,1
+Inquest,Sir Farmer Arbuthnot,1
+Inquest,blood,1
+Inquest,d,1
+Jack The Giant-Killer,Mother (of Jake),1
+Jake Gargoyles,Miss Lydia Brigette,1
+Jake Gargoyles,Sherlock,1
+Jake Gargoyles,Sherlock Bone,1
+Jake Gargoyles,Smith Kailung Watson,1
+James,Sir Farmer Arbuthnot,1
+James,Zedekiah,1
+James Perkins,Mother (of Jake),1
+James Perkins,Nelson,1
+James Perkins,Sir Farmer Arbuthnot,1
+James Perkins,Turgeot,1
+James Perkins,d,1
+Jerry,Lady Mudstains Gargoyles,1
+Jerry,Turgeot,1
+Jerry,lochinvar,1
+Jerry,tom,1
+John,Lady Mudstains Gargoyles,1
+John,Mother (of Jake),1
+John,ii,1
+Johnson,Zedekiah,1
+Johnson,david,1
+LADY MAISRY,Mother (of Jake),1
+LADY MARY,Lady Mudstains Gargoyles,1
+LADY MARY,Mother,1
+LADY MARY,PETTIGREW-ROBINSON,1
+LADY MARY,ix,1
+Lady Mudstains,Mrs. Wordsworth,1
+Lady Mudstains,Pettigrew-Robinsons,1
+Lady Mudstains,Sir Farmer,1
+Lady Mudstains,Sir Farmer Arbuthnot,1
+Lady Mudstains,g,1
+Lady Mudstains,geo,1
+Lady Mudstains,notes,1
+Lady Mudstains,sugg,1
+Lady Mudstains Gargoyles,Mr. Fitzwater,1
+Lady Mudstains Gargoyles,Nelson,1
+Lady Mudstains Gargoyles,Sherlock,1
+Lady Mudstains Gargoyles,Sir Farmer Arbuthnot,1
+Lady Mudstains Gargoyles,Smith Kailung Watson,1
+Lady Mudstains Gargoyles,Thingummy,1
+Lady Mudstains Gargoyles,lochinvar,1
+Lady Mudstains Gargoyles,tom,1
+Liz,Mother (of Jake),1
+Lubbock,Xv,1
+Lydia,Mother (of Jake),1
+Lydia,lochinvar,1
+Lydia,tom,1
+MONTAGUE,Montague Mester,1
+MONTAGUE,Pettigrew-Robinsons,1
+Manichee,Mother,1
+Manichee,Steward,1
+Mater,Mother,1
+Melbourne Parker,Miss Lydia Brigette,1
+Melbourne Parker,Turgeot,1
+Melbourne Parker,tom,1
+Miss Lydia Brigette,Sir Conchy,1
+Miss Lydia Brigette,Sir Conchy Of,1
+Miss Lydia Brigette,Sir Farmer Arbuthnot,1
+Miss Lydia Brigette,Thingummy,1
+Miss Lydia Brigette,Timothy,1
+Miss Lydia Brigette,Zedekiah,1
+Miss Lydia Brigette,cluer,1
+Miss Lydia Brigette,featherstone,1
+Miss Lydia Brigette,g,1
+Miss Lydia Brigette,high,1
+Miss Lydia Brigette,lochinvar,1
+Miss Lydia Brigette,tom,1
+Monsieur Jem,cat,1
+Montague Mester,Mother,1
+Montague Mester,Mrs. Foulis,1
+Montague Mester,g,1
+Montague Mester,geo,1
+Moses,Mrs. Wordsworth,1
+Moses,Timothy,1
+Moses,cat,1
+Moses,cluer,1
+Moses,featherstone,1
+Moses,truth,1
+Moses Brigette,Mrs. Wordsworth,1
+Moses Brigette,Timothy,1
+Moses Brigette,Zedekiah,1
+Moses Brigette,cluer,1
+Moses Brigette,d,1
+Moses Brigette,featherstone,1
+Moses Brigette,truth,1
+Mother,Mr. Gerald,1
+Mother,Steward,1
+Mother,Turgeot,1
+Mother (of Jake),Mr. John Marchbanks,1
+Mother (of Jake),Mrs. Wordsworth,1
+Mother (of Jake),Pritchard,1
+Mother (of Jake),Sherlock,1
+Mother (of Jake),Sherlock Bone,1
+Mother (of Jake),Smith Kailung Watson,1
+Mother (of Jake),Xv,1
+Mother (of Jake),dolby,1
+Mother (of Jake),elizabeth,1
+Mother (of Jake),g,1
+Mother (of Jake),joyce,1
+Mother (of Jake),notes,1
+Mother (of Jake),stapley,1
+Mr. Fitzwater,Mr. Gerald,1
+Mr. Fitzwater,Turgeot,1
+Mr. Gerald,Xv,1
+Mr. Gerald,dolby,1
+Mr. Gerald,elizabeth,1
+Mr. Gerald,shugg,1
+Mr. Tommy,lochinvar,1
+Mr. Tommy,tom,1
+Mrs. Wordsworth,Nelson,1
+Mrs. Wordsworth,Reuter',1
+Mrs. Wordsworth,Sir Farmer,1
+Nelson,Pettigrew-Robinsons,1
+Nelson,Sherlock Bone,1
+Nelson,Turgeot,1
+Pettigrew-Robinsons,d,1
+Sherlock,Sherlock Bone,1
+Sherlock,Sherlock Jush,1
+Sherlock,d,1
+Sherlock,high,1
+Sherlock Bone,blood,1
+Sherlock Jush,high,1
+Sir Farmer,Turgeot,1
+Sir Farmer,lochinvar,1
+Sir Farmer,tom,1
+Smith,notes,1
+Smith Kailung Watson,notes,1
+Tarrant,hiya,1
+Thingummy,d,1
+Timothy,lochinvar,1
+Timothy,tom,1
+Turgeot,truth,1
+Vonderaa Freeborn,d,1
+Walter,Xv,1
+Zedekiah,lochinvar,1
+Zedekiah,tom,1
+blood,high,1
+cat,spilsbury,1
+cluer,featherstone,1
+d,p,1
+d,sugg,1
+d,tom,1
+d,truth,1
+dolby,elizabeth,1
+g,sugg,1
+gawd,snooks,1
+gawd,watchett,1
+geo,herald,1
+hewitt,notes,1
+lochinvar,notes,1
+notes,tom,1
+snooks,watchett,1

@@ -1,0 +1,817 @@
+character1,character2,count
+Captain Queenie,Minerva Weasley,102
+Inspector Narcissa,on,80
+Inspector Narcissa,Minerva Weasley,59
+Captain,Captain Queenie,54
+Mr. Wizarding Them,Wizarding,46
+Bathilda,Bathilda Dumbledore,44
+Minerva Weasley,on,40
+Captain Queenie,Inspector Narcissa,29
+Inspector Narcissa,No,27
+Miss Order Them,Order,23
+Wizarding,on,23
+Inspector Narcissa,inspector,22
+Inspector Narcissa,Mr. Seeker,21
+No,on,21
+Miss Nimbus Tournament,Nimbus,19
+m,on,18
+Boggart,Inspector Narcissa,17
+Draco Pomona,on,17
+Minerva Weasley,No,17
+Boggart,on,16
+Inspector Narcissa,m,16
+Order,on,15
+Boggart,Will,14
+Will,on,14
+Draco Pomona,Minerva Weasley,12
+Inspector Narcissa,Will,12
+Manticore,on,12
+Minerva Weasley,Wizarding,12
+Mr. Prisoner Triwizard,on,12
+Bathilda,Nimbus,11
+Boggart,m,11
+Draco Pomona,Inspector Narcissa,11
+Draco Pomona,Mr. Prisoner Triwizard,11
+Mr. Prisoner Triwizard,No,11
+No,Wizarding,11
+Captain Queenie,m,10
+Minerva Weasley,Order,10
+Minerva Weasley,m,10
+Miss Order Them,on,10
+Mr. Seeker,on,10
+Nimbus,m,10
+No,m,10
+Prince Them!,on,10
+Will,m,10
+frog,on,10
+Bathilda,on,9
+Bathilda Dumbledore,Nimbus,9
+Captain Queenie,Wizarding,9
+Draco Pomona,Wizarding,9
+Dudley Find,Inspector Narcissa,9
+Dudley Find,Will,9
+Inspector Narcissa,new,9
+Rose,Rose Consolidated,9
+Andromeda,on,8
+Boggart,Captain Queenie,8
+Inspector Narcissa,Mr. Prisoner Triwizard,8
+Inspector Narcissa,Wizarding,8
+new,on,8
+Alastor Sorting,Parvati Prince Sorting,7
+Alastor Sorting,Young Alastor,7
+Boggart,Number Graphorn,7
+Captain Queenie,Draco Pomona,7
+Deathly,Inspector Narcissa,7
+Deathly,Minerva Weasley,7
+Draco Pomona,No,7
+Inspector Narcissa,Mr. Patronus Ron,7
+Inspector Narcissa,Order,7
+Manticore,m,7
+Nimbus,Wizarding,7
+Order,Will,7
+Parvati Prince Sorting,Young Alastor,7
+Wizarding,m,7
+inspector,on,7
+Bathilda Dumbledore,on,6
+Boggart,Draco Pomona,6
+Boggart,Minerva Weasley,6
+Boy,Inspector Narcissa,6
+Boy,on,6
+Captain,Inspector Narcissa,6
+Captain Queenie,on,6
+Deathly,Mr. Seeker,6
+Dudley Find,Minerva Weasley,6
+Inspector Narcissa,Manticore,6
+Inspector Narcissa,Miss Order Them,6
+Inspector Narcissa,ten,6
+Minerva Weasley,Mr. Patronus Ron,6
+Minerva Weasley,Mr. Seeker,6
+Minerva Weasley,inspector,6
+Miss Order Them,m,6
+Mr. Prisoner Triwizard,Wizarding,6
+Mr. Prisoner Triwizard,london,6
+Mr. Seeker,m,6
+Mr. Wizarding Them,on,6
+Riddle,on,6
+Rose,Wizarding,6
+Will,Wizarding,6
+Bathilda,Wizarding,5
+Boggart,No,5
+Boy,Wizarding,5
+Captain Queenie,Mr. Seeker,5
+Captain Queenie,No,5
+Captain Queenie,Secretary of State,5
+Deathly,on,5
+Draco,Draco Pomona,5
+Dudley Find,on,5
+Eldor Street,Mr. Prisoner Triwizard,5
+Hat,Inspector Narcissa,5
+Hat,on,5
+Inspector Narcissa,terrace,5
+Manticore,Minerva Weasley,5
+Minerva Weasley,Minister,5
+Minerva Weasley,Rose,5
+Minerva Weasley,Will,5
+Mr. Patronus Ron,No,5
+Mr. Patronus Ron,on,5
+Mr. Seeker,No,5
+No,Order,5
+No,frog,5
+Prince Them!,Wizarding,5
+Riddle,inspector,5
+london,on,5
+Andromeda,Inspector Narcissa,4
+Andromeda,Minerva Weasley,4
+Bathilda Dumbledore,Miss Nimbus Tournament,4
+Boggart,Captain,4
+Boggart,Deathly,4
+Boggart,Mr. Prisoner Triwizard,4
+Boy,Order,4
+Captain Queenie,Dudley Find,4
+Captain Queenie,Stone Queenie,4
+Captain Queenie,Will,4
+Child,on,4
+Chimaera,Minerva Weasley,4
+Draco Pomona,Fitzroy,4
+Dudley Find,No,4
+Graphorn Gables,Number Graphorn,4
+Inspector Narcissa,Prince Them!,4
+Inspector Narcissa,Rose,4
+Inspector Narcissa,london,4
+Manticore,No,4
+Manticore,Wizarding,4
+Minerva Weasley,Mr. Wizarding Them,4
+Minerva Weasley,Prince Them!,4
+Minerva Weasley,Secretary of State,4
+Minerva Weasley,ten,4
+Minerva Weasley,terrace,4
+Miss Order Them,Mr. Patronus Ron,4
+Miss Order Them,Will,4
+Mr. Patronus Ron,Order,4
+Mr. Prisoner Triwizard,Will,4
+Mr. Seeker,Nimbus,4
+Mr. Seeker,Will,4
+No,Will,4
+Prince Them!,ten,4
+Remus,on,4
+Slough,on,4
+Will,new,4
+great,on,4
+Andromeda,Prince Them!,3
+Bathilda,Miss Nimbus Tournament,3
+Bathilda,Order,3
+Bathilda,m,3
+Bathilda Dumbledore,Wizarding,3
+Black,Inspector Narcissa,3
+Black,on,3
+Boggart,Miss Order Them,3
+Boggart,Mr. Patronus Ron,3
+Boggart,Mr. Seeker,3
+Boggart,Riddle,3
+Boggart,great,3
+Boy,Minerva Weasley,3
+Boy,Nimbus,3
+Captain,Minerva Weasley,3
+Captain,m,3
+Captain Queenie,Mr. Patronus Ron,3
+Child,Draco Pomona,3
+Child,Mr. Prisoner Triwizard,3
+Chimaera,on,3
+Deathly,Will,3
+Deathly,inspector,3
+Draco Pomona,Order,3
+Draco Pomona,Rose,3
+Draco Pomona,Will,3
+Draco Pomona,london,3
+Dudley Find,James,3
+Dudley Find,James Find,3
+Dudley Find,Nimbus,3
+Eldor Street,Inspector Narcissa,3
+Governor,Wizarding,3
+Governor,on,3
+Hat,Minerva Weasley,3
+Inspector Narcissa,Number Graphorn,3
+Inspector Narcissa,great,3
+James,James Find,3
+Lord Umbridge,on,3
+Manticore,Mr. Prisoner Triwizard,3
+Minerva Weasley,Miss Order Them,3
+Minerva Weasley,Nimbus,3
+Minerva Weasley,Riddle,3
+Minerva Weasley,new,3
+Minister,on,3
+Miss Nimbus Tournament,Will,3
+Miss Order Them,Mr. Prisoner Triwizard,3
+Miss Order Them,No,3
+Mr. Patronus Ron,m,3
+Mr. Prisoner Triwizard,Mr. Seeker,3
+Mr. Prisoner Triwizard,Rose,3
+Mr. Prisoner Triwizard,Rose Consolidated,3
+Mr. Prisoner Triwizard,great,3
+Mr. Prisoner Triwizard,m,3
+Nimbus,Order,3
+Nimbus,Will,3
+Nimbus,on,3
+No,Prince Them!,3
+Number Graphorn,Will,3
+Order,Prince Them!,3
+Order,m,3
+Remus,Riddle,3
+Will,great,3
+Wizarding,inspector,3
+Wizarding,new,3
+brown,on,3
+elsham,wood,3
+inspector,m,3
+Andromeda,Boggart,2
+Andromeda,Maytree,2
+Andromeda,Mr. Seeker,2
+Andromeda,Riddle,2
+Andromeda,inspector,2
+Bathilda,Boy,2
+Bathilda,Deathly,2
+Bathilda,Miss Order Them,2
+Bathilda,Mr. Seeker,2
+Bathilda,No,2
+Bathilda Dumbledore,Boggart,2
+Bathilda Dumbledore,Deathly,2
+Bathilda Dumbledore,Mr. Seeker,2
+Bathilda Dumbledore,No,2
+Bathilda Dumbledore,Order,2
+Bathilda Dumbledore,m,2
+Binns,Boggart,2
+Black,Minerva Weasley,2
+Boggart,Chimaera,2
+Boggart,Manticore,2
+Boggart,Nimbus,2
+Boggart,Secrets Mcgonagall,2
+Boy,Draco,2
+Boy,Prince Them!,2
+Boy,Will,2
+Captain,Draco Pomona,2
+Captain,Dudley Find,2
+Captain,Manticore,2
+Captain,Mr. Patronus Ron,2
+Captain,Remus,2
+Captain,Will,2
+Captain,Wizarding,2
+Captain,on,2
+Captain Queenie,Chimaera,2
+Captain Queenie,Deathly,2
+Captain Queenie,Manticore,2
+Captain Queenie,Maytree,2
+Captain Queenie,Miss Nimbus Tournament,2
+Captain Queenie,Miss Order Them,2
+Captain Queenie,Mr. Wizarding Them,2
+Captain Queenie,Nimbus,2
+Captain Queenie,Order,2
+Captain Queenie,Prince Them!,2
+Captain Queenie,broad,2
+Captain Queenie,wood,2
+Caverley House,Inspector Narcissa,2
+Caverley House,Mr. Patronus Ron,2
+Caverley House,on,2
+Child,Inspector Narcissa,2
+Child,Will,2
+Chimaera,Deathly,2
+Chimaera,Inspector Narcissa,2
+Chimaera,Miss Nimbus Tournament,2
+Chimaera,Mr. Seeker,2
+Chimaera,Nimbus,2
+Chimaera,m,2
+Colonel McClintock,on,2
+Deathly,Nimbus,2
+Deathly,No,2
+Deathly,Number Graphorn,2
+Deathly,Riddle,2
+Deathly,m,2
+Draco,Will,2
+Draco,m,2
+Draco Pomona,Eldor Street,2
+Draco Pomona,Mr. Patronus Ron,2
+Draco Pomona,Mr. Seeker,2
+Draco Pomona,Mr. Wizarding Them,2
+Draco Pomona,m,2
+Dudley Find,Miss Nimbus Tournament,2
+Dudley Find,Mr. Prisoner Triwizard,2
+Eldor Street,on,2
+Fitzroy,Minerva Weasley,2
+Fitzroy,london,2
+Graphorn Gables,Slough,2
+Hat,Mr. Patronus Ron,2
+Hat,Rose,2
+Hat,m,2
+Hermione,Mr. Patronus Ron,2
+Hermione,Nimbus,2
+Hermione,Wizarding,2
+Inspector Narcissa,Leaford Road,2
+Inspector Narcissa,Lucius,2
+Inspector Narcissa,Miss Nimbus Tournament,2
+Inspector Narcissa,Mr. Wizarding Them,2
+Inspector Narcissa,Paddington,2
+Inspector Narcissa,Pentonville,2
+Inspector Narcissa,Remus,2
+Inspector Narcissa,Riddle,2
+Inspector Narcissa,Secretary of State,2
+Inspector Narcissa,Secrets Mcgonagall,2
+Inspector Narcissa,bill,2
+Inspector Narcissa,broad,2
+Inspector Narcissa,brown,2
+Inspector Narcissa,frog,2
+Inspector Narcissa,seven,2
+Inspector Narcissa,worth,2
+Leaford Road,Mr. Seeker,2
+Lily,Minerva Weasley,2
+Lucius,Will,2
+Lucius,m,2
+Manticore,Mr. Patronus Ron,2
+Manticore,Nimbus,2
+Maytree,Minerva Weasley,2
+Maytree,Wizarding,2
+Maytree,frog,2
+Maytree,on,2
+Minerva Weasley,Miss Nimbus Tournament,2
+Minerva Weasley,Mr. Prisoner Triwizard,2
+Minerva Weasley,london,2
+Miss Nimbus Tournament,Mr. Patronus Ron,2
+Miss Nimbus Tournament,Mr. Seeker,2
+Miss Nimbus Tournament,m,2
+Miss Order Them,Wizarding,2
+Mr. Patronus Ron,Rose,2
+Mr. Patronus Ron,Will,2
+Mr. Patronus Ron,inspector,2
+Mr. Patronus Ron,joshua,2
+Mr. Patronus Ron,london,2
+Mr. Seeker,Slough,2
+Mr. Seeker,inspector,2
+Mr. Wizarding Them,Nimbus,2
+Mr. Wizarding Them,No,2
+Nimbus,No,2
+Nimbus,london,2
+No,Rose,2
+No,Slough,2
+No,inspector,2
+No,new,2
+No,ten,2
+Number Graphorn,Pentonville,2
+Number Graphorn,Slough,2
+Number Graphorn,m,2
+Order,Wizarding,2
+Order,ten,2
+Paddington,on,2
+Padma Harry,on,2
+Parvati,Parvati Prince Sorting,2
+Parvati Prince Sorting,on,2
+Pentonville,on,2
+Prince Them!,new,2
+Rose,on,2
+Secretary of State,m,2
+Secrets Mcgonagall,m,2
+Tina,on,2
+Will,london,2
+Will,ten,2
+Wizarding,daddy,2
+Wizarding,wood,2
+frog,frogs,2
+mud,new,2
+mud,on,2
+on,ten,2
+Andromeda,Boy,1
+Andromeda,Dudley Find,1
+Andromeda,James,1
+Andromeda,Will,1
+Andromeda,Wizarding,1
+Andromeda,london,1
+Andromeda,ten,1
+Angelina,bill,1
+Arthur Holmes,on,1
+Bathilda,Boggart,1
+Bathilda,Buckbeak,1
+Bathilda,Dudley Find,1
+Bathilda,Hermione,1
+Bathilda,Inspector Narcissa,1
+Bathilda,Mr. Wizarding Them,1
+Bathilda,Rose,1
+Bathilda Dumbledore,Boy,1
+Bathilda Dumbledore,Buckbeak,1
+Bathilda Dumbledore,Captain Queenie,1
+Bathilda Dumbledore,Caverley House,1
+Bathilda Dumbledore,Hermione,1
+Bathilda Dumbledore,Inspector Narcissa,1
+Bathilda Dumbledore,Miss Order Them,1
+Bathilda Dumbledore,Rose,1
+Bellatrix,great,1
+Bennetts,on,1
+Binns,Chimaera,1
+Binns,Deathly,1
+Binns,Hermione,1
+Binns,Manticore,1
+Binns,No,1
+Binns,Rose,1
+Binns,on,1
+Black,Captain Queenie,1
+Black,No,1
+Black,Riddle,1
+Boggart,Boy,1
+Boggart,Captain Weasley,1
+Boggart,Cursed,1
+Boggart,Dick,1
+Boggart,Dudley Find,1
+Boggart,Eldor Street,1
+Boggart,Lord Umbridge,1
+Boggart,Parvati Prince Sorting,1
+Boggart,Remus,1
+Boggart,Wizarding,1
+Boggart,god,1
+Boggart,new,1
+Boggart,seven,1
+Boggart,ten,1
+Boggart,terrace,1
+Boggart,whiskers,1
+Boggart,worth,1
+Boy,Captain,1
+Boy,Captain Queenie,1
+Boy,Collett-Vernon,1
+Boy,Draco Pomona,1
+Boy,Hermione,1
+Boy,Miss Order Them,1
+Boy,Mr. Prisoner Triwizard,1
+Boy,Paddington,1
+Boy,Rose,1
+Boy,Viktor,1
+Boy,Young Alastor,1
+Boy,great,1
+Boy,m,1
+Boy,seven,1
+Boy,terrace,1
+Butcher,Surgeon,1
+Captain,Captain Weasley,1
+Captain,James,1
+Captain,James Find,1
+Captain,Minister,1
+Captain,Mr. Prisoner Triwizard,1
+Captain,Mr. Wizarding Them,1
+Captain,No,1
+Captain,Parvati Prince Sorting,1
+Captain,bill,1
+Captain,broad,1
+Captain,wood,1
+Captain Queenie,Captain Weasley,1
+Captain Queenie,Governor,1
+Captain Queenie,Hat,1
+Captain Queenie,James,1
+Captain Queenie,James Find,1
+Captain Queenie,Minister,1
+Captain Queenie,Mr. Prisoner Triwizard,1
+Captain Queenie,Pentonville,1
+Captain Queenie,Remus,1
+Captain Queenie,Riddle,1
+Captain Queenie,Secrets Mcgonagall,1
+Captain Queenie,elsham,1
+Captain Queenie,frog,1
+Captain Queenie,london,1
+Captain Queenie,ten,1
+Captain Queenie,terrace,1
+Captain Weasley,Inspector Narcissa,1
+Captain Weasley,Minerva Weasley,1
+Caverley House,Dudley Find,1
+Caverley House,Minerva Weasley,1
+Caverley House,Mr. Prisoner Triwizard,1
+Caverley House,Nimbus,1
+Caverley House,Will,1
+Caverley House,ten,1
+Chamber Crimes,Horklump,1
+Chamber Crimes,Minerva Weasley,1
+Chamber Crimes,Quibbler Longbottom,1
+Chamber Crimes,Secrets Mcgonagall,1
+Chamber Crimes,Weasley Minerva,1
+Chamber Crimes,Will,1
+Chamber Crimes,Yaxley the Bones,1
+Chamber Crimes,seven,1
+Chief Commissioner,No,1
+Chief Commissioner,j,1
+Chief Commissioner,ten,1
+Chief Constable,Inspector Narcissa,1
+Chief Constable,Manticore,1
+Chief Constable,great,1
+Chief Constable,judgment,1
+Child,Child Pomona,1
+Child,Fitzroy,1
+Child,No,1
+Child,Wizarding,1
+Child,london,1
+Child Pomona,Draco Pomona,1
+Child Pomona,Fitzroy,1
+Child Pomona,london,1
+Chimaera,Manticore,1
+Chimaera,Will,1
+Chimaera,Wizarding,1
+Chimaera,elsham,1
+Chimaera,hagn,1
+Chimaera,peace,1
+Chimaera,wood,1
+Collett-Vernon,Draco Pomona,1
+Collett-Vernon,Minerva Weasley,1
+Collett-Vernon,Mr. Prisoner Triwizard,1
+Cursed,Inspector Narcissa,1
+Cursed,great,1
+Deathly,Hermione,1
+Deathly,Manticore,1
+Deathly,new,1
+Detective-Inspector,Foreign Secretary,1
+Detective-Inspector,Minerva Weasley,1
+Detective-Inspector,inspector,1
+Dicky-Orum,Hermione,1
+Dobby,Mr. Prisoner Triwizard,1
+Dobby,Wizarding,1
+Draco,Inspector Narcissa,1
+Draco,Mr. Prisoner Triwizard,1
+Draco,dad,1
+Draco,on,1
+Draco Pomona,Dudley Find,1
+Draco Pomona,Krum,1
+Draco Pomona,Lord Umbridge,1
+Draco Pomona,Miss Order Them,1
+Draco Pomona,Prince Them!,1
+Draco Pomona,Rose Consolidated,1
+Draco Pomona,Secrets Mcgonagall,1
+Draco Pomona,Slough,1
+Draco Pomona,balder,1
+Draco Pomona,broad,1
+Draco Pomona,new,1
+Draco Pomona,seven,1
+Draco Pomona,ten,1
+Draco Pomona,terrace,1
+Dudley Find,Governor,1
+Dudley Find,Manticore,1
+Dudley Find,Miss Order Them,1
+Dudley Find,Paddington,1
+Dudley Find,Petunia,1
+Dudley Find,Secretary of State,1
+Dudley Find,Slough,1
+Dudley Find,Stepney,1
+Dudley Find,Wizarding,1
+Dudley Find,broad,1
+Dudley Find,m,1
+Dudley Find,new,1
+Dudley Find,ten,1
+Eldor Street,Minerva Weasley,1
+Eldor Street,london,1
+Ella Bennett,Mr. Prisoner Triwizard,1
+Ella Bennett,on,1
+Express,Will,1
+Express,Wizarding,1
+Express,london,1
+Express,on,1
+Express,ten,1
+Fitzroy,Inspector Narcissa,1
+Fitzroy,Krum,1
+Fitzroy,seven,1
+Foreign Secretary,Minerva Weasley,1
+Foreign Secretary,inspector,1
+George,Will,1
+George,m,1
+Gilderoy,Inspector Narcissa,1
+Governor,James,1
+Governor,James Find,1
+Governor,Minerva Weasley,1
+Governor,Prince Them!,1
+Governor,Rose,1
+Governor,Will,1
+Governor,london,1
+Governor,ten,1
+Graphorn Gables,Minerva Weasley,1
+Graphorn Gables,m,1
+Graphorn Gables,on,1
+Gryffindor,on,1
+Hat,Lily,1
+Hat,Prince Them!,1
+Hat,Will,1
+Hat,brown,1
+Hermione,Inspector Narcissa,1
+Hermione,Minerva Weasley,1
+Hermione,on,1
+Horklump,Minerva Weasley,1
+Horklump,Quibbler Longbottom,1
+Horklump,Weasley Minerva,1
+Horklump,Yaxley the Bones,1
+Inspector Narcissa,James,1
+Inspector Narcissa,Lady FitzHerman,1
+Inspector Narcissa,Lord Umbridge,1
+Inspector Narcissa,Mabberley Hall,1
+Inspector Narcissa,Maytree,1
+Inspector Narcissa,Minister,1
+Inspector Narcissa,Nimbus,1
+Inspector Narcissa,Parvati,1
+Inspector Narcissa,Slough,1
+Inspector Narcissa,Tina,1
+Inspector Narcissa,frogs,1
+Inspector Narcissa,hook,1
+Inspector Narcissa,judgment,1
+Inspector Narcissa,ward,1
+Inspector Narcissa,wood,1
+James,Minerva Weasley,1
+James,Mr. Patronus Ron,1
+James,frog,1
+James,frogs,1
+James,joshua,1
+James,m,1
+James,on,1
+James Find,Minerva Weasley,1
+James Find,m,1
+James Find,on,1
+Kreacher,Rubeus Azkaban,1
+Kreacher,frog,1
+Krum,No,1
+Krum,Secrets Mcgonagall,1
+Krum,london,1
+Lady FitzHerman,Mabberley Hall,1
+Lady FitzHerman,Minerva Weasley,1
+Lily,Will,1
+Lily,m,1
+Lord Umbridge,Manticore,1
+Lord Umbridge,Minerva Weasley,1
+Lord Umbridge,No,1
+Lord Umbridge,Secrets Mcgonagall,1
+Lord Umbridge,great,1
+Mabberley Hall,Minerva Weasley,1
+Manticore,Minister,1
+Manticore,Mr. Seeker,1
+Manticore,Order,1
+Manticore,Pentonville,1
+Manticore,Will,1
+Manticore,peace,1
+Maytree,Mr. Patronus Ron,1
+Maytree,Mr. Wizarding Them,1
+Maytree,frogs,1
+Maytree,joshua,1
+Maytree,new,1
+Minerva Weasley,Mr. Malfoy,1
+Minerva Weasley,Number Graphorn,1
+Minerva Weasley,Pentonville,1
+Minerva Weasley,Quibbler Longbottom,1
+Minerva Weasley,Remus,1
+Minerva Weasley,Secrets Mcgonagall,1
+Minerva Weasley,Slough,1
+Minerva Weasley,Surgeon,1
+Minerva Weasley,Weasley Minerva,1
+Minerva Weasley,Yaxley the Bones,1
+Minerva Weasley,brown,1
+Minerva Weasley,elsham,1
+Minerva Weasley,frog,1
+Minerva Weasley,wood,1
+Minister,Will,1
+Miss Nimbus Tournament,No,1
+Miss Nimbus Tournament,Order,1
+Miss Nimbus Tournament,Rose,1
+Miss Nimbus Tournament,Rose Consolidated,1
+Miss Nimbus Tournament,Wizarding,1
+Miss Nimbus Tournament,on,1
+Miss Order Them,quod,1
+Mr. Patronus Ron,Mr. Prisoner Triwizard,1
+Mr. Patronus Ron,Nimbus,1
+Mr. Patronus Ron,Prince Them!,1
+Mr. Patronus Ron,Wizarding,1
+Mr. Patronus Ron,bill,1
+Mr. Patronus Ron,broad,1
+Mr. Patronus Ron,frog,1
+Mr. Patronus Ron,frogs,1
+Mr. Patronus Ron,ten,1
+Mr. Prisoner Triwizard,Mr. Wizarding Them,1
+Mr. Prisoner Triwizard,Order,1
+Mr. Prisoner Triwizard,Prince Them!,1
+Mr. Prisoner Triwizard,Secrets Mcgonagall,1
+Mr. Prisoner Triwizard,balder,1
+Mr. Prisoner Triwizard,elsham,1
+Mr. Prisoner Triwizard,new,1
+Mr. Prisoner Triwizard,quod,1
+Mr. Prisoner Triwizard,wood,1
+Mr. Seeker,Tina,1
+Mr. Seeker,new,1
+Mr. Seeker,worth,1
+Mr. Wizarding Them,Rose,1
+Mr. Wizarding Them,m,1
+Nimbus,Rose,1
+Nimbus,Rose Consolidated,1
+Nimbus,Slughorn,1
+Nimbus,Teddy,1
+No,Parvati Prince Sorting,1
+No,Riddle,1
+No,Secretary of State,1
+No,Secrets Mcgonagall,1
+No,broad,1
+No,dad,1
+No,frogs,1
+No,great,1
+No,london,1
+No,mud,1
+No,peace,1
+Number Graphorn,Remus,1
+Number Graphorn,on,1
+Number Graphorn,ward,1
+Orchard Street,Stepney,1
+Order,Paddington,1
+Order,Rose,1
+Order,frog,1
+Order,hagn,1
+Order,heron,1
+Order,mud,1
+Order,terrace,1
+Paddington,Prince Them!,1
+Paddington,new,1
+Paddington,terrace,1
+Parvati,Parvati Smith,1
+Parvati,j,1
+Parvati,m,1
+Parvati,new,1
+Parvati,on,1
+Parvati Prince Sorting,Secrets Mcgonagall,1
+Parvati Prince Sorting,worth,1
+Parvati Smith,new,1
+Pentonville,ten,1
+Pentonville,ward,1
+Petunia,m,1
+Philosopher Cissa,Yaxley Snidget,1
+Prince Them!,Rose,1
+Prince Them!,Stone Queenie,1
+Prince Them!,Will,1
+Prince Them!,frog,1
+Prince Them!,great,1
+Prince Them!,inspector,1
+Prince Them!,london,1
+Prince Them!,m,1
+Prince Them!,mud,1
+Prince Them!,peace,1
+Prince Them!,wood,1
+Queen Dennis,inspector,1
+Queen Dennis,m,1
+Quibbler Longbottom,Weasley Minerva,1
+Quibbler Longbottom,Yaxley the Bones,1
+Riddle,london,1
+Riddle,ten,1
+Rose,Will,1
+Rose,great,1
+Rose,london,1
+Rose,m,1
+Rose Consolidated,Wizarding,1
+Rose Consolidated,london,1
+Rubeus Azkaban,frog,1
+Secrets Mcgonagall,balder,1
+Secrets Mcgonagall,london,1
+Severus,Will,1
+Slough,Stepney,1
+Slough,m,1
+Stepney,london,1
+Teddy,great,1
+Teddy,m,1
+Weasley Minerva,Yaxley the Bones,1
+Will,inspector,1
+Will,worth,1
+Wizarding,broad,1
+Wizarding,elsham,1
+Wizarding,great,1
+Wizarding,hagn,1
+Wizarding,lola,1
+Wizarding,london,1
+Wizarding,peace,1
+Yaxley the Bones,heine,1
+Yaxley the Bones,judgment,1
+Yaxley the Bones,peace,1
+Yaxley the Bones,ten,1
+bill,on,1
+broad,inspector,1
+broad,on,1
+broad,ten,1
+dad,m,1
+elsham,hagn,1
+frog,great,1
+frog,joshua,1
+frog,m,1
+frog,wood,1
+frogs,joshua,1
+frogs,maitlands,1
+god,on,1
+great,judgment,1
+great,m,1
+hagn,wood,1
+heine,judgment,1
+heine,peace,1
+heine,ten,1
+inspector,london,1
+judgment,peace,1
+judgment,ten,1
+london,m,1
+m,new,1
+m,ten,1
+m,terrace,1
+mud,ten,1
+new,peace,1
+new,wood,1
+on,peace,1
+on,seven,1
+on,terrace,1
+on,whiskers,1
+on,wood,1
+on,worth,1
+peace,ten,1
+seven,whiskers,1

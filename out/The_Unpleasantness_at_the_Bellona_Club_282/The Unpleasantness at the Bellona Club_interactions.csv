@@ -1,0 +1,300 @@
+character1,character2,count
+Mr. George Fentiman,Robert,45
+George,Mr. George Fentiman,39
+Mr. George Fentiman,Robert Fentiman,36
+Robert,Robert Fentiman,36
+Ann,Miss Ann Dorland,31
+Mr. George Fentiman,Peter Wimsey,21
+Peter,Peter Wimsey,18
+Inspector Parker,Peter Wimsey,17
+Dr. Penberthy,Peter Wimsey,14
+George,Robert,13
+Nurse,Nurse Armstrong,12
+Miss Ann Dorland,Mr. George Fentiman,11
+harley,street,11
+Mr. Murbles,Peter Wimsey,10
+Marjorie,Miss Marjorie Phelps,8
+George,Peter Wimsey,7
+George,Sheila,7
+Miss Ann Dorland,Nurse,7
+Naomi,Naomi Rushworth,7
+Peter Wimsey,Robert,7
+Henry Dormer,Mr. George Fentiman,6
+Mr. George Fentiman,Mr. Oliver,6
+Mr. George Fentiman,Peter,6
+Peter Wimsey,Sheila,6
+Sir James,Sir James Lubbock,6
+Bunter,Peter Wimsey,5
+George,Miss Ann Dorland,5
+Inspector Parker,street,5
+Marchbanks,Peter Wimsey,5
+Salcombe,Salcombe Hardy,5
+Salcombe Hardy,Waffles,5
+Bunter,Mr. Murbles,4
+Dr. Penberthy,Miss Ann Dorland,4
+Dr. Penberthy,Mr. George Fentiman,4
+George,Robert Fentiman,4
+Inspector Parker,Mr. George Fentiman,4
+Inspector Parker,Peter,4
+Miss Ann Dorland,Mr. Pritchard,4
+Miss Ann Dorland,Nellie,4
+Miss Ann Dorland,Nurse Armstrong,4
+Miss Ann Dorland,Robert,4
+Miss Ann Dorland,Robert Fentiman,4
+Mr. George Fentiman,Nurse,4
+Peter Wimsey,Sir James Lubbock,4
+Waffles,Waffles Newton,4
+Ann,Mr. George Fentiman,3
+Charles,Peter Wimsey,3
+Dr. Penberthy,Henry Dormer,3
+Fentimans,George,3
+Henry Dormer,Miss Ann Dorland,3
+Henry Dormer,Peter Wimsey,3
+Inspector Parker,Mr. Murbles,3
+Joe Munns,Peter Wimsey,3
+Marjorie,Miss Ann Dorland,3
+Marjorie,Peter Wimsey,3
+Miss Ann Dorland,Peter,3
+Mr. George Fentiman,Mr. Murbles,3
+Mr. George Fentiman,Woodward,3
+Mr. George Fentiman,street,3
+Mr. Oliver,Peter Wimsey,3
+Peter Wimsey,Robert Fentiman,3
+Peter Wimsey,Woodward,3
+Peter Wimsey,street,3
+Ann,Dr. Penberthy,2
+Bunter,Mr. George Fentiman,2
+Bunter,Peter,2
+Bunter,Woodward,2
+Bunter,cabman,2
+Dr. Penberthy,Inspector Parker,2
+Dr. Penberthy,Mr. Oliver,2
+Dr. Penberthy,harley,2
+Dr. Penberthy,means,2
+Dr. Penberthy,rigor,2
+Dr. Penberthy,street,2
+Felicity,Henry Dormer,2
+Fentimans,Miss Ann Dorland,2
+George,Henry Dormer,2
+Henry Dormer,Mr. Pritchard,2
+Henry Dormer,Robert,2
+Henry Dormer,bart,2
+Inspector Parker,Miss Ann Dorland,2
+Inspector Parker,Robert,2
+Inspector Parker,Salcombe Hardy,2
+Inspector Parker,bar,2
+Jimmy Rowe,Joe Munns,2
+Maddison,Peter Wimsey,2
+Miss Ann Dorland,Walter,2
+Miss Ann Dorland,means,2
+Miss Marjorie Phelps,Peter Wimsey,2
+Mr. Culyer,Mr. George Fentiman,2
+Mr. Culyer,somebody,2
+Mr. George Fentiman,Nellie,2
+Mr. George Fentiman,Nurse Armstrong,2
+Mr. George Fentiman,Sheila,2
+Mr. George Fentiman,Sheila Fentiman,2
+Mr. George Fentiman,fire,2
+Mr. George Fentiman,means,2
+Mr. Murbles,Mr. Oliver,2
+Mr. Murbles,Mr. Pritchard,2
+Mr. Murbles,Peter,2
+Mr. Murbles,Robert,2
+Mr. Murbles,cabman,2
+Mr. Oliver,Oliver Twist,2
+Mr. Oliver,Peter,2
+Mr. Oliver,yell,2
+Mr. Pritchard,Peter Wimsey,2
+Nellie,Nurse,2
+Nellie,Nurse Armstrong,2
+Peter,Sally,2
+Peter,somebody,2
+Peter Wimsey,Salcombe Hardy,2
+Peter Wimsey,bar,2
+Peter Wimsey,god,2
+Peter Wimsey,means,2
+Peter Wimsey,rose,2
+Salcombe Hardy,street,2
+Sheila,Sheila Fentiman,2
+mortis,rigor,2
+rigor,somebody,2
+Ambrose Ledbury,Peter Wimsey,1
+Ann,Henry Dormer,1
+Ann,Inspector Parker,1
+Ann,Marjorie,1
+Ann,Miss Marjorie Phelps,1
+Ann,Mr. Pritchard,1
+Ann,Naomi,1
+Ann,Naomi Rushworth,1
+Ann,Nurse,1
+Ann,Nurse Armstrong,1
+Ann,Peter Wimsey,1
+Ann,Robert,1
+Ann,Robert Fentiman,1
+Ann,Walter,1
+Ann,ma,1
+Anstruther,christmas,1
+Arthur,Arthur Fentiman,1
+Arthur,Felicity,1
+Arthur,Mr. George Fentiman,1
+Arthur Fentiman,Mr. George Fentiman,1
+Babcock,Mr. George Fentiman,1
+Barton,Mr. George Fentiman,1
+Barton,Robert,1
+Bunter,Robert,1
+Bunter,Robert Fentiman,1
+Charles,George,1
+Charles,Isabel Ostrander,1
+Charles,Mr. George Fentiman,1
+Charles,dickens,1
+Charles,hullo,1
+Charles,wallaces,1
+Cook,Palmer,1
+Crippen,Edgar Wallace,1
+Crippen,Le Neve,1
+Dr. Horner,Mr. George Fentiman,1
+Dr. Horner,Sir James,1
+Dr. Horner,Sir James Lubbock,1
+Dr. Penberthy,Father Whittington,1
+Dr. Penberthy,Mr. Swain,1
+Dr. Penberthy,Naomi,1
+Dr. Penberthy,Peter,1
+Dr. Penberthy,Waffles Newton,1
+Dr. Penberthy,dickens,1
+Dr. Penberthy,komski,1
+Dr. Penberthy,somebody,1
+Dykes,Mr. George Fentiman,1
+Edgar Wallace,Le Neve,1
+Felicity,Mr. George Fentiman,1
+Felicity,means,1
+Fennimore,Fenton,1
+Fennimore,e,1
+Fentimans,Mr. George Fentiman,1
+Fentimans,Robert,1
+Fenton,e,1
+Gatti,George,1
+Gatti,Mr. George Fentiman,1
+Gatti,Mr. Oliver,1
+Gatti,Peter Wimsey,1
+Gatti,somebody,1
+George,George Barnwell,1
+George,George Robey,1
+George,Joe Munns,1
+George,Mr. Murbles,1
+George,fire,1
+George,means,1
+George,street,1
+Henry Dormer,Mr. Murbles,1
+Henry Dormer,Peter,1
+Henry Dormer,Salcombe Hardy,1
+Henry Dormer,harley,1
+Henry Dormer,somebody,1
+Henry Dormer,street,1
+Inspector Parker,Mr. Oliver,1
+Inspector Parker,Sally,1
+Inspector Parker,dixon,1
+Inspector Parker,fire,1
+Inspector Parker,glaister,1
+Inspector Parker,harley,1
+Inspector Parker,hullo,1
+Inspector Parker,mann,1
+Inspector Parker,milo,1
+Inspector Parker,taylor,1
+Isabel Ostrander,wallaces,1
+Jerry,god,1
+Jimmy Rowe,Joe,1
+Jimmy Rowe,Peter Wimsey,1
+Joe,Joe Munns,1
+Joe Munns,Sheila,1
+Lady Lubbock,Peter Wimsey,1
+Lady Lubbock,Sir James Lubbock,1
+Le Neve,Peter Wimsey,1
+Marchbanks,Mr. George Fentiman,1
+Marchbanks,Wetheridge,1
+Marjorie,Naomi,1
+Marjorie,Naomi Rushworth,1
+May Sinclair,jones,1
+Miss Ann Dorland,Naomi,1
+Miss Ann Dorland,Naomi Rushworth,1
+Miss Ann Dorland,Peter Wimsey,1
+Miss Ann Dorland,Sir James,1
+Miss Ann Dorland,Sir James Lubbock,1
+Miss Ann Dorland,William,1
+Miss Ann Dorland,harley,1
+Miss Ann Dorland,ma,1
+Miss Ann Dorland,somebody,1
+Miss Ann Dorland,street,1
+Mr. Culyer,Peter,1
+Mr. Culyer,Peter Wimsey,1
+Mr. George Fentiman,Postlethwaite,1
+Mr. George Fentiman,Salcombe Hardy,1
+Mr. George Fentiman,Saunders,1
+Mr. George Fentiman,Sir James Lubbock,1
+Mr. George Fentiman,Tin-Tummy Challoner,1
+Mr. George Fentiman,William,1
+Mr. George Fentiman,bar,1
+Mr. George Fentiman,e,1
+Mr. George Fentiman,somebody,1
+Mr. Hinkins,Mr. Murbles,1
+Mr. Hinkins,harley,1
+Mr. Hinkins,street,1
+Mr. Murbles,Robert Fentiman,1
+Mr. Murbles,fire,1
+Mr. Oliver,Robert,1
+Mr. Oliver,somebody,1
+Mr. Swain,Peter Wimsey,1
+Naomi,Peter,1
+Naomi,Waffles Newton,1
+Naomi,Walter,1
+Natasha,somebody,1
+Nellie,William,1
+Nurse,William,1
+Nurse,street,1
+Nurse Armstrong,street,1
+Peter,Sheila,1
+Peter,Sir James,1
+Peter,Sir James Lubbock,1
+Peter,Woodward,1
+Peter,hullo,1
+Peter,rose,1
+Peter Wimsey,Pontius Pilate,1
+Peter Wimsey,Sir James,1
+Peter Wimsey,Weston,1
+Peter Wimsey,Wetheridge,1
+Peter Wimsey,aristotle,1
+Peter Wimsey,dougal,1
+Peter Wimsey,fire,1
+Peter Wimsey,hullo,1
+Peter Wimsey,judit,1
+Peter Wimsey,mossy,1
+Peter Wimsey,motive,1
+Robert,Salcombe Hardy,1
+Robert,bar,1
+Robert,means,1
+Robert Fentiman,Salcombe Hardy,1
+Salcombe,Waffles,1
+Salcombe,Waffles Newton,1
+Salcombe,god,1
+Salcombe,harley,1
+Salcombe,street,1
+Salcombe Hardy,Sally,1
+Salcombe Hardy,Waffles Newton,1
+Salcombe Hardy,harley,1
+Sheila,hullo,1
+Virginia Woolf,e,1
+Wetheridge,somebody,1
+Woodward,god,1
+bar,street,1
+conan,doyle,1
+conan,queux,1
+dixon,glaister,1
+dixon,mann,1
+dixon,taylor,1
+doyle,queux,1
+fire,somebody,1
+fleming,sayers,1
+glaister,mann,1
+glaister,taylor,1
+macaulay,rose,1
+mann,taylor,1
+napoleon,somebody,1

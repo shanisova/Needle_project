@@ -1,0 +1,8 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Barr,0,0.23984017328013973,25,2,27.0
+Eastwood Rapp,0,0.16740254823545786,0,3,4.0
+Inspector Vance,0,0.05700145009489352,0,1,1.0
+Mr. Diaz Fanning,0,0.08720341530722274,2,3,5.0
+Mrs. Barr Bradbury,1,0.23984017328013973,0,2,27.0
+Smith,0,0.14593488323192472,0,2,3.0
+Washington,0,0.06277735657022143,0,1,1.0

@@ -1,0 +1,190 @@
+char_id,name,story_title
+1,AGATHA CHRISTIE,The Mystery of the Blue Train
+2,CARLOTTA,The Mystery of the Blue Train
+3,PETER,The Mystery of the Blue Train
+4,DEMETRIUS PAPOPOLOUS,The Mystery of the Blue Train
+5,ZIA PAPOPOLOUS,The Mystery of the Blue Train
+6,RUFUS VAN ALDIN,The Mystery of the Blue Train
+7,MAJOR RICHARD KNIGHTON,The Mystery of the Blue Train
+8,RUTH KETTERING,The Mystery of the Blue Train
+9,DEREK KETTERING,The Mystery of the Blue Train
+10,MIRELLE,The Mystery of the Blue Train
+11,KATHERINE GREY,The Mystery of the Blue Train
+12,VISCOUNTESS ROSALIE TAMPLIN,The Mystery of the Blue Train
+13,THE HONORABLE LENOX TAMPLIN,The Mystery of the Blue Train
+14,M. HERCULE POIROT,The Mystery of the Blue Train
+15,ADA MASON,The Mystery of the Blue Train
+16,COMTE ARMAND DE LA ROCHE,The Mystery of the Blue Train
+17,Boris Ivanovitch,The Mystery of the Blue Train
+18,Olga Demiroff,The Mystery of the Blue Train
+19,Brother Apache,The Mystery of the Blue Train
+20,Olga,The Mystery of the Blue Train
+21,Boris,The Mystery of the Blue Train
+22,M. Krassnine,The Mystery of the Blue Train
+23,The American,The Mystery of the Blue Train
+24,Krassnine,The Mystery of the Blue Train
+25,Olga Vassilovna,The Mystery of the Blue Train
+26,Monsieur,The Mystery of the Blue Train
+27,D. Papopolous,The Mystery of the Blue Train
+28,M. le Marquis,The Mystery of the Blue Train
+29,M. Papopolous,The Mystery of the Blue Train
+30,Demetrius,The Mystery of the Blue Train
+31,Zia,The Mystery of the Blue Train
+32,Rufus Van Aldin,The Mystery of the Blue Train
+33,Major Knighton,The Mystery of the Blue Train
+34,Van Aldin,The Mystery of the Blue Train
+35,Knighton,The Mystery of the Blue Train
+36,Colton,The Mystery of the Blue Train
+37,Richard Knighton,The Mystery of the Blue Train
+38,Mrs. Kettering,The Mystery of the Blue Train
+39,Wall Street,The Mystery of the Blue Train
+40,Ruth Kettering,The Mystery of the Blue Train
+41,Derek Kettering,The Mystery of the Blue Train
+42,Carrots and Ginger,The Mystery of the Blue Train
+43,Raphael,The Mystery of the Blue Train
+44,Derek,The Mystery of the Blue Train
+45,Mirelle,The Mystery of the Blue Train
+46,Lord Leconbury,The Mystery of the Blue Train
+47,Ruth,The Mystery of the Blue Train
+48,Mr. Goby,The Mystery of the Blue Train
+49,Mr. Kettering,The Mystery of the Blue Train
+50,Mr. Van Aldin,The Mystery of the Blue Train
+51,Leconbury,The Mystery of the Blue Train
+52,Kettering,The Mystery of the Blue Train
+53,Goby,The Mystery of the Blue Train
+54,Ruthie,The Mystery of the Blue Train
+55,Comte de la Roche,The Mystery of the Blue Train
+56,Armand,The Mystery of the Blue Train
+57,Ambrose,The Mystery of the Blue Train
+58,Anitra,The Mystery of the Blue Train
+59,Dereek,The Mystery of the Blue Train
+60,Dereek Kettering,The Mystery of the Blue Train
+61,Mrs. Samuel Harfield,The Mystery of the Blue Train
+62,Miss Katherine Grey,The Mystery of the Blue Train
+63,Mary Anne Harfield,The Mystery of the Blue Train
+64,Katherine Grey,The Mystery of the Blue Train
+65,Dr. Harrison,The Mystery of the Blue Train
+66,Katherine,The Mystery of the Blue Train
+67,Mrs. Harfield,The Mystery of the Blue Train
+68,doctor,The Mystery of the Blue Train
+69,Doctor Harrison,The Mystery of the Blue Train
+70,Doctor,The Mystery of the Blue Train
+71,Mrs. Harrison,The Mystery of the Blue Train
+72,Polly,The Mystery of the Blue Train
+73,Johnnie,The Mystery of the Blue Train
+74,Lord Charles,The Mystery of the Blue Train
+75,Miss Grey,The Mystery of the Blue Train
+76,Miss Viner,The Mystery of the Blue Train
+77,Jane Harfield,The Mystery of the Blue Train
+78,Alice,The Mystery of the Blue Train
+79,Charlie,The Mystery of the Blue Train
+80,Lady Tamplin,The Mystery of the Blue Train
+81,Rosalie Tamplin,The Mystery of the Blue Train
+82,Viscount Tamplin,The Mystery of the Blue Train
+83,Mr. Charles Evans,The Mystery of the Blue Train
+84,Lenox Tamplin,The Mystery of the Blue Train
+85,Lenox,The Mystery of the Blue Train
+86,her mother,The Mystery of the Blue Train
+87,Samuel Harfield,The Mystery of the Blue Train
+88,Mrs. Samuel,The Mystery of the Blue Train
+89,Mademoiselle,The Mystery of the Blue Train
+90,Virginie,The Mystery of the Blue Train
+91,Pavett,The Mystery of the Blue Train
+92,Mason,The Mystery of the Blue Train
+93,Madame,The Mystery of the Blue Train
+94,Chubby,The Mystery of the Blue Train
+95,Mr. Chubby Evans,The Mystery of the Blue Train
+96,M. Caux,The Mystery of the Blue Train
+97,Commissary,The Mystery of the Blue Train
+98,Hercule Poirot,The Mystery of the Blue Train
+99,Mademoiselle Grey,The Mystery of the Blue Train
+100,M. Poirot,The Mystery of the Blue Train
+101,Madame--er--Mademoiselle Grey,The Mystery of the Blue Train
+102,Poirot,The Mystery of the Blue Train
+103,R. V. K.,The Mystery of the Blue Train
+104,Monsieur le Commissaire,The Mystery of the Blue Train
+105,Pierre Michel,The Mystery of the Blue Train
+106,Mr. Evans,The Mystery of the Blue Train
+107,Gladys Cooper,The Mystery of the Blue Train
+108,Rosalie,The Mystery of the Blue Train
+109,Bartheimers,The Mystery of the Blue Train
+110,Armand de la Roche,The Mystery of the Blue Train
+111,Archer,The Mystery of the Blue Train
+112,Mademoiselle Mirelle,The Mystery of the Blue Train
+113,M. Carrège,The Mystery of the Blue Train
+114,M. Hercule Poirot,The Mystery of the Blue Train
+115,M. Van Aldin,The Mystery of the Blue Train
+116,ason,The Mystery of the Blue Train
+117,The Comte de la Roche,The Mystery of the Blue Train
+118,The Examining Magistrate,The Mystery of the Blue Train
+119,de la Roche,The Mystery of the Blue Train
+120,Madame Kettering,The Mystery of the Blue Train
+121,Mon Dieu,The Mystery of the Blue Train
+122,Comte,The Mystery of the Blue Train
+123,M. Kettering,The Mystery of the Blue Train
+124,"Simulated great grief, I suppose",The Mystery of the Blue Train
+125,"--no--I would not quite say that--eh, M. Carrège?",The Mystery of the Blue Train
+126,M. le Juge,The Mystery of the Blue Train
+127,Monsieur Kettering,The Mystery of the Blue Train
+128,Georges,The Mystery of the Blue Train
+129,Lord Edward Frampton,The Mystery of the Blue Train
+130,George,The Mystery of the Blue Train
+131,Juge d'Instruction,The Mystery of the Blue Train
+132,Count,The Mystery of the Blue Train
+133,Monsieur le Comte,The Mystery of the Blue Train
+134,Monsieur Carrège,The Mystery of the Blue Train
+135,The Count,The Mystery of the Blue Train
+136,Ada Mason,The Mystery of the Blue Train
+137,Caux,The Mystery of the Blue Train
+138,Magistrate,The Mystery of the Blue Train
+139,Louis XV,The Mystery of the Blue Train
+140,Hippolyte,The Mystery of the Blue Train
+141,Marie Antoinette,The Mystery of the Blue Train
+142,Marie,The Mystery of the Blue Train
+143,Mother,The Mystery of the Blue Train
+144,Kingdom,The Mystery of the Blue Train
+145,Arie,The Mystery of the Blue Train
+146,Carrège,The Mystery of the Blue Train
+147,Mademoiselle Zia,The Mystery of the Blue Train
+148,M.,The Mystery of the Blue Train
+149,Papopolous,The Mystery of the Blue Train
+150,Inspector Japp,The Mystery of the Blue Train
+151,Annie,The Mystery of the Blue Train
+152,The Count (Comte de la Roche),The Mystery of the Blue Train
+153,Dr. Crippen,The Mystery of the Blue Train
+154,M. de la Roche,The Mystery of the Blue Train
+155,Ruth Van Aldin,The Mystery of the Blue Train
+156,Marquis,The Mystery of the Blue Train
+157,Lady Mary Fox,The Mystery of the Blue Train
+158,Mademoiselle Papopolous,The Mystery of the Blue Train
+159,Zia Papopolous,The Mystery of the Blue Train
+160,Antonio Pirezzio,The Mystery of the Blue Train
+161,Antonio,The Mystery of the Blue Train
+162,Amelia Viner,The Mystery of the Blue Train
+163,Jane,The Mystery of the Blue Train
+164,Viscountess Tamplin,The Mystery of the Blue Train
+165,Mademoiselle Katherine,The Mystery of the Blue Train
+166,Hippolyte Flavelle,The Mystery of the Blue Train
+167,Marie Flavelle,The Mystery of the Blue Train
+168,M. Poiro,The Mystery of the Blue Train
+169,Monsieur Hercule Poirot,The Mystery of the Blue Train
+170,Tommy Saunders,The Mystery of the Blue Train
+171,Albert Dykes,The Mystery of the Blue Train
+172,Ellen,The Mystery of the Blue Train
+173,Mrs. Jones-Williams,The Mystery of the Blue Train
+174,King Solomon,The Mystery of the Blue Train
+175,Helen,The Mystery of the Blue Train
+176,Mr. Joseph Aarons,The Mystery of the Blue Train
+177,Miss,The Mystery of the Blue Train
+178,Kidd/Kitty Kidd,The Mystery of the Blue Train
+179,Kitty,The Mystery of the Blue Train
+180,Mr. Aarons,The Mystery of the Blue Train
+181,Aarons,The Mystery of the Blue Train
+182,Mademoiselle Lenox,The Mystery of the Blue Train
+183,Monsieur Van Aldin,The Mystery of the Blue Train
+184,Monsieur Poirot,The Mystery of the Blue Train
+185,Monsieur Derek Kettering,The Mystery of the Blue Train
+186,Kitty Kidd,The Mystery of the Blue Train
+187,Monsieur Papopolous,The Mystery of the Blue Train
+188,Miss Lenox Tamplin,The Mystery of the Blue Train
+189,Mary Mead,The Mystery of the Blue Train

@@ -1,0 +1,28 @@
+character1,character2,count
+abbey,grange,8
+Theresa,Theresa Wright,4
+Mary,Miss Mary Fraser,3
+Inspector Stanley Hopkins,Mr. Holmes,2
+Lady Brackenstall,Mary,2
+Lady Brackenstall,Miss Mary Fraser,2
+Lady Brackenstall,Mr. Holmes,2
+Lady Brackenstall,abbey,2
+Lady Brackenstall,grange,2
+Mary,abbey,2
+Mary,grange,2
+Miss Mary Fraser,abbey,2
+Miss Mary Fraser,grange,2
+Mr. Holmes,abbey,2
+Mr. Holmes,grange,2
+Sir Eustace,Sir Eustace Brackenstall,2
+Inspector Stanley Hopkins,abbey,1
+Inspector Stanley Hopkins,grange,1
+Inspector Stanley Hopkins,sherlock,1
+Lady Brackenstall,Sir Eustace,1
+Mary,Mr. Holmes,1
+Mary,Theresa,1
+Mr. Holmes,sherlock,1
+Watson,chiselhurst,1
+Watson,sydenham,1
+abbey,sherlock,1
+grange,sherlock,1

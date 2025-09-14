@@ -1,0 +1,10 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Janet Reginald,0,0.1360557636053514,1,4,5.0
+Jove,0,0.12302592919327415,3,3,5.0
+Richard Ralph,0,0.039796127104513176,0,1,1.0
+Richard Tregellis,0,0.104202091675623,1,3,4.0
+Sherlock,0,0.1111111111111111,0,1,1.0
+Sir Ralph Brunton,1,0.2395530805094717,0,5,10.0
+Vamberry Brunton,0,0.09811582855163561,4,1,4.0
+Watson,0,0.03702895713790891,1,1,1.0
+musgrave,0,0.1111111111111111,0,1,1.0

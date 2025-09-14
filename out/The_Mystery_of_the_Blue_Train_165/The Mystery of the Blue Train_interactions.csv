@@ -1,0 +1,479 @@
+character1,character2,count
+Le,Mason Lyons,33
+Lyons Flavelle Mason,Mason Lyons,32
+Ada,Ada Mirelle,25
+Ada,Kidd Mirelle,25
+Ada Mirelle,Kidd Mirelle,25
+Beatrice Demetrius,Demetrius Viner,24
+Beatrice Demetrius,Viner Demetrius,24
+Demetrius Viner,Viner Demetrius,24
+Lyons le Goby,Mason Lyons,23
+Le,Lyons le Goby,22
+Miss Pavett Kitty,Solomon Pavett,19
+Lyons Flavelle Mason,Solomon,17
+Lyons Thomas Aarons,Mason Lyons,17
+Solomon Cook,Solomon Pavett,17
+Demetrius Viner,Lyons Thomas Aarons,16
+Kettering Joseph,Lyons Flavelle Mason,16
+Lyons Flavelle Mason,Lyons Thomas Aarons,16
+Kettering Joseph,Lyons Thomas Aarons,14
+Lyons Flavelle Mason,Solomon Pavett,14
+Beatrice Demetrius,Mason Lyons,13
+Beatrice Catherine,Lyons Catherine,11
+Beatrice Catherine,Mason Lyons,11
+Beatrice le Marquis,Le,11
+Charlie Aarons,Lyons Thomas Aarons,11
+Lyons Catherine,Mason Lyons,11
+Solomon,Solomon Arthur,11
+Beatrice Demetrius,Lyons Thomas Aarons,10
+Kettering Joseph,Solomon Pavett,10
+Solomon,Solomon Jane,10
+Beatrice Catherine,Lyons Flavelle Mason,7
+Beatrice Demetrius,Lyons Demetrius,7
+Cook Rosalie,Solomon Cook,7
+Cook Rosalie,Solomon Pavett,7
+Lyons Demetrius,Mason Lyons,7
+Solomon,Solomon Pavett,7
+Beatrice,Lyons Flavelle Mason,6
+Beatrice Demetrius,Lyons le Goby,6
+Beatrice Demetrius,Pierre,6
+Cook Rosalie,Ellen,6
+Ellen,Solomon Pavett,6
+Lyons Flavelle Mason,Lyons le Goby,6
+Amelia Darling,Solomon Pavett,5
+Beatrice Demetrius,Kettering Joseph,5
+Beatrice Demetrius,Lyons Flavelle Mason,5
+Cook Rosalie,Kettering Joseph,5
+Cook Rosalie,Miss Pavett Kitty,5
+Hercule Mason,Lyons Flavelle Mason,5
+Kettering Joseph,Kidd Mirelle,5
+Kettering Joseph,Solomon Cook,5
+Lyons Thomas Aarons,Solomon Pavett,5
+Solomon Pavett,m,5
+Ada,Lyons le Goby,4
+Beatrice,Lyons Thomas Aarons,4
+Beatrice,Solomon,4
+Beatrice Demetrius,Kidd Mirelle,4
+Beatrice Demetrius,Miss Pavett Kitty,4
+Charles,Lyons Flavelle Mason,4
+Kidd Mirelle,Lyons le Goby,4
+Lyons Flavelle Mason,Solomon Cook,4
+Lyons Thomas Aarons,Miss Pavett Kitty,4
+antonio,mesdemoiselles,4
+Ada,Anitra Cooper,3
+Ada,Beatrice Demetrius,3
+Ada,Kettering Joseph,3
+Ada Mirelle,Beatrice Demetrius,3
+Ada Mirelle,Kettering Joseph,3
+Ada Mirelle,Lyons le Goby,3
+Aldin,Cook Rosalie,3
+Apache,Miss Pavett Kitty,3
+Beatrice Catherine,Solomon Jane,3
+Beatrice Demetrius,Solomon Pavett,3
+Beatrice le Marquis,Mason Lyons,3
+Beatrice le Marquis,george,3
+Demetrius Viner,Ruth,3
+Ellen,Solomon Cook,3
+Kettering Joseph,Miss Pavett Kitty,3
+Knighton,Knighton Colton,3
+Lyons Flavelle Mason,Solomon Arthur,3
+Lyons Thomas Aarons,Solomon Cook,3
+Lyons Thomas Aarons,Viner Demetrius,3
+Lyons Thomas Aarons,d,3
+Lyons le Goby,Punch,3
+Lyons le Goby,Solomon Pavett,3
+Zia,Zia Rosalie,3
+Ada,Lyons Thomas Aarons,2
+Ada,Mason Lyons,2
+Ada,Pierre,2
+Ambrose,Ambrose Caux,2
+Amelia Darling,Hercule Poirot,2
+Amelia Darling,Kettering Joseph,2
+Anitra Cooper,Lyons Thomas Aarons,2
+Anitra Cooper,Mason Lyons,2
+Apache,Apache Haviland,2
+Apache,Mrs. Somebody Haviland,2
+Apache Haviland,Mrs. Somebody Haviland,2
+Archer,Lyons Thomas Aarons,2
+Beatrice,Beatrice Demetrius,2
+Beatrice,Hippolyte,2
+Beatrice,Pierre,2
+Beatrice Catherine,monsieur,2
+Beatrice Demetrius,Charlie Aarons,2
+Beatrice Demetrius,Le,2
+Beatrice Demetrius,Solomon,2
+Beatrice Demetrius,Solomon Arthur,2
+Beatrice le Marquis,Charles,2
+Beatrice le Marquis,Kettering Joseph,2
+Beatrice le Marquis,Lyons Flavelle Mason,2
+Beatrice le Marquis,Solomon Jane,2
+Charles,george,2
+Charlie Aarons,Demetrius Viner,2
+Charlie Aarons,Kettering Joseph,2
+Cook Rosalie,Lyons Flavelle Mason,2
+Cook Rosalie,Lyons Thomas Aarons,2
+Demetrius Viner,Kettering Joseph,2
+Demetrius Viner,Solomon Arthur,2
+Demetrius Viner,Solomon Pavett,2
+Demetrius Viner,Viner Thomas Aarons,2
+Helen,saunders,2
+Hercule Poirot,Ruthie,2
+Japp,cap,2
+Katherine,Lyons le Goby,2
+Katherine,Punch,2
+Kettering Joseph,Mother Tamplin,2
+Kettering Joseph,Viner Demetrius,2
+Kidd Mirelle,Lyons Flavelle Mason,2
+Kidd Mirelle,Lyons Thomas Aarons,2
+Lyons Flavelle Mason,Solomon Jane,2
+Lyons Flavelle Mason,george,2
+Lyons Thomas Aarons,Lyons le Goby,2
+Lyons Thomas Aarons,Viner Thomas Aarons,2
+Lyons le Goby,Solomon,2
+Lyons le Goby,Solomon Arthur,2
+Marie,Solomon Cook,2
+Mason Lyons,Punch,2
+Miss Pavett Kitty,Mrs. Somebody Haviland,2
+Miss Pavett Kitty,Solomon,2
+Miss Pavett Kitty,Solomon Kitty,2
+Miss Pavett Kitty,m,2
+Mrs. Somebody Haviland,Solomon Pavett,2
+Solomon,Solomon Kitty,2
+Solomon,d,2
+Ada,Miss Pavett Kitty,1
+Ada,Solomon Pavett,1
+Ada Mirelle,Anitra Cooper,1
+Ada Mirelle,Miss Pavett Kitty,1
+Ada Mirelle,Pierre,1
+Ada Mirelle,Solomon Pavett,1
+Alice,Demetrius Viner,1
+Alice,Lyons Thomas Aarons,1
+Amelia Darling,Ruthie,1
+Anitra Cooper,Kidd Mirelle,1
+Annie,Lyons le Goby,1
+Annie,Olga,1
+Apache,d,1
+Apache Haviland,d,1
+Archer,Charlie Aarons,1
+Beatrice,Beatrice Catherine,1
+Beatrice,Charlie Aarons,1
+Beatrice,Crippen Catherine,1
+Beatrice,Demetrius Viner,1
+Beatrice,Kettering Joseph,1
+Beatrice,Kidd Mirelle,1
+Beatrice,Le,1
+Beatrice,Lyons le Goby,1
+Beatrice,Martin Tamplin,1
+Beatrice,Mason Lyons,1
+Beatrice,Miss Pavett Kitty,1
+Beatrice,Mother Tamplin,1
+Beatrice,Rufus,1
+Beatrice,Rufus Thomas Aarons,1
+Beatrice,Ruth,1
+Beatrice,Solomon Arthur,1
+Beatrice,Solomon Jane,1
+Beatrice,Solomon Pavett,1
+Beatrice,Viner Demetrius,1
+Beatrice,Zia,1
+Beatrice,Zia Catherine,1
+Beatrice,Zia Rosalie,1
+Beatrice,johnnie,1
+Beatrice,lenox,1
+Beatrice,monsieur,1
+Beatrice Catherine,Beatrice Demetrius,1
+Beatrice Catherine,Beatrice le Marquis,1
+Beatrice Catherine,Charlie Aarons,1
+Beatrice Catherine,Crippen Catherine,1
+Beatrice Catherine,Demetrius Viner,1
+Beatrice Catherine,Kettering Joseph,1
+Beatrice Catherine,Kidd Mirelle,1
+Beatrice Catherine,Lyons Thomas Aarons,1
+Beatrice Catherine,Martin Tamplin,1
+Beatrice Catherine,Miss Pavett Kitty,1
+Beatrice Catherine,Mother Tamplin,1
+Beatrice Catherine,Rufus,1
+Beatrice Catherine,Rufus Thomas Aarons,1
+Beatrice Catherine,Ruth,1
+Beatrice Catherine,Solomon,1
+Beatrice Catherine,Solomon Arthur,1
+Beatrice Catherine,Solomon Catherine,1
+Beatrice Catherine,Solomon Pavett,1
+Beatrice Catherine,Viner Demetrius,1
+Beatrice Catherine,Zia,1
+Beatrice Catherine,Zia Catherine,1
+Beatrice Catherine,Zia Rosalie,1
+Beatrice Catherine,johnnie,1
+Beatrice Catherine,lenox,1
+Beatrice Demetrius,Crippen Catherine,1
+Beatrice Demetrius,Goby Galbraith,1
+Beatrice Demetrius,Hercule Poirot,1
+Beatrice Demetrius,Martin Tamplin,1
+Beatrice Demetrius,Mother Tamplin,1
+Beatrice Demetrius,Rufus,1
+Beatrice Demetrius,Rufus Thomas Aarons,1
+Beatrice Demetrius,Ruth,1
+Beatrice Demetrius,Zia,1
+Beatrice Demetrius,Zia Catherine,1
+Beatrice Demetrius,Zia Rosalie,1
+Beatrice Demetrius,johnnie,1
+Beatrice Demetrius,lenox,1
+Beatrice Demetrius,monsieur,1
+Beatrice le Marquis,Mother Tamplin,1
+Beatrice le Marquis,Solomon,1
+Charlie Aarons,Crippen Catherine,1
+Charlie Aarons,Martin Tamplin,1
+Charlie Aarons,Miss Pavett Kitty,1
+Charlie Aarons,Mother Tamplin,1
+Charlie Aarons,Rufus,1
+Charlie Aarons,Rufus Thomas Aarons,1
+Charlie Aarons,Ruth,1
+Charlie Aarons,Solomon Arthur,1
+Charlie Aarons,Solomon Pavett,1
+Charlie Aarons,Viner Demetrius,1
+Charlie Aarons,Viner Thomas Aarons,1
+Charlie Aarons,Zia,1
+Charlie Aarons,Zia Catherine,1
+Charlie Aarons,Zia Rosalie,1
+Charlie Aarons,johnnie,1
+Charlie Aarons,lenox,1
+Charlie Aarons,monsieur,1
+Christie,Madonna,1
+Claud,Polly,1
+Claud,Solomon Pavett,1
+Claud,policier,1
+Cook Rosalie,Victoria Papa,1
+Crippen Catherine,Demetrius Viner,1
+Crippen Catherine,Kettering Joseph,1
+Crippen Catherine,Lyons Thomas Aarons,1
+Crippen Catherine,Martin Tamplin,1
+Crippen Catherine,Miss Pavett Kitty,1
+Crippen Catherine,Mother Tamplin,1
+Crippen Catherine,Rufus,1
+Crippen Catherine,Rufus Thomas Aarons,1
+Crippen Catherine,Ruth,1
+Crippen Catherine,Solomon Arthur,1
+Crippen Catherine,Solomon Pavett,1
+Crippen Catherine,Viner Demetrius,1
+Crippen Catherine,Zia,1
+Crippen Catherine,Zia Catherine,1
+Crippen Catherine,Zia Rosalie,1
+Crippen Catherine,johnnie,1
+Crippen Catherine,lenox,1
+Crippen Catherine,monsieur,1
+Cuthbertson Agatha,Roche Carrots,1
+Demetrius Viner,Goby Galbraith,1
+Demetrius Viner,Hercule Poirot,1
+Demetrius Viner,Kidd Mirelle,1
+Demetrius Viner,Lyons le Goby,1
+Demetrius Viner,Martin Tamplin,1
+Demetrius Viner,Mason Lyons,1
+Demetrius Viner,Miss Pavett Kitty,1
+Demetrius Viner,Mother Tamplin,1
+Demetrius Viner,Olga,1
+Demetrius Viner,Rufus,1
+Demetrius Viner,Rufus Thomas Aarons,1
+Demetrius Viner,Zia,1
+Demetrius Viner,Zia Catherine,1
+Demetrius Viner,Zia Rosalie,1
+Demetrius Viner,d,1
+Demetrius Viner,johnnie,1
+Demetrius Viner,lenox,1
+Demetrius Viner,monsieur,1
+Ellen,Miss Pavett Kitty,1
+Ellen,Mr. Ellen Georges,1
+Fox,Miss Pavett Kitty,1
+Fox,d,1
+Fox,m,1
+Goby Galbraith,Hercule Poirot,1
+Goby Galbraith,Kidd Mirelle,1
+Goby Galbraith,Lyons le Goby,1
+Goby Galbraith,Viner Demetrius,1
+Helen,d,1
+Hercule Poirot,Kidd Mirelle,1
+Hercule Poirot,Lyons le Goby,1
+Hercule Poirot,Miss Pavett Kitty,1
+Hercule Poirot,Viner Demetrius,1
+Hippolyte,Lyons Flavelle Mason,1
+Katherine,Katherine Marcelle,1
+Katherine,Mason Lyons,1
+Katherine,Solomon,1
+Katherine Marcelle,Lyons le Goby,1
+Kettering Joseph,Le,1
+Kettering Joseph,Martin Tamplin,1
+Kettering Joseph,Mason Lyons,1
+Kettering Joseph,Rufus,1
+Kettering Joseph,Rufus Thomas Aarons,1
+Kettering Joseph,Ruth,1
+Kettering Joseph,Solomon,1
+Kettering Joseph,Solomon Arthur,1
+Kettering Joseph,Zia,1
+Kettering Joseph,Zia Catherine,1
+Kettering Joseph,Zia Rosalie,1
+Kettering Joseph,d,1
+Kettering Joseph,johnnie,1
+Kettering Joseph,lenox,1
+Kettering Joseph,m,1
+Kettering Joseph,monsieur,1
+Kidd Mirelle,Lyons Catherine,1
+Kidd Mirelle,Mason Lyons,1
+Kidd Mirelle,Miss Pavett Kitty,1
+Kidd Mirelle,Pierre,1
+Kidd Mirelle,Solomon Pavett,1
+Kidd Mirelle,Viner Demetrius,1
+Kidd Mirelle,krassnine,1
+Knighton,Knighton Vassilovna,1
+Le,Lyons Flavelle Mason,1
+Le,Solomon Jane,1
+Lyons Catherine,Lyons Flavelle Mason,1
+Lyons Catherine,Solomon Jane,1
+Lyons Flavelle Mason,Miss Pavett Kitty,1
+Lyons Flavelle Mason,Pierre,1
+Lyons Flavelle Mason,Solomon Kitty,1
+Lyons Flavelle Mason,Stilton Mason,1
+Lyons Thomas Aarons,Martin Tamplin,1
+Lyons Thomas Aarons,Mother Tamplin,1
+Lyons Thomas Aarons,Rufus,1
+Lyons Thomas Aarons,Rufus Thomas Aarons,1
+Lyons Thomas Aarons,Ruth,1
+Lyons Thomas Aarons,Solomon Arthur,1
+Lyons Thomas Aarons,Zia,1
+Lyons Thomas Aarons,Zia Catherine,1
+Lyons Thomas Aarons,Zia Rosalie,1
+Lyons Thomas Aarons,cap,1
+Lyons Thomas Aarons,dereek,1
+Lyons Thomas Aarons,dykes,1
+Lyons Thomas Aarons,johnnie,1
+Lyons Thomas Aarons,lenox,1
+Lyons Thomas Aarons,m,1
+Lyons Thomas Aarons,monsieur,1
+Lyons le Goby,Olga,1
+Lyons le Goby,Viner Demetrius,1
+Lyons le Goby,d,1
+Madonna,Solomon Pavett,1
+Madonna,leconbury,1
+Martin Tamplin,Miss Pavett Kitty,1
+Martin Tamplin,Mother Tamplin,1
+Martin Tamplin,Rufus,1
+Martin Tamplin,Rufus Thomas Aarons,1
+Martin Tamplin,Ruth,1
+Martin Tamplin,Solomon Arthur,1
+Martin Tamplin,Solomon Pavett,1
+Martin Tamplin,Viner Demetrius,1
+Martin Tamplin,Zia,1
+Martin Tamplin,Zia Catherine,1
+Martin Tamplin,Zia Rosalie,1
+Martin Tamplin,johnnie,1
+Martin Tamplin,lenox,1
+Martin Tamplin,monsieur,1
+Mason Lyons,Miss Pavett Kitty,1
+Mason Lyons,Pierre,1
+Mason Lyons,Solomon,1
+Mason Lyons,Solomon Arthur,1
+Mason Lyons,Solomon Jane,1
+Mason Lyons,Solomon Pavett,1
+Mason Lyons,Viner Demetrius,1
+Mason Lyons,cap,1
+Michel,Solomon Arthur,1
+Miss Pavett Kitty,Mother Tamplin,1
+Miss Pavett Kitty,Rufus,1
+Miss Pavett Kitty,Rufus Thomas Aarons,1
+Miss Pavett Kitty,Ruth,1
+Miss Pavett Kitty,Solomon Arthur,1
+Miss Pavett Kitty,Victoria Papa,1
+Miss Pavett Kitty,Viner Demetrius,1
+Miss Pavett Kitty,Zia,1
+Miss Pavett Kitty,Zia Catherine,1
+Miss Pavett Kitty,Zia Rosalie,1
+Miss Pavett Kitty,cap,1
+Miss Pavett Kitty,d,1
+Miss Pavett Kitty,johnnie,1
+Miss Pavett Kitty,lenox,1
+Miss Pavett Kitty,monsieur,1
+Mother Tamplin,Rufus,1
+Mother Tamplin,Rufus Thomas Aarons,1
+Mother Tamplin,Ruth,1
+Mother Tamplin,Solomon Arthur,1
+Mother Tamplin,Solomon Pavett,1
+Mother Tamplin,Viner Demetrius,1
+Mother Tamplin,Zia,1
+Mother Tamplin,Zia Catherine,1
+Mother Tamplin,Zia Rosalie,1
+Mother Tamplin,johnnie,1
+Mother Tamplin,lenox,1
+Mother Tamplin,monsieur,1
+Mr. Ellen Georges,Solomon Cook,1
+Mrs. Somebody Haviland,d,1
+Pierre,Solomon,1
+Polly,policier,1
+Rufus,Rufus Thomas Aarons,1
+Rufus,Ruth,1
+Rufus,Solomon Arthur,1
+Rufus,Solomon Pavett,1
+Rufus,Viner Demetrius,1
+Rufus,Zia,1
+Rufus,Zia Catherine,1
+Rufus,Zia Rosalie,1
+Rufus,johnnie,1
+Rufus,lenox,1
+Rufus,monsieur,1
+Rufus Thomas Aarons,Ruth,1
+Rufus Thomas Aarons,Solomon Arthur,1
+Rufus Thomas Aarons,Solomon Pavett,1
+Rufus Thomas Aarons,Viner Demetrius,1
+Rufus Thomas Aarons,Zia,1
+Rufus Thomas Aarons,Zia Catherine,1
+Rufus Thomas Aarons,Zia Rosalie,1
+Rufus Thomas Aarons,johnnie,1
+Rufus Thomas Aarons,lenox,1
+Rufus Thomas Aarons,monsieur,1
+Ruth,Solomon Arthur,1
+Ruth,Solomon Pavett,1
+Ruth,Viner Demetrius,1
+Ruth,Zia,1
+Ruth,Zia Catherine,1
+Ruth,Zia Rosalie,1
+Ruth,johnnie,1
+Ruth,lenox,1
+Ruth,monsieur,1
+Solomon,Solomon Catherine,1
+Solomon,Solomon Cook,1
+Solomon Arthur,Solomon Pavett,1
+Solomon Arthur,Viner Demetrius,1
+Solomon Arthur,Zia,1
+Solomon Arthur,Zia Catherine,1
+Solomon Arthur,Zia Rosalie,1
+Solomon Arthur,johnnie,1
+Solomon Arthur,lenox,1
+Solomon Arthur,monsieur,1
+Solomon Cook,Zia,1
+Solomon Cook,Zia Rosalie,1
+Solomon Pavett,Viner Demetrius,1
+Solomon Pavett,Zia,1
+Solomon Pavett,Zia Catherine,1
+Solomon Pavett,Zia Rosalie,1
+Solomon Pavett,johnnie,1
+Solomon Pavett,lenox,1
+Solomon Pavett,monsieur,1
+Viner Demetrius,Zia,1
+Viner Demetrius,Zia Catherine,1
+Viner Demetrius,Zia Rosalie,1
+Viner Demetrius,johnnie,1
+Viner Demetrius,lenox,1
+Viner Demetrius,monsieur,1
+Zia,Zia Catherine,1
+Zia,johnnie,1
+Zia,lenox,1
+Zia,monsieur,1
+Zia Catherine,Zia Rosalie,1
+Zia Catherine,johnnie,1
+Zia Catherine,lenox,1
+Zia Catherine,monsieur,1
+Zia Rosalie,johnnie,1
+Zia Rosalie,lenox,1
+Zia Rosalie,monsieur,1
+d,m,1
+d,saunders,1
+dereek,dykes,1
+johnnie,lenox,1
+johnnie,monsieur,1
+lenox,monsieur,1

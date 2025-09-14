@@ -1,0 +1,380 @@
+character1,character2,count
+Aadil Sharman Surbhi,Sharman,66
+Aadil Madhuri Chaitanya,Madhuri,36
+Aadil,Aadil Madhuri Chaitanya,32
+Aadil Sharman Surbhi,Tanvi,24
+Aadil Sharman Surbhi,Tanvi Surbhi,24
+Tanvi,Tanvi Surbhi,24
+Aadil,Krish,21
+Anjali Sania,Miss Sania Gauri,19
+Aadil Madhuri Chaitanya,Anjali,18
+Aadil Madhuri Chaitanya,Shabana Muskaan,16
+Anjali Sania,Ishaan,16
+Aadil,Aadil Tejasswi Prerna,15
+Aadil Madhuri Chaitanya,Aadil Tejasswi Prerna,15
+Aadil Tejasswi Prerna,Tanvi,15
+Aadil Tejasswi Prerna,Shabana Muskaan,13
+Aadil,Aadil Sharman Surbhi,12
+Aadil Madhuri Chaitanya,Anjali Sania,12
+Aadil Tejasswi Prerna,Ritesh,11
+Aadil Tejasswi Prerna,Ritesh Prerna,11
+Anjali Sania,Shabana Muskaan,11
+Ritesh,Ritesh Prerna,11
+Anjali,Anjali Chitrangada,10
+Anjali,Anjali Sania,10
+Aadil,Aadil Rajat,9
+Aadil,Anjali Rajat,9
+Aadil Rajat,Anjali Rajat,9
+Aadil Sharman Surbhi,Aadil Tejasswi Prerna,9
+Ishaan,Pallavi Sonam,9
+Anjali,Anjali Ranjan,8
+Anjali Sania,Pallavi Sonam,8
+Aadil Madhuri Chaitanya,Anjali Rajat,7
+Aadil Madhuri Chaitanya,Krish,7
+Krish,Sharman,7
+Aadil Sharman Surbhi,Parth,6
+Akshay,Pallavi Sonam,6
+Pallavi Sonam,Shabana Muskaan,6
+Pritam,Pritam Payal,6
+Aadil Madhuri Chaitanya,Aadil Sharman Surbhi,5
+Aadil Madhuri Chaitanya,Gopika,5
+Aadil Sharman Surbhi,Krish,5
+Aadil Sharman Surbhi,Shabana Muskaan,5
+Aadil Tejasswi Prerna,Anjali Sania,5
+Aadil Tejasswi Prerna,Sharman,5
+Akshay,Anjali Sania,5
+Anjali Sania,Miss Lakshya,5
+Anjali Sania,Sharman,5
+Ishaan,Ishaan Sonam,5
+Ishaan,Shabana Muskaan,5
+Ishaan Sonam,Pallavi Sonam,5
+Miss Sania Gauri,Pallavi Sonam,5
+Shabana Muskaan,Sharman,5
+Aadil Madhuri Chaitanya,Ishaan,4
+Aadil Sharman Surbhi,Miss Sania Gauri,4
+Aadil Tejasswi Prerna,Gopika,4
+Anjali,Gopika,4
+Anjali Sania,Krish,4
+Pallavi,Pallavi Sonam,4
+Pallavi Sonam,Sharman,4
+Shabana Muskaan,Tabu Abhishek,4
+Aadil Madhuri Chaitanya,Anjali Chitrangada,3
+Aadil Madhuri Chaitanya,Shilpa,3
+Aadil Sharman Surbhi,Anjali Sania,3
+Aadil Sharman Surbhi,Tabu Abhishek,3
+Aadil Tejasswi Prerna,Ishaan,3
+Aadil Tejasswi Prerna,Miss Sania Gauri,3
+Aadil Tejasswi Prerna,Pallavi Sonam,3
+Aadil Tejasswi Prerna,Tanvi Surbhi,3
+Anjali Chitrangada,Krish,3
+Anjali Rajat,Anjali Ranjan,3
+Krish,Tabu Abhishek,3
+Krish,Tushar,3
+Miss Sania Gauri,Shabana Muskaan,3
+Miss Sania Gauri,Sharman,3
+Miss Sania Gauri,Vikas,3
+Pallavi Sonam,Yami,3
+Shakuntala,Tanvi,3
+Shriman,Shriman Sidharth,3
+Aadil,Madhuri,2
+Aadil,Tushar,2
+Aadil Madhuri Chaitanya,Anjali Ranjan,2
+Aadil Madhuri Chaitanya,Ishaan Sonam,2
+Aadil Madhuri Chaitanya,Pallavi Sonam,2
+Aadil Madhuri Chaitanya,Sharman,2
+Aadil Sharman Surbhi,Anjali,2
+Aadil Sharman Surbhi,Anjali Chitrangada,2
+Aadil Sharman Surbhi,Gopika,2
+Aadil Sharman Surbhi,Ritesh,2
+Aadil Sharman Surbhi,Ritesh Prerna,2
+Aadil Tejasswi Prerna,Akanksha,2
+Aadil Tejasswi Prerna,Krish,2
+Aadil Tejasswi Prerna,Tabu Abhishek,2
+Aadil Tejasswi Prerna,Tanvi Tejasswi Prerna,2
+Akshay,Ishaan,2
+Anjali,Anjali Gauri,2
+Anjali,Krish,2
+Anjali,Miss Sania Gauri,2
+Anjali Chitrangada,Sharman,2
+Anjali Chitrangada,Tanvi,2
+Anjali Gauri,Miss Sania Gauri,2
+Anjali Ranjan,Gopika,2
+Anjali Sania,Doctor Monali,2
+Anjali Sania,Madhuri,2
+Anjali Sania,Mrs. Siddharth Ruchi,2
+Anjali Sania,Tanvi,2
+Chiranjeevi,Krish,2
+Chiranjeevi,Tushar,2
+Dharmendra,Ranveer,2
+Gopika,Nitin,2
+Gopika,Parth,2
+Ishaan Sonam,Shabana Muskaan,2
+Kajol,Kiara,2
+Leena,Vinay,2
+Miss Lakshya,Ranveer,2
+Miss Lakshya,Shabana Muskaan,2
+Miss Sania Gauri,Mrs. Siddharth Ruchi,2
+Mrs. Siddharth Ruchi,Vikas,2
+Navya Rohit,Pallavi Sonam,2
+Parth,Ronit,2
+Ritesh,Shabana Muskaan,2
+Ritesh,Sharman,2
+Ritesh,Tanvi,2
+Ritesh Prerna,Shabana Muskaan,2
+Ritesh Prerna,Sharman,2
+Ritesh Prerna,Tanvi,2
+Shabana Muskaan,Tanvi,2
+Shabana Muskaan,Tanvi Surbhi,2
+Sharman,Tabu Abhishek,2
+Sharman,Tanvi,2
+Sharman,Urmila,2
+Tanmay,Tanmay Amol,2
+Tanvi,Tanvi Tejasswi Prerna,2
+Aadil,Anjali,1
+Aadil,Anjali Chitrangada,1
+Aadil,Anjali Ranjan,1
+Aadil,Anjali Sania,1
+Aadil,Chiranjeevi,1
+Aadil,Gopika,1
+Aadil,Miss Sania Gauri,1
+Aadil,Parth,1
+Aadil,Pritam,1
+Aadil,Pritam Payal,1
+Aadil,Shabana Muskaan,1
+Aadil,Sharman,1
+Aadil,Tabu Abhishek,1
+Aadil,Tanvi,1
+Aadil,Tanvi Surbhi,1
+Aadil Madhuri Chaitanya,Aadil Rajat,1
+Aadil Madhuri Chaitanya,Anjali Gauri,1
+Aadil Madhuri Chaitanya,Kiran,1
+Aadil Madhuri Chaitanya,Leena,1
+Aadil Madhuri Chaitanya,Maanvi,1
+Aadil Madhuri Chaitanya,Miss Sania Gauri,1
+Aadil Madhuri Chaitanya,Nitin,1
+Aadil Madhuri Chaitanya,Parth,1
+Aadil Madhuri Chaitanya,Tabu Abhishek,1
+Aadil Madhuri Chaitanya,Vinay,1
+Aadil Rajat,Anjali Ranjan,1
+Aadil Rajat,Tabu Abhishek,1
+Aadil Sharman Surbhi,Anjali Rajat,1
+Aadil Sharman Surbhi,Asha,1
+Aadil Sharman Surbhi,Asha Rajat,1
+Aadil Sharman Surbhi,Krish Nidhi,1
+Aadil Sharman Surbhi,Mithun,1
+Aadil Sharman Surbhi,Pallavi,1
+Aadil Sharman Surbhi,Pallavi Sonam,1
+Aadil Sharman Surbhi,Shakuntala,1
+Aadil Sharman Surbhi,Shikha,1
+Aadil Tejasswi Prerna,Anjali Chitrangada,1
+Aadil Tejasswi Prerna,Anjali Rajat,1
+Aadil Tejasswi Prerna,Asha,1
+Aadil Tejasswi Prerna,Asha Rajat,1
+Aadil Tejasswi Prerna,Dhruv,1
+Aadil Tejasswi Prerna,Ishaan Sonam,1
+Aadil Tejasswi Prerna,Mithun,1
+Aadil Tejasswi Prerna,Pallavi,1
+Aadil Tejasswi Prerna,Pritam,1
+Aadil Tejasswi Prerna,Pritam Payal,1
+Aadil Tejasswi Prerna,Sameera,1
+Aadil Tejasswi Prerna,Shakuntala,1
+Aadil Tejasswi Prerna,Shikha,1
+Aadil Tejasswi Prerna,Varun,1
+Abhay,Tanisha,1
+Akanksha,Ritesh,1
+Akanksha,Ritesh Prerna,1
+Akshay,Miss Sania Gauri,1
+Akshay,Mr. Kuldeep Divya,1
+Anaya,Anjali Chitrangada,1
+Anil,Anil Esha,1
+Anjali,Anjali Rajat,1
+Anjali,Chiranjeevi,1
+Anjali,Ishaan,1
+Anjali,Madhuri,1
+Anjali,Parth,1
+Anjali,Shabana Muskaan,1
+Anjali,Sharman,1
+Anjali Chitrangada,Anjali Rajat,1
+Anjali Chitrangada,Anjali Sania,1
+Anjali Chitrangada,Asha,1
+Anjali Chitrangada,Asha Rajat,1
+Anjali Chitrangada,Gopika,1
+Anjali Chitrangada,Madhuri,1
+Anjali Chitrangada,Miss Sania Gauri,1
+Anjali Chitrangada,Mithun,1
+Anjali Chitrangada,Pallavi,1
+Anjali Chitrangada,Pallavi Sonam,1
+Anjali Chitrangada,Ritesh,1
+Anjali Chitrangada,Ritesh Prerna,1
+Anjali Chitrangada,Shabana Muskaan,1
+Anjali Chitrangada,Shakuntala,1
+Anjali Chitrangada,Shikha,1
+Anjali Chitrangada,Tanvi Surbhi,1
+Anjali Rajat,Anjali Sania,1
+Anjali Rajat,Asha,1
+Anjali Rajat,Asha Rajat,1
+Anjali Rajat,Gopika,1
+Anjali Rajat,Madhuri,1
+Anjali Rajat,Miss Sania Gauri,1
+Anjali Rajat,Mithun,1
+Anjali Rajat,Pallavi,1
+Anjali Rajat,Pallavi Sonam,1
+Anjali Rajat,Ritesh,1
+Anjali Rajat,Ritesh Prerna,1
+Anjali Rajat,Shabana Muskaan,1
+Anjali Rajat,Shakuntala,1
+Anjali Rajat,Sharman,1
+Anjali Rajat,Shikha,1
+Anjali Rajat,Tabu Abhishek,1
+Anjali Rajat,Tanvi,1
+Anjali Rajat,Tanvi Surbhi,1
+Anjali Sania,Asha,1
+Anjali Sania,Asha Rajat,1
+Anjali Sania,Gopika,1
+Anjali Sania,Mithun,1
+Anjali Sania,Mukesh,1
+Anjali Sania,Pallavi,1
+Anjali Sania,Ritesh,1
+Anjali Sania,Ritesh Prerna,1
+Anjali Sania,Shakuntala,1
+Anjali Sania,Shikha,1
+Anjali Sania,Tabu Abhishek,1
+Anjali Sania,Tanisha,1
+Anjali Sania,Tanvi Surbhi,1
+Aparna,Rajkummar,1
+Asha,Asha Rajat,1
+Asha,Gopika,1
+Asha,Miss Sania Gauri,1
+Asha,Mithun,1
+Asha,Pallavi,1
+Asha,Pallavi Sonam,1
+Asha,Ritesh,1
+Asha,Ritesh Prerna,1
+Asha,Shabana Muskaan,1
+Asha,Shakuntala,1
+Asha,Sharman,1
+Asha,Shikha,1
+Asha,Tanvi,1
+Asha,Tanvi Surbhi,1
+Asha Rajat,Gopika,1
+Asha Rajat,Miss Sania Gauri,1
+Asha Rajat,Mithun,1
+Asha Rajat,Pallavi,1
+Asha Rajat,Pallavi Sonam,1
+Asha Rajat,Ritesh,1
+Asha Rajat,Ritesh Prerna,1
+Asha Rajat,Shabana Muskaan,1
+Asha Rajat,Shakuntala,1
+Asha Rajat,Sharman,1
+Asha Rajat,Shikha,1
+Asha Rajat,Tanvi,1
+Asha Rajat,Tanvi Surbhi,1
+Bhumi,Shabana Muskaan,1
+Chiranjeevi,Chiranjeevi Bandita,1
+Chiranjeevi Bandita,Krish,1
+Dharmendra,Miss Lakshya,1
+Dhruv,Varun,1
+Disha,Krish,1
+Disha,Shalini,1
+Gopika,Krish,1
+Gopika,Madhuri,1
+Gopika,Miss Sania Gauri,1
+Gopika,Mithun,1
+Gopika,Pallavi,1
+Gopika,Pallavi Sonam,1
+Gopika,Ritesh,1
+Gopika,Ritesh Prerna,1
+Gopika,Shabana Muskaan,1
+Gopika,Shakuntala,1
+Gopika,Sharman,1
+Gopika,Shikha,1
+Gopika,Tabu Abhishek,1
+Gopika,Tanvi,1
+Gopika,Tanvi Surbhi,1
+Hema,Kajol,1
+Hema,Kiara,1
+Ishaan,Karan,1
+Ishaan,Mr. Kuldeep Divya,1
+Ishaan,Pallavi,1
+Ishaan,Sharman,1
+Kiran,Miss Lakshya,1
+Kiran,Neerja,1
+Kiran,Nushrat,1
+Krish,Krish Nidhi,1
+Krish,Ronit,1
+Krish,Shalini,1
+Krish,Tanvi,1
+Krish,Tanvi Surbhi,1
+Krish Nidhi,Tabu Abhishek,1
+Krish Nidhi,Tanvi,1
+Krish Nidhi,Tanvi Surbhi,1
+Leena,Shilpa,1
+Madhuri,Shabana Muskaan,1
+Madhuri,Tabu Abhishek,1
+Miss Sania Gauri,Mithun,1
+Miss Sania Gauri,Navya Rohit,1
+Miss Sania Gauri,Neeraj,1
+Miss Sania Gauri,Pallavi,1
+Miss Sania Gauri,Ranveer,1
+Miss Sania Gauri,Ritesh,1
+Miss Sania Gauri,Ritesh Prerna,1
+Miss Sania Gauri,Shakuntala,1
+Miss Sania Gauri,Shikha,1
+Miss Sania Gauri,Tabu Abhishek,1
+Miss Sania Gauri,Tanvi,1
+Miss Sania Gauri,Tanvi Surbhi,1
+Mithun,Pallavi,1
+Mithun,Pallavi Sonam,1
+Mithun,Ritesh,1
+Mithun,Ritesh Prerna,1
+Mithun,Shabana Muskaan,1
+Mithun,Shakuntala,1
+Mithun,Sharman,1
+Mithun,Shikha,1
+Mithun,Tanvi,1
+Mithun,Tanvi Surbhi,1
+Neetu,Ranjit,1
+Pallavi,Ritesh,1
+Pallavi,Ritesh Prerna,1
+Pallavi,Shabana Muskaan,1
+Pallavi,Shakuntala,1
+Pallavi,Sharman,1
+Pallavi,Shikha,1
+Pallavi,Tanvi,1
+Pallavi,Tanvi Surbhi,1
+Pallavi Sonam,Ritesh,1
+Pallavi Sonam,Ritesh Prerna,1
+Pallavi Sonam,Shakuntala,1
+Pallavi Sonam,Shikha,1
+Pallavi Sonam,Tanvi,1
+Pallavi Sonam,Tanvi Surbhi,1
+Parth,Tabu Abhishek,1
+Pritam,Tabu Abhishek,1
+Pritam Payal,Tabu Abhishek,1
+Ritesh,Shakuntala,1
+Ritesh,Shikha,1
+Ritesh,Tanvi Surbhi,1
+Ritesh,Tanvi Tejasswi Prerna,1
+Ritesh Prerna,Shakuntala,1
+Ritesh Prerna,Shikha,1
+Ritesh Prerna,Tanvi Surbhi,1
+Ritesh Prerna,Tanvi Tejasswi Prerna,1
+Ronit,Sharman,1
+Saira Alia,Vinita Neelam,1
+Sameera,Tanvi,1
+Shabana Muskaan,Shakuntala,1
+Shabana Muskaan,Shikha,1
+Shabana Muskaan,Shruti Sahil,1
+Shakuntala,Sharman,1
+Shakuntala,Shikha,1
+Shakuntala,Tanvi Surbhi,1
+Shalini,Tanvi,1
+Sharman,Shikha,1
+Sharman,Tanvi Surbhi,1
+Shikha,Tanvi,1
+Shikha,Tanvi Surbhi,1
+Shilpa,Vinay,1
+Tabu Abhishek,Tabu Roshan,1
+Tabu Abhishek,Tanvi,1
+Tabu Abhishek,Tanvi Surbhi,1
+Tanisha,Urmila,1

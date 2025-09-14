@@ -1,0 +1,5 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Billy,0,0.25,0,1,1.0
+Dr. Seddar,0,0.25,0,1,3.0
+Mr. Sylvius,0,0.25,0,1,3.0
+Negretto Tussaud,0,0.25,0,1,1.0

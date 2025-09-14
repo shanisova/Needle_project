@@ -1,0 +1,493 @@
+character1,character2,count
+General,Major Shilpa Alok,91
+General,General Alok,89
+General Alok,Major Shilpa Alok,89
+Lord,Lord Bhumi,73
+Bar Shilpa,Major Shilpa Alok,43
+Captain Gaurav,Major Shilpa Alok,40
+Major,Major Shilpa Alok,39
+Captain Gaurav,Gaurav Alok,35
+Gaurav Alok,Major Shilpa Alok,35
+Miss Mrunal Kavya,Mrunal,29
+Lord,Lord Bhumi Swara,22
+Lord Bhumi Swara,Major Shilpa Alok,20
+Lord Bhumi,Lord Bhumi Swara,19
+Detective-Inspector Meenal,Lord Bhumi Swara,16
+Dr. Udita,Lord Bhumi Swara,14
+Sagar,Sagar Monali,14
+Bar Shilpa,Captain Gaurav,13
+Colonel,Colonel Ritesh,13
+Major Shilpa Alok,Miss Mrunal Kavya,12
+Lord,Major Shilpa Alok,11
+Captain,Major Shilpa Alok,10
+Death,General,10
+Lord Bhumi Swara,Mr. J. Mukesh,10
+Akanksha,Miss Akanksha Tanmay,9
+Captain Gaurav,Lord Bhumi Swara,9
+Detective-Inspector Meenal,Inspector Meenal,9
+General,Lord,9
+Henry Medha,Sir Medha Shabana,8
+Karun,Karun Abhay,8
+-- Kiran,Captain Gaurav,7
+Bar Shilpa,Lord Bhumi Swara,7
+Death,Major Shilpa Alok,7
+General,Henry Disha,7
+General,Lord Bhumi Swara,7
+General,Miss Mrunal Kavya,7
+Miss Mrunal Kavya,Sagar,7
+Rajesh Alia,Zoya,7
+Rajesh Alia,Zoya Alia,7
+Zoya,Zoya Alia,7
+-- Kiran,Lord Bhumi Swara,6
+Bar Shilpa,Gaurav Alok,6
+Bar Shilpa,General,6
+Captain,Captain Alok,6
+Captain Alok,Major Shilpa Alok,6
+Colonel,Lord Bhumi Swara,6
+Dr. Udita,General,6
+Major Shilpa Alok,Mr. Madhuri,6
+Colonel Ritesh,Lord Bhumi Swara,5
+Death,General Alok,5
+Gaurav Alok,Lord Bhumi Swara,5
+General Alok,Miss Mrunal Kavya,5
+Henry Disha,Major Shilpa Alok,5
+Lord,Major,5
+Lord Bhumi,Major Shilpa Alok,5
+Captain Gaurav,Miss Mrunal Kavya,4
+Detective-Inspector Meenal,Lord Bhumi,4
+Detective-Inspector Meenal,Major Shilpa Alok,4
+Dr. Udita,Major Shilpa Alok,4
+General,Sagar,4
+General Alok,Henry Disha,4
+General Alok,Lord,4
+General Alok,Sagar,4
+Henry Disha,Miss Mrunal Kavya,4
+Henry Disha,Portman Square,4
+Lord,may,4
+Lord Bhumi Swara,Rohan,4
+Major Shilpa Alok,Mitali,4
+Major Shilpa Alok,Sagar,4
+Miss Mrunal Kavya,Mohit,4
+Miss Mrunal Kavya,Mr. Karan,4
+Miss Mrunal Kavya,Sagar Monali,4
+Navya,Navya Amitabh,4
+Akanksha,Miss Mrunal Kavya,3
+Akshay Nandita,Lord Bhumi Swara,3
+Bar Shilpa,Major,3
+Bar Shilpa,Miss Mrunal Kavya,3
+Captain,Captain Gaurav,3
+Captain,Major,3
+Captain Gaurav,General,3
+Captain Gaurav,Major,3
+Captain Gaurav,Neelam,3
+Death,Henry Disha,3
+Detective-Inspector Meenal,General,3
+Detective-Inspector Meenal,Lord,3
+Detective-Inspector Meenal,Mr. J. Mukesh,3
+Detective-Inspector Meenal,street,3
+Dr. Udita,General Alok,3
+Dr. Udita,Miss Mrunal Kavya,3
+General,Mitali,3
+General,Sagar Monali,3
+General,fire,3
+General,may,3
+General,somebody,3
+General Alok,Sagar Monali,3
+Henry Disha,Lord Bhumi Swara,3
+Inspector Meenal,Lord Bhumi Swara,3
+Karun Abhay,Miss Mrunal Kavya,3
+Lord,somebody,3
+Lord Bhumi,Major,3
+Lord Bhumi,Miss Mrunal Kavya,3
+Lord Bhumi,somebody,3
+Lord Bhumi Swara,M. Divya,3
+Lord Bhumi Swara,Mr. Madhuri,3
+Lord Bhumi Swara,Sir Medha Shabana,3
+Lord Bhumi Swara,Yash,3
+Lord Bhumi Swara,street,3
+M. Divya,Mr. J. Mukesh,3
+Major Shilpa Alok,Mr. J. Mukesh,3
+Major Shilpa Alok,Mrunal,3
+Major Shilpa Alok,Portman Square,3
+Major Shilpa Alok,Sagar Monali,3
+Major Shilpa Alok,fire,3
+Major Shilpa Alok,may,3
+Miss Mrunal Kavya,Prateek,3
+Mr. J. Mukesh,Mr. Karan,3
+Navya,Rajesh Alia,3
+-- Kiran,Kiran Alok,2
+-- Kiran,Major Shilpa Alok,2
+Akanksha,Lord Bhumi Swara,2
+Akshay Nandita,Darshan Chitrangada,2
+Ashok,Lord Bhumi Swara,2
+Austin Urmila,Mohanlal Urmila,2
+Bar Shilpa,Captain,2
+Bar Shilpa,Detective-Inspector Meenal,2
+Bar Shilpa,General Alok,2
+Bar Shilpa,Henry Disha,2
+Bar Shilpa,Mr. J. Mukesh,2
+Bar Shilpa,Portman Square,2
+Captain,Gaurav Alok,2
+Captain,Lord Bhumi Swara,2
+Captain,Mr. Pranav,2
+Captain,Richa,2
+Captain Gaurav,General Alok,2
+Captain Gaurav,Lord,2
+Colonel,Henry Disha,2
+Death,Miss Mrunal Kavya,2
+Detective-Inspector Meenal,Dr. Udita,2
+Detective-Inspector Meenal,General Alok,2
+Detective-Inspector Meenal,Miss Mrunal Kavya,2
+Detective-Inspector Meenal,Mr. Madhuri,2
+Detective-Inspector Meenal,fire,2
+Dr. Gauri,Henry Medha,2
+Dr. Gauri,Major Shilpa Alok,2
+Dr. Gauri,Sir Medha Shabana,2
+Dr. Udita,Henry Disha,2
+Dr. Udita,Kalyani Zeeshan,2
+Dr. Udita,rigor,2
+Dr. Udita,somebody,2
+Gaurav Alok,Lord,2
+Gaurav Alok,Major,2
+General,Lord Bhumi,2
+General,Mr. Madhuri,2
+General,Sarika,2
+General,nurse,2
+General,street,2
+General Alok,Lord Bhumi Swara,2
+General Alok,fire,2
+Henry Disha,Lord,2
+Henry Disha,Mr. Karan,2
+Henry Disha,Rajesh Alia,2
+Henry Disha,Sarika,2
+Karun Abhay,Mrunal,2
+Kiran Alok,Major Shilpa Alok,2
+Lord,M. Divya,2
+Lord,Miss Mrunal Kavya,2
+Lord,Mr. J. Mukesh,2
+Lord Bhumi,M. Divya,2
+Lord Bhumi,Mr. Madhuri,2
+Lord Bhumi,Rajesh,2
+Lord Bhumi Swara,Mitali,2
+Lord Bhumi Swara,Roland,2
+Lord Bhumi Swara,means,2
+Lord Bhumi Swara,rose,2
+Lord Bhumi Swara,true,2
+M. Divya,Major Shilpa Alok,2
+Major,Miss Mrunal Kavya,2
+Major Shilpa Alok,means,2
+Major Shilpa Alok,street,2
+Miss Akanksha Tanmay,Miss Mrunal Kavya,2
+Miss Akanksha Tanmay,Mrunal,2
+Mohit,Sagar,2
+Mohit,Sagar Monali,2
+Mr. J. Mukesh,Mr. Madhuri,2
+Mr. J. Mukesh,fire,2
+Mr. Madhuri,twist,2
+Mr. Pranav,somebody,2
+Mrunal,Prateek,2
+Pooja,Pooja Ayush,2
+Sagar,street,2
+Sagar Monali,street,2
+Sameera,somebody,2
+-- Kiran,Akshay Nandita,1
+-- Kiran,Guv'nor,1
+-- Kiran,Lord,1
+-- Kiran,Lord Bhumi,1
+-- Kiran,Richa,1
+Aadil,Maanvi,1
+Aamir,Lord,1
+Aamir,Lord Bhumi,1
+Aamir,Lord Bhumi Swara,1
+Aamir,Yash,1
+Aditya,Arjun Keshav,1
+Aishwarya Radhika,Dorothy Richardson,1
+Akanksha,Karun,1
+Akanksha,Karun Abhay,1
+Akanksha,Mrunal,1
+Akshay,Akshay Nandita,1
+Akshay,Darshan Chitrangada,1
+Akshay Nandita,Captain Gaurav,1
+Ar_mis_tice Day,Hina,1
+Ar_mis_tice Day,Portman Square,1
+Arjun Kavita,Shreya Sneha,1
+Arjun Keshav,Lord Bhumi Swara,1
+Ashok,Lord,1
+Aunt Nushrat,Lord Bhumi Swara,1
+Bar Shilpa,Death,1
+Bar Shilpa,Hrithik,1
+Bar Shilpa,Lord,1
+Bar Shilpa,M. Divya,1
+Bar Shilpa,Mr. Madhuri,1
+Bar Shilpa,Mrunal,1
+Bar Shilpa,Neelam,1
+Bar Shilpa,Rajesh Alia,1
+Bar Shilpa,means,1
+Bennett,Wells,1
+Captain,Colonel,1
+Captain,Colonel Ritesh,1
+Captain,General,1
+Captain,General Alok,1
+Captain,Kirti,1
+Captain,Lord,1
+Captain,Lord Bhumi,1
+Captain,Miss Mrunal Kavya,1
+Captain,Neelam,1
+Captain,may,1
+Captain,street,1
+Captain Alok,Colonel,1
+Captain Alok,Colonel Ritesh,1
+Captain Alok,Lord,1
+Captain Alok,Lord Bhumi,1
+Captain Alok,Major,1
+Captain Alok,Miss Mrunal Kavya,1
+Captain Gaurav,D'you,1
+Captain Gaurav,Death,1
+Captain Gaurav,Gaurav Robey,1
+Captain Gaurav,Guv'nor,1
+Captain Gaurav,Henry Disha,1
+Captain Gaurav,Mr. J. Mukesh,1
+Captain Gaurav,Sameera,1
+Captain Gaurav,Yash,1
+Captain Gaurav,barnwell,1
+Captain Gaurav,fire,1
+Captain Gaurav,may,1
+Captain Gaurav,means,1
+Captain Gaurav,street,1
+Chaitanya,Sakshi,1
+Colonel,Dr. Udita,1
+Colonel,Lord Bhumi,1
+Colonel,Major Shilpa Alok,1
+Colonel,Portman Square,1
+Colonel,Pushkar,1
+Colonel,Shruti,1
+Colonel Ritesh,Major Shilpa Alok,1
+Colonel Ritesh,Shruti,1
+Cummins woman,Lord,1
+D'you,Major,1
+D'you,Major Shilpa Alok,1
+D'you,Mitali,1
+Darshan Chitrangada,Lord Bhumi Swara,1
+Death,Gaurav Alok,1
+Death,Harsh,1
+Death,Lord Bhumi Swara,1
+Death,M. Divya,1
+Death,Mrs. Anjali,1
+Death,Neelam,1
+Death,Roshan MacStewart,1
+Death,Sameera,1
+Death,fire,1
+Death,jove,1
+Death,rigor,1
+Death,somebody,1
+Death,street,1
+Detective-Inspector Meenal,Kalyani Zeeshan,1
+Detective-Inspector Meenal,Mrs. Parvathy,1
+Detective-Inspector Meenal,Mrunal,1
+Detective-Inspector Meenal,Portman Square,1
+Detective-Inspector Meenal,Rajesh,1
+Detective-Inspector Meenal,Rajesh Alia,1
+Detective-Inspector Meenal,Richa,1
+Detective-Inspector Meenal,true,1
+Dr. Udita,Father Sunny,1
+Dr. Udita,Hina,1
+Dr. Udita,Karun,1
+Dr. Udita,Karun Abhay,1
+Dr. Udita,Lord,1
+Dr. Udita,Lord Bhumi,1
+Dr. Udita,Mr. Madhuri,1
+Dr. Udita,Mrunal,1
+Dr. Udita,Navya Amitabh,1
+Dr. Udita,Portman Square,1
+Dr. Udita,Ranjit,1
+Gaurav Alok,Miss Mrunal Kavya,1
+Gaurav Alok,Neelam,1
+Gaurav Alok,Yash,1
+Gaurav Alok,may,1
+Gaurav Alok,street,1
+Genelia,somebody,1
+General,General Sonakshi,1
+General,Gopika,1
+General,Kalyani Zeeshan,1
+General,Karisma,1
+General,Kuldeep,1
+General,M. Divya,1
+General,Mohit,1
+General,Mr. J. Mukesh,1
+General,Mrunal,1
+General,Muskaan,1
+General,Portman Square,1
+General,Roshan MacStewart,1
+General,Sameera,1
+General,Sir Medha Shabana,1
+General,true,1
+General Alok,Gopika,1
+General Alok,Lord Bhumi,1
+General Alok,M. Divya,1
+General Alok,Mitali,1
+General Alok,Mohit,1
+General Alok,Mr. J. Mukesh,1
+General Alok,Mr. Madhuri,1
+General Alok,Mrunal,1
+General Alok,Muskaan,1
+General Alok,Portman Square,1
+General Alok,Sarika,1
+General Alok,Sir Medha Shabana,1
+General Alok,may,1
+General Alok,nurse,1
+General Alok,somebody,1
+General Alok,true,1
+General Sonakshi,Kuldeep,1
+Gopika,Major Shilpa Alok,1
+Gopika,Miss Mrunal Kavya,1
+Gopika,Mohit,1
+Gopika,Sagar,1
+Guv'nor,Mitali,1
+Harsh,may,1
+Henry Disha,Kalyani Zeeshan,1
+Henry Disha,Lord Bhumi,1
+Henry Disha,Mr. J. Mukesh,1
+Henry Disha,Mrs. Anjali,1
+Henry Disha,Mrunal,1
+Henry Disha,may,1
+Henry Medha,Lord,1
+Henry Medha,Lord Bhumi,1
+Henry Medha,Lord Bhumi Swara,1
+Henry Medha,Miss Mrunal Kavya,1
+Hina,Lord Bhumi Swara,1
+Hina,Portman Square,1
+Hrithik,Major Shilpa Alok,1
+Inspector Meenal,Lord,1
+Inspector Meenal,Lord Bhumi,1
+Inspector Meenal,Major Shilpa Alok,1
+Inspector Meenal,Mr. J. Mukesh,1
+Inspector Meenal,Mrs. Parvathy,1
+Irrfan Sushmita,Lord Bhumi Swara,1
+Jagdeep Siddharth,Varsha Prithvi,1
+Kajol Juhi,Yashwant Kareena,1
+Kalyani Zeeshan,Karisma,1
+Kalyani Zeeshan,Miss Mrunal Kavya,1
+Kalyani Zeeshan,Rajesh Alia,1
+Kalyani Zeeshan,Zoya,1
+Kalyani Zeeshan,Zoya Alia,1
+Karisma,Mr. J. Mukesh,1
+Karun,Lord,1
+Karun,Lord Bhumi,1
+Karun,Miss Mrunal Kavya,1
+Karun,Mrunal,1
+Karun,Navya Amitabh,1
+Karun,Prateek,1
+Karun Abhay,Lord,1
+Karun Abhay,Lord Bhumi,1
+Karun Abhay,Lord Bhumi Swara,1
+Karun Abhay,Ma Abhay,1
+Kritika Taapsee,Lord Bhumi Swara,1
+Lady Shabana,Lord Bhumi Swara,1
+Lady Shabana,Sir Medha Shabana,1
+Lord,Mitali,1
+Lord,Mr. Madhuri,1
+Lord,Mr. Pranav,1
+Lord,Portman Square,1
+Lord,Sir Medha Shabana,1
+Lord,rose,1
+Lord Bhumi,Mitali,1
+Lord Bhumi,Mr. J. Mukesh,1
+Lord Bhumi,Mr. Pranav,1
+Lord Bhumi,Portman Square,1
+Lord Bhumi,Richa,1
+Lord Bhumi,Sagar Monali,1
+Lord Bhumi,Sir Medha Shabana,1
+Lord Bhumi,rose,1
+Lord Bhumi Swara,Major,1
+Lord Bhumi Swara,Miss Akanksha Tanmay,1
+Lord Bhumi Swara,Miss Mrunal Kavya,1
+Lord Bhumi Swara,Mr. Karan,1
+Lord Bhumi Swara,Mr. Pranav,1
+Lord Bhumi Swara,Mrunal,1
+Lord Bhumi Swara,Portman Square,1
+Lord Bhumi Swara,Rajesh Alia,1
+Lord Bhumi Swara,Richa,1
+Lord Bhumi Swara,Roshan MacStewart,1
+Lord Bhumi Swara,Sameera,1
+Lord Bhumi Swara,Shafaq,1
+Lord Bhumi Swara,Shruti,1
+Lord Bhumi Swara,Vikrant,1
+Lord Bhumi Swara,fire,1
+Lord Bhumi Swara,may,1
+Lord Bhumi Swara,motive,1
+M. Divya,Mitali,1
+M. Divya,cabman,1
+M. Divya,may,1
+Ma Abhay,Miss Mrunal Kavya,1
+Ma Abhay,Mrunal,1
+Major,Mitali,1
+Major,Mr. Madhuri,1
+Major,Neelam,1
+Major,Sameera,1
+Major,may,1
+Major Shilpa Alok,Manan,1
+Major Shilpa Alok,Mohit,1
+Major Shilpa Alok,Mr. Amol,1
+Major Shilpa Alok,Mr. Pranav,1
+Major Shilpa Alok,Muskaan,1
+Major Shilpa Alok,Neelam,1
+Major Shilpa Alok,Rajesh Alia,1
+Major Shilpa Alok,Salman,1
+Major Shilpa Alok,Salman Alok,1
+Major Shilpa Alok,Sameera,1
+Major Shilpa Alok,Sarika,1
+Major Shilpa Alok,Shalini,1
+Major Shilpa Alok,Sir Medha Shabana,1
+Major Shilpa Alok,Soumya Riddhi,1
+Major Shilpa Alok,Tin-Tummy Riddhi,1
+Major Shilpa Alok,Yash,1
+Major Shilpa Alok,clever,1
+Major Shilpa Alok,nurse,1
+Major Shilpa Alok,somebody,1
+Major Shilpa Alok,true,1
+Miss Mrunal Kavya,Mrs. Anjali,1
+Miss Mrunal Kavya,Mrs. Parvathy,1
+Miss Mrunal Kavya,Neelam,1
+Miss Mrunal Kavya,Sir Medha Shabana,1
+Miss Mrunal Kavya,may,1
+Miss Mrunal Kavya,nurse,1
+Mitali,Rohan,1
+Mohit,Mrs. Parvathy,1
+Mr. J. Mukesh,Roshan MacStewart,1
+Mr. J. Mukesh,cabman,1
+Mr. J. Mukesh,true,1
+Mr. Karan,Mrunal,1
+Mr. Madhuri,Sameera,1
+Mr. Madhuri,may,1
+Mr. Madhuri,somebody,1
+Mr. Madhuri,yell,1
+Mrunal,Sagar,1
+Mrunal,Sagar Monali,1
+Navya,Zoya,1
+Navya,Zoya Alia,1
+Navya Amitabh,Rajesh Alia,1
+Navya Amitabh,Zoya,1
+Navya Amitabh,Zoya Alia,1
+Rajesh,Rajesh Alia,1
+Rajesh Alia,street,1
+Ranjan Anushka,Ravi Manju,1
+Ranjan Anushka,Yash,1
+Ranveer,may,1
+Ravi Manju,Yash,1
+Richa,Yash,1
+Rohan,Rohan Tushar,1
+Rohan,Zoya,1
+Sahil,somebody,1
+Saira,cabman,1
+Salman,Salman Alok,1
+Salman,Sarika,1
+Sarika,means,1
+Shruti,somebody,1
+Soumya Riddhi,Tin-Tummy Riddhi,1
+Yash,Yash Mahesh,1
+fire,somebody,1
+may,nurse,1
+may,street,1
+mortis,rigor,1
+rigor,somebody,1
+rigor,true,1

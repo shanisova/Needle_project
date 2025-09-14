@@ -1,0 +1,21 @@
+character1,character2,count
+Bob,Mr. Robert Ferguson,3
+Cheeseman,lamberley,3
+Dr. Watson,SHERLOCK HOLMES,3
+Bob,Bob Ferguson,2
+Bob Ferguson,Mr. Robert Ferguson,2
+Mr. Robert Ferguson,SHERLOCK HOLMES,2
+Mr. Robert Ferguson,lamberley,2
+Cheeseman,Mr. Robert Ferguson,1
+Dolores,Jack,1
+Dolores,Mr. Robert Ferguson,1
+Dolores,SHERLOCK HOLMES,1
+Dr. Watson,Matilda Briggs,1
+Dr. Watson,lamberley,1
+Harvey,Odley,1
+Jacky,Mr. Robert Ferguson,1
+Jacky,SHERLOCK HOLMES,1
+Matilda Briggs,SHERLOCK HOLMES,1
+Mr. Robert Ferguson,Mrs. Mason,1
+Vigor,hammersmith,1
+dodd,morrison,1

@@ -1,0 +1,162 @@
+character1,character2,count
+Mr. Sherlock Holmes,a,51
+Miss Stapleton,a,37
+Sir William Baskerville,a,33
+Dr. Watson,a,32
+Sir Henry,a,32
+Sir Henry,Sir William Baskerville,29
+Sir Charles,a,28
+Sir Charles,Sir William Baskerville,23
+Sir Henry,Sir Henry Baskerville,20
+Sir Henry Baskerville,Sir William Baskerville,20
+coombe,tracey,20
+Dr. James Mortimer,a,17
+Sir Charles,Sir Charles Baskerville,17
+Sir Charles Baskerville,Sir William Baskerville,17
+Miss Stapleton,Sir Henry,15
+Mrs. Barrymore,a,14
+Hugo,Sir William Baskerville,11
+a,grimpen,10
+Mr. Sherlock Holmes,Sir William Baskerville,8
+Dr. James Mortimer,James,7
+Hugo,a,7
+Dr. James Mortimer,Sir William Baskerville,6
+Mr. Sherlock Holmes,Sir Henry,6
+Sir Henry,Stapletons,6
+Cartwright,a,5
+Dr. James Mortimer,Sir Henry,5
+Dr. Watson,Mr. Sherlock Holmes,5
+Hugo,Hugo Baskerville,5
+Hugo Baskerville,Sir William Baskerville,5
+Rodger,Sir William Baskerville,5
+Mrs. Barrymore,Sir Charles,4
+Mrs. Barrymore,Sir Henry,4
+Sir Charles Baskerville,a,4
+Sir Henry Baskerville,a,4
+a,coombe,4
+a,tracey,4
+Dr. James Mortimer,Mr. Sherlock Holmes,3
+Dr. James Mortimer,Sir Henry Baskerville,3
+James,James Desmond,3
+Lestrade,a,3
+Miss Stapleton,Mr. Sherlock Holmes,3
+Miss Stapleton,Sir Charles,3
+Miss Stapleton,Sir William Baskerville,3
+Mr. Frankland,a,3
+Mr. Sherlock Holmes,Sir Henry Baskerville,3
+Mrs. Barrymore,Sir William Baskerville,3
+Mrs. Laura Lyons,a,3
+Rodger,Rodger Baskerville,3
+Rodger,Sir Charles,3
+Rodger Baskerville,Sir Charles,3
+Rodger Baskerville,Sir William Baskerville,3
+Selden,a,3
+Dr. James Mortimer,Mr. Frankland,2
+Dr. Watson,coombe,2
+Dr. Watson,halloa,2
+Dr. Watson,tracey,2
+Elizabeth,Hugo,2
+Elizabeth,Hugo Baskerville,2
+Elizabeth,John,2
+Elizabeth,Rodger,2
+Elizabeth,Sir William Baskerville,2
+Hugo,John,2
+Hugo,Rodger,2
+Hugo Baskerville,John,2
+Hugo Baskerville,Rodger,2
+Hugo Baskerville,a,2
+James,a,2
+John,John Clayton,2
+John,Rodger,2
+John,Sir William Baskerville,2
+John,a,2
+Miss Stapleton,Perkins,2
+Mrs. Barrymore,grimpen,2
+Mrs. Laura Lyons,coombe,2
+Mrs. Laura Lyons,tracey,2
+Mrs. Vandeleur,a,2
+Murphy,a,2
+Perkins,Sir Henry,2
+Perkins,a,2
+Sir William Baskerville,Stapletons,2
+Sir William Baskerville,coombe,2
+Sir William Baskerville,tracey,2
+a,jove,2
+Anthony,a,1
+Anthony,antonio,1
+Barrymores,Dr. James Mortimer,1
+Barrymores,Mr. Frankland,1
+Barrymores,Sir Henry,1
+Barrymores,a,1
+Beryl,Beryl Garcia,1
+Beryl,Mrs. Vandeleur,1
+Beryl,a,1
+Beryl,halloa,1
+Beryl Garcia,Mrs. Vandeleur,1
+Beryl Garcia,a,1
+Cartwright,Miss Stapleton,1
+Cartwright,Wilson,1
+Dr. James Mortimer,Hugo,1
+Dr. James Mortimer,Miss Stapleton,1
+Dr. James Mortimer,Mrs. Barrymore,1
+Dr. James Mortimer,Sir Charles,1
+Dr. Watson,Miss Stapleton,1
+Dr. Watson,Sir William Baskerville,1
+Hugo,clarendon,1
+Hugo,michaelmas,1
+James,Mr. Sherlock Holmes,1
+James Desmond,a,1
+John,Mr. Sherlock Holmes,1
+John,Sir John Morland,1
+John Clayton,Mr. Sherlock Holmes,1
+John Clayton,a,1
+Kneller,a,1
+Lestrade,Mr. Sherlock Holmes,1
+Lestrade,Sir William Baskerville,1
+Miss Stapleton,Mr. Frankland,1
+Miss Stapleton,Mrs. Laura Lyons,1
+Miss Stapleton,Selden,1
+Miss Stapleton,Sir Charles Baskerville,1
+Miss Stapleton,grimpen,1
+Mr. Sherlock Holmes,Mrs. Barrymore,1
+Mr. Sherlock Holmes,Mrs. Laura Lyons,1
+Mr. Sherlock Holmes,Sir Charles,1
+Mr. Sherlock Holmes,Sir Charles Baskerville,1
+Mr. Sherlock Holmes,Stapletons,1
+Mrs. Barrymore,Perkins,1
+Mrs. Barrymore,Selden,1
+Mrs. Laura Lyons,Sir Charles,1
+Mrs. Laura Lyons,Sir Charles Baskerville,1
+Mrs. Laura Lyons,Sir William Baskerville,1
+Mrs. Laura Lyons,l,1
+Perkins,Sir Charles,1
+Perkins,Sir William Baskerville,1
+Perkins,coombe,1
+Perkins,tracey,1
+Pitt,Sir William Baskerville,1
+Rodger,a,1
+Rodger Baskerville,a,1
+Rodney,Sir William Baskerville,1
+Selden,grimpen,1
+Sir Charles,Sir Henry,1
+Sir Charles,Sir Henry Baskerville,1
+Sir Charles,coombe,1
+Sir Charles,tracey,1
+Sir Charles Baskerville,Sir Henry,1
+Sir Charles Baskerville,Sir Henry Baskerville,1
+Sir Charles Baskerville,coombe,1
+Sir Charles Baskerville,tracey,1
+Sir Henry Baskerville,Stapletons,1
+Sir John Morland,a,1
+Sir William Baskerville,clarendon,1
+Sir William Baskerville,grimpen,1
+Stapletons,a,1
+Wilson,a,1
+a,antonio,1
+a,clarendon,1
+a,doyle,1
+a,hottentot,1
+a,l,1
+a,regina,1
+haslemere,hindhead,1
+mlle,montpensier,1

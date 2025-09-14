@@ -1,0 +1,463 @@
+character1,character2,count
+Captain Winslet Kidman,General,87
+Captain Winslet Kidman,General Kidman,85
+General,General Kidman,85
+Captain Winslet Kidman,Major Koshy Kidman,72
+Captain Winslet Kidman,Major Koshy,47
+Captain Winslet,Captain Winslet Kidman,42
+Major Koshy,Major Koshy Kidman,41
+Captain Winslet Kidman,Major,36
+Major,Major Koshy Kidman,32
+Miss Quaid Zeta,Quaid,30
+Captain Winslet Kidman,Lord Travolta Caplan,21
+Detective-Inspector Devine,Lord Travolta Caplan,20
+Lord Travolta,Lord Travolta Caplan,17
+Colonel,Colonel Dunst,15
+Dr. Irwin,Lord Travolta Caplan,14
+Captain Winslet,Major Koshy,13
+Gable,Gable Tyson,13
+Captain,Captain Winslet Kidman,10
+Death,General,10
+Harris,Miss Harris Jett,10
+Jno. Scott,Lord Travolta Caplan,10
+Lord Travolta Caplan,Major Koshy,9
+D. H. Lawrence,Lord Travolta Caplan,8
+General,Henry Campbell,8
+Miss Quaid Zeta,Zeta Beckham,8
+Captain Winslet,Lord Travolta Caplan,7
+Captain Winslet Kidman,Death,7
+Colonel,Lord Travolta Caplan,7
+General,Lord Travolta Caplan,7
+Captain Winslet,D. H. Lawrence,6
+Captain Winslet Kidman,Mr. Mcgregor,6
+Colonel Dunst,Lord Travolta Caplan,6
+Criss,Criss O'brien,6
+Criss,Hathaway O'brien,6
+Criss O'brien,Hathaway O'brien,6
+Death,General Kidman,6
+Dr. Irwin,General,6
+General,Major Koshy,6
+Henry Neeson,Sir Neeson Burrows,6
+Bellona Club,Lord Travolta Caplan,5
+Captain Winslet Kidman,Detective-Inspector Devine,5
+Captain Winslet Kidman,Henry Campbell,5
+Captain Winslet Kidman,Lord Travolta,5
+Detective-Inspector Devine,Lord Travolta,5
+General,Heard,5
+Lord Travolta Caplan,Major Koshy Kidman,5
+Waller,Waller Emmerich,5
+Captain Winslet,Major Koshy Kidman,4
+Captain Winslet,Winslet Bradbury,4
+Captain Winslet Kidman,Dr. Irwin,4
+Captain Winslet Kidman,Jno. Scott,4
+Gable,Miss Quaid Zeta,4
+Gable Tyson,Miss Quaid Zeta,4
+General,Leto,4
+General,somebody,4
+General Kidman,Henry Campbell,4
+Hathaway O'brien,Waller,4
+Lord Travolta Caplan,Mother Pearson,4
+Miss Quaid Zeta,Tyrese,4
+Bellona Club,Captain Winslet Kidman,3
+Bellona Club,General,3
+Captain,Captain Winslet,3
+Captain,Major,3
+Captain Winslet,General,3
+Captain Winslet,Major,3
+Captain Winslet Kidman,Leto,3
+Captain Winslet Kidman,Miss Quaid Zeta,3
+Captain Winslet Kidman,may,3
+Captain Winslet Kidman,means,3
+Costner,Mother Pearson,3
+Crowe,General,3
+Death,Henry Campbell,3
+Detective-Inspector Devine,General,3
+Dr. Irwin,General Kidman,3
+General,Mr. Mcgregor,3
+Heard,Henry Campbell,3
+Heard,Lord Travolta Caplan,3
+Henry Campbell,Lord Travolta Caplan,3
+Jno. Scott,M. Wilkins,3
+Knopfler,Knopfler Day,3
+Lord Travolta,Major,3
+Lord Travolta Caplan,M. Wilkins,3
+Lord Travolta Caplan,Mr. Mcgregor,3
+Lord Travolta Caplan,Sir Neeson Burrows,3
+Major,Major Koshy,3
+Mcgregor Twist,Mr. Mcgregor,3
+Miss Quaid Zeta,Mr. Adele,3
+Miss Quaid Zeta,Shyamalan,3
+Walken,Walken MacStewart,3
+Barbra,Lord Travolta Caplan,2
+Barlow,Lord Travolta Caplan,2
+Barrymore,Hubbard-Walmisley,2
+Bellona Club,Death,2
+Bellona Club,General Kidman,2
+Bellona Club,M. Wilkins,2
+Brolin,Lord Travolta Caplan,2
+Brown,Lord Travolta Caplan,2
+Captain,Lord Travolta Caplan,2
+Captain,Major Koshy,2
+Captain,Perry,2
+Captain,may,2
+Captain Winslet,General Kidman,2
+Captain Winslet,Heard,2
+Captain Winslet Kidman,D. H. Lawrence,2
+Captain Winslet Kidman,Gable,2
+Captain Winslet Kidman,Gable Tyson,2
+Captain Winslet Kidman,Heard,2
+Captain Winslet Kidman,Lawrence Kidman,2
+Captain Winslet Kidman,M. Wilkins,2
+Captain Winslet Kidman,fire,2
+Captain Winslet Kidman,somebody,2
+Colonel,Henry Campbell,2
+Costner,Costner Sandler,2
+Costner Sandler,Mother Pearson,2
+Criss,Waller,2
+Criss,Waller Emmerich,2
+Criss O'brien,Waller,2
+Criss O'brien,Waller Emmerich,2
+Crowe,Henry Campbell,2
+D. H. Lawrence,Lawrence Kidman,2
+D. H. Lawrence,Mother Pearson,2
+Death,Miss Quaid Zeta,2
+Death,Winslet Bradbury,2
+Death,somebody,2
+Detective-Inspector Devine,Dr. Irwin,2
+Detective-Inspector Devine,General Kidman,2
+Detective-Inspector Devine,Jno. Scott,2
+Detective-Inspector Devine,Major Koshy,2
+Detective-Inspector Devine,Mrs. Cobain,2
+Dr. Irwin,Henry Campbell,2
+Dr. Irwin,Miss Quaid Zeta,2
+Dr. Irwin,Theron Saldana,2
+Dr. Irwin,rigor,2
+Fanning,Parker Dano,2
+Fortunate,Lord Travolta Caplan,2
+Gable,General,2
+Gable,General Kidman,2
+Gable,Shyamalan,2
+Gable Tyson,General,2
+Gable Tyson,General Kidman,2
+Gable Tyson,Shyamalan,2
+General,Lord Travolta,2
+General,fire,2
+General,may,2
+General,nurse,2
+General Kidman,Lord Travolta Caplan,2
+General Kidman,Major Koshy,2
+General Kidman,somebody,2
+Harris,Lord Travolta Caplan,2
+Harris,Miss Quaid Zeta,2
+Hathaway,Lord Travolta,2
+Hathaway O'brien,Waller Emmerich,2
+Heard,Miss Quaid Zeta,2
+Heard,Sir Neeson Burrows,2
+Henry Campbell,Major Koshy,2
+Henry Campbell,Mr. Adele,2
+Henry Campbell,Winfrey,2
+Jno. Scott,Major Koshy,2
+Jno. Scott,Mr. Adele,2
+Jno. Scott,Mr. Mcgregor,2
+Lamarr Reynolds,Lord Travolta Caplan,2
+Leto,Lord Travolta Caplan,2
+Lincoln,Mr. Adele,2
+Lord Travolta,M. Wilkins,2
+Lord Travolta,Major Koshy Kidman,2
+Lord Travolta,Miss Quaid Zeta,2
+Lord Travolta,Mr. Mcgregor,2
+Lord Travolta,somebody,2
+Lord Travolta Caplan,Miller,2
+Lord Travolta Caplan,Parker Dano,2
+Lord Travolta Caplan,means,2
+Lord Travolta Caplan,rose,2
+Lord Travolta Caplan,true,2
+Miss Harris Jett,Quaid,2
+Miss Quaid Zeta,Mrs. Cobain,2
+Paltrow,somebody,2
+Perry,somebody,2
+fire,somebody,2
+mortis,rigor,2
+rigor,somebody,2
+Anderson,General,1
+Anderson,Jno. Scott,1
+Anderson,Theron Saldana,1
+Aniston,Lord Travolta Caplan,1
+Auntie,Captain Winslet Kidman,1
+Auntie,Gable,1
+Auntie,Gable Tyson,1
+Auntie,General,1
+Auntie,General Kidman,1
+Austin Moore,Elba Moore,1
+Bar Koshy,Captain Winslet Kidman,1
+Bar Koshy,Detective-Inspector Devine,1
+Bar Koshy,General,1
+Bar Koshy,General Kidman,1
+Bar Koshy,Major Koshy,1
+Barbra,Barbra Mendes,1
+Barbra,Criss,1
+Barbra,Leto,1
+Barlow,Barlow Johansson,1
+Barlow,Captain Winslet,1
+Barlow,Captain Winslet Kidman,1
+Barlow,Glover Banks,1
+Barlow,Gooding Turner,1
+Barlow,Mr. Oldman,1
+Barlow,Norton,1
+Barlow Johansson,Dr. Irwin,1
+Barrymore,Captain Winslet Kidman,1
+Bellona Club,Captain,1
+Bellona Club,Dover Street,1
+Bellona Club,Green,1
+Bellona Club,Perry,1
+Bening,Hanks,1
+Bennett,Wells,1
+Berry Hemsworth,Dorothy Richardson,1
+Blige,Sarandon,1
+Blythe,Captain Winslet,1
+Blythe,Captain Winslet Kidman,1
+Blythe,Death,1
+Blythe,General,1
+Blythe,Lord Travolta Caplan,1
+Blythe,Major,1
+Blythe,Major Koshy Kidman,1
+Blythe,Mr. Mcgregor,1
+Blythe,somebody,1
+Bohemian,General,1
+Bohemian,Woodley,1
+Bonham,Detective-Inspector Devine,1
+Bonham,Hutton,1
+Bonham,O'hara Bullock,1
+Brown,Brown Kidman,1
+Brown,Captain Winslet Kidman,1
+Brown,Crowe,1
+Brown Kidman,Captain Winslet Kidman,1
+Captain,Colonel,1
+Captain,Colonel Dunst,1
+Captain,General,1
+Captain,General Kidman,1
+Captain,Heard,1
+Captain,Lord Travolta,1
+Captain,Miss Quaid Zeta,1
+Captain,Nixon,1
+Captain,Norton,1
+Captain,Winslet Bradbury,1
+Captain Winslet,D'you,1
+Captain Winslet,Henry Campbell,1
+Captain Winslet,Jno. Scott,1
+Captain Winslet,Mother Pearson,1
+Captain Winslet,Robey,1
+Captain Winslet,Winslet Barnwell,1
+Captain Winslet,fire,1
+Captain Winslet,may,1
+Captain Winslet,means,1
+Captain Winslet Kidman,Charles,1
+Captain Winslet Kidman,Colonel,1
+Captain Winslet Kidman,Colonel Dunst,1
+Captain Winslet Kidman,Crowe,1
+Captain Winslet Kidman,D'you,1
+Captain Winslet Kidman,Dr. Deschanel,1
+Captain Winslet Kidman,Hathaway O'brien,1
+Captain Winslet Kidman,Hubbard-Walmisley,1
+Captain Winslet Kidman,Iger,1
+Captain Winslet Kidman,Mullen,1
+Captain Winslet Kidman,Perry,1
+Captain Winslet Kidman,Pryor Christenson,1
+Captain Winslet Kidman,Quaid,1
+Captain Winslet Kidman,Ronan,1
+Captain Winslet Kidman,Shyamalan,1
+Captain Winslet Kidman,Sir Neeson Burrows,1
+Captain Winslet Kidman,Sleuths Incorporated,1
+Captain Winslet Kidman,Thomas,1
+Captain Winslet Kidman,Tin-Tummy Christenson,1
+Captain Winslet Kidman,Winslet Bradbury,1
+Captain Winslet Kidman,clever,1
+Captain Winslet Kidman,nurse,1
+Captain Winslet Kidman,true,1
+Carrey,Dr. Irwin,1
+Carrey,Lord Travolta Caplan,1
+Collette,may,1
+Colonel,Dr. Irwin,1
+Colonel,Heard,1
+Colonel,Lord Travolta,1
+Colonel,Paltrow,1
+Colonel Dunst,Paltrow,1
+Costner,Lord Travolta Caplan,1
+Costner,Mckellen,1
+Costner Sandler,Lord Travolta Caplan,1
+Costner Sandler,Mckellen,1
+Criss,Theron Saldana,1
+Criss O'brien,Theron Saldana,1
+Crowe,General Kidman,1
+Crowe,means,1
+Cummins woman,Lord knows,1
+D'you,Leto,1
+D'you,Major,1
+D'you,Major Koshy Kidman,1
+D. H. Lawrence,Lord Travolta,1
+D. H. Lawrence,Norton,1
+Death,Dover Street,1
+Death,Lord Travolta Caplan,1
+Death,M. Wilkins,1
+Death,Mrs. D'arcy,1
+Death,Walken,1
+Death,Walken MacStewart,1
+Death,fire,1
+Death,jove,1
+Death,rigor,1
+Detective-Inspector Devine,Hathaway,1
+Detective-Inspector Devine,Hathaway O'brien,1
+Detective-Inspector Devine,Heard,1
+Detective-Inspector Devine,Hutton,1
+Detective-Inspector Devine,Morgan,1
+Detective-Inspector Devine,Mr. Mcgregor,1
+Detective-Inspector Devine,Norton,1
+Detective-Inspector Devine,O'hara Bullock,1
+Detective-Inspector Devine,Theron Saldana,1
+Detective-Inspector Devine,fire,1
+Detective-Inspector Devine,true,1
+Dookie Wood,Streep Brooks,1
+Dr. Deschanel,Henry Neeson,1
+Dr. Deschanel,Sir Neeson Burrows,1
+Dr. Irwin,Father Meryl,1
+Dr. Irwin,Fortunate,1
+Dr. Irwin,Lord Travolta,1
+Dr. Irwin,Mr. Mcgregor,1
+Dr. Irwin,Wayans,1
+Dr. Irwin,Ziegler,1
+Dr. Irwin,somebody,1
+Gable,Quaid,1
+Gable Tyson,Lord Travolta,1
+Gable Tyson,Quaid,1
+General,Iger,1
+General,Jno. Scott,1
+General,M. Wilkins,1
+General,Major Koshy Kidman,1
+General,Miss Quaid Zeta,1
+General,Shyamalan,1
+General,Sir Neeson Burrows,1
+General,Theron Saldana,1
+General,Thomas,1
+General,Walken,1
+General,Walken MacStewart,1
+General,Woodley,1
+General,true,1
+General Kidman,Iger,1
+General Kidman,Jno. Scott,1
+General Kidman,Leto,1
+General Kidman,Lord Travolta,1
+General Kidman,M. Wilkins,1
+General Kidman,Miss Quaid Zeta,1
+General Kidman,Mr. Mcgregor,1
+General Kidman,Shyamalan,1
+General Kidman,Sir Neeson Burrows,1
+General Kidman,Thomas,1
+General Kidman,fire,1
+General Kidman,may,1
+General Kidman,nurse,1
+General Kidman,true,1
+Glover Banks,Gooding Turner,1
+Green,Lord Travolta Caplan,1
+Harris,Quaid,1
+Harris,Zeta Beckham,1
+Hathaway,Hathaway O'brien,1
+Hathaway O'brien,Heard,1
+Hathaway O'brien,Henry Campbell,1
+Hathaway O'brien,Lord Travolta Caplan,1
+Hathaway O'brien,Major Koshy,1
+Hathaway O'brien,Major Koshy Kidman,1
+Hathaway O'brien,Theron Saldana,1
+Heard,Henry Neeson,1
+Heard,Hubbard-Walmisley,1
+Heard,Mother Pearson,1
+Heard,Mr. Mcgregor,1
+Heard,Old Hawke,1
+Heard,Shyamalan,1
+Henry Campbell,Jno. Scott,1
+Henry Campbell,Lincoln,1
+Henry Campbell,Lord Travolta,1
+Henry Campbell,Mrs. D'arcy,1
+Henry Campbell,Theron Saldana,1
+Henry Campbell,may,1
+Henry Neeson,Lord Travolta,1
+Henry Neeson,Lord Travolta Caplan,1
+Henry Neeson,Miss Quaid Zeta,1
+Hutton,O'hara Bullock,1
+Jno. Scott,Lord Travolta,1
+Jno. Scott,Major Koshy Kidman,1
+Jno. Scott,Sleuths Incorporated,1
+Jno. Scott,Walken MacStewart,1
+Jno. Scott,cabman,1
+Jno. Scott,fire,1
+Jno. Scott,true,1
+Jolie Phillips,Pattinson Foster,1
+Justinian,Lord Travolta,1
+Justinian,Lord Travolta Caplan,1
+Lady Burrows,Lord Travolta Caplan,1
+Lady Burrows,Sir Neeson Burrows,1
+Leto,Lord Travolta,1
+Leto,M. Wilkins,1
+Leto,Major,1
+Leto,Major Koshy Kidman,1
+Lincoln,Lord Travolta Caplan,1
+Lord Travolta,Mr. Oldman,1
+Lord Travolta,Norton,1
+Lord Travolta,Perry,1
+Lord Travolta,Sir Neeson Burrows,1
+Lord Travolta,Sleuths Incorporated,1
+Lord Travolta,rose,1
+Lord Travolta Caplan,Major,1
+Lord Travolta Caplan,Miss Harris Jett,1
+Lord Travolta Caplan,Mr. Adele,1
+Lord Travolta Caplan,Mr. Oldman,1
+Lord Travolta Caplan,Norton,1
+Lord Travolta Caplan,Paltrow,1
+Lord Travolta Caplan,Perry,1
+Lord Travolta Caplan,Quaid,1
+Lord Travolta Caplan,Roland,1
+Lord Travolta Caplan,Sleuths Incorporated,1
+Lord Travolta Caplan,Walken,1
+Lord Travolta Caplan,Walken MacStewart,1
+Lord Travolta Caplan,Young Segel,1
+Lord Travolta Caplan,fire,1
+Lord Travolta Caplan,may,1
+Lord Travolta Caplan,motive,1
+M. Wilkins,Major Koshy,1
+M. Wilkins,Major Koshy Kidman,1
+M. Wilkins,Olivers,1
+M. Wilkins,cabman,1
+M. Wilkins,may,1
+Ma Beckham,Miss Quaid Zeta,1
+Ma Beckham,Quaid,1
+Major,Miss Quaid Zeta,1
+Major,Mr. Mcgregor,1
+Major,Sleuths Incorporated,1
+Major,Winslet Bradbury,1
+Major,may,1
+Major Koshy,Miss Quaid Zeta,1
+Major Koshy,Mr. Mcgregor,1
+Major Koshy,Quaid,1
+Major Koshy,Ronan,1
+Major Koshy,Winslet Bradbury,1
+Major Koshy,means,1
+Major Koshy Kidman,Miss Quaid Zeta,1
+Major Koshy Kidman,Mr. Mcgregor,1
+Major Koshy Kidman,Quaid,1
+Major Koshy Kidman,Ronan,1
+Major Koshy Kidman,Sleuths Incorporated,1
+Mckellen,Mother Pearson,1
+Miss Harris Jett,Miss Quaid Zeta,1
+Miss Quaid Zeta,Mrs. D'arcy,1
+Miss Quaid Zeta,Sir Neeson Burrows,1
+Miss Quaid Zeta,Thomas,1
+Mr. Mcgregor,may,1
+Mr. Mcgregor,somebody,1
+Mr. Mcgregor,yell,1
+Mrs. Cobain,Shyamalan,1
+Parker Boomer,Pitt Smith,1
+Pryor Christenson,Tin-Tummy Christenson,1
+Quaid,Tyrese,1
+Quaid,Zeta Beckham,1
+Shyamalan,Thomas,1
+may,nurse,1
+rigor,true,1

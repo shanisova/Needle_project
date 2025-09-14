@@ -1,0 +1,34 @@
+character1,character2,count
+Mycroft,Mycroft Holmes,7
+Mycroft,Sherlock Holmes,7
+Mycroft Holmes,Sherlock Holmes,7
+Sir James,Sir James Walter,6
+Mr. Lestrade,Sherlock Holmes,4
+Mr. Lestrade,Mycroft,3
+Sherlock,Sherlock Holmes,3
+Sir James Walter,valentine,3
+Sir James,sinclair,2
+Sir James,valentine,2
+Sir James Walter,sinclair,2
+sinclair,valentine,2
+Adolph Mayer,Mr. Hugo Oberstein,1
+Adolph Mayer,george,1
+Adolph Mayer,louis,1
+Arthur,Arthur Cadogan West,1
+Arthur Cadogan West,Mr. Hugo Oberstein,1
+Arthur Cadogan West,Mycroft,1
+Arthur Cadogan West,Sir James,1
+Brooks,Woodhouse,1
+Mr. Hugo Oberstein,Mycroft,1
+Mr. Hugo Oberstein,Mycroft Holmes,1
+Mr. Hugo Oberstein,Sherlock Holmes,1
+Mr. Hugo Oberstein,george,1
+Mr. Hugo Oberstein,louis,1
+Mr. Lestrade,Mycroft Holmes,1
+Mr. Lestrade,Sherlock,1
+Mycroft,Sherlock,1
+Mycroft Holmes,Sherlock,1
+Sherlock Holmes,Sir James Walter,1
+Sherlock Holmes,Watson,1
+Watson,halloa,1
+george,louis,1

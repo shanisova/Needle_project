@@ -1,0 +1,12 @@
+character1,character2,count
+Sir Ramesh,Sir Ramesh Ronak,7
+Parvathy,Sneha,5
+Rahul,Rahul Nushrat,3
+Miss Varun,Mr. Payal,2
+Miss Varun,Parvathy,1
+Mr. Payal,Sir Ramesh,1
+Mr. Payal,Sir Ramesh Ronak,1
+Parvathy,Sir Ramesh,1
+Parvathy,Sir Ramesh Ronak,1
+Sir Ramesh,Sneha,1
+Sir Ramesh Ronak,Sneha,1

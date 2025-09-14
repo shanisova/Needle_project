@@ -1,0 +1,457 @@
+character1,character2,count
+i,man,70
+Brother Neerja McMurdo,i,34
+Sherlock Kiran,i,25
+Councillor McGinty,Varsha,17
+Mitali Javed,i,17
+Brother Neerja McMurdo,man,16
+Councillor McGinty,Varsha McGinty,16
+Mr. Shraddha Fawad,i,16
+Name,i,16
+Varsha,Varsha McGinty,16
+Dr. Suman,i,15
+Mr. Neerja Jaya,man,15
+Parth,Parth Chitrangada,15
+Parth,Teddy Chitrangada,15
+Parth Chitrangada,Teddy Chitrangada,15
+Asha,i,14
+Brother Dharmendra,i,14
+Friend MacDonald,Kiara,14
+Friend MacDonald,Kiara MacDonald,14
+Kiara,Kiara MacDonald,14
+Sahil,i,14
+Brother Neerja McMurdo,Mike Anjali,12
+Councillor,i,11
+Mr. Neerja Jaya,i,11
+Guneet,Mr. Neerja Jaya,10
+Guneet,i,10
+Mitali,i,10
+man,old,10
+Councillor McGinty,i,9
+Mitali,Mitali Javed,9
+Mr. Neerja Jaya,Mr. Shraddha Fawad,9
+Teddy Chitrangada,i,9
+Brother Neerja McMurdo,Councillor McGinty,8
+Ekta,man,8
+Leena,i,8
+Shalini,i,8
+i,old,8
+Councillor McGinty,Mitali Javed,7
+Councillor McGinty,Sahil,7
+Friend MacDonald,i,7
+Guneet,man,7
+Mr. Ishaan Hina,i,7
+Muskaan Kriti,i,7
+Professor Niharika,i,7
+Brother Neerja McMurdo,Mitali Javed,6
+Brother Neerja McMurdo,Teddy Chitrangada,6
+Councillor McGinty,Sahil McGinty,6
+Councillor McGinty,man,6
+Ekta,Muskaan Kriti,6
+Ekta,i,6
+Esha,i,6
+Faith,i,6
+Sahil,Sahil McGinty,6
+Varsha,i,6
+Brother Neerja McMurdo,Councillor,5
+Brother Neerja McMurdo,Sahil,5
+Brother Neerja McMurdo,Sahil McMurdo,5
+Friend MacDonald,Sherlock Kiran,5
+Mitali Javed,man,5
+Mr. Neerja Jaya,Sherlock Kiran,5
+Sahil,Sahil McMurdo,5
+Sherlock Kiran,inspector,5
+Asha,Jacob Priyadarshan,4
+Brother Dharmendra,Brother Neerja McMurdo,4
+Captain Akshaye,i,4
+Councillor,man,4
+Councillor McGinty,Shalini,4
+Dr. Suman,man,4
+Friend MacDonald,Mr. Ishaan Hina,4
+Gully,man,4
+Guneet,Sussex,4
+Jacob Priyadarshan,old,4
+Kiara,i,4
+Kiara Yash,i,4
+Mike Anjali,i,4
+Mr. Ishaan Hina,man,4
+Mr. Neerja Jaya,Name,4
+Mr. Shraddha Fawad,man,4
+Muskaan Kriti,man,4
+Rajesh Shikha,i,4
+Shalini,man,4
+i,law,4
+Asha,Asha Priyadarshan,3
+Asha,man,3
+Asha Priyadarshan,Jacob Priyadarshan,3
+Ashok Sonakshi,i,3
+Ashok Sonakshi,old,3
+Brethren,i,3
+Brother Neerja McMurdo,Muskaan Kriti,3
+Brother Neerja McMurdo,old,3
+Councillor,Councillor McGinty,3
+Councillor McGinty,Javed McGinty,3
+Friend MacDonald,man,3
+Gilmerton,Shalini,3
+Gilmerton,man,3
+Jacob Priyadarshan,i,3
+Javed McGinty,Mitali Javed,3
+Juhi,Nushrat,3
+Leena,man,3
+Mike Anjali,Shalini,3
+Mitali Javed,Sahil,3
+Mitali Javed,Sahil McGinty,3
+Mitali Javed,Shalini,3
+Mr. Ishaan Hina,Sherlock Kiran,3
+Mr. Neerja Jaya,Sussex,3
+Muskaan Kriti,Name,3
+Name,Sahil,3
+Name,man,3
+Parth,i,3
+Parth Chitrangada,i,3
+Riddhi Rohit,Teddy Chitrangada,3
+Shalini,Varsha,3
+Sussex,i,3
+Sussex,man,3
+Amol,Karan,2
+Asha,Brother Neerja McMurdo,2
+Ashok Sonakshi,man,2
+Bartholomew Shabana,Sussex,2
+Birdy Kriti,Muskaan Kriti,2
+Brethren,man,2
+Brother Dharmendra,Mitali Javed,2
+Brother Dharmendra,Name,2
+Brother Neerja McMurdo,Ekta,2
+Brother Neerja McMurdo,Jacob Priyadarshan,2
+Brother Neerja McMurdo,Mitali,2
+Brother Neerja McMurdo,Shalini,2
+Brother Neerja McMurdo,boss,2
+Captain Akshaye,Councillor McGinty,2
+Captain Akshaye,old,2
+Councillor McGinty,Leena,2
+Councillor McGinty,Mike Anjali,2
+Councillor McGinty,Name,2
+Councillor McGinty,Rajesh Shikha,2
+Councillor McGinty,Teddy Chitrangada,2
+Councillor McGinty,boss,2
+Esha,Mr. Neerja Jaya,2
+Esha,Mr. Shraddha Fawad,2
+Esha,old,2
+Faith,Mitali Javed,2
+Faith,Parineeti,2
+Gilmerton,Karun Vinay,2
+Gully,i,2
+Gully,old,2
+Jacob Priyadarshan,Shalini,2
+Jacob Priyadarshan,man,2
+Josiah H. Jagdeep,i,2
+Karun Vinay,Shalini,2
+Karun Vinay,man,2
+Kiara,Kiara Yash,2
+Kiara,Mr. Ishaan Hina,2
+Kiara,Sherlock Kiran,2
+Kiara MacDonald,Mr. Ishaan Hina,2
+Kiara MacDonald,Sherlock Kiran,2
+Kiara Yash,Sherlock Kiran,2
+Leena,Sahil,2
+Madhuri,i,2
+Meher Hema,man,2
+Mike Anjali,man,2
+Mitali,man,2
+Mitali Javed,Teddy Chitrangada,2
+Mohanlal Mukesh,i,2
+Mr. Neerja Jaya,Sahil,2
+Mr. Neerja Jaya,inspector,2
+Mr. Shraddha Fawad,Sherlock Kiran,2
+Name,Shalini,2
+Navya,Navya Divya,2
+Navya,Shalini,2
+Neelam,treasurer,2
+Neetu,Sherlock Kiran,2
+Parineeti,i,2
+Rajesh Kajol,Rajesh Shikha,2
+Rajesh Kajol,i,2
+Rajesh Shikha,Shalini,2
+Rajesh Shikha,Sherlock Kiran,2
+Rajesh Shikha,man,2
+Sahil,Shalini,2
+Sahil,boss,2
+Sahil McGinty,Shalini,2
+Sahil McGinty,boss,2
+Saket,tut,2
+Shafaq Swara,i,2
+Shalini,Varsha McGinty,2
+Sherlock Kiran,man,2
+Sonam,Teddy Chitrangada,2
+Teddy Chitrangada,man,2
+Varsha,man,2
+Varsha McGinty,i,2
+man,white,2
+old,white,2
+Aamir,i,1
+Abir,Pranav,1
+Abir,Shilpa,1
+Abir,Tanushree Deepika,1
+Alec MacDonald,Friend MacDonald,1
+Alok Priyadarshan,Jacob Priyadarshan,1
+Amol,hunt,1
+Amol,i,1
+Anirudh,Josiah H. Jagdeep,1
+Anirudh,i,1
+Anushka,Mike Anjali,1
+Anushka,Santhosh,1
+Anushka,Tanisha,1
+Aparna,inspector,1
+Arvind Mohit,Brother Neerja McMurdo,1
+Arvind Mohit,i,1
+Asha,Asha Kriti,1
+Asha,Leena,1
+Asha,Mike Anjali,1
+Asha,Muskaan Kriti,1
+Asha,Name,1
+Asha,boarder,1
+Asha,old,1
+Asha,white,1
+Asha Kriti,Muskaan Kriti,1
+Asha Kriti,Name,1
+Asha Priyadarshan,Mike Anjali,1
+Asha Priyadarshan,i,1
+Ashok Sanjeev,Guneet,1
+Ashok Sushmita,Jenkins,1
+Ashok Sushmita,Rajeev,1
+Bartholomew Shabana,Guneet,1
+Bartholomew Shabana,Name,1
+Bartholomew Shabana,Steve Shabana,1
+Bartholomew Shabana,i,1
+Benito Canyon,Mr. Neerja Jaya,1
+Benito Canyon,Mr. Shraddha Fawad,1
+Benito Canyon,Muskaan Kriti,1
+Benito Canyon,Name,1
+Benito Canyon,Sahil,1
+Benito Canyon,Sahil Jaya,1
+Birdy Kriti,i,1
+Brethren,Councillor McGinty,1
+Brethren,Ekta,1
+Brethren,Mitali,1
+Brethren,Mitali Javed,1
+Brethren,Muskaan Kriti,1
+Brethren,Name,1
+Brother Dharmendra,Judge Tanmay,1
+Brother Dharmendra,man,1
+Brother Dharmendra,old,1
+Brother Dharmendra,white,1
+Brother Neerja McMurdo,Faith,1
+Brother Neerja McMurdo,Javed McMurdo,1
+Brother Neerja McMurdo,Juhi,1
+Brother Neerja McMurdo,Name,1
+Brother Neerja McMurdo,Navya,1
+Brother Neerja McMurdo,Navya Divya,1
+Brother Neerja McMurdo,Nushrat,1
+Brother Neerja McMurdo,Parineeti,1
+Brother Neerja McMurdo,Parth,1
+Brother Neerja McMurdo,Parth Chitrangada,1
+Brother Neerja McMurdo,Rajesh Shikha,1
+Brother Neerja McMurdo,Sonam,1
+Brother Neerja McMurdo,Varsha,1
+Brother Neerja McMurdo,Varsha McGinty,1
+Brother Neerja McMurdo,Widow MacNamara,1
+Brother Neerja McMurdo,boarder,1
+Captain Akshaye,Name,1
+Captain Akshaye,Teddy Akshaye,1
+Captain Akshaye,man,1
+Councillor,Mitali Javed,1
+Councillor,Parth,1
+Councillor,Parth Chitrangada,1
+Councillor,Teddy Chitrangada,1
+Councillor,law,1
+Councillor,tiger,1
+Councillor McGinty,Faith,1
+Councillor McGinty,Juhi,1
+Councillor McGinty,Meher Hema,1
+Councillor McGinty,Navya,1
+Councillor McGinty,Navya Divya,1
+Councillor McGinty,Neerja McGinty,1
+Councillor McGinty,Nushrat,1
+Councillor McGinty,Parth,1
+Councillor McGinty,Parth Chitrangada,1
+Councillor McGinty,Pramod,1
+Councillor McGinty,Riddhi Rohit,1
+Councillor McGinty,boarder,1
+Danton,Name,1
+Danton,Navya,1
+Danton,Navya Divya,1
+Danton,Robespierre,1
+Danton,Shalini,1
+Danton,Varsha,1
+Dr. Suman,Gully,1
+Dr. Suman,Mr. Shraddha Fawad,1
+Dr. Suman,Sherlock Kiran,1
+Ekta,Name,1
+Ekta,Rajesh Shikha,1
+Ekta,old,1
+Friend MacDonald,Nikita,1
+Friend MacDonald,Sussex,1
+George,Neetu,1
+George,i,1
+Gilmerton,Rajesh Shikha,1
+Guneet,Mitali Javed,1
+Guneet,Mr. Shraddha Fawad,1
+Guneet,Muskaan Kriti,1
+Guneet,Name,1
+Guneet,Rajesh Kajol,1
+Guneet,Rajesh Shikha,1
+Guneet,Shalini,1
+Guneet,Sherlock Kiran,1
+Guneet,old,1
+IVY Jaya,Mr. Neerja Jaya,1
+Jacob Priyadarshan,Mike Anjali,1
+Jacob Priyadarshan,Widow MacNamara,1
+Javed McGinty,Name,1
+Javed McGinty,i,1
+Javed McMurdo,Mitali Javed,1
+Javed McMurdo,man,1
+Jenkins,Rajeev,1
+Josiah H. Jagdeep,Manager Jagdeep,1
+Juhi,Mike Anjali,1
+Juhi,Navya,1
+Juhi,Navya Divya,1
+Juhi,boarder,1
+Juhi,i,1
+Juhi,man,1
+Juhi,old,1
+Karan,hunt,1
+Kiara,Nikita,1
+Kiara MacDonald,Nikita,1
+Kiara MacDonald,i,1
+Kiara Yash,Mike Anjali,1
+Kiara Yash,Neetu,1
+Lee,Todman,1
+Leena,Mitali Javed,1
+Leena,Name,1
+Leena,Sahil McGinty,1
+Manager Jagdeep,i,1
+Manju,Prateek,1
+Mike Anjali,Navya,1
+Mike Anjali,Navya Divya,1
+Mike Anjali,Nushrat,1
+Mike Anjali,Parineeti,1
+Mike Anjali,Santhosh,1
+Mike Anjali,Tanisha,1
+Mike Anjali,boarder,1
+Milman,Nicholson,1
+Milman,Van Shorst,1
+Milman,old,1
+Mitali,Rajesh Shikha,1
+Mitali Javed,Muskaan Kriti,1
+Mitali Javed,Name,1
+Mitali Javed,Parth,1
+Mitali Javed,Parth Chitrangada,1
+Mitali Javed,Rajesh Kajol,1
+Mitali Javed,Rajesh Shikha,1
+Mitali Javed,Sherlock Kiran,1
+Mitali Javed,Sonam,1
+Mr. Neerja Jaya,Muskaan Kriti,1
+Mr. Neerja Jaya,Sahil Jaya,1
+Mr. Neerja Jaya,birlstone,1
+Mr. Shraddha Fawad,Name,1
+Mr. Shraddha Fawad,hales,1
+Mr. Shraddha Fawad,inspector,1
+Muskaan Kriti,Rajesh Kajol,1
+Muskaan Kriti,Rajesh Shikha,1
+Muskaan Kriti,Sahil,1
+Muskaan Kriti,Sahil Jaya,1
+Muskaan Kriti,Shalini,1
+Muskaan Kriti,Sherlock Kiran,1
+Name,Navya,1
+Name,Navya Divya,1
+Name,Professor Niharika,1
+Name,Ranjan,1
+Name,Robespierre,1
+Name,Sahil Jaya,1
+Name,Sahil McGinty,1
+Name,Sahil McMurdo,1
+Name,Steve Shabana,1
+Name,Varsha,1
+Name,inspector,1
+Navya,Nushrat,1
+Navya,Policemen Shahid,1
+Navya,Robespierre,1
+Navya,Varsha,1
+Navya,boarder,1
+Navya Divya,Nushrat,1
+Navya Divya,Robespierre,1
+Navya Divya,Shalini,1
+Navya Divya,Varsha,1
+Navya Divya,boarder,1
+Neelam,Riddhi Rohit,1
+Neelam,Sonam,1
+Neelam,Teddy Chitrangada,1
+Neelam,man,1
+Neetu,Sir Neetu Mansi,1
+Neetu,i,1
+Nicholson,Van Shorst,1
+Nicholson,old,1
+Nikita,Nikita James,1
+Nikita,Parvathy,1
+Nikita,Sherlock Kiran,1
+Nikita,i,1
+Nikita James,Parvathy,1
+Nushrat,boarder,1
+Parineeti,man,1
+Parth,Santhosh,1
+Parth Chitrangada,Santhosh,1
+Policemen Shahid,Shalini,1
+Pramod,man,1
+Pranav,Shilpa,1
+Pranav,Tanushree Deepika,1
+Professor Niharika,Sherlock Kiran,1
+Professor Niharika,hunt,1
+Professor Niharika,law,1
+Rahul,man,1
+Rajesh Kajol,Shalini,1
+Rajesh Kajol,Sherlock Kiran,1
+Rajesh Shikha,boss,1
+Rajesh Shikha,law,1
+Ranjan,man,1
+Riddhi Rohit,Santhosh,1
+Riddhi Rohit,Sonam,1
+Riddhi Rohit,Varsha,1
+Riddhi Rohit,Varsha McGinty,1
+Riddhi Rohit,man,1
+Riddhi Rohit,treasurer,1
+Robespierre,Shalini,1
+Robespierre,Varsha,1
+Ruchika Ruchi,rae,1
+Sahil,Sahil Jaya,1
+Sahil,Sahil Knox,1
+Sahil,Varsha,1
+Sahil,Varsha McGinty,1
+Sahil Knox,i,1
+Santhosh,Tanisha,1
+Santhosh,Teddy Chitrangada,1
+Shalini,Sherlock Kiran,1
+Shalini,Widow MacNamara,1
+Shalini,old,1
+Sherlock Kiran,birlstone,1
+Sherlock Kiran,white,1
+Shilpa,Tanushree Deepika,1
+Sonam,i,1
+Sonam,man,1
+Sonam,old,1
+Sonam,treasurer,1
+Surbhi Amitabh,Zoya Pavan,1
+Teddy Akshaye,old,1
+Teddy Chitrangada,Varsha,1
+Teddy Chitrangada,boarder,1
+Teddy Chitrangada,treasurer,1
+Van Shorst,old,1
+Walker Brothers,i,1
+Widow MacNamara,old,1
+birlstone,i,1
+boarder,i,1
+boarder,old,1
+boss,man,1
+fred,i,1
+hunt,i,1
+i,treasurer,1
+man,treasurer,1

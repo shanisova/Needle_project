@@ -1,0 +1,17 @@
+character1,character2,count
+Lestrade,Sherlock Holmes,5
+Miss Sarah Cushing,Sarah,5
+James Browner,Jim,4
+James Browner,Jim Browner,4
+Jim,Jim Browner,4
+Mary,Sarah,4
+Alec,Alec Fairbairn,2
+Alec Fairbairn,Mary,2
+Beecher,henry,2
+Miss Sarah Cushing,Sherlock Holmes,2
+Sarah,browners,2
+Alec Fairbairn,Sarah,1
+James Browner,Sarah,1
+Jim,Mary,1
+Miss Sarah Cushing,Miss Susan Cushing,1
+Sherlock Holmes,Watson,1

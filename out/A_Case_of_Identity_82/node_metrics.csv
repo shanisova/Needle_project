@@ -1,0 +1,7 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Ginny,0,0.16666666666666666,0,1,7.0
+Ginny Them,0,0.16666666666666666,0,1,7.0
+Miss Krum Veela,1,0.06393163165863168,0,3,3.0
+Mr. James Fluffy,0,0.06393163165863168,1,3,3.0
+Mr. Muggle Diggory,0,0.26940170167470173,1,3,22.0
+Muggle,0,0.26940170167470173,1,3,22.0

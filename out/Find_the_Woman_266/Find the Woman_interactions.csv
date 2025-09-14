@@ -1,0 +1,411 @@
+character1,character2,count
+Clancy,a,234
+Don. (Donald) Carey,Sophie,86
+Don. (Donald) Carey,Sophie Carey,79
+Sophie,Sophie Carey,79
+Clancy,Clancy Deane,60
+Don. (Donald) Carey,a,60
+Clancy Deane,a,57
+Florine,Florine Ladue,50
+Mr. Morris Beiner,a,49
+Philip Vandervent,a,48
+Morris,Mr. Morris Beiner,45
+Mr. Don,a,44
+Clancy,Don. (Donald) Carey,42
+Tom Walbrough,a,41
+Judge Walbrough,Tom Walbrough,40
+Mr. David Randall,a,38
+Paul Zenda,a,38
+Miss Sally Henderson,Sally,33
+Mr. Grannis,a,31
+Don. (Donald) Carey,Mr. Don,30
+Zenith,a,30
+Clancy,Philip Vandervent,29
+Florine,a,27
+Clancy,Mr. David Randall,26
+Clancy,Sophie,26
+Fay,Fay Marston,25
+Sophie,a,25
+Ike,Ike Weber,24
+Fay,a,21
+Ike,a,21
+Clancy,Tom Walbrough,20
+Ike Weber,a,20
+Philip,Philip Vandervent,20
+Clancy Deane,Mr. Don,19
+Mr. Spofford,a,19
+Clancy,Sophie Carey,18
+Clancy,Ike Weber,17
+Florine,Mr. Morris Beiner,17
+Ike Weber,Mr. Grannis,17
+Sophie Carey,a,17
+Clancy,Zenith,16
+David,Mr. David Randall,16
+Garland,a,16
+Miss Sally Henderson,a,16
+Clancy,Mr. Spofford,15
+Ike Weber,Paul Zenda,15
+Clancy,Fanchon,14
+Don. (Donald) Carey,Mr. Morris Beiner,14
+Clancy,Miss Sally Henderson,13
+Judge Walbrough,a,13
+Mr. Grannis,Paul Zenda,13
+Clancy,Mr. Don,12
+Fanchon,a,12
+Florine,Philip Vandervent,12
+Florine Ladue,Mr. Morris Beiner,12
+Mr. David Randall,Philip Vandervent,12
+Mr. Spofford,Philip Vandervent,12
+Philip Vandervent,Tom Walbrough,12
+Clancy,Florine,11
+Clancy,Paul Zenda,11
+Florine Ladue,Philip Vandervent,11
+Morris,a,11
+Sally,a,11
+Ike,Paul Zenda,10
+Mr. Morris Beiner,Paul Zenda,10
+a,napoli,10
+Clancy,Florine Ladue,9
+Clancy,Mr. Grannis,9
+Don. (Donald) Carey,Garland,9
+Fay Marston,a,9
+Florine,Paul Zenda,9
+Florine Ladue,a,9
+Care,Mr. Don,8
+Clancy,Sally,8
+Clancy Deane,Philip Vandervent,8
+Fanchon,Florine,8
+Fanchon,Florine Ladue,8
+Florine,Morris,8
+Mr. Morris Beiner,Philip Vandervent,8
+Care,Clancy,7
+Clancy Deane,Florine,7
+Clancy Deane,Florine Ladue,7
+Clancy Deane,Zenith,7
+David,a,7
+Don. (Donald) Carey,Mr. David Randall,7
+Don. (Donald) Carey,Philip Vandervent,7
+Clancy,Mr. Morris Beiner,6
+Clancy Deane,Fanchon,6
+Fay,Ike Weber,6
+Fay,Paul Zenda,6
+Fay Marston,Paul Zenda,6
+Florine,Ike Weber,6
+Florine,Mr. Don,6
+Florine Ladue,Paul Zenda,6
+Frank Hildebloom,Mr. Morris Beiner,6
+Mr. Don,Mr. Spofford,6
+a,walbroughs,6
+Care,Paul Zenda,5
+Clancy,Judge Walbrough,5
+Clancy,Morris,5
+Clancy,Philip,5
+Clancy Deane,Don. (Donald) Carey,5
+Clancy Deane,Mr. David Randall,5
+Clancy Deane,Mr. Morris Beiner,5
+Clancy Deane,Paul Zenda,5
+Fate,a,5
+Fay,Ike,5
+Florine Ladue,Morris,5
+Hetty,a,5
+Judge Walbrough,Paul Zenda,5
+Morris,Paul Zenda,5
+Mr. David Randall,Mr. Spofford,5
+Mr. David Randall,Sophie,5
+Mr. Don,Paul Zenda,5
+Mr. Morris Beiner,Mr. Spofford,5
+Paul,a,5
+Paul Zenda,Tom Walbrough,5
+Philip,a,5
+a,god,5
+Care,a,4
+Clancy,Garland,4
+Clancy,napoli,4
+Clancy,walbroughs,4
+Clancy Deane,Sophie,4
+Don. (Donald) Carey,Miss Sally Henderson,4
+Don. (Donald) Carey,Morris,4
+Don. (Donald) Carey,Sally,4
+Fanchon,Philip Vandervent,4
+Fay Marston,Ike Weber,4
+Garland,Philip Vandervent,4
+Guernsey,a,4
+Ike Weber,Mr. Morris Beiner,4
+Miss Sally Henderson,Mr. Grannis,4
+Morris,Philip Vandervent,4
+Mr. Don,Mr. Morris Beiner,4
+Mr. Grannis,Mr. Morris Beiner,4
+Mrs. Gerand,a,4
+Sophie,Tom Walbrough,4
+a,hinsdale,4
+Clancy,Fay,3
+Clancy,Guernsey,3
+Clancy,Hetty,3
+Clancy Deane,Frank,3
+Clancy Deane,Morris,3
+Clancy Deane,Mr. Spofford,3
+David,Philip Vandervent,3
+Don. (Donald) Carey,Donald,3
+Don. (Donald) Carey,Mr. Spofford,3
+Fanchon,Morris,3
+Fanchon,Mr. Morris Beiner,3
+Fate,Mr. Grannis,3
+Fay,Mr. Morris Beiner,3
+Fay Marston,Ike,3
+Fay Marston,Mr. Morris Beiner,3
+Florine,Mr. Grannis,3
+Frank,a,3
+Garland,Mr. Spofford,3
+Guernsey,Miss Sally Henderson,3
+Ike,Mr. Don,3
+Judge Walbrough,Mr. David Randall,3
+Judge Walbrough,Philip Vandervent,3
+Morris,Mr. Don,3
+Mr. David Randall,Sophie Carey,3
+Mr. David Randall,Tom Walbrough,3
+Mr. Don,Philip Vandervent,3
+Mr. Morris Beiner,napoli,3
+Paul,Paul Zenda,3
+Paul Zenda,Philip Vandervent,3
+Clancy,David,2
+Clancy,Ike,2
+Clancy,Mrs. Gerand,2
+Clancy,sage,2
+Clancy Deane,Garland,2
+Clancy Deane,Ike Weber,2
+Clancy Deane,Mr. Grannis,2
+Clancy Deane,Penwell,2
+Clancy Deane,Sophie Carey,2
+Clancy Deane,Tom,2
+David,Don. (Donald) Carey,2
+David,Mr. Don,2
+Don. (Donald) Carey,jack,2
+Fanchon,Philip,2
+Fate,Tom Walbrough,2
+Fay,Florine,2
+Fay,Florine Ladue,2
+Fay Marston,Florine,2
+Fay Marston,Florine Ladue,2
+Fay Marston,Mr. Don,2
+Florine,Frank Hildebloom,2
+Florine,napoli,2
+Florine Ladue,Frank Hildebloom,2
+Florine Ladue,napoli,2
+Frank,Frank Hildebloom,2
+Frank,Zenith,2
+Frank Hildebloom,Morris,2
+Frank Hildebloom,a,2
+Garland,Mr. Don,2
+Hetty,Zenith,2
+Ike Weber,Mr. Don,2
+Ike Weber,Mr. Spofford,2
+Ike Weber,Paul,2
+Jennie,Jennie Conover,2
+Jennie Conover,Miss Sally Henderson,2
+Johansen,a,2
+Judge Walbrough,walbroughs,2
+Lallo,a,2
+Miss Sally Henderson,Philip Vandervent,2
+Miss Sally Henderson,Sophie,2
+Miss Sally Henderson,Sophie Carey,2
+Mr. David Randall,Zenith,2
+Mr. Don,Paul,2
+Mr. Don,Sophie,2
+Mr. Grannis,Philip Vandervent,2
+Mr. Grannis,Sally,2
+Mr. Morris Beiner,Tom Walbrough,2
+Mrs. Hebron,a,2
+Paul Zenda,Zenith,2
+Phil Vandervent,Philip Vandervent,2
+Philip Vandervent,Sophie,2
+Philip Vandervent,walbroughs,2
+Sally,Sophie,2
+Sally,Sophie Carey,2
+Tom Walbrough,hinsdale,2
+Tom Walbrough,walbroughs,2
+a,fanny,2
+a,jack,2
+cornwell,dean,2
+Care,Clancy Deane,1
+Care,Mr. Grannis,1
+Care,Mr. Morris Beiner,1
+Cavanagh,Darnleigh,1
+Cavanagh,Judge Walbrough,1
+Cavanagh,Mortimer,1
+Cavanagh,Tom Walbrough,1
+Cavanagh,a,1
+Clancy,Donald,1
+Clancy,Jennie Conover,1
+Clancy,Penwell,1
+Clancy,Stephen Burgess,1
+Clancy,cl,1
+Clancy,cornwell,1
+Clancy,dean,1
+Clancy,ethel,1
+Clancy,xviii,1
+Clancy,xxvii,1
+Clancy Deane,Ike,1
+Clancy Deane,Judge Walbrough,1
+Clancy Deane,Miss Sally Henderson,1
+Clancy Deane,Philip,1
+Clancy Deane,Tom Walbrough,1
+Clancy Deane,cornwell,1
+Clancy Deane,dean,1
+Clancy Deane,napoli,1
+Darnleigh,Judge Walbrough,1
+Darnleigh,Mortimer,1
+Darnleigh,Tom Walbrough,1
+Darnleigh,a,1
+David,Phil Vandervent,1
+David,Sophie,1
+David,Sophie Carey,1
+David,walbroughs,1
+Don. (Donald) Carey,Fate,1
+Don. (Donald) Carey,Florine,1
+Don. (Donald) Carey,Florine Ladue,1
+Don. (Donald) Carey,Ragan,1
+Don. (Donald) Carey,Tom Walbrough,1
+Don. (Donald) Carey,walbroughs,1
+Donald,Ragan,1
+Donald,Sophie,1
+Donald,a,1
+Fanchon,Hetty,1
+Fanchon,Zenith,1
+Fate,Ike Weber,1
+Fate,Mr. Morris Beiner,1
+Fate,Paul Zenda,1
+Fate,Sophie,1
+Fay,Morris,1
+Fay,Mr. Don,1
+Fay,Mr. Grannis,1
+Fay,Mr. Spofford,1
+Fay,napoli,1
+Fay Marston,Morris,1
+Fay Marston,Mr. Spofford,1
+Florine,Judge Walbrough,1
+Florine,Miss Sally Henderson,1
+Florine,Mr. Spofford,1
+Florine,Sally,1
+Florine,Sophie,1
+Florine,Sophie Carey,1
+Florine,Tom Walbrough,1
+Florine,Zenith,1
+Florine,cl,1
+Florine,flo,1
+Florine Ladue,Ike Weber,1
+Florine Ladue,Judge Walbrough,1
+Florine Ladue,Miss Sally Henderson,1
+Florine Ladue,Mr. Don,1
+Florine Ladue,Sally,1
+Florine Ladue,Sophie,1
+Florine Ladue,Sophie Carey,1
+Florine Ladue,Tom Walbrough,1
+Florine Ladue,Zenith,1
+Florine Ladue,cl,1
+Frank,Mr. Don,1
+Garland,Morris,1
+Garland,Mr. Morris Beiner,1
+Garland,Philip,1
+Garland,Sophie,1
+Garland,Tom Walbrough,1
+Garland,jack,1
+Guernsey,Mr. Grannis,1
+Guernsey,Mr. Spofford,1
+Hetty,Stephen Burgess,1
+Ike,Miss Sally Henderson,1
+Ike,Mr. Morris Beiner,1
+Ike,Mr. Spofford,1
+Ike,Paul,1
+Ike,Zenith,1
+Ike Weber,Miss Sally Henderson,1
+Ike Weber,Morris,1
+Ike Weber,Penniman,1
+Ike Weber,Philip Vandervent,1
+Ike Weber,Zenith,1
+Ike Weber,god,1
+Ike Weber,mabel,1
+Jennie Conover,Sally,1
+Jennie Conover,a,1
+Judge Walbrough,Miss Sally Henderson,1
+Judge Walbrough,Mortimer,1
+Judge Walbrough,Mr. Morris Beiner,1
+Judge Walbrough,Mr. Spofford,1
+Judge Walbrough,Paul,1
+Judge Walbrough,Paul Jones,1
+Judge Walbrough,Sally,1
+Lallo,Paul Zenda,1
+Lallo,jack,1
+Lemuel Burkan,Mr. Morris Beiner,1
+Maria,a,1
+Maria,hinsdale,1
+Miss Sally Henderson,Mr. Don,1
+Miss Sally Henderson,Tom Walbrough,1
+Morris,Mr. Grannis,1
+Morris,napoli,1
+Mortimer,Tom Walbrough,1
+Mortimer,a,1
+Mr. David Randall,Mr. Don,1
+Mr. David Randall,napoli,1
+Mr. David Randall,walbroughs,1
+Mr. Don,Mr. Grannis,1
+Mr. Don,Mrs. Gerand,1
+Mr. Don,Tom,1
+Mr. Don,Tom Walbrough,1
+Mr. Grannis,Mr. Spofford,1
+Mr. Grannis,cornwell,1
+Mr. Grannis,dean,1
+Mr. Morris Beiner,Philip,1
+Mr. Morris Beiner,Zenith,1
+Mr. Morris Beiner,fanny,1
+Mr. Spofford,Paul Zenda,1
+Mr. Spofford,Philip,1
+Mr. Spofford,Tom Walbrough,1
+Mr. Spofford,jack,1
+Mr. Spofford,napoli,1
+Mr. Spofford,xxvii,1
+Mrs. Gerand,napoli,1
+Mrs. Gerand,simon,1
+Paul,Paul Jones,1
+Paul,Philip Vandervent,1
+Paul,Tom Walbrough,1
+Paul Jones,Philip Vandervent,1
+Paul Jones,Tom Walbrough,1
+Paul Jones,a,1
+Paul Zenda,god,1
+Paul Zenda,mabel,1
+Paul Zenda,walbroughs,1
+Penniman,a,1
+Penwell,Philip Vandervent,1
+Penwell,a,1
+Phil Vandervent,a,1
+Phil Vandervent,walbroughs,1
+Philip,Tom,1
+Philip,Tom Walbrough,1
+Philip,ethel,1
+Philip,walbroughs,1
+Philip Vandervent,Sally,1
+Philip Vandervent,Sophie Carey,1
+Philip Vandervent,Tom,1
+Philip Vandervent,xxiv,1
+Ragan,a,1
+Ragan,jack,1
+Sally,Tom Walbrough,1
+Sam,Tom Walbrough,1
+Sophie,walbroughs,1
+Stephen Burgess,a,1
+Tom,Tom Walbrough,1
+Tom,a,1
+Tom Walbrough,xxiv,1
+a,branwyn,1
+a,bruce,1
+a,fairchild,1
+a,martha,1
+a,webers,1
+a,xxiv,1
+arthur,dean,1
+arthur,roche,1
+branwyn,bruce,1
+branwyn,fairchild,1
+bruce,fairchild,1
+dean,roche,1
+maggie,smith,1

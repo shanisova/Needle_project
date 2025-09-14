@@ -1,0 +1,416 @@
+character1,character2,count
+Mrs. Sonia Annie,Sonia,99
+Miss Raymond Ganett,Ursula Raymond,35
+John,John Charles,27
+John,Ursula Charles,27
+John Charles,Ursula Charles,27
+Marsh Pond,Miss Raymond Ganett,24
+Marsh Pond,Pond Ganett,23
+Miss Raymond Ganett,Pond Ganett,23
+Greys,Greys Merci,22
+Greys,Ursula (Merci),22
+Greys Merci,Ursula (Merci),22
+Mr. Russell,Mr. Russell Elizabeth,21
+Miss Raymond Ganett,this,17
+Ursula (Merci),this,17
+Sonia,Ursula Raymond,16
+Bourne,Bourne Gold,15
+Bourne Gold,Mr. Russell Elizabeth,13
+Ursula,Ursula Raymond,13
+Miss Chow,Ursula Raglan,12
+Miss Raymond Ganett,Sonia,11
+Hayes,Ursula Raglan,10
+John,Sonia,10
+Nancy,this,10
+Bourne Gold,Ursula Raymond,9
+Uncle,Ursula Raymond,9
+Ursula (Merci),Ursula Raymond,9
+Miss Raymond Ganett,Mr. Russell Elizabeth,8
+Bourne Gold,Miss Raymond Ganett,7
+Miss Raymond Ganett,Mrs. Sonia Annie,7
+Mrs. Sonia Annie,this,7
+Sheppard,this,7
+Ursula (Merci),mademoiselle,7
+Ursula Raymond,this,7
+Vane,Vane & Mah,7
+American,American Thripp,6
+Bourne Gold,Ursula (Merci),6
+John,Mrs. Sonia Annie,6
+Miss Chow,this,6
+Miss Raymond Ganett,Sheppard,6
+Miss Raymond Ganett,Uncle,6
+Mrs. Sonia Annie,Ursula Raymond,6
+Sonia,Ursula (Merci),6
+Sonia,Ursula Raglan,6
+Sonia,this,6
+Ursula,Ursula (Merci),6
+Ursula (Merci),Ursula Raglan,6
+Ursula Raglan,this,6
+Ashley Rafael,Rafael (Ashley),5
+Bourne,Ursula Raymond,5
+Dolly,Miss Raymond Ganett,5
+Ferrars Melrose,Miss Chow,5
+Ferrars Melrose,Ursula Raglan,5
+Inspector Watson,Ursula (Merci),5
+Inspector Watson,this,5
+Mrs. Sonia Annie,Ursula Raglan,5
+Sheppard,Ursula Raymond,5
+Ursula Blunt,this,5
+Ashley Rafael,Miss Raymond Ganett,4
+John,John Annie,4
+John Annie,Mrs. Sonia Annie,4
+John Charles,Mrs. Sonia Annie,4
+Miss Caroline,Ursula Raglan,4
+Miss Raymond Ganett,Nancy,4
+Miss Raymond Ganett,Ursula Raglan,4
+Miss Raymond Ganett,son,4
+Mr. Russell Elizabeth,Ursula Raymond,4
+Mr. Russell Elizabeth,this,4
+Mrs. Sonia Annie,Uncle,4
+Mrs. Sonia Annie,Ursula,4
+Mrs. Sonia Annie,Ursula (Merci),4
+Mrs. Sonia Annie,Ursula Charles,4
+Sheppard,Ursula (Merci),4
+Ursula,Ursula Raglan,4
+mademoiselle,this,4
+Ackroyd,Miss Chow,3
+American,Dolly,3
+Carter Punkie,Dolly,3
+Carter Punkie,Ursula (Merci),3
+Carter Punkie,this,3
+Cecil,Miss Raymond Ganett,3
+Cecil,Mrs. Cecil Ganett,3
+Dolly,John,3
+Dolly,Ursula Raglan,3
+Hastings,Miss Chow,3
+Hayes,Ursula (Merci),3
+John,Miss Raymond Ganett,3
+John Annie,John Charles,3
+John Annie,Ursula Charles,3
+Marsh,Marsh Pond,3
+Miss Blunt,Ursula Blunt,3
+Miss Caroline,Miss Raymond Ganett,3
+Miss Caroline,Mr. Russell Elizabeth,3
+Miss Chow,Ursula Raymond,3
+Miss Raymond Ganett,Mr. Russell,3
+Miss Raymond Ganett,Mrs. Cecil Ganett,3
+Miss Raymond Ganett,Ursula (Merci),3
+Mr. Russell Elizabeth,Nancy,3
+Mr. Russell Elizabeth,Sheppard,3
+Sheppard,Uncle,3
+Sheppard,melisande,3
+Sonia,black,3
+Sonia,son,3
+Ursula Blunt,Ursula Raymond,3
+Ackroyd,Hastings,2
+American,this,2
+American Thripp,Dolly,2
+Bourne Gold,Dolly,2
+Bourne Gold,Marsh Pond,2
+Bourne Gold,Sonia,2
+Carter Punkie,Miss Caroline,2
+Dagger Sabatini,grosset,2
+Dolly,John Charles,2
+Dolly,Miss Caroline,2
+Dolly,Sheppard,2
+Dolly,Sonia,2
+Dolly,Ursula Charles,2
+Dunlap Parker,Marsh Pond,2
+Dunlap Parker,Miss Raymond Ganett,2
+Dunlap Parker,Pond Ganett,2
+FLORA Ganett,Miss Raymond Ganett,2
+Folliott,Paul,2
+Hayes,Nancy,2
+Hayes,this,2
+Hercule Merci,Ursula (Merci),2
+Inspector Bennett,Sheppard,2
+Japp,Miss Chow,2
+John,Marsh Pond,2
+John,Miss Caroline,2
+John,Mr. Russell Elizabeth,2
+John,Pond Ganett,2
+John,Ursula (Merci),2
+John,this,2
+John Charles,this,2
+Marsh Pond,Sonia,2
+Marsh Pond,Ursula Raymond,2
+Methuselah,Methuselah Kent,2
+Miss Caroline,Sheppard,2
+Miss Caroline,this,2
+Miss Raymond Ganett,black,2
+Mr. Russell Elizabeth,Ursula (Merci),2
+Mr. Russell Elizabeth,Ursula Raglan,2
+Mrs. Sonia Annie,black,2
+Mrs. Sonia Annie,mademoiselle,2
+Mrs. Sonia Annie,son,2
+Nancy,Ursula Blunt,2
+Sheba,Sheba Emma,2
+Sheba,Sheba Kipling,2
+Sheba,Sheba M,2
+Sheba,Sheba Poirot,2
+Sheba,desert,2
+Sheppard,black,2
+Sonia,Uncle,2
+Sonia,Ursula,2
+Sonia,Ursula Blunt,2
+Sonia,mademoiselle,2
+Superintendent R,Ursula (Merci),2
+Troute,Ursula (Merci),2
+Ursula (Merci),Ursula Blunt,2
+Ursula (Merci),melisande,2
+Ursula Charles,this,2
+Ursula Raglan,Ursula Raymond,2
+Ursula Raglan,black,2
+Ursula Raglan,hallo,2
+Ursula Raglan,wetmore,2
+Ursula Raymond,black,2
+Zane Hurst,grosset,2
+hallo,this,2
+son,this,2
+American,Curtis Eliot,1
+American,Hayes,1
+American,Japp,1
+American,Sheppard,1
+American,Ursula Blunt,1
+American Thripp,Miss Caroline,1
+American Thripp,Sheppard,1
+Ashley Rafael,Cecil,1
+Ashley Rafael,Marsh Pond,1
+Ashley Rafael,Mrs. Cecil Ganett,1
+Ashley Rafael,Pond Ganett,1
+Ashley Rafael,Ursula (Merci),1
+Ashley Rafael,Ursula Blunt,1
+Ashley Rafael,Ursula Raglan,1
+Ashley Rafael,grosset,1
+Ashley Rafael,this,1
+Bates Fernly,Mrs. Sonia Annie,1
+Bates Fernly,Sonia,1
+Bourne,Miss Raymond Ganett,1
+Bourne,Ursula (Merci),1
+Bourne Gold,Elsie,1
+Bourne Gold,Mr. Russell,1
+Bourne Gold,Nancy,1
+Bourne Gold,Sheppard,1
+Bourne Gold,Uncle,1
+Bourne Gold,Ursula,1
+Bourne Gold,mademoiselle,1
+Bourne Gold,this,1
+Carter Punkie,Dunlap Parker,1
+Carter Punkie,FLORA Ganett,1
+Carter Punkie,Ferrars Melrose,1
+Carter Punkie,Inspector Watson,1
+Carter Punkie,John,1
+Carter Punkie,Marsh Pond,1
+Carter Punkie,Miss Raymond Ganett,1
+Carter Punkie,Mr. Russell,1
+Carter Punkie,Mr. Russell Elizabeth,1
+Carter Punkie,Pond Ganett,1
+Carter Punkie,Ralph Paton,1
+Carter Punkie,Sheba Poirot,1
+Carter Punkie,son,1
+Cecil,Dolly,1
+Cecil,Miss Caroline,1
+Cecil,Ursula Raglan,1
+Cooper,Sequel Hector,1
+Diana Grice,Flora Hurst,1
+Diana Grice,Sheba,1
+Diana Grice,blackguard,1
+Diana Grice,desert,1
+Diana Grice,son,1
+Dolly,Japp,1
+Dolly,Marsh Pond,1
+Dolly,Miss Chow,1
+Dolly,Mrs. Cecil Ganett,1
+Dolly,Nancy,1
+Dolly,Pond Ganett,1
+Dolly,Quill,1
+Dolly,Uncle,1
+Dolly,Ursula (Merci),1
+Dolly,mademoiselle,1
+Dolly,this,1
+Dunlap Parker,FLORA Ganett,1
+Dunlap Parker,Ferrars Melrose,1
+Dunlap Parker,John,1
+Dunlap Parker,Miss Caroline,1
+Dunlap Parker,Mr. Russell,1
+Dunlap Parker,Mr. Russell Elizabeth,1
+Dunlap Parker,Ralph Paton,1
+Dunlap Parker,Sheba Poirot,1
+Emma Richard,Miss Caroline,1
+Emma Richard,Sheba Emma,1
+FLORA Ganett,Ferrars Melrose,1
+FLORA Ganett,Inspector Watson,1
+FLORA Ganett,John,1
+FLORA Ganett,Marsh Pond,1
+FLORA Ganett,Miss Caroline,1
+FLORA Ganett,Mr. Russell,1
+FLORA Ganett,Mr. Russell Elizabeth,1
+FLORA Ganett,Pond Ganett,1
+FLORA Ganett,Ralph Paton,1
+FLORA Ganett,Sheba Poirot,1
+Ferrars Melrose,Hayes,1
+Ferrars Melrose,John,1
+Ferrars Melrose,Marsh Pond,1
+Ferrars Melrose,Miss Caroline,1
+Ferrars Melrose,Miss Raymond Ganett,1
+Ferrars Melrose,Mr. Russell,1
+Ferrars Melrose,Mr. Russell Elizabeth,1
+Ferrars Melrose,Pond Ganett,1
+Ferrars Melrose,Ralph Paton,1
+Ferrars Melrose,Sheba Poirot,1
+Flora Hurst,Sheba,1
+Flora Hurst,blackguard,1
+Flora Hurst,desert,1
+Flora Hurst,son,1
+Geoffrey,Quill,1
+Greys,Ursula,1
+Greys,Ursula Raymond,1
+Greys,mademoiselle,1
+Greys Merci,Ursula,1
+Greys Merci,Ursula Raymond,1
+Greys Merci,mademoiselle,1
+Hastings,Ursula Raglan,1
+Hayes,Miss Chow,1
+Hayes,Ursula Blunt,1
+Helen Marby,Sheba,1
+Helen Marby,Sheba Poirot,1
+Hercule Merci,Mrs. Sonia Annie,1
+Hercule Merci,Sonia,1
+Inspector Watson,John,1
+Inspector Watson,John Charles,1
+Inspector Watson,Miss Caroline,1
+Inspector Watson,Miss Raymond Ganett,1
+Inspector Watson,Sheba,1
+Inspector Watson,Sheba Emma,1
+Inspector Watson,Sheba Kipling,1
+Inspector Watson,Sheba M,1
+Inspector Watson,Sheba Poirot,1
+Inspector Watson,Sheppard,1
+Inspector Watson,Ursula Blunt,1
+Inspector Watson,Ursula Charles,1
+Inspector Watson,Ursula Raymond,1
+Inspector Watson,black,1
+Inspector Watson,melisande,1
+Japp,Sally,1
+John,Mr. Russell,1
+John,Quill,1
+John,Ralph Paton,1
+John,Sheba Poirot,1
+John,Sheppard,1
+John,Ursula Raglan,1
+John,Ursula Raymond,1
+John,son,1
+John Annie,Sonia,1
+John Charles,Quill,1
+John Charles,Sonia,1
+Marsh,Nancy,1
+Marsh Pond,Miss Caroline,1
+Marsh Pond,Mr. Russell,1
+Marsh Pond,Mr. Russell Elizabeth,1
+Marsh Pond,Ralph Paton,1
+Marsh Pond,Sheba Poirot,1
+Marsh Pond,Ursula Blunt,1
+Marsh Pond,Ursula Raglan,1
+Marsh Pond,this,1
+Methuselah,Sheba Poirot,1
+Methuselah Kent,Sheba Poirot,1
+Miss Blunt,Ursula Raymond,1
+Miss Caroline,Mr. Russell,1
+Miss Caroline,Mrs. Cecil Ganett,1
+Miss Caroline,Mrs. Sonia Annie,1
+Miss Caroline,Pond Ganett,1
+Miss Caroline,Quill,1
+Miss Caroline,Ralph Paton,1
+Miss Caroline,Sheba Emma,1
+Miss Caroline,Sheba Poirot,1
+Miss Caroline,Sonia,1
+Miss Caroline,Ursula (Merci),1
+Miss Caroline,Ursula Blunt,1
+Miss Caroline,Ursula Raymond,1
+Miss Chow,Miss Raymond Ganett,1
+Miss Chow,Sally,1
+Miss Chow,Ursula (Merci),1
+Miss Chow,hallo,1
+Miss Raymond Ganett,Ralph Paton,1
+Miss Raymond Ganett,Sheba Poirot,1
+Miss Raymond Ganett,Ursula,1
+Miss Raymond Ganett,Ursula Blunt,1
+Miss Raymond Ganett,melisande,1
+Miss Raymond Ganett,shakespeare,1
+Mr. Russell,Pond Ganett,1
+Mr. Russell,Ralph Paton,1
+Mr. Russell,Sheba Poirot,1
+Mr. Russell,Ursula (Merci),1
+Mr. Russell,Ursula Raglan,1
+Mr. Russell,Ursula Raymond,1
+Mr. Russell Elizabeth,Mrs. Sonia Annie,1
+Mr. Russell Elizabeth,Pond Ganett,1
+Mr. Russell Elizabeth,Ralph Paton,1
+Mr. Russell Elizabeth,Sheba Poirot,1
+Mr. Russell Elizabeth,Sonia,1
+Mr. Russell Elizabeth,melisande,1
+Mrs. Cecil Ganett,Ursula Raglan,1
+Mrs. Sonia Annie,Nancy Motley,1
+Mrs. Sonia Annie,Sheppard,1
+Mrs. Sonia Annie,Ursula Blunt,1
+Mrs. Sonia Annie,shakespeare,1
+Nancy,Sonia,1
+Nancy,Ursula,1
+Nancy,Ursula Raglan,1
+Nancy,Ursula Raymond,1
+Nancy,melisande,1
+Nancy Motley,Sonia,1
+Nancy Motley,Uncle,1
+Pond Ganett,Ralph Paton,1
+Pond Ganett,Sheba Poirot,1
+Pond Ganett,Sonia,1
+Pond Ganett,Ursula Raglan,1
+Quill,Ursula Charles,1
+Rafael (Ashley),Ursula Blunt,1
+Ralph Paton,Sheba Poirot,1
+Sally,Sally Mary,1
+Sheba,Ursula (Merci),1
+Sheba,Ursula Blunt,1
+Sheba,blackguard,1
+Sheba,son,1
+Sheba Emma,Sheba Kipling,1
+Sheba Emma,Sheba M,1
+Sheba Emma,Sheba Poirot,1
+Sheba Emma,Ursula Blunt,1
+Sheba Kipling,Sheba M,1
+Sheba Kipling,Sheba Poirot,1
+Sheba Kipling,Ursula Blunt,1
+Sheba M,Sheba Poirot,1
+Sheba M,Ursula (Merci),1
+Sheba M,Ursula Blunt,1
+Sheba Poirot,Ursula Blunt,1
+Sheba Poirot,Ursula Raglan,1
+Sheppard,Sonia,1
+Sheppard,Ursula Raglan,1
+Sonia,Ursula Charles,1
+Sonia,shakespeare,1
+Uncle,Ursula,1
+Uncle,Ursula Raglan,1
+Uncle,this,1
+Ursula,Ursula Blunt,1
+Ursula,this,1
+Ursula (Merci),black,1
+Ursula (Merci),clara,1
+Ursula (Merci),hallo,1
+Ursula Blunt,hallo,1
+Ursula Raymond,melisande,1
+Ursula Raymond,son,1
+Vane,Vida,1
+Vane,Vida Hurst,1
+Vane & Mah,Vida,1
+Vane & Mah,Vida Hurst,1
+Vida,Vida Hurst,1
+Vida,this,1
+Zane Hurst,beast,1
+beast,grosset,1
+blackguard,desert,1
+blackguard,son,1
+desert,son,1
+melisande,this,1
+shakespeare,son,1
+shakespeare,this,1

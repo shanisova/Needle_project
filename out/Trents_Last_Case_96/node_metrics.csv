@@ -1,0 +1,6 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+calvin,0,0.2,0,1,1.0
+j,0,0.2918908384708406,0,2,2.0
+monsieur,0,0.15405458076457978,0,1,1.0
+sigsbee,0,0.2,0,1,1.0
+stock,0,0.15405458076457978,0,1,1.0

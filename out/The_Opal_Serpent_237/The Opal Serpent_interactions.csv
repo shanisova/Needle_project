@@ -1,0 +1,699 @@
+character1,character2,count
+a,i,460
+Lady Goethe Don,i,181
+Bay Steerforth,a,162
+Miss Bartholemew,a,134
+Bay Steerforth,i,120
+Judson,a,103
+Mrs. Unforeseen Bhowanee,a,98
+Mrs. Unforeseen Bhowanee,i,93
+Mr. Balzac Scott,a,91
+Bay Steerforth,Miss Bartholemew,90
+Miss Bartholemew,i,87
+Mr. Wargrove Fergus,a,83
+Mr. Wargrove Fergus,i,76
+Mr. Balzac Scott,i,74
+Bartholemew Hants,Sharp,66
+Lady Goethe Don,a,66
+Bartholemew Hants,Sharp Hants,65
+Sharp,Sharp Hants,65
+Bartholemew Hants,a,62
+a,woman,62
+Bartholemew Hants,i,61
+Anne Jabez,i,54
+Judson,Miss Bartholemew,54
+Bartholemew Hants,Miss Hants,51
+Judson,i,51
+Mrs. Unforeseen Bhowanee,Unforeseen,48
+Old,a,45
+Meadow,i,43
+Anne Jabez,a,39
+Sharp,a,39
+i,woman,39
+Bartholemew Bhowanee,Mrs. Unforeseen Bhowanee,37
+Judson,Pish,35
+Old,i,34
+Bartholemew Hants,Mrs. Unforeseen Bhowanee,32
+Beatrice Tray,a,31
+Miss Aaron,a,31
+Pish,i,31
+Pish,a,29
+Bay Steerforth,Judson,28
+Miss Aaron,Mrs. Unforeseen Bhowanee,28
+Mr. Wargrove Fergus,Wargrove,28
+Beatrice Tray,i,27
+Sharp,i,27
+Tilly Darling,a,27
+Bay Steerforth,Lady Goethe Don,25
+Bay Steerforth,Mr. Wargrove Fergus,25
+Meadow,a,25
+Miss Aaron,i,25
+Bartholemew Hants,Miss Bartholemew,23
+Gad,a,22
+Miss Hants,i,22
+Lady Goethe Don,Mr. Wargrove Fergus,21
+Bay Steerforth,Mr. Balzac Scott,20
+Gad,Miss Bartholemew,20
+Gad,i,20
+Mr. Balzac Scott,Mrs. Unforeseen Bhowanee,20
+Bay Steerforth,Old,19
+Beatrice Tray,Mr. Balzac Scott,19
+George Joseph,a,19
+Miss Bartholemew,Mrs. Unforeseen Bhowanee,19
+Sharp Hants,i,19
+Commercial,i,18
+George,a,18
+Lady Goethe,Lady Goethe Don,18
+Lady Goethe,i,17
+Mrs. Unforeseen Bhowanee,Sharp,17
+Unforeseen,i,17
+Beatrice Tray,Mrs. Unforeseen Bhowanee,16
+Lady Goethe Don,Mr. Balzac Scott,16
+Mrs. Unforeseen Bhowanee,Sharp Hants,16
+Mrs. Unforeseen Bhowanee,woman,16
+Anne Jabez,Mrs. Unforeseen Bhowanee,15
+Lady Goethe,Mrs. Unforeseen Bhowanee,15
+Miss Bartholemew,Pish,15
+Tawsey,a,15
+Tilly,a,15
+Bay Steerforth,Sharp,14
+Commercial,a,14
+George Joseph,i,14
+Lady Goethe Don,Miss Bartholemew,14
+Miss Hants,a,14
+Mr. Bartholemew Goliath,Pish,14
+Wargrove,a,14
+a,policeman,14
+Bartholemew Hants,Bay Steerforth,13
+Bay Steerforth,woman,13
+Sharp Hants,a,13
+Unforeseen,a,13
+a,master,13
+Anne Jabez,Mr. Balzac Scott,12
+Bartholemew Hants,Mr. Balzac Scott,12
+Bartholemew Hants,Unforeseen,12
+Bay Steerforth,Mrs. Unforeseen Bhowanee,12
+Meadow,Mr. Balzac Scott,12
+Miss Aaron,Miss Aaron Bhowanee,12
+Miss Aaron,Miss Bartholemew,12
+Miss Aaron Bhowanee,Mrs. Unforeseen Bhowanee,12
+Mr. Balzac Scott,Mr. Wargrove Fergus,12
+Tilly,i,12
+Anne Jabez,Meadow,11
+Bartholemew Bhowanee,i,11
+George,George Joseph,11
+Granny Wainwright,a,11
+Judson,Lady Goethe Don,11
+Judson,Old,11
+Lady Goethe Don,Mrs. Unforeseen Bhowanee,11
+Mr. Bartholemew Goliath,Pish Goliath,11
+Mr. Wargrove Fergus,Mrs. Unforeseen Bhowanee,11
+Pish,Pish Goliath,11
+Sharp,Unforeseen,11
+Sharp Hants,Unforeseen,11
+George Joseph,Judson,10
+Julius,i,10
+Lady Goethe,a,10
+Anne Jabez,Beatrice Tray,9
+Anne Jabez,Judson,9
+Bartholemew Hants,Judson,9
+Bay Steerforth,Pish,9
+Bay Steerforth,Wargrove,9
+Commercial,Mr. Wargrove Fergus,9
+George Joseph,Judson Joseph,9
+Judson,Judson Joseph,9
+Judson,Miss Aaron,9
+Lady Goethe Don,Pish,9
+Miss Bartholemew,Old,9
+Wargrove,i,9
+Anne Jabez,Miss Bartholemew,8
+Balzac,i,8
+Bartholemew Bhowanee,Miss Bartholemew,8
+Bartholemew Hants,Old,8
+Mr. Wargrove Fergus,Tilly,8
+Anne Jabez,Bay Steerforth,7
+Bartholemew Bhowanee,a,7
+Bartholemew Hants,Lady Goethe Don,7
+Beatrice Tray,Lady Goethe,7
+George,i,7
+Judson,master,7
+Lady Goethe Don,woman,7
+Meadow,Mrs. Unforeseen Bhowanee,7
+Meadow,Pish,7
+Miss Aaron,Mr. Balzac Scott,7
+Miss Bartholemew,Sharp,7
+Mr. Balzac Scott,woman,7
+Mr. Wargrove Fergus,Sylvia,7
+Mr. Wargrove Fergus,Tilly Darling,7
+Old,woman,7
+Pish,master,7
+Tawsey,i,7
+Tilly Darling,i,7
+Anne Jabez,Lady Goethe Don,6
+Balzac,Mr. Balzac Scott,6
+Bartholemew Hants,Mr. Wargrove Fergus,6
+Bay Steerforth,Gad,6
+Bay Steerforth,Mr. Steerforth God,6
+Beatrice Tray,Julius,6
+Commercial,Lady Goethe Don,6
+George,Miss Aaron,6
+George,Mrs. Unforeseen Bhowanee,6
+George Joseph,Miss Bartholemew,6
+Judson,Sharp,6
+Julius,a,6
+Lady Goethe Don,Old,6
+Lady Goethe Don,Tilly,6
+Lady Goethe Don,master,6
+Miss Bartholemew,woman,6
+Mr. Bartholemew Goliath,a,6
+Mr. Bartholemew Goliath,i,6
+Mrs. Unforeseen Bhowanee,Old,6
+Page,a,6
+Quatorz Shakespeare,Trays,6
+Quatorz Shakespeare,Trays Shakespeare,6
+Trays,Trays Shakespeare,6
+Anne Jabez,Bartholemew Hants,5
+Bartholemew Bhowanee,Mr. Wargrove Fergus,5
+Bartholemew Hants,Beatrice Tray,5
+Bartholemew Hants,Lady Goethe,5
+Bartholemew Hants,Pish,5
+Beatrice Tray,George,5
+Beatrice Tray,Lady Goethe Don,5
+George,Judson,5
+George,Mr. Balzac Scott,5
+Judson,Meadow,5
+Judson,Mr. Balzac Scott,5
+Judson,Mr. Bartholemew Goliath,5
+Judson,woman,5
+Lady Goethe Don,Meadow,5
+Lady Goethe Don,Sharp,5
+Lady Goethe Don,Tilly Darling,5
+Meadow,Old,5
+Miss Bartholemew,Mr. Balzac Scott,5
+Mr. Balzac Scott,policeman,5
+Mr. Wargrove Fergus,Old,5
+Old,Pish,5
+Pish,Sharp,5
+Sylvia,i,5
+Tilly,Tilly Darling,5
+i,master,5
+Anne Jabez,Mr. Wargrove Fergus,4
+Anne Jabez,Old,4
+Anne Jabez,Sharp,4
+Balzac,a,4
+Bay Steerforth,Granny Wainwright,4
+Bay Steerforth,Meadow,4
+Bay Steerforth,Trays,4
+Bay Steerforth,wood,4
+Beatrice Tray,Miss Aaron,4
+Beatrice Tray,Tawsey,4
+Gad,Lady Goethe Don,4
+Galahad,Mrs. Unforeseen Bhowanee,4
+Galahad,a,4
+George,Mr. Wargrove Fergus,4
+George Joseph,Pish,4
+George Joseph,Tawsey,4
+Granny,i,4
+Granny Wainwright,Mr. Balzac Scott,4
+Jove,i,4
+Judson,Mrs. Unforeseen Bhowanee,4
+Judson Joseph,a,4
+Julius,Mrs. Unforeseen Bhowanee,4
+Lady Goethe,Unforeseen,4
+Lady Goethe Don,Miss Aaron,4
+Miss Aaron,Mr. Wargrove Fergus,4
+Miss Bartholemew,Mr. Bartholemew Goliath,4
+Miss Hants,Mrs. Unforeseen Bhowanee,4
+Mr. Balzac Scott,Sharp,4
+Mr. Balzac Scott,Sharp Hants,4
+Mr. Hawk,i,4
+Mr. Wargrove Fergus,woman,4
+Old,Sharp,4
+Page Ford,a,4
+Pish,wittington,4
+Quatorz Shakespeare,i,4
+Sylvia,a,4
+Trays,a,4
+Trays,i,4
+i,policeman,4
+Anne Jabez,Miss Aaron,3
+Balzac,Lady Goethe Don,3
+Bartholemew Bhowanee,Bartholemew Hants,3
+Bartholemew Hants,George Joseph,3
+Bartholemew Hants,Judson Joseph,3
+Bartholemew Hants,Tilly,3
+Bartholemew Hants,Zat,3
+Bartholemew Hants,woman,3
+Bay Steerforth,Beatrice Tray,3
+Bay Steerforth,Miss Hants,3
+Bay Steerforth,Tilly Darling,3
+Bay Steerforth,master,3
+Bay Steerforth,wittington,3
+Beatrice Tray,George Joseph,3
+Beatrice Tray,Miss Tray,3
+Commercial,Mrs. Unforeseen Bhowanee,3
+Gad,Old,3
+George,Tawsey,3
+George Joseph,Mr. Bartholemew Goliath,3
+Granny,a,3
+Granny Wainwright,i,3
+Green,a,3
+Herrick,Judson,3
+Jove,Judson,3
+Jove,a,3
+Judson,Trays,3
+Lady Goethe,Old,3
+Lady Goethe,Sharp,3
+Lady Goethe,Sharp Hants,3
+Lady Goethe Don,Sylvia,3
+Meadow,Miss Aaron,3
+Meadow,Miss Bartholemew,3
+Meadow,woman,3
+Miss Aaron,Old,3
+Miss Aaron,Unforeseen,3
+Miss Aaron,Wargrove,3
+Miss Bartholemew,Mr. Wargrove Fergus,3
+Miss Bartholemew,Unforeseen,3
+Miss Bartholemew,Wargrove,3
+Miss Charming,a,3
+Mr. Balzac Scott,Old,3
+Mr. Balzac Scott,Tawsey,3
+Mr. Balzac Scott,Wargrove,3
+Mrs. Unforeseen Bhowanee,Tilly,3
+Mrs. Unforeseen Bhowanee,Tilly Darling,3
+Mrs. Unforeseen Bhowanee,Tinker Tyler,3
+Mrs. Unforeseen Bhowanee,master,3
+Page,Page Ford,3
+Paul Hurd,i,3
+Quatorz Shakespeare,a,3
+Sharp,Zat,3
+Sharp Hants,Zat,3
+Sunbeam,a,3
+Tinker Tyler,i,3
+a,jessop,3
+a,tempest,3
+a,tupounee,3
+a,wittington,3
+a,wood,3
+i,wittington,3
+jessop,tupounee,3
+master,woman,3
+Aaron Tray,Beatrice Tray,2
+Aaron Tray,Miss Aaron,2
+Anne Jabez,Miss Hants,2
+Anne Jabez,Mr. Hawk,2
+Anne Jabez,Unforeseen,2
+Bartholemew Bhowanee,Bay Steerforth,2
+Bartholemew Bhowanee,George,2
+Bartholemew Bhowanee,Lady Goethe Don,2
+Bartholemew Bhowanee,Miss Aaron,2
+Bartholemew Bhowanee,Mr. Balzac Scott,2
+Bartholemew Bhowanee,Mr. Hawk,2
+Bay Steerforth,Commercial,2
+Bay Steerforth,Julius,2
+Bay Steerforth,Lady Goethe,2
+Bay Steerforth,Miss Aaron,2
+Bay Steerforth,Mr. Bartholemew Goliath,2
+Bay Steerforth,Mr. Hawk,2
+Bay Steerforth,Paterfamilias,2
+Bay Steerforth,Sampson,2
+Bay Steerforth,Unforeseen,2
+Bay Steerforth,goor,2
+Bay Steerforth,hullo,2
+Beatrice Tray,Lor,2
+Beatrice Tray,Miss Bartholemew,2
+Beatrice Tray,Sharp,2
+Beatrice Tray,Sharp Hants,2
+Beatrice Tray,Tinker Tyler,2
+Cezar,George Joseph,2
+Cezar,Judson,2
+Cezar,Judson Joseph,2
+Commercial,Miss Aaron,2
+Gad,Jove,2
+Gad,Judson,2
+Gad,Mrs. Unforeseen Bhowanee,2
+Gad,Pish,2
+Galahad,Julius,2
+Galahad,Tilly Darling,2
+Galahad,i,2
+Garner,Lady Goethe Don,2
+Garner,i,2
+George,Miss Bartholemew,2
+George Joseph,Mr. Balzac Scott,2
+George Joseph,Mr. Wargrove Fergus,2
+George Joseph,Pish Goliath,2
+Granny Wainwright,Judson,2
+Jove,Meadow,2
+Jove,Miss Bartholemew,2
+Judson,Lor,2
+Judson,Miss Hants,2
+Judson,Mrs. Judson Goliath,2
+Judson,Page,2
+Judson,Pish Goliath,2
+Judson,wittington,2
+Judson Joseph,Miss Bartholemew,2
+Judson Joseph,Pish,2
+Judson Joseph,i,2
+Julius,Mr. Balzac Scott,2
+Julius,Pish,2
+Julius,Tilly,2
+Julius,Tinker Tyler,2
+Lady Goethe,Miss Aaron,2
+Lady Goethe,Tilly,2
+Lady Goethe,woman,2
+Lady Goethe Don,Miss Hants,2
+Lady Goethe Don,Mr. Bartholemew Goliath,2
+Lady Goethe Don,Sharp Hants,2
+Lady Goethe Don,Wargrove,2
+Lor,Pish,2
+Louis,a,2
+Matilder,a,2
+Meadow,Sharp,2
+Meadow,Tawsey,2
+Miss Aaron,Tilly Darling,2
+Miss Aaron,woman,2
+Miss Aaron Bhowanee,a,2
+Miss Bartholemew,Mr. Hawk,2
+Miss Bartholemew,Mr. Steerforth God,2
+Miss Bartholemew,Sharp Hants,2
+Miss Bartholemew,Tilly,2
+Miss Bartholemew,Tilly Darling,2
+Miss Bartholemew,Trays,2
+Miss Bartholemew,master,2
+Miss Charming,Old,2
+Miss Charming,Tilly,2
+Miss Tray,Mr. Balzac Scott,2
+Miss Tray,a,2
+Mr. Balzac Scott,Quatorz Shakespeare,2
+Mr. Balzac Scott,Tilly,2
+Mr. Balzac Scott,Tilly Darling,2
+Mr. Balzac Scott,Trays,2
+Mr. Balzac Scott,Trays Shakespeare,2
+Mr. Balzac Scott,master,2
+Mr. Bartholemew Goliath,Mrs. Judson Goliath,2
+Mr. Hawk,Mrs. Unforeseen Bhowanee,2
+Mr. Steerforth God,a,2
+Mr. Wargrove Fergus,Sharp,2
+Mrs. Unforeseen Bhowanee,Tawsey,2
+Mrs. Unforeseen Bhowanee,clump,2
+Old,Paul Hurd,2
+Old,Unforeseen,2
+Old,wittington,2
+Page,i,2
+Paterfamilias,i,2
+Pish Goliath,a,2
+Pish Goliath,i,2
+Sampson,a,2
+Sharp,Wargrove,2
+Stably,i,2
+Thackeray Quinze,a,2
+Tilly Darling,woman,2
+Tinker Tyler,Unforeseen,2
+Tinker Tyler,a,2
+Trays Shakespeare,a,2
+Trays Shakespeare,i,2
+Wargrove,wood,2
+Zat,i,2
+a,antoinette,2
+a,hullo,2
+a,stretchers,2
+antoinette,jessop,2
+antoinette,tupounee,2
+Aaron Tray,Julius,1
+Aaron Tray,a,1
+Anne Jabez,Bartholemew Bhowanee,1
+Anne Jabez,George Joseph,1
+Anne Jabez,Granny Wainwright,1
+Anne Jabez,Humph,1
+Anne Jabez,Judson Joseph,1
+Anne Jabez,Julius,1
+Anne Jabez,Matilder,1
+Anne Jabez,Pish,1
+Anne Jabez,Sharp Hants,1
+Anne Jabez,Sunbeam,1
+Anne Jabez,jezebel,1
+Anne Jabez,woman,1
+Aurora,Lady Goethe Don,1
+Aurora,a,1
+Aurora,i,1
+Baileys,a,1
+Balzac,Mr. Wargrove Fergus,1
+Balzac,Tilly,1
+Bartholemew Bhowanee,Beatrice Tray,1
+Bartholemew Bhowanee,Judson,1
+Bartholemew Bhowanee,Miss Hants,1
+Bartholemew Bhowanee,Old,1
+Bartholemew Bhowanee,woman,1
+Bartholemew Hants,Billy,1
+Bartholemew Hants,Gad,1
+Bartholemew Hants,George,1
+Bartholemew Hants,Meadow,1
+Bartholemew Hants,Miss Aaron,1
+Bartholemew Hants,Tawsey,1
+Bartholemew Hants,Tilly Darling,1
+Bartholemew Hants,policeman,1
+Barty,Bay Steerforth,1
+Barty,Qian Lillian,1
+Barty,i,1
+Bay Steerforth,Galahad,1
+Bay Steerforth,George Joseph,1
+Bay Steerforth,Lor,1
+Bay Steerforth,Matilder,1
+Bay Steerforth,Miss Aaron Bhowanee,1
+Bay Steerforth,Page Ford,1
+Bay Steerforth,Paul Hurd,1
+Bay Steerforth,Pish Goliath,1
+Bay Steerforth,Qian Lillian,1
+Bay Steerforth,Quatorz Shakespeare,1
+Bay Steerforth,Tilly,1
+Bay Steerforth,Tinker God,1
+Bay Steerforth,Trays Shakespeare,1
+Beatrice Tray,Galahad,1
+Beatrice Tray,Judson,1
+Beatrice Tray,Meadow,1
+Beatrice Tray,Mr. Wargrove Fergus,1
+Beatrice Tray,Paul Hurd,1
+Beatrice Tray,Tilly,1
+Beatrice Tray,Unforeseen,1
+Beatrice Tray,woman,1
+Becky,Tilly Darling,1
+Becky,i,1
+Beecot Judas,a,1
+Billingsgate,Purr Junk,1
+Billingsgate,a,1
+Billingsgate,i,1
+Billingsgate,wittington,1
+Billy,Sharp,1
+Billy,Sharp Hants,1
+Billy,a,1
+Cezar,Old,1
+Cezar,a,1
+Commercial,Stably,1
+Commercial,Tilly Darling,1
+Commercial,Unforeseen,1
+Commercial,Wargrove,1
+David,Mr. Balzac Scott,1
+Duenna,a,1
+Gad,Hume,1
+Gad,Louis,1
+Gad,Meadow,1
+Gad,Miss Hants,1
+Gad,Mr. Wargrove Fergus,1
+Gad,Sharp,1
+Gad,hullo,1
+Galahad,Tinker Tyler,1
+Galahad,Unforeseen,1
+Garner,Garner Joseph,1
+Garner,George Joseph,1
+Garner Joseph,George Joseph,1
+Garner Joseph,i,1
+George,Jove,1
+George,Lady Goethe Don,1
+George,Lor,1
+George,Meadow,1
+George,Miss Aaron Bhowanee,1
+George,Mr. Bartholemew Goliath,1
+George,Tilly,1
+George,Unforeseen,1
+George,woman,1
+George Joseph,Lady Goethe Don,1
+George Joseph,Miss Hants,1
+George Joseph,Old,1
+George Joseph,Paul Dorrit,1
+George Joseph,Tilly,1
+George Joseph,Tilly Darling,1
+George Joseph,master,1
+George Joseph,woman,1
+Granny,Granny Wainwright,1
+Granny,Lady Goethe Don,1
+Granny,Miss Aaron,1
+Granny,Pish,1
+Granny Wainwright,Meadow,1
+Granny Wainwright,Miss Bartholemew,1
+Granny Wainwright,Old,1
+Granny Wainwright,Pish,1
+Granny Wainwright,woman,1
+Green,Miss Bartholemew,1
+Green,Miss Charming,1
+Green,Tawsey,1
+Herrick,Pish,1
+Herrick,i,1
+Hume,Louis,1
+Hume,i,1
+Humph,a,1
+Humph,i,1
+Jacko,i,1
+Jove,Lady Goethe Don,1
+Jove,Old,1
+Judson,Matilder,1
+Judson,Miss Aaron Bhowanee,1
+Judson,Mr. Steerforth God,1
+Judson,Paul Dorrit,1
+Judson,Sunbeam,1
+Judson,policeman,1
+Judson Joseph,Miss Hants,1
+Judson Joseph,Mr. Balzac Scott,1
+Judson Joseph,Mr. Bartholemew Goliath,1
+Judson Joseph,Old,1
+Judson Joseph,master,1
+Judson Joseph,woman,1
+Julius,Miss Aaron,1
+Julius,Old,1
+Julius,Tilly Darling,1
+Julius,policeman,1
+Julius,wittington,1
+Julius,woman,1
+Krill,Othello,1
+Lady Goethe,Meadow,1
+Lady Goethe,Mr. Balzac Scott,1
+Lady Goethe,Mr. Wargrove Fergus,1
+Lady Goethe,master,1
+Lady Goethe Don,Stowley,1
+Lady Goethe Don,Tinker Tyler,1
+Lady Goethe Don,Unforeseen,1
+Lady Goethe Don,hullo,1
+Lady Goethe Don,policeman,1
+Lady Goethe Don,wittington,1
+Lemuel,Matilda Frankenstein,1
+Lemuel,Pash,1
+Lemuel,i,1
+Lor,a,1
+Louis,i,1
+Marie,goor,1
+Matilder,Miss Bartholemew,1
+Meadow,Meadow Shakespeare,1
+Meadow,Mr. Bartholemew Goliath,1
+Meadow,Pish Goliath,1
+Meadow,Quatorz Shakespeare,1
+Meadow,Trays,1
+Meadow Shakespeare,Quatorz Shakespeare,1
+Meadow Shakespeare,i,1
+Miss Aaron Bhowanee,Miss Bartholemew,1
+Miss Aaron Bhowanee,Mr. Balzac Scott,1
+Miss Aaron Bhowanee,Tilly Darling,1
+Miss Aaron Bhowanee,Wargrove,1
+Miss Aaron Bhowanee,i,1
+Miss Bartholemew,Page,1
+Miss Bartholemew,Paul Dorrit,1
+Miss Bartholemew,Pish Goliath,1
+Miss Bartholemew,goor,1
+Miss Bartholemew,hullo,1
+Miss Bartholemew,wittington,1
+Miss Bartholemew,wood,1
+Miss Charming,Mr. Wargrove Fergus,1
+Miss Hants,Old,1
+Miss Hants,woman,1
+Mr. Balzac Scott,Mr. Bartholemew Goliath,1
+Mr. Balzac Scott,Mr. Hawk,1
+Mr. Balzac Scott,Mr. Steerforth God,1
+Mr. Balzac Scott,Paul Hurd,1
+Mr. Balzac Scott,Sahib,1
+Mr. Balzac Scott,Suzanne,1
+Mr. Balzac Scott,Sylvia,1
+Mr. Balzac Scott,Unforeseen,1
+Mr. Balzac Scott,clump,1
+Mr. Balzac Scott,goor,1
+Mr. Balzac Scott,wittington,1
+Mr. Bartholemew Goliath,Old,1
+Mr. Bartholemew Goliath,master,1
+Mr. Bartholemew Goliath,woman,1
+Mr. Hawk,Tilly,1
+Mr. Hawk,Tilly Darling,1
+Mr. Hawk,a,1
+Mr. Steerforth God,Mr. Wargrove Fergus,1
+Mr. Wargrove Fergus,Sharp Hants,1
+Mr. Wargrove Fergus,maud,1
+Mrs. Judson Goliath,i,1
+Mrs. Unforeseen Bhowanee,Page,1
+Mrs. Unforeseen Bhowanee,Page Ford,1
+Mrs. Unforeseen Bhowanee,Pash,1
+Mrs. Unforeseen Bhowanee,Wargrove,1
+Mrs. Unforeseen Bhowanee,Zat,1
+Old,Page,1
+Old,Page Ford,1
+Old,Paul Dorrit,1
+Old,Tilly,1
+Old,Tilly Darling,1
+Old,Wargrove,1
+Old,hullo,1
+Old,master,1
+Page,Unforeseen,1
+Page Ford,Unforeseen,1
+Pash,a,1
+Pash,i,1
+Paul Dorrit,Pish,1
+Paul Dorrit,a,1
+Paul Dorrit,i,1
+Paul Hurd,a,1
+Pish,Sharp Hants,1
+Pish,Sunbeam,1
+Pish,Tawsey,1
+Pish,tempest,1
+Pish Goliath,master,1
+Purr Junk,Wargrove,1
+Purr Junk,a,1
+Purr Junk,i,1
+Purr Junk,wood,1
+Qian Lillian,i,1
+Quatorz Shakespeare,master,1
+Quixote Taylor,Shylock Norman,1
+Sahib,a,1
+Sahib,falstaff,1
+Sampson,i,1
+Sharp,Tawsey,1
+Sharp,Tilly,1
+Sharp,Tilly Darling,1
+Sharp,policeman,1
+Sharp Hants,Tawsey,1
+Sharp Hants,Tilly,1
+Sharp Hants,Tilly Darling,1
+Sharp Hants,policeman,1
+Shell,a,1
+Shell,i,1
+Simon,a,1
+Stably,a,1
+Stowley,i,1
+Sunbeam,i,1
+Sylvia,Tilly,1
+Sylvia,Tilly Darling,1
+Tawsey,Zat,1
+Tawsey,englis,1
+Tawsey,policeman,1
+Tilly,Wargrove,1
+Tilly,woman,1
+Tilly Darling,Wargrove,1
+Tilly Darling,jessop,1
+Tilly Darling,tupounee,1
+Trays,master,1
+Trays Shakespeare,master,1
+Unforeseen,master,1
+a,sandal,1
+beechill,falstaff,1
+copperfield,grexon,1
+englis,i,1
+goor,i,1
+goor,woman,1
+hay,i,1
+hullo,woman,1
+i,sandal,1
+policeman,woman,1

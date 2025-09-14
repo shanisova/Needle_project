@@ -1,0 +1,55 @@
+character1,character2,count
+a,s,180
+a,snake,18
+a,cousin,12
+s,snake,12
+a,fortune,11
+cousin,s,10
+fortune,s,10
+a,boudoir,8
+boudoir,s,8
+Mrs. MacDonald,a,6
+Mrs. MacDonald,s,3
+a,h,3
+cousin,fortune,3
+h,s,3
+s,stephen,3
+Miss Charles,s,2
+Mr. Anderson,s,2
+STONE,a,2
+a,clues,2
+a,elizabeth,2
+a,mark,2
+a,maurice,2
+joseph,s,2
+mark,s,2
+s,xv,2
+Arthur Towzer,s,1
+Miss Charles,mark,1
+STONE,clues,1
+STONE,s,1
+Thomas,jr,1
+a,benjamin,1
+a,eleanor,1
+a,grace,1
+a,gray,1
+a,iv,1
+a,j,1
+a,joseph,1
+a,robert,1
+a,stephen,1
+a,tom,1
+a,tongues,1
+a,wills,1
+a,xxiii,1
+boudoir,snake,1
+boudoir,xx,1
+clues,x,1
+cousin,snake,1
+eleanor,s,1
+george,s,1
+iv,snake,1
+maurice,s,1
+octavo,s,1
+s,william,1
+wills,xxiii,1

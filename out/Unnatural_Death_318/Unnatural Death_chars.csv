@@ -1,0 +1,349 @@
+char_id,name,story_title
+1,DOROTHY L. SAYERS,Unnatural Death
+2,WIMSEY,Unnatural Death
+3,"Peter Death Bredon, D.S.O.",Unnatural Death
+4,Gerald Bredon Wimsey,Unnatural Death
+5,Honoria Lucasta,Unnatural Death
+6,Francis Delagardie,Unnatural Death
+7,Harriet Deborah Vane,Unnatural Death
+8,Henry Vane,Unnatural Death
+9,Bredon Delagardie Peter,Unnatural Death
+10,Paul Austin Delagardie,Unnatural Death
+11,Miss Sayers,Unnatural Death
+12,Peter,Unnatural Death
+13,Gerald,Unnatural Death
+14,Denver,Unnatural Death
+15,Wimsey,Unnatural Death
+16,Helen,Unnatural Death
+17,Barbara,Unnatural Death
+18,Major Somebody,Unnatural Death
+19,London,Unnatural Death
+20,matron,Unnatural Death
+21,Madam,Unnatural Death
+22,Parker,Unnatural Death
+23,Delagardie,Unnatural Death
+24,Dr. Paterson,Unnatural Death
+25,Charles,Unnatural Death
+26,Paterson,Unnatural Death
+27,Pritchard,Unnatural Death
+28,Prince Florizel of Bohemia,Unnatural Death
+29,Stevensonian,Unnatural Death
+30,the old lady,Unnatural Death
+31,Sir Warburton Giles,Unnatural Death
+32,niece,Unnatural Death
+33,Sir Warburton,Unnatural Death
+34,the niece,Unnatural Death
+35,Sherlock,Unnatural Death
+36,Inspector Sugg,Unnatural Death
+37,Inspector,Unnatural Death
+38,gamekeeper fellow,Unnatural Death
+39,doctor,Unnatural Death
+40,old lady,Unnatural Death
+41,nurse,Unnatural Death
+42,maid,Unnatural Death
+43,Miss . . . (niece),Unnatural Death
+44,Aunt,Unnatural Death
+45,Niece,Unnatural Death
+46,the other doctor,Unnatural Death
+47,Miss So-and-so,Unnatural Death
+48,Nurse (the other one),Unnatural Death
+49,Mayor's wife,Unnatural Death
+50,Mr. Sherlock Holmes,Unnatural Death
+51,Lord Peter Wimsey,Unnatural Death
+52,Detective-Inspector Parker,Unnatural Death
+53,Hawkshaw,Unnatural Death
+54,Gilbert Frankau,Unnatural Death
+55,Lord Peter,Unnatural Death
+56,Bunter,Unnatural Death
+57,Arture,Unnatural Death
+58,Solomon,Unnatural Death
+59,Miss Climpson,Unnatural Death
+60,Mrs. Winbottle,Unnatural Death
+61,Mr. Parker,Unnatural Death
+62,Charles Parker,Unnatural Death
+63,King Henry V,Unnatural Death
+64,Dr. Carr,Unnatural Death
+65,Agatha Dawson,Unnatural Death
+66,Mrs. Hamilton Budge,Unnatural Death
+67,Mrs. Budge,Unnatural Death
+68,Miss Dawson,Unnatural Death
+69,Nurse Philliter,Unnatural Death
+70,Miss Whittaker,Unnatural Death
+71,Mr. Tredgold,Unnatural Death
+72,Alexandra Katherine Climpson,Unnatural Death
+73,Miss Dawson's maid,Unnatural Death
+74,S. Onesimus,Unnatural Death
+75,Sanger,Unnatural Death
+76,Earl Derr Biggers,Unnatural Death
+77,Sir Julian Freke,Unnatural Death
+78,Dr. Edward Carr,Unnatural Death
+79,Bertha Gotobed,Unnatural Death
+80,Carr Dr.,Unnatural Death
+81,Carr's,Unnatural Death
+82,Christian,Unnatural Death
+83,Dawson Miss,Unnatural Death
+84,Evelyn Gotobed,Unnatural Death
+85,Gotobed Bertha,Unnatural Death
+86,Gotobed Evelyn,Unnatural Death
+87,Lawyer,Unnatural Death
+88,Lordship,Unnatural Death
+89,Bertha,Unnatural Death
+90,"Tall, handsome, very decided in manner",Unnatural Death
+91,"><!-- not a proper name, but part of a description for Miss Whittaker -->",Unnatural Death
+92,Matron,Unnatural Death
+93,Miss Philliter,Unnatural Death
+94,Butler,Unnatural Death
+95,Hudibras,Unnatural Death
+96,Miss Murgatroyd,Unnatural Death
+97,Mrs. Tredgold,Unnatural Death
+98,Napoleon,Unnatural Death
+99,Mrs. Peasgood,Unnatural Death
+100,Parfitts,Unnatural Death
+101,Mary Whittaker,Unnatural Death
+102,woman Forbes,Unnatural Death
+103,Mrs. Findlater,Unnatural Death
+104,Miss Findlater,Unnatural Death
+105,Mary,Unnatural Death
+106,Sheila Kaye-Smith,Unnatural Death
+107,Thomas Hardy,Unnatural Death
+108,Leahampton,Unnatural Death
+109,Chapman,Unnatural Death
+110,S. Augustine,Unnatural Death
+111,Miss Agatha Dawson,Unnatural Death
+112,J. Murbles,Unnatural Death
+113,Mr. P. G. Wodehouse,Unnatural Death
+114,Murbles,Unnatural Death
+115,NIPPY,Unnatural Death
+116,Sir Andrew Mackenzie,Unnatural Death
+117,Collins,Unnatural Death
+118,Sir Andrew,Unnatural Death
+119,Inspector Parker,Unnatural Death
+120,Edmund Sparkler,Unnatural Death
+121,Little Dorrit,Unnatural Death
+122,Mrs. Merdle,Unnatural Death
+123,Superintendent Walmisley,Unnatural Death
+124,Superintendent,Unnatural Death
+125,Walmisley,Unnatural Death
+126,Evelyn Cropper,Unnatural Death
+127,Dorcas Gulliver,Unnatural Death
+128,Mr. Murbles,Unnatural Death
+129,Mrs. Gulliver,Unnatural Death
+130,Miss Evelyn,Unnatural Death
+131,John Ironsides,Unnatural Death
+132,Miss Bertha,Unnatural Death
+133,Mr. Cropper,Unnatural Death
+134,Evelyn,Unnatural Death
+135,Mrs. Cropper,Unnatural Death
+136,Dawson,Unnatural Death
+137,Mrs Forrest,Unnatural Death
+138,Mrs. Forrest,Unnatural Death
+139,Mr. Templeton,Unnatural Death
+140,Forrest,Unnatural Death
+141,Sylvia Lyndhurst,Unnatural Death
+142,Lyndhurst,Unnatural Death
+143,Sylvia,Unnatural Death
+144,Templeton,Unnatural Death
+145,Major Lyndhurst,Unnatural Death
+146,Pearson,Unnatural Death
+147,Whittaker,Unnatural Death
+148,Findlater,Unnatural Death
+149,Clemence Dane,Unnatural Death
+150,Miss Alexandra Katherine Climpson,Unnatural Death
+151,Miss M,Unnatural Death
+152,WOMAN-RIDDEN,Unnatural Death
+153,TWADDLE,Unnatural Death
+154,Clara Whittaker,Unnatural Death
+155,father,Unnatural Death
+156,PIONEER,Unnatural Death
+157,Harriet,Unnatural Death
+158,James,Unnatural Death
+159,Agatha,Unnatural Death
+160,Charles Whittaker,Unnatural Death
+161,James Whittaker,Unnatural Death
+162,Alexandra K. Climpson,Unnatural Death
+163,Nurse Forbes,Unnatural Death
+164,Carr,Unnatural Death
+165,Palmer,Unnatural Death
+166,George Joseph Smith,Unnatural Death
+167,Armstrong,Unnatural Death
+168,Burke,Unnatural Death
+169,Hare,Unnatural Death
+170,Mr. Simms-Gaythorpe,Unnatural Death
+171,Forbes,Unnatural Death
+172,Simms-Gaythorpe,Unnatural Death
+173,Murgatroyd,Unnatural Death
+174,ted,Unnatural Death
+175,mary,Unnatural Death
+176,simms-gaythorpe,Unnatural Death
+177,whittaker,Unnatural Death
+178,dawson,Unnatural Death
+179,peasgood,Unnatural Death
+180,forbes,Unnatural Death
+181,philliter,Unnatural Death
+182,Nurse,Unnatural Death
+183,Cropper,Unnatural Death
+184,Crofton,Unnatural Death
+185,Sir Edward Coke,Unnatural Death
+186,Julius Caesar,Unnatural Death
+187,Mother,Unnatural Death
+188,Gotobed,Unnatural Death
+189,Mrs Cropper,Unnatural Death
+190,Lord Cropper,Unnatural Death
+191,Ertha,Unnatural Death
+192,Auntie,Unnatural Death
+193,Auntie (again),Unnatural Death
+194,Mrs. Cr,Unnatural Death
+195,Father,Unnatural Death
+196,Rev. Charles,Unnatural Death
+197,Cousin Tom,Unnatural Death
+198,Freddy Arbuthnot,Unnatural Death
+199,The AUNT,Unnatural Death
+200,Climpson,Unnatural Death
+201,Timmins,Unnatural Death
+202,Hallelujah,Unnatural Death
+203,A. K. Climpson,Unnatural Death
+204,Rev. H. Dawson,Unnatural Death
+205,Rev. George,Unnatural Death
+206,Rev. Gordon,Unnatural Death
+207,Rev. Gurney,Unnatural Death
+208,Rev. Habbakuk,Unnatural Death
+209,Rev. Hadrian,Unnatural Death
+210,Rev. Hammond,Unnatural Death
+211,Voltaire,Unnatural Death
+212,Miss Clara Whittaker,Unnatural Death
+213,Rev. Hallelujah,Unnatural Death
+214,Alan Quartermain,Unnatural Death
+215,the youth,Unnatural Death
+216,Sir Galahad,Unnatural Death
+217,Jordan,Unnatural Death
+218,Mrs. Piggin,Unnatural Death
+219,Mr. Cleveland,Unnatural Death
+220,Jim,Unnatural Death
+221,Joe,Unnatural Death
+222,Colonel Fletcher,Unnatural Death
+223,Ben Cobling,Unnatural Death
+224,Cousin Hallelujah,Unnatural Death
+225,Mr. Piggin,Unnatural Death
+226,Cobling,Unnatural Death
+227,Mr. Cobling,Unnatural Death
+228,Mrs. Cobling,Unnatural Death
+229,Miss Agatha,Unnatural Death
+230,Mr. Henry Dawson,Unnatural Death
+231,Miss Harriet,Unnatural Death
+232,Mr. James Whittaker,Unnatural Death
+233,Mr. Stephen,Unnatural Death
+234,Mr. John,Unnatural Death
+235,Mrs. Whittaker,Unnatural Death
+236,Betty,Unnatural Death
+237,Miss Mary,Unnatural Death
+238,Ben,Unnatural Death
+239,Grandson William,Unnatural Death
+240,Mr. Paul,Unnatural Death
+241,Mr. Henry,Unnatural Death
+242,_she_,Unnatural Death
+243,Old Simon,Unnatural Death
+244,Simon,Unnatural Death
+245,Mr. Probyn,Unnatural Death
+246,Paul,Unnatural Death
+247,Pointer,Unnatural Death
+248,Winkin,Unnatural Death
+249,Lord Peter Wimsy,Unnatural Death
+250,Bishop Lambert,Unnatural Death
+251,Cousin Hallelujah Dawson,Unnatural Death
+252,Bishop,Unnatural Death
+253,Esmeralda,Unnatural Death
+254,Mr. Dawson,Unnatural Death
+255,Rev. Hallelujah Dawson,Unnatural Death
+256,Simon Dawson,Unnatural Death
+257,Harkaway,Unnatural Death
+258,Barnabas,Unnatural Death
+259,Roger,Unnatural Death
+260,Frederick,Unnatural Death
+261,Henry,Unnatural Death
+262,Probyn,Unnatural Death
+263,the old Indian,Unnatural Death
+264,Cousin Hallelujah Mary,Unnatural Death
+265,Bosun,Unnatural Death
+266,Father Paul,Unnatural Death
+267,Pepys,Unnatural Death
+268,Erin,Unnatural Death
+269,Towkington,Unnatural Death
+270,Mr. Towkington,Unnatural Death
+271,Mr.,Unnatural Death
+272,Pallas,Unnatural Death
+273,Pierrot,Unnatural Death
+274,Scaramel,Unnatural Death
+275,L. Housman,Unnatural Death
+276,Mrs.,Unnatural Death
+277,Mr. Forrest,Unnatural Death
+278,Sammy,Unnatural Death
+279,Vera Findlater,Unnatural Death
+280,Markham,Unnatural Death
+281,Miss Mary Whittaker,Unnatural Death
+282,Mr. Hodgson,Unnatural Death
+283,Thos. Probyn,Unnatural Death
+284,The Duke of Lancaster,Unnatural Death
+285,Hodgson,Unnatural Death
+286,Adolphus,Unnatural Death
+287,J. F. Trigg,Unnatural Death
+288,Trigg,Unnatural Death
+289,Mr. Trigg,Unnatural Death
+290,Mrs. Parker,Unnatural Death
+291,Miss Grant,Unnatural Death
+292,No one is mentioned by name in this passage.,Unnatural Death
+293,Mrs. Marion Mead,Unnatural Death
+294,Mrs. Mead,Unnatural Death
+295,taxi-driver,Unnatural Death
+296,Miss Vera Findlater,Unnatural Death
+297,Neill Cream,Unnatural Death
+298,Lubbock,Unnatural Death
+299,Chamberlin,Unnatural Death
+300,Levine,Unnatural Death
+301,Segrave,Unnatural Death
+302,Hammond,Unnatural Death
+303,Grace,Unnatural Death
+304,Foxlaw,Unnatural Death
+305,Oxhey,Unnatural Death
+306,Sir James Lubbock,Unnatural Death
+307,Queen Victoria,Unnatural Death
+308,Marquise de Brinvilliers,Unnatural Death
+309,Chief Constable,Unnatural Death
+310,Sir Charles Pillington,Unnatural Death
+311,Miss Vera,Unnatural Death
+312,Budge,Unnatural Death
+313,God,Unnatural Death
+314,Cæsar,Unnatural Death
+315,Siegfried,Unnatural Death
+316,Isbrand,Unnatural Death
+317,Beddoes,Unnatural Death
+318,Alf,Unnatural Death
+319,Hopkins,Unnatural Death
+320,Steve,Unnatural Death
+321,Sir Charles,Unnatural Death
+322,Beaumont,Unnatural Death
+323,Fletcher,Unnatural Death
+324,Andrews,Unnatural Death
+325,Mr. Andrews,Unnatural Death
+326,Press,Unnatural Death
+327,Pillington,Unnatural Death
+328,Hallelujah Dawson,Unnatural Death
+329,Dr. Faulkner,Unnatural Death
+330,Mr. Austin Freeman,Unnatural Death
+331,Faulkner,Unnatural Death
+332,Mr. Stanniforth,Unnatural Death
+333,Fra Angelico,Unnatural Death
+334,M. W.,Unnatural Death
+335,Lancelot Gobbo,Unnatural Death
+336,Vera,Unnatural Death
+337,ary Whittaker,Unnatural Death
+338,Crow's Beach,Unnatural Death
+339,Wilkie Collins,Unnatural Death
+340,Lady Peter Wimsey,Unnatural Death
+341,Whittaker girl,Unnatural Death
+342,Doctor,Unnatural Death
+343,Dewsby,Unnatural Death
+344,Chief Commissioner,Unnatural Death
+345,Whittaker woman,Unnatural Death
+346,the prisoner,Unnatural Death
+347,Alexandra Climpson,Unnatural Death
+348,Allcock,Unnatural Death

@@ -1,0 +1,718 @@
+character1,character2,count
+Lebeziatnikov,Lebeziatnikov Radishchev,232
+Lazarus Byelinsky,Tfoo,194
+Lazarus Byelinsky,Tfoo Byelinsky,194
+Tfoo,Tfoo Byelinsky,194
+Mihail Alexey Schiller,that,141
+Razumihin,Razumihin Nil,134
+Kolya,Kolya Raphael,122
+Mihail,Mihail Alexey,99
+Schegolskoy,that,98
+Lebeziatnikov Radishchev,that,95
+Lazarus,Lazarus Byelinsky,92
+Lebeziatnikov,that,82
+Pestryakov,Pestryakov Wagner,81
+Sister Blanc,that,71
+Lazarus Byelinsky,that,69
+Mr. Pashenka,that,65
+Kobelev Radishchev,Lebeziatnikov Radishchev,57
+Tfoo,that,54
+Tfoo Byelinsky,that,54
+Lazarus,Mihail Alexey Schiller,44
+Lazarus,that,40
+Mihail Alexey Schiller,Mr. Pashenka,37
+Lazarus Byelinsky,Mihail Alexey Schiller,35
+Ilya Byelinsky,Lazarus Byelinsky,34
+Kolya,that,33
+Kolya Raphael,that,33
+Luzhin,that,30
+Lebeziatnikov Radishchev,Sister Blanc,28
+Lebeziatnikov,Sister Blanc,27
+Arkady,Arkady Garnett,26
+Dostoevsky,that,25
+Kobelev Radishchev,that,25
+Mihail,that,25
+Prilukov Tolstyakov,that,25
+Mihail Alexey Schiller,Sister Blanc,24
+Mihail Alexey,that,23
+Tfoo Byelinsky Pavlovna,that,23
+Dr. Fedosya,that,22
+Mr. Pyotr,that,22
+Kobelev Radishchev,Lebeziatnikov,21
+Pestryakov,that,21
+Pestryakov Wagner,that,21
+Razumihin,that,21
+Razumihin Nil,that,21
+Yushin,that,19
+Afanasy,that,17
+Dr. Fedosya,Mr. Pashenka,16
+Fancy,that,16
+Lazarus Byelinsky,Schegolskoy,16
+Schegolskoy,Tfoo,16
+Schegolskoy,Tfoo Byelinsky,16
+Mihail Alexey Schiller,Prilukov Tolstyakov Kobilatnikov,14
+Yegorovna Fyodor Filka,that,14
+Lazarus Byelinsky,Sister Blanc,13
+Sister Blanc,Tfoo,13
+Sister Blanc,Tfoo Byelinsky,13
+Tchebarov,Zossimov,13
+Fourier Radishchev,Lebeziatnikov Radishchev,12
+Lebeziatnikov Radishchev,Mihail Alexey Schiller,12
+Marmeladov,Marmeladov Rousseau,12
+Mihail Alexey Schiller,Mr. Pyotr,12
+Petrovitch,that,12
+Razumihin,Schegolskoy,12
+Razumihin Nil,Schegolskoy,12
+Lazarus,Mr. Pashenka,11
+Lebeziatnikov,Mihail Alexey Schiller,11
+Luzhin,Razumihin,11
+Luzhin,Razumihin Nil,11
+Luzhin,Schegolskoy,11
+Pestryakov,Schegolskoy,11
+Pestryakov Wagner,Schegolskoy,11
+Potanchikov,Potanchikov Luise,11
+Semyonovitch,Sonia,11
+linen,that,11
+Frantsovna,that,10
+Lazarus Byelinsky,Yegorovna Fyodor Filka,10
+Lebeziatnikov Radishchev,Prilukov Semyonova,10
+Mamma,that,10
+Mihail Alexey Schiller,Tfoo,10
+Mihail Alexey Schiller,Tfoo Byelinsky,10
+Sister Blanc,Tfoo Byelinsky Pavlovna,10
+Tfoo,Yegorovna Fyodor Filka,10
+Tfoo Byelinsky,Yegorovna Fyodor Filka,10
+Yegorovna Fyodor,that,10
+Dourov,that,9
+Dr. Fedosya,Mihail Alexey Schiller,9
+Lebeziatnikov Radishchev,Semyonova Radishchev,9
+Mihail Alexey Schiller,Tfoo Byelinsky Pavlovna,9
+Mr. Pashenka,Schegolskoy,9
+Prilukov Semyonova,Semyonova Radishchev,9
+Prilukov Tolstyakov Kobilatnikov,that,9
+Providence,that,9
+Sonia,that,9
+Arkady,Dostoevsky,8
+Dourov,Tchebarov,8
+Kobelev Buch,Lebeziatnikov Radishchev,8
+Lebeziatnikov,Prilukov Tolstyakov Kobilatnikov,8
+Lebeziatnikov Radishchev,Prilukov Tolstyakov Kobilatnikov,8
+Marmeladov Rousseau,that,8
+Mihail Alexey Schiller,Schegolskoy,8
+Mihail Alexey Schiller,Yegorovna Fyodor Filka,8
+Mr. Pashenka,Razumihin,8
+Mr. Pashenka,Razumihin Nil,8
+Tit,that,8
+Arkady,that,7
+Frantsovna,Mihail Alexey Schiller,7
+Kobelev Buch,Kobelev Radishchev,7
+Kobelev Buch,that,7
+Lazarus Byelinsky,Lida Mary,7
+Lazarus Byelinsky,Mr. Pashenka,7
+Lazarus Byelinsky,Tfoo Byelinsky Pavlovna,7
+Lazarus Byelinsky,Yegorovna Fyodor,7
+Lebeziatnikov Radishchev,Tfoo Byelinsky Pavlovna,7
+Marmeladov Rousseau,Rodya Rousseau,7
+Mihail Alexey Schiller,Razumihin,7
+Mr. Pashenka,Tfoo Byelinsky Pavlovna,7
+Schegolskoy,Sister Blanc,7
+Sister Blanc,Yegorovna Fyodor Filka,7
+Tfoo,Tfoo Byelinsky Pavlovna,7
+Tfoo,Yegorovna Fyodor,7
+Tfoo Byelinsky,Tfoo Byelinsky Pavlovna,7
+Tfoo Byelinsky,Yegorovna Fyodor,7
+Alyona,Alyona Radishchev,6
+Alyona,Lebeziatnikov Radishchev,6
+Alyona Radishchev,Lebeziatnikov Radishchev,6
+Dourov,Lebeziatnikov,6
+Dourov,Lebeziatnikov Radishchev,6
+Dourov,Sister Blanc,6
+Ilya Byelinsky,Lida Mary,6
+Ilya Byelinsky,Mihail Alexey Schiller,6
+Kolya,Mr. Pashenka,6
+Kolya Raphael,Mr. Pashenka,6
+Lebeziatnikov,Tfoo Byelinsky Pavlovna,6
+Lebeziatnikov Radishchev,Petrovitch,6
+Mihail,Mihail Alexey Schiller,6
+Mihail Alexey Schiller,Petrovitch,6
+Mihail Alexey Schiller,Razumihin Nil,6
+Mihail Alexey Schiller,Tit,6
+Afanasy,Mihail Alexey Schiller,5
+Afanasy,Razumihin,5
+Afanasy,Razumihin Nil,5
+Dostoevsky,Sonia,5
+Dourov,Zossimov,5
+Dr. Fedosya,Lazarus Byelinsky,5
+Kobelev Buch,Lebeziatnikov,5
+Lazarus Byelinsky,Lebeziatnikov Radishchev,5
+Lazarus Byelinsky,Luzhin,5
+Lazarus Byelinsky,Razumihin,5
+Lazarus Byelinsky,Razumihin Nil,5
+Lazarus Byelinsky,Yushin,5
+Lebeziatnikov,Prilukov Tolstyakov,5
+Lebeziatnikov Radishchev,Petrovitch Radishchev,5
+Lebeziatnikov Radishchev,Prilukov Tolstyakov,5
+Lebeziatnikov Radishchev,Tfoo,5
+Lebeziatnikov Radishchev,Tfoo Byelinsky,5
+Luzhin,Tfoo,5
+Luzhin,Tfoo Byelinsky,5
+Mihail Alexey,Mihail Alexey Schiller,5
+Mr. Pashenka,Sister Blanc,5
+Mr. Pashenka,Tfoo,5
+Mr. Pashenka,Tfoo Byelinsky,5
+Petrovitch,Petrovitch Radishchev,5
+Razumihin,Tfoo,5
+Razumihin,Tfoo Byelinsky,5
+Razumihin Nil,Tfoo,5
+Razumihin Nil,Tfoo Byelinsky,5
+Schegolskoy,Tfoo Byelinsky Pavlovna,5
+Semyonovitch,that,5
+Sister Blanc,Sofya,5
+Tfoo,Yushin,5
+Tfoo Byelinsky,Yushin,5
+Yegorovna Fyodor,Yegorovna Fyodor Filka,5
+Dostoevsky,Lazarus,4
+Dostoevsky,Semyonovitch,4
+Dr. Fedosya,Tfoo,4
+Dr. Fedosya,Tfoo Byelinsky,4
+Kolya,Pestryakov,4
+Kolya,Pestryakov Wagner,4
+Kolya Raphael,Pestryakov,4
+Kolya Raphael,Pestryakov Wagner,4
+Lazarus,Mihail,4
+Lazarus,Mihail Alexey,4
+Lazarus Byelinsky,Lebeziatnikov,4
+Lebeziatnikov,Tfoo,4
+Lebeziatnikov,Tfoo Byelinsky,4
+Lebeziatnikov,Yegorovna Fyodor Filka,4
+Lebeziatnikov Radishchev,Yegorovna Fyodor Filka,4
+Lida Mary,Mihail Alexey Schiller,4
+Marmeladov,that,4
+Nikolay,that,4
+Potanchikov,that,4
+Potanchikov Luise,that,4
+Razumihin,Tfoo Byelinsky Pavlovna,4
+Razumihin Nil,Tfoo Byelinsky Pavlovna,4
+Rodya Rousseau,that,4
+Tfoo Byelinsky Pavlovna,Yegorovna Fyodor Filka,4
+Alexandr,that,3
+Arkady,Romanovitch,3
+Arkady,Sonia,3
+Arkady Garnett,that,3
+Dostoevsky,Mihail Alexey Schiller,3
+Dostoevsky,Mr. Pashenka,3
+Ilya Byelinsky,that,3
+Kobelev Svidrigailov,Lebeziatnikov,3
+Kobelev Svidrigailov,Lebeziatnikov Radishchev,3
+Kolya,Lazarus Byelinsky,3
+Kolya,Mihail Alexey Schiller,3
+Kolya,Tfoo,3
+Kolya,Tfoo Byelinsky,3
+Kolya,Tfoo Byelinsky Pavlovna,3
+Kolya Raphael,Lazarus Byelinsky,3
+Kolya Raphael,Mihail Alexey Schiller,3
+Kolya Raphael,Tfoo,3
+Kolya Raphael,Tfoo Byelinsky,3
+Kolya Raphael,Tfoo Byelinsky Pavlovna,3
+Kryukov Fyodor,Mamma,3
+Kryukov Fyodor,Yegorovna Fyodor,3
+Lazarus Byelinsky,Mihail,3
+Lazarus Byelinsky,linen,3
+Lebeziatnikov,Tchebarov,3
+Lebeziatnikov Radishchev,Prilukov Radishchev,3
+Lebeziatnikov Radishchev,Tchebarov,3
+Lebeziatnikov Radishchev,linen,3
+Mamma,Marmeladov Rousseau,3
+Mamma,Rodya Rousseau,3
+Mamma,Schegolskoy,3
+Mamma,Yegorovna Fyodor,3
+Marmeladov Rousseau,Rodya Rousseau Mangot,3
+Mihail Alexey Schiller,Rodya Rousseau Mangot,3
+Mont,that,3
+Nekrassov,that,3
+Nikolay,Vishera,3
+Pestryakov,Razumihin,3
+Pestryakov,Razumihin Nil,3
+Pestryakov,Tfoo Byelinsky Pavlovna,3
+Pestryakov Wagner,Razumihin,3
+Pestryakov Wagner,Razumihin Nil,3
+Pestryakov Wagner,Tfoo Byelinsky Pavlovna,3
+Prilukov Tolstyakov,Schegolskoy,3
+Pulcheria,that,3
+Razsudkin,that,3
+Razumihin,Sister Blanc,3
+Razumihin Nil,Sister Blanc,3
+Rodya Rousseau,Rodya Rousseau Mangot,3
+Tchebarov,that,3
+Afanasy,Lazarus Byelinsky,2
+Afanasy,Mihail,2
+Afanasy,Mihail Alexey,2
+Afanasy,Schegolskoy,2
+Afanasy,Sister Blanc,2
+Afanasy,Terebyeva,2
+Afanasy,Tfoo,2
+Afanasy,Tfoo Byelinsky,2
+Afrosinya Grigorievitch,Dostoevsky Dementyev,2
+Afrosinya Grigorievitch,that,2
+Alexandr,Alexandr Grigorievitch,2
+Alexandr,Providence,2
+Alexandr,Vassilitch,2
+Alyona,Bezzemelny,2
+Alyona Radishchev,Bezzemelny,2
+Amalia,that,2
+Arkady,Lazarus Byelinsky,2
+Arkady,Mr. Pashenka,2
+Arkady,Semyonovitch,2
+Arkady,Tfoo,2
+Arkady,Tfoo Byelinsky,2
+Arkady Garnett,Lazarus Byelinsky,2
+Arkady Garnett,Mr. Pashenka,2
+Arkady Garnett,Tfoo,2
+Arkady Garnett,Tfoo Byelinsky,2
+Bezzemelny,Lebeziatnikov Radishchev,2
+Dostoevsky,Mihail,2
+Dostoevsky,Mihail Alexey,2
+Dostoevsky,Romanovitch,2
+Dostoevsky Dementyev,that,2
+Dounia,Siberia,2
+Dr. Fedosya,Kolya,2
+Dr. Fedosya,Kolya Raphael,2
+Dr. Fedosya,Lazarus,2
+Dr. Fedosya,Mr. Pyotr,2
+Dr. Fedosya,Razumihin,2
+Dr. Fedosya,Razumihin Nil,2
+Fancy,Mihail Alexey Schiller,2
+Fourier Radishchev,Petrovitch,2
+Fourier Radishchev,Petrovitch Radishchev,2
+Fourier Radishchev,dmitri,2
+Fourier Radishchev,koch,2
+Fourier Radishchev,that,2
+Frantsovna,Luzhin,2
+Frantsovna,Nekrassov,2
+Frantsovna,linen,2
+Harkov,that,2
+Ivan,that,2
+Ivanovna,that,2
+Kobelev Buch,jove,2
+Kobelev Radishchev,Lazarus Byelinsky,2
+Kobelev Radishchev,Sister Blanc,2
+Kobelev Radishchev,Tfoo,2
+Kobelev Radishchev,Tfoo Byelinsky,2
+Kobelev Radishchev,Tfoo Byelinsky Pavlovna,2
+Kobelev Radishchev,jove,2
+Kobelev Svidrigailov,Yegorovna Fyodor,2
+Kobelev Svidrigailov,Yegorovna Fyodor Filka,2
+Kolya,Razumihin,2
+Kolya,Razumihin Nil,2
+Kolya Raphael,Razumihin,2
+Kolya Raphael,Razumihin Nil,2
+Kryukov Babushkin,that,2
+Kryukov Fyodor,Marmeladov Rousseau,2
+Kryukov Fyodor,Rodya Rousseau,2
+Kryukov Fyodor,that,2
+Lazarus,Mr. Pyotr,2
+Lazarus Byelinsky,Mihail Alexey,2
+Lazarus Byelinsky,Prilukov Tolstyakov,2
+Lebeziatnikov,Tit,2
+Lebeziatnikov,jove,2
+Lebeziatnikov,linen,2
+Lebeziatnikov Radishchev,Papa,2
+Lebeziatnikov Radishchev,Tit,2
+Lebeziatnikov Radishchev,dmitri,2
+Lebeziatnikov Radishchev,jove,2
+Lebeziatnikov Radishchev,koch,2
+Lida Mary,that,2
+Lizaveta,that,2
+Luzhin,Mihail Alexey Schiller,2
+Luzhin,Mr. Pashenka,2
+Luzhin,Pestryakov,2
+Luzhin,Pestryakov Wagner,2
+Madonna,that,2
+Mamma,Sister Blanc,2
+Marmeladov Rousseau,Yegorovna Fyodor,2
+Mihail,Yushin,2
+Mihail Alexey,Yushin,2
+Mihail Alexey Schiller,Pani,2
+Mihail Alexey Schiller,Razumihin Nil Schiller,2
+Mihail Alexey Schiller,Sofya,2
+Mikolka,Mr. Pashenka,2
+Mikolka,Tfoo Byelinsky Pavlovna,2
+Missy,german,2
+Mr. Pashenka,Rodya Rousseau Mangot,2
+Mr. Pashenka,Tit,2
+Mr. Pashenka,Yushin,2
+Nikiforovna,mihailovitch,2
+Nikolay,Pulcheria,2
+Pani,Sister Blanc,2
+Pani,that,2
+Papa,that,2
+Pestryakov,Yushin,2
+Pestryakov Wagner,Yushin,2
+Porfiry,that,2
+Prilukov Semyonova,that,2
+Prilukov Tolstyakov,Prilukov Tolstyakov Kobilatnikov,2
+Prilukov Tolstyakov,Tfoo,2
+Prilukov Tolstyakov,Tfoo Byelinsky,2
+Proudhon,that,2
+Pulcheria,Vishera,2
+Razumihin,Razumihin Nil Schiller,2
+Rodya Rousseau,Yegorovna Fyodor,2
+Romanovitch,that,2
+Schegolskoy,Yegorovna Fyodor,2
+Schegolskoy,Yushin,2
+Siberia,that,2
+Terebyeva,that,2
+Tfoo,linen,2
+Tfoo Byelinsky,linen,2
+Vahrushin,aie,2
+Vassilitch,that,2
+Vrazumihin,that,2
+dmitri,koch,2
+henriette,that,2
+jove,that,2
+napoleons,that,2
+Abraham,Bakaleyev,1
+Abraham,dushkin,1
+Achilles,Porfiry,1
+Achilles,that,1
+Afanasy,Arkady,1
+Afanasy,Arkady Garnett,1
+Afanasy,Believest,1
+Afanasy,Frantsovna,1
+Afanasy,Lazarus,1
+Afanasy,Luzhin,1
+Afanasy,Mr. Pashenka,1
+Afanasy,Nikolay,1
+Afanasy,Pestryakov,1
+Afanasy,Pestryakov Wagner,1
+Afanasy,Zaharovitch,1
+Alexandr,Jesus,1
+Alyona,Mihail Alexey Schiller,1
+Alyona,Nikodim,1
+Alyona,Parasha Prokofitch,1
+Alyona,Petrovitch,1
+Alyona,Petrovitch Radishchev,1
+Alyona,that,1
+Alyona Radishchev,Mihail Alexey Schiller,1
+Alyona Radishchev,Petrovitch,1
+Alyona Radishchev,Petrovitch Radishchev,1
+Alyona Radishchev,that,1
+Aniska Pavlitch,Parasha Prokofitch,1
+Arkady,Malaya,1
+Arkady,Pestryakov,1
+Arkady,Pestryakov Wagner,1
+Arkady,Petrovitch,1
+Arkady,Razumihin,1
+Arkady,Razumihin Nil,1
+Arkady,Schegolskoy,1
+Arkady,Tfoo Byelinsky Pavlovna,1
+Arkady Garnett,Pestryakov,1
+Arkady Garnett,Pestryakov Wagner,1
+Arkady Garnett,Razumihin,1
+Arkady Garnett,Razumihin Nil,1
+Arkady Garnett,Schegolskoy,1
+Arkady Garnett,Tfoo Byelinsky Pavlovna,1
+Bakaleyev,dushkin,1
+Berg,Semyonovna,1
+Blanc Kobilatnikov,Prilukov Tolstyakov Kobilatnikov,1
+Blanc Kobilatnikov,Sister Blanc,1
+Constance,that,1
+Darya,Mamma,1
+Darya,Sister Blanc,1
+Darya,napoleons,1
+Dostoevsky,Dostoevsky Dementyev,1
+Dostoevsky,Lazarus Byelinsky,1
+Dostoevsky,Malaya,1
+Dostoevsky,Papa,1
+Dostoevsky,Petrovitch,1
+Dostoevsky,Sister Blanc,1
+Dourov,Kobelev Radishchev,1
+Dourov,Lazarus Byelinsky,1
+Dourov,Mamma,1
+Dourov,Mihail,1
+Dourov,Papa,1
+Dourov,Petrovitch,1
+Dourov,Prilukov Tolstyakov,1
+Dourov,Tfoo,1
+Dourov,Tfoo Byelinsky,1
+Dourov,Tfoo Byelinsky Pavlovna,1
+Dourov,mack,1
+Dr. Fedosya,Fancy,1
+Dr. Fedosya,Frantsovna,1
+Dr. Fedosya,Mihail,1
+Dr. Fedosya,Mihail Alexey,1
+Dr. Fedosya,Pani,1
+Dr. Fedosya,Potanchikov,1
+Dr. Fedosya,Potanchikov Luise,1
+Dr. Fedosya,Schegolskoy,1
+Dr. Fedosya,Tfoo Byelinsky Pavlovna,1
+Fancy,Kolya,1
+Fancy,Kolya Raphael,1
+Fancy,Luzhin,1
+Fancy,Mihail,1
+Fancy,Mihail Alexey,1
+Fancy,Pestryakov,1
+Fancy,Pestryakov Wagner,1
+Fancy,Schegolskoy,1
+Fancy,Siberia,1
+Fancy,Sister Blanc,1
+Fancy,Tfoo Byelinsky Pavlovna,1
+Frantsovna,Mr. Pashenka,1
+Frantsovna,Mr. Pyotr,1
+Frantsovna,Perlen,1
+Frantsovna,Petrovitch,1
+Frantsovna,Potanchikov,1
+Frantsovna,Potanchikov Luise,1
+Frantsovna,Razumihin,1
+Frantsovna,Razumihin Nil,1
+Frantsovna,Razumihin Nil Schiller,1
+Frantsovna,Schegolskoy,1
+Frantsovna,Yushin,1
+Gogol,Sister Blanc,1
+Gogol,that,1
+Grigoryev,Tit,1
+Harkov,Piderit,1
+Ilya Byelinsky,henriette,1
+Ivan,Lebeziatnikov,1
+Ivan,Lebeziatnikov Radishchev,1
+Ivanovitch,that,1
+Ivanovna,Newton,1
+Ivanovna,Pokorev,1
+Jesus,Providence,1
+Jesus,Vassilitch,1
+Jesus,that,1
+Johann,that,1
+Katerina,Pestryakov,1
+Katerina,Pestryakov Wagner,1
+Katerina,Petrovsky,1
+Katerina,Porfiry,1
+Katerina,baring,1
+Katerina,deuce,1
+Katerina,kozel,1
+Katerina,marfa,1
+Katia,Mr. Pashenka,1
+Kepler,Marmeladov Rousseau,1
+Kepler,Rodya Rousseau,1
+Kepler,Rodya Rousseau Mangot,1
+Kobelev Buch,Yegorovna Fyodor Filka,1
+Kobelev Pfoo,Kobelev Svidrigailov,1
+Kobelev Pfoo,Lebeziatnikov,1
+Kobelev Pfoo,Lebeziatnikov Radishchev,1
+Kobelev Pfoo,Rororodionovitch Lippevechsel,1
+Kobelev Radishchev,Papa,1
+Kobelev Radishchev,Prilukov Radishchev,1
+Kobelev Radishchev,Siberia,1
+Kobelev Radishchev,Yushin,1
+Kobelev Radishchev,linen,1
+Kobelev Svidrigailov,Lazarus Byelinsky,1
+Kobelev Svidrigailov,Mikolka,1
+Kobelev Svidrigailov,Tfoo,1
+Kobelev Svidrigailov,Tfoo Byelinsky,1
+Kobelev Svidrigailov,that,1
+Kolya,Kolya Raphael Schiller,1
+Kolya,Madonna,1
+Kolya,Mihail,1
+Kolya,Potanchikov,1
+Kolya,Potanchikov Luise,1
+Kolya,Schegolskoy,1
+Kolya,Sister Blanc,1
+Kolya,Yushin,1
+Kolya Raphael,Kolya Raphael Schiller,1
+Kolya Raphael,Madonna,1
+Kolya Raphael,Mihail,1
+Kolya Raphael,Potanchikov,1
+Kolya Raphael,Potanchikov Luise,1
+Kolya Raphael,Schegolskoy,1
+Kolya Raphael,Sister Blanc,1
+Kolya Raphael,Yushin,1
+Kolya Raphael Schiller,Mihail Alexey Schiller,1
+Kolya Raphael Schiller,Tfoo Byelinsky Pavlovna,1
+Kryukov Babushkin,Mihail Alexey Schiller,1
+Lazarus,Lida Mary,1
+Lazarus,Providence,1
+Lazarus,Razumihin,1
+Lazarus,Razumihin Nil,1
+Lazarus,linen,1
+Lazarus Byelinsky,Marmeladov Rousseau,1
+Lazarus Byelinsky,Nikodim,1
+Lazarus Byelinsky,Pestryakov,1
+Lazarus Byelinsky,Pestryakov Wagner,1
+Lazarus Byelinsky,Providence,1
+Lazarus Byelinsky,Rodya Rousseau,1
+Lazarus Byelinsky,Tit,1
+Lazarus Byelinsky,henriette,1
+Lebeziatnikov,Papa,1
+Lebeziatnikov,Petrovitch,1
+Lebeziatnikov,Prilukov Semyonova,1
+Lebeziatnikov,Siberia,1
+Lebeziatnikov,Yegorovna Fyodor,1
+Lebeziatnikov,Yushin,1
+Lebeziatnikov,Zossimov,1
+Lebeziatnikov Radishchev,Mr. Pyotr,1
+Lebeziatnikov Radishchev,Siberia,1
+Lebeziatnikov Radishchev,Yegorovna Fyodor,1
+Lebeziatnikov Radishchev,Yushin,1
+Lebeziatnikov Radishchev,Zossimov,1
+Lida Mary,Mr. Pyotr,1
+Lida Mary,henriette,1
+Lizaveta,Missy,1
+Ludwigovna Varents,Providence,1
+Luzhin,Mahomet,1
+Luzhin,Nekrassov,1
+Luzhin,Razumihin Nil Schiller,1
+Luzhin,Yushin,1
+Lycurgus,Semyon,1
+Madonna,Yushin,1
+Malaya,Semyonovitch,1
+Malaya,Sonia,1
+Malaya,that,1
+Mamma,Mihail Alexey Schiller,1
+Mamma,Papa,1
+Mamma,Prilukov Tolstyakov,1
+Mamma,Rodya Rousseau Mangot,1
+Mamma,Tfoo Byelinsky Pavlovna,1
+Marmeladov,Yushin,1
+Marmeladov Rousseau,Mihail Alexey Schiller,1
+Marmeladov Rousseau,Schegolskoy,1
+Marmeladov Rousseau,Tfoo,1
+Marmeladov Rousseau,Tfoo Byelinsky,1
+Marmeladov Rousseau,Yushin,1
+Mihail,Mihail Ro--Ro--Rodionovitch,1
+Mihail,Pestryakov,1
+Mihail,Pestryakov Wagner,1
+Mihail,Prilukov Tolstyakov,1
+Mihail,Razumihin,1
+Mihail,Razumihin Nil,1
+Mihail,Sofya,1
+Mihail,Tfoo,1
+Mihail,Tfoo Byelinsky,1
+Mihail,Tit,1
+Mihail,Zossimov,1
+Mihail,karl,1
+Mihail Alexey,Pestryakov,1
+Mihail Alexey,Pestryakov Wagner,1
+Mihail Alexey,Prilukov Tolstyakov,1
+Mihail Alexey,Sofya,1
+Mihail Alexey,Tit,1
+Mihail Alexey,Zossimov,1
+Mihail Alexey,karl,1
+Mihail Alexey Schiller,Mikolka,1
+Mihail Alexey Schiller,Mont,1
+Mihail Alexey Schiller,Parasha Prokofitch,1
+Mihail Alexey Schiller,Pestryakov,1
+Mihail Alexey Schiller,Pestryakov Wagner,1
+Mihail Alexey Schiller,Petrovitch Radishchev,1
+Mihail Alexey Schiller,Potanchikov,1
+Mihail Alexey Schiller,Potanchikov Luise,1
+Mihail Alexey Schiller,Prilukov Tolstyakov,1
+Mihail Alexey Schiller,Rodya Rousseau,1
+Mihail Alexey Schiller,Yegorovna Fyodor,1
+Mihail Alexey Schiller,karl,1
+Mihail Alexey Schiller,linen,1
+Mihail Ro--Ro--Rodionovitch,that,1
+Mikolka,Razumihin,1
+Mikolka,Razumihin Nil,1
+Mikolka,Schegolskoy,1
+Mikolka,Yegorovna Fyodor,1
+Mikolka,Yegorovna Fyodor Filka,1
+Mikolka,that,1
+Missy,that,1
+Mitka,Papa,1
+Mitka,that,1
+Mont,Tfoo Byelinsky Pavlovna,1
+Mr. Pashenka,Nekrassov,1
+Mr. Pashenka,Nikiforovna,1
+Mr. Pashenka,Prilukov Tolstyakov,1
+Mr. Pashenka,Sofya,1
+Mr. Pyotr,Nekrassov,1
+Mr. Pyotr,Prilukov Semyonova,1
+Mr. Pyotr,Semyonova Radishchev,1
+Mr. Pyotr,linen,1
+Newton,Pokorev,1
+Newton,that,1
+Nikodim,Parasha Prokofitch,1
+Nikodim,Tfoo,1
+Nikodim,Tfoo Byelinsky,1
+Pani,Tfoo Byelinsky Pavlovna,1
+Parasha Prokofitch,Rodion,1
+Parasha Prokofitch,Yushin,1
+Parasha Prokofitch,that,1
+Perlen,Pestryakov Wagner,1
+Pestryakov,Tfoo,1
+Pestryakov,Tfoo Byelinsky,1
+Pestryakov,Tit,1
+Pestryakov,baring,1
+Pestryakov,deuce,1
+Pestryakov,kozel,1
+Pestryakov,linen,1
+Pestryakov,marfa,1
+Pestryakov Wagner,Tfoo,1
+Pestryakov Wagner,Tfoo Byelinsky,1
+Pestryakov Wagner,Tit,1
+Pestryakov Wagner,baring,1
+Pestryakov Wagner,deuce,1
+Pestryakov Wagner,kozel,1
+Pestryakov Wagner,linen,1
+Pestryakov Wagner,marfa,1
+Petersburg,that,1
+Petrovitch,Sister Blanc,1
+Petrovitch,Sonia,1
+Petrovitch Radishchev,that,1
+Petrovsky,that,1
+Plestcheiev,that,1
+Pokorev,that,1
+Potanchikov,Razumihin,1
+Potanchikov,Razumihin Nil,1
+Potanchikov Luise,Razumihin,1
+Potanchikov Luise,Razumihin Nil,1
+Prilukov Radishchev,Sister Blanc,1
+Prilukov Radishchev,that,1
+Prilukov Semyonova,Prilukov Tolstyakov,1
+Prilukov Tolstyakov,Rororodionovitch Lippevechsel,1
+Prilukov Tolstyakov,Tfoo Byelinsky Pavlovna,1
+Prilukov Tolstyakov,Yegorovna Fyodor Filka,1
+Prilukov Tolstyakov Kobilatnikov,Sister Blanc,1
+Prilukov Tolstyakov Kobilatnikov,Tchebarov,1
+Providence,Vassilitch,1
+Providence,morgenfruh,1
+Pushkin Fyodor,Yegorovna Fyodor,1
+Pushkin Fyodor,that,1
+Razumihin Nil,Razumihin Nil Schiller,1
+Razumihin Nil Schiller,Schegolskoy,1
+Razumihin Nil Schiller,that,1
+Rodya Rousseau,Schegolskoy,1
+Rodya Rousseau,Tfoo,1
+Rodya Rousseau,Tfoo Byelinsky,1
+Rodya Rousseau Mangot,polenka,1
+Rodya Rousseau Mangot,that,1
+Romanovna,that,1
+Rororodionovitch Lippevechsel,that,1
+Schegolskoy,linen,1
+Semyon,that,1
+Semyonova Radishchev,that,1
+Shelopaev,that,1
+Sofya,that,1
+Tfoo,Tit,1
+Tfoo Byelinsky,Tit,1
+Vasya Kapernaumovs,that,1
+Vishera,that,1
+Yegorovna Fyodor Filka,avdotya,1
+Yushin,alma,1
+Zaharovitch,that,1
+Zarnitsyn Diamanten,that,1
+Zossimov,that,1
+baring,deuce,1
+baring,kozel,1
+baring,marfa,1
+campany,neva,1
+campany,that,1
+deuce,kozel,1
+deuce,marfa,1
+iv,that,1
+kozel,marfa,1
+mack,that,1
+maurice,shil,1
+maurice,that,1
+morgenfruh,that,1
+neva,that,1
+shil,that,1

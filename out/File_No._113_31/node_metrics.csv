@@ -1,0 +1,9 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Jules-Rene-Henri,0,0.125,0,1,1.0
+Mademoiselle,0,0.11800227458410227,0,1,2.0
+Monsieur,0,0.17515036548060037,0,2,3.0
+chance,0,0.07484963451939963,0,1,1.0
+jacques,0,0.125,0,1,1.0
+jules,0,0.125,0,1,1.0
+opportunity,0,0.13199772541589772,0,2,2.0
+w,0,0.125,0,1,1.0

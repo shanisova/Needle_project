@@ -1,0 +1,572 @@
+character1,character2,count
+Miss Lubbock Sheridan,Mr. Fletcher Sheridan,125
+Dove Juliet,a,96
+Alexandra Stevensonian,a,72
+Cousin Williams,Miss Williams Collins,62
+Miss Williams Collins,a,60
+Isbrand,a,56
+Mr. Fletcher Sheridan,a,53
+Miss Lubbock Sheridan,a,42
+a,nurse,32
+Miss Williams Collins,Mr. Fletcher Sheridan,28
+Cousin Williams,a,24
+Dove Juliet,Isbrand,24
+Mr. Queer,a,24
+Sir Edward Coke,a,24
+Miss Lubbock Sheridan,Miss Williams Collins,23
+Mrs. Simon,a,22
+Sir Edward Coke,Towkington Agatha,22
+Walmisley,a,22
+Coke Agatha,Sir Edward Coke,20
+Coke Agatha,Towkington Agatha,20
+Miss Piggin,Miss Piggin Habbakuk,20
+Sambo,Sambo John,20
+a,murder,18
+Cousin Nippy,a,17
+Sambo,Sambo Whittaker,17
+Miss Piggin Habbakuk,Miss Williams Collins,16
+Miss Piggin Habbakuk,a,16
+Rev. Segrave,Sir Segrave,16
+Cousin Williams,Mr. Fletcher Sheridan,12
+Dove,Dove Juliet,12
+Dr. Edward Pillington,a,12
+Gulliver,a,11
+Pointer,a,11
+Sambo,a,11
+Town,a,11
+Alexandra Stevensonian,Isbrand,10
+Alexandra Stevensonian,Miss Williams Collins,10
+Cousin Nippy,Mr. Fletcher Sheridan,10
+Cousin Williams,Miss Lubbock Sheridan,10
+Miss Williams Collins,Sir Edward Coke,10
+Mr. Freddy,a,10
+Rev. Segrave,a,10
+a,self,10
+Miss Wilkie Collins,Miss Williams Collins,9
+Pritchard,a,9
+Towkington Hawkshaw,a,9
+Cousin Nippy,Rev. Nippy Sheridan,8
+Miss Lubbock,Mr. Fletcher Sheridan,8
+Mr. Fletcher Sheridan,Rev. Nippy Sheridan,8
+Towkington Agatha,a,8
+a,mark,8
+Bertha,Pettigrew-Robinson,7
+Dove,a,7
+Ham,a,7
+Mead,a,7
+Miss Lubbock,Miss Lubbock Sheridan,7
+Andrew Brandy,a,6
+Biggers Burke,a,6
+Coke Agatha,a,6
+Cousin Williams,Miss Piggin,6
+Dove Juliet,murder,6
+Miss Piggin,Miss Williams Collins,6
+Pouf,a,6
+Rev. Segrave,Sir Segrave Andrews,6
+Sambo John,a,6
+Sir Segrave,Sir Segrave Andrews,6
+a,mother,6
+Alexandra Stevensonian,Miss Piggin Habbakuk,5
+Clemence,Mr. Fletcher Sheridan,5
+Cousin Williams,Miss Piggin Habbakuk,5
+Matron,a,5
+Mead,Town,5
+Miss Lubbock Sheridan,Sambo,5
+Miss Lubbock Sheridan,Sir Edward Coke,5
+Miss Merdle,a,5
+Mr. Fletcher Sheridan,Sambo,5
+Mr. Fletcher Sheridan,Sir Edward Coke,5
+Mr. Sugg,a,5
+Mr. Vane,a,5
+Pritchard,Rev. Segrave,5
+S. Onesimus,a,5
+a,grant,5
+Alexandra Stevensonian,Miss Piggin,4
+Clemence,Clemence Sheridan,4
+Clemence,a,4
+Clemence Sheridan,Mr. Fletcher Sheridan,4
+Cousin Nippy,Cousin Williams,4
+Cousin Nippy,Miss Williams Collins,4
+Dove Juliet,Gulliver,4
+Dove Juliet,Miss Piggin Habbakuk,4
+Dove Juliet,Miss Williams Collins,4
+Gulliver,Isbrand,4
+Isbrand,Rev. Segrave,4
+Markham,Markham Sparkler,4
+Miss Lubbock Sheridan,Towkington Agatha,4
+Miss Towkington,Sir Edward Coke,4
+Miss Towkington,Towkington Agatha,4
+Miss Towkington,Towkington Hawkshaw,4
+Miss Wilkie Collins,a,4
+Miss Williams Collins,Raustus,4
+Miss Williams Collins,nurse,4
+Mr. Fletcher Sheridan,Towkington Agatha,4
+Mrs. Worplesham,a,4
+Rev. Nippy Sheridan,a,4
+Sir Harriet,Sir Harriet James,4
+Sir Segrave,a,4
+Alexandra Stevensonian,Cousin Williams,3
+Alexandra Stevensonian,Dove Juliet,3
+Alexandra Stevensonian,Miss Lubbock Sheridan,3
+Alexandra Stevensonian,Mr. Fletcher Sheridan,3
+Alexandra Stevensonian,Walmisley,3
+Andrew Brandy,Mrs. Simon,3
+Clara,Clara Probyn,3
+Cousin Nippy,Dove Juliet,3
+Cousin Nippy,Isbrand,3
+Cousin Nippy,murder,3
+Dove Juliet,Rev. Segrave,3
+Dove Juliet,Sir Segrave Andrews,3
+Dumas,Mr. Dumas Elinor,3
+Esmeralda,a,3
+Galahad,Miss Williams Collins,3
+Galahad,a,3
+Henry,a,3
+Isbrand,Mr. Fletcher Sheridan,3
+Isbrand,Mr. Queer,3
+Miss Lubbock,a,3
+Miss Lubbock Sheridan,Miss Wilkie Collins,3
+Miss Merdle,Mr. Fletcher Sheridan,3
+Miss Piggin Habbakuk,Towkington Agatha,3
+Miss Wilkie Collins,Mr. Fletcher Sheridan,3
+Miss Williams Collins,Mr. Raustus Collins,3
+Miss Williams Collins,Mrs. Simon,3
+Miss Williams Collins,Rev. Nippy Sheridan,3
+Miss Williams Collins,Rev. Segrave,3
+Miss Williams Collins,Sambo,3
+Mr. Galahad Freeman,a,3
+Mr. Queer,Towkington Agatha,3
+Mr. Raustus Collins,Raustus,3
+Raustus,Sir Raustus Dorcas,3
+Sambo Whittaker,a,3
+Sir Edward Coke,Walmisley,3
+Agatha Coke,Sir Edward Coke,2
+Alexandra Stevensonian,Winbottle,2
+Andrew,a,2
+Andrew Brandy,Isbrand,2
+Bearer,Mr. Fletcher Sheridan,2
+Bearer,Pointer,2
+Bearer,a,2
+Bertha,Mr. Fletcher Sheridan,2
+Bredon,Jove,2
+Bredon,Town,2
+Bull,Bull Sheridan,2
+Bull,Mr. Fletcher Sheridan,2
+Bull Sheridan,Mr. Fletcher Sheridan,2
+Clemence Sheridan,a,2
+Coke Agatha,Miss Lubbock Sheridan,2
+Coke Agatha,Mr. Fletcher Sheridan,2
+Coke Agatha,Mr. Freddy,2
+Coke Agatha,Mr. Queer,2
+Cousin Nippy,beaumont,2
+Cousin Nippy,palmer,2
+Cousin Williams,Dove Juliet,2
+Cousin Williams,Galahad,2
+Cousin Williams,Mead,2
+Cousin Williams,Miss Wilkie Collins,2
+Cousin Williams,Rev. Nippy Sheridan,2
+Cousin Williams,palmer,2
+Dick,a,2
+Dove,Isbrand,2
+Dove Juliet,Miss Lubbock Sheridan,2
+Dove Juliet,Mr. Fletcher Sheridan,2
+Dove Juliet,Mr. Vane,2
+Dove Juliet,Mrs. Simon,2
+Dove Juliet,Pouf,2
+Dove Juliet,Sir Segrave,2
+Dove Juliet,grant,2
+Dr. Crofton,a,2
+Dr. Edward Pillington,nurse,2
+Eglamore,Freddy Arbuthnot,2
+Gulliver,Pointer,2
+Ham,grant,2
+Housman,a,2
+Isbrand,Martin Taylor,2
+Isbrand,Miss Piggin Habbakuk,2
+Isbrand,Miss Williams Collins,2
+Isbrand,Mr. Lambert,2
+Isbrand,Mrs. Simon,2
+Isbrand,Pointer,2
+Isbrand,Pritchard,2
+Isbrand,Sir Segrave,2
+Isbrand,Sir Segrave Andrews,2
+Isbrand,Walmisley,2
+Miss Lubbock,Miss Williams Collins,2
+Miss Lubbock Sheridan,Miss Merdle,2
+Miss Lubbock Sheridan,Mr. Freddy,2
+Miss Lubbock Sheridan,Mr. Queer,2
+Miss Lubbock Sheridan,Mr. Vane,2
+Miss Lubbock Sheridan,Rev. Segrave,2
+Miss Lubbock Sheridan,Sambo Whittaker,2
+Miss Lubbock Sheridan,nurse,2
+Miss Merdle,Miss Williams Collins,2
+Miss Merdle,Sambo,2
+Miss Merdle,Sambo John,2
+Miss Piggin,Towkington Agatha,2
+Miss Piggin,a,2
+Miss Piggin Habbakuk,murder,2
+Miss Towkington,Walmisley,2
+Miss Wilkie Collins,Miss Wordsworth,2
+Miss Wilkie Collins,Raustus,2
+Miss Williams Collins,Miss Wordsworth,2
+Miss Williams Collins,Mr. Freddy,2
+Miss Williams Collins,Mr. Queer,2
+Miss Williams Collins,Mr. Segrave Collins,2
+Miss Williams Collins,Mrs. Worplesham,2
+Miss Williams Collins,Pointer,2
+Miss Williams Collins,palmer,2
+Miss Wordsworth,Raustus,2
+Mr. Fletcher Sheridan,Mr. Freddy,2
+Mr. Fletcher Sheridan,Mr. Queer,2
+Mr. Fletcher Sheridan,Mr. Vane,2
+Mr. Fletcher Sheridan,Pettigrew-Robinson,2
+Mr. Fletcher Sheridan,Pointer,2
+Mr. Fletcher Sheridan,Rev. Segrave,2
+Mr. Fletcher Sheridan,Sambo Whittaker,2
+Mr. Fletcher Sheridan,murder,2
+Mr. Fletcher Sheridan,nurse,2
+Mr. Fletcher Sheridan,palmer,2
+Mr. Freddy,Sir Edward Coke,2
+Mr. Freddy,Towkington Agatha,2
+Mr. Galahad Freeman,humph,2
+Mr. Lambert,a,2
+Mr. Queer,Sir Edward Coke,2
+Mr. Queer,Walmisley,2
+Mr. Segrave Collins,Rev. Segrave,2
+Mrs. Simon,Sir Edward Coke,2
+Mrs. Simon,Towkington Agatha,2
+Raustus,a,2
+Rev. Nippy Sheridan,palmer,2
+Sambo,nurse,2
+Sheila,a,2
+Sir Harriet,Town,2
+Sir Harriet,a,2
+Sir Harriet James,a,2
+Sir Helen,Sir Helen Scaramel,2
+Sir Segrave Andrews,a,2
+Towkington Agatha,murder,2
+Winbottle,a,2
+a,dorothy,2
+a,gotobed,2
+a,humph,2
+a,palmer,2
+Agatha Coke,Biggers Burke,1
+Agatha Coke,S. Csar,1
+Agatha Coke,a,1
+Alexandra Stevensonian,Coke Agatha,1
+Alexandra Stevensonian,Dewsby Barbara,1
+Alexandra Stevensonian,Dorrit,1
+Alexandra Stevensonian,Lancelot Pearson,1
+Alexandra Stevensonian,Londoner,1
+Alexandra Stevensonian,Philliter,1
+Alexandra Stevensonian,Pritchard,1
+Alexandra Stevensonian,Sir Edward Coke,1
+Alexandra Stevensonian,Towkington Agatha,1
+Alexandra Stevensonian,Wilkie Cleveland,1
+Alexandra Stevensonian,murder,1
+Alexandra Stevensonian,nurse,1
+Allcock Forrest,Bredon,1
+Allcock Forrest,Hopkins Taylor,1
+Allcock Forrest,Isbrand,1
+Allcock Forrest,Mead,1
+Allcock Forrest,Town,1
+Andrew,Andrew Brandy,1
+Andrew,Mrs. Simon,1
+Andrew Brandy,Mr. Queer,1
+Andrew Brandy,Walmisley,1
+Andrew Brandy,murder,1
+Aurora,Mead,1
+Aurora,a,1
+Austin,chamberlin,1
+Barnabas,Papist,1
+Barnabas,bunter,1
+Bearer,Cousin Nippy,1
+Bearer,Mrs. Stephen,1
+Bearer,Rev. Nippy Sheridan,1
+Biggers Burke,Sir Edward Coke,1
+Bredon,Hopkins Taylor,1
+Bredon,Isbrand,1
+Bredon,Mead,1
+Budge,Epping,1
+Bull,a,1
+Bull Sheridan,a,1
+Clemence,Cousin Nippy,1
+Clemence,Cousin Williams,1
+Clemence,Isbrand,1
+Clemence,Miss Williams Collins,1
+Clemence,Napoleon,1
+Clemence,Pritchard,1
+Clemence,Walmisley,1
+Clemence,harkaway,1
+Clemence Sheridan,Cousin Nippy,1
+Clemence Sheridan,Isbrand,1
+Clemence Sheridan,harkaway,1
+Coke Agatha,Dove Juliet,1
+Coke Agatha,Isbrand,1
+Coke Agatha,Miss Piggin,1
+Coke Agatha,Miss Piggin Habbakuk,1
+Coke Agatha,Miss Williams Collins,1
+Coke Agatha,grant,1
+Coke Agatha,murder,1
+Cousin Nippy,Father Martin,1
+Cousin Nippy,Markham,1
+Cousin Nippy,Markham Sparkler,1
+Cousin Nippy,Miss Hare,1
+Cousin Nippy,Miss Lubbock Sheridan,1
+Cousin Nippy,Mr. Vane,1
+Cousin Nippy,Pointer,1
+Cousin Nippy,Tennyson,1
+Cousin Nippy,dorothy,1
+Cousin Nippy,harkaway,1
+Cousin Thomas,a,1
+Cousin Williams,Isbrand,1
+Cousin Williams,Miss Lubbock,1
+Cousin Williams,Mr. Queer,1
+Cousin Williams,Mrs. Simon,1
+Cousin Williams,Pointer,1
+Cousin Williams,Town,1
+Cousin Williams,Walmisley,1
+Cousin Williams,cook,1
+Cousin Williams,murder,1
+Cousin Williams,nurse,1
+Csar Peel,Miss Piggin Habbakuk,1
+Csar Peel,Miss Williams Collins,1
+Csar Peel,S. Csar,1
+Delagardie,Isbrand,1
+Delagardie,a,1
+Dove,Gulliver,1
+Dove,Miss Giles,1
+Dove,Miss Towkington,1
+Dove,Miss Williams Collins,1
+Dove,Mrs. Simon,1
+Dove,Towkington Agatha,1
+Dove,tom,1
+Dove Juliet,Epping,1
+Dove Juliet,Londoner,1
+Dove Juliet,Miss Piggin,1
+Dove Juliet,Mr. Freddy,1
+Dove Juliet,Mr. Lambert,1
+Dove Juliet,Mr. Queer,1
+Dove Juliet,Philliter,1
+Dove Juliet,Sir Edward Coke,1
+Dove Juliet,Sir Helen,1
+Dove Juliet,Sir Helen Scaramel,1
+Dove Juliet,Towkington Agatha,1
+Dove Juliet,Wimsey,1
+Dove Juliet,ben,1
+Dove Juliet,mark,1
+Dr. Edward Pillington,Miss Lubbock Sheridan,1
+Dr. Edward Pillington,Miss Williams Collins,1
+Dr. Edward Pillington,Mr. Fletcher Sheridan,1
+Dr. Edward Pillington,Sambo,1
+Dr. Edward Pillington,Sambo Whittaker,1
+Dumas,Rev. Segrave,1
+Edmund,Ham,1
+Edmund,Miss Hare,1
+Edmund,a,1
+Epping,a,1
+Esmeralda,Isbrand,1
+Esmeralda,roger,1
+Esmeralda,templeton,1
+Fletcher Voltaire,Miss Wordsworth,1
+Fletcher Voltaire,Wordsworth Voltaire,1
+Freddy Arbuthnot,Mr. Freddy,1
+Freke,Isbrand,1
+Freke,Matron,1
+Freke,a,1
+Galahad,Isbrand,1
+Galahad,Miss Piggin,1
+Galahad,Miss Piggin Habbakuk,1
+Galahad,Mr. Galahad Freeman,1
+Gordon,Honoria,1
+Gordon,Pritchard,1
+Goth,Jim,1
+Goth,Miss Williams Collins,1
+Goth,Pointer,1
+Goth,Sir Edward Coke,1
+Goth,a,1
+Gulliver,Pritchard,1
+Gulliver,Towkington Hawkshaw,1
+Gulliver,Wimsey,1
+Ham,Isbrand,1
+Ham,Miss Hare,1
+Ham,S. Onesimus,1
+Ham,Walmisley,1
+Ham,self,1
+Henry,Henry Adolphus,1
+Henry,Isbrand,1
+Henry,Rev. Segrave,1
+Honoria,Pritchard,1
+Hopkins Taylor,Isbrand,1
+Hopkins Taylor,Mead,1
+Hopkins Taylor,Town,1
+Isbrand,Joe,1
+Isbrand,Lancelot Pearson,1
+Isbrand,Matron,1
+Isbrand,Mead,1
+Isbrand,Miss Lubbock Sheridan,1
+Isbrand,Miss Piggin,1
+Isbrand,S. Csar,1
+Isbrand,Sir Edward Coke,1
+Isbrand,Towkington Agatha,1
+Isbrand,Towkington Hawkshaw,1
+Isbrand,Town,1
+Isbrand,Tredgold Frederick,1
+Isbrand,harkaway,1
+Isbrand,mark,1
+Isbrand,murder,1
+Isbrand,roger,1
+Isbrand,self,1
+Isbrand,templeton,1
+Jim,Miss Williams Collins,1
+Jim,Pointer,1
+Jim,Sir Edward Coke,1
+Jim,a,1
+Joe,Pritchard,1
+Joe,a,1
+Julius,Markham,1
+Julius,Sir Edward Coke,1
+Julius,a,1
+Lancelot Pearson,Miss Williams Collins,1
+Lancelot Pearson,a,1
+Londoner,a,1
+Markham,Miss Lubbock Sheridan,1
+Markham,Miss Williams Collins,1
+Markham,Mr. Fletcher Sheridan,1
+Markham,a,1
+Markham,adam,1
+Markham Sparkler,a,1
+Markham Sparkler,adam,1
+Martin Taylor,a,1
+Martin Taylor,sherlock,1
+Miss Giles,a,1
+Miss Hare,Miss Lubbock Sheridan,1
+Miss Hare,Mr. Fletcher Sheridan,1
+Miss Hare,a,1
+Miss Lubbock,Miss Towkington,1
+Miss Lubbock,Miss Wilkie Collins,1
+Miss Lubbock,Miss Wordsworth,1
+Miss Lubbock,Mr. Vane,1
+Miss Lubbock,Sir Edward Coke,1
+Miss Lubbock,Towkington Agatha,1
+Miss Lubbock Sheridan,Miss Towkington,1
+Miss Lubbock Sheridan,Mr. Peter,1
+Miss Lubbock Sheridan,Sambo John,1
+Miss Lubbock Sheridan,murder,1
+Miss Merdle,inspector,1
+Miss Piggin,Philliter,1
+Miss Piggin,Sir Edward Coke,1
+Miss Piggin,murder,1
+Miss Piggin,self,1
+Miss Piggin Habbakuk,Mrs. Simon,1
+Miss Piggin Habbakuk,Pritchard,1
+Miss Piggin Habbakuk,Sir Edward Coke,1
+Miss Piggin Habbakuk,Sir Segrave Andrews,1
+Miss Piggin Habbakuk,Town,1
+Miss Piggin Habbakuk,self,1
+Miss Towkington,Miss Williams Collins,1
+Miss Towkington,Mr. Fletcher Sheridan,1
+Miss Towkington,Sambo,1
+Miss Wilkie Collins,Mr. Raustus Collins,1
+Miss Williams Collins,Sambo John,1
+Miss Williams Collins,Sambo Whittaker,1
+Miss Williams Collins,Towkington Agatha,1
+Miss Williams Collins,Towkington Hawkshaw,1
+Miss Williams Collins,Walmisley,1
+Miss Williams Collins,climpson,1
+Miss Williams Collins,cook,1
+Miss Williams Collins,murder,1
+Miss Wordsworth,Wordsworth Voltaire,1
+Miss Wordsworth,a,1
+Mr. Fletcher Sheridan,Mr. Peter,1
+Mr. Fletcher Sheridan,Napoleon,1
+Mr. Fletcher Sheridan,Pritchard,1
+Mr. Fletcher Sheridan,Sambo John,1
+Mr. Fletcher Sheridan,harkaway,1
+Mr. Freddy,murder,1
+Mr. Lambert,Walmisley,1
+Mr. Queer,Mr. Vane,1
+Mr. Queer,Rev. Segrave,1
+Mr. Queer,cook,1
+Mr. Queer,murder,1
+Mr. Queer,nurse,1
+Mr. Segrave Collins,a,1
+Mr. Vane,dorothy,1
+Mrs. Simon,grant,1
+Mrs. Simon,murder,1
+Mrs. Worplesham,Pritchard,1
+Napoleon,Pritchard,1
+Napoleon,a,1
+Papist,bunter,1
+Paterson,a,1
+Pointer,Rev. Nippy Sheridan,1
+Pointer,Sir Edward Coke,1
+Pointer,Solomon,1
+Pointer,f,1
+Pointer,jordan,1
+Pouf,Towkington Hawkshaw,1
+Pouf,Town,1
+Pouf,mark,1
+Pritchard,Sir Segrave,1
+Pritchard,cook,1
+Rev. Romeo,Winkin,1
+Rev. Romeo,holborn,1
+Rev. Romeo,murder,1
+Rev. Segrave,Sir Harriet,1
+Rev. Segrave,Sir Harriet James,1
+Rev. Segrave,paul,1
+S. Csar,Sir Edward Coke,1
+Sambo John,Sambo Whittaker,1
+Sambo Whittaker,nurse,1
+Sheila,Smith,1
+Sir Edward Coke,cook,1
+Sir Edward Coke,grant,1
+Sir Edward Coke,murder,1
+Sir Harriet,nurse,1
+Sir Helen,a,1
+Sir Helen Scaramel,a,1
+Sir Raustus Dorcas,a,1
+Smith,Walmisley,1
+Solomon,a,1
+Stanniforth,a,1
+Superintendent Hallelujah,a,1
+Sylvia,a,1
+Towkington Agatha,Towkington Hawkshaw,1
+Towkington Agatha,Walmisley,1
+Towkington Agatha,grant,1
+Towkington Hawkshaw,Town,1
+Town,mother,1
+Town,murder,1
+Town,nurse,1
+Vera,mother,1
+Victoria,a,1
+Walmisley,grant,1
+Walmisley,mark,1
+Watson,a,1
+Wilkie Cleveland,a,1
+Wimsey,a,1
+Winkin,holborn,1
+Winkin,murder,1
+a,armstrong,1
+a,ben,1
+a,carr,1
+a,cook,1
+a,f,1
+a,faulkner,1
+a,hardy,1
+a,jordan,1
+a,kraska,1
+a,lyndhurst,1
+a,roger,1
+a,sammy,1
+a,sayers,1
+a,sherlock,1
+a,templeton,1
+a,tom,1
+a,zeus,1
+dorothy,lyndhurst,1
+f,jordan,1
+faulkner,sammy,1
+holborn,murder,1
+marbles,murbles,1
+roger,templeton,1

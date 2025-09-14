@@ -1,0 +1,28 @@
+character1,character2,count
+Bob Carruthers,Jack Woodley,7
+Bob Carruthers,Mr. Williamson,4
+Jack Woodley,Mr. Williamson,4
+Miss Violet Smith,Ralph Smith,3
+Cyril,Cyril Morton,2
+Miss Violet,Miss Violet Smith,2
+Miss Violet Smith,Watson,2
+Archie Stamford,Watson,1
+Cyril,Miss Violet,1
+Cyril,Miss Violet Smith,1
+Cyril,Sherlock Holmes,1
+Cyril,kennedy,1
+Cyril Morton,Miss Violet,1
+Cyril Morton,Miss Violet Smith,1
+Cyril Morton,Sherlock Holmes,1
+Cyril Morton,kennedy,1
+Jack Woodley,Miss Violet Smith,1
+Jack Woodley,Ralph Smith,1
+Jack Woodley,roaring,1
+James Smith,Miss Violet Smith,1
+Miss Violet,farnham,1
+Miss Violet,kennedy,1
+Miss Violet Smith,kennedy,1
+Sherlock Holmes,Watson,1
+Sherlock Holmes,harden,1
+Sherlock Holmes,john,1
+harden,john,1

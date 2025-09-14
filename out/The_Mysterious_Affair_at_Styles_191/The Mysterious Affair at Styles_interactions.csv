@@ -1,0 +1,180 @@
+character1,character2,count
+Abir Agnes Prateek,Raghav,63
+Abir Agnes Prateek,Mr. Raghav Prateek,62
+Mr. Raghav Prateek,Raghav,62
+Monsieur Karisma,Monsieur Karisma Salman,46
+Irrfan St. Siddharth,Monsieur Karisma Salman,37
+Irrfan St. Siddharth,Siddharth Salman,36
+Monsieur Karisma Salman,Siddharth Salman,36
+Sonam,Sonam Mohit,33
+Dearest Jaya,Jaya Rohit,19
+Monsieur Rani,Niharika Rani,19
+Monsieur Ayush,Monsieur Karisma Salman,18
+Monsieur Ayush,Mr. Ayush Salman,17
+Monsieur Karisma Salman,Mr. Ayush Salman,17
+Jaya Rohit,Niharika Rani,13
+Monsieur Karisma,Niharika Rani,12
+Abir Agnes Prateek,Jaya Rohit,11
+Jaya Rohit,Monsieur Karisma,11
+Abir Agnes Prateek,Sonam Mohit,10
+Irrfan,Irrfan Court,9
+Monsieur Ayush,Monsieur Karisma,8
+Monsieur Ayush,Niharika Rani,8
+Abir Agnes Prateek,Irrfan St. Siddharth,7
+Abir Agnes Prateek,Monsieur Karisma,7
+Hercule Rani,Niharika Rani,7
+Monsieur Ayush,Sonam Mohit,7
+Niharika Rani,Sonam Charu,7
+Detective Inspector Varsha Chitrangada,Niharika Rani,6
+Irrfan St. Siddharth,Monsieur Karisma,6
+Sir Akshay,Sir Akshay Monali,6
+Abir Agnes Prateek,Dearest Jaya,5
+Abir Agnes Prateek,Niharika Rani,5
+Detective Inspector Varsha Chitrangada,Detective-inspector Chitrangada,5
+Detective Inspector Varsha Chitrangada,Superintendent Akshaye,5
+Dr. Karthik,Niharika Rani,5
+Jaya Rohit,Mr. Raghav Prateek,5
+Jaya Rohit,Raghav,5
+Mohit Kuldeep,Sonam Mohit,5
+Monsieur Karisma Salman,Sonam Mohit,5
+Niharika Rani,Sonam Mohit,5
+Abir Agnes Prateek,Coroner,4
+Abir Agnes Prateek,Sonam,4
+Dr. Karthik,Monsieur Karisma,4
+Madame,Niharika Rani,4
+Monsieur Karisma,Mr. Raghav Prateek,4
+Monsieur Karisma,Raghav,4
+Monsieur Karisma,Sonam Mohit,4
+Monsieur Karisma Salman,Niharika Rani,4
+Priyadarshan,Sonam Mohit,4
+Abir Agnes Prateek,Monsieur Karisma Salman,3
+Elizabeth Rajesh,Monsieur Karisma,3
+Irrfan St. Siddharth,Niharika Rani,3
+Irrfan St. Siddharth,Sonam Mohit,3
+Krish,Rajat,3
+Mon ami Shraddha,Monsieur Karisma,3
+Monsieur Ayush,Sonam,3
+Monsieur Karisma,Sonam Charu,3
+Monsieur Karisma Salman,Sonam,3
+Niharika Rani,Superintendent Akshaye,3
+Abir Agnes Prateek,Aunt Abir,2
+Abir Agnes Prateek,Irrfan,2
+Abir Agnes Prateek,Lady Ramesh,2
+Abir Agnes Prateek,Monsieur Ayush,2
+Abir Agnes Prateek,Sonam Charu,2
+Bandita,Krish,2
+Dearest Jaya,Irrfan,2
+Dearest Jaya,Irrfan Court,2
+Dearest Jaya,Mr. Raghav Prateek,2
+Dearest Jaya,Niharika Rani,2
+Dearest Jaya,Raghav,2
+Detective-inspector Chitrangada,Superintendent Akshaye,2
+Dr. Karthik,Irrfan,2
+Dr. Karthik,Monsieur Ayush,2
+Elizabeth Rajesh,Monsieur Karisma Salman,2
+Irrfan,Irrfan St. Siddharth,2
+Irrfan,Niharika Rani,2
+Irrfan St. Siddharth,Monsieur Ayush,2
+Irrfan St. Siddharth,Mr. Raghav Prateek,2
+Irrfan St. Siddharth,Raghav,2
+Jaya Rohit,Sonam Mohit,2
+Kajol,Lady Ramesh,2
+Krish,Monsieur Karisma,2
+Manju,Monsieur Karisma Salman,2
+Mon ami Shraddha,Monsieur Ayush,2
+Mon ami Shraddha,Monsieur Shraddha,2
+Monsieur Ayush,Mr. Raghav Prateek,2
+Monsieur Ayush,Raghav,2
+Monsieur Karisma,Mr. Ayush Salman,2
+Monsieur Karisma,Ruchika,2
+Mr. Raghav Prateek,Niharika Rani,2
+Niharika Rani,Raghav,2
+Niharika Rani,Sir Akshay,2
+Rajat,Rajat Earl,2
+Siddharth Salman,Sonam Mohit,2
+Abir Agnes Prateek,Dr. Karthik,1
+Abir Agnes Prateek,ER,1
+Abir Agnes Prateek,Monsieur Prateek,1
+Abir Agnes Prateek,Ruchika,1
+Abir Agnes Prateek,Siddharth Salman,1
+Abir Agnes Prateek,Superintendent Akshaye,1
+Abir Inglethorpe,Aunt Abir,1
+Albert Arvind,Coroner,1
+Albert Arvind,Irrfan St. Siddharth,1
+Albert Arvind,Pranav,1
+Aunt Abir,Dearest Jaya,1
+Aunt Abir,Farmer Rakul,1
+Aunt Abir,Jaya Rohit,1
+Aunt Abir,Monsieur Karisma,1
+Aunt Abir,Monsieur Karisma Salman,1
+Aunt Abir,Mr. Raghav Prateek,1
+Aunt Abir,Raghav,1
+Aunt Abir,Sonam Mohit,1
+Coroner,Jaya Rohit,1
+Coroner,Mr. Raghav Prateek,1
+Coroner,Niharika Rani,1
+Coroner,Raghav,1
+Coroner,Sonam Charu,1
+Dearest Jaya,Farmer Rakul,1
+Dearest Jaya,Monsieur Karisma,1
+Dearest Jaya,Sonam Mohit,1
+Detective Inspector Varsha Chitrangada,Irrfan,1
+Detective Inspector Varsha Chitrangada,Monsieur Karisma,1
+Detective Inspector Varsha Chitrangada,Ronit Chitrangada,1
+Dr. Karthik,Irrfan St. Siddharth,1
+Dr. Karthik,Little Gully,1
+Elizabeth Rajesh,Irrfan,1
+Elizabeth Rajesh,Lady Ramesh,1
+Elizabeth Rajesh,Ross,1
+Farmer Rakul,Irrfan St. Siddharth,1
+Farmer Rakul,Jaya Rohit,1
+Farmer Rakul,Monsieur Karisma,1
+Farmer Rakul,Monsieur Karisma Salman,1
+Farmer Rakul,Sonam Mohit,1
+Irrfan,Monsieur Karisma,1
+Irrfan,Mr. Raghav Prateek,1
+Irrfan,Nushrat Anirudh,1
+Irrfan,Raghav,1
+Irrfan,Rajat,1
+Irrfan,Rajat Earl,1
+Irrfan,Yami Harsh,1
+Irrfan Court,Irrfan St. Siddharth,1
+Irrfan St. Siddharth,Jaya Rohit,1
+Irrfan St. Siddharth,counsel,1
+Jaya Rohit,Mon ami Shraddha,1
+Jaya Rohit,Monsieur Karisma Salman,1
+Jaya Rohit,Monsieur Rani,1
+Jaya Rohit,Paul Vinay,1
+Krish,Niharika Rani,1
+Krish,Rajat Earl,1
+Krish,Sonam Charu,1
+Lady Ramesh,Mohit Kuldeep,1
+Lady Ramesh,Monsieur Ayush,1
+Lady Ramesh,Monsieur Karisma Salman,1
+Lady Ramesh,Niharika Rani,1
+Lady Ramesh,Ross,1
+Lady Ramesh,Sonam Mohit,1
+Little Gully,Santhosh,1
+Manju,Monsieur Ayush,1
+Manju,Mr. Ayush Salman,1
+Mohit Kuldeep,Mon ami Shraddha,1
+Mohit Kuldeep,Monsieur Karisma,1
+Mohit Kuldeep,Niharika Rani,1
+Monsieur Ayush,Monsieur Rani,1
+Monsieur Ayush,Siddharth Salman,1
+Monsieur Ayush,Sonam Charu,1
+Monsieur Karisma,Monsieur Rani,1
+Monsieur Karisma,Siddharth Salman,1
+Monsieur Karisma,Sir Akshay,1
+Monsieur Karisma,Sonam,1
+Monsieur Karisma Salman,counsel,1
+Monsieur Rani,Sonam Mohit,1
+Mr. Raghav Prateek,Ruchika,1
+Niharika Rani,Siddharth Salman,1
+Princess,Raghav,1
+Raghav,Raghav Ing,1
+Raghav,Ruchika,1
+Rajat,Yami Harsh,1
+Rajat Earl,Yami Harsh,1
+Siddharth Salman,counsel,1
+Sonam,Sonam Charu,1

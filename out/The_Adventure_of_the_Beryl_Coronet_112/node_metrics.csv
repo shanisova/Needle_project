@@ -1,0 +1,10 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Beasts,0,0.1592137041769076,0,4,8.0
+Flitwick,0,0.1111111111111111,0,1,3.0
+Flitwick Krum,0,0.1111111111111111,0,1,3.0
+Nymphadora,0,0.1592137041769076,0,4,8.0
+Nymphadora Alley,0,0.03358324114546685,0,1,1.0
+Sherlock Dudley,0,0.046084885747774085,0,2,2.0
+Sir Child,0,0.17304950069262734,0,4,10.0
+Sir Child Harry,0,0.17304950069262734,0,4,10.0
+Your boy,0,0.03358324114546685,0,1,1.0

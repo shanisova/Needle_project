@@ -1,0 +1,8 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Chandan,0,0.14285714285714285,0,1,1.0
+Miss Ruchika Ranjan,1,0.05492209118878193,0,3,3.0
+Mr. James Charu,0,0.12517945590846236,1,4,7.0
+Mr. Riddhi Ronak,0,0.2259776171194993,1,3,21.0
+Reema,0,0.14285714285714285,0,1,1.0
+Riddhi,0,0.2259776171194993,1,3,21.0
+Vicky Gaurav,0,0.08222893294947116,0,1,4.0

@@ -1,0 +1,43 @@
+character1,character2,count
+O Mullen,Young Mr. Streep,18
+Mr. Mullen Streep,O Mullen,17
+Mr. Mullen Streep,Young Mr. Streep,17
+Woodley Parsons,Young Mr. Streep,7
+O Mullen,Woodley Parsons,6
+Ledger,Woodley Parsons,5
+Mr. Mullen Streep,Woodley Parsons,4
+Young Mr. Streep,domino,3
+Kimmel,Young Mr. Streep,2
+Miss Ronan,Young Mr. Streep,2
+Miss Streep,Young Mr. Streep,2
+O Mullen,domino,2
+Parsons Streep,Woodley Parsons,2
+Parsons Streep,Young Mr. Streep,2
+Brown,Ledger,1
+Brown,Woodley Parsons,1
+Brown,white,1
+D'arcy Paley,Hall Thompson,1
+Drew,Humph,1
+Drew,Miss Ronan,1
+Drew,Miss Ronan Streep,1
+Drew,O Mullen,1
+Drew,Young Mr. Streep,1
+Drew,domino,1
+Gyllenhaal,Woodley Parsons,1
+Kimmel,Kimmel Streep,1
+Kimmel,O Mullen,1
+Kimmel Streep,Young Mr. Streep,1
+Ledger,Miss Ronan,1
+Ledger,Villain,1
+Ledger,Young Mr. Streep,1
+Ledger,white,1
+Miss Ronan,Miss Ronan Streep,1
+Miss Ronan Streep,Young Mr. Streep,1
+Miss Streep,domino,1
+Mr. Mullen Streep,domino,1
+Mr. Mullen Streep,white,1
+O Mullen,Villain,1
+O Mullen,white,1
+Woodley Parsons,domino,1
+Woodley Parsons,white,1
+Young Mr. Streep,white,1

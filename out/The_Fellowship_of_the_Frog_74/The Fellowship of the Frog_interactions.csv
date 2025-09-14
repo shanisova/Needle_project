@@ -1,0 +1,473 @@
+character1,character2,count
+Bill Philo Harry Clarence,Harry,100
+Bacchus,Mr. Bacchus Collettbanson,92
+Inspector Jones,On,76
+Miss Dick Collettbanson,Mr. Bacchus Collettbanson,69
+Harry,Inspector Jones,63
+Mr. Bacchus Collettbanson,Williams,53
+Mr. Bacchus Collettbanson,Williams Collettbanson,47
+Williams,Williams Collettbanson,47
+Meister,Meister Silenski,42
+Harry,On,41
+Mr. Bacchus Collettbanson,On,31
+Bill Philo Harry Clarence,Inspector Jones,26
+Dick,Mr. Bacchus Collettbanson,26
+On,Williams,26
+Dick,Miss Dick Collettbanson,22
+Inspector Jones,Mr. Belfin,21
+Inspector Jones,inspector,21
+Inspector Jones,Mr. Bacchus Collettbanson,20
+On,Philosopher Annatto,19
+Bones,Miss Bones Chick,17
+Inspector Jones,Seven,17
+On,Seven,15
+Harry,Mr. Bacchus Collettbanson,13
+Harry,Philosopher Annatto,13
+Dick,On,12
+Harry,Williams,12
+Gill,On,11
+Inspector Jones,Philosopher Annatto,11
+Bacchus,On,10
+Bill Philo Harry Clarence,Williams,10
+Bones,Meister,10
+Frog,On,10
+Inspector Jones,Mr. Terrace Velleco,9
+Inspector Jones,Williams,9
+Miss Dick Collettbanson,On,9
+On,new,9
+Philosopher Annatto,Williams,9
+Bones,Meister Silenski,8
+Bones,Williams,8
+Dick,Harry,8
+Harry,Mr. Wellingdale,8
+Inspector Jones,Jeller,8
+Inspector Jones,new,8
+London,On,8
+Meister,On,8
+Mr. Belfin,On,8
+Seven,Seven Carlo,8
+Bill Philo Harry Clarence,On,7
+Bill Philo Harry Clarence,Seven,7
+Gill,Inspector Jones,7
+Hagn Bacchus Ezra,inspector,7
+Inspector Jones,Mr. Wellingdale,7
+Bill Philo Harry Clarence,Mr. Bacchus Collettbanson,6
+Dad,On,6
+Gill,Harry,6
+Harry,Seven,6
+Inspector Jones,London,6
+Jeller,On,6
+Meister Silenski,On,6
+Mr. Bacchus Collettbanson,Philosopher Annatto,6
+Mr. Wellingdale,On,6
+On,Williams Collettbanson,6
+On,inspector,6
+Philosopher Annatto,Seven,6
+Bacchus,Inspector Jones,5
+Bill Philo Harry Clarence,Philosopher Annatto,5
+Bill Philo Harry Clarence,Whiskers Clarence,5
+Dick,Inspector Jones,5
+Dick,Philosopher Annatto,5
+Genter,On,5
+Harry,James,5
+Harry,Mr. Belfin,5
+Harry,Mr. Terrace Velleco,5
+Harry,Williams Collettbanson,5
+Harry,inspector,5
+Inspector Jones,Miss Dick Collettbanson,5
+Inspector Joshua,On,5
+Meister,Williams,5
+Mr. Bacchus Collettbanson,Mr. Terrace Velleco,5
+Mr. Belfin,Mr. Wellingdale,5
+Philosopher Annatto,Whitby,5
+Philosopher Annatto,Whitby Annatto,5
+Whitby,Whitby Annatto,5
+Bacchus,Dick,4
+Bacchus,new,4
+Bill Philo Harry Clarence,Mr. Belfin,4
+Bill Philo Harry Clarence,Mr. Terrace Velleco,4
+Bones,Mr. Bacchus Collettbanson,4
+Dad,Harry,4
+Harry,new,4
+Inspector Jones,Sergeant Jones,4
+Inspector Joshua,inspector,4
+James,On,4
+London,Philosopher Annatto,4
+Mantania,Williams,4
+Mr. Bacchus Collettbanson,Seven,4
+Mr. Terrace Velleco,On,4
+Mr. Wellingdale,Seven,4
+new,quinze,4
+Bacchus,Dad,3
+Bacchus,Hagn,3
+Bacchus,Harry,3
+Bacchus,Williams,3
+Bill Philo Harry Clarence,broad,3
+Bones,Ella,3
+Bones,Harry,3
+Bones,On,3
+Bones,Seven,3
+Brown,On,3
+Dad,Inspector Jones,3
+Dad,Mr. Bacchus Collettbanson,3
+Ella,Williams,3
+Fayre Collettbanson,Mr. Bacchus Collettbanson,3
+Frog,Inspector Jones,3
+Great The,London,3
+Harry,Jeller,3
+Harry,Miss Dick Collettbanson,3
+Inspector Jones,Seven Carlo,3
+Inspector Jones,worth,3
+Inspector Joshua,Seven,3
+James,James Batchus,3
+James,Monsieur Batchus,3
+James Batchus,Monsieur Batchus,3
+Mantania,Philosopher Annatto,3
+Meister,Mr. Bacchus Collettbanson,3
+Meister Silenski,Miss Bones Chick,3
+Meister Silenski,Williams,3
+Miss Dick Collettbanson,Mr. Terrace Velleco,3
+Miss Dick Collettbanson,Seven,3
+Mr. Bacchus Collettbanson,inspector,3
+Mr. Bacchus Collettbanson,new,3
+Mr. Terrace Velleco,Seven,3
+Mr. Wellingdale,inspector,3
+On,l,3
+Williams,inspector,3
+Williams,new,3
+BALDER,On,2
+Bacchus,Bill Philo Harry Clarence,2
+Bacchus,Hagn Bacchus Ezra,2
+Bacchus,inspector,2
+Bassano Charles,inspector,2
+Bill Philo,Inspector Jones,2
+Bill Philo Harry Clarence,Dick,2
+Bill Philo Harry Clarence,Gill,2
+Bill Philo Harry Clarence,James,2
+Bill Philo Harry Clarence,Jeller,2
+Bill Philo Harry Clarence,Meister Silenski,2
+Bill Philo Harry Clarence,Miss Dick Collettbanson,2
+Bill Philo Harry Clarence,Mr. Wellingdale,2
+Bill Philo Harry Clarence,Williams Collettbanson,2
+Bill Philo Harry Clarence,wood,2
+Bones,Dick,2
+Bones,Gill,2
+Bones,Mr. Belfin,2
+Bones,Williams Collettbanson,2
+Dick,Meister,2
+Dick,Meister Silenski,2
+Dick,Williams,2
+Ella,Mr. Terrace Velleco,2
+Ella,On,2
+Fielding,London,2
+Fielding,Philosopher Annatto,2
+Frog,Frogs,2
+Gill,Mr. Bacchus Collettbanson,2
+Gill,Mr. Terrace Velleco,2
+Gill,Seven,2
+Gill,Williams,2
+Great The,On,2
+Hagn,Hagn Bacchus Ezra,2
+Hagn Bacchus Ezra,On,2
+Harry,Inspector Joshua,2
+Harry,London,2
+Harry,Mr. Carter,2
+Harry,Sergeant Jones,2
+Harry,peace,2
+Heron,Inspector Jones,2
+Inspector Jones,Inspector Joshua,2
+Inspector Jones,James,2
+Inspector Jones,Miss Bones Chick,2
+Inspector Jones,Williams Collettbanson,2
+Inspector Jones,broad,2
+Inspector Jones,l,2
+Inspector Joshua,Joshua Velleco,2
+Inspector Joshua,Mr. Terrace Velleco,2
+Inspector Joshua,l,2
+James,Mr. Wellingdale,2
+James,Seven,2
+Joshua Velleco,Mr. Terrace Velleco,2
+London,Mr. Terrace Velleco,2
+Mantania,Mr. Bacchus Collettbanson,2
+Meister,Miss Bones Chick,2
+Meister,Miss Dick Collettbanson,2
+Meister,Seven,2
+Meister Silenski,Seven,2
+Miss Bones Chick,Mr. Terrace Velleco,2
+Miss Dick Collettbanson,Philosopher Annatto,2
+Miss Dick Collettbanson,Williams,2
+Mr. Belfin,Philosopher Annatto,2
+Mr. Belfin,Seven,2
+Mr. Terrace Velleco,Philosopher Annatto,2
+Mr. Terrace Velleco,broad,2
+Mr. Wellingdale,Seven Carlo,2
+On,Seven Carlo,2
+On,Sherlock,2
+On,Thomas,2
+On,quinze,2
+On,worth,2
+Philosopher,Philosopher Annatto,2
+Philosopher Annatto,Williams Collettbanson,2
+Raymond,Seven,2
+Sherlock,Sherlock Holmes,2
+Williams,daddy,2
+Williams,peace,2
+Williams,wood,2
+Angus,Bones,1
+Angus,Harry,1
+Angus,On,1
+Angus,Sherlock,1
+Angus,banson,1
+BALDER,Bill Philo,1
+BALDER,Philosopher Annatto,1
+Bacchus,Frog,1
+Bacchus,Lester,1
+Bacchus,London,1
+Bacchus,Mr. Terrace Velleco,1
+Bacchus,Philosopher Annatto,1
+Bacchus,Sergeant Jones,1
+Bacchus,Smith,1
+Bacchus,Whiskers Clarence,1
+Bacchus,mud,1
+Bacchus,peace,1
+Bacchus,wood,1
+Bill Philo,Bill Philo Harry Clarence,1
+Bill Philo,Fielding,1
+Bill Philo,Genter,1
+Bill Philo,Harry,1
+Bill Philo,London,1
+Bill Philo,Mr. Bacchus Collettbanson,1
+Bill Philo,Philosopher Annatto,1
+Bill Philo,Seven,1
+Bill Philo,Stationmaster Billy,1
+Bill Philo Harry Clarence,Bones,1
+Bill Philo Harry Clarence,Frog,1
+Bill Philo Harry Clarence,Inspector Joshua,1
+Bill Philo Harry Clarence,James Batchus,1
+Bill Philo Harry Clarence,London,1
+Bill Philo Harry Clarence,Miss Bones Chick,1
+Bill Philo Harry Clarence,Monsieur Batchus,1
+Bill Philo Harry Clarence,l,1
+Bonaparte,Inspector Jones,1
+Bones,Fayre Collettbanson,1
+Bones,Heine,1
+Bones,Inspector Jones,1
+Bones,James,1
+Bones,London,1
+Bones,Mantania,1
+Bones,Monsieur Batchus,1
+Bones,Mr. Terrace Velleco,1
+Bones,Mr. Wellingdale,1
+Bones,Richard,1
+Bones,Sherlock Holmes,1
+Bones,banson,1
+Bones,judgment,1
+Bones,peace,1
+Brown,Hagn,1
+Brown,Harry,1
+Brown,Inspector Jones,1
+Brown,Mr. Bacchus Collettbanson,1
+Cockney,Johnson,1
+Dad,Inspector Joshua,1
+Dad,James,1
+Dad,London,1
+Dad,Mr. Belfin,1
+Dad,Seven,1
+Dad,Whitby,1
+Dad,Williams,1
+Dad,inspector,1
+Dick,Hagn,1
+Dick,Miss Bones Chick,1
+Dick,Mr. Terrace Velleco,1
+Dick,Seven,1
+Dick,mud,1
+Ella,Ella Bennett,1
+Ella,Harry,1
+Ella,Inspector Jones,1
+Ella,Meister,1
+Ella,Meister Silenski,1
+Ella,Mr. Wellingdale,1
+Ella,Raymond,1
+Ella Bennett,On,1
+Fayre Collettbanson,Mantania,1
+Fayre Collettbanson,Miss Bones Chick,1
+Frog,Harry,1
+Frog,Inspector Joshua,1
+Frog,James,1
+Frog,Jeller,1
+Frog,Joshua Velleco,1
+Frog,Lew,1
+Frog,Mr. Bacchus Collettbanson,1
+Frog,Mr. Terrace Velleco,1
+Frog,Pheeny Moore,1
+Frog,Richard,1
+Frog,j,1
+Frog,wood,1
+Frogs,Inspector Jones,1
+Frogs,Inspector Joshua,1
+Frogs,James,1
+Frogs,Joshua Velleco,1
+Frogs,Mr. Terrace Velleco,1
+Frogs,maitlands,1
+Genter,Gill,1
+Genter,Harry,1
+Genter,Inspector Jones,1
+Genter,Philosopher Annatto,1
+Genter,Seven,1
+Gill,James,1
+Gill,Mr. Belfin,1
+Gill,Mr. Wellingdale,1
+Gill,Raymond,1
+Gill,peace,1
+Great The,Inspector Jones,1
+Great The,Jeller,1
+Great The,Mr. Terrace Velleco,1
+Great The,Philosopher Annatto,1
+Great The,matilda,1
+Great The,wood,1
+Hagn,Inspector Jones,1
+Hagn,James,1
+Hagn,Lester,1
+Hagn,On,1
+Hagn,Smith,1
+Hagn,Williams,1
+Hagn,j,1
+Hagn,new,1
+Hagn,wood,1
+Hagn Bacchus Ezra,Seven,1
+Hagn Bacchus Ezra,worth,1
+Harry,James Batchus,1
+Harry,Miss Bones Chick,1
+Harry,Monsieur Batchus,1
+Harry,Mr. Saul,1
+Harry,Seven Carlo,1
+Harry,Sherlock,1
+Harry,l,1
+Harry,wood,1
+Heine,Richard,1
+Heine,judgment,1
+Heine,peace,1
+Henry Morris,Williams,1
+Ike,Inspector Jones,1
+Inspector Jones,Lester,1
+Inspector Jones,Mac,1
+Inspector Jones,Meister,1
+Inspector Jones,Meister Silenski,1
+Inspector Jones,Monsieur Batchus,1
+Inspector Jones,Mr. Saul,1
+Inspector Jones,Philosopher,1
+Inspector Jones,Wal,1
+Inspector Jones,Whitby,1
+Inspector Jones,Whitby Annatto,1
+Inspector Jones,judgment,1
+Inspector Jones,wood,1
+Inspector Joshua,James,1
+Inspector Joshua,London,1
+Inspector Joshua,Mr. Wellingdale,1
+James,Joshua Velleco,1
+James,Miss Bones Chick,1
+James,Mr. Belfin,1
+James,Mr. Terrace Velleco,1
+James,Raymond,1
+James,Williams,1
+James,peace,1
+James,wood,1
+James Batchus,On,1
+Jeller,London,1
+Jeller,Mr. Terrace Velleco,1
+Jeller,inspector,1
+Kramer Ward,Lyme the Hallwell,1
+Kramer Ward,Maclean Martin,1
+Kramer Ward,Mathusalem Jim,1
+Kramer Ward,Stationmaster Billy,1
+Lester,Smith,1
+Lester,new,1
+Lew,Pheeny Moore,1
+Lew,Richard,1
+Lew,j,1
+Litnov Phenan,quod,1
+Lola,Williams,1
+London,Mantania,1
+London,Mr. Bacchus Collettbanson,1
+London,Mr. Belfin,1
+London,Williams,1
+London,bron,1
+London,inspector,1
+London,mud,1
+Lyme the Hallwell,Maclean Martin,1
+Lyme the Hallwell,Mathusalem Jim,1
+Lyme the Hallwell,Stationmaster Billy,1
+Maclean Martin,Mathusalem Jim,1
+Maclean Martin,Stationmaster Billy,1
+Mantania,Miss Bones Chick,1
+Mantania,On,1
+Mantania,Williams Collettbanson,1
+Mathusalem Jim,Stationmaster Billy,1
+Meister,Monsieur Batchus,1
+Meister,Mr. Belfin,1
+Meister,Mr. Wellingdale,1
+Meister,Socrates,1
+Meister,Williams Collettbanson,1
+Meister Silenski,Miss Dick Collettbanson,1
+Meister Silenski,Mr. Bacchus Collettbanson,1
+Meister Silenski,Mr. Belfin,1
+Meister Silenski,Mr. Wellingdale,1
+Meister Silenski,Socrates,1
+Miss Bones Chick,Monsieur Batchus,1
+Miss Bones Chick,Mr. Bacchus Collettbanson,1
+Miss Bones Chick,Mr. Belfin,1
+Miss Bones Chick,On,1
+Miss Bones Chick,Williams,1
+Miss Dick Collettbanson,quod,1
+Monsieur Batchus,On,1
+Monsieur Batchus,Williams,1
+Mr. Bacchus Collettbanson,Sergeant Jones,1
+Mr. Bacchus Collettbanson,Whiskers Clarence,1
+Mr. Bacchus Collettbanson,mud,1
+Mr. Bacchus Collettbanson,peace,1
+Mr. Bacchus Collettbanson,quod,1
+Mr. Bacchus Collettbanson,wood,1
+Mr. Belfin,inspector,1
+Mr. Belfin,new,1
+Mr. Belfin,worth,1
+Mr. Ptolemy,Mr. Terrace Velleco,1
+Mr. Saul,Mr. Terrace Velleco,1
+Mr. Terrace Velleco,Williams,1
+Mr. Terrace Velleco,inspector,1
+Mr. Wellingdale,Raymond,1
+Mr. Wellingdale,new,1
+On,Philosopher,1
+On,Raymond,1
+On,Sherlock Holmes,1
+On,Whitby,1
+On,broad,1
+On,bron,1
+On,elgar,1
+On,god,1
+On,mud,1
+On,peace,1
+On,wood,1
+Pheeny Moore,Richard,1
+Pheeny Moore,j,1
+Philosopher Annatto,broad,1
+Philosopher Annatto,mud,1
+Philosopher Annatto,new,1
+Richard,j,1
+Richard,judgment,1
+Richard,peace,1
+Rooney,Williams,1
+Sergeant Jones,new,1
+Seven,Williams,1
+Seven,god,1
+Seven,l,1
+Seven,new,1
+Seven,worth,1
+Seven Carlo,l,1
+Smith,new,1
+Williams,broad,1
+broad,inspector,1
+inspector,selinski,1
+judgment,peace,1
+mud,new,1
+new,peace,1
+new,wood,1

@@ -1,0 +1,213 @@
+character1,character2,count
+M. Jack,M. Paul Renauld,139
+M. Hercule Poirot,a,131
+M. Jack,M. Jack Renauld,112
+M. Jack Renauld,M. Paul Renauld,112
+M. Paul Renauld,a,87
+M. Giraud,a,49
+Mademoiselle Marthe,Mademoiselle Marthe Daubreuil,38
+M. Jack,a,25
+Mademoiselle Bella,Mademoiselle Bella Duveen,25
+Mademoiselle Marthe Daubreuil,a,24
+M. Giraud,M. Hercule Poirot,21
+M. Paul Renauld,Mademoiselle Marthe Daubreuil,20
+Monsieur Beroldy,a,18
+Mademoiselle,Mademoiselle Marthe,17
+Monsieur,a,17
+M. Paul Renauld,Mademoiselle Marthe,16
+Mademoiselle Marthe,a,15
+ayres,buenos,15
+M. Jack Renauld,a,14
+Hastings,a,13
+Mademoiselle,Mademoiselle Marthe Daubreuil,13
+M. Jack,Mademoiselle Bella,12
+Gabriel Stonor,a,11
+M. Jack,Mademoiselle Marthe,11
+Mademoiselle Bella,a,11
+M. Bex,a,10
+Monsieur Hautet,a,10
+Santiago,a,10
+M. Paul Renauld,Mademoiselle Bella,9
+Georges Conneau,a,8
+Mademoiselle,a,8
+Mademoiselle Bella Duveen,a,8
+Monsieur,Monsieur Beroldy,8
+Georges Conneau,M. Paul Renauld,7
+M. Giraud,M. Paul Renauld,7
+M. Hercule Poirot,M. Jack,7
+M. Hercule Poirot,M. Paul Renauld,7
+M. Hercule Poirot,Papa Poirot,7
+M. Jack Renauld,Mademoiselle Marthe,7
+Gabriel Stonor,M. Jack,6
+M. Giraud,M. Jack,6
+M. Jack,Mademoiselle Bella Duveen,6
+Mademoiselle Bella,Mademoiselle Marthe Daubreuil,6
+Masters,a,6
+a,marguerite,6
+Jeanne,Monsieur Beroldy,5
+M. Bex,M. Hercule Poirot,5
+M. Hercule Poirot,M. Jack Renauld,5
+M. Hercule Poirot,Mademoiselle,5
+M. Hercule Poirot,Mademoiselle Marthe,5
+M. Jack,Mademoiselle Marthe Daubreuil,5
+M. Jack Renauld,Mademoiselle Bella,5
+M. Paul Renauld,Mademoiselle,5
+Mademoiselle Bella,Mademoiselle Marthe,5
+Mademoiselle Bella Duveen,Mademoiselle Marthe,5
+Mademoiselle Bella Duveen,Mademoiselle Marthe Daubreuil,5
+a,ayres,5
+a,buenos,5
+Gabriel Stonor,Mademoiselle Bella,4
+Gabriel Stonor,Mademoiselle Bella Duveen,4
+Hastings,Mademoiselle,4
+Jeanne,Jeanne Beroldy,4
+Jeanne Beroldy,Monsieur Beroldy,4
+Joseph Aarons,a,4
+M. Hercule Poirot,Monsieur,4
+M. Jack,Mademoiselle,4
+M. Jack,ayres,4
+M. Jack,buenos,4
+M. Jack Renauld,Mademoiselle,4
+M. Paul Renauld,Mademoiselle Bella Duveen,4
+M. Paul Renauld,ayres,4
+M. Paul Renauld,buenos,4
+Mademoiselle Cinderella,a,4
+Gabriel Stonor,M. Paul Renauld,3
+Hastings,M. Paul Renauld,3
+Hastings,Mademoiselle Marthe,3
+Japp,a,3
+Jeanne,a,3
+M. Giraud,M. Jack Renauld,3
+M. Jack Renauld,Mademoiselle Marthe Daubreuil,3
+M. Paul Renauld,Masters,3
+M. Paul Renauld,Paul,3
+Mademoiselle,Mademoiselle Bella,3
+Mademoiselle Marthe Daubreuil,Monsieur,3
+Mademoiselle Marthe Daubreuil,marguerite,3
+Santiago,ayres,3
+Santiago,buenos,3
+a,beroldys,3
+a,god,3
+a,lyons,3
+Auguste,M. Hercule Poirot,2
+Dulcie Duveen,Mademoiselle Bella Duveen,2
+Dulcie Duveen,Mademoiselle Dulcie,2
+Gabriel Stonor,M. Hercule Poirot,2
+Gabriel Stonor,Masters,2
+Georges Conneau,M. Jack,2
+Georges Conneau,M. Jack Renauld,2
+Georges Conneau,Mademoiselle Marthe Daubreuil,2
+Georges Conneau,Monsieur Beroldy,2
+Georges Conneau,god,2
+Hastings,M. Hercule Poirot,2
+Hastings,M. Jack,2
+Hastings,M. Jack Renauld,2
+Jeanne Beroldy,a,2
+Joseph Aarons,Mademoiselle Bella,2
+Joseph Aarons,Mademoiselle Bella Duveen,2
+Laverguier,M. Hercule Poirot,2
+M. Giraud,Monsieur Beroldy,2
+M. Hercule Poirot,Monsieur Beroldy,2
+M. Jack,Masters,2
+M. Jack Renauld,Mademoiselle Bella Duveen,2
+M. Jack Renauld,ayres,2
+M. Jack Renauld,buenos,2
+M. Paul Renauld,Monsieur,2
+M. Paul Renauld,Santiago,2
+M. Paul Renauld,eh,2
+M. Paul Renauld,marguerite,2
+Mademoiselle,Mademoiselle Cinderella,2
+Mademoiselle,Mademoiselle Dulcie,2
+Mademoiselle Bella Duveen,Mademoiselle Dulcie,2
+Mademoiselle Marthe Daubreuil,Monsieur Beroldy,2
+Masters,ayres,2
+Masters,buenos,2
+Monsieur Beroldy,lyons,2
+a,eh,2
+a,traveller,2
+Agatha Christie,a,1
+Auguste,M. Giraud,1
+Auguste,M. Jack,1
+Auguste,M. Jack Renauld,1
+Auguste,M. Paul Renauld,1
+Auguste,Mademoiselle Marthe Daubreuil,1
+Auguste,Monsieur,1
+Bel,M. Hercule Poirot,1
+Bel,Mademoiselle Dulcie,1
+Cleopatra,helen,1
+Cleopatra,mary,1
+Denise,M. Hercule Poirot,1
+Denise,a,1
+Denise,oulard,1
+Denise,sisters,1
+Dulcie Duveen,Mademoiselle Cinderella,1
+Gabriel Stonor,M. Giraud,1
+Gabriel Stonor,M. Jack Renauld,1
+Gabriel Stonor,Monsieur Beroldy,1
+Georges Conneau,M. Hercule Poirot,1
+Georges Conneau,Mademoiselle Marthe,1
+Georges Conneau,Paul,1
+Georges Conneau,beroldys,1
+Hastings,Japp,1
+Hastings,Mademoiselle Dulcie,1
+Hastings,Mademoiselle Marthe Daubreuil,1
+Hastings,Santiago,1
+Hastings,arthur,1
+Hastings,eh,1
+Jeanne,lyons,1
+Jeanne Beroldy,lyons,1
+Laverguier,a,1
+M. Bex,M. Giraud,1
+M. Bex,Mademoiselle Marthe Daubreuil,1
+M. Bex,Marchaud,1
+M. Giraud,Mademoiselle Bella,1
+M. Giraud,Mademoiselle Bella Duveen,1
+M. Giraud,Monsieur,1
+M. Giraud,Monsieur Hautet,1
+M. Hercule Poirot,Mademoiselle Bella,1
+M. Hercule Poirot,Mademoiselle Bella Duveen,1
+M. Hercule Poirot,Mademoiselle Cinderella,1
+M. Hercule Poirot,Mademoiselle Dulcie,1
+M. Hercule Poirot,Mademoiselle Marthe Daubreuil,1
+M. Hercule Poirot,Marchaud,1
+M. Hercule Poirot,Miss Robinson,1
+M. Hercule Poirot,jove,1
+M. Hercule Poirot,marguerite,1
+M. Jack,Monsieur,1
+M. Jack,Monsieur Beroldy,1
+M. Jack,Papa Renauld,1
+M. Jack,Santiago,1
+M. Jack,marguerite,1
+M. Jack,traveller,1
+M. Jack Renauld,Monsieur Beroldy,1
+M. Jack Renauld,Santiago,1
+M. Jack Renauld,marguerite,1
+M. Jack Renauld,traveller,1
+M. Paul Renauld,Monsieur Beroldy,1
+M. Paul Renauld,Monsieur Hautet,1
+M. Paul Renauld,Papa Renauld,1
+M. Paul Renauld,gallic,1
+M. Paul Renauld,traveller,1
+Mademoiselle,Mademoiselle Bella Duveen,1
+Mademoiselle,Mademoiselle Dabreuil,1
+Mademoiselle,eh,1
+Mademoiselle Bella,Papa Renauld,1
+Mademoiselle Bella,traveller,1
+Mademoiselle Bella Duveen,Mademoiselle Cinderella,1
+Mademoiselle Cinderella,Mademoiselle Dulcie,1
+Mademoiselle Cinderella,Mademoiselle Marthe Daubreuil,1
+Mademoiselle Dulcie,a,1
+Mademoiselle Marthe,Monsieur Beroldy,1
+Mademoiselle Marthe,eh,1
+Marchaud,Monsieur Hautet,1
+Marchaud,a,1
+Monsieur,Monsieur Hautet,1
+Monsieur,ayres,1
+Monsieur,buenos,1
+Monsieur,lyons,1
+Renaulds,a,1
+a,greuze,1
+a,trapp,1
+a,victoria,1
+helen,mary,1
+oulard,sisters,1

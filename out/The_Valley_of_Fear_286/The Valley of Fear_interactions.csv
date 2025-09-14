@@ -1,0 +1,295 @@
+character1,character2,count
+i,man,72
+Sherlock Holmes,i,26
+Cecil,Cecil James Barker,19
+Inspector MacDonald,inspector,17
+Dr. Watson,i,16
+Cecil James Barker,i,15
+Eminent Bodymaster,i,15
+Ettie,i,15
+Ted,Teddy Baldwin,14
+Jack,i,13
+John Douglas,man,12
+Birlstone,i,11
+Brother Morris,i,11
+Ted,Ted Baldwin,11
+Ted Baldwin,Teddy Baldwin,11
+man,old,10
+Birlstone,John Douglas,9
+John Douglas,i,9
+Birdy Edwards,i,8
+Cecil James Barker,John Douglas,8
+Professor Moriarty,i,8
+i,vermissa,8
+Ames,i,7
+Eminent Bodymaster,man,7
+Inspector MacDonald,i,7
+Pinkerton,man,7
+Teddy Baldwin,i,7
+god,i,7
+i,old,7
+Mr. White Mason,i,6
+Sherlock Holmes,inspector,6
+Birlstone,man,5
+Boss,i,5
+John Douglas,Sherlock Holmes,5
+Miss Ettie Shafter,old,5
+Pinkerton,i,5
+Teddy Marvin,i,5
+i,law,5
+Birdy Edwards,Pinkerton,4
+Birdy Edwards,man,4
+Dr. Watson,man,4
+Ettie,Miss Ettie Shafter,4
+Ettie,man,4
+FRED PORLOCK,man,4
+Inspector MacDonald,Mr. White Mason,4
+Inspector MacDonald,Sherlock Holmes,4
+Inspector MacDonald,man,4
+Mike Scanlan,i,4
+Mr. White Mason,man,4
+Scowrers,i,4
+Scowrers,man,4
+man,vermissa,4
+Andrews,Lawler,3
+Boss,man,3
+Brother Morris,Eminent Bodymaster,3
+Carter,treasurer,3
+Cecil,i,3
+Cecil James Barker,man,3
+Inspector Mac,i,3
+James Stanger,i,3
+James Stanger,old,3
+Mike Scanlan,vermissa,3
+Miss Ettie Shafter,i,3
+Mr. White Mason,Sherlock Holmes,3
+Sherlock Holmes,man,3
+Ted,i,3
+i,inspector,3
+man,treasurer,3
+Ames,Cecil James Barker,2
+Ames,John Douglas,2
+Birlstone,Sherlock Holmes,2
+Blaker,foreman,2
+Boss,Jack,2
+Boss,vermissa,2
+Brother Morris,Lynch,2
+Brother Morris,old,2
+Carter,man,2
+Cecil James Barker,Sherlock Holmes,2
+Dunn,i,2
+Eminent Bodymaster,Jack,2
+Eminent Bodymaster,Teddy Baldwin,2
+Eminent Bodymaster,vermissa,2
+Ettie,god,2
+Evans,Evans Pott,2
+Evans,vermissa,2
+FRED PORLOCK,i,2
+FRED PORLOCK,old,2
+Hargrave,man,2
+Harraway,Teddy Baldwin,2
+Inspector Mac,Sherlock Holmes,2
+Jack,John Douglas,2
+Jack,god,2
+Jack,knox,2
+James Murdoch,staphouse,2
+James Stanger,man,2
+Lynch,Scowrer,2
+Manders,Reilly,2
+Mike Scanlan,man,2
+Miss Ettie Shafter,man,2
+Miss Ettie Shafter,vermissa,2
+Mr. White Mason,inspector,2
+Professor Moriarty,hunt,2
+Scowrers,Sherlock Holmes,2
+Scowrers,law,2
+Scowrers,vermissa,2
+Ted Baldwin,i,2
+Teddy Baldwin,Tiger Cormac,2
+Teddy Baldwin,man,2
+Teddy Marvin,man,2
+Teddy Marvin,old,2
+Tiger Cormac,Willabys,2
+bird,charlie,2
+bird,simon,2
+bird,williams,2
+charlie,simon,2
+charlie,williams,2
+god,man,2
+greuze,jean,2
+herman,strauss,2
+hunt,i,2
+i,knox,2
+i,treasurer,2
+simon,williams,2
+Ames,Cecil,1
+Ames,old,1
+Andrews,Evans,1
+Andrews,Evans Pott,1
+Andrews,Mike Scanlan,1
+Andrews,boarder,1
+Arthur Willaby,Carter,1
+Arthur Willaby,Harraway,1
+Arthur Willaby,Teddy Baldwin,1
+Arthur Willaby,Tiger Cormac,1
+Arthur Willaby,treasurer,1
+Billy,Billy James,1
+Billy,Inspector MacDonald,1
+Billy,Sherlock Holmes,1
+Billy,i,1
+Billy,inspector,1
+Birdy Edwards,Birlstone,1
+Birdy Edwards,Eminent Bodymaster,1
+Birdy Edwards,Ettie,1
+Birdy Edwards,Ettie Edwards,1
+Birdy Edwards,Jack,1
+Birdy Edwards,Jack Douglas,1
+Birdy Edwards,John Douglas,1
+Birdy Edwards,Scowrers,1
+Birdy Edwards,Sherlock Holmes,1
+Birdy Edwards,doyle,1
+Birdy Edwards,vermissa,1
+Birlstone,Cecil,1
+Birlstone,Cecil James Barker,1
+Birlstone,Eminent Bodymaster,1
+Birlstone,Scowrers,1
+Birlstone,Steve Wilson,1
+Birlstone,capus,1
+Birlstone,doyle,1
+Birlstone,old,1
+Birlstone,vermissa,1
+Boss,Evans,1
+Boss,Evans Pott,1
+Boss,Scowrers,1
+Boss,Teddy Baldwin,1
+Boss,Tiger Cormac,1
+Brother Morris,man,1
+Carter,Harraway,1
+Carter,Teddy Baldwin,1
+Carter,Tiger Cormac,1
+Cecil,John Douglas,1
+Cecil,hales,1
+Cecil James Barker,Dr. Watson,1
+Cecil James Barker,hales,1
+Cecil James Barker,inspector,1
+Chester Wilcox,i,1
+Crabbe,man,1
+Crabbe,old,1
+Dr. Watson,FRED PORLOCK,1
+Dr. Watson,Sherlock Holmes,1
+Dunn,Menzies,1
+Egan,Lander,1
+Eminent Bodymaster,Harraway,1
+Eminent Bodymaster,Scowrers,1
+Eminent Bodymaster,Sherlock Holmes,1
+Eminent Bodymaster,Ted,1
+Eminent Bodymaster,Ted Baldwin,1
+Eminent Bodymaster,deacon,1
+Eminent Bodymaster,doyle,1
+Eminent Bodymaster,god,1
+Ettie,Ettie Edwards,1
+Ettie,Mike Scanlan,1
+Ettie,boarder,1
+Ettie,old,1
+Evans,Lawler,1
+Evans,Mike Scanlan,1
+Evans,boarder,1
+Evans,hunt,1
+Evans Pott,Lawler,1
+Evans Pott,Mike Scanlan,1
+Evans Pott,boarder,1
+Evans Pott,vermissa,1
+FRED PORLOCK,Fred,1
+Fred,i,1
+Gower,Mansel,1
+Gower,Mike Scanlan,1
+Gower,Willabys,1
+Harraway,Tiger Cormac,1
+Harraway,i,1
+Harraway,man,1
+Harraway,old,1
+Harraway,treasurer,1
+Higgins,treasurer,1
+IVY DOUGLAS,John Douglas,1
+Inspector Mac,Mike Scanlan,1
+Inspector Mac,charles,1
+Inspector Mac,inspector,1
+Jack,Jack Douglas,1
+Jack,vermissa,1
+Jack Douglas,John Douglas,1
+Jim Carnaway,i,1
+John Douglas,inspector,1
+Lawler,Mike Scanlan,1
+Lawler,boarder,1
+Lawler,i,1
+Lawler,man,1
+Lawler,old,1
+Manders,hunt,1
+Mansel,Mike Scanlan,1
+Mansel,Willabys,1
+Menzies,i,1
+Mike Scanlan,Miss Ettie Shafter,1
+Mike Scanlan,Scowrer,1
+Mike Scanlan,Willabys,1
+Mike Scanlan,boarder,1
+Pinkerton,Scowrers,1
+Pinkerton,old,1
+Professor Moriarty,Sherlock Holmes,1
+Professor Moriarty,law,1
+Reilly,hunt,1
+Reilly,i,1
+Scowrer,i,1
+Scowrer,man,1
+Scowrers,doyle,1
+Sherlock Holmes,charles,1
+Sherlock Holmes,doyle,1
+Sherlock Holmes,greuze,1
+Sherlock Holmes,jean,1
+Sherlock Holmes,vermissa,1
+Steve Wilson,bartholomew,1
+Steve Wilson,i,1
+Ted,Willabys,1
+Ted Baldwin,Willabys,1
+Teddy Baldwin,Willabys,1
+Teddy Baldwin,boarder,1
+Teddy Baldwin,treasurer,1
+Tiger Cormac,man,1
+Tiger Cormac,treasurer,1
+Windle,man,1
+andrew,rae,1
+atwood,deher,1
+atwood,manson,1
+atwood,shuman,1
+atwood,van,1
+boarder,i,1
+boarder,old,1
+chandos,charles,1
+charles,i,1
+christ,i,1
+deher,manson,1
+deher,shuman,1
+deher,van,1
+doyle,i,1
+doyle,man,1
+doyle,vermissa,1
+greuze,i,1
+hales,man,1
+hales,vermissa,1
+hales,william,1
+hunt,vermissa,1
+i,napoleon,1
+i,sam,1
+i,uncle,1
+i,vell,1
+law,moran,1
+law,sebastian,1
+man,murphy,1
+man,william,1
+manson,shuman,1
+manson,van,1
+moran,sebastian,1
+old,van,1
+old,vermissa,1
+sam,uncle,1
+shuman,van,1
+vermissa,william,1

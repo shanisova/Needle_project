@@ -1,0 +1,739 @@
+character1,character2,count
+him,of,110
+Peter,of,109
+d,of,98
+Detective Inspector Parker,of,80
+Monsieur Cathcart,of,75
+Denver,of,67
+Lady Mary,of,64
+Mrs. Pettigrew-Robinson,Robinson,51
+Lady Mary Wimsey,of,50
+Mr. Bunter,of,43
+Denis,Monsieur Cathcart,31
+Denis,Denis Cathcart,26
+Denis Cathcart,Monsieur Cathcart,26
+Monsieur Cathcart,him,25
+Mr. Bunter,Peter,25
+high,steward,24
+Sir Impey,of,23
+blood,of,22
+Denis,of,21
+Riddlesdale,of,21
+Lady Mary,Lady Mary Wimsey,20
+Peter,him,20
+Sir Impey,Sir Impey Biggs,20
+high,of,20
+Detective Inspector Parker,him,19
+Mester Grimethorpe,of,17
+god,of,17
+Gerald,of,16
+Lady Mary,Peter,16
+cat,of,16
+d,him,15
+Denis Cathcart,of,14
+Denver,him,14
+Detective Inspector Parker,Lady Mary,14
+Lady Mary Wimsey,him,14
+Counsel,of,13
+Lady Mary Wimsey,Peter,13
+bar,of,13
+of,steward,13
+Detective Inspector Parker,Peter,12
+Lady Mary,Monsieur Cathcart,12
+Mr. Bunter,him,12
+Sir Impey Biggs,of,12
+notes,of,12
+Denver,Monsieur Cathcart,11
+Detective Inspector Parker,Lady Mary Wimsey,11
+Mother,of,11
+Robinson,of,11
+Denis,him,10
+George Goyles,of,10
+Gerald,him,10
+Sir Wigmore,of,10
+inquest,of,10
+of,truth,10
+Detective Inspector Parker,notes,9
+Jerry,of,9
+Lady Mary,him,9
+Lady Mary Wimsey,Monsieur Cathcart,9
+Mrs. Pettigrew-Robinson,of,9
+Sir Wigmore,Sir Wigmore Wrinching,9
+Charles II,of,8
+Detective Inspector Parker,Monsieur Cathcart,8
+George,of,8
+Lady Mary,Mother,8
+Lady Mary,d,8
+Miss Ellen,of,8
+Mr. Murbles,of,8
+Freddy,of,7
+Helen,of,7
+Mary Tarrant,of,7
+Mester Grimethorpe,him,7
+Monsieur Cathcart,d,7
+Sir Impey,him,7
+Charles II,Detective Inspector Parker,6
+Denver,Riddlesdale,6
+Detective Inspector Parker,cat,6
+George,him,6
+George Goyles,Monsieur Cathcart,6
+Gerald,Lady Mary Wimsey,6
+Leblanc,of,6
+Monsieur Briquet,of,6
+Mrs. Marchbanks,of,6
+Peter,blood,6
+Sir Impey,Sir Wigmore,6
+Denis,Gerald,5
+Freddy Arbuthnot,of,5
+Gerald,d,5
+Lady Mary,Mrs. Pettigrew-Robinson,5
+Lady Mary,Robinson,5
+Leblanc,Monsieur Cathcart,5
+Monsieur Cathcart,Peter,5
+Monsieur Cathcart,Sir Impey,5
+Mother,him,5
+Peter,d,5
+Peter,pot,5
+Riddlesdale,him,5
+Sir Wigmore Wrinching,of,5
+d,god,5
+Charles II,Mr. Charles Parker,4
+Counsel,high,4
+Counsel,steward,4
+Denis,George,4
+Denver,Gerald,4
+Denver,Lady Mary Wimsey,4
+Detective Inspector Parker,Mr. Charles Parker,4
+George,Gerald,4
+George,Lady Mary,4
+George,d,4
+George Goyles,Peter,4
+George Goyles,him,4
+Gerald,Monsieur Cathcart,4
+Inspector Craikes,of,4
+James Fleming,of,4
+Lady Mary,Mr. Bunter,4
+Lady Mary,cat,4
+Lady Mary,god,4
+Lydia Cathcart,Monsieur Cathcart,4
+Mary Tarrant,Peter,4
+Miss Ellen,Mr. Bunter,4
+Monsieur Cathcart,Mrs. Marchbanks,4
+Mother,Peter,4
+Mother,d,4
+Mr. Bunter,Riddlesdale,4
+Mrs. Pettigrew-Robinson,him,4
+Robinson,him,4
+Sherlock Holmes,of,4
+Sir Impey Biggs,him,4
+Wilkes,of,4
+bar,high,4
+cat,him,4
+god,him,4
+ii,of,4
+of,officers,4
+Charles II,Peter,3
+Denis,Lady Mary,3
+Denis,d,3
+Denis Cathcart,him,3
+Denver,Peter,3
+Denver,bar,3
+Denver,inquest,3
+Detective Inspector Parker,Inspector Sugg,3
+Detective Inspector Parker,Riddlesdale,3
+Dr. Thorpe,of,3
+Freddy,Freddy Arbuthnot,3
+Freddy Arbuthnot,Pettigrew-Robinsons,3
+George Goyles,Riddlesdale,3
+Gerald,Lady Mary,3
+Gerald,Peter,3
+Gerald,god,3
+Inspector Sugg,him,3
+Jem,of,3
+Jerry,Mester Grimethorpe,3
+Jerry,d,3
+John,of,3
+John Hardraw,of,3
+John Watson,of,3
+Kai-Lung,of,3
+Lady Mary,truth,3
+Lady Mary Wimsey,Mother,3
+Lady Mary Wimsey,Mr. Bunter,3
+Lady Mary Wimsey,Polly,3
+Mademoiselle,Mademoiselle Simone Vonderaa,3
+Mademoiselle,of,3
+Mademoiselle Simone Vonderaa,Simone,3
+Mademoiselle Simone Vonderaa,of,3
+Mary Tarrant,him,3
+Mester Grimethorpe,Monsieur Cathcart,3
+Mester Grimethorpe,Peter,3
+Mester Grimethorpe,Stapley,3
+Mester Grimethorpe,d,3
+Miss Cathcart,Monsieur Cathcart,3
+Monsieur Cathcart,Mrs. Pettigrew-Robinson,3
+Monsieur Cathcart,Riddlesdale,3
+Monsieur Cathcart,Robinson,3
+Monsieur Cathcart,Simone,3
+Monsieur Cathcart,blood,3
+Monsieur Cathcart,truth,3
+Mother,god,3
+Mr. Bunter,Wilkes,3
+Mr. Murbles,Peter,3
+Mr. Murbles,Sir Impey,3
+Mr. Murbles,him,3
+Peter,Riddlesdale,3
+Peter,Wilkes,3
+Riddlesdale,Stapley,3
+Riddlesdale,d,3
+Simone,of,3
+Sir Impey Biggs,Sir Wigmore,3
+Stapley,of,3
+Tommy Freeborn,of,3
+bar,steward,3
+barrow,of,3
+blood,d,3
+high,him,3
+mark,of,3
+medusa,of,3
+of,pot,3
+of,usher,3
+Attenbury,Lady Mary Wimsey,2
+Aumerle,Bagot,2
+Bagot,Bolingbroke,2
+Bagot,of,2
+Bet,of,2
+Charles II,Monsieur Cathcart,2
+Charles II,d,2
+Charles II,him,2
+Counsel,Denis,2
+Counsel,Denis Cathcart,2
+Counsel,Monsieur Cathcart,2
+Counsel,Mr. Bunter,2
+Counsel,Mr. Murbles,2
+Denis,Denver,2
+Denis,Mrs. Pettigrew-Robinson,2
+Denis,Riddlesdale,2
+Denis,Robinson,2
+Denis Cathcart,Denver,2
+Denis Cathcart,Mrs. Pettigrew-Robinson,2
+Denis Cathcart,Riddlesdale,2
+Denis Cathcart,Robinson,2
+Denis Cathcart,d,2
+Denver,Freddy Arbuthnot,2
+Denver,George,2
+Denver,Lady Mary,2
+Denver,high,2
+Denver,steward,2
+Denver,truth,2
+Detective Inspector Parker,George Goyles,2
+Detective Inspector Parker,Mademoiselle,2
+Detective Inspector Parker,Monsieur Briquet,2
+Detective Inspector Parker,Mr. Bunter,2
+Detective Inspector Parker,Mr. Murbles,2
+Detective Inspector Parker,barrow,2
+Detective Inspector Parker,cluer,2
+Detective Inspector Parker,d,2
+Detective Inspector Parker,god,2
+Detective Inspector Parker,high,2
+Detective Inspector Parker,inquest,2
+Detective Inspector Parker,mark,2
+Dr. Thorpe,Lady Mary,2
+Dr. Thorpe,Mother,2
+Farmer Grimethorpe,Mester Grimethorpe,2
+Freddy,Pettigrew-Robinsons,2
+Freddy,d,2
+Freddy Arbuthnot,Monsieur Cathcart,2
+Freddy Arbuthnot,frederick,2
+George,god,2
+George Goyles,Lady Mary,2
+George Goyles,Lady Mary Wimsey,2
+George Goyles,Mester Grimethorpe,2
+Gerald,Helen,2
+Groot,Riddlesdale,2
+Helen,Lady Mary,2
+Inspector Craikes,inquest,2
+Inspector Sugg,Peter,2
+Inspector Sugg,of,2
+Inspector Sugg,palmerston,2
+James Fleming,Monsieur Cathcart,2
+Jerry,god,2
+John,John Watson,2
+John Begg,of,2
+John Hardraw,him,2
+Lady Mary,Mary Tarrant,2
+Lady Mary,Mester Grimethorpe,2
+Lady Mary,Miss Ellen,2
+Lady Mary,Mr. Murbles,2
+Lady Mary,inquest,2
+Lady Mary,notes,2
+Lady Mary Wimsey,Mester Grimethorpe,2
+Lady Mary Wimsey,Sherlock Holmes,2
+Lady Mary Wimsey,Sir Impey,2
+Leblanc,Mademoiselle,2
+Mademoiselle,Monsieur Cathcart,2
+Mademoiselle Simone Vonderaa,Monsieur Cathcart,2
+Manon,of,2
+Mary Tarrant,d,2
+Miss Ellen,Peter,2
+Miss Ellen,blood,2
+Miss Ellen,d,2
+Miss Ellen,inquest,2
+Monsieur Briquet,cat,2
+Monsieur Briquet,him,2
+Monsieur Cathcart,Mother,2
+Monsieur Cathcart,cat,2
+Monsieur Cathcart,god,2
+Monsieur Cathcart,high,2
+Monsieur Cathcart,notes,2
+Monsieur Turgeot,of,2
+Mother,Sherlock Holmes,2
+Mr. Bunter,d,2
+Mr. Charles Parker,him,2
+Mr. Murbles,Sir Impey Biggs,2
+Mr. Murbles,d,2
+Peter,Stapley,2
+Peter,cat,2
+Peter,cluer,2
+Peter,inquest,2
+Riddlesdale,cat,2
+Riddlesdale,inquest,2
+Shakespeare,of,2
+Sir Andrew,Sir Andrew Mackenzie,2
+Sir Impey,Sir Wigmore Wrinching,2
+Sir Impey Biggs,Sir Wigmore Wrinching,2
+Sir Wigmore,high,2
+Sir Wigmore,steward,2
+Stapley,d,2
+Tom Freeborn,Tommy Freeborn,2
+Tommy Freeborn,d,2
+bach,of,2
+bar,falling,2
+bar,him,2
+blood,him,2
+cluer,of,2
+d,jove,2
+god,high,2
+god,steward,2
+high,usher,2
+him,inquest,2
+him,steward,2
+him,truth,2
+of,palmerston,2
+steward,usher,2
+Attenbury,Barbara,1
+Attenbury,of,1
+Aumerle,Bolingbroke,1
+Aumerle,Fitzwater,1
+Aumerle,Herald,1
+Aumerle,Northumberland,1
+Aumerle,Percy,1
+Aumerle,carlisle,1
+Aumerle,of,1
+Aumerle,officers,1
+Bagot,Fitzwater,1
+Bagot,Herald,1
+Bagot,Northumberland,1
+Bagot,Percy,1
+Bagot,carlisle,1
+Bagot,officers,1
+Bet,Jem,1
+Bet,Monsieur Cathcart,1
+Bet,cat,1
+Bet,mornin,1
+Biggy,Sir Impey,1
+Biggy,Wiggy,1
+Biggy,of,1
+Bolingbroke,Fitzwater,1
+Bolingbroke,Herald,1
+Bolingbroke,Northumberland,1
+Bolingbroke,Percy,1
+Bolingbroke,carlisle,1
+Bolingbroke,of,1
+Bolingbroke,officers,1
+Brooks,Peter,1
+Brooks,of,1
+Browning,of,1
+Charles II,Lady Mary Wimsey,1
+Charles II,bar,1
+Charles II,blood,1
+Charles II,ii,1
+Chesterton,Nelson,1
+Chesterton,of,1
+Counsel,Lady Mary,1
+Counsel,Lady Mary Wimsey,1
+Denis,Detective Inspector Parker,1
+Denis,Mademoiselle,1
+Denis,Mademoiselle Simone Vonderaa,1
+Denis,Mrs. Marchbanks,1
+Denis,Simone,1
+Denis,Van Humperdinck,1
+Denis,alma,1
+Denis,cat,1
+Denis,inquest,1
+Denis,mater,1
+Denis,truth,1
+Denis Cathcart,George,1
+Denis Cathcart,Lady Mary,1
+Denis Cathcart,Mademoiselle,1
+Denis Cathcart,Mademoiselle Simone Vonderaa,1
+Denis Cathcart,Mrs. Marchbanks,1
+Denis Cathcart,Simone,1
+Denis Cathcart,Van Humperdinck,1
+Denis Cathcart,alma,1
+Denis Cathcart,inquest,1
+Denis Cathcart,mater,1
+Denis Cathcart,truth,1
+Denver,Farmer Grimethorpe,1
+Denver,George Goyles,1
+Denver,Jack The Giant-Killer,1
+Denver,James Fleming,1
+Denver,Mester Grimethorpe,1
+Denver,Mr. Bunter,1
+Denver,Mr. Walter Montague,1
+Denver,Mrs. Pettigrew-Robinson,1
+Denver,Robinson,1
+Denver,Sir Impey,1
+Denver,Sir Impey Biggs,1
+Denver,Sir Wigmore,1
+Denver,Sir Wigmore Wrinching,1
+Denver,blood,1
+Denver,cat,1
+Denver,d,1
+Denver,ii,1
+Detective Inspector Parker,Freddy,1
+Detective Inspector Parker,George,1
+Detective Inspector Parker,Gerald,1
+Detective Inspector Parker,Helen,1
+Detective Inspector Parker,John Hardraw,1
+Detective Inspector Parker,Sherlock Holmes,1
+Detective Inspector Parker,Sir Impey,1
+Detective Inspector Parker,Sir Impey Biggs,1
+Detective Inspector Parker,Sir Wigmore,1
+Detective Inspector Parker,Sir Wigmore Wrinching,1
+Detective Inspector Parker,Stapley,1
+Detective Inspector Parker,bar,1
+Detective Inspector Parker,blood,1
+Detective Inspector Parker,c,1
+Detective Inspector Parker,ferrers,1
+Detective Inspector Parker,gargoyles,1
+Detective Inspector Parker,gawd,1
+Detective Inspector Parker,ix,1
+Detective Inspector Parker,melbourne,1
+Detective Inspector Parker,truth,1
+Dolby,mark,1
+Dr. Lubbock,him,1
+Dr. Lubbock,of,1
+Dr. Thorpe,him,1
+Fitzwater,Herald,1
+Fitzwater,Northumberland,1
+Fitzwater,Percy,1
+Fitzwater,carlisle,1
+Fitzwater,of,1
+Fitzwater,officers,1
+Fleetwhite,god,1
+Fleetwhite,of,1
+Freddy,Inspector Sugg,1
+Freddy,Jush,1
+Freddy,Lady Mary,1
+Freddy,Monsieur Cathcart,1
+Freddy,Mrs. Pettigrew-Robinson,1
+Freddy,Peter,1
+Freddy,Robinson,1
+Freddy,Shugg,1
+Freddy Arbuthnot,James Fleming,1
+Freddy Arbuthnot,Mrs. Marchbanks,1
+Freddy Arbuthnot,Sir Impey,1
+Freddy Arbuthnot,d,1
+Freddy Arbuthnot,truth,1
+George,George Goyles,1
+George,Lady Mary Wimsey,1
+George,Monsieur Cathcart,1
+George,Riddlesdale,1
+George,William,1
+George,bar,1
+George,gargoyles,1
+George,high,1
+George,steward,1
+George Goyles,Jerry,1
+George Goyles,Mary Tarrant,1
+George Goyles,Mother,1
+George Goyles,d,1
+George Goyles,g,1
+George Goyles,ix,1
+Gerald,Inspector Craikes,1
+Gerald,James Fleming,1
+Gerald,Mother,1
+Gerald,Mr. Murbles,1
+Gerald,Mrs. Pettigrew-Robinson,1
+Gerald,Robinson,1
+Gerald,Sir Impey,1
+Gerald,Tommy Freeborn,1
+Gerald,inquest,1
+Gerald,truth,1
+Gerald,usher,1
+Groot,Mr. Bunter,1
+Groot,Peter,1
+Groot,Wilkes,1
+Groot,of,1
+Helen,Mother,1
+Helen,Mrs. Marchbanks,1
+Helen,Sherlock Holmes,1
+Helen,hullo,1
+Herald,Northumberland,1
+Herald,Percy,1
+Herald,carlisle,1
+Herald,of,1
+Herald,officers,1
+Inspector Craikes,Lady Mary,1
+Inspector Craikes,Monsieur Cathcart,1
+Inspector Craikes,Stapley,1
+Inspector Sugg,gawd,1
+Jabez,Mester Grimethorpe,1
+Jabez,Peter,1
+Jack The Giant-Killer,Peter,1
+Jack The Giant-Killer,of,1
+Jake,Mester Grimethorpe,1
+James Fleming,Miss Ellen,1
+James Fleming,Mrs. Marchbanks,1
+James Fleming,Mrs. Pettigrew-Robinson,1
+James Fleming,Peter,1
+James Fleming,Robinson,1
+James Fleming,d,1
+James Fleming,him,1
+Jerry,Lady Mary,1
+Jerry,Monsieur Cathcart,1
+Jerry,Mother,1
+Jerry,Peter,1
+Jerry,goyleses,1
+Jerry,grimethorpes,1
+Jerry,him,1
+John,John Begg,1
+John,John Hardraw,1
+John Hardraw,d,1
+John Watson,Manon,1
+John Watson,Riddlesdale,1
+Joyce,of,1
+Jush,Shugg,1
+Kai-Lung,Lady Mary Wimsey,1
+Lady Mary,Mary Jane,1
+Lady Mary,Mrs. Marchbanks,1
+Lady Mary,Pettigrew-Robinsons,1
+Lady Mary,Riddlesdale,1
+Lady Mary,Sir Impey,1
+Lady Mary,Sir Impey Biggs,1
+Lady Mary,bar,1
+Lady Mary,frederick,1
+Lady Mary,goyleses,1
+Lady Mary,grimethorpes,1
+Lady Mary,vii,1
+Lady Mary Wimsey,Mary Tarrant,1
+Lady Mary Wimsey,Mr. Murbles,1
+Lady Mary Wimsey,Mrs. Pettigrew-Robinson,1
+Lady Mary Wimsey,Robinson,1
+Lady Mary Wimsey,Simone,1
+Lady Mary Wimsey,Sir Andrew,1
+Lady Mary Wimsey,Sir Impey Biggs,1
+Lady Mary Wimsey,blood,1
+Lady Mary Wimsey,cat,1
+Lady Mary Wimsey,d,1
+Lady Mary Wimsey,gawd,1
+Lady Mary Wimsey,high,1
+Lady Mary Wimsey,jove,1
+Lady Mary Wimsey,notes,1
+Lady Mary Wimsey,steward,1
+Lady Mary Wimsey,usher,1
+Leblanc,Monsieur Turgeot,1
+Lydia Cathcart,Peter,1
+Lydia Cathcart,high,1
+Lydia Cathcart,steward,1
+Mademoiselle,Simone,1
+Mademoiselle,Van Humperdinck,1
+Mademoiselle,Wiggy,1
+Mademoiselle,him,1
+Mademoiselle Simone Vonderaa,Wiggy,1
+Manon,Manon Lescaut,1
+Manon,d,1
+Manon,high,1
+Manon Lescaut,high,1
+Manon Lescaut,of,1
+Mary Jane,bar,1
+Mary Jane,of,1
+Mester Grimethorpe,Mother,1
+Mester Grimethorpe,Riddlesdale,1
+Mester Grimethorpe,Sir Impey,1
+Mester Grimethorpe,bar,1
+Miss Cathcart,Sir Impey,1
+Miss Cathcart,him,1
+Miss Cathcart,of,1
+Miss Ellen,Monsieur Cathcart,1
+Miss Ellen,Mother,1
+Miss Ellen,lawks,1
+Monsieur Briquet,Monsieur Cathcart,1
+Monsieur Cathcart,Monsieur Turgeot,1
+Monsieur Cathcart,Sir Impey Biggs,1
+Monsieur Cathcart,Sir Wigmore,1
+Monsieur Cathcart,Sir Wigmore Wrinching,1
+Monsieur Cathcart,Tommy Freeborn,1
+Monsieur Cathcart,Van Humperdinck,1
+Monsieur Cathcart,alma,1
+Monsieur Cathcart,bar,1
+Monsieur Cathcart,hullo,1
+Monsieur Cathcart,inquest,1
+Monsieur Cathcart,jove,1
+Monsieur Cathcart,mater,1
+Monsieur Cathcart,mornin,1
+Monsieur Cathcart,steward,1
+Morrison,of,1
+Mother,Mr. Bunter,1
+Mother,Riddlesdale,1
+Mother,lawks,1
+Mr. Brownrigg-Fortescue,of,1
+Mr. Bunter,Mr. Murbles,1
+Mr. Bunter,bach,1
+Mr. Bunter,hullo,1
+Mr. Bunter,inquest,1
+Mr. Bunter,meribah,1
+Mr. Charles Parker,Peter,1
+Mr. Charles Parker,bar,1
+Mr. Charles Parker,of,1
+Mr. Glibbery,high,1
+Mr. Glibbery,of,1
+Mr. Glibbery,steward,1
+Mr. Murbles,Polly,1
+Mrs. Marchbanks,Mrs. Pettigrew-Robinson,1
+Mrs. Marchbanks,Peter,1
+Mrs. Marchbanks,Robinson,1
+Mrs. Marchbanks,Sir Impey,1
+Mrs. Marchbanks,him,1
+Mrs. Marchbanks,mornin,1
+Mrs. Pettigrew-Robinson,Pettigrew-Robinsons,1
+Mrs. Pettigrew-Robinson,Riddlesdale,1
+Mrs. Pettigrew-Robinson,inquest,1
+Nelson,of,1
+Northumberland,Percy,1
+Northumberland,carlisle,1
+Northumberland,of,1
+Northumberland,officers,1
+Percy,carlisle,1
+Percy,of,1
+Percy,officers,1
+Peter,Polly,1
+Peter,Sherlock Holmes,1
+Peter,Simone,1
+Peter,Sir Impey,1
+Peter,Sir Impey Biggs,1
+Peter,Wordsworth,1
+Peter,ballad,1
+Peter,bar,1
+Peter,copperfield,1
+Peter,david,1
+Peter,maisry,1
+Peter,medusa,1
+Peter,notes,1
+Pettigrew-Robinsons,Robinson,1
+Pettigrew-Robinsons,d,1
+Polly,d,1
+Polly,him,1
+Polly,hullo,1
+Polly,of,1
+Racine,c,1
+Racine,of,1
+Riddlesdale,Robinson,1
+Riddlesdale,notes,1
+Robinson,inquest,1
+SIR JULIAN FREKE,of,1
+Sexton Blake,of,1
+Shakespeare,truth,1
+Sherlock Holmes,god,1
+Sherlock Holmes,him,1
+Simone,Van Humperdinck,1
+Sir Andrew,him,1
+Sir Andrew,of,1
+Sir Andrew Mackenzie,of,1
+Sir Impey,Wiggy,1
+Sir Impey,high,1
+Sir Impey,notes,1
+Sir Impey,steward,1
+Sir Impey Biggs,god,1
+Sir Wigmore,him,1
+Sir Wigmore,inquest,1
+Tom Freeborn,him,1
+Tom Freeborn,of,1
+Tommy Freeborn,him,1
+Van Humperdinck,of,1
+William,William Snooks,1
+William,god,1
+William,of,1
+Zedekiah Bone,him,1
+alma,mater,1
+alma,of,1
+ballad,maisry,1
+ballad,of,1
+bar,d,1
+bar,reuter,1
+bar,xv,1
+barrow,him,1
+ben,notes,1
+ben,of,1
+blood,high,1
+blood,medusa,1
+blood,mudstains,1
+brigette,briggs,1
+brigette,eliza,1
+brigette,of,1
+briggs,eliza,1
+briggs,of,1
+c,d,1
+c,of,1
+carlisle,of,1
+carlisle,officers,1
+cat,d,1
+cat,ii,1
+cat,mornin,1
+conchy,of,1
+copperfield,david,1
+copperfield,of,1
+curry,of,1
+d,goyleses,1
+d,grimethorpes,1
+d,pot,1
+d,truth,1
+david,of,1
+digglesbrake,of,1
+dragon,of,1
+dragon,rouge,1
+eliza,of,1
+falling,of,1
+falling,reuter,1
+falling,xv,1
+g,of,1
+gaiter,of,1
+gawd,of,1
+god,goyleses,1
+god,grimethorpes,1
+god,usher,1
+goyleses,grimethorpes,1
+goyleses,of,1
+grimethorpes,of,1
+high,hiya,1
+high,notes,1
+him,notes,1
+him,xv,1
+hiya,of,1
+inquest,truth,1
+iv,mudstains,1
+iv,of,1
+ix,notes,1
+ix,of,1
+jezebel,of,1
+jove,of,1
+maisry,of,1
+mater,of,1
+melbourne,of,1
+mornin,of,1
+moses,of,1
+mountweazle,of,1
+notes,steward,1
+of,rouge,1
+of,xv,1
+reuter,xv,1

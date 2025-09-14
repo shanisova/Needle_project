@@ -1,0 +1,94 @@
+character1,character2,count
+Sir A?,Sir Antonio Haslemere,27
+Sir Antonio,Sir Antonio Haslemere,23
+Miss Theophilus,Mrs. Theophilus,13
+Mrs. Theophilus,Sir A?,13
+Mr. Vandeleur Hindhead,Sir Antonio Haslemere,9
+Dr. Watson Cartwright,Watson,8
+Dr. Watson Cartwright,Sir Antonio Haslemere,7
+L Haslemere,Sir Antonio Haslemere,7
+Hottentot,Sir Antonio Haslemere,6
+Mr. Vandeleur Hindhead,Sir A?,6
+Rodger,Sir A?,6
+Dr. Doyle,Mr. Vandeleur Hindhead,5
+Mrs. Halloa,Sir A?,5
+Dr. Watson Cartwright,Sir A?,4
+Hottentot,Hottentot Haslemere,4
+Hottentot,Sir Antonio,4
+Hottentot Haslemere,Sir Antonio,4
+Hottentot Haslemere,Sir Antonio Haslemere,4
+Mrs. Halloa,Sir Antonio,4
+Dr. Watson Cartwright,Mr. Vandeleur Hindhead,3
+Mr. Vandeleur Hindhead,Mrs. Theophilus,3
+Mrs. Halloa,Sir Antonio Haslemere,3
+Mrs. Theophilus,Sir Antonio,3
+Mrs. Theophilus,Sir Antonio Haslemere,3
+Watson,Watson Desmond,3
+Barrymore,Garcia,2
+Coombe,Dr. Doyle,2
+Coombe,Tracey,2
+Dr. Doyle,Sherlock,2
+Dr. Doyle,Tracey,2
+Dr. Watson Cartwright,Mr. Stapletons,2
+Holmes,Mrs. Theophilus,2
+Hottentot,L Haslemere,2
+Hottentot,Michaelmas,2
+Hottentot,Morland,2
+L Haslemere,Michaelmas,2
+L Haslemere,Morland,2
+Michaelmas,Morland,2
+Michaelmas,Sir Antonio Haslemere,2
+Miss Theophilus,Sir A?,2
+Morland,Morland Monsieur,2
+Morland,Sir Antonio Haslemere,2
+Mrs. Laura Stapleton,Selden Baskerville,2
+Rodger,Sir Antonio Haslemere,2
+Selden Baskerville,Sir Antonio Haslemere,2
+Sir Antonio Haslemere,William,2
+Tracey,kneller,2
+Anthony,Sir Antonio Haslemere,1
+Anthony,William,1
+Barrymore,Sherlock,1
+Barrymore,charles,1
+Clayton,Mrs. Halloa,1
+Clayton,Mrs. Theophilus,1
+Clayton,Selden Baskerville,1
+Clayton,Sir A?,1
+Clayton,Sir Antonio,1
+Clayton,Sir Antonio Haslemere,1
+Coombe,Mortimer,1
+Dr. Doyle,Mrs. Theophilus,1
+Dr. Doyle,Selden Baskerville,1
+Dr. Doyle,Sir Antonio Haslemere,1
+Dr. Watson Cartwright,George,1
+Dr. Watson Cartwright,L Haslemere,1
+Dr. Watson Cartwright,Mrs. Halloa,1
+Dr. Watson Cartwright,Mrs. Theophilus,1
+Dr. Watson Cartwright,Sir Antonio,1
+Eliza,Mr. Vandeleur Hindhead,1
+Eliza,Sir Antonio Haslemere,1
+Fraser,Hugo,1
+Garcia,charles,1
+George,Mr. Stapletons,1
+George,Sir A?,1
+Holmes,Jove,1
+Mlle,johnson,1
+Morland,Mr. Vandeleur Hindhead,1
+Morland,Sir Morland Carere,1
+Morland Monsieur,Mr. Vandeleur Hindhead,1
+Mr. Stapletons,Mrs. Theophilus,1
+Mr. Vandeleur Hindhead,Mrs. Halloa,1
+Mr. Vandeleur Hindhead,Mrs. Laura Stapleton,1
+Mr. Vandeleur Hindhead,Rodger,1
+Mr. Vandeleur Hindhead,Sir Antonio,1
+Mr. Vandeleur Hindhead,Watson,1
+Mrs. Halloa,Tracey,1
+Mrs. Halloa,kneller,1
+Mrs. Laura Stapleton,Mrs. Theophilus,1
+Mrs. Laura Stapleton,Sir Antonio,1
+Mrs. Laura Stapleton,Sir Antonio Haslemere,1
+Mrs. Theophilus,Tracey,1
+Mrs. Theophilus,kneller,1
+Selden Baskerville,Sir Antonio,1
+Sir Antonio Haslemere,kneller,1
+Sir Antonio Haslemere,perkins,1

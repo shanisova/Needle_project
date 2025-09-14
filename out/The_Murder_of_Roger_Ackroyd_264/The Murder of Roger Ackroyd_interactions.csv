@@ -1,0 +1,330 @@
+character1,character2,count
+Mrs. Ralph Paton,Ralph,98
+Mademoiselle Flora,Miss Flora Ackroyd,36
+Ursula,Ursula Bourne,28
+Miss Flora Ackroyd,Uncle Roger,22
+Miss Flora Ackroyd,Roger Ackroyd,20
+Roger Ackroyd,Uncle Roger,20
+M. Hercule Poirot,this,17
+Miss Flora Ackroyd,this,16
+Mademoiselle Flora,Ralph,15
+Hector,Hector Blunt,14
+jong,mah,14
+Hector Blunt,Mr. Geoffrey Raymond,13
+M. Hercule Poirot,Mademoiselle,13
+Mademoiselle Caroline,Miss Ganett,12
+Miss Flora Ackroyd,Ralph,12
+dunlap,grosset,12
+Mademoiselle,Mademoiselle Flora,11
+James,Mademoiselle Caroline,10
+Ralph,Ursula,10
+Hector Blunt,Mademoiselle Flora,9
+M. Hercule Poirot,Mademoiselle Flora,9
+Miss Flora Ackroyd,Mr. Geoffrey Raymond,9
+Hector Blunt,Miss Flora Ackroyd,8
+Mademoiselle Flora,this,8
+Miss Flora Ackroyd,Mrs. Ralph Paton,8
+John Parker,this,7
+M. Hercule Poirot,Mademoiselle Caroline,7
+M. Hercule Poirot,Ralph,7
+Mademoiselle Flora,Mrs. Ralph Paton,7
+Mrs. Ralph Paton,this,7
+Elsie,Elsie Dale,6
+Mademoiselle,Mrs. Ralph Paton,6
+Mademoiselle,this,6
+Mademoiselle Caroline,Ralph,6
+Mademoiselle Caroline,jong,6
+Mademoiselle Caroline,mah,6
+Mademoiselle Caroline,this,6
+Mademoiselle Flora,Mr. Geoffrey Raymond,6
+Miss Ganett,this,6
+Mrs. Ralph Paton,Ursula,6
+Ashley Ferrars,Miss Flora Ackroyd,5
+Caroline Sheppard,this,5
+Charles Kent,M. Hercule Poirot,5
+Hector,Mademoiselle Flora,5
+Hector Blunt,M. Hercule Poirot,5
+Inspector Raglan,M. Hercule Poirot,5
+John Parker,M. Hercule Poirot,5
+John Parker,Mademoiselle Flora,5
+John Parker,Miss Flora Ackroyd,5
+M. Hercule Poirot,Mrs. Ralph Paton,5
+Mademoiselle Caroline,Mrs. Ralph Paton,5
+Miss Flora Ackroyd,fernly,5
+Miss Ganett,jong,5
+Miss Ganett,mah,5
+Ralph,this,5
+Charles Kent,this,4
+Elizabeth Russell,Mademoiselle Caroline,4
+Inspector Raglan,this,4
+M. Hercule Poirot,Miss Flora Ackroyd,4
+Mademoiselle,Ralph,4
+Mademoiselle Caroline,Miss Flora Ackroyd,4
+Miss Flora Ackroyd,son,4
+Mr. Geoffrey Raymond,this,4
+Mrs. Ralph Paton,Ursula Bourne,4
+Mrs. Ralph Paton,Ursula Paton,4
+Ursula,Ursula Paton,4
+Caroline Sheppard,M. Hercule Poirot,3
+Caroline Sheppard,Mademoiselle Flora,3
+Caroline Sheppard,Ralph,3
+Cecil,Miss Flora Ackroyd,3
+Cecil,Mrs. Cecil Ackroyd,3
+Charles Kent,fernly,3
+Chow,Miss Ganett,3
+Elizabeth Russell,John Parker,3
+Elizabeth Russell,Miss Flora Ackroyd,3
+Elsie,fernly,3
+John Parker,Melrose,3
+John Parker,Mr. Geoffrey Raymond,3
+John Parker,dagger,3
+M. Hercule Poirot,Mr. Geoffrey Raymond,3
+Mademoiselle,Mademoiselle Caroline,3
+Mademoiselle Caroline,fernly,3
+Mademoiselle Flora,Miss Ganett,3
+Mademoiselle Flora,Uncle Roger,3
+Miss Flora Ackroyd,Mrs. Cecil Ackroyd,3
+Miss Flora Ackroyd,Ursula,3
+Miss Ganett,Pung,3
+Ralph,Uncle Roger,3
+Ralph,son,3
+Ursula,fernly,3
+Ursula Bourne,Ursula Paton,3
+Arthur Vane,Diana,2
+Caroline Sheppard,dagger,2
+Carter,Mademoiselle Caroline,2
+Carter,this,2
+Charles Kent,Elizabeth Russell,2
+Clara,Miss Ganett,2
+Elizabeth Russell,Inspector Raglan,2
+Elizabeth Russell,M. Hercule Poirot,2
+Elizabeth Russell,Mademoiselle Flora,2
+Elizabeth Russell,Mr. Geoffrey Raymond,2
+Elizabeth Russell,Mrs. Ralph Paton,2
+Elizabeth Russell,Ralph,2
+Elizabeth Russell,fernly,2
+Elizabeth Russell,this,2
+Elsie Dale,fernly,2
+Hector,Miss Flora Ackroyd,2
+Hector Blunt,Uncle Roger,2
+Hector Blunt,dagger,2
+Hector Blunt,fernly,2
+Inspector Davis,John Parker,2
+Inspector Raglan,Mademoiselle Flora,2
+James,M. Hercule Poirot,2
+John Parker,Mrs. Ralph Paton,2
+John Parker,Ralph,2
+John Parker,fernly,2
+M. Hercule Poirot,Melrose,2
+M. Hercule Poirot,Superintendent Hayes,2
+M. Hercule Poirot,Ursula,2
+M. Hercule Poirot,dagger,2
+M. Hercule Poirot,fernly,2
+M. Hercule Poirot,quill,2
+Mademoiselle,fernly,2
+Mademoiselle Caroline,Mademoiselle Flora,2
+Mademoiselle Caroline,Mr. Geoffrey Raymond,2
+Mademoiselle Caroline,Ursula,2
+Mademoiselle Caroline,sheba,2
+Mademoiselle Flora,Ursula,2
+Marby,Marby Grange,2
+Miss Flora Ackroyd,dagger,2
+Mrs. Ralph Paton,son,2
+Ralph,Roger Ackroyd,2
+Uncle Roger,Ursula,2
+Ursula,this,2
+Ursula Bourne,fernly,2
+Ursula Bourne,this,2
+Zane Grey,dunlap,2
+Zane Grey,grosset,2
+american,this,2
+dagger,this,2
+fernly,quill,2
+sherlock,watson,2
+son,this,2
+AGATHA CHRISTIE,Miss Flora Ackroyd,1
+AGATHA CHRISTIE,Roger Ackroyd,1
+AGATHA CHRISTIE,Uncle Roger,1
+Annie,Clara,1
+Annie,Miss Ganett,1
+Ashley Ferrars,Caroline Sheppard,1
+Ashley Ferrars,Cecil,1
+Ashley Ferrars,M. Hercule Poirot,1
+Ashley Ferrars,Mademoiselle Caroline,1
+Ashley Ferrars,Mrs. Cecil Ackroyd,1
+Ashley Ferrars,Roger Ackroyd,1
+Ashley Ferrars,Uncle Roger,1
+Ashley Ferrars,this,1
+Caroline Sheppard,Carter,1
+Caroline Sheppard,Elizabeth Russell,1
+Caroline Sheppard,Inspector Raglan,1
+Caroline Sheppard,James,1
+Caroline Sheppard,Mademoiselle,1
+Caroline Sheppard,Miss Flora Ackroyd,1
+Caroline Sheppard,Mrs. Ralph Paton,1
+Caroline Sheppard,Uncle Roger,1
+Caroline Sheppard,american,1
+Caroline Sheppard,fernly,1
+Caroline Sheppard,pond,1
+Caroline Sheppard,quill,1
+Carter,M. Hercule Poirot,1
+Carter,Miss Ganett,1
+Cecil,Elizabeth Russell,1
+Cecil,Mademoiselle Caroline,1
+Cecil,fernly,1
+Charles Kent,Inspector Raglan,1
+Charles Kent,John Parker,1
+Charles Kent,Mademoiselle Flora,1
+Charles Kent,Miss Flora Ackroyd,1
+Charles Kent,Mr. Geoffrey Raymond,1
+Charles Kent,Mrs. Ralph Paton,1
+Charles Kent,Ralph,1
+Charles Kent,Roger Ackroyd,1
+Charles Kent,Uncle Roger,1
+Charles Kent,Ursula,1
+Charles Kent,jong,1
+Charles Kent,mah,1
+Charles Kent,son,1
+Chow,Mademoiselle Caroline,1
+Chow,Pung,1
+Clara,Elsie,1
+Clara,fernly,1
+Dolly Grice,american,1
+Elizabeth Russell,Emma Cooper,1
+Elizabeth Russell,Mrs. Cecil Ackroyd,1
+Elizabeth Russell,Roger Ackroyd,1
+Elizabeth Russell,Uncle Roger,1
+Elizabeth Russell,Ursula,1
+Elizabeth Russell,jong,1
+Elizabeth Russell,mah,1
+Elizabeth Russell,quill,1
+Ellerby,M. Hercule Poirot,1
+Elsie,John Parker,1
+Elsie Dale,John Parker,1
+Gladys Jones,Sally Jones,1
+Hastings,M. Hercule Poirot,1
+Hector,M. Hercule Poirot,1
+Hector Blunt,John Parker,1
+Hector Blunt,Mademoiselle,1
+Hector Blunt,Ralph,1
+Hector Blunt,blackguard,1
+Hector Blunt,pond,1
+Hector Blunt,this,1
+Inspector Raglan,John Parker,1
+Inspector Raglan,Melrose,1
+Inspector Raglan,Miss Flora Ackroyd,1
+Inspector Raglan,Ursula,1
+Inspector Raglan,Ursula Bourne,1
+Inspector Raglan,dagger,1
+Inspector Raglan,fernly,1
+Inspector Raglan,pond,1
+Inspector Raglan,quill,1
+James,Miss Ganett,1
+James,american,1
+James,jong,1
+James,mah,1
+James,this,1
+John Parker,Mademoiselle Caroline,1
+John Parker,Roger Ackroyd,1
+John Parker,Uncle Roger,1
+John Parker,Ursula,1
+John Parker,jong,1
+John Parker,mah,1
+M. Hercule Poirot,Marby,1
+M. Hercule Poirot,Marby Grange,1
+M. Hercule Poirot,Miss Ganett,1
+M. Hercule Poirot,Roger Ackroyd,1
+M. Hercule Poirot,Uncle Roger,1
+M. Hercule Poirot,gold,1
+M. Hercule Poirot,jong,1
+M. Hercule Poirot,mah,1
+M. Hercule Poirot,pond,1
+Mademoiselle,Miss Flora Ackroyd,1
+Mademoiselle Caroline,Mrs. Cecil Ackroyd,1
+Mademoiselle Caroline,Roger Ackroyd,1
+Mademoiselle Caroline,Uncle Roger,1
+Mademoiselle Caroline,bates,1
+Mademoiselle Flora,Melrose,1
+Mademoiselle Flora,Roger Ackroyd,1
+Mademoiselle Flora,dagger,1
+Mademoiselle Flora,jong,1
+Mademoiselle Flora,mah,1
+Mademoiselle Flora,son,1
+Mary Black,Mrs. Ralph Paton,1
+Mary Black,Ralph,1
+Melrose,Miss Flora Ackroyd,1
+Melrose,Mr. Geoffrey Raymond,1
+Melrose,this,1
+Miss Flora Ackroyd,Miss Ganett,1
+Miss Flora Ackroyd,jong,1
+Miss Flora Ackroyd,mah,1
+Miss Flora Ackroyd,r,1
+Miss Ganett,fernly,1
+Mr. Geoffrey Raymond,Mrs. Ralph Paton,1
+Mr. Geoffrey Raymond,Ralph,1
+Mr. Geoffrey Raymond,Roger Ackroyd,1
+Mr. Geoffrey Raymond,Uncle Roger,1
+Mr. Geoffrey Raymond,Ursula,1
+Mr. Geoffrey Raymond,dagger,1
+Mr. Geoffrey Raymond,jong,1
+Mr. Geoffrey Raymond,mah,1
+Mr. Hammond,Mrs. Ralph Paton,1
+Mr. Hammond,Ralph,1
+Mrs. Cecil Ackroyd,fernly,1
+Mrs. Ralph Paton,Roger Ackroyd,1
+Mrs. Ralph Paton,Uncle Roger,1
+Mrs. Ralph Paton,jong,1
+Mrs. Ralph Paton,mah,1
+Rafael Sabatini,dumas,1
+Rafael Sabatini,dunlap,1
+Rafael Sabatini,grosset,1
+Ralph,Ursula Bourne,1
+Ralph,Ursula Paton,1
+Ralph,fernly,1
+Ralph,jong,1
+Ralph,mah,1
+Roger Ackroyd,Ursula,1
+Roger Ackroyd,fernly,1
+Roger Ackroyd,jong,1
+Roger Ackroyd,mah,1
+Sonia Marsh,sequel,1
+Superintendent Hayes,this,1
+Uncle Roger,fernly,1
+Uncle Roger,jong,1
+Uncle Roger,mah,1
+Ursula,jong,1
+Ursula,mah,1
+Ursula,quill,1
+Ursula,son,1
+Ursula Bourne,quill,1
+Vida Hurst,dunlap,1
+Vida Hurst,grosset,1
+Zane Grey,beast,1
+Zane Grey,desert,1
+Zane Grey,gold,1
+Zane Grey,helen,1
+Zane Grey,motley,1
+Zane Grey,wetmore,1
+american,desert,1
+beast,desert,1
+beast,gold,1
+beast,helen,1
+beast,wetmore,1
+curtis,troute,1
+dagger,fernly,1
+dagger,pond,1
+dagger,quill,1
+desert,gold,1
+desert,helen,1
+desert,wetmore,1
+dunlap,motley,1
+fernly,pond,1
+fernly,this,1
+gold,helen,1
+gold,r,1
+gold,wetmore,1
+grosset,motley,1
+hallo,this,1
+helen,wetmore,1
+pond,quill,1
+pond,this,1

@@ -1,0 +1,284 @@
+char_id,name,story_title
+1,Parasha Prokofitch,Crime and Punishment
+2,Aniska Pavlitch,Crime and Punishment
+3,Fomitch,Crime and Punishment
+4,Nikodim,Crime and Punishment
+5,Alyona,Crime and Punishment
+6,Lycurgus,Crime and Punishment
+7,Semyon,Crime and Punishment
+8,Alyoshka I.,Crime and Punishment
+9,Vasya Kapernaumovs,Crime and Punishment
+10,Rodion,Crime and Punishment
+11,Berg,Crime and Punishment
+12,Semyonovna,Crime and Punishment
+13,Petrovna,Crime and Punishment
+14,Prokofitch,Crime and Punishment
+15,Porfiry,Crime and Punishment
+16,Yushin,Crime and Punishment
+17,Tit Hatter,Crime and Punishment
+18,Tit,Crime and Punishment
+19,Schiller,Crime and Punishment
+20,Petrovitch,Crime and Punishment
+21,Fourier Radishchev,Crime and Punishment
+22,Afanasy,Crime and Punishment
+23,Alyona Radishchev,Crime and Punishment
+24,Kobilatnikov,Crime and Punishment
+25,Filka,Crime and Punishment
+26,Lebeziatnikov Radishchev,Crime and Punishment
+27,Mr. Filka,Crime and Punishment
+28,my wife,Crime and Punishment
+29,Radishchev,Crime and Punishment
+30,Svidrigailov,Crime and Punishment
+31,Lebeziatnikov,Crime and Punishment
+32,Blanc,Crime and Punishment
+33,Afrosinya Philip,Crime and Punishment
+34,Rororodionovitch Lippevechsel,Crime and Punishment
+35,Prilukov Tolstyakov,Crime and Punishment
+36,Kobelev Pfoo,Crime and Punishment
+37,Darya,Crime and Punishment
+38,Afrosinya Krestovsky,Crime and Punishment
+39,Kryukov Babushkin,Crime and Punishment
+40,Grigoryev,Crime and Punishment
+41,Kobelev Svidrigailov,Crime and Punishment
+42,Frantsovna,Crime and Punishment
+43,Potanchikov Luise,Crime and Punishment
+44,Luzhin,Crime and Punishment
+45,Schegolskoy,Crime and Punishment
+46,Svidrigaïlov,Crime and Punishment
+47,Pestryakov Wagner,Crime and Punishment
+48,Mr. Svidrigaïlov,Crime and Punishment
+49,hegolskoy,Crime and Punishment
+50,Tfoo Byelinsky Pavlovna,Crime and Punishment
+51,Tfoo Byelinsky,Crime and Punishment
+52,Rodya Rousseau,Crime and Punishment
+53,Razumihin Schiller,Crime and Punishment
+54,Mr. Pavlovna,Crime and Punishment
+55,Kolya Raphael,Crime and Punishment
+56,Pavlovna,Crime and Punishment
+57,Mihail Alexey Schiller,Crime and Punishment
+58,Blanc Kobilatnikov,Crime and Punishment
+59,Schiegolskoy,Crime and Punishment
+60,Mangot,Crime and Punishment
+61,Kepler,Crime and Punishment
+62,Svidrigaïlovs,Crime and Punishment
+63,Rodya Rousseau Mangot,Crime and Punishment
+64,the gentleman,Crime and Punishment
+65,the constable,Crime and Punishment
+66,Pashenka,Crime and Punishment
+67,Vassilyevsky Ostrov,Crime and Punishment
+68,Lesser Harkov,Crime and Punishment
+69,Marmeladovs,Crime and Punishment
+70,Achilles,Crime and Punishment
+71,father,Crime and Punishment
+72,grandmother,Crime and Punishment
+73,brother,Crime and Punishment
+74,Razsudkin,Crime and Punishment
+75,Afanasyvitch,Crime and Punishment
+76,Father,Crime and Punishment
+77,Petrovitch Radishchev,Crime and Punishment
+78,_he_,Crime and Punishment
+79,she,Crime and Punishment
+80,He,Crime and Punishment
+81,he,Crime and Punishment
+82,Yusupov,Crime and Punishment
+83,Mihailovsky,Crime and Punishment
+84,old woman,Crime and Punishment
+85,The old woman,Crime and Punishment
+86,Sonia,Crime and Punishment
+87,Vahrushin,Crime and Punishment
+88,Vahrushin--aie,Crime and Punishment
+89,Papa,Crime and Punishment
+90,landlady,Crime and Punishment
+91,d,Crime and Punishment
+92,the man,Crime and Punishment
+93,Semyonova Radishchev,Crime and Punishment
+94,the student,Crime and Punishment
+95,Alexandr Grigorievitch,Crime and Punishment
+96,Lewes,Crime and Punishment
+97,Vrazumihin,Crime and Punishment
+98,Ilya Byelinsky,Crime and Punishment
+99,Dounia,Crime and Punishment
+100,Siberia,Crime and Punishment
+101,Martha,Crime and Punishment
+102,Lida Mary,Crime and Punishment
+103,Semyonovitch,Crime and Punishment
+104,ding,Crime and Punishment
+105,Ivanovna,Crime and Punishment
+106,Amalia,Crime and Punishment
+107,Newton,Crime and Punishment
+108,Pokorev,Crime and Punishment
+109,Nikolaevsky Bridge,Crime and Punishment
+110,Nekrassov,Crime and Punishment
+111,Katia,Crime and Punishment
+112,Heruvimov,Crime and Punishment
+113,Fedosya,Crime and Punishment
+114,Pushkin Fyodor,Crime and Punishment
+115,Kryukov Fyodor,Crime and Punishment
+116,Mr. Pyotr,Crime and Punishment
+117,Andrey Klopstock,Crime and Punishment
+118,Perlen,Crime and Punishment
+119,Wagner,Crime and Punishment
+120,Potanchikov,Crime and Punishment
+121,Luise,Crime and Punishment
+122,Zarnitsyn Diamanten,Crime and Punishment
+123,Pyotr,Crime and Punishment
+124,Svirbey,Crime and Punishment
+125,Lazarus Byelinsky,Crime and Punishment
+126,Lazarus,Crime and Punishment
+127,Dostoevsky,Crime and Punishment
+128,Romanovitch,Crime and Punishment
+129,Dostoevsky Dementyev,Crime and Punishment
+130,Arkady,Crime and Punishment
+131,Afanasy Pavlovitch,Crime and Punishment
+132,toevsky,Crime and Punishment
+133,Widow So-and-so,Crime and Punishment
+134,Malaya,Crime and Punishment
+135,Yegorovna Fyodor Filka,Crime and Punishment
+136,Madame Svidrigailov,Crime and Punishment
+137,Mikolka,Crime and Punishment
+138,Don,Crime and Punishment
+139,Romanovna,Crime and Punishment
+140,Shenka,Crime and Punishment
+141,Nikiforovna,Crime and Punishment
+142,Fyodorovna,Crime and Punishment
+143,Turgenev Vassily,Crime and Punishment
+144,Praskovya,Crime and Punishment
+145,Dourov,Crime and Punishment
+146,Dementyev,Crime and Punishment
+147,Afrosinya Grigorievitch,Crime and Punishment
+148,Princess Mack,Crime and Punishment
+149,Prince Alma,Crime and Punishment
+150,Mitka,Crime and Punishment
+151,Tchebarov,Crime and Punishment
+152,Kobelev Buch,Crime and Punishment
+153,Kryukov B,Crime and Punishment
+154,Afanasy Radishchev,Crime and Punishment
+155,kov Radishchev,Crime and Punishment
+156,Sister Blanc,Crime and Punishment
+157,Zeus,Crime and Punishment
+158,Zossimov,Crime and Punishment
+159,Mihail,Crime and Punishment
+160,Mont,Crime and Punishment
+161,Razumihin Nil Schiller,Crime and Punishment
+162,Razumihin Nil,Crime and Punishment
+163,Arkady Garnett,Crime and Punishment
+164,Mihail Alexey,Crime and Punishment
+165,Luzhi,Crime and Punishment
+166,Believest,Crime and Punishment
+167,Afanasy Ivanitch,Crime and Punishment
+168,Proudhon,Crime and Punishment
+169,Mahomet,Crime and Punishment
+170,mamma,Crime and Punishment
+171,Crevez,Crime and Punishment
+172,Prilukov Tolstyakov Kobilatnikov,Crime and Punishment
+173,Mitrofanievsky,Crime and Punishment
+174,ihin Nil,Crime and Punishment
+175,Afanasy grant,Crime and Punishment
+176,Prilukov Radishchev,Crime and Punishment
+177,Tolstyakov,Crime and Punishment
+178,Madame Mamma's,Crime and Punishment
+179,Lazarus's,Crime and Punishment
+180,Shelopaev,Crime and Punishment
+181,arus,Crime and Punishment
+182,Missy,Crime and Punishment
+183,Lizaveta,Crime and Punishment
+184,Vassilitch,Crime and Punishment
+185,Jesus,Crime and Punishment
+186,Alexandr,Crime and Punishment
+187,Gogol,Crime and Punishment
+188,you,Crime and Punishment
+189,the other,Crime and Punishment
+190,I,Crime and Punishment
+191,they,Crime and Punishment
+192,one,Crime and Punishment
+193,the cow,Crime and Punishment
+194,the new people,Crime and Punishment
+195,the others,Crime and Punishment
+196,the right to kill others,Crime and Punishment
+197,Providence,Crime and Punishment
+198,Bezzemelny,Crime and Punishment
+199,Romeo,Crime and Punishment
+200,Marmeladov,Crime and Punishment
+201,Rousseau,Crime and Punishment
+202,Pani,Crime and Punishment
+203,Pestryakov,Crime and Punishment
+204,Dussauts,Crime and Punishment
+205,Marmeladov Rousseau,Crime and Punishment
+206,Polya,Crime and Punishment
+207,Harm Kolya Raphael,Crime and Punishment
+208,Marmeladov Rousseau Svidrigaïlov,Crime and Punishment
+209,Mamma,Crime and Punishment
+210,Kolya,Crime and Punishment
+211,Madonna,Crime and Punishment
+212,Byelinsky,Crime and Punishment
+213,Mr. Harlamov,Crime and Punishment
+214,Tfoo,Crime and Punishment
+215,Lskoy,Crime and Punishment
+216,Nil,Crime and Punishment
+217,Razumihin,Crime and Punishment
+218,Pulcheria,Crime and Punishment
+219,Vishera,Crime and Punishment
+220,Nikolay,Crime and Punishment
+221,Raskolnikov,Crime and Punishment
+222,Terebyeva,Crime and Punishment
+223,Plestcheiev,Crime and Punishment
+224,Alexey,Crime and Punishment
+225,Dostoevsky'd,Crime and Punishment
+226,Knopp,Crime and Punishment
+227,Kobelev Radishchev,Crime and Punishment
+228,Fyodor,Crime and Punishment
+229,Yegorovna Fyodor,Crime and Punishment
+230,Ivanovitch,Crime and Punishment
+231,Constance,Crime and Punishment
+232,Zametov,Crime and Punishment
+233,Katerina,Crime and Punishment
+234,foo Byelinsky,Crime and Punishment
+235,Buch,Crime and Punishment
+236,The Pole,Crime and Punishment
+237,tnikov Radishchev,Crime and Punishment
+238,Siberia from the chemist's,Crime and Punishment
+239,Ivan,Crime and Punishment
+240,mademoiselle,Crime and Punishment
+241,Madame Dushkin,Crime and Punishment
+242,Abraham,Crime and Punishment
+243,Bakaleyev,Crime and Punishment
+244,Kolya Raphael Schiller,Crime and Punishment
+245,Mr. Kobilatnikov,Crime and Punishment
+246,ov,Crime and Punishment
+247,my mother,Crime and Punishment
+248,my sister,Crime and Punishment
+249,ace,Crime and Punishment
+250,Ludwigovna Varents,Crime and Punishment
+251,Sofya,Crime and Punishment
+252,r,Crime and Punishment
+253,Nastasya,Crime and Punishment
+254,Semyonova,Crime and Punishment
+255,Prilukov Semyonova,Crime and Punishment
+256,Marlborough,Crime and Punishment
+257,Hans,Crime and Punishment
+258,Raphael,Crime and Punishment
+259,Henriette Island,Crime and Punishment
+260,Dr. B----n,Crime and Punishment
+261,Mr. Pashenka,Crime and Punishment
+262,Morgenfrüh,Crime and Punishment
+263,Solon,Crime and Punishment
+264,Petersburg,Crime and Punishment
+265,estryakov,Crime and Punishment
+266,Fancy,Crime and Punishment
+267,Madame Mamma,Crime and Punishment
+268,the woman whose girl they say drowned herself in the winter,Crime and Punishment
+269,Petrovsky,Crime and Punishment
+270,vidrigaïlov,Crime and Punishment
+271,Madame de Darya,Crime and Punishment
+272,Zaharovitch,Crime and Punishment
+273,Trinity,Crime and Punishment
+274,Piderit,Crime and Punishment
+275,Duclida,Crime and Punishment
+276,Harkov,Crime and Punishment
+277,Johann,Crime and Punishment
+278,Mihail Ro--Ro--Rodionovitch,Crime and Punishment
+279,Livingstone,Crime and Punishment
+280,Mihail Schiller,Crime and Punishment
+281,Dr. Fedosya,Crime and Punishment
+282,her husband,Crime and Punishment
+283,B,Crime and Punishment

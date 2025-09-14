@@ -1,0 +1,230 @@
+character1,character2,count
+Miss Saif Vinay,Sir Gaurav Vinay,313
+Chitrangada,Chitrangada Siddharth,113
+Mr. Gaurav,Sir Gaurav,65
+Mr. Gaurav,Sir Gaurav Vinay,49
+Mr. Krish,Sir Gaurav Vinay,38
+Detective Neha,Superintendent Sanjay,37
+Naman Sagar,Sir Gaurav Vinay,30
+Ronak,Superintendent Sanjay,25
+Miss Saif Vinay,Naman Sagar,24
+Rajkummar,Superintendent Sanjay,23
+Sir Gaurav,Sir Gaurav Vinay,23
+Sir Gaurav Vinay,Superintendent Sanjay,23
+Mr. Krish,Naman Sagar,22
+Detective Neha,Sir Gaurav Vinay,20
+Chitrangada,Superintendent Sanjay,19
+Chitrangada Siddharth,Sir Gaurav Vinay,19
+Miss Saif Vinay,Mr. Krish,19
+Mr. Krish,Mr. Sanjeev,19
+Mr. Sanjeev,Superintendent Sanjay,19
+Krish Vinay,Mr. Krish,17
+Krish Vinay,Sir Gaurav Vinay,17
+Urmila,Urmila Arjun,17
+Miss Saif Vinay,Mr. Gaurav,16
+Mr. Sanjeev,Sir Gaurav Vinay,16
+Chitrangada,Sir Gaurav Vinay,15
+Miss Saif Vinay,Sir Gaurav,15
+Ronak,Sir Gaurav Vinay,15
+Santhosh,Sir Gaurav Vinay,15
+Chitrangada,Ronak,14
+Mr. Sanjeev,Ronak,13
+Chitrangada Siddharth,Ronak,12
+Detective Neha,Miss Saif Vinay,12
+Miss Saif Vinay,Superintendent Sanjay,12
+Chitrangada Siddharth,Miss Siddharth,11
+Chitrangada Siddharth,Superintendent Sanjay,11
+Mr. Sanjeev,Naman Sagar,11
+Chitrangada,Mr. Krish,10
+Miss Saif Vinay,Naman,10
+Naman,Sir Gaurav Vinay,10
+Detective Neha,Naman Sagar,9
+Detective Neha,Sergeant Om,9
+Naman,Naman Sagar,9
+Santhosh,Santhosh Vinay,9
+Santhosh Vinay,Sir Gaurav Vinay,9
+Chitrangada,Detective Neha,8
+Chitrangada Siddharth,Detective Neha,7
+Chitrangada Siddharth,Mr. Krish,7
+Detective Neha,Mr. Krish,7
+Mr. Gaurav,Naman Sagar,7
+Mr. Monali,Sir Gaurav Vinay,7
+Chitrangada,Mr. Sanjeev,6
+Detective Neha,Rajkummar,6
+Miss Saif Vinay,Mr. Monali,6
+Miss Saif Vinay,Mr. Sanjeev,6
+Miss Saif Vinay,Santhosh,6
+Mr. Gaurav,Mr. Sanjeev,6
+Mr. Gaurav,Santhosh,6
+Mr. Krish,Superintendent Sanjay,6
+Naman Sagar,Sir Gaurav,6
+Chitrangada Siddharth,Mr. Gaurav,5
+Chitrangada Siddharth,Mr. Sanjeev,5
+Detective Neha,Mr. Sanjeev,5
+Detective Neha,Ronak,5
+Mr. Gaurav,Mr. Krish,5
+Mr. Krish,Sir Gaurav,5
+Santhosh,Sir Gaurav,5
+Farhan,Mr. Gaurav,4
+Farhan,Sir Gaurav,4
+Miss Saif Vinay,Rajkummar,4
+Miss Saif Vinay,Ronak,4
+Mr. Gaurav,Naman,4
+Mr. Krish,Santhosh,4
+Mr. Monali,Ronak,4
+Naman,Sir Gaurav,4
+Rajkummar,Sir Gaurav Vinay,4
+Charu,Naman Sagar,3
+Charu,Sir Gaurav Vinay,3
+Chitrangada,Krish Vinay,3
+Chitrangada,Mr. Gaurav,3
+Chitrangada,Naman Sagar,3
+Chitrangada,Santhosh,3
+Chitrangada Siddharth,Krish Vinay,3
+Chitrangada Siddharth,Miss Saif Vinay,3
+Chitrangada Siddharth,Naman Sagar,3
+Chitrangada Siddharth,Santhosh,3
+Detective Neha,Mahesh,3
+Detective Neha,Mr. Monali,3
+Krish Vinay,Superintendent Sanjay,3
+Lady Vinay,Sir Gaurav Vinay,3
+Miss Saif Vinay,Mrs. Ranbir,3
+Mr. Gaurav,Ronak,3
+Mr. Krish,Naman,3
+Mr. Monali,Mr. Sanjeev,3
+Mr. Monali,Sergeant Om,3
+Mr. Sanjeev,Sir Gaurav,3
+Mrs. Ranbir,Sir Gaurav Vinay,3
+Naman Sagar,Sergeant Om,3
+Sergeant Om,Sir Gaurav Vinay,3
+Sir Neeraj,Sir Neeraj Janhvi,3
+Alok,Javed,2
+Anirudh,Saira Imran,2
+Charu,Miss Saif Vinay,2
+Chitrangada Siddharth,Urmila,2
+Chitrangada Siddharth,Urmila Arjun,2
+Detective Neha,Mr. Gaurav,2
+Detective Neha,Mr. Gauri Reema,2
+Detective Neha,Santhosh,2
+Detective Neha,Shakuntala,2
+Inspector Fawad,Sergeant Om,2
+Inspector Fawad,Superintendent Sanjay,2
+Juhi,Mr. Gaurav,2
+Kareena,Superintendent Sanjay,2
+Karisma,Naman Sagar,2
+Krish Vinay,Naman Sagar,2
+Lady Vinay,Miss Saif Vinay,2
+Miss Saif Vinay,Saif,2
+Miss Saif Vinay,Sergeant Om,2
+Miss Saif Vinay,Sir Sania Udita,2
+Miss Saif Vinay,Urmila,2
+Miss Siddharth,Mr. Gaurav,2
+Mr. Gaurav,Mr. Monali,2
+Mr. Gaurav,Rajkummar,2
+Mr. Gaurav,Superintendent Sanjay,2
+Mr. Gauri Reema,Ronak,2
+Mr. Krish,Mr. Monali,2
+Mr. Monali,Naman Sagar,2
+Mr. Monali,Sir Gaurav,2
+Naman,Sir Sania Udita,2
+Naman Sagar,Santhosh,2
+Pavan,Shakuntala,2
+Rajkummar,Sir Gaurav,2
+Ronak,Santhosh,2
+Saif,Sir Gaurav Vinay,2
+Saira,Saira Imran,2
+Santhosh,Superintendent Sanjay,2
+Santhosh Vinay,Superintendent Sanjay,2
+Sir Gaurav Vinay,Sir Sania Udita,2
+Sir Gaurav Vinay,Urmila,2
+Superintendent Sanjay,Urmila,2
+Superintendent Sanjay,Urmila Arjun,2
+Anirudh,Lara,1
+Anirudh,Saira,1
+Chaitanya,Miss Saif Vinay,1
+Chaitanya,Mohanlal,1
+Chaitanya,Sir Gaurav Vinay,1
+Charu,Mr. Gaurav,1
+Charu,Sir Gaurav,1
+Charu,Superintendent Sanjay,1
+Chitrangada,Divya,1
+Chitrangada,Miss Saif Vinay,1
+Chitrangada,Santhosh Vinay,1
+Chitrangada,Urmila,1
+Chitrangada,Urmila Arjun,1
+Chitrangada Siddharth,Divya,1
+Chitrangada Siddharth,Rajkummar,1
+Chitrangada Siddharth,Santhosh Vinay,1
+Detective Neha,Inspector Fawad,1
+Detective Neha,Karan,1
+Detective Neha,Naman,1
+Detective Neha,Sir Gaurav,1
+Detective Neha,Vipin,1
+Dr. Vikrant,Sergeant Om,1
+Dr. Vikrant,Superintendent Sanjay,1
+Harsh,Shriman,1
+Inspector Fawad,Rajkummar,1
+Juhi,Rajeev,1
+Juhi,Rohit,1
+Juhi,Sir Gaurav Vinay,1
+Kareena,Keshav,1
+Kareena,Ronak,1
+Kareena,Vicky,1
+Keshav,Vicky,1
+Komal,Lady Bipasha,1
+Komal,Mr. Gaurav,1
+Komal,Sir Gaurav Vinay,1
+Krish Vinay,Miss Saif Vinay,1
+Krish Vinay,Mr. Gaurav,1
+Krish Vinay,Mr. Sanjeev,1
+Krish Vinay,Sir Gaurav,1
+Lady Vinay,Mahesh,1
+Lady Vinay,Mr. Gaurav,1
+Lady Vinay,Saif,1
+Lady Vinay,Sir Gaurav,1
+Leena Ritesh,Saira,1
+Leena Ritesh,Saira Pranav,1
+Mahesh,Miss Saif Vinay,1
+Mahesh,Mithun,1
+Mahesh,Sir Gaurav Vinay,1
+Manisha Vidya,Mr. Sanjeev,1
+Manisha Vidya,Virat,1
+Miss Saif Vinay,Miss Siddharth,1
+Miss Saif Vinay,Mohanlal,1
+Miss Saif Vinay,Santhosh Vinay,1
+Miss Saif Vinay,Urmila Arjun,1
+Miss Siddharth,Rajkummar,1
+Miss Siddharth,Sir Gaurav Vinay,1
+Mohanlal,Sir Gaurav Vinay,1
+Mohanlal,Tabu,1
+Mr. Gaurav,Saif,1
+Mr. Gaurav,Shafaq,1
+Mr. Gaurav,Sohail,1
+Mr. Gaurav,Tia,1
+Mr. Gauri Reema,Superintendent Sanjay,1
+Mr. Krish,Sir Neeraj,1
+Mr. Monali,Shakuntala,1
+Mr. Monali,Superintendent Sanjay,1
+Mr. Sanjeev,Urmila,1
+Mr. Sanjeev,Urmila Arjun,1
+Mr. Sanjeev,Virat,1
+Muskaan,Sakshi,1
+Naman,Saif,1
+Naman Sagar,Saif,1
+Naman Sagar,Shilpa,1
+Naman Sagar,Superintendent Sanjay,1
+Prerna,Ranjit,1
+Rajeev,Rohit,1
+Rajkummar,Sergeant Om,1
+Ranjit,Shabana Ranjan,1
+Ronak,Santhosh Vinay,1
+Saif,Sir Gaurav,1
+Saira,Saira Pranav,1
+Sergeant Om,Superintendent Sanjay,1
+Shafaq,Sir Gaurav,1
+Shafaq,Tia,1
+Shahid,Sonam,1
+Shakuntala,Superintendent Sanjay,1
+Sir Gaurav,Superintendent Sanjay,1
+Sir Gaurav,Tia,1
+Sir Gaurav Vinay,Urmila Arjun,1

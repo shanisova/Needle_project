@@ -1,0 +1,22 @@
+character1,character2,count
+Mary,my,7
+Arthur,my,6
+Sir George,Sir George Burnwell,6
+Arthur,Mary,5
+Lucy,Lucy Parr,3
+Sherlock Holmes,my,3
+god,my,3
+Mary Holder,Sherlock Holmes,2
+Mary Holder,my,2
+Watson,my,2
+Arthur,Sir George,1
+Arthur,Sir George Burnwell,1
+Lucy,my,1
+Lucy Parr,my,1
+Mary,Mary Holder,1
+Mary,Sir George,1
+Mary Holder,Miss Holder,1
+Sherlock Holmes,Sir George,1
+Sherlock Holmes,Sir George Burnwell,1
+Sir George,my,1
+Sir George Burnwell,my,1

@@ -1,0 +1,619 @@
+character1,character2,count
+Charles Parker,a,91
+Cousin Hallelujah Dawson,Miss Dawson,91
+Alexandra Climpson,a,69
+Miss Clara Whittaker,a,69
+Cousin Hallelujah Mary,Miss Clara Whittaker,65
+Bredon Delagardie Peter,a,61
+Gerald Bredon Wimsey,a,60
+Cousin Hallelujah Mary,Miss Mary Whittaker,57
+Miss Clara Whittaker,Miss Mary Whittaker,57
+Cousin Hallelujah Dawson,a,50
+Nurse,a,41
+Cousin Hallelujah Dawson,Miss Clara Whittaker,29
+Miss Dawson,a,29
+Cousin Hallelujah Mary,a,27
+Gotobed Bertha,a,24
+a,murder,23
+Charles Parker,Gerald Bredon Wimsey,22
+Cousin Hallelujah Dawson,Miss Agatha,22
+Nurse,Nurse Forbes,22
+Mrs. Forrest,a,21
+Bertha Gotobed,Gotobed Bertha,20
+Cousin Hallelujah,a,20
+a,town,20
+Miss Vera,Miss Vera Findlater,19
+Miss Clara Whittaker,Miss Dawson,18
+Bredon Delagardie Peter,Gerald Bredon Wimsey,17
+J. Murbles,a,17
+Miss Vera Findlater,a,17
+Cousin Hallelujah Dawson,Miss Agatha Dawson,16
+Miss Agatha,Miss Agatha Dawson,16
+Miss Clara Whittaker,Miss Vera Findlater,16
+Miss Mary Whittaker,a,16
+Rev. Charles,Sir Charles,16
+Nurse,Nurse Philliter,15
+Bredon Delagardie Peter,Charles Parker,14
+Cousin Hallelujah Dawson,Cousin Hallelujah Mary,13
+Charles Parker,inspector,12
+Evelyn Cropper,a,12
+Alexandra Climpson,Gerald Bredon Wimsey,11
+Dr. Edward Carr,a,11
+a,god,11
+a,self,11
+Alexandra Climpson,Miss Clara Whittaker,10
+Bunter,a,10
+Cousin Hallelujah,Cousin Hallelujah Dawson,10
+Gotobed Bertha,Miss Clara Whittaker,10
+J. F. Trigg,a,10
+Rev. Charles,a,10
+Alexandra Climpson,Bredon Delagardie Peter,9
+Bredon Delagardie Peter,Cousin Hallelujah Dawson,9
+Charles Parker,Inspector Parker,9
+Cousin Hallelujah Dawson,Miss Mary Whittaker,9
+Inspector Parker,inspector,9
+Miss Agatha,a,9
+a,inspector,9
+a,mark,9
+Miss Agatha,Miss Clara Whittaker,8
+Miss Agatha Dawson,a,8
+Nurse Forbes,a,8
+Ben Cobling,a,7
+Bertha Gotobed,a,7
+Gerald,a,7
+Miss Clara Whittaker,Nurse,7
+Mr. Probyn,a,7
+a,ham,7
+Ben,Ben Cobling,6
+Bredon Delagardie Peter,Mother,6
+Cousin Hallelujah Dawson,Nurse,6
+Cousin Hallelujah Dawson,Simon,6
+Cousin Hallelujah Mary,Miss Dawson,6
+Cousin Hallelujah Mary,Miss Vera,6
+Crofton,a,6
+Miss Clara Whittaker,Miss Vera,6
+Mother,a,6
+Mrs. Hamilton Budge,a,6
+a,brandy,6
+Alexandra Climpson,Miss Vera Findlater,5
+Bertha Gotobed,Evelyn Gotobed,5
+Bertha Gotobed,Gotobed Evelyn,5
+Bredon Delagardie Peter,Miss Clara Whittaker,5
+Charles Parker,murder,5
+Cousin Hallelujah Dawson,Simon Dawson,5
+Cousin Hallelujah Mary,Miss Agatha,5
+Cousin Hallelujah Mary,Miss Vera Findlater,5
+Denver,Gerald,5
+Evelyn Gotobed,Gotobed Evelyn,5
+Miss Agatha,Miss Mary Whittaker,5
+Miss Murgatroyd,a,5
+Mr. Towkington,a,5
+Rev. Charles,Sir Charles Pillington,5
+Simon,Simon Dawson,5
+Sir Charles,Sir Charles Pillington,5
+a,epping,5
+Alexandra Climpson,Miss Vera,4
+Bunter,Charles Parker,4
+Bunter,Gerald Bredon Wimsey,4
+Charles Parker,Miss Clara Whittaker,4
+Charles Parker,Miss Vera Findlater,4
+Cousin Hallelujah,murder,4
+Cousin Hallelujah Dawson,Gotobed Bertha,4
+Cousin Hallelujah Mary,Miss Agatha Dawson,4
+Evelyn Cropper,Gotobed Evelyn,4
+Father Paul,a,4
+Gerald Bredon Wimsey,Paul Austin Delagardie,4
+Gotobed Bertha,Gotobed Evelyn,4
+James,Miss Clara Whittaker,4
+Miss Agatha Dawson,Miss Clara Whittaker,4
+Miss Agatha Dawson,Miss Mary Whittaker,4
+Miss Dawson,Nurse,4
+Miss Mary Whittaker,Miss Vera,4
+Miss Mary Whittaker,Miss Vera Findlater,4
+Mr. Henry,a,4
+Mr. Templeton,a,4
+Nurse Philliter,a,4
+Pointer,Winkin,4
+Rev. Charles,god,4
+Simon,a,4
+Sir Charles,a,4
+a,queer,4
+Alexandra Climpson,Charles Parker,3
+Alexandra Climpson,Cousin Hallelujah Dawson,3
+Alexandra Climpson,Cousin Hallelujah Mary,3
+Alexandra Climpson,Miss Dawson,3
+Alexandra Climpson,Miss Mary Whittaker,3
+Ben Cobling,Cousin Hallelujah,3
+Bertha Gotobed,Cousin Hallelujah Dawson,3
+Bertha Gotobed,Miss Vera Findlater,3
+Bredon Delagardie Peter,Bunter,3
+Bredon Delagardie Peter,J. Murbles,3
+Bredon Delagardie Peter,Miss Agatha,3
+Bredon Delagardie Peter,Miss Dawson,3
+Burke,a,3
+Charles Parker,Mr. Probyn,3
+Charles Parker,Rev. Charles,3
+Charles Parker,Sir Charles Pillington,3
+Christian,a,3
+Cousin Hallelujah,Cousin Hallelujah Mary,3
+Cousin Hallelujah,Miss Clara Whittaker,3
+Cousin Hallelujah Dawson,Gerald Bredon Wimsey,3
+Cousin Hallelujah Dawson,Miss Murgatroyd,3
+Denver,a,3
+Dr. Faulkner,a,3
+Father Paul,Paul Austin Delagardie,3
+Gerald Bredon Wimsey,J. Murbles,3
+Gerald Bredon Wimsey,Rev. Charles,3
+Gerald Bredon Wimsey,murder,3
+Gotobed Bertha,Miss Dawson,3
+Hopkins,a,3
+James,Mr. James Whittaker,3
+James,Sir James Lubbock,3
+Matron,a,3
+Miss Agatha,Miss Harriet,3
+Miss Clara Whittaker,Mr. James Whittaker,3
+Miss Clara Whittaker,Mrs. Forrest,3
+Miss Clara Whittaker,Mrs. Hamilton Budge,3
+Miss Clara Whittaker,Rev. Charles,3
+Miss Clara Whittaker,town,3
+Miss Dawson,Miss Mary Whittaker,3
+Sir Warburton,Sir Warburton Giles,3
+a,lambert,3
+a,wicked,3
+mallecho,miching,3
+Alexandra Climpson,Mrs. Hamilton Budge,2
+Alf,a,2
+Ben,Cousin Hallelujah,2
+Bertha Gotobed,Evelyn Cropper,2
+Bertha Gotobed,J. Murbles,2
+Bertha Gotobed,Miss Dawson,2
+Bertha Gotobed,Miss Vera,2
+Bertha Gotobed,murder,2
+Bosun,Cousin Hallelujah,2
+Bosun,Cousin Hallelujah Dawson,2
+Bosun,Simon,2
+Bosun,Simon Dawson,2
+Bredon Delagardie Peter,Crofton,2
+Bredon Delagardie Peter,Denver,2
+Bredon Delagardie Peter,Inspector Parker,2
+Bredon Delagardie Peter,Matron,2
+Bredon Delagardie Peter,Paul Austin Delagardie,2
+Bredon Delagardie Peter,Rev. Charles,2
+Bredon Delagardie Peter,god,2
+Bredon Delagardie Peter,inspector,2
+Bredon Delagardie Peter,murder,2
+Bunter,town,2
+Burke,Hare,2
+Charles Parker,Cousin Hallelujah,2
+Charles Parker,Cousin Hallelujah Dawson,2
+Charles Parker,Cousin Hallelujah Mary,2
+Charles Parker,Crofton,2
+Charles Parker,Miss Mary Whittaker,2
+Charles Parker,Mrs. Forrest,2
+Charles Parker,Sir Charles,2
+Charles Parker,epping,2
+Charles Whittaker,Miss Clara Whittaker,2
+Charles Whittaker,Rev. Charles,2
+Cousin Hallelujah,Gerald Bredon Wimsey,2
+Cousin Hallelujah,Miss Mary Whittaker,2
+Cousin Hallelujah,Mr. Probyn,2
+Cousin Hallelujah,Simon,2
+Cousin Hallelujah,Simon Dawson,2
+Cousin Hallelujah,bearer,2
+Cousin Hallelujah,lambert,2
+Cousin Hallelujah Dawson,J. Murbles,2
+Cousin Hallelujah Dawson,Mr. Henry,2
+Cousin Hallelujah Dawson,Mr. Hodgson,2
+Cousin Hallelujah Dawson,Mr. Probyn,2
+Cousin Hallelujah Dawson,Mrs. Hamilton Budge,2
+Cousin Hallelujah Dawson,Rev. Charles,2
+Cousin Hallelujah Dawson,Timmins,2
+Cousin Hallelujah Dawson,bearer,2
+Cousin Hallelujah Dawson,murder,2
+Cousin Hallelujah Mary,Gerald,2
+Dr. Edward Carr,Nurse,2
+Dr. Paterson,a,2
+Evelyn Cropper,Evelyn Gotobed,2
+Evelyn Gotobed,Gotobed Bertha,2
+Father Paul,Gerald Bredon Wimsey,2
+Fletcher,a,2
+Gerald Bredon Wimsey,Inspector Parker,2
+Gerald Bredon Wimsey,Miss Clara Whittaker,2
+Gerald Bredon Wimsey,Miss Vera Findlater,2
+Gerald Bredon Wimsey,Mrs. Forrest,2
+Gerald Bredon Wimsey,Sylvia Lyndhurst,2
+Gerald Bredon Wimsey,god,2
+Gerald Bredon Wimsey,inspector,2
+Gerald Bredon Wimsey,town,2
+Gotobed Bertha,Mrs. Forrest,2
+Gotobed Evelyn,a,2
+Hare,a,2
+J. Murbles,Miss Clara Whittaker,2
+James,Miss Harriet,2
+James,a,2
+Miss Clara Whittaker,Miss Harriet,2
+Miss Clara Whittaker,Miss Murgatroyd,2
+Miss Clara Whittaker,Nurse Forbes,2
+Miss Dawson,Miss Murgatroyd,2
+Miss Dawson,Mr. Hodgson,2
+Miss Dawson,Mrs. Hamilton Budge,2
+Miss Dawson,Rev. Charles,2
+Miss Dawson,Timmins,2
+Miss Grant,a,2
+Miss Grant,inspector,2
+Miss Murgatroyd,Nurse,2
+Miss Murgatroyd,Nurse Forbes,2
+Miss Vera,a,2
+Miss Vera Findlater,Mrs. Forrest,2
+Miss Vera Findlater,murder,2
+Mr. Probyn,lambert,2
+Napoleon,a,2
+Paul Austin Delagardie,a,2
+Simon Dawson,a,2
+Sir Andrew,Sir Andrew Mackenzie,2
+Sir Charles Pillington,a,2
+Sir Warburton,a,2
+Sir Warburton Giles,a,2
+Sylvia,a,2
+Timmins,a,2
+Timmins,raustus,2
+Timmins,sambo,2
+a,bearer,2
+a,holborn,2
+a,raustus,2
+a,sambo,2
+a,tooting,2
+brandy,ham,2
+epping,ham,2
+raustus,sambo,2
+Alexandra Climpson,Bertha Gotobed,1
+Alexandra Climpson,Dr. Faulkner,1
+Alexandra Climpson,Gotobed Bertha,1
+Alexandra Climpson,Mr. Henry,1
+Alexandra Climpson,Napoleon,1
+Alexandra Climpson,Nurse,1
+Alexandra Climpson,Pearson,1
+Alexandra Climpson,Thomas Hardy,1
+Alexandra Climpson,Timmins,1
+Alexandra Climpson,Wilkie Collins,1
+Alexandra Climpson,god,1
+Alexandra Climpson,marmaduke,1
+Alexandra Climpson,murder,1
+Alexandra Climpson,parfitt,1
+Alexandra Climpson,queer,1
+Alexandra Climpson,wicked,1
+Alf,Charles Parker,1
+Allcock,Miss Clara Whittaker,1
+Allcock,a,1
+Armstrong,martin,1
+Barbara,Bredon Delagardie Peter,1
+Barbara,a,1
+Barbara,eglamore,1
+Barnabas,Cousin Hallelujah Dawson,1
+Barnabas,a,1
+Beaumont,Fletcher,1
+Beaumont,Gerald Bredon Wimsey,1
+Beaumont,a,1
+Ben,Cousin Hallelujah Dawson,1
+Ben,Miss Clara Whittaker,1
+Ben,Mother,1
+Ben,a,1
+Ben,whittakers,1
+Ben Cobling,Charles Parker,1
+Ben Cobling,Cousin Hallelujah Dawson,1
+Ben Cobling,Miss Dawson,1
+Ben Cobling,whittakers,1
+Ben Cobling,wicked,1
+Ben Cobling,william,1
+Bertha Gotobed,Bredon Delagardie Peter,1
+Bertha Gotobed,Charles Parker,1
+Bertha Gotobed,Gerald Bredon Wimsey,1
+Bertha Gotobed,J. F. Trigg,1
+Bertha Gotobed,Miss Agatha,1
+Bertha Gotobed,Miss Clara Whittaker,1
+Bertha Gotobed,Mrs. Forrest,1
+Bertha Gotobed,epping,1
+Bertha Gotobed,inspector,1
+Bosun,Gerald Bredon Wimsey,1
+Bredon Delagardie Peter,Christian,1
+Bredon Delagardie Peter,Cousin Hallelujah Mary,1
+Bredon Delagardie Peter,Dr. Edward Carr,1
+Bredon Delagardie Peter,Evelyn Cropper,1
+Bredon Delagardie Peter,Father Paul,1
+Bredon Delagardie Peter,Gotobed Bertha,1
+Bredon Delagardie Peter,James,1
+Bredon Delagardie Peter,Miss Agatha Dawson,1
+Bredon Delagardie Peter,Miss Mary Whittaker,1
+Bredon Delagardie Peter,Miss Sayers,1
+Bredon Delagardie Peter,Miss Vera Findlater,1
+Bredon Delagardie Peter,Mr. Henry,1
+Bredon Delagardie Peter,Mr. Towkington,1
+Bredon Delagardie Peter,Nurse,1
+Bredon Delagardie Peter,Pearson,1
+Bredon Delagardie Peter,Pierrot,1
+Bredon Delagardie Peter,Sir Andrew,1
+Bredon Delagardie Peter,Sir Andrew Mackenzie,1
+Bredon Delagardie Peter,Sir James Lubbock,1
+Bredon Delagardie Peter,Sylvia,1
+Bredon Delagardie Peter,biggers,1
+Bredon Delagardie Peter,derr,1
+Bredon Delagardie Peter,eglamore,1
+Bredon Delagardie Peter,hullo,1
+Bredon Delagardie Peter,victoria,1
+Bunter,Evelyn Cropper,1
+Bunter,Inspector Parker,1
+Bunter,god,1
+Bunter,inspector,1
+Bunter,quartermain,1
+Butler,Miss Murgatroyd,1
+Chamberlin,Levine,1
+Chamberlin,Segrave,1
+Chapman,Gerald Bredon Wimsey,1
+Chapman,a,1
+Charles Parker,Gotobed Bertha,1
+Charles Parker,J. F. Trigg,1
+Charles Parker,J. Murbles,1
+Charles Parker,Miss Agatha,1
+Charles Parker,Miss Agatha Dawson,1
+Charles Parker,Miss Dawson,1
+Charles Parker,Miss Vera,1
+Charles Parker,Mr. Templeton,1
+Charles Parker,Sir Andrew,1
+Charles Parker,Sir Andrew Mackenzie,1
+Charles Parker,crockfords,1
+Charles Parker,housman,1
+Charles Parker,mark,1
+Charles Parker,marmaduke,1
+Charles Parker,quartermain,1
+Charles Parker,queer,1
+Charles Parker,wicked,1
+Charles Whittaker,a,1
+Christian,Gerald Bredon Wimsey,1
+Christian,Mr. Henry,1
+Christian,biggers,1
+Christian,derr,1
+Cousin Hallelujah,Esmeralda,1
+Cousin Hallelujah,Father Paul,1
+Cousin Hallelujah,Miss Dawson,1
+Cousin Hallelujah,Timmins,1
+Cousin Hallelujah,town,1
+Cousin Hallelujah,william,1
+Cousin Hallelujah Dawson,Dr. Edward Carr,1
+Cousin Hallelujah Dawson,Evelyn Gotobed,1
+Cousin Hallelujah Dawson,Father Paul,1
+Cousin Hallelujah Dawson,Gotobed Evelyn,1
+Cousin Hallelujah Dawson,Harkaway,1
+Cousin Hallelujah Dawson,J. F. Trigg,1
+Cousin Hallelujah Dawson,Nurse Forbes,1
+Cousin Hallelujah Dawson,Nurse Philliter,1
+Cousin Hallelujah Dawson,Pointer,1
+Cousin Hallelujah Dawson,Winkin,1
+Cousin Hallelujah Dawson,god,1
+Cousin Hallelujah Dawson,town,1
+Cousin Hallelujah Mary,Denver,1
+Cousin Hallelujah Mary,Gerald Bredon Wimsey,1
+Cousin Hallelujah Mary,J. Murbles,1
+Cousin Hallelujah Mary,Mrs. Forrest,1
+Cousin Hallelujah Mary,Nurse,1
+Cousin Hallelujah Mary,Simon,1
+Cousin Hallelujah Mary,bearer,1
+Cousin Hallelujah Mary,cook,1
+Cousin Hallelujah Mary,murder,1
+Cousin Hallelujah Mary,town,1
+Cousin Tom,a,1
+Crofton,Evelyn Cropper,1
+Crofton,mark,1
+Crofton,town,1
+Denver,Francis Delagardie,1
+Denver,Gerald Bredon Wimsey,1
+Denver,Honoria Lucasta,1
+Denver,Mother,1
+Denver,Paul Austin Delagardie,1
+Denver,murder,1
+Dr. Edward Carr,Miss Clara Whittaker,1
+Dr. Edward Carr,Miss Dawson,1
+Dr. Edward Carr,Nurse Philliter,1
+Evelyn Cropper,Gerald Bredon Wimsey,1
+Evelyn Cropper,Miss Clara Whittaker,1
+Evelyn Cropper,town,1
+Evelyn Gotobed,Miss Agatha,1
+Evelyn Gotobed,a,1
+Evelyn Gotobed,inspector,1
+Father Paul,Miss Agatha,1
+Father Paul,Miss Agatha Dawson,1
+Father Paul,Miss Sayers,1
+Fletcher,Gerald Bredon Wimsey,1
+Foxlaw,Grace,1
+Foxlaw,Rev. Hammond,1
+Foxlaw,murder,1
+Francis Delagardie,Gerald,1
+Francis Delagardie,Gerald Bredon Wimsey,1
+Francis Delagardie,Honoria Lucasta,1
+Francis Delagardie,Paul Austin Delagardie,1
+Freddy Arbuthnot,Gerald Bredon Wimsey,1
+Gerald,Gerald Bredon Wimsey,1
+Gerald,Helen,1
+Gerald,Honoria Lucasta,1
+Gerald,Paul Austin Delagardie,1
+Gerald Bredon Wimsey,Gotobed Bertha,1
+Gerald Bredon Wimsey,Honoria Lucasta,1
+Gerald Bredon Wimsey,Miss Dawson,1
+Gerald Bredon Wimsey,Miss Vera,1
+Gerald Bredon Wimsey,Mr. Henry,1
+Gerald Bredon Wimsey,Mr. Templeton,1
+Gerald Bredon Wimsey,Pearson,1
+Gerald Bredon Wimsey,Simon,1
+Gerald Bredon Wimsey,Simon Dawson,1
+Gerald Bredon Wimsey,Sir Charles,1
+Gerald Bredon Wimsey,Sir Charles Pillington,1
+Gerald Bredon Wimsey,biggers,1
+Gerald Bredon Wimsey,derr,1
+Gerald Bredon Wimsey,dumas,1
+Gerald Bredon Wimsey,ham,1
+Gerald Bredon Wimsey,self,1
+Gotobed Bertha,J. F. Trigg,1
+Gotobed Bertha,J. Murbles,1
+Gotobed Bertha,Jim,1
+Gotobed Bertha,Miss Agatha,1
+Gotobed Bertha,Miss Vera,1
+Gotobed Bertha,Miss Vera Findlater,1
+Gotobed Bertha,Mother,1
+Gotobed Bertha,epping,1
+Gotobed Bertha,lyons,1
+Gotobed Bertha,mark,1
+Gotobed Bertha,murder,1
+Gotobed Bertha,town,1
+Gotobed Evelyn,Miss Agatha,1
+Gotobed Evelyn,Miss Clara Whittaker,1
+Gotobed Evelyn,Nurse,1
+Gotobed Evelyn,inspector,1
+Grace,Rev. Hammond,1
+Grace,murder,1
+Harkaway,Simon,1
+Harkaway,a,1
+Harkaway,god,1
+Helen,a,1
+Henry Vane,Miss Harriet,1
+Henry Vane,Mr. Henry,1
+Honoria Lucasta,Paul Austin Delagardie,1
+Inspector Parker,a,1
+Inspector Sugg,a,1
+Inspector Sugg,inspector,1
+J. F. Trigg,Miss Clara Whittaker,1
+J. F. Trigg,Miss Dawson,1
+J. F. Trigg,murder,1
+J. F. Trigg,p,1
+J. Murbles,Miss Agatha,1
+J. Murbles,Miss Agatha Dawson,1
+J. Murbles,Miss Dawson,1
+J. Murbles,Miss Mary Whittaker,1
+J. Murbles,Mr. Probyn,1
+J. Murbles,Rev. Charles,1
+J. Murbles,mark,1
+J. Murbles,murder,1
+James,Miss Agatha,1
+Jim,Miss Clara Whittaker,1
+Jim,a,1
+Jim,lyons,1
+Jim,town,1
+Levine,Segrave,1
+Miss Agatha,Mr. Henry,1
+Miss Agatha,Mr. Probyn,1
+Miss Agatha Dawson,Mr. Probyn,1
+Miss Clara Whittaker,Mr. Simms-Gaythorpe,1
+Miss Clara Whittaker,Simon,1
+Miss Clara Whittaker,bearer,1
+Miss Clara Whittaker,erinyes,1
+Miss Clara Whittaker,inspector,1
+Miss Clara Whittaker,lyons,1
+Miss Clara Whittaker,mark,1
+Miss Clara Whittaker,murder,1
+Miss Clara Whittaker,self,1
+Miss Clara Whittaker,wicked,1
+Miss Dawson,Mr. Probyn,1
+Miss Dawson,Nurse Forbes,1
+Miss Dawson,Nurse Philliter,1
+Miss Dawson,murder,1
+Miss Harriet,Mr. Henry,1
+Miss Harriet,a,1
+Miss Mary Whittaker,Mrs. Forrest,1
+Miss Mary Whittaker,Simon,1
+Miss Mary Whittaker,bearer,1
+Miss Mary Whittaker,murder,1
+Miss Sayers,Paul Austin Delagardie,1
+Miss Sayers,a,1
+Miss Vera,murder,1
+Miss Vera,queer,1
+Miss Vera,self,1
+Miss Vera Findlater,Sir Charles Pillington,1
+Miss Vera Findlater,erinyes,1
+Miss Vera Findlater,god,1
+Miss Vera Findlater,self,1
+Miss Vera Findlater,town,1
+Mother,cook,1
+Mr. Andrews,a,1
+Mr. Henry,papist,1
+Mr. Simms-Gaythorpe,a,1
+Mrs. Forrest,Sylvia,1
+Mrs. Forrest,Sylvia Lyndhurst,1
+Mrs. Forrest,brandy,1
+Mrs. Forrest,epping,1
+Mrs. Forrest,inspector,1
+Mrs. Forrest,murder,1
+NIPPY,epping,1
+Nurse,Sir Warburton,1
+Nurse,queer,1
+Nurse,town,1
+Nurse Forbes,Nurse Philliter,1
+Pepys,a,1
+Pritchard,taylor,1
+Rev. Charles,Sherlock,1
+Rev. Charles,Sir Warburton,1
+Rev. Charles,Sir Warburton Giles,1
+Rev. Charles,murder,1
+Rev. Charles,worplesham,1
+Rev. Hammond,murder,1
+Roger,a,1
+Sammy,a,1
+Sheila Kaye-Smith,smith,1
+Siegfried,murder,1
+Simon,god,1
+Simon,wicked,1
+Sir Andrew,a,1
+Sir Andrew Mackenzie,a,1
+Sir Charles,god,1
+Sir Edward Coke,a,1
+Sir James Lubbock,a,1
+Sir Warburton,town,1
+Solomon,a,1
+Superintendent Walmisley,a,1
+Sylvia,Sylvia Lyndhurst,1
+Sylvia Lyndhurst,a,1
+Sylvia Lyndhurst,murder,1
+Wilkie Collins,a,1
+a,almighty,1
+a,arlen,1
+a,biggers,1
+a,climpsons,1
+a,cook,1
+a,crockfords,1
+a,deary,1
+a,derr,1
+a,dick,1
+a,dove,1
+a,dumas,1
+a,eglamore,1
+a,goth,1
+a,harrow,1
+a,ingoldsby,1
+a,kraska,1
+a,lyons,1
+a,marmaduke,1
+a,michael,1
+a,papist,1
+a,quartermain,1
+a,sheridan,1
+a,swiveller,1
+a,williams,1
+a,zeus,1
+almighty,god,1
+arlen,michael,1
+arlen,town,1
+bearer,town,1
+biggers,derr,1
+brandy,queer,1
+cook,god,1
+dick,swiveller,1
+dumas,god,1
+elinor,glyn,1
+eve,god,1
+eve,milton,1
+god,milton,1
+god,wicked,1
+goth,ham,1
+ham,self,1
+harrow,town,1
+hullo,tennyson,1
+lambert,sheridan,1
+lyons,town,1
+michael,town,1

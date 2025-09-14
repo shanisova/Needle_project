@@ -1,0 +1,429 @@
+character1,character2,count
+Miss Anjali,Mr. Shakuntala,88
+Anjali Hina,Disha,65
+Anjali Hina,Disha Hina,64
+Disha,Disha Hina,64
+Anjali Hina,Miss Hina,59
+Miss Anjali,Shalu,59
+Prerna,Prerna Aishwarya,47
+Shalu,Vinita,34
+Anjali Hina,Prerna Aishwarya,32
+Manisha,Mr. Manisha Kavita,32
+Miss Aishwarya,Prerna Aishwarya,30
+Miss Asin,Prerna Aishwarya,25
+Mr. Shakuntala,Shakuntala Tabu,25
+Mr. Shakuntala,Shalu,25
+Anjali Hina,Miss Anjali,24
+Mr. Manisha Kavita,Mr. Shakuntala,24
+Alok Mohanlal,Prerna Aishwarya,20
+Miss Anjali,Roshan,20
+Miss Anjali,Shakuntala Tabu,20
+Miss Anjali,Prerna Aishwarya,19
+Alok Mohanlal,Katrina Anushka,18
+Alok Mohanlal,Mr. Shakuntala,18
+Lady Ranjan,Lady Ranjan Gauri,18
+Katrina Anushka,Prerna Aishwarya,17
+Miss Anjali,Vinita,16
+Mr. Kriti Siddharth,Prerna Aishwarya,16
+Lady Ranjan,Prerna Aishwarya,15
+Lady Ranjan Gauri,Mr. Manisha Kavita,15
+Disha,Prerna Aishwarya,14
+Disha Hina,Prerna Aishwarya,14
+Mr. Manisha Kavita,Shakuntala Tabu,14
+Vinita,Vinita Nidhi,14
+Alok Mohanlal,Anil Taapsee,12
+Alok Mohanlal,Anjali Hina,12
+Anjali Hina,Shakuntala Tabu,12
+Asin Aishwarya,Miss Asin,12
+Asin Aishwarya,Prerna Aishwarya,12
+Disha,Mr. Shakuntala,12
+Miss Anjali,Miss Asin,12
+Pankaj,Pankaj Om,12
+Pankaj Om,Shalu,12
+Alok Mohanlal,Mr. Kriti Siddharth,11
+Alok Mohanlal,Shakuntala Tabu,11
+Anjali Hina,Mr. Shakuntala,11
+Anjali Hina,Shalu,11
+Mr. Shakuntala,Prerna Aishwarya,11
+Pankaj Om,Shalu Om,11
+Shalu,Shalu Om,11
+Alok Mohanlal,Mr. Manisha Kavita,10
+Anil Taapsee,Mr. Kriti Siddharth,10
+Anjali Hina,Prerna,10
+Manisha,Mr. Shakuntala,10
+Mr. Manisha Kavita,Vidya,10
+Shakuntala Tabu,Shalu,10
+Disha,Prerna,9
+Disha Hina,Prerna,9
+Lara,Mr. Manisha Kavita,9
+Miss Asin,Shalu,9
+Mr. Kriti Siddharth,Shalu,9
+Mr. Manisha Kavita,Prerna Aishwarya,9
+Mr. Shakuntala,Vinita,9
+Katrina Anushka,Mr. Kriti Siddharth,8
+Alok,Alok Mohanlal,7
+Alok Mohanlal,Miss Asin,7
+Anil Taapsee,Prerna Aishwarya,7
+Disha,Miss Anjali,7
+Guneet,Katrina Anushka,7
+Miss Anjali,Pankaj Om,7
+Mr. Kriti Siddharth,Shakuntala Tabu,7
+Mr. Manisha Kavita,Shahid,7
+Alok Mohanlal,Pankaj,6
+Anil,Anil Ritesh,6
+Anil Taapsee,Vinita,6
+Anjali Hina,Lady Ranjan,6
+Anjali Hina,Mr. Kriti Siddharth,6
+Anjali Hina,Mr. Manisha Kavita,6
+Disha,Shakuntala Tabu,6
+Katrina Anushka,Lady Ranjan,6
+Lady Ranjan Gauri,Vidya,6
+Lady Ranjan Gauri,Vidya Gauri,6
+Miss Anjali,Mr. Kriti Siddharth,6
+Miss Lara Anaya,Mr. Manisha Kavita,6
+Mr. Kriti Siddharth,Mr. Shakuntala,6
+Mr. Shakuntala,Roshan,6
+Pankaj,Prerna Aishwarya,6
+Shalu,Vinita Nidhi,6
+Vidya,Vidya Gauri,6
+Alok Mohanlal,Miss Anjali,5
+Alok Mohanlal,Shalu,5
+Anil Taapsee,Shalu,5
+Anjali Hina,Katrina Anushka,5
+Anjali Hina,Pankaj Om,5
+Anjali Hina,Shalu Om,5
+Anjali Hina,Vinita,5
+Kriti,Mr. Kriti Siddharth,5
+Lady Ranjan Gauri,Prerna Aishwarya,5
+Lara,Miss Lara Anaya,5
+Miss Asin,Pankaj,5
+Mr. Manisha Kavita,Pankaj,5
+Mr. Manisha Kavita,Vidya Gauri,5
+Mr. Shakuntala,Mrs. Sameera,5
+Prerna Aishwarya,Shakuntala Tabu,5
+Tanisha,Tanisha Vikas,5
+Alok Mohanlal,Disha,4
+Alok Mohanlal,Disha Hina,4
+Alok Mohanlal,Mrs. Sameera,4
+Anil Taapsee,Mr. Shakuntala,4
+Anil Taapsee,Shakuntala Tabu,4
+Disha,Mr. Kriti Siddharth,4
+Disha,Shalu,4
+Disha,Vinita,4
+Disha Hina,Shakuntala Tabu,4
+Genelia,Mr. Shakuntala,4
+Guneet,Prerna Aishwarya,4
+Katrina Anushka,Tanvi,4
+Keshav,Prerna Aishwarya,4
+Lady Ranjan,Prerna,4
+Manisha,Miss Anjali,4
+Miss Anjali,Mr. Manisha Kavita,4
+Miss Anjali,Vinita Nidhi,4
+Miss Hina,Prerna Aishwarya,4
+Miss Hina,Shakuntala Tabu,4
+Mr. Chaitanya,Shakuntala Tabu,4
+Mr. Chaitanya,Vinita,4
+Mr. Kriti Siddharth,Mr. Manisha Kavita,4
+Pankaj,Shalu,4
+Pankaj Om,Tanvi,4
+Prerna Aishwarya,Shalu,4
+Alok Mohanlal,Guneet,3
+Alok Mohanlal,Lady Ranjan Gauri,3
+Alok Mohanlal,Tanvi,3
+Anil,Mr. Shakuntala,3
+Anil Taapsee,Miss Anjali,3
+Anil Taapsee,Miss Asin,3
+Anirudh,Shalu,3
+Anjali Hina,Lara,3
+Disha,Lady Ranjan,3
+Disha Hina,Lady Ranjan,3
+Genelia,Manisha,3
+Katrina Anushka,Miss Asin,3
+Katrina Anushka,Mr. Shakuntala,3
+Katrina Anushka,Pankaj,3
+Lady Ranjan Gauri,Shahid,3
+Lara,Prerna Aishwarya,3
+Mahesh,Mahesh Rohit,3
+Manisha,Miss Asin,3
+Miss Aishwarya,Miss Anjali,3
+Miss Aishwarya,Mr. Manisha Kavita,3
+Miss Anjali,Prerna,3
+Miss Asin,Mr. Manisha Kavita,3
+Miss Asin,Prerna,3
+Miss Asin,Shakuntala Tabu,3
+Miss Hina,Mr. Kriti Siddharth,3
+Miss Hina,Shalu,3
+Miss Lara Anaya,Mr. Shakuntala,3
+Miss Lara Anaya,Prerna Aishwarya,3
+Mr. Chaitanya,Mr. Shakuntala,3
+Mr. Shakuntala,Vidya,3
+Pankaj,Tanvi,3
+Pankaj Om,Vinita,3
+Payal,Shalu,3
+Prerna Aishwarya,Vidya,3
+Shakuntala Tabu,Vidya,3
+Alok,Lara,2
+Alok Mohanlal,Anil,2
+Alok Mohanlal,Anil Ritesh,2
+Alok Mohanlal,Lara,2
+Alok Mohanlal,Manisha,2
+Alok Mohanlal,Miss Lara Anaya,2
+Alok Mohanlal,Pankaj Om,2
+Anil,Shalu,2
+Anil Taapsee,Disha,2
+Anil Taapsee,Payal,2
+Anil Taapsee,Tanvi,2
+Anjali Hina,Kriti,2
+Anjali Hina,Richa,2
+Asin Anushka,Katrina Anushka,2
+Asin Anushka,Miss Asin,2
+Dharmendra,Tejasswi Shriman,2
+Disha,Katrina Anushka,2
+Disha,Manisha,2
+Disha,Mr. Manisha Kavita,2
+Disha,Richa,2
+Disha Hina,Katrina Anushka,2
+Disha Hina,Miss Anjali,2
+Disha Hina,Richa,2
+Genelia,Miss Anjali,2
+Gully Tabu,Shakuntala Tabu,2
+Guneet,Keshav,2
+Guneet,Lara,2
+Guneet,Mr. Kriti Siddharth,2
+Katrina Anushka,Lady Ranjan Gauri,2
+Katrina Anushka,Miss Anjali,2
+Katrina Anushka,Pankaj Om,2
+Keshav,Miss Lara Anaya,2
+Kriti,Miss Hina,2
+Lady Ranjan,Lara,2
+Lady Ranjan,Miss Asin,2
+Lady Ranjan,Mr. Shakuntala,2
+Lady Ranjan Gauri,Manisha,2
+Lara,Manisha,2
+Lara,Miss Anjali,2
+Lara,Miss Pallavi,2
+Lavanya,Mr. Shakuntala,2
+Madhavan,Prerna Aishwarya,2
+Manisha,Shakuntala Tabu,2
+Manisha,Vidya,2
+Manisha,Vidya Gauri,2
+Meenal,Pankaj Om,2
+Meenal,Shalu,2
+Meenal,Shalu Om,2
+Miss Aishwarya,Mr. Ishaan,2
+Miss Aishwarya,Mr. Shakuntala,2
+Miss Aishwarya,Pankaj,2
+Miss Anjali,Miss Lara Anaya,2
+Miss Anjali,Mr. Ishaan,2
+Miss Anjali,Pankaj,2
+Miss Anjali,Payal,2
+Miss Anjali,Shalu Om,2
+Miss Asin,Miss Lara Anaya,2
+Miss Asin,Mr. Kriti Siddharth,2
+Miss Asin,Mr. Shakuntala,2
+Miss Asin,Vidya,2
+Miss Hina,Mr. Shakuntala,2
+Miss Hina,Pankaj Om,2
+Miss Hina,Shalu Om,2
+Miss Lara Anaya,Pankaj Om,2
+Mitali,Mr. Shakuntala,2
+Mr. Chaitanya,Shalu,2
+Mr. Ishaan,Mr. Kriti Siddharth,2
+Mr. Ishaan,Mr. Shakuntala,2
+Mr. Ishaan,Prerna Aishwarya,2
+Mr. Ishaan,Shakuntala Tabu,2
+Mr. Kriti Siddharth,Prerna,2
+Mr. Manisha Kavita,Pankaj Om,2
+Mr. Shakuntala,Vinita Nidhi,2
+Mrs. Sameera,Shalu,2
+Pankaj Om,Tanisha,2
+Pankaj Om,Tanisha Vikas,2
+Pankaj Om,Vinita Nidhi,2
+Payal,Roshan,2
+Prerna,Vidya,2
+Prerna Aishwarya,Richa,2
+Prerna Aishwarya,Roshan,2
+Prerna Aishwarya,Tanvi,2
+Roshan,Shalu,2
+Roshan,Vinita,2
+Shalu,Shalu Nidhi,2
+Shalu,Tanisha,2
+Shalu,Tanisha Vikas,2
+Shalu Nidhi,Vinita Nidhi,2
+Shalu Om,Vinita,2
+Aditya,Mr. Kriti Siddharth,1
+Akshay,Vidya,1
+Alok,Mr. Manisha Kavita,1
+Alok Mohanlal,Asin Aishwarya,1
+Alok Mohanlal,Lady Ranjan,1
+Alok Mohanlal,Madhavan,1
+Alok Mohanlal,Miss Aishwarya,1
+Alok Mohanlal,Mr. Chaitanya,1
+Alok Mohanlal,Mr. Ishaan,1
+Alok Mohanlal,Neeraj,1
+Alok Mohanlal,Prerna,1
+Alok Mohanlal,Riddhi,1
+Alok Mohanlal,Sarika,1
+Alok Mohanlal,Shahid,1
+Alok Mohanlal,Shalu Om,1
+Alok Mohanlal,Tanisha,1
+Alok Mohanlal,Vinita Nidhi,1
+Amrita,Lady Ranjan Gauri,1
+Anil,Anil Taapsee,1
+Anil,Miss Anjali,1
+Anil Ritesh,Mr. Shakuntala,1
+Anil Taapsee,Anjali Hina,1
+Anil Taapsee,Katrina Anushka,1
+Anil Taapsee,Lady Ranjan,1
+Anil Taapsee,Mrs. Sameera,1
+Anil Taapsee,Pankaj,1
+Anil Taapsee,Roshan,1
+Anil Taapsee,Vinita Nidhi,1
+Anirudh,Vinita,1
+Anjali Hina,Lady Ranjan Gauri,1
+Anjali Hina,Medha,1
+Anjali Hina,Miss Aishwarya,1
+Anjali Hina,Miss Asin,1
+Anjali Hina,Miss Lara Anaya,1
+Anjali Hina,Pankaj,1
+Anjali Hina,Roshan,1
+Anjali Hina,Tanisha Vikas,1
+Anjali Hina,Tanvi,1
+Arvind,Jagdeep,1
+Arvind,Shakuntala Tabu,1
+Ashok,Prerna Aishwarya,1
+Ashok,Sanjay,1
+Asin Aishwarya,Manisha,1
+Asin Aishwarya,Miss Anjali,1
+Asin Aishwarya,Miss Lara Anaya,1
+Asin Aishwarya,Mr. Shakuntala,1
+Asin Aishwarya,Pankaj,1
+Asin Aishwarya,Shakuntala Tabu,1
+Asin Aishwarya,Shalu,1
+Asin Anushka,Guneet,1
+Ayush,Vinita Nidhi,1
+Deepika,Miss Anjali,1
+Deepika,Mr. Kriti Siddharth,1
+Deepika,Mr. Shakuntala,1
+Deepika,Shakuntala Tabu,1
+Deepika,Shalu,1
+Disha,Lady Ranjan Gauri,1
+Disha,Lara,1
+Disha,Medha,1
+Disha,Miss Lara Anaya,1
+Disha,Roshan,1
+Disha,Tanvi,1
+Disha Hina,Lady Ranjan Gauri,1
+Disha Hina,Lara,1
+Disha Hina,Medha,1
+Disha Hina,Miss Lara Anaya,1
+Disha Hina,Mr. Kriti Siddharth,1
+Disha Hina,Mr. Manisha Kavita,1
+Disha Hina,Tanvi,1
+Disha Hina,Vinita,1
+Ekta,Miss Lara Anaya,1
+Farhan,Roshan,1
+Farhan,Suman,1
+Genelia,Shubham Salman,1
+Gully Tabu,Mr. Chaitanya,1
+Gully Tabu,Shubham Salman,1
+Guneet,Miss Asin,1
+Guneet,Miss Lara Anaya,1
+Guneet,Mr. Chaitanya,1
+Guneet,Mr. Shakuntala,1
+Guneet,Shakuntala Tabu,1
+Guneet,Vinita,1
+Jagdeep,Shakuntala Tabu,1
+Katrina Anushka,Keshav,1
+Katrina Anushka,Mr. Manisha Kavita,1
+Katrina Anushka,Neeraj,1
+Katrina Anushka,Prerna,1
+Katrina Anushka,Tanisha,1
+Keshav,Mr. Shakuntala,1
+Keshav,Prerna,1
+Lady Ranjan,Mr. Manisha Kavita,1
+Lady Ranjan,Shakuntala Tabu,1
+Lady Ranjan Gauri,Lara,1
+Lady Ranjan Gauri,Miss Aishwarya,1
+Lady Ranjan Gauri,Miss Asin,1
+Lady Ranjan Gauri,Miss Lara Anaya,1
+Lady Ranjan Gauri,Mr. Shakuntala,1
+Lady Ranjan Gauri,Prerna,1
+Lady Ranjan Gauri,Shakuntala Tabu,1
+Lara,Mr. Ishaan,1
+Lara,Mr. Shakuntala,1
+Lara,Pankaj,1
+Lara,Pankaj Om,1
+Lara,Shahid,1
+Madhuri,Miss Asin,1
+Mahesh,Miss Anjali,1
+Mahesh,Prerna,1
+Mahesh,Prerna Aishwarya,1
+Mahesh Rohit,Mr. Shakuntala,1
+Mahesh Rohit,Prerna,1
+Mahesh Rohit,Prerna Aishwarya,1
+Manisha,Miss Lara Anaya,1
+Manisha,Prerna Aishwarya,1
+Manisha,Shubham Salman,1
+Manisha,Sir Yash,1
+Miss Aishwarya,Miss Asin,1
+Miss Aishwarya,Miss Hina,1
+Miss Aishwarya,Mr. Kriti Siddharth,1
+Miss Anjali,Mitali,1
+Miss Anjali,Mr. Chaitanya,1
+Miss Anjali,Mrs. Sameera,1
+Miss Anjali,Tanisha,1
+Miss Anjali,Tanisha Vikas,1
+Miss Hina,Roshan,1
+Miss Hina,Tanisha Vikas,1
+Miss Lara Anaya,Mr. Ishaan,1
+Miss Lara Anaya,Shahid,1
+Miss Lara Anaya,Tejasswi Shriman,1
+Miss Lara Anaya,Vidya,1
+Miss Pallavi,Mr. Manisha Kavita,1
+Mitali,Roshan,1
+Mitali,Shakuntala Tabu,1
+Mr. Kriti Siddharth,Mrs. Sameera,1
+Mr. Kriti Siddharth,Muskaan,1
+Mr. Kriti Siddharth,Pankaj Om,1
+Mr. Kriti Siddharth,Shalu Om,1
+Mr. Kriti Siddharth,Tanisha,1
+Mr. Kriti Siddharth,Vinita,1
+Mr. Manisha Kavita,Roshan,1
+Mr. Manisha Kavita,Swara,1
+Mr. Shakuntala,Naman,1
+Mr. Shakuntala,Pankaj Om,1
+Mr. Shakuntala,Prerna,1
+Mr. Shakuntala,Pritam Tabu,1
+Mr. Shakuntala,Riya Parth,1
+Mr. Shakuntala,Sakshi Kajol,1
+Mr. Shakuntala,Tarun,1
+Mrs. Sameera,Vinita,1
+Naman,Riya Parth,1
+Neeraj,Tanisha,1
+Pankaj,Payal,1
+Pankaj,Prerna,1
+Pankaj,Vinita Nidhi,1
+Pankaj Om,Shafaq,1
+Pankaj Om,Shafaq Om,1
+Prerna,Shakuntala Tabu,1
+Prerna Aishwarya,Ronit,1
+Prerna Aishwarya,Tanisha Vikas,1
+Pritam Tabu,Shakuntala Tabu,1
+Raghav Hrithik,Saira Amitabh,1
+Richa,Tanvi,1
+Roshan,Shakuntala Tabu,1
+Roshan,Suman,1
+Sagar,Vinita,1
+Sanjay,Shakuntala Tabu,1
+Sanjay,Urmila Aamir,1
+Shafaq,Shafaq Om,1
+Shakuntala Tabu,Shubham Salman,1
+Shakuntala Tabu,Tanisha,1
+Shakuntala Tabu,Urmila Aamir,1
+Shakuntala Tabu,Vinita,1
+Shalu Om,Vinita Nidhi,1
+Sunny,Vinita,1
+Tanisha,Vinita,1
+Tanisha Vikas,Vinita,1
+Tanvi,Vinita,1

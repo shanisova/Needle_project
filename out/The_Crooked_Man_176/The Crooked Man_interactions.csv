@@ -1,0 +1,27 @@
+character1,character2,count
+Colonel,Sergeant Jackman Chastain,6
+Colonel,Colonel Chastain,5
+Colonel Chastain,Sergeant Jackman Chastain,5
+Jackman,Sergeant Jackman Chastain,5
+Bateman,Christenson Blige,3
+Bateman,Mr. Bateman Blige,3
+Christenson Blige,Mr. Bateman Blige,3
+Dunaway,Sergeant Jackman Chastain,3
+Colonel,Jackman,2
+Dunaway,Mrs. C (Dunaway Arnold),2
+Miss Barr,Sergeant Jackman Chastain,2
+Mrs. C (Dunaway Arnold),Sergeant Jackman Chastain,2
+Bateman,Eastwood Portman,1
+Bateman,Jackman,1
+Bergman,Major Black,1
+Charles,Shyamalan,1
+Choi Cher,Sergeant Jackman Chastain,1
+Christenson Blige,Dunaway,1
+Christenson Blige,Eastwood Portman,1
+Colonel,Dunaway,1
+Colonel,Miss Barr,1
+Colonel,Mrs. C (Dunaway Arnold),1
+Colonel Chastain,Dunaway,1
+Colonel Chastain,Mrs. C (Dunaway Arnold),1
+Eastwood Portman,Mr. Bateman Blige,1
+Iger,Rudd,1

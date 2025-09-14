@@ -1,0 +1,353 @@
+character1,character2,count
+Mr. Tyson Diaz,Streep Diaz,168
+Anthony Sandler,Milford Hill,67
+Portman O'hara,Wood Travolta Kauffman,47
+Milford Hill,Portman O'hara,34
+Mr. Tyson Diaz,Tyson,34
+Anthony Sandler,Herbert Koshy,31
+Milford Hill,by,31
+Anthony Sandler,by,24
+Milford Hill,Mr. Burnett,24
+Herbert Koshy,Milford Hill,23
+Wood Travolta Kauffman,by,23
+Milford Hill,Wood Travolta Kauffman,22
+Herbert Koshy,by,20
+Mr. Burnett,by,20
+Mr. Tyson Diaz,Wood Travolta Kauffman,20
+Anthony Sandler,Mr. Burnett,18
+Arquette Cruz,Wood Travolta Kauffman,18
+Dunaway Knopfler,John Choi,18
+Miss Zane,Wood Travolta Kauffman,18
+Portman O'hara,Teller,17
+Anthony Sandler,Mr. Tyson Diaz,16
+Mr. Tyson Diaz,by,16
+Anthony Sandler,Mr. Sheen,14
+Anthony Sandler,Streep Diaz,14
+Arquette Cruz,Miss Zane,13
+Herbert Koshy,Mr. Burnett,13
+Mr. Burnett,Wood Travolta Kauffman,13
+Streep Diaz,by,13
+Arquette Cruz,Mr. Burnett,12
+Arquette Cruz,Portman O'hara,12
+Dicaprio Tyrese,Herbert Koshy,11
+Lawyer Brolin,Milford Hill,11
+Milford Hill,Teller,11
+Norcaster,by,11
+Portman,Portman O'hara,11
+Anthony Sandler,Criss,10
+Arquette Cruz,Zane Cruz,10
+Criss,Milford Hill,10
+Lawyer Brolin,Wood Travolta Kauffman,10
+Miss Zane,Zane Cruz,10
+Mr. Burnett,Mr. Tyson Diaz,10
+Streep Diaz,Tyson,10
+Mr. Burnett,Streep Diaz,9
+Anthony Sandler,Norcaster,8
+Arquette Cruz,by,8
+Criss,Dunaway Knopfler,8
+Criss,John Choi,8
+Miss Zane,Portman O'hara,8
+Mr. Burnett,Portman O'hara,8
+Mr. Tyson Diaz,Portman O'hara,8
+Norcaster,Wood Travolta Kauffman,8
+Portman O'hara,by,8
+Anthony Sandler,John Choi,7
+Anthony Sandler,Portman O'hara,7
+Herbert Koshy,Wood Travolta Kauffman,7
+Lawyer Brolin,Portman O'hara,7
+Streep Diaz,Wood Travolta Kauffman,7
+Anthony Sandler,Arquette Cruz,6
+Anthony Sandler,Dunaway Knopfler,6
+Anthony Sandler,Wood Travolta Kauffman,6
+Arquette Cruz,Mr. Tyson Diaz,6
+Arquette Cruz,Norcaster,6
+Arquette Cruz,Streep Diaz,6
+Criss,Herbert Koshy,6
+Criss,Mr. Burnett,6
+Cyndi Devine,Mr. Washington Cyndi,6
+Dunaway Knopfler,Milford Hill,6
+John Choi,Milford Hill,6
+Teller,Wood Travolta Kauffman,6
+Anthony Sandler,Tyson,5
+Armstrong,Barrymore,5
+Dicaprio,Dicaprio Tyrese,5
+Lawyer Brolin,by,5
+Milford Hill,Norcaster,5
+Milford Hill,Portman,5
+Tyson,by,5
+by,moor,5
+Anthony Sandler,Councillor Roberts,4
+Arquette,Arquette Cruz,4
+Arquette Cruz,Milford Hill,4
+Arquette Cruz,Mr. Washington Cyndi,4
+Barrymore,Wood Travolta Kauffman,4
+Firth,Portman O'hara,4
+Major Fanning,by,4
+Milford Hill,m,4
+Miss Zane,by,4
+Mr. Sheen,Wood Travolta Kauffman,4
+Portman O'hara,Zane Cruz,4
+Portman O'hara,m,4
+Anthony Sandler,Dicaprio Tyrese,3
+Armstrong,Wilkins,3
+Arquette Cruz,Mr. Sheen,3
+Arquette Cruz,m,3
+Councillor Roberts,Miss Zane,3
+Councillor Roberts,Wood Travolta Kauffman,3
+Dicaprio Tyrese,Mrs. Astin,3
+Dunaway Knopfler,Mr. Burnett,3
+Firth,Milford Hill,3
+Gifford,Gifford Kauffman,3
+Gifford,Wood Travolta Kauffman,3
+Gifford Kauffman,Wood Travolta Kauffman,3
+John Choi,Mr. Burnett,3
+Lawyer Brolin,Norcaster,3
+Miss Zane,Mr. Washington Cyndi,3
+Miss Zane,m,3
+Mr. Burnett,Portman,3
+Portman,Wood Travolta Kauffman,3
+Teller,by,3
+Tyson,Wood Travolta Kauffman,3
+Wood Travolta Kauffman,Zane Cruz,3
+Anthony Sandler,Arquette,2
+Anthony Sandler,Lawyer Brolin,2
+Anthony Sandler,m,2
+Armstrong,Wood Travolta Kauffman,2
+Arquette,Portman O'hara,2
+Arquette,Wood Travolta Kauffman,2
+Arquette,mayor,2
+Arquette Cruz,Barrymore,2
+Arquette Cruz,Councillor Roberts,2
+Arquette Cruz,Cyndi Devine,2
+Bohemian Sutherland,Buffalo Bill,2
+Bohemian Sutherland,Bullock Dookie,2
+Bohemian Sutherland,Miss Zane,2
+Bohemian Sutherland,by,2
+Bohemian Sutherland,desert,2
+Bohemian Sutherland,star,2
+Buffalo Bill,Bullock Dookie,2
+Buffalo Bill,Miss Zane,2
+Buffalo Bill,by,2
+Buffalo Bill,desert,2
+Buffalo Bill,star,2
+Bullock Dookie,Miss Zane,2
+Bullock Dookie,by,2
+Bullock Dookie,desert,2
+Bullock Dookie,star,2
+Councillor Roberts,Zane Cruz,2
+Criss,Dicaprio Tyrese,2
+Cummings,Ken Ward,2
+Cummings,Miss Zane,2
+Cummings,Moore,2
+Dicaprio Tyrese,by,2
+Firth,Teller,2
+Firth,Wood Travolta Kauffman,2
+Harris,Herbert Koshy,2
+Herbert Koshy,Norcaster,2
+Herbert Koshy,chance,2
+Ken Ward,Miss Zane,2
+Ken Ward,Moore,2
+Lawyer Brolin,Mr. Burnett,2
+Major Fanning,Mr. Burnett,2
+Major Fanning,Mr. Tyson Diaz,2
+Major Fanning,Streep Diaz,2
+Milford Hill,bent,2
+Milford Hill,chance,2
+Milford Hill,moor,2
+Milford Hill,north,2
+Miss Zane,Moore,2
+Miss Zane,desert,2
+Miss Zane,star,2
+Mr. Burnett,Page,2
+Mr. Tyson Diaz,Norcaster,2
+Mr. Tyson Diaz,Streep,2
+Mr. Tyson Diaz,Wilkins,2
+Mr. Washington Cyndi,by,2
+Norcaster,Portman O'hara,2
+Norcaster,Streep Diaz,2
+Norcaster,Tyson,2
+Portman,mark,2
+Portman O'hara,Streep Diaz,2
+Portman O'hara,Tyson,2
+Portman O'hara,mark,2
+Portman O'hara,mayor,2
+Portman O'hara,stop,2
+Streep,Streep Diaz,2
+Washington Bassey,mars,2
+Wilkins,Wood Travolta Kauffman,2
+Wood Grant,chance,2
+Wood Travolta Kauffman,m,2
+Wood Travolta Kauffman,mayor,2
+Zane Cruz,m,2
+by,chance,2
+by,desert,2
+by,north,2
+by,star,2
+by,stop,2
+desert,star,2
+Adler,Anthony Sandler,1
+Adler,Mr. Sheen,1
+Anthony Sandler,Beckinsale,1
+Anthony Sandler,Dicaprio,1
+Anthony Sandler,Ethel Mendes,1
+Anthony Sandler,Mccarthy,1
+Anthony Sandler,Teller,1
+Anthony Sandler,carter,1
+Anthony Sandler,chance,1
+Anthony Sandler,h,1
+Anthony Sandler,mark,1
+Anthony Sandler,moor,1
+Armstrong,Mr. Tyson Diaz,1
+Armstrong,Streep Diaz,1
+Arquette Cruz,Gifford,1
+Arquette Cruz,Gifford Kauffman,1
+Arquette Cruz,Susan Winslet,1
+Arquette Cruz,stop,1
+Barrymore,Hudson,1
+Barrymore,Miss Zane,1
+Barrymore,Mr. Washington Cyndi,1
+Barrymore,Norcaster,1
+Barrymore,Page,1
+Barrymore,Wilkins,1
+Beckinsale,Mccarthy,1
+Blige,Washington Bassey,1
+Blige,Zendaya,1
+Blige,mars,1
+Bradbury Bach,Paltrow Jason,1
+Bradbury Bach,Zendaya,1
+Brolin Kauffman,Herbert Koshy,1
+Brolin Kauffman,Lawyer Brolin,1
+Brolin Kauffman,Wood Travolta Kauffman,1
+Brolin Kauffman,by,1
+Captain Plum,Page,1
+Captain Plum,king,1
+Chappelle,Criss,1
+Cheadle,Pryor,1
+Cheadle,Washington Bassey,1
+Cobain,Wood O'brien,1
+Cobain,m,1
+Councillor Roberts,Milford Hill,1
+Criss,Ethel Mendes,1
+Criss,Lawyer Brolin,1
+Criss,Mrs. Astin,1
+Criss,mark,1
+Cummings,james,1
+Cyndi Devine,Milford Hill,1
+Cyndi Devine,Mr. Sheen,1
+Cyndi Devine,Wood Travolta Kauffman,1
+Cyndi Devine,by,1
+Cyndi Devine,north,1
+Dejah Thoris,Washington Bassey,1
+Diana Rivers,Wood Capshaw,1
+Dicaprio,Herbert Koshy,1
+Dicaprio Tyrese,Garfunkel,1
+Dicaprio Tyrese,Lawyer Brolin,1
+Dicaprio Tyrese,Milford Hill,1
+Dicaprio Tyrese,Norcaster,1
+Dunaway Knopfler,Herbert Koshy,1
+Ethel Mendes,Milford Hill,1
+Ethel Mendes,Wood Travolta Kauffman,1
+Felons' Friend,Milford Hill,1
+Ferrell,by,1
+Firth,Mr. Burnett,1
+Firth,by,1
+Firth,m,1
+Gifford,Mr. Burnett,1
+Gifford Kauffman,Mr. Burnett,1
+Grey Wolf,Kutcher,1
+Grey Wolf,Nicholson,1
+Heard Ashley,Paley Swift,1
+Heard Ashley,by,1
+Hemsworth,north,1
+Herbert Koshy,John Choi,1
+Herbert Koshy,Lawyer Brolin,1
+Herbert Koshy,Mrs. Astin,1
+Herbert Koshy,Wood Arnold,1
+Herbert Koshy,m,1
+Herbert Koshy,mark,1
+Herbert Koshy,moor,1
+Hudson,bay,1
+Joseph Schumer Fletcher,by,1
+Ken Ward,james,1
+Kutcher,Nicholson,1
+Lee,desert,1
+Major Fanning,Wood Travolta Kauffman,1
+Milford Hill,Miss Zane,1
+Milford Hill,Mr. Sheen,1
+Milford Hill,Mr. Tyson Diaz,1
+Milford Hill,Mr. Washington Cyndi,1
+Milford Hill,Streep Diaz,1
+Milford Hill,Wood Travolta,1
+Milford Hill,mark,1
+Miss Zane,Norcaster,1
+Miss Zane,bent,1
+Miss Zane,james,1
+Moore,james,1
+Mr. Burnett,Mr. Washington Cyndi,1
+Mr. Burnett,Norcaster,1
+Mr. Burnett,Penn,1
+Mr. Burnett,Tom,1
+Mr. Burnett,chidforth,1
+Mr. Burnett,m,1
+Mr. Burnett,mallows,1
+Mr. Burnett,mark,1
+Mr. Burnett,wilchester,1
+Mr. Sheen,Mr. Washington Cyndi,1
+Mr. Sheen,Norcaster,1
+Mr. Sheen,Portman O'hara,1
+Mr. Sheen,by,1
+Mr. Tyson Diaz,Mr. Washington Cyndi,1
+Mr. Tyson Diaz,Murdoch,1
+Mr. Tyson Diaz,Wood Arnold,1
+Mr. Tyson Diaz,Wood Travolta,1
+Mr. Tyson Diaz,chance,1
+Mr. Tyson Diaz,mayor,1
+Mr. Tyson Diaz,north,1
+Mr. Washington Cyndi,Norcaster,1
+Mr. Washington Cyndi,Streep Diaz,1
+Mr. Washington Cyndi,north,1
+Murdoch,Tyson,1
+Murdoch,Wood Arnold,1
+Murdoch,Wood Travolta,1
+Murdoch,Wood Travolta Kauffman,1
+Murdoch,by,1
+Murdoch,mayor,1
+Norcaster,m,1
+Page,king,1
+Paley Swift,by,1
+Paltrow Jason,Zendaya,1
+Penn,Tom,1
+Portman O'hara,bent,1
+Portman O'hara,chance,1
+Pryor,Washington Bassey,1
+Pryor,mars,1
+Streep Diaz,Wilkins,1
+Streep Diaz,north,1
+Teller,Wood Travolta,1
+Teller,m,1
+Tyson,Wood Arnold,1
+Tyson,Wood Travolta,1
+Tyson,m,1
+Tyson,mayor,1
+Washington Bassey,Zendaya,1
+Wood Arnold,Wood Travolta,1
+Wood Arnold,mayor,1
+Wood Leto,by,1
+Wood Travolta,Wood Travolta Kauffman,1
+Wood Travolta,mayor,1
+Wood Travolta Kauffman,bent,1
+Wood Travolta Kauffman,chidforth,1
+Wood Travolta Kauffman,mallows,1
+Wood Travolta Kauffman,mark,1
+Wood Travolta Kauffman,star,1
+Wood Travolta Kauffman,wilchester,1
+Zendaya,mars,1
+bent,by,1
+by,gene,1
+by,h,1
+chance,moor,1
+chance,north,1
+chidforth,mallows,1
+chidforth,wilchester,1
+god,north,1
+mallows,wilchester,1

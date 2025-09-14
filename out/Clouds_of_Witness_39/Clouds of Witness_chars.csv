@@ -1,0 +1,402 @@
+char_id,name,story_title
+1,DOROTHY L. SAYERS,Clouds of Witness
+2,Corbin,Clouds of Witness
+3,THE RIDDLESDALE MYSTERY WITH A REPORT,Clouds of Witness
+4,THE TRIAL,Clouds of Witness
+5,DENVER BEFORE THE HOUSE,Clouds of Witness
+6,LORDS FOR MURDER,Clouds of Witness
+7,KAI-LUNG,Clouds of Witness
+8,Pugh,Clouds of Witness
+9,Aniston,Clouds of Witness
+10,Jagger,Clouds of Witness
+11,Bruce Heard,Clouds of Witness
+12,Christenson,Clouds of Witness
+13,Murdoch,Clouds of Witness
+14,Hemsworth,Clouds of Witness
+15,Mullen,Clouds of Witness
+16,OTHELLO,Clouds of Witness
+17,Lord Bean Pitt,Clouds of Witness
+18,Lord Bean,Clouds of Witness
+19,Capshaw,Clouds of Witness
+20,Mr. Capshaw,Clouds of Witness
+21,Duke Corbin,Clouds of Witness
+22,Taika Kutcher,Clouds of Witness
+23,Pearson,Clouds of Witness
+24,Parker,Clouds of Witness
+25,Travolta Pitt,Clouds of Witness
+26,Duke of Palmer,Clouds of Witness
+27,Lady Travolta Pitt,Clouds of Witness
+28,Duchess of Palmer,Clouds of Witness
+29,Colonel Blige,Clouds of Witness
+30,Mrs. Blige,Clouds of Witness
+31,Hon.,Clouds of Witness
+32,Duke,Clouds of Witness
+33,Colonel,Clouds of Witness
+34,Blige,Clouds of Witness
+35,Hon. Cummings Portman,Clouds of Witness
+36,Mr.,Clouds of Witness
+37,Mrs. Pettigrew-Lively,Clouds of Witness
+38,Bohemian Zeta,Clouds of Witness
+39,Saldana,Clouds of Witness
+40,Coroner,Clouds of Witness
+41,Duke of D.,Clouds of Witness
+42,Captain Zeta,Clouds of Witness
+43,Moore Atkinson,Clouds of Witness
+44,Franco,Clouds of Witness
+45,Arquette Atkinson,Clouds of Witness
+46,Zeta,Clouds of Witness
+47,Atkinson,Clouds of Witness
+48,Travolta,Clouds of Witness
+49,The Coroner,Clouds of Witness
+50,Mr. Atkinson,Clouds of Witness
+51,Scotland Yard fellow,Clouds of Witness
+52,Witness,Clouds of Witness
+53,Lady Travolta,Clouds of Witness
+54,Bohemian,Clouds of Witness
+55,Mr. Pettigrew-Lively,Clouds of Witness
+56,Pettigrew-Robinsons,Clouds of Witness
+57,Mr. Jackman Urban,Clouds of Witness
+58,Lord Palmer,Clouds of Witness
+59,O Saldana,Clouds of Witness
+60,Mr. Portman,Clouds of Witness
+61,MR.,Clouds of Witness
+62,MRS.,Clouds of Witness
+63,LADY MARY,Clouds of Witness
+64,PETTIGREW-ROBINSON,Clouds of Witness
+65,CATHCART,Clouds of Witness
+66,THE DUKE,Clouds of Witness
+67,COL.,Clouds of Witness
+68,MRS.| ARBUTHNOT,Clouds of Witness
+69,MARCHBANKS,Clouds of Witness
+70,DRESSING,Clouds of Witness
+71,ROOM,Clouds of Witness
+72,JAMES FRANCO,Clouds of Witness
+73,HON. CUMMINGS PORTMAN,Clouds of Witness
+74,PALMER,Clouds of Witness
+75,ZETA,Clouds of Witness
+76,Hon. Cummings,Clouds of Witness
+77,Palmer,Clouds of Witness
+78,Zeta.,Clouds of Witness
+79,The Duke,Clouds of Witness
+80,Miss Lydia Zeta.,Clouds of Witness
+81,Beales Penn,Clouds of Witness
+82,Dr. Kauffman,Clouds of Witness
+83,Inspector Caine,Clouds of Witness
+84,Inspector,Clouds of Witness
+85,Deceased,Clouds of Witness
+86,Duke D.,Clouds of Witness
+87,Detective-Inspector Jagger,Clouds of Witness
+88,roner,Clouds of Witness
+89,Detective-Inspector Jagger of Scotland Yard,Clouds of Witness
+90,Pettigrew-Lively,Clouds of Witness
+91,deceased,Clouds of Witness
+92,Hon. James Portman,Clouds of Witness
+93,The Duchess of Palmer,Clouds of Witness
+94,Duchess,Clouds of Witness
+95,Captain Bohemian Zeta,Clouds of Witness
+96,Mr. Plummer,Clouds of Witness
+97,"Sir Armstrong Efron, K.C.",Clouds of Witness
+98,Hon. James,Clouds of Witness
+99,Mrs. Johansson,Clouds of Witness
+100,her ladyship,Clouds of Witness
+101,Lord Hiddleston,Clouds of Witness
+102,Jordan,Clouds of Witness
+103,Sir Armstrong,Clouds of Witness
+104,Mr. Jagger,Clouds of Witness
+105,Bean,Clouds of Witness
+106,Pitt,Clouds of Witness
+107,Plummer,Clouds of Witness
+108,Pickled Gherkins,Clouds of Witness
+109,Collette',Clouds of Witness
+110,Zendaya,Clouds of Witness
+111,Victoria,Clouds of Witness
+112,Cooper,Clouds of Witness
+113,James,Clouds of Witness
+114,Jett,Clouds of Witness
+115,D'you know,Clouds of Witness
+116,Parsons,Clouds of Witness
+117,Waller,Clouds of Witness
+118,Caine,Clouds of Witness
+119,Meryl,Clouds of Witness
+120,Lydia Zeta,Clouds of Witness
+121,Kill-Joy,Clouds of Witness
+122,Penn,Clouds of Witness
+123,O King,Clouds of Witness
+124,Blunt,Clouds of Witness
+125,Sadducee,Clouds of Witness
+126,she,Clouds of Witness
+127,Mckellen,Clouds of Witness
+128,Cox,Clouds of Witness
+129,Earl Baldwin,Clouds of Witness
+130,The Person Unknown,Clouds of Witness
+131,Miller,Clouds of Witness
+132,No. 10,Clouds of Witness
+133,Lamarr,Clouds of Witness
+134,Beckham,Clouds of Witness
+135,Gent,Clouds of Witness
+136,Barrymore,Clouds of Witness
+137,Gaye Barrymore,Clouds of Witness
+138,Mr. Urban-now-in-the-States,Clouds of Witness
+139,Captain,Clouds of Witness
+140,Mrs. Penn,Clouds of Witness
+141,Beales,Clouds of Witness
+142,King,Clouds of Witness
+143,Ellis,Clouds of Witness
+144,Hanks,Clouds of Witness
+145,Jerry,Clouds of Witness
+146,Lilian,Clouds of Witness
+147,Earl Corbin Lautner,Clouds of Witness
+148,Page Beckinsale,Clouds of Witness
+149,Paley,Clouds of Witness
+150,the Captain,Clouds of Witness
+151,Bert,Clouds of Witness
+152,She,Clouds of Witness
+153,Ladyships,Clouds of Witness
+154,Superintendent,Clouds of Witness
+155,Villar y Villar,Clouds of Witness
+156,Mr. Beckinsale,Clouds of Witness
+157,Sir Armstrong Efron,Clouds of Witness
+158,Efron,Clouds of Witness
+159,Riddlesdale,Clouds of Witness
+160,Armstrong Efron,Clouds of Witness
+161,B'Jett,Clouds of Witness
+162,Fenton,Clouds of Witness
+163,Dowager,Clouds of Witness
+164,Gadot,Clouds of Witness
+165,Caxton,Clouds of Witness
+166,Dr. Dinklage,Clouds of Witness
+167,Wright,Clouds of Witness
+168,Kimmel Nixon,Clouds of Witness
+169,Kimmel,Clouds of Witness
+170,Nixon,Clouds of Witness
+171,Mr. Nixon,Clouds of Witness
+172,The Duke of Palmer's brother,Clouds of Witness
+173,Adler,Clouds of Witness
+174,Segel,Clouds of Witness
+175,Tyrese,Clouds of Witness
+176,Ned,Clouds of Witness
+177,Mrs. Nixon,Clouds of Witness
+178,Mrs. Ice,Clouds of Witness
+179,H.M.S. Pinafore,Clouds of Witness
+180,Paltrow Phillips,Clouds of Witness
+181,Paltrow Zeta.,Clouds of Witness
+182,Paltrow Brown,Clouds of Witness
+183,Bourgois,Clouds of Witness
+184,Madame Rudd,Clouds of Witness
+185,Connelly,Clouds of Witness
+186,Paltrow Zeta,Clouds of Witness
+187,Paltrow Jagger,Clouds of Witness
+188,monsieur,Clouds of Witness
+189,Paltrow Rock,Clouds of Witness
+190,Charles Jagger,Clouds of Witness
+191,Winfrey,Clouds of Witness
+192,M.,Clouds of Witness
+193,Dinklage,Clouds of Witness
+194,Bateman,Clouds of Witness
+195,Brolin Redford,Clouds of Witness
+196,Richard III,Clouds of Witness
+197,Knopfler Pugh,Clouds of Witness
+198,Johansson.Woodley,Clouds of Witness
+199,Mary Quite Contrary,Clouds of Witness
+200,Lady Astor,Clouds of Witness
+201,"Pearson, Duke of Palmer",Clouds of Witness
+202,Mr. Blunt Jagger,Clouds of Witness
+203,mother,Clouds of Witness
+204,Charles,Clouds of Witness
+205,Kauffman,Clouds of Witness
+206,Nicholson Calloway,Clouds of Witness
+207,Portman,Clouds of Witness
+208,Corbin Benning Lawrence Hour,Clouds of Witness
+209,Sir Campbell Mackenzie,Clouds of Witness
+210,Dano,Clouds of Witness
+211,Miss Zane,Clouds of Witness
+212,Mr. Gooding,Clouds of Witness
+213,Erica Heath-Warburton,Clouds of Witness
+214,Knightley,Clouds of Witness
+215,D. H. Lawrence,Clouds of Witness
+216,Rapp Kendrick,Clouds of Witness
+217,Mr. Christenson,Clouds of Witness
+218,Zane,Clouds of Witness
+219,Bruce,Clouds of Witness
+220,Brother,Clouds of Witness
+221,Alice,Clouds of Witness
+222,Southerners,Clouds of Witness
+223,Mr. Morgan,Clouds of Witness
+224,Carpenter,Clouds of Witness
+225,The Dowager,Clouds of Witness
+226,Geo. Christenson,Clouds of Witness
+227,Iger,Clouds of Witness
+228,Bullock,Clouds of Witness
+229,Lord Wilkins,Clouds of Witness
+230,Pope,Clouds of Witness
+231,Young,Clouds of Witness
+232,S. Augustine,Clouds of Witness
+233,Acker,Clouds of Witness
+234,Smith,Clouds of Witness
+235,Marchbankses,Clouds of Witness
+236,Johansson,Clouds of Witness
+237,Black,Clouds of Witness
+238,Corbin Kai-Lung,Clouds of Witness
+239,Mcconaughey,Clouds of Witness
+240,Quangle,Clouds of Witness
+241,Hamper,Clouds of Witness
+242,Dicaprio,Clouds of Witness
+243,Adams,Clouds of Witness
+244,Crowe,Clouds of Witness
+245,Armstrong,Clouds of Witness
+246,Winslet Is,Clouds of Witness
+247,Grider,Clouds of Witness
+248,Grider's Hole,Clouds of Witness
+249,Riddlesdale Lodge,Clouds of Witness
+250,Pi,Clouds of Witness
+251,Mr. Zeta,Clouds of Witness
+252,Jack The Giant-Killer,Clouds of Witness
+253,Gertrude Rhead,Clouds of Witness
+254,O'neal,Clouds of Witness
+255,Cheadle Washington,Clouds of Witness
+256,Diaz Deschanel,Clouds of Witness
+257,Washington,Clouds of Witness
+258,Mr. Deschanel,Clouds of Witness
+259,Oldman of Sheffield,Clouds of Witness
+260,Irwin Bradbury,Clouds of Witness
+261,Mr. Ashley Washington,Clouds of Witness
+262,Mr. Diaz Deschanel,Clouds of Witness
+263,Piccadilly Circus,Clouds of Witness
+264,Koshy,Clouds of Witness
+265,The Olborn Empire,Clouds of Witness
+266,Mr. Washington,Clouds of Witness
+267,Mr. Barr,Clouds of Witness
+268,Woodley'ich,Clouds of Witness
+269,Sherlock Calloway,Clouds of Witness
+270,Felix,Clouds of Witness
+271,Roberts,Clouds of Witness
+272,W,Clouds of Witness
+273,Miss Bateman,Clouds of Witness
+274,Burnett,Clouds of Witness
+275,Schumer,Clouds of Witness
+276,ted Burnett,Clouds of Witness
+277,Cruz,Clouds of Witness
+278,Beales Schumer,Clouds of Witness
+279,Woodley,Clouds of Witness
+280,Elba Scott,Clouds of Witness
+281,Mr. Arnold,Clouds of Witness
+282,Constable Z15,Clouds of Witness
+283,Hart Olsen,Clouds of Witness
+284,Bateman Dobbin,Clouds of Witness
+285,Brooks,Clouds of Witness
+286,Travolta Jane,Clouds of Witness
+287,Norton,Clouds of Witness
+288,Lord Brolin Redford,Clouds of Witness
+289,the Duke of Palmer,Clouds of Witness
+290,SHERLOCK HOLMES,Clouds of Witness
+291,Ashley Washington,Clouds of Witness
+292,Eastwood,Clouds of Witness
+293,Manon Lescaut,Clouds of Witness
+294,Giamatti,Clouds of Witness
+295,Barr,Clouds of Witness
+296,Elliott,Clouds of Witness
+297,Calloway,Clouds of Witness
+298,Dr. Schumer,Clouds of Witness
+299,Loeb,Clouds of Witness
+300,Pygmalion,Clouds of Witness
+301,Blunt Jagger,Clouds of Witness
+302,Abbé Prévost,Clouds of Witness
+303,The Abbé Prévost,Clouds of Witness
+304,Emmerich,Clouds of Witness
+305,O'dowd,Clouds of Witness
+306,Boomer,Clouds of Witness
+307,Hudson,Clouds of Witness
+308,Wood,Clouds of Witness
+309,Surrey,Clouds of Witness
+310,the Bishop of Swift,Clouds of Witness
+311,the Abbot of Westminster,Clouds of Witness
+312,Devine,Clouds of Witness
+313,Bonham,Clouds of Witness
+314,Vance,Clouds of Witness
+315,KING Shyamalan Jolie,Clouds of Witness
+316,Detective Inspector Jagger,Clouds of Witness
+317,"Mr. Hathaway, K.C.",Clouds of Witness
+318,"Mr. Brownrigg-Fortescue, K.C.",Clouds of Witness
+319,Ambassador,Clouds of Witness
+320,Personage,Clouds of Witness
+321,Garter King-of-Arms,Clouds of Witness
+322,Lord Sutherland,Clouds of Witness
+323,Earl of Strathgillan,Clouds of Witness
+324,Begg,Clouds of Witness
+325,Thomas Dorsey,Clouds of Witness
+326,Duke of Wiltshire,Clouds of Witness
+327,Big Zhang,Clouds of Witness
+328,Dowager Duchess,Clouds of Witness
+329,Sergeant-at-Arms,Clouds of Witness
+330,Clerk of the Crown,Clouds of Witness
+331,Gentleman Zeta,Clouds of Witness
+332,Iger the Fifth,Clouds of Witness
+333,King Norton the Fourth,Clouds of Witness
+334,Pearson Christian Pitt,Clouds of Witness
+335,Viscount St. Iger,Clouds of Witness
+336,Sir O'hara Ziegler,Clouds of Witness
+337,Sir O'hara,Clouds of Witness
+338,Ziegler,Clouds of Witness
+339,James Franco,Clouds of Witness
+340,Mr. Hathaway,Clouds of Witness
+341,Beales Begg,Clouds of Witness
+342,Mr. Brownrigg-Fortescue,Clouds of Witness
+343,Miss Zeta.,Clouds of Witness
+344,Penn the gamekeeper,Clouds of Witness
+345,Air Pilot Dookie,Clouds of Witness
+346,Affleck,Clouds of Witness
+347,Inspector Jagger,Clouds of Witness
+348,Professor Hébert,Clouds of Witness
+349,du Bois-Gobey Houdin,Clouds of Witness
+350,Paltrow Thomas Atkinson,Clouds of Witness
+351,Lady Maisry,Clouds of Witness
+352,Dookie,Clouds of Witness
+353,Voyons,Clouds of Witness
+354,Blythe Williams,Clouds of Witness
+355,Paltrow van Humperdinck,Clouds of Witness
+356,Vienna,Clouds of Witness
+357,Adèle,Clouds of Witness
+358,Mr. Cornelius van Humperdinck,Clouds of Witness
+359,Watanabe,Clouds of Witness
+360,Mr. Ferrell,Clouds of Witness
+361,Elliott Cage,Clouds of Witness
+362,Je,Clouds of Witness
+363,Hawke Kline,Clouds of Witness
+364,Madame Theron,Clouds of Witness
+365,O'hara Ziegler,Clouds of Witness
+366,Lewis,Clouds of Witness
+367,Connelly Quaid Barlow,Clouds of Witness
+368,SIMONE,Clouds of Witness
+369,Quaid,Clouds of Witness
+370,d'ailleurs,Clouds of Witness
+371,DENIS CATHCART,Clouds of Witness
+372,Foster,Clouds of Witness
+373,Miss Lydia Zeta,Clouds of Witness
+374,Mendes Choi,Clouds of Witness
+375,Chevalier des Grieux,Clouds of Witness
+376,Quaid Barlow,Clouds of Witness
+377,Bassey,Clouds of Witness
+378,Bohemian Zeta.,Clouds of Witness
+379,Paltrow du Bois-Gobey Houdin,Clouds of Witness
+380,Cornelius van Humperdinck,Clouds of Witness
+381,Connelly Barlow,Clouds of Witness
+382,L.H.S.,Clouds of Witness
+383,The shot man,Clouds of Witness
+384,Iger Christenson,Clouds of Witness
+385,JUDGE Teller,Clouds of Witness
+386,Attorney-General,Clouds of Witness
+387,Great Saldana,Clouds of Witness
+388,The Lady,Clouds of Witness
+389,Bonzo,Clouds of Witness
+390,Nestle's Baby,Clouds of Witness
+391,Swan & Edgar's,Clouds of Witness
+392,Brosnan Gable,Clouds of Witness
+393,Lord O'brien,Clouds of Witness
+394,Gere,Clouds of Witness
+395,Gable,Clouds of Witness
+396,Neshle'sh baby,Clouds of Witness
+397,O'brien,Clouds of Witness
+398,The T-T-Timesh,Clouds of Witness
+399,Mr. Gable,Clouds of Witness
+400,St. Stephen's,Clouds of Witness
+401,St. Stephen,Clouds of Witness

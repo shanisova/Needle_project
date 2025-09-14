@@ -1,0 +1,118 @@
+character1,character2,count
+Bateman,Mr. Bateman Gere,42
+Sir Foster,Sir Foster Cruz,31
+Miss Mendes,Sir Foster,14
+Sheen,Sir Foster Cruz,11
+Mr. Bateman Gere,Sir Foster Cruz,8
+Dr. Jason Mcgregor,Jason,7
+Dr. Jason Mcgregor,Sir Foster Cruz,7
+Sheen,Sheen Cruz,7
+Sheen Cruz,Sir Foster Cruz,7
+Collette,Sir Foster,5
+Dr. Franco,Mr. Bateman Gere,5
+Dr. Jason Mcgregor,Sir Foster,5
+Mr. Bateman Gere,Sir Foster,5
+Murdoch,Sir Foster Cruz,5
+Sir Foster Cruz,Sir Zeta.,5
+Mrs. Paley,Sir Foster,4
+Sir Foster Cruz,Young,4
+Dr. Jason Mcgregor,Mr. Bateman Gere,3
+Koshy,Koshy Eastwood,3
+Miss Mendes,Mr. Bateman Gere,3
+Miss Mendes,Sir Foster Cruz,3
+Miss Mendes,Sir Zeta.,3
+Mrs. Paley,Sir Foster Cruz,3
+Murdoch,Murdoch Cruz,3
+Murdoch,Sir Zeta.,3
+Murdoch Cruz,Sir Foster Cruz,3
+Murdoch Cruz,Sir Zeta.,3
+Bateman,Dr. Jason Mcgregor,2
+Bateman,Jason,2
+Bateman,Sir Foster,2
+Collette,Sir Foster Cruz,2
+Day,Dr. Jason Mcgregor,2
+Day,Sir Foster Cruz,2
+Day,Sir Zeta.,2
+Dr. Franco,Elba,2
+Dr. Jason Mcgregor,Mr. Hathaway,2
+Jason,Mr. Bateman Gere,2
+Koshy,Murdoch,2
+Koshy,Pryor,2
+Koshy,Sheen,2
+Koshy,Sheen Cruz,2
+Koshy,Sir Foster Cruz,2
+Miss Mendes,Tyson,2
+Miss Mendes,Young,2
+Mrs. Astin Baldwin,Shyamalan Pitt,2
+Mrs. Paley,Sir Zeta.,2
+Murdoch,Pryor,2
+Murdoch,Sheen,2
+Murdoch,Sheen Cruz,2
+Pryor,Sheen,2
+Pryor,Sheen Cruz,2
+Pryor,Sir Foster Cruz,2
+Adams,Sir Foster Cruz,1
+Bateman,Collette,1
+Bateman,Dr. Franco,1
+Bateman,Mrs. Astin Baldwin,1
+Bateman,Sir Foster Cruz,1
+Brooks,Jagger,1
+Brooks,Miss Mendes,1
+Calloway,Young,1
+Collette,Mr. Bateman Gere,1
+Cooper,Dr. Jason Mcgregor,1
+Cooper,Mr. Hathaway,1
+Cooper,Sir Foster,1
+Costner,Jett,1
+Crowe,Sheen,1
+Crowe,Sir Foster Cruz,1
+Cummings,Dinklage,1
+Day,Dr. Franco,1
+Day,Koshy,1
+Day,Miss Mendes,1
+Day,Mr. Bateman Gere,1
+Day,Mrs. Paley,1
+Day,Sheen,1
+Day,Sir Foster,1
+Day,Sir Koshy Burnett,1
+Dicaprio,Sheen,1
+Dr. Franco,Miss Mendes,1
+Dr. Franco,Shyamalan Pitt,1
+Dr. Franco,Sir Foster Cruz,1
+Dr. Franco,Young,1
+Dr. Jason Mcgregor,Miss Mendes,1
+Dr. Jason Mcgregor,Mrs. Paley,1
+Dr. Jason Mcgregor,Sheen,1
+Dr. Jason Mcgregor,Sheen Cruz,1
+Dr. Jason Mcgregor,Sir Zeta.,1
+Dr. Jason Mcgregor,Young,1
+Elba,Young,1
+Koshy,Mr. Bateman Gere,1
+Koshy,Sir Koshy Burnett,1
+Koshy Eastwood,Mr. Bateman Gere,1
+Lively,Miss Mendes,1
+Lively,Mr. Bateman Gere,1
+Miss Mendes,Mr. Hathaway,1
+Miss Mendes,Mrs. Astin Baldwin,1
+Miss Mendes,Pattinson,1
+Miss Mendes,Ziegler,1
+Mr. Bateman Gere,Mrs. Astin Baldwin,1
+Mr. Bateman Gere,Mrs. Paley,1
+Mr. Bateman Gere,Sir Zeta.,1
+Mr. Bateman Gere,Thompson,1
+Mrs. Astin Baldwin,Sir Zeta.,1
+Mrs. Paley,Pattinson,1
+Mrs. Paley,Tyson,1
+Mrs. Paley,Ziegler,1
+Pattinson,Sir Foster Cruz,1
+Pattinson,Tyson,1
+Segel,Sir Foster Cruz,1
+Shyamalan Pitt,Sir Foster Cruz,1
+Shyamalan Pitt,Sir Zeta.,1
+Shyamalan Pitt,Ziegler,1
+Sir Foster,Sir Zeta.,1
+Sir Foster,Young,1
+Sir Foster,Ziegler,1
+Sir Foster Cruz,Thompson,1
+Sir Foster Cruz,Ziegler,1
+Sir Zeta.,Young,1

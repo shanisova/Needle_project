@@ -1,0 +1,856 @@
+character1,character2,count
+Mr. Arthur,a,155
+Miss Potter,a,131
+Thestral senior (Fenrir),a,101
+Mrs. Wands Andromeda,a,98
+Miss Potter,Mr. Arthur,90
+Mr. Peeves Seeker,a,90
+Mr. Peverell Goblet,a,83
+Arthur Thestral,a,77
+Fred' (Pettigrew Child),a,70
+Fred' (Pettigrew Child),Pettigrew,66
+Granger OF GWYNNE STREET,Gwynne,65
+a,woman,60
+Miss Potter,Thestral senior (Fenrir),56
+a,don,56
+Fred' (Pettigrew Child),Miss Child,53
+Miss Newt Andromeda,Mrs. Wands Andromeda,45
+Mrs. Wands Andromeda,Wands,45
+Fred' (Pettigrew Child),Mrs. Wands Andromeda,43
+Mr. Triwizard Buckbeak,a,37
+Pettigrew,a,36
+Miss Newt,a,34
+Beasts,Thestral senior (Fenrir),33
+Miss Hogsmeade Lee,a,30
+Mr. Peverell Goblet,Peverell,30
+Captain Find Crimes,a,29
+Miss Newt,Mrs. Wands Andromeda,29
+Beasts,a,28
+Mr. Arthur,Thestral senior (Fenrir),28
+Captain,Captain Find Crimes,26
+Fred' (Pettigrew Child),Miss Potter,26
+Potion,a,26
+Arthur Thestral,Mr. Arthur,25
+Mr. Arthur,Mr. Peverell Goblet,24
+Portkey,a,23
+Mr. Arthur,don,22
+Granger OF GWYNNE STREET,a,21
+Gwynne,a,21
+Miss Potter,Portkey,21
+Arthur Thestral,Miss Potter,20
+Mr. Peeves Seeker,Mrs. Wands Andromeda,20
+Wizarding,a,20
+Mr. Arthur,Mr. Peeves Seeker,19
+Wizarding Mandrake,a,19
+Arthur Thestral,Thestral senior,17
+Captain Find Crimes,Mr. Peeves Seeker,17
+Miss Potter,Mrs. Wands Andromeda,17
+Mrs. Wands Andromeda,Pettigrew,17
+Mrs. Wands Andromeda,woman,17
+Beasts,Miss Potter,16
+Captain Find Crimes,Mrs. Wands Andromeda,16
+Lady Gryffindor,Lord Dennis Minerva,16
+Lord Dennis Minerva,a,16
+Fred' (Pettigrew Child),Mr. Peeves Seeker,15
+Lady Gryffindor,Lady Gryffindor Minerva,15
+Lady Gryffindor Minerva,Lord Dennis Minerva,15
+Miss Child,a,15
+Miss Newt,Miss Newt Andromeda,15
+Miss Potter,don,15
+Arthur Thestral,Mr. Peverell Goblet,14
+Beasts,Mr. Bartholemew Chimaera,14
+Fred' (Pettigrew Child),Wands,14
+Hogsmeade,a,14
+Lady Gryffindor,Mrs. Wands Andromeda,14
+Mr. Quibbler,a,14
+Mr. Triwizard Buckbeak,Mrs. Wands Andromeda,14
+Peverell,a,14
+Arthur Thestral,Fred' (Pettigrew Child),13
+Arthur Thestral,don,13
+Miss Newt,Miss Potter,13
+Mr. Arthur,woman,13
+Mr. Peeves Seeker,Potion,13
+Thug,a,13
+Wands,a,13
+Wizarding,Wizarding Mandrake,13
+a,policeman,13
+Beasts,Beasts Chimaera,12
+Beasts Chimaera,Mr. Bartholemew Chimaera,12
+Fire,a,12
+Fred' (Pettigrew Child),Mr. Arthur,12
+Lord Dennis Minerva,Mr. Peverell Goblet,12
+Mr. Arthur,Pettigrew,12
+Mr. Peeves Seeker,don,12
+Pettigrew,Wands,12
+Arthur Thestral,Mr. Peeves Seeker,11
+Granny Witchcraft,a,11
+Miss Newt,Thestral senior (Fenrir),11
+Mr. Arthur,Mrs. Wands Andromeda,11
+Mr. Peeves Seeker,Mr. Triwizard Buckbeak,11
+Arthur Thestral,Thestral senior (Fenrir),10
+Beasts,don,10
+Fred' (Pettigrew Child),Thestral senior (Fenrir),10
+Granger OF GWYNNE STREET,Mr. Arthur,10
+Gwynne,Mr. Arthur,10
+Lord Dennis,a,10
+Mr. Arthur,Peverell,10
+Mr. Peeves Seeker,Mr. Peverell Goblet,10
+Mr. Peverell Goblet,don,10
+Mr. Triwizard Buckbeak,Thestral senior (Fenrir),10
+Thestral senior (Fenrir),Wizarding Mandrake,10
+Thestral senior (Fenrir),don,10
+Beasts,Mr. Arthur,9
+Fenrir Mandrake,Thestral senior (Fenrir),9
+Fenrir Mandrake,Wizarding Mandrake,9
+Indian,a,9
+Lady Gryffindor,a,9
+Lord Dennis,Mr. Peverell Goblet,9
+Miss Newt,Wizarding,9
+Mr. Peverell Goblet,Mrs. Wands Andromeda,9
+a,master,9
+Captain Find Crimes,Fire,8
+Captain Find Crimes,Mr. Triwizard Buckbeak,8
+Fred' (Pettigrew Child),Potter Child,8
+Hogsmeade,Mr. Peverell Goblet,8
+Miss Newt Andromeda,a,8
+Miss Potter,Mr. Triwizard Buckbeak,8
+Miss Potter,Pettigrew,8
+Miss Potter,Potter Child,8
+Mr. Peeves Seeker,woman,8
+Mr. Peverell Goblet,Riddle,8
+Mrs. Wands Andromeda,don,8
+Ah,a,7
+Beasts,Potion,7
+Beasts,master,7
+Captain Find Crimes,Lady Gryffindor,7
+Fred' (Pettigrew Child),Mr. Peverell Goblet,7
+Hogsmeade,Miss Hogsmeade Lee,7
+Miss Hogsmeade Lee,Mr. Peverell Goblet,7
+Miss Newt,Mr. Peeves Seeker,7
+Mr. Arthur,Mr. Triwizard Buckbeak,7
+Mr. Arthur,Thestral senior,7
+Mr. Arthur,darling,7
+Mr. Triwizard Buckbeak,Potion,7
+Mrs. Wands Andromeda,Potion,7
+Par,a,7
+Thestral senior (Fenrir),master,7
+don,woman,7
+Arthur Thestral,Mr. Triwizard Buckbeak,6
+Arthur Thestral,Mrs. Wands Andromeda,6
+Arthur Thestral,Pettigrew,6
+Captain,a,6
+Fred' (Pettigrew Child),Lady Gryffindor,6
+Fred' (Pettigrew Child),Mr. Triwizard Buckbeak,6
+Fred' (Pettigrew Child),don,6
+Granger OF GWYNNE STREET,Peverell,6
+Granger OF GWYNNE STREET,Thestral senior (Fenrir),6
+Gwynne,Peverell,6
+Gwynne,Thestral senior (Fenrir),6
+Hogsmeade,don,6
+Inspector Prince,a,6
+Lord Dennis Minerva,don,6
+Miss Potter,Wizarding Mandrake,6
+Miss Potter,woman,6
+Mr. Arthur,Portkey,6
+Mr. Bartholemew Chimaera,a,6
+Mr. Peeves Seeker,Peeves,6
+Mr. Peverell Goblet,Wizarding,6
+Mrs. Wands Andromeda,Wizarding,6
+Portkey,don,6
+Potion,Thestral senior (Fenrir),6
+Rubeus,a,6
+Rubeus Eileen,a,6
+a,darling,6
+a,sharp,6
+don,master,6
+Ah,Mr. Arthur,5
+Arthur Thestral,Granger OF GWYNNE STREET,5
+Arthur Thestral,Gwynne,5
+Arthur Thestral,Miss Newt,5
+Arthur Thestral,Potion,5
+Beasts,Fred' (Pettigrew Child),5
+Captain Find Crimes,Fred' (Pettigrew Child),5
+Fire,Mr. Peeves Seeker,5
+Fire,Mrs. Wands Andromeda,5
+Granger,Granger OF GWYNNE STREET,5
+Granger,Gwynne,5
+Granger OF GWYNNE STREET,Miss Potter,5
+Granger OF GWYNNE STREET,Mr. Peeves Seeker,5
+Granger OF GWYNNE STREET,Mr. Peverell Goblet,5
+Granger OF GWYNNE STREET,Mrs. Wands Andromeda,5
+Gwynne,Miss Potter,5
+Gwynne,Mr. Peeves Seeker,5
+Gwynne,Mr. Peverell Goblet,5
+Gwynne,Mrs. Wands Andromeda,5
+Lord Dennis,Lord Dennis Minerva,5
+Miss Potter,Mr. Peeves Seeker,5
+Miss Potter,darling,5
+Mr. Bartholemew Chimaera,Thestral senior (Fenrir),5
+Mr. Hat,a,5
+Mr. Peeves Seeker,Pettigrew,5
+Mr. Peeves Seeker,Thestral senior (Fenrir),5
+Mr. Peeves Seeker,Wizarding,5
+Pettigrew,Thestral senior (Fenrir),5
+Ravenclaw,Ravenclaw Bailey,5
+Rubeus,Rubeus Eileen,5
+Thestral senior,a,5
+Thestral senior (Fenrir),woman,5
+Ah,Thestral senior (Fenrir),4
+Arthur Thestral,Cattermole,4
+Arthur Thestral,Lord Dennis,4
+Beasts,Cattermole,4
+Beasts,Pettigrew,4
+Captain,Captain Find,4
+Captain Find Crimes,Mr. Quibbler,4
+Captain Find Crimes,Wizarding,4
+Fenrir Mandrake,a,4
+Fred',a,4
+Fred' (Pettigrew Child),Granger OF GWYNNE STREET,4
+Fred' (Pettigrew Child),Gwynne,4
+Fred' (Pettigrew Child),woman,4
+Granger,Mr. Arthur,4
+Granger OF GWYNNE STREET,Mr. Triwizard Buckbeak,4
+Granny Witchcraft,Mr. Arthur,4
+Granny Witchcraft,Mr. Peeves Seeker,4
+Gwynne,Mr. Triwizard Buckbeak,4
+Indian,Thug,4
+Lady Gryffindor Minerva,a,4
+Longbottom,Mrs. Wands Andromeda,4
+Longbottom,a,4
+Lord Dennis Minerva,Mrs. Wands Andromeda,4
+Miss Child,Mrs. Wands Andromeda,4
+Miss Hogsmeade Lee,Miss Potter,4
+Miss Hogsmeade Lee,don,4
+Miss Newt,Peverell,4
+Miss Newt,Potion,4
+Miss Newt,don,4
+Miss Newt Andromeda,Miss Potter,4
+Miss Potter,Mr. Peverell Goblet,4
+Miss Potter,Peverell,4
+Mr. Arthur,Potion,4
+Mr. Arthur,Silence,4
+Mr. Peeves Seeker,policeman,4
+Mr. Peverell Goblet,Mr. Triwizard Buckbeak,4
+Mr. Peverell Goblet,woman,4
+Mr. Quibbler,Wizarding Mandrake,4
+Mr. Triwizard Buckbeak,Pettigrew,4
+Mr. Triwizard Buckbeak,don,4
+Mrs. Wands Andromeda,Thestral senior (Fenrir),4
+Mrs. Wands Andromeda,master,4
+Peeves,a,4
+Pettigrew,don,4
+Potion,don,4
+Ravenclaw,Ravenclaw Draco,4
+Riddle,a,4
+Thestral senior (Fenrir),Wizarding,4
+a,commercial,4
+a,heaven,4
+darling,don,4
+Ah,Mr. Peeves Seeker,3
+Arthur Thestral,Miss Child,3
+Arthur Thestral,Par,3
+Arthur Thestral,woman,3
+Beasts,Wizarding Mandrake,3
+Captain,Lady Gryffindor,3
+Captain,Lady Gryffindor Minerva,3
+Captain,Lord Dennis Minerva,3
+Captain,Mr. Peeves Seeker,3
+Captain,Mr. Triwizard Buckbeak,3
+Captain Find,Captain Find Crimes,3
+Captain Find Crimes,Lady Gryffindor Minerva,3
+Captain Find Crimes,Lord Dennis Minerva,3
+Captain Find Crimes,Miss Newt,3
+Captain Find Crimes,Miss Potter,3
+Captain Find Crimes,Wizarding Mandrake,3
+Cattermole,Mr. Arthur,3
+Cattermole,a,3
+Comte de la Tour,a,3
+Fenrir Mandrake,Fred' (Pettigrew Child),3
+Fire,Hogsmeade,3
+Fire,Longbottom,3
+Fire,Mr. Arthur,3
+Fred',Thestral senior (Fenrir),3
+Fred' (Pettigrew Child),Hogsmeade,3
+Fred' (Pettigrew Child),Wizarding Mandrake,3
+Granger,Peverell,3
+Granger,a,3
+Granger OF GWYNNE STREET,Wizarding Mandrake,3
+Gwynne,Wizarding Mandrake,3
+Hagrid,a,3
+Hogsmeade,Miss Potter,3
+Hogsmeade,Mr. Peeves Seeker,3
+Indian,Miss Potter,3
+Indian,Mr. Quibbler,3
+Indian,Potion,3
+Inspector Prince,Thestral senior (Fenrir),3
+Lady Gryffindor,Pettigrew,3
+Lady Gryffindor,Wands,3
+Lord Dennis,Mr. Arthur,3
+Lord Dennis Minerva,Mr. Peeves Seeker,3
+Lord Dennis Minerva,Riddle,3
+Merope Tyler,Mrs. Wands Andromeda,3
+Miss Child,Mr. Arthur,3
+Miss Hogsmeade Lee,Mr. Arthur,3
+Miss Hogsmeade Lee,Mr. Peeves Seeker,3
+Miss Hogsmeade Lee,Mrs. Wands Andromeda,3
+Miss Newt,Mr. Peverell Goblet,3
+Miss Newt,Mr. Triwizard Buckbeak,3
+Miss Newt,Wands,3
+Miss Newt,woman,3
+Miss Newt Andromeda,Mr. Arthur,3
+Miss Newt Andromeda,Mr. Peverell Goblet,3
+Miss Newt Andromeda,Wizarding,3
+Miss Padma,a,3
+Miss Potter,Mr. Bartholemew Chimaera,3
+Miss Potter,Mr. Hat,3
+Miss Potter,Potion,3
+Miss Potter,Potter Andromeda,3
+Miss Potter,Thug,3
+Miss Potter,Wands,3
+Miss Potter,Wizarding,3
+Mr. Arthur,master,3
+Mr. Arthur,sharp,3
+Mr. Hat,Mr. Triwizard Buckbeak,3
+Mr. Peeves Seeker,Mr. Quibbler,3
+Mr. Peeves Seeker,Peverell,3
+Mr. Peverell Goblet,Wizarding Mandrake,3
+Mr. Quibbler,Mrs. Wands Andromeda,3
+Mr. Quibbler,Wizarding,3
+Mrs. Wands Andromeda,Potter Andromeda,3
+Peeves,don,3
+Potter Child,a,3
+Ravenclaw,a,3
+Rose Cottage,Thestral senior (Fenrir),3
+a,green,3
+master,woman,3
+Albus,a,2
+America,Mr. Arthur,2
+Andromeda cat,Mrs. Wands Andromeda,2
+Andromeda cat,Portkey,2
+Arthur Thestral,Miss Newt Andromeda,2
+Arthur Thestral,Mr. Hat,2
+Arthur Thestral,Peverell,2
+Beasts,Fenrir Mandrake,2
+Beasts,Granger OF GWYNNE STREET,2
+Beasts,Gwynne,2
+Beasts,Indian,2
+Beasts,Portkey,2
+Beasts,Rose Cottage,2
+Beasts Chimaera,Granger OF GWYNNE STREET,2
+Beasts Chimaera,Gwynne,2
+Beasts Chimaera,Potion,2
+Beasts Chimaera,Thestral senior (Fenrir),2
+Beasts Chimaera,a,2
+Bhats,Bhungees,2
+Binns,a,2
+Captain,Captain Tina,2
+Captain,Miss Potter,2
+Captain,don,2
+Captain Find,Mr. Peeves Seeker,2
+Captain Find,a,2
+Captain Find Crimes,Merope Tyler,2
+Captain Find Crimes,Mr. Arthur,2
+Captain Find Crimes,Mr. Peverell Goblet,2
+Captain Find Crimes,Pettigrew,2
+Captain Find Crimes,don,2
+Cattermole,Thestral senior (Fenrir),2
+Chaser Weasley,Fred' (Pettigrew Child),2
+Chaser Weasley,Pettigrew,2
+Chaser Weasley,a,2
+Count de la Tour,Mr. Peverell Goblet,2
+Cursed Stone,Mr. Peeves Seeker,2
+Cursed Stone,a,2
+Dumbledore,Mr. Arthur,2
+Dumbledore,a,2
+Fenrir Chimaera,Mr. Bartholemew Chimaera,2
+Fenrir Chimaera,Thestral senior (Fenrir),2
+Fenrir Mandrake,Granger OF GWYNNE STREET,2
+Fenrir Mandrake,Gwynne,2
+Fenrir Mandrake,Miss Potter,2
+Fire,Merope Tyler,2
+Fire,Miss Newt,2
+Fred',Miss Potter,2
+Fred',Portkey,2
+Fred',Potion,2
+Fred' (Pettigrew Child),Miss Hogsmeade Lee,2
+Fred' (Pettigrew Child),Miss Newt,2
+Fred' (Pettigrew Child),Miss Newt Andromeda,2
+Fred' (Pettigrew Child),Potter Andromeda,2
+Granger,Miss Potter,2
+Granger OF GWYNNE STREET,Inspector Prince,2
+Granger OF GWYNNE STREET,Mr. Bartholemew Chimaera,2
+Granger OF GWYNNE STREET,Pettigrew,2
+Granger OF GWYNNE STREET,don,2
+Granger OF GWYNNE STREET,master,2
+Granger OF GWYNNE STREET,policeman,2
+Granny Witchcraft,Thestral senior (Fenrir),2
+Gwynne,Inspector Prince,2
+Gwynne,Mr. Bartholemew Chimaera,2
+Gwynne,Pettigrew,2
+Gwynne,don,2
+Gwynne,master,2
+Gwynne,policeman,2
+Hogsmeade,Lady Gryffindor,2
+Hogsmeade,Miss Padma,2
+Hogsmeade,Mr. Hat,2
+Hogsmeade,Mrs. Wands Andromeda,2
+Hum,Indian,2
+Hum,Mr. Peeves Seeker,2
+Hum,Thug,2
+Hum,a,2
+Indian,Pettigrew,2
+Inspector Prince,Prince Diggory,2
+Inspector Prince,heaven,2
+Katie,Mr. Arthur,2
+Katie,a,2
+Katie,don,2
+Lady Gryffindor,Miss Newt,2
+Lady Gryffindor,Mr. Arthur,2
+Lady Gryffindor,don,2
+Lady Gryffindor Minerva,don,2
+Longbottom,Miss Hogsmeade Lee,2
+Lord Dennis,Miss Newt,2
+Lord Dennis,Mrs. Wands Andromeda,2
+Lord Dennis Minerva,Miss Hogsmeade Lee,2
+Merope Tyler,Wands,2
+Merope Tyler,a,2
+Miss Child,Mr. Triwizard Buckbeak,2
+Miss Child,Thestral senior (Fenrir),2
+Miss Child,don,2
+Miss Hogsmeade Lee,Miss Newt,2
+Miss Hogsmeade Lee,Mr. Hat,2
+Miss Hogsmeade Lee,Pettigrew,2
+Miss Hogsmeade Lee,woman,2
+Miss Newt,Mr. Arthur,2
+Miss Newt Andromeda,Mr. Hat,2
+Miss Newt Andromeda,Mr. Peeves Seeker,2
+Miss Newt Andromeda,don,2
+Miss Potter,Par,2
+Miss Potter,Rose Cottage,2
+Miss Potter,goor,2
+Miss Potter,master,2
+Missus,a,2
+Mr. Arthur,Mr. Bartholemew Chimaera,2
+Mr. Arthur,Mr. Hat,2
+Mr. Arthur,Par,2
+Mr. Arthur,goor,2
+Mr. Bartholemew Chimaera,Potion,2
+Mr. Bartholemew Chimaera,Wizarding Mandrake,2
+Mr. Bartholemew Chimaera,don,2
+Mr. Hat,Mr. Peeves Seeker,2
+Mr. Hat,Mrs. Wands Andromeda,2
+Mr. Peeves Seeker,Wizarding Mandrake,2
+Mr. Peeves Seeker,master,2
+Mr. Peverell Goblet,Pettigrew,2
+Mr. Quibbler,Potion,2
+Mr. Triwizard Buckbeak,Wands,2
+Mrs. Wands Andromeda,Portkey,2
+Mrs. Wands Andromeda,Potter Child,2
+Mrs. Wands Andromeda,Silence,2
+Mrs. Wands Andromeda,sharp,2
+Par,don,2
+Par,master,2
+Pettigrew,Peverell,2
+Pettigrew,Potion,2
+Peverell,don,2
+Portkey,Thestral senior (Fenrir),2
+Portkey,darling,2
+Potion,woman,2
+Prince Diggory,a,2
+Prince Diggory,heaven,2
+Ravenclaw,Thestral senior (Fenrir),2
+Ravenclaw,Wizarding Mandrake,2
+Ravenclaw Bailey,a,2
+Ravenclaw Draco,Thestral senior (Fenrir),2
+Ravenclaw Draco,Wizarding Mandrake,2
+Rose Cottage,a,2
+Silence,a,2
+Thestral senior (Fenrir),darling,2
+Thestral senior (Fenrir),lor,2
+Wizarding,tray,2
+a,hants,2
+a,sunbeam,2
+Ah,Fred',1
+Ah,Fred' (Pettigrew Child),1
+Ah,Hufflepuff,1
+Ah,Miss Hogsmeade Lee,1
+Ah,Miss Potter,1
+Ah,Missus,1
+Ah,Par,1
+Ah,Portkey,1
+Ah,Wizarding Mandrake,1
+Ah,don,1
+Albus,Miss Hogsmeade Lee,1
+Alley Mandrake,Wizarding Mandrake,1
+America,Beasts,1
+America,Fred' (Pettigrew Child),1
+America,a,1
+Andromeda cat,Miss Potter,1
+Andromeda cat,a,1
+Arthur Thestral,Beasts,1
+Arthur Thestral,Binns,1
+Arthur Thestral,Bludger,1
+Arthur Thestral,Bones Aberforth,1
+Arthur Thestral,Fire,1
+Arthur Thestral,Katie,1
+Arthur Thestral,Lady Gryffindor,1
+Arthur Thestral,Lord Dennis Minerva,1
+Arthur Thestral,Merope Thestral,1
+Arthur Thestral,Old Nick,1
+Arthur Thestral,Portkey,1
+Arthur Thestral,Potter Child,1
+Arthur Thestral,Ravenclaw,1
+Arthur Thestral,Ravenclaw Bailey,1
+Arthur Thestral,Thestral junior,1
+Arthur Thestral,Thug,1
+Arthur Thestral,Tom of Thuringia,1
+Arthur Thestral,Wands,1
+Arthur Thestral,green,1
+Arthur Thestral,heaven,1
+Arthur Thestral,master,1
+Artifact Patronus,Granger OF GWYNNE STREET,1
+Artifact Patronus,Gwynne,1
+Artifact Patronus,Mr. Arthur,1
+Beasts,Fire,1
+Beasts,Granny Witchcraft,1
+Beasts,Hagrid,1
+Beasts,Mr. Quibbler,1
+Beasts,Mr. Triwizard Buckbeak,1
+Beasts,Potter Child,1
+Beasts,Ravenclaw,1
+Beasts,Ravenclaw Draco,1
+Beasts,Thug,1
+Beasts,sharp,1
+Beasts,sunbeam,1
+Beasts Chimaera,Miss Potter,1
+Beasts Chimaera,Mr. Arthur,1
+Beasts Chimaera,Rose Cottage,1
+Beasts Chimaera,Wizarding Mandrake,1
+Beasts Chimaera,master,1
+Bellatrix Fawkes,a,1
+Binns,Miss Potter,1
+Binns,Mr. Arthur,1
+Binns,Mr. Triwizard Buckbeak,1
+Binns,Thestral senior (Fenrir),1
+Bludger,Tom of Thuringia,1
+Bones Aberforth,Granger,1
+Bones Aberforth,Peverell,1
+Bones Aberforth,a,1
+Cap'n Crimes,Captain Find Crimes,1
+Captain,Fire,1
+Captain,Fred' (Pettigrew Child),1
+Captain,Missus,1
+Captain,Mr. Arthur,1
+Captain,Mr. Peverell Goblet,1
+Captain,Mr. Quibbler,1
+Captain,Mrs. Wands Andromeda,1
+Captain,Pettigrew,1
+Captain,Wizarding,1
+Captain,Wizarding Mandrake,1
+Captain,commercial,1
+Captain Find,Fire,1
+Captain Find,Fred' (Pettigrew Child),1
+Captain Find,Lady Gryffindor,1
+Captain Find,Lady Gryffindor Minerva,1
+Captain Find,Lord Dennis Minerva,1
+Captain Find,Mr. Triwizard Buckbeak,1
+Captain Find,Pettigrew,1
+Captain Find Crimes,Granger OF GWYNNE STREET,1
+Captain Find Crimes,Gwynne,1
+Captain Find Crimes,Longbottom,1
+Captain Find Crimes,Missus,1
+Captain Find Crimes,Potion,1
+Captain Find Crimes,Potter Andromeda,1
+Captain Find Crimes,Potter Child,1
+Captain Find Crimes,Ravenclaw,1
+Captain Find Crimes,Tournament,1
+Captain Find Crimes,Wands,1
+Captain Find Crimes,lor,1
+Captain Find Crimes,woman,1
+Captain Tina,Mr. Peverell Goblet,1
+Cattermole,Fire,1
+Cattermole,Miss Potter,1
+Cattermole,Mr. Peeves Seeker,1
+Cattermole,don,1
+Chaser Weasley,Mr. Quibbler,1
+Chaser Weasley,Mrs. Wands Andromeda,1
+Count de la Tour,Miss Newt,1
+Count de la Tour,Miss Newt Andromeda,1
+Count de la Tour,Mrs. Wands Andromeda,1
+Cursed Stone,Mr. Arthur,1
+Cursed Stone,master,1
+Deathly,Miss Newt,1
+Deathly,Mrs. Wands Andromeda,1
+Deathly,don,1
+Deborrah,Thestral senior (Fenrir),1
+Deborrah,a,1
+Deborrah,page,1
+Diagon,Mr. Bartholemew Chimaera,1
+Diagon,a,1
+Diagon,don,1
+Fenrir Mandrake,Miss Child,1
+Fenrir Mandrake,Mr. Bartholemew Chimaera,1
+Fenrir Mandrake,Mr. Peeves Seeker,1
+Fenrir Mandrake,Mr. Triwizard Buckbeak,1
+Fenrir Mandrake,Potter Child,1
+Fenrir Mandrake,master,1
+Fenrir Mandrake,woman,1
+Fire,Fred' (Pettigrew Child),1
+Fire,Lady Gryffindor,1
+Fire,Lady Gryffindor Minerva,1
+Fire,Lord Dennis Minerva,1
+Fire,Miss Hogsmeade Lee,1
+Fire,Miss Potter,1
+Fire,Mr. Triwizard Buckbeak,1
+Fire,Pettigrew,1
+Fire,Thestral senior (Fenrir),1
+Fire,don,1
+Fire,policeman,1
+Fire,woman,1
+Fred',Wizarding,1
+Fred',don,1
+Fred' (Pettigrew Child),Lady Gryffindor Minerva,1
+Fred' (Pettigrew Child),Lord Dennis Minerva,1
+Fred' (Pettigrew Child),Mr. Quibbler,1
+Fred' (Pettigrew Child),Portkey,1
+Fred' (Pettigrew Child),Potion,1
+Fred' (Pettigrew Child),Ravenclaw Draco,1
+Fred' (Pettigrew Child),Silence,1
+Fred' (Pettigrew Child),Wands Andromeda I,1
+Fred' (Pettigrew Child),Wizarding,1
+Fred' (Pettigrew Child),hants,1
+Fred' (Pettigrew Child),policeman,1
+Fudge Leta,Howler Halfblood,1
+Ginny,a,1
+Granger OF GWYNNE STREET,Lady Gryffindor,1
+Granger OF GWYNNE STREET,Portkey,1
+Granger OF GWYNNE STREET,Potion,1
+Granger OF GWYNNE STREET,Rose Cottage,1
+Granger OF GWYNNE STREET,Wands,1
+Granger OF GWYNNE STREET,commercial,1
+Granny Witchcraft,Miss Potter,1
+Granny Witchcraft,Mr. Triwizard Buckbeak,1
+Granny Witchcraft,Potion,1
+Granny Witchcraft,woman,1
+Gwynne,Lady Gryffindor,1
+Gwynne,Portkey,1
+Gwynne,Potion,1
+Gwynne,Rose Cottage,1
+Gwynne,Wands,1
+Gwynne,commercial,1
+HURD,Mr. Arthur,1
+HURD,a,1
+Hermione,Lord Dennis Minerva,1
+Hermione,a,1
+Hermione,don,1
+Hogsmeade,Hum,1
+Hogsmeade,Lady Gryffindor Minerva,1
+Hogsmeade,Lord Dennis Minerva,1
+Hogsmeade,Mr. Arthur,1
+Hogsmeade,Peeves,1
+Hogsmeade,Pettigrew,1
+Hogsmeade,Peverell,1
+Hogsmeade,Riddle,1
+Hogsmeade,Wizarding,1
+Hogsmeade,Wizarding Mandrake,1
+Hogsmeade,tray,1
+Hogsmeade,woman,1
+Hufflepuff,Portkey,1
+Hum,Miss Hogsmeade Lee,1
+Hum,Miss Newt Andromeda,1
+Hum,Mr. Arthur,1
+Hum,Mr. Peverell Goblet,1
+Hum,Mrs. Wands Andromeda,1
+Indian,Missus,1
+Indian,Mr. Bartholemew Chimaera,1
+Indian,Mr. Peeves Seeker,1
+Indian,Pore Indian castaway,1
+Indian,don,1
+Inspector Prince,policeman,1
+Johnnies,a,1
+Katie,Miss Potter,1
+Katie,Portkey,1
+Katie,woman,1
+Lady Gryffindor,Mr. Peeves Seeker,1
+Lady Gryffindor,Mr. Peverell Goblet,1
+Lady Gryffindor,Potion,1
+Lady Gryffindor,master,1
+Lady Gryffindor,woman,1
+Lady Gryffindor Minerva,Mr. Arthur,1
+Lady Gryffindor Minerva,Mr. Peeves Seeker,1
+Lady Gryffindor Minerva,Mrs. Wands Andromeda,1
+Lady Gryffindor Minerva,Pettigrew,1
+Lady Gryffindor Minerva,master,1
+Lady in question,Mr. Peeves Seeker,1
+Lady in question,Privately Seeker,1
+Lady in question,Wizarding,1
+Lethifold Snitch,a,1
+Longbottom,Merope Tyler,1
+Longbottom,Mr. Arthur,1
+Longbottom,Wands,1
+Lord Dennis,Miss Hogsmeade Lee,1
+Lord Dennis,Peverell,1
+Lord Dennis,Wands,1
+Lord Dennis,Wormtail,1
+Lord Dennis,charming,1
+Lord Dennis,don,1
+Lord Dennis Minerva,Miss Newt,1
+Lord Dennis Minerva,Miss Newt Andromeda,1
+Lord Dennis Minerva,Mr. Arthur,1
+Lord Dennis Minerva,Pettigrew,1
+Lord Dennis Minerva,Peverell,1
+Lord Dennis Minerva,Wands,1
+Lord Dennis Minerva,charming,1
+Lord Dennis Minerva,master,1
+Merope Thestral,Mr. Arthur,1
+Miss Child,Miss Newt Andromeda,1
+Miss Child,Portkey,1
+Miss Child,Ravenclaw Draco,1
+Miss Child,Silence,1
+Miss Child,Wizarding Mandrake,1
+Miss Child,woman,1
+Miss Hogsmeade Lee,Miss Newt Andromeda,1
+Miss Hogsmeade Lee,Peverell,1
+Miss Hogsmeade Lee,Riddle,1
+Miss Hogsmeade Lee,Wizarding Mandrake,1
+Miss Newt,Potter Child,1
+Miss Newt Andromeda,Mr. Triwizard Buckbeak,1
+Miss Newt Andromeda,Peverell,1
+Miss Newt Andromeda,Silence,1
+Miss Newt Andromeda,Thestral senior (Fenrir),1
+Miss Newt Andromeda,woman,1
+Miss Padma,Mr. Peverell Goblet,1
+Miss Padma,green,1
+Miss Potter,Ravenclaw,1
+Miss Potter,Ravenclaw Draco,1
+Miss Potter,Rubeus,1
+Miss Potter,Thestral senior,1
+Miss Potter,charming,1
+Miss Potter,green,1
+Miss Potter,heaven,1
+Miss Potter,sharp,1
+Missus,Pore Indian castaway,1
+Moony Stone,a,1
+Mr. Arthur,Rose Cottage,1
+Mr. Arthur,Rubeus Eileen,1
+Mr. Arthur,Sprout,1
+Mr. Arthur,Thug,1
+Mr. Arthur,Torrington School,1
+Mr. Arthur,Wands,1
+Mr. Arthur,Wizarding Mandrake,1
+Mr. Arthur,hants,1
+Mr. Arthur,lor,1
+Mr. Arthur,paterfamilias,1
+Mr. Bartholemew Chimaera,Mr. Peeves Seeker,1
+Mr. Bartholemew Chimaera,Rose Cottage,1
+Mr. Bartholemew Chimaera,Wizarding,1
+Mr. Bartholemew Chimaera,master,1
+Mr. Peeves Seeker,Potter Andromeda,1
+Mr. Peeves Seeker,Potter Child,1
+Mr. Peeves Seeker,Privately Seeker,1
+Mr. Peeves Seeker,Ravenclaw,1
+Mr. Peeves Seeker,Riddle,1
+Mr. Peeves Seeker,Sahib,1
+Mr. Peeves Seeker,Silence,1
+Mr. Peeves Seeker,Tournament,1
+Mr. Peeves Seeker,Wands,1
+Mr. Peeves Seeker,goor,1
+Mr. Peeves Seeker,tray,1
+Mr. Peverell Goblet,Peeves,1
+Mr. Peverell Goblet,Portkey,1
+Mr. Peverell Goblet,Torrington School,1
+Mr. Peverell Goblet,charming,1
+Mr. Quibbler,Pettigrew,1
+Mr. Quibbler,Thug,1
+Mr. Quibbler,englis,1
+Mr. Quibbler,green,1
+Mr. Quibbler,policeman,1
+Mr. Triwizard Buckbeak,Ravenclaw,1
+Mr. Triwizard Buckbeak,Ravenclaw Bailey,1
+Mr. Triwizard Buckbeak,Silence,1
+Mr. Triwizard Buckbeak,Snape,1
+Mr. Triwizard Buckbeak,Tonks,1
+Mr. Triwizard Buckbeak,Wands Andromeda I,1
+Mr. Triwizard Buckbeak,Wizarding Mandrake,1
+Mr. Triwizard Buckbeak,charming,1
+Mr. Triwizard Buckbeak,sharp,1
+Mr. Triwizard Buckbeak,sunbeam,1
+Mr. Triwizard Buckbeak,woman,1
+Mrs. Wands Andromeda,Peverell,1
+Mrs. Wands Andromeda,Ravenclaw Draco,1
+Mrs. Wands Andromeda,Rubeus,1
+Mrs. Wands Andromeda,Rubeus Eileen,1
+Mrs. Wands Andromeda,Voldemort,1
+Mrs. Wands Andromeda,Wands Andromeda I,1
+Mrs. Wands Andromeda,yuss,1
+Neville,Par,1
+Neville,a,1
+Old Nick,a,1
+Old Nick,master,1
+Oliver,a,1
+Par,Portkey,1
+Par,Wizarding Mandrake,1
+Pettigrew,Portkey,1
+Pettigrew,Wands Andromeda I,1
+Pettigrew,hants,1
+Pettigrew,policeman,1
+Pore Indian castaway,a,1
+Porter,Potion,1
+Portkey,Potion,1
+Portkey,Tumbucktook,1
+Potion,Potion Stone,1
+Potion,Wizarding,1
+Potion,heaven,1
+Potter Andromeda,Potter Child,1
+Potter Andromeda,Thestral senior (Fenrir),1
+Potter Andromeda,a,1
+Potter Child,Thestral senior (Fenrir),1
+Potter Child,Wands,1
+Potter Child,Wizarding Mandrake,1
+Privately Seeker,Wizarding,1
+Ravenclaw,Tournament,1
+Ravenclaw,master,1
+Ravenclaw,woman,1
+Ravenclaw Bailey,Thestral senior (Fenrir),1
+Ravenclaw Bailey,master,1
+Ravenclaw Bailey,woman,1
+Ravenclaw Draco,a,1
+Riddle,don,1
+Rubeus,Wands,1
+Rubeus Eileen,Wands,1
+Sahib,a,1
+Silence,Thestral senior (Fenrir),1
+Silence,page,1
+Silence,woman,1
+Snape,charming,1
+Sprout,woman,1
+Thestral senior,woman,1
+Thestral senior (Fenrir),heaven,1
+Thestral senior (Fenrir),page,1
+Thestral senior (Fenrir),policeman,1
+Thestral senior (Fenrir),sharp,1
+Thestral senior (Fenrir),sunbeam,1
+Thestral senior (Fenrir),tray,1
+Tonks,a,1
+Torrington School,a,1
+Voldemort,a,1
+Wands,Wands Andromeda I,1
+Wands,Wizarding,1
+Wands,master,1
+Wizarding,don,1
+Wizarding,lor,1
+Wizarding,woman,1
+Wizarding Mandrake,don,1
+Wizarding Mandrake,master,1
+Wizarding Mandrake,tray,1
+Wizarding Mandrake,woman,1
+Wormtail,a,1
+a,lor,1
+a,page,1
+a,tray,1
+a,wood,1
+charming,darling,1
+don,heaven,1
+don,policeman,1
+lor,tray,1
+policeman,woman,1

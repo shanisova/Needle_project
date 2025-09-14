@@ -1,0 +1,396 @@
+character1,character2,count
+Chris Pett,Mr. Christopher Pett,157
+Milford Cotherstone,a,152
+Anthony Mallalieu,a,126
+Mr. Gifford Brereton,a,114
+a,by,108
+Windle Bent,a,73
+Bert Stoner,a,67
+Mr. Kitely,a,67
+Mr. Christopher Pett,a,66
+Anthony Mallalieu,Milford Cotherstone,63
+Chris Pett,a,42
+Avice Harborough,a,41
+Mr. Gifford Brereton,Windle Bent,41
+Milford Cotherstone,Windle Bent,36
+a,m,34
+Christopher,Mr. Christopher Pett,33
+Milford Cotherstone,by,30
+Anthony Mallalieu,Bert Stoner,28
+Mr. Gifford Brereton,by,28
+Christopher,a,26
+Anthony Mallalieu,by,25
+Bert Stoner,Milford Cotherstone,25
+Milford Cotherstone,Mr. Kitely,25
+Mr. Kitely,by,24
+Bert Stoner,by,23
+Milford Cotherstone,Mr. Gifford Brereton,22
+Chidforth,Mallows,21
+David Myler,a,20
+Miss Avice,a,20
+Mr. Christopher Pett,Mr. Gifford Brereton,20
+Avice Harborough,Mr. Gifford Brereton,19
+Wilchester,a,19
+Anthony Mallalieu,Mr. Kitely,18
+Lettie,Windle Bent,18
+a,wood,18
+Miss Avice,Mr. Gifford Brereton,17
+Anthony Mallalieu,Mr. Christopher Pett,16
+a,grey,16
+Anthony Mallalieu,Chris Pett,15
+Bert Stoner,Mr. Kitely,15
+Lettie,a,15
+Mr. Christopher Pett,by,14
+Mr. Gifford Brereton,Mr. Kitely,14
+a,chance,14
+a,mayor,14
+Anthony Mallalieu,mayor,13
+Mr. Christopher Pett,Mr. Kitely,13
+Windle,Windle Bent,12
+Bert Stoner,David Myler,11
+Avice Harborough,Miss Avice,10
+Avice Harborough,Mr. Kitely,10
+Avice Harborough,by,10
+Carfax,a,10
+Chris Pett,Christopher,10
+Chris Pett,Mr. Kitely,10
+Chris Pett,by,10
+Lettie,Milford Cotherstone,10
+Milford Cotherstone,Mr. Tallington,10
+Milford Cotherstone,Wilchester,10
+Mr. Gifford Brereton,Mr. Tallington,10
+Mr. Tallington,a,10
+Windle Bent,by,10
+Avice Harborough,Windle Bent,9
+Bert Stoner,Mr. Gifford Brereton,9
+Chidforth,a,9
+Mallows,a,9
+Mr. John Wraythwaite,a,9
+Stilman,a,9
+a,moor,9
+Anthony Mallalieu,Wilchester,8
+Bert Stoner,Wilchester,8
+Chidforth,Wilchester,8
+Mallows,Wilchester,8
+Mr. Kitely,Windle Bent,8
+Windle,a,8
+a,north,8
+Anthony Mallalieu,Mallows,7
+Anthony Mallalieu,Mr. Gifford Brereton,7
+Anthony Mallalieu,Windle Bent,7
+Chris Pett,Mr. Gifford Brereton,7
+Garthwaite,a,7
+Mr. Tallington,Windle Bent,7
+Mrs. Northrop,a,7
+Anthony Mallalieu,Chidforth,6
+Avice Harborough,Chris Pett,6
+Avice Harborough,Mr. Christopher Pett,6
+Chidforth,Milford Cotherstone,6
+Mallows,Milford Cotherstone,6
+Milford Cotherstone,Windle,6
+Miss Avice,Windle Bent,6
+Mr. Christopher Pett,Windle Bent,6
+Mr. Gifford Brereton,mayor,6
+Mr. John Wraythwaite,wraye,6
+Mr. Kitely,Wilchester,6
+Mr. Stobb,a,6
+Anthony Mallalieu,Avice Harborough,5
+Lettie,Mr. Gifford Brereton,5
+Mr. Tallington,by,5
+a,mark,5
+a,wraye,5
+by,grey,5
+Anthony Mallalieu,Christopher,4
+Anthony Mallalieu,wood,4
+Avice Harborough,Mr. John Wraythwaite,4
+Avice Harborough,wood,4
+Carfax,Mr. Gifford Brereton,4
+Carfax,Mr. Stobb,4
+Chidforth,Mr. Kitely,4
+Christopher,by,4
+Mallows,Mr. Kitely,4
+Milford Cotherstone,m,4
+Mr. Gifford Brereton,m,4
+Stilman,by,4
+a,star,4
+Anthony Mallalieu,David Myler,3
+Anthony Mallalieu,Mrs. Northrop,3
+Anthony Mallalieu,m,3
+Avice Harborough,Jack Harborough,3
+Bert Stoner,chance,3
+David Myler,Mr. Pursey,3
+Garthwaite,Milford Cotherstone,3
+Garthwaite,Windle Bent,3
+John Carter,a,3
+Lettie,by,3
+Milford Cotherstone,wood,3
+Miss Avice,Mr. John Wraythwaite,3
+Miss Avice,Mrs. Northrop,3
+Mr. Christopher Pett,wood,3
+Mr. Gifford Brereton,Mrs. Northrop,3
+Mr. Gifford Brereton,grey,3
+Mr. Gifford Brereton,wood,3
+Mr. Kitely,Mr. Tallington,3
+Mr. Kitely,Windle,3
+Mr. Leykin,Mr. Stobb,3
+Mr. Leykin,a,3
+Windle Bent,m,3
+Windle Bent,mayor,3
+Windle Bent,stop,3
+a,stop,3
+by,moor,3
+grey,zane,3
+Avice Harborough,Carfax,2
+Avice Harborough,Milford Cotherstone,2
+Avice Harborough,Mrs. Northrop,2
+Avice Harborough,m,2
+Avice Harborough,mayor,2
+Avice Harborough,stop,2
+Avice Harborough,wraye,2
+Bert Stoner,Postick,2
+Bert Stoner,grey,2
+Bert Stoner,moor,2
+Chris,Chris Pett,2
+Chris,Mr. Christopher Pett,2
+Chris,a,2
+Chris Pett,Stilman,2
+Chris Pett,Windle Bent,2
+Chris Pett,wood,2
+Christopher,Mr. Gifford Brereton,2
+Christopher,gill,2
+Dave,a,2
+David Myler,Wilchester,2
+Garthwaite,Mr. Gifford Brereton,2
+Garthwaite,m,2
+John Carter,mars,2
+KAZAN,a,2
+Maria,Wilchester,2
+Miss Avice,by,2
+Miss Avice,m,2
+Mr. Christopher Pett,Mr. Leykin,2
+Mr. Christopher Pett,Stilman,2
+Mr. Christopher Pett,chance,2
+Mr. Gifford Brereton,Mr. Leykin,2
+Mr. Gifford Brereton,Mr. Stobb,2
+Mr. Gifford Brereton,Windle,2
+Mr. Gifford Brereton,mark,2
+Mr. John Wraythwaite,by,2
+Mr. Kitely,wood,2
+Windle Bent,wood,2
+a,bay,2
+a,god,2
+a,halo,2
+a,mars,2
+by,chance,2
+by,gill,2
+by,halo,2
+by,mayor,2
+by,north,2
+by,stop,2
+by,wood,2
+chance,moor,2
+god,m,2
+god,north,2
+Anthony Mallalieu,Gradston,1
+Anthony Mallalieu,Jack Harborough,1
+Anthony Mallalieu,Lettie,1
+Anthony Mallalieu,Mr. Tallington,1
+Anthony Mallalieu,Stilby,1
+Anthony Mallalieu,chance,1
+Anthony Mallalieu,esquire,1
+Anthony Mallalieu,gill,1
+Anthony Mallalieu,grey,1
+Anthony Mallalieu,mark,1
+Anthony Mallalieu,moor,1
+Avice Harborough,Susan Hamthwaite,1
+BAREE,KAZAN,1
+BAREE,a,1
+BAREE,grey,1
+Bert,Bert Stoner,1
+Bert,Milford Cotherstone,1
+Bert,a,1
+Bert Stoner,Chidforth,1
+Bert Stoner,Mallows,1
+Bert Stoner,Mr. Pursey,1
+Bert Stoner,Mr. Tallington,1
+Bert Stoner,gill,1
+Bert Stoner,m,1
+Bert Stoner,mark,1
+Bruce Albrecht,Martin Pettit,1
+Bruce Albrecht,by,1
+Carfax,Miss Avice,1
+Carfax,Mr. John Wraythwaite,1
+Carfax,Mr. Leykin,1
+Carfax,Spillington,1
+Carthoris,John Carter,1
+Carthoris,a,1
+Carthoris,thuvia,1
+Chidforth,Mr. Gifford Brereton,1
+Chidforth,mark,1
+Chris Pett,Milford Cotherstone,1
+Chris Pett,Mr. John Wraythwaite,1
+Chris Pett,Mr. Leykin,1
+Chris Pett,Mr. Stobb,1
+Chris Pett,north,1
+Christopher,Windle Bent,1
+Christopher,bay,1
+Christopher,grey,1
+Christopher,m,1
+Christopher,mayor,1
+Christopher,moor,1
+Christopher,wood,1
+Dave,Dave Myler,1
+Dave,David Myler,1
+Dave Myler,David Myler,1
+Dave Myler,a,1
+David Myler,Milford Cotherstone,1
+David Myler,Mr. Tallington,1
+David Myler,by,1
+Freckles,a,1
+GREATHEART,a,1
+Garthwaite,Lettie,1
+Garthwaite,Mr. Kitely,1
+Garthwaite,by,1
+George,by,1
+Gradston,Stilby,1
+Gradston,a,1
+ISOBEL,a,1
+ISOBEL,north,1
+Jack Harborough,wood,1
+John Carter,issus,1
+John Carter,thuvia,1
+KAZAN,grey,1
+Laddie,a,1
+Lettie,Lettie Cotherstone,1
+Lettie,m,1
+Lettie,wood,1
+Lettie Cotherstone,Milford Cotherstone,1
+Lettie Cotherstone,by,1
+Mallows,Mr. Gifford Brereton,1
+Mallows,mark,1
+Martin Pettit,by,1
+Milford Cotherstone,Mr. Christopher Pett,1
+Milford Cotherstone,Mr. John Wraythwaite,1
+Milford Cotherstone,Mrs. Northrop,1
+Milford Cotherstone,chance,1
+Milford Cotherstone,grey,1
+Milford Cotherstone,mark,1
+Milford Cotherstone,mayor,1
+Milford Cotherstone,north,1
+Milford Cotherstone,wraye,1
+Miss Avice,grey,1
+Mr. Christopher Pett,Mr. John Wraythwaite,1
+Mr. Christopher Pett,Mr. Stobb,1
+Mr. Christopher Pett,bay,1
+Mr. Christopher Pett,grey,1
+Mr. Christopher Pett,mayor,1
+Mr. Christopher Pett,moor,1
+Mr. Christopher Pett,north,1
+Mr. Gifford Brereton,Stilman,1
+Mr. Gifford Brereton,Wilchester,1
+Mr. Gifford Brereton,bay,1
+Mr. Gifford Brereton,star,1
+Mr. Gifford Brereton,wraye,1
+Mr. John Wraythwaite,Mr. Kitely,1
+Mr. John Wraythwaite,mayor,1
+Mr. John Wraythwaite,north,1
+Mr. Kitely,Stilman,1
+Mr. Kitely,dick,1
+Mr. Kitely,m,1
+Mr. Kitely,mark,1
+Mr. Pursey,Wilchester,1
+Mr. Pursey,a,1
+Mr. Tallington,Wilchester,1
+Popsie,a,1
+Popsie,grey,1
+Postick,a,1
+Rellit,a,1
+Stilby,a,1
+Strawson,a,1
+Susan Hamthwaite,a,1
+Susan Hamthwaite,h,1
+Tardos Mors,Tars Tarkas,1
+Tardos Mors,mars,1
+Tars Tarkas,mars,1
+Wilchester,m,1
+Wilchester,mark,1
+Windle,mark,1
+Windle Bent,chance,1
+Windle Bent,mark,1
+a,featherby,1
+a,gad,1
+a,ingleby,1
+a,king,1
+a,pilboody,1
+a,plum,1
+a,shenstone,1
+a,thuvia,1
+bay,by,1
+bay,grey,1
+bay,mayor,1
+bay,moor,1
+bay,wood,1
+by,desert,1
+by,fletcher,1
+by,frances,1
+by,gene,1
+by,helen,1
+by,herman,1
+by,ingleby,1
+by,joseph,1
+by,pfeifer,1
+by,rogers,1
+by,shenstone,1
+by,smith,1
+by,star,1
+by,tarzan,1
+by,w,1
+by,wetmore,1
+by,wraye,1
+by,zane,1
+chance,north,1
+desert,forest,1
+desert,grey,1
+desert,helen,1
+desert,star,1
+desert,wetmore,1
+desert,zane,1
+esquire,mayor,1
+ethel,m,1
+fletcher,joseph,1
+fletcher,smith,1
+forester,grey,1
+forester,james,1
+forester,stop,1
+forester,zane,1
+frances,rogers,1
+gill,moor,1
+grey,helen,1
+grey,james,1
+grey,mayor,1
+grey,moor,1
+grey,star,1
+grey,stop,1
+grey,wetmore,1
+grey,wood,1
+helen,star,1
+helen,wetmore,1
+helen,zane,1
+herman,pfeifer,1
+ingleby,shenstone,1
+issus,mars,1
+james,stop,1
+james,zane,1
+joseph,smith,1
+king,plum,1
+king,thor,1
+mars,thuvia,1
+mayor,moor,1
+mayor,wood,1
+mayor,wraye,1
+moor,wood,1
+north,wraye,1
+star,wetmore,1
+star,zane,1
+stop,zane,1
+wetmore,zane,1

@@ -1,0 +1,23 @@
+character1,character2,count
+Miss Ron,Miss Tom Aberforth,5
+Miss Ron,Ron Aberforth,5
+Miss Tom Aberforth,Ron Aberforth,5
+Mr. Slughorn,Rubeus Acromantula,5
+Hippogriff,Miss Ron,4
+Lee,Lee Beasts,3
+Miss Ron,Them,3
+Longbottom,Them,2
+Miss Tom Aberforth,Rubeus Acromantula,2
+Umbridge,Umbridge Mcgonagall,2
+Binns,Lee Beasts,1
+Hippogriff,Lee,1
+Hippogriff,Them,1
+Hippogriff,Umbridge Mcgonagall,1
+Katie,Miss Ron,1
+Katie,Them,1
+Lee Beasts,Miss Ron,1
+Merope,Rubeus Acromantula,1
+Miss Ron,Umbridge Mcgonagall,1
+Mr. Slughorn,Them,1
+Rubeus Acromantula,Them,1
+Them,Umbridge Mcgonagall,1

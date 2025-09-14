@@ -1,0 +1,8 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Bassey,0,0.14285714285714285,0,1,1.0
+Davidson,0,0.14285714285714285,0,1,7.0
+Inspector Thompson,0,0.20849276704861638,0,2,2.0
+Mr. Hill,0,0.14285714285714285,0,1,1.0
+Mr. Taika Cummings,0,0.11003933076140612,0,1,1.0
+Page,0,0.14285714285714285,0,1,7.0
+Turner,0,0.11003933076140612,0,1,1.0

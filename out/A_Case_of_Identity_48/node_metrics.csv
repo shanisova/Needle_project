@@ -1,0 +1,9 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Angel,0,0.125,0,1,1.0
+Mary Hosmer,0,0.07522075859740263,0,1,4.0
+Miss Horace Holmes,1,0.05177405638789403,0,3,3.0
+Mr. James Jove,0,0.1162633312788608,1,4,7.0
+Mr. Windibank Etherege,0,0.24846333221374345,1,4,22.0
+Ned,0,0.125,0,1,1.0
+Sutherland,0,0.028349575768478907,0,1,1.0
+Windibank,0,0.22992894575362005,1,3,21.0

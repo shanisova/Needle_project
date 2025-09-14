@@ -1,0 +1,270 @@
+character1,character2,count
+Lady Aditya Pavan,Vinay Pavan,147
+Lady Farhan,Sir Dhruv Farhan,93
+Mohit Priyanka,Surbhi Swara Mohit,40
+Lady Aditya,Lady Aditya Pavan,33
+Sir Dhruv,Sir Dhruv Farhan,32
+Lady Aditya Pavan,Shalu Priyadarshan,28
+Karun,Shalu Priyadarshan,27
+Mr. Ranjit Lakshya,Shalu Priyadarshan,26
+Shalu Priyadarshan,Sir Dhruv,24
+Richa,Shalu Priyadarshan,23
+Miss Hina,Miss Pallavi Mohanlal,21
+Lady Aditya,Shalu Priyadarshan,20
+Lara,Miss Pallavi Mohanlal,20
+Lara,Mr. Lara Mohanlal,19
+Miss Pallavi Mohanlal,Mr. Lara Mohanlal,19
+Lady Aditya,Sir Dhruv,17
+Miss Hina,Miss Hina Mohanlal,16
+Miss Hina Mohanlal,Miss Pallavi Mohanlal,16
+Lady Aditya,Vinay Pavan,15
+Lady Aditya Pavan,Sir Dhruv,15
+Miss Pallavi Mohanlal,Shalu Priyadarshan,14
+Shalu Priyadarshan,Sir Dhruv Farhan,14
+Lady Aditya Pavan,Sir Dhruv Farhan,13
+Mr. Manan Arjun,Professor Manan,13
+Miss Hina,Shalu Priyadarshan,12
+Mohit Priyanka,Shalu Priyadarshan,12
+Lady Farhan,Shalu Priyadarshan,11
+Miss Richa Ramesh,Richa,11
+DOCTOR Anjali,Shalu Priyadarshan,10
+Niharika,Sanjeev,10
+Sir Dhruv Farhan,Vinay Pavan,9
+Lady Aditya,Sir Dhruv Farhan,8
+Lady Aditya Pavan,Mr. Manan Arjun,8
+Lady Farhan,Sir Dhruv,8
+Miss Richa Ramesh,Shalu Priyadarshan,8
+Shalu Priyadarshan,Vinay Pavan,8
+Sir Dhruv,Vinay Pavan,8
+Lady Aditya Pavan,Lady Farhan,7
+Lady Farhan,Richa,7
+Miss Hina,Sir Dhruv,7
+Miss Hina,Sir Dhruv Farhan,7
+Richa,Sir Dhruv Farhan,7
+Shalu Priyadarshan,Surbhi Swara Mohit,7
+Lady Aditya,Miss Richa Ramesh,6
+Lady Aditya Pavan,Lara,6
+Lady Aditya Pavan,Mohit Priyanka,6
+Lady Aditya Pavan,Mr. Ranjit Lakshya,6
+Lady Farhan,Miss Hina,6
+Surbhi,Surbhi Leena,6
+Bhavesh,Sir Dhruv,5
+Lady Aditya,Lady Farhan,5
+Lady Aditya,Saif,5
+Lady Aditya Pavan,Saif,5
+Lady Farhan,Mr. Kalyani Tanisha,5
+Lady Farhan,Vinay Pavan,5
+Lara,Mr. Manan Arjun,5
+Mohit Priyanka,Vinay Pavan,5
+Mr. Kalyani Tanisha,Sir Dhruv,5
+Mr. Kalyani Tanisha,Sir Dhruv Farhan,5
+Saif,Vinay Pavan,5
+Karun,Lady Aditya Pavan,4
+Karun,Mr. Ranjit Lakshya,4
+Karun,Sir Dhruv,4
+Lady Aditya,Richa,4
+Lady Aditya Pavan,Miss Pallavi Mohanlal,4
+Lara,Miss Hina,4
+Lara,Shalu Priyadarshan,4
+Miss Pallavi Mohanlal,Sir Dhruv,4
+Mr. Kalyani Tanisha,Shalu Priyadarshan,4
+Mr. Ranjit Lakshya,Sir Dhruv,4
+Bhavesh,Shalu Priyadarshan,3
+Bhavesh,Sir Dhruv Farhan,3
+DOCTOR Anjali,Miss Hina,3
+Kareena,Mr. Ranjit Lakshya,3
+Lady Aditya Pavan,Miss Richa Ramesh,3
+Lady Aditya Pavan,Pallavi,3
+Lady Aditya Pavan,Surbhi Swara Mohit,3
+Lara,Vinay Pavan,3
+Miss Hina Mohanlal,Shalu Priyadarshan,3
+Miss Pallavi Mohanlal,Mr. Manan Arjun,3
+Miss Richa Ramesh,Sir Dhruv,3
+Mohit Priyanka,Mr. Ranjit Lakshya,3
+Mohit Priyanka,Sir Dhruv,3
+Mr. Hrithik,Sir Dhruv,3
+Mr. Lara Mohanlal,Mr. Manan Arjun,3
+Mr. Manan Arjun,Sahil,3
+Mr. Manan Arjun,Sahil Arjun,3
+Mr. Manan Arjun,Sanjay,3
+Mr. Ranjit Lakshya,Sir Dhruv Farhan,3
+Mr. Ranjit Lakshya,Surbhi Swara Mohit,3
+Mr. Ranjit Lakshya,Vinay Pavan,3
+Sahil,Sahil Arjun,3
+Bhavesh,Lady Aditya Pavan,2
+Bhavesh,Mr. Ranjit Lakshya,2
+Chiranjeevi,Surbhi,2
+Chiranjeevi,Surbhi Leena,2
+DOCTOR Anjali,Miss Pallavi Mohanlal,2
+DOCTOR Anjali,Sir Dhruv,2
+Dharmendra,Saif,2
+Kareena,Mohit Priyanka,2
+Kareena,Shalu Priyadarshan,2
+Karun,Miss Hina,2
+Karun,Mohit Priyanka,2
+Karun,Surbhi Swara Mohit,2
+Komal,Komal Tabu,2
+Lady Aditya,Miss Pallavi Mohanlal,2
+Lady Aditya,Miss Vinay,2
+Lady Aditya,Mr. Hrithik,2
+Lady Aditya,Mr. Kiara,2
+Lady Aditya,Mr. Ranjit Lakshya,2
+Lady Aditya Pavan,Miss Hina,2
+Lady Aditya Pavan,Miss Vinay,2
+Lady Aditya Pavan,Mr. Lara Mohanlal,2
+Lady Aditya Pavan,Niharika,2
+Lady Aditya Pavan,Radhika,2
+Lady Aditya Pavan,Sanjeev,2
+Lady Farhan,Miss Richa Ramesh,2
+Miss Hina,Mr. Lara Mohanlal,2
+Miss Hina,Vinay Pavan,2
+Miss Hina Mohanlal,Sir Dhruv,2
+Miss Pallavi Mohanlal,Richa,2
+Miss Pallavi Mohanlal,Sir Dhruv Farhan,2
+Miss Richa Ramesh,Mr. Hrithik,2
+Miss Richa Ramesh,Sir Dhruv Farhan,2
+Miss Richa Ramesh,Vinay Pavan,2
+Miss Vinay,Mr. Ranjit Lakshya,2
+Miss Vinay,Vinay Pavan,2
+Mohit Priyanka,Surbhi,2
+Mr. Hrithik,Richa,2
+Mr. Hrithik,Shalu Priyadarshan,2
+Mr. Kiara,Rajat,2
+Mr. Lara Mohanlal,Shalu Priyadarshan,2
+Mr. Manan Arjun,Sanjay Arjun,2
+Mr. Manan Arjun,Shalu Priyadarshan,2
+Mr. Manan Arjun,Sir Dhruv,2
+Mr. Manan Arjun,Vinay Pavan,2
+Mr. Ranjit Lakshya,Professor Manan,2
+Richa,Sir Dhruv,2
+Rohan,Sir Dhruv,2
+Sanjay,Sanjay Arjun,2
+Shafaq,Sir Dhruv,2
+Shalu Priyadarshan,Surbhi,2
+Sir Dhruv,Surbhi Swara Mohit,2
+Surbhi,Surbhi Swara Mohit,2
+Surbhi Swara Mohit,Vinay Pavan,2
+Abhishek,Mr. Hrithik,1
+Arvind,Lady Aditya,1
+Arvind,Shalu Priyadarshan,1
+Arvind,Sir Dhruv,1
+Arvind,Tanvi,1
+Bhavesh,Karun,1
+Bhavesh,Lady Aditya,1
+Bhavesh,Miss Hina,1
+Bhavesh,Miss Hina Mohanlal,1
+Bhavesh,Miss Pallavi Mohanlal,1
+Chaitanya,Mohit Priyanka,1
+Chaitanya,Sanjeev,1
+Chaitanya,Surbhi Swara Mohit,1
+Chandan,Chiranjeevi,1
+Chandan,Lady Aditya,1
+Chandan,Shalu Priyadarshan,1
+Chiranjeevi,Lady Aditya,1
+Chiranjeevi,Shalu Priyadarshan,1
+DOCTOR Anjali,Lady Aditya Pavan,1
+DOCTOR Anjali,Miss Hina Mohanlal,1
+DOCTOR Anjali,Mohit Priyanka,1
+DOCTOR Anjali,Mr. Ranjit Lakshya,1
+DOCTOR Anjali,Sir Dhruv Farhan,1
+Deepika,Shalu Priyadarshan,1
+Dharmendra,Lady Aditya,1
+Disha,Mr. Manan Arjun,1
+Gaurav,Lady Aditya Pavan,1
+Gaurav,Sagar,1
+Inspector Raghav,Mr. Anil Raghav,1
+Janhvi,Karun,1
+Janhvi,Lady Aditya Pavan,1
+Janhvi,Mohit Priyanka,1
+Janhvi,Surbhi,1
+Janhvi,Surbhi Swara Mohit,1
+Kareena,Sir Dhruv,1
+Karun,Lady Aditya,1
+Karun,Miss Pallavi Mohanlal,1
+Karun,Mr. Hrithik,1
+Karun,Niharika,1
+Karun,Prerna',1
+Karun,Sir Dhruv Farhan,1
+Karun,Surbhi,1
+Komal,Mohit Priyanka,1
+Komal,Shalu Priyadarshan,1
+Komal,Surbhi Swara Mohit,1
+Lady Aditya,Mohit Priyanka,1
+Lady Aditya,Mr. Kalyani Tanisha,1
+Lady Aditya,Mr. Manan Arjun,1
+Lady Aditya,Pallavi,1
+Lady Aditya,Sahil,1
+Lady Aditya,Surbhi,1
+Lady Aditya,Surbhi Leena,1
+Lady Aditya,Surbhi Swara Mohit,1
+Lady Aditya,Tanvi,1
+Lady Aditya Pavan,Mr. Hrithik,1
+Lady Aditya Pavan,Professor Manan,1
+Lady Aditya Pavan,Richa,1
+Lady Aditya Pavan,Rohan,1
+Lady Aditya Pavan,Sagar,1
+Lady Aditya Pavan,Sanjay,1
+Lady Aditya Pavan,Sanjay Arjun,1
+Lady Aditya Pavan,Surbhi,1
+Lady Farhan,Miss Pallavi Mohanlal,1
+Lady Farhan,Mr. Anil Raghav,1
+Lara,Miss Richa Ramesh,1
+Lara,Mr. Kalyani Tanisha,1
+Lara,Professor Manan,1
+Miss Hina,Miss Richa Ramesh,1
+Miss Hina Mohanlal,Sir Dhruv Farhan,1
+Miss Pallavi Mohanlal,Miss Richa Ramesh,1
+Miss Pallavi Mohanlal,Mr. Kalyani Tanisha,1
+Miss Pallavi Mohanlal,Mr. Meenal,1
+Miss Pallavi Mohanlal,Pallavi,1
+Miss Pallavi Mohanlal,Professor Manan,1
+Miss Richa Ramesh,Mr. Lara Mohanlal,1
+Miss Richa Ramesh,Rohan,1
+Miss Richa Ramesh,Saif,1
+Miss Vinay,Sarika,1
+Miss Vinay,Sir Dhruv,1
+Miss Vinay,Sir Dhruv Farhan,1
+Mohit Priyanka,Professor Manan,1
+Mohit Priyanka,Sanjeev,1
+Mr. Anil Raghav,Mr. Hrithik,1
+Mr. Anil Raghav,Shalu Priyadarshan,1
+Mr. Anil Raghav,Sir Dhruv,1
+Mr. Anil Raghav,Sir Dhruv Farhan,1
+Mr. Anil Raghav,Sneha,1
+Mr. Hrithik,Rohan,1
+Mr. Hrithik,Surbhi Swara Mohit,1
+Mr. Hrithik,Vinay Pavan,1
+Mr. Kalyani Tanisha,Mr. Lara Mohanlal,1
+Mr. Kalyani Tanisha,Mr. Manan Arjun,1
+Mr. Kalyani Tanisha,Professor Manan,1
+Mr. Kalyani Tanisha,Saif,1
+Mr. Kalyani Tanisha,Sanjay,1
+Mr. Kalyani Tanisha,Sonakshi,1
+Mr. Lara Mohanlal,Professor Manan,1
+Mr. Manan Arjun,Mr. Ranjit Lakshya,1
+Mr. Manan Arjun,Nikita,1
+Mr. Ranjit Lakshya,Niharika,1
+Mr. Ranjit Lakshya,Radhika,1
+Mr. Ranjit Lakshya,Shruti,1
+Nikita,Professor Manan,1
+Nikita,Surbhi Swara Mohit,1
+Pallavi,Vinay Pavan,1
+Prerna',Shalu Priyadarshan,1
+Prerna',Sir Dhruv,1
+Professor Manan,Sanjay,1
+Professor Manan,Surbhi Swara Mohit,1
+Professor Manan,Vinay Pavan,1
+Ranveer,Shalu Priyadarshan,1
+Richa,Rohan,1
+Richa,Vinay Pavan,1
+Rohan,Saif,1
+Rohan,Vinay Pavan,1
+Saif,Sir Dhruv,1
+Sanjay,Vinay Pavan,1
+Sanjay Arjun,Vinay Pavan,1
+Sanjeev,Surbhi Swara Mohit,1
+Shalu Priyadarshan,Surbhi Leena,1
+Shalu Priyadarshan,Surbhi Tia,1
+Shalu Priyadarshan,Tanvi,1
+Sir Dhruv,Tanvi,1
+Surbhi,Surbhi Tia,1
