@@ -1,0 +1,11 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Karkaroff Veela,0,0.035407448662608115,0,1,1.0
+Leta,0,0.08754159960354058,0,2,3.0
+Leta the First,0,0.06460565889504112,0,1,2.0
+Peverell,0,0.10778311184206688,0,3,5.0
+Remus,0,0.1,0,1,2.0
+Remus Lily,0,0.1,0,1,2.0
+Richard Pettigrew,0,0.09176318430909305,0,3,4.0
+Rubeus Ron,0,0.1200439492746137,0,4,5.0
+Sir Ralph Wizarding,0,0.20735370584887214,0,5,10.0
+Vernon Wizarding,0,0.08550134156416461,0,1,4.0

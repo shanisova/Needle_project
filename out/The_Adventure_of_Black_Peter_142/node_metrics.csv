@@ -1,0 +1,17 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Black Lee Morgan,0,0.025020552442549335,1,1,1.0
+Captain Beckham,0,0.04538711756038954,0,2,2.0
+Captain Lee Morgan,1,0.1288444861235606,0,6,7.0
+Cardinal Adele,0,0.0625,0,1,1.0
+Corbin,0,0.04066610488509867,2,1,2.0
+Duke of Holdernesse,0,0.021022355956212935,0,1,1.0
+Gyllenhaal Bruce,0,0.08873243192061339,1,4,5.0
+Harpooner,0,0.025020552442549335,1,1,1.0
+Hathaway,0,0.024459644121284978,0,1,1.0
+Mrs. Blythe,0,0.028664925381614564,0,1,1.0
+O'brien,0,0.0625,0,1,2.0
+Sherlock Foster,0,0.1644381408313038,1,5,12.0
+Stanley Gaye,0,0.10255384764970349,0,1,8.0
+Tyson Pryor,0,0.055189840685119285,1,2,3.0
+Wayans,0,0.0625,0,1,1.0
+tut,0,0.0625,0,1,2.0

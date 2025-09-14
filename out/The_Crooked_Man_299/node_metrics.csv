@@ -1,0 +1,17 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Bathsheba,0,0.0625,0,1,1.0
+Bhurtee,0,0.0625,0,1,2.0
+David,0,0.05343794446513375,0,3,4.0
+Harry Wood,0,0.022268317718500075,0,1,1.0
+Henry,0,0.08334603629760978,3,4,6.0
+James,0,0.09947568346725302,0,3,8.0
+Miss Morrison,0,0.02049148840275306,0,1,1.0
+Miss Nancy Devoy,0,0.03338480612125313,0,2,2.0
+Mr. Henry Wood,1,0.05914019459050274,0,2,4.0
+Nancy,0,0.07584052134342739,0,3,5.0
+Neill,0,0.0625,0,1,2.0
+Sergeant James Barclay,0,0.14386537725142676,0,5,11.0
+Sherlock Holmes,0,0.03374963034214026,1,2,2.0
+Uriah,0,0.0625,0,1,1.0
+Watson,0,0.0625,0,1,1.0
+murphy,0,0.0625,0,1,1.0

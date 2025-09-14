@@ -1,0 +1,7 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Howler,0,0.07761212163932638,0,1,1.0
+Miss Fantastic,0,0.1471977821938042,0,2,2.0
+Mr. Ginny Marauder,0,0.28101226748653135,0,3,5.0
+Mr. Trevor Regulus,0,0.22092935750627332,0,2,4.0
+Platform,0,0.08755849498444068,0,1,1.0
+Professor Fantastic,0,0.18568997618962418,0,3,3.0

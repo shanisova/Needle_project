@@ -1,0 +1,8 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Hafiz,0,0.14285714285714285,0,1,1.0
+Horace,0,0.14285714285714285,0,1,1.0
+Hosmer,0,0.22008206931005633,0,3,18.0
+Miss Mary Sutherland,0,0.05811678301505914,0,3,3.0
+Mr. Hosmer Angel,0,0.22008206931005633,0,3,18.0
+Mr. James Windibank,0,0.13096551632513634,0,4,7.0
+Sherlock Holmes,0,0.085039276325406,0,1,4.0

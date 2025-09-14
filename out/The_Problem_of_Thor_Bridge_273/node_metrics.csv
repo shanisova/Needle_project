@@ -1,0 +1,9 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Billy,0,0.04264916440784554,0,1,1.0
+J. NEIL GIBSON,0,0.09898666586886931,0,3,3.0
+Miss Grace Dunbar,0,0.09279487815449872,0,3,3.0
+Mr. Marlow Bates,0,0.10894740322121423,0,2,4.0
+Mr. Sherlock Holmes,0,0.23399107357047172,0,3,9.0
+an,0,0.3092861851525457,0,7,11.0
+king,0,0.07069546521670916,0,2,2.0
+lincoln,0,0.04264916440784554,0,1,1.0

@@ -1,0 +1,10 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Colonel,0,0.18827069622724663,0,3,11.0
+Colonel Aparna,0,0.05428670300385899,0,2,2.0
+Colonel Nithya Shailesh,0,0.14760034220947985,0,1,9.0
+Inspector Rohit,0,0.16216398772593085,0,2,2.0
+Ishaan,0,0.08558467280370124,0,1,1.0
+Matheson,0,0.1111111111111111,0,1,2.0
+Mr. Ayush Sneha,0,0.08558467280370124,0,1,1.0
+Mr. Victor Nushrat,0,0.05428670300385899,0,2,2.0
+Venner,0,0.1111111111111111,0,1,2.0

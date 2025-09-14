@@ -1,0 +1,11 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Boggart Teddy,0,0.1459482200046198,0,2,5.0
+Cattermole,0,0.1,0,1,1.0
+Centaur,0,0.11103896103896098,0,2,3.0
+Dobby,0,0.1,0,1,1.0
+Dr Binns,0,0.039810355999076064,0,1,1.0
+Find Horklump,0,0.07792207792207788,0,2,2.0
+Miss Centaur Ollivander,0,0.11103896103896098,0,2,3.0
+Miss Ollivander,0,0.11424142399630424,0,1,4.0
+moran,0,0.1,0,1,2.0
+stoke,0,0.1,0,1,2.0

@@ -1,0 +1,13 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Chimaera,0,0.045337020999396,0,1,2.0
+Constable MacPherson,0,0.03338584909349261,0,1,1.0
+Hermione,0,0.06801962119909327,0,2,2.0
+Inspector Gilderoy,0,0.07371465983759108,0,2,3.0
+Lady Narcissa,0,0.10899428553465676,0,2,6.0
+Lady Narcissa Graphorn Riddle,0,0.12967621674608126,0,4,7.0
+Mr. Hat Azkaban,0,0.21247752733472466,0,6,11.0
+Mr. Quaffle Umbridge,0,0.09391818542209371,0,3,3.0
+My husband,0,0.055529143428109856,0,2,2.0
+Prime Minister,0,0.06442730930485878,0,3,3.0
+Sovereign,0,0.04650055990080859,0,2,2.0
+Weasley Animagus,0,0.06801962119909326,0,2,2.0

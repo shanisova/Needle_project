@@ -1,0 +1,8 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Edith,0,0.03818070399343333,0,1,1.0
+Edith Presbury,0,0.3350399303416865,0,6,17.0
+Miss Presbury,0,0.12266344438898144,0,2,6.0
+Mr. Trevor Bennett,0,0.1074162769781535,0,3,5.0
+Professor Presbury,0,0.1978007615152103,0,4,10.0
+Roy,0,0.05499364656985195,0,2,2.0
+Sherlock Holmes,0,0.14390523621268292,0,4,7.0

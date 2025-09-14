@@ -1,0 +1,5 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Mr. Savage Al,0,0.25,0,1,9.0
+Savage,0,0.25,0,1,9.0
+Sir Culverton Jasper,0,0.25,0,1,1.0
+morton,0,0.25,0,1,1.0

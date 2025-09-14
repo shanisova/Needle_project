@@ -1,0 +1,8 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Anaya,0,0.07835639164522178,0,1,1.0
+Colonel Chaitanya Ramesh,0,0.20091983605334562,0,2,3.0
+Mr. Nikita Nandita,1,0.15043007385241358,0,2,2.0
+Mrs. Parvathy,0,0.19921752658401698,1,2,3.0
+Nitin,0,0.0853618861507163,1,1,1.0
+Tarun,0,0.14285714285714285,0,1,1.0
+Varsha Niharika,0,0.14285714285714285,0,1,1.0

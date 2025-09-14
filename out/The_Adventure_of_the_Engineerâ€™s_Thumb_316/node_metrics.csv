@@ -1,0 +1,6 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Inspector Bradstreet,0,0.2918908384708406,0,2,2.0
+Mr. Sherlock Holmes,0,0.15405458076457978,0,1,1.0
+Mr. Victor Hatherley,0,0.2,0,1,1.0
+eyford,0,0.15405458076457978,0,1,1.0
+warburton,0,0.2,0,1,1.0

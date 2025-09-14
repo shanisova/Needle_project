@@ -1,0 +1,8 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Charles Augustus Gere,1,0.22047792907287944,0,2,4.0
+Dr. Jagger,0,0.11513102461595877,2,1,2.0
+Lady Dorsey,1,0.141270555254919,0,2,2.0
+Lady Dorsey Ziegler,0,0.08146822407761886,1,1,1.0
+Mr. Woodley Dano,0,0.2976078040693244,3,4,5.0
+Mr. Wright,0,0.07202223145464977,0,1,1.0
+miles,0,0.07202223145464977,0,1,1.0

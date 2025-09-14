@@ -1,0 +1,9 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Azkaban,0,0.0379548901163381,0,1,1.0
+Dr. Luna,0,0.05895847671894754,0,2,2.0
+Inspector Oliver,0,0.21297141334415748,1,3,10.0
+John Hector McFarlane,1,0.09619122608225132,0,3,4.0
+Mr. Fred Angelina,0,0.2485364989171055,1,4,11.0
+Mr. George Cissa,0,0.16525533373076073,2,3,7.0
+Pomona,0,0.14217727097410118,0,3,6.0
+Professor Order,0,0.0379548901163381,0,1,1.0

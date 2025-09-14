@@ -1,0 +1,11 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Mr. Patterson Moriarty,1,0.12437020614245684,0,3,3.0
+Mrs. Narbonne,0,0.12390190530072616,1,2,3.0
+Peter,0,0.1,0,2,2.0
+Professor Holmes,0,0.17332219111616842,0,3,4.0
+Sherlock,0,0.08737115145200933,1,2,2.0
+james,0,0.1,0,2,2.0
+nimes,0,0.051831697268314936,0,1,1.0
+steiler,0,0.051831697268314936,0,1,1.0
+victoria,0,0.08737115145200933,1,2,2.0
+watson,0,0.1,0,2,2.0

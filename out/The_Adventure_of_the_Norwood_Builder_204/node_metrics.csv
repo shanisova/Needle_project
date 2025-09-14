@@ -1,0 +1,11 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Dr. Ronak,0,0.04453914643916544,0,2,2.0
+Inspector Yashwant,0,0.1462651060097244,1,4,11.0
+John Hector McFarlane,1,0.06721014446383516,0,3,4.0
+Kalyani,0,0.02637866578358631,0,1,1.0
+Krish,0,0.1446722013368785,0,3,11.0
+Mayank,0,0.10428992721005675,0,3,6.0
+Mr. Krish Shahid,0,0.2811168554027862,1,6,21.0
+Mr. Parineeti Ranveer,0,0.12159153457325475,2,3,7.0
+Professor Harsh,0,0.03755775299712631,0,2,2.0
+Sagar,0,0.02637866578358631,0,1,1.0

@@ -1,0 +1,10 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Charles,0,0.03508931120043317,0,1,1.0
+Janet Tregellis,0,0.03580307556377779,0,1,1.0
+Rachel Howells,0,0.15759342296563075,3,4,7.0
+Reginald Musgrave,0,0.07193460026796614,0,1,3.0
+Richard Brunton,1,0.12952280680253045,0,3,6.0
+Sir Ralph Musgrave,0,0.23841444686399152,2,5,11.0
+Watson,0,0.10942011411344785,1,3,5.0
+ricoletti,0,0.1111111111111111,0,1,1.0
+vamberry,0,0.1111111111111111,0,1,1.0

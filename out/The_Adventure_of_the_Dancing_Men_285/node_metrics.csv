@@ -1,0 +1,9 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Abe Slaney,0,0.0968216192647675,2,3,6.0
+Elsie,0,0.14043596924941393,0,3,4.0
+Elsie Patrick,0,0.04859288882901984,0,1,1.0
+Hilton,0,0.2118412277938378,23,2,25.0
+Inspector Martin,0,0.04338073191461857,0,1,1.0
+Mrs. Hilton Cubitt,1,0.2118412277938378,0,2,25.0
+Sherlock Holmes,0,0.17386271441086626,0,4,6.0
+god,0,0.0732236207436384,0,2,2.0

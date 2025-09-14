@@ -1,0 +1,6 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Colonel,0,0.29189083847084063,0,2,10.0
+Colonel Hat Stone,0,0.2532982453762437,0,1,9.0
+Inspector Centaur,0,0.2,0,1,1.0
+Mr. Cedric Alley,0,0.2,0,1,1.0
+Mr. Victor Triwizard,0,0.05481091615291597,0,1,1.0

@@ -1,0 +1,11 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Meiringen,0,0.1,0,2,2.0
+Mr. Sherlock Holmes,1,0.12437020614245684,0,3,3.0
+Mrs. Watson,0,0.12390190530072616,1,2,3.0
+Professor Moriarty,0,0.17332219111616842,0,3,4.0
+Steiler,0,0.1,0,2,2.0
+Victoria,0,0.051831697268314936,0,1,1.0
+james,0,0.051831697268314936,0,1,1.0
+narbonne,0,0.08737115145200933,1,2,2.0
+nimes,0,0.08737115145200933,1,2,2.0
+peter,0,0.1,0,2,2.0

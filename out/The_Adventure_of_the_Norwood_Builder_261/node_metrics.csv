@@ -1,0 +1,9 @@
+node,is_victim,pagerank,victim_connection_weight,degree,strength
+Dr. Watson,0,0.06409954636562834,0,2,2.0
+Inspector Lestrade,0,0.25761917112871124,0,2,12.0
+Mr. Cornelius,0,0.038291743636364325,0,1,1.0
+Mr. Jonas Oldacre,0,0.11116992225145653,0,2,4.0
+Professor Moriarty,0,0.038291743636364325,0,1,1.0
+Sherlock Holmes,0,0.2988763910460078,0,4,13.0
+Verner,0,0.038291743636364325,0,1,1.0
+norwood,0,0.153359738299103,0,3,6.0
