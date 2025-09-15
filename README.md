@@ -34,13 +34,12 @@ This project implements a character classification system that:
   - Filters out pronouns, non-capitalized names, places, and fragments
   - Groups characters by surname compatibility and title matching
   - Uses containment rules and initial overlap for merging
-  - Outputs both JSON and CSV formats
+  - Outputs CSV format with canonical aliases
 - **Arguments**:
-  - `--input`: Input CSV file with character names
-  - `--json-out`: Output JSON file path
+  - `--input` or `-i`: Input CSV file with character names (required)
   - `--csv-out`: Output CSV file path
   - `--drop-name`: Names to explicitly drop (can be used multiple times)
-- **Usage**: `python alias_builder.py --input Story_chars.csv --json-out aliases.json --csv-out aliases.csv`
+- **Usage**: `python alias_builder.py --input Story_chars.csv --csv-out aliases.csv`
 
 #### `interaction_extraction.py`
 - **Purpose**: Extract character interactions from story text using canonical names
@@ -50,10 +49,11 @@ This project implements a character classification system that:
   - Counts interaction frequencies
   - Outputs interaction matrix as CSV
 - **Arguments**:
-  - `--story`: Path to story text file
-  - `--aliases`: Path to aliases JSON or CSV file
+  - `--story`: Path to story text file (required)
+  - `--aliases`: Path to aliases CSV file (required)
   - `--output`: Output CSV file path (optional)
-- **Usage**: `python interaction_extraction.py --story story.txt --aliases aliases.json`
+  - `--chunk-size`: Size of text chunks to process (default: 5000)
+- **Usage**: `python interaction_extraction.py --story story.txt --aliases aliases.csv`
 
 #### `plot_connection_graph.py`
 - **Purpose**: Create connection graphs showing character relationships and victim connections
@@ -76,9 +76,11 @@ This project implements a character classification system that:
   - Creates organized output directory structure
 - **Arguments**:
   - `story_index`: Story index to process (required)
-  - `--output-dir`: Base output directory (default: "out")
-  - `--model`: Ollama model for character extraction (default: "llama3.2")
-- **Usage**: `python run_pipeline.py 0 --output-dir out --model llama3.2`
+  - `--story-name`: Custom name for the story (optional)
+  - `--clean`: Clean up existing output files before running
+  - `--skip-extract`: Skip LLM character extraction; build from metadata if needed
+  - `--reuse-chars`: Reuse existing chars CSV if present
+- **Usage**: `python run_pipeline.py 0 --clean`
 
 #### `run_full_dataset.py`
 - **Purpose**: Process entire WhoDunIt dataset through character analysis pipeline
@@ -262,10 +264,10 @@ ollama pull llama3.2
 #### Step 3: Character Data Pipeline
 ```bash
 # Process a single story (test run)
-python run_pipeline.py 0 --output-dir out --model llama3.2
+python run_pipeline.py 0 --clean
 
 # Process entire dataset (this will take several hours)
-python run_full_dataset.py --start-index 0 --end-index 100 --output-dir out --model llama3.2
+python run_full_dataset.py --start-index 0 --end-index 100
 ```
 
 #### Step 4: Train the Classification Model
@@ -320,12 +322,12 @@ python character_extraction.py -s 0 -m llama3.2
 
 #### Build Character Aliases
 ```bash
-python alias_builder.py --input char/Story_chars.csv --json-out aliases.json --csv-out aliases.csv
+python alias_builder.py --input char/Story_chars.csv --csv-out aliases.csv
 ```
 
 #### Extract Character Interactions
 ```bash
-python interaction_extraction.py --story story.txt --aliases aliases.json
+python interaction_extraction.py --story story.txt --aliases aliases.csv
 ```
 
 #### Create Character Connection Graph
@@ -335,7 +337,7 @@ python plot_connection_graph.py 0 --out graph.png
 
 #### Run Complete Pipeline for One Story
 ```bash
-python run_pipeline.py 0 --output-dir out --model llama3.2
+python run_pipeline.py 0 --clean
 ```
 
 #### Process Entire Dataset
@@ -370,6 +372,13 @@ python3 -m streamlit run main.py
 
 ### 📥 Required Data Files
 To use the project smoothly, you need to obtain the following data files from git:
+
+**Repository**: https://github.com/shanisova/Needle_project.git
+
+```bash
+git clone https://github.com/shanisova/Needle_project.git
+cd Needle_project
+```
 
 #### Character Data Files
 - **`out/` directory**: Contains processed character data from all stories
