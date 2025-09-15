@@ -223,7 +223,7 @@ def find_stories_with_node_metrics() -> List[Tuple[int, str, Path]]:
     stories = []
     
     # Find all node_metrics.csv files
-    node_metrics_files = glob.glob("out/*/node_metrics.csv")
+    node_metrics_files = glob.glob("character_data/*/node_metrics.csv")
     
     for metrics_file in node_metrics_files:
         metrics_path = Path(metrics_file)

@@ -423,7 +423,7 @@ def main():
     story_title = story.get("title", f"Story_{args.story_index}")
     
     # Locate pipeline outputs
-    story_dir = Path("out") / f"{clean_dir_name(story_title)}_{args.story_index}"
+    story_dir = Path("character_data") / f"{clean_dir_name(story_title)}_{args.story_index}"
     node_metrics_csv = story_dir / "node_metrics.csv"
     aliases_csv = story_dir / f"{story_title}_aliases.csv"
     

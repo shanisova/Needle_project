@@ -35,7 +35,7 @@ def create_output_directory(story_name, story_index: int):
     """Create output directory for the story (suffixed with index to avoid collisions)."""
     # Clean story name for directory
     clean_name = story_name.replace(' ', '_').replace("'", '').replace('"', '').replace(':', '').replace(';', '')
-    output_dir = Path("out") / f"{clean_name}_{story_index}"
+    output_dir = Path("character_data") / f"{clean_name}_{story_index}"
     output_dir.mkdir(parents=True, exist_ok=True)
     return output_dir
 
@@ -191,7 +191,7 @@ def run_full_dataset(start_index: int = 0, end_index: int = None, skip_existing:
     print(f"Total stories processed: {end_index - start_index}")
     print(f"Successful: {successful}")
     print(f"Failed: {failed}")
-    print(f"Output directory: out/")
+    print(f"Output directory: character_data/")
     print(f"{'='*100}")
 
 

@@ -9,7 +9,7 @@ Features:
 - Resolves victim(s) from chars CSV (is_victim column); if missing, falls back to
   murdered_victims_by_story_with_aliases.csv and alias matching; finally tries metadata name_id_map
 
-Inputs are the existing pipeline outputs in out/<Title_underscored>_<index>/.
+Inputs are the existing pipeline outputs in character_data/<Title_underscored>_<index>/.
 """
 
 from __future__ import annotations
@@ -297,7 +297,7 @@ def main():
     story_title = story.get("title", f"Story_{args.story_index}")
 
     # Locate pipeline outputs
-    story_dir = Path("out") / f"{clean_dir_name(story_title)}_{args.story_index}"
+    story_dir = Path("character_data") / f"{clean_dir_name(story_title)}_{args.story_index}"
     aliases_csv = story_dir / f"{story_title}_aliases.csv"
     interactions_csv = story_dir / f"{story_title}_interactions.csv"
     if not aliases_csv.exists() or not interactions_csv.exists():

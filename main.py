@@ -578,7 +578,7 @@ def load_story_graph_data(story_index: int, dataset):
     story_title = story.get("title", f"Story_{story_index}")
     
     # Locate pipeline outputs
-    story_dir = Path("out") / f"{clean_dir_name(story_title)}_{story_index}"
+    story_dir = Path("character_data") / f"{clean_dir_name(story_title)}_{story_index}"
     aliases_csv = story_dir / f"{story_title}_aliases.csv"
     interactions_csv = story_dir / f"{story_title}_interactions.csv"
     chars_csv = story_dir / f"{story_title}_chars.csv"
@@ -1386,91 +1386,6 @@ def main():
     if st.session_state.trope_error:
         st.sidebar.error(f"Trope model error: {st.session_state.trope_error}")
 
-    # Metadata-based trope analysis controls
-    st.sidebar.subheader("Pure Alias Trope Analysis")
-    enable_trope_analysis = st.sidebar.checkbox("Enable pure alias-based trope analysis", value=True, key="enable_trope_analysis_2")
-    trope_model_path = st.sidebar.text_input("Model file (pkl)", value="pure_alias_classifier_last_word_with_weights.pkl", key="trope_model_path_2")
-    load_trope_model = st.sidebar.button("Load trope model", key="load_trope_model_2")
-    
-    # Trope Dictionary Reference
-    if st.sidebar.checkbox("Show Trope Dictionary", value=False, key="show_trope_dict_2"):
-        with st.sidebar.expander("📚 Complete Trope Dictionary", expanded=True):
-            try:
-                import json
-                with open('trope_categories_filtered.json', 'r') as f:
-                    trope_dict = json.load(f)
-                
-                st.write(f"**Total Categories:** {len(trope_dict)}")
-                total_tropes = sum(len(tropes) for tropes in trope_dict.values())
-                st.write(f"**Total Tropes:** {total_tropes}")
-                
-                # Show categories in alphabetical order
-                for category in sorted(trope_dict.keys()):
-                    tropes = trope_dict[category]
-                    with st.expander(f"{category.replace('_', ' ').title()} ({len(tropes)} tropes)", expanded=False):
-                        for trope in tropes:
-                            st.write(f"• {trope}")
-                            
-            except Exception as e:
-                st.sidebar.error(f"Error loading trope dictionary: {e}")
-
-    if 'trope_classifier' not in st.session_state:
-        st.session_state.trope_classifier = None
-    if 'trope_error' not in st.session_state:
-        st.session_state.trope_error = None
-
-    if load_trope_model and enable_trope_analysis:
-        st.session_state.trope_error = None
-        try:
-            if not os.path.exists(trope_model_path):
-                st.session_state.trope_error = f"File not found: {trope_model_path}. Train it via pure_alias_classifier.py."
-            else:
-                import pickle
-                with open(trope_model_path, 'rb') as f:
-                    clf = pickle.load(f)
-                # Basic API sanity checks
-                if not hasattr(clf, 'predict_all_candidates'):
-                    st.session_state.trope_error = "Loaded object is missing predict_all_candidates()"
-                else:
-                    st.session_state.trope_classifier = clf
-                    st.success("✅ Pure alias trope model loaded")
-                    
-                    # Display category weights if available
-                    if hasattr(clf, 'category_weights') and clf.category_weights:
-                        st.sidebar.subheader("🏷️ Category Weights")
-                        
-                        # Load trope dictionary
-                        trope_dict = {}
-                        try:
-                            import json
-                            with open('trope_categories_filtered.json', 'r') as f:
-                                trope_dict = json.load(f)
-                        except Exception as e:
-                            st.sidebar.warning(f"Could not load trope dictionary: {e}")
-                        
-                        sorted_weights = sorted(clf.category_weights.items(), key=lambda x: x[1], reverse=True)
-                        for category, weight in sorted_weights[:10]:  # Show top 10
-                            with st.sidebar.expander(f"{category.replace('_', ' ').title()} ({weight:.2f})", expanded=False):
-                                st.write(f"**Discriminative Weight:** {weight:.2f}")
-                                
-                                # Show tropes in this category
-                                if category in trope_dict:
-                                    st.write(f"**Tropes ({len(trope_dict[category])}):**")
-                                    tropes = trope_dict[category]
-                                    # Display tropes in a nice format
-                                    for i, trope in enumerate(tropes):
-                                        st.write(f"• {trope}")
-                                        if i >= 19:  # Show max 20 tropes
-                                            remaining = len(tropes) - 20
-                                            if remaining > 0:
-                                                st.write(f"*... and {remaining} more*")
-                                            break
-                                else:
-                                    st.write("*Tropes not found in dictionary*")
-        except Exception as e:
-            st.session_state.trope_error = str(e)
-    if st.session_state.trope_error:
-        st.sidebar.error(f"Trope model error: {st.session_state.trope_error}")
 
     # Get current story
     current_story = st.session_state.dataset[story_index]
@@ -1608,35 +1523,44 @@ def main():
                             # Get all candidate scores to have context
                             cand_scores, cand_details = st.session_state.trope_classifier.predict_all_candidates(current_story)
                         
-                            for cand_name, score in cand_scores.items():
-                                # Enhanced word-based matching
-                                culprit_words = set(culprit_name.lower().split())
-                                cand_words = set(cand_name.lower().split())
+                            culprit_results = []
+                            for culprit in culprits_raw:
+                                culprit_name = str(culprit).strip()
                                 
-                                # Match if:
-                                # 1. Exact match
-                                # 2. Candidate is substring of culprit (e.g., "diaz" in "diaz fanning")
-                                # 3. Culprit is substring of candidate (e.g., "smith" matches "john smith")
-                                # 4. Any word overlap between culprit and candidate
-                                is_match = (
-                                    culprit_name.lower() == cand_name.lower() or
-                                    culprit_name.lower() in cand_name.lower() or
-                                    cand_name.lower() in culprit_name.lower() or
-                                    len(culprit_words & cand_words) > 0  # Word overlap
-                                )
+                                # Find the best matching candidate for this culprit
+                                best_score = 0.0
+                                best_match = None
+                                best_details = None
                                 
-                                if is_match:
-                                    if score > best_score:
-                                        best_score = score
-                                        best_match = cand_name
-                                        best_details = cand_details.get(cand_name)
-                            
-                            culprit_results.append({
-                                'culprit': culprit_name,
-                                'score': best_score,
-                                'matched_candidate': best_match,
-                                'details': best_details
-                            })
+                                for cand_name, score in cand_scores.items():
+                                    # Enhanced word-based matching
+                                    culprit_words = set(culprit_name.lower().split())
+                                    cand_words = set(cand_name.lower().split())
+                                    
+                                    # Match if:
+                                    # 1. Exact match
+                                    # 2. Candidate is substring of culprit (e.g., "diaz" in "diaz fanning")
+                                    # 3. Culprit is substring of candidate (e.g., "smith" matches "john smith")
+                                    # 4. Any word overlap between culprit and candidate
+                                    is_match = (
+                                        culprit_name.lower() == cand_name.lower() or
+                                        culprit_name.lower() in cand_name.lower() or
+                                        cand_name.lower() in culprit_name.lower() or
+                                        len(culprit_words & cand_words) > 0  # Word overlap
+                                    )
+                                    
+                                    if is_match:
+                                        if score > best_score:
+                                            best_score = score
+                                            best_match = cand_name
+                                            best_details = cand_details.get(cand_name)
+                                
+                                culprit_results.append({
+                                    'culprit': culprit_name,
+                                    'score': best_score,
+                                    'matched_candidate': best_match,
+                                    'details': best_details
+                                })
                         
                         # Display culprit scores
                         for i, result in enumerate(culprit_results, 1):
@@ -1669,101 +1593,6 @@ def main():
                                     len(culprit_words & cand_words) > 0
                                     for culprit_name, culprit_words in zip(culprit_names_lower, culprit_words_sets)
 
-                                )
-                                if not is_culprit:
-                                    non_culprit_scores.append(score)
-                            
-                            avg_non_culprit_score = np.mean(non_culprit_scores) if non_culprit_scores else 0.0
-                            
-                            # Display metrics
-                            col1, col2, col3 = st.columns(3)
-                            with col1:
-                                st.metric("📊 Avg Culprit Score", f"{avg_culprit_score:.3f}")
-                            with col2:
-                                st.metric("📊 Avg Non-Culprit Score", f"{avg_non_culprit_score:.3f}")
-                            with col3:
-                                discrimination = avg_culprit_score / avg_non_culprit_score if avg_non_culprit_score > 0 else float('inf')
-                                st.metric("📊 Discrimination Ratio", f"{discrimination:.2f}x")
-                            
-                            # Performance assessment with discrimination context
-                            st.markdown(f"\n**🎯 Model Performance Analysis:**")
-                            if discrimination > 2.0 and avg_culprit_score > 0.6:
-                                st.success(f"🎯 Excellent! Culprits score {discrimination:.1f}x higher than non-culprits.")
-                            elif discrimination > 1.5:
-                                st.warning(f"🟡 Moderate. Culprits score {discrimination:.1f}x higher than non-culprits.")
-                            elif discrimination > 1.1:
-                                st.info(f"🔵 Weak discrimination. Culprits only score {discrimination:.1f}x higher.")
-                            else:
-                                st.error("🔴 Poor! Model may be giving high scores to everyone.")
-                            
-                            # Show score distribution info
-                            st.markdown(f"- **Total candidates:** {len(all_scores)}")
-                            st.markdown(f"- **Culprits found:** {len(valid_scores)}/{len(culprits_raw)}")
-                            st.markdown(f"- **Score range:** {min(all_scores):.3f} - {max(all_scores):.3f}")
-                        
-                        # Detailed explanations for each culprit with scores > 0
-                        if culprit_results:
-                            st.markdown("\n**🔍 Detailed Explanations:**")
-                            
-                            # Create explanation tabs for each culprit that has a score
-                            culprits_with_scores = [r for r in culprit_results if r['score'] > 0 and r['details']]
-                            
-                            if culprits_with_scores:
-                                # Create tabs for each culprit
-                                tab_names = [f"{r['culprit']} ({r['score']:.3f})" for r in culprits_with_scores]
-                                tabs = st.tabs(tab_names)
-                        culprit_results = []
-                        for culprit in culprits_raw:
-                            culprit_name = str(culprit).strip()
-                            
-                            # Find the best matching candidate for this culprit
-                            best_score = 0.0
-                            best_match = None
-                            best_details = None
-                            
-                            for cand_name, score in cand_scores.items():
-                                # Check if candidate matches culprit (exact or contains)
-                                if (culprit_name.lower() in cand_name.lower() or 
-                                    cand_name.lower() in culprit_name.lower() or
-                                    culprit_name.lower() == cand_name.lower()):
-                                    if score > best_score:
-                                        best_score = score
-                                        best_match = cand_name
-                                        best_details = cand_details.get(cand_name)
-                            
-                            culprit_results.append({
-                                'culprit': culprit_name,
-                                'score': best_score,
-                                'matched_candidate': best_match,
-                                'details': best_details
-                            })
-                        
-                        # Display culprit scores
-                        for i, result in enumerate(culprit_results, 1):
-                            if result['score'] > 0:
-                                confidence_level = "🔥 HIGH" if result['score'] > 0.8 else "🟡 MEDIUM" if result['score'] > 0.5 else "🔵 LOW"
-                                st.markdown(f"{i}. **{result['culprit']}** → {result['score']:.3f} {confidence_level}")
-                                if result['matched_candidate'] != result['culprit']:
-                                    st.markdown(f"   *Matched via: {result['matched_candidate']}*")
-                            else:
-                                st.markdown(f"{i}. **{result['culprit']}** → ❌ Not found as candidate")
-                        
-                        # Show average culprit score and accuracy metrics
-                        valid_scores = [r['score'] for r in culprit_results if r['score'] > 0]
-                        if valid_scores:
-                            avg_culprit_score = np.mean(valid_scores)
-                            
-                            # Calculate accuracy metrics - compare culprits vs all other candidates
-                            all_scores = list(cand_scores.values())
-                            non_culprit_scores = []
-                            culprit_names_lower = [str(c).lower().strip() for c in culprits_raw]
-                            
-                            for cand_name, score in cand_scores.items():
-                                is_culprit = any(
-                                    culprit_name.lower() in cand_name.lower() or 
-                                    cand_name.lower() in culprit_name.lower() or
-                                    culprit_name.lower() == cand_name.lower()
-                                    for culprit_name in culprit_names_lower
                                 )
                                 if not is_culprit:
                                     non_culprit_scores.append(score)
