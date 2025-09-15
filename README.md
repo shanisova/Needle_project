@@ -381,7 +381,7 @@ cd Needle_project
 ```
 
 #### Character Data Files
-- **`out/` directory**: Contains processed character data from all stories
+- **`character_data/` directory**: Contains processed character data from all stories
   - `*/node_metrics.csv`: PageRank and centrality scores for each character
   - `*/Story Title_chars.csv`: Extracted character names
   - `*/Story Title_aliases.csv`: Canonical character aliases
@@ -473,7 +473,7 @@ The system provides comprehensive evaluation including:
 The character analysis pipeline creates organized output directories:
 
 ```
-out/
+character_data/
 ├── Story_Title_Index/
 │   ├── Story Title_chars.csv          # Extracted character names
 │   ├── Story Title_aliases.csv        # Canonical aliases mapping
