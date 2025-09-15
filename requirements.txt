@@ -257,3 +257,46 @@ xxhash==3.5.0
 yarl==1.18.3
 zict==3.0.0
 zipp==3.21.0
+
+# Character Data and Graph Analysis Dependencies
+# Network analysis and graph visualization
+networkx==3.2.1
+matplotlib==3.9.4
+seaborn==0.13.2
+plotly==6.2.0
+
+# Character extraction and NLP
+spacy==3.8.3
+nltk==3.9.1
+pydantic==2.10.5
+
+# Machine learning for character classification
+scikit-learn==1.6.0
+imbalanced-learn==0.12.4
+
+# Data processing and analysis
+pandas==2.2.3
+numpy==1.26.4
+
+# LLM integration for character extraction
+ollama==0.5.3
+
+# Streamlit for interactive UI
+streamlit==1.48.1
+
+# Statistical analysis and testing
+statsmodels==0.14.4
+scipy==1.13.1
+
+# Additional utilities
+tqdm==4.67.1
+pathlib
+argparse
+json
+re
+os
+signal
+time
+itertools
+collections
+warnings

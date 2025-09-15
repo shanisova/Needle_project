@@ -2,8 +2,8 @@
 """
 Combined Culprit Analysis - All Stories Combined
 
-Creates comprehensive scatter plots combining all characters from all stories
-to show the overall pattern of PageRank vs Victim Connection across the entire dataset.
+Creates comprehensive statistical analysis combining all characters from all stories
+including box plots, rank-based evaluation, and statistical tests (ANOVA/Kruskal-Wallis).
 """
 
 import argparse
@@ -17,11 +17,149 @@ from datasets import load_dataset
 import json
 import ast
 import glob
+from scipy import stats
+from scipy.stats import f_oneway, kruskal
+from statsmodels.stats.multicomp import pairwise_tukeyhsd
 
 
 def clean_dir_name(title: str) -> str:
     """Clean story title for directory naming"""
     return title.replace(' ', '_').replace("'", '').replace('"', '').replace(':', '').replace(';', '')
+
+
+def perform_statistical_tests(all_data: pd.DataFrame, output_dir: Path):
+    """Perform ANOVA and post-hoc tests for group differences"""
+    print("  📊 Performing statistical tests...")
+    
+    roles = ['Culprit', 'Victim', 'Other']
+    metrics = ['pagerank', 'victim_connection_weight', 'strength', 'degree']
+    
+    results = {}
+    
+    for metric in metrics:
+        print(f"\n    🔬 Testing {metric.replace('_', ' ').title()}:")
+        
+        # Prepare data for each role with outlier filtering and log transformation
+        role_data = {}
+        for role in roles:
+            data = all_data[all_data['role'] == role][metric].dropna()
+            if len(data) > 0:
+                # Apply same filtering as in plots
+                if metric == 'victim_connection_weight':
+                    upper_bound = data.quantile(0.99)
+                    filtered_data = data[data <= upper_bound]
+                else:
+                    Q1 = data.quantile(0.25)
+                    Q3 = data.quantile(0.75)
+                    IQR = Q3 - Q1
+                    extreme_lower = Q1 - 3 * IQR
+                    extreme_upper = Q3 + 3 * IQR
+                    filtered_data = data[(data >= extreme_lower) & (data <= extreme_upper)]
+                
+                # Apply log transformation
+                log_data = np.log1p(filtered_data)
+                role_data[role] = log_data
+                
+                print(f"      {role}: n={len(log_data)}, mean={log_data.mean():.3f}, std={log_data.std():.3f}")
+        
+        if len(role_data) == 3:  # All three roles have data
+            # Test normality for each group
+            print(f"      📈 Normality tests (Shapiro-Wilk):")
+            normal_groups = 0
+            for role, data in role_data.items():
+                if len(data) > 3:  # Need at least 3 samples for Shapiro-Wilk
+                    stat, p_val = stats.shapiro(data)
+                    is_normal = p_val > 0.05
+                    normal_groups += is_normal
+                    print(f"        {role}: p={p_val:.4f} {'✓' if is_normal else '✗'}")
+            
+            # Choose test based on normality
+            if normal_groups >= 2:  # Use ANOVA if at least 2 groups are normal
+                print(f"      🧮 Using One-way ANOVA (parametric):")
+                f_stat, p_val = f_oneway(*role_data.values())
+                test_name = "ANOVA"
+            else:  # Use Kruskal-Wallis if most groups are not normal
+                print(f"      🧮 Using Kruskal-Wallis (non-parametric):")
+                h_stat, p_val = kruskal(*role_data.values())
+                test_name = "Kruskal-Wallis"
+            
+            print(f"        {test_name} p-value: {p_val:.6f}")
+            
+            if p_val < 0.05:
+                print(f"        ✅ Significant difference between groups (p < 0.05)")
+                
+                # Post-hoc tests (Tukey's HSD for ANOVA, Mann-Whitney U for Kruskal-Wallis)
+                print(f"        🔍 Post-hoc pairwise comparisons:")
+                
+                if test_name == "ANOVA":
+                    # Prepare data for Tukey's HSD
+                    tukey_data = []
+                    tukey_labels = []
+                    for role, data in role_data.items():
+                        tukey_data.extend(data)
+                        tukey_labels.extend([role] * len(data))
+                    
+                    tukey_result = pairwise_tukeyhsd(tukey_data, tukey_labels, alpha=0.05)
+                    
+                    # Print significant pairs
+                    significant_pairs = []
+                    for i in range(len(tukey_result.groupsunique)):
+                        for j in range(i+1, len(tukey_result.groupsunique)):
+                            group1, group2 = tukey_result.groupsunique[i], tukey_result.groupsunique[j]
+                            p_val_pair = tukey_result.pvalues[i, j]
+                            if p_val_pair < 0.05:
+                                significant_pairs.append((group1, group2, p_val_pair))
+                                print(f"          {group1} vs {group2}: p={p_val_pair:.4f} ✓")
+                            else:
+                                print(f"          {group1} vs {group2}: p={p_val_pair:.4f}")
+                
+                else:  # Kruskal-Wallis
+                    # Mann-Whitney U tests for each pair
+                    pairs = [('Culprit', 'Victim'), ('Culprit', 'Other'), ('Victim', 'Other')]
+                    for group1, group2 in pairs:
+                        if group1 in role_data and group2 in role_data:
+                            u_stat, p_val_pair = stats.mannwhitneyu(role_data[group1], role_data[group2], 
+                                                                   alternative='two-sided')
+                            if p_val_pair < 0.05:
+                                print(f"          {group1} vs {group2}: p={p_val_pair:.4f} ✓")
+                            else:
+                                print(f"          {group1} vs {group2}: p={p_val_pair:.4f}")
+                
+                # Check if culprits are significantly higher than others
+                if 'Culprit' in role_data and 'Other' in role_data:
+                    if test_name == "ANOVA":
+                        # Find the Tukey result for Culprit vs Other
+                        culprit_idx = list(tukey_result.groupsunique).index('Culprit')
+                        other_idx = list(tukey_result.groupsunique).index('Other')
+                        culprit_vs_other_p = tukey_result.pvalues[culprit_idx, other_idx]
+                    else:
+                        u_stat, culprit_vs_other_p = stats.mannwhitneyu(role_data['Culprit'], role_data['Other'], 
+                                                                       alternative='two-sided')
+                    
+                    if culprit_vs_other_p < 0.05:
+                        culprit_mean = role_data['Culprit'].mean()
+                        other_mean = role_data['Other'].mean()
+                        if culprit_mean > other_mean:
+                            print(f"        🎯 Culprits significantly higher than Others (p={culprit_vs_other_p:.4f})")
+                        else:
+                            print(f"        🎯 Culprits significantly lower than Others (p={culprit_vs_other_p:.4f})")
+                    else:
+                        print(f"        🎯 No significant difference between Culprits and Others (p={culprit_vs_other_p:.4f})")
+                
+            else:
+                print(f"        ❌ No significant difference between groups (p ≥ 0.05)")
+            
+            results[metric] = {
+                'test_name': test_name,
+                'p_value': p_val,
+                'significant': p_val < 0.05,
+                'role_data': role_data
+            }
+        else:
+            print(f"      ⚠️  Insufficient data for statistical testing")
+            results[metric] = None
+    
+    return results
 
 
 def load_alias_mapping(aliases_csv_path: Path) -> Dict[str, str]:
@@ -244,152 +382,8 @@ def find_stories_with_node_metrics() -> List[Tuple[int, str, Path]]:
     return sorted(stories, key=lambda x: x[0])
 
 
-def plot_combined_pagerank_vs_victim_connection(all_data: pd.DataFrame, output_dir: Path):
-    """Create combined scatter plot of all characters from all stories with better scaling"""
-    
-    # Create two versions: full scale and zoomed in
-    for plot_type, xlim, ylim, suffix in [
-        ('full', None, None, ''),
-        ('zoomed', (0, 0.15), (0, 5), '_zoomed')
-    ]:
-        plt.figure(figsize=(14, 10))
-        
-        # Prepare data
-        pagerank = all_data['pagerank'].tolist()
-        victim_conn = all_data['victim_connection_weight'].tolist()
-        roles = all_data['role'].tolist()
-        stories = all_data['story_title'].tolist()
-        
-        # Color by role
-        colors = []
-        sizes = []
-        for role in roles:
-            if role == 'Culprit':
-                colors.append('#2E8B57')  # Sea green for culprits
-                sizes.append(100)  # Larger dots for culprits
-            elif role == 'Victim':
-                colors.append('#DC143C')  # Crimson for victims
-                sizes.append(80)  # Medium dots for victims
-            else:
-                colors.append('#4682B4')  # Steel blue for others
-                sizes.append(30)  # Smaller dots for others
-        
-        # Create scatter plot
-        scatter = plt.scatter(pagerank, victim_conn, c=colors, alpha=0.7, s=sizes, edgecolors='black', linewidth=0.3)
-        
-        # Set axis limits for zoomed version
-        if xlim:
-            plt.xlim(xlim)
-        if ylim:
-            plt.ylim(ylim)
-        
-        plt.xlabel('PageRank', fontsize=14)
-        plt.ylabel('Victim Connection Weight', fontsize=14)
-        
-        title = 'Combined Analysis: PageRank vs Victim Connection\n(All Characters from All Stories)'
-        if plot_type == 'zoomed':
-            title += '\n(Zoomed View - Main Data Cluster)'
-        plt.title(title, fontsize=16, fontweight='bold')
-        
-        # Add legend
-        from matplotlib.patches import Patch
-        legend_elements = [
-            Patch(facecolor='#2E8B57', label='Culprits'),
-            Patch(facecolor='#DC143C', label='Victims'),
-            Patch(facecolor='#4682B4', label='Other Characters')
-        ]
-        plt.legend(handles=legend_elements, loc='upper right', fontsize=12)
-        
-        # Add grid for better readability
-        plt.grid(True, alpha=0.3)
-        
-        # Add statistics text
-        total_chars = len(all_data)
-        culprits = len(all_data[all_data['role'] == 'Culprit'])
-        victims = len(all_data[all_data['role'] == 'Victim'])
-        others = len(all_data[all_data['role'] == 'Other'])
-        
-        stats_text = f'Total Characters: {total_chars}\nCulprits: {culprits}\nVictims: {victims}\nOthers: {others}'
-        plt.text(0.02, 0.98, stats_text, transform=plt.gca().transAxes, fontsize=10,
-                 verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
-        
-        plt.tight_layout()
-        
-        # Save plot
-        output_path = output_dir / f"combined_pagerank_vs_victim_connection{suffix}.png"
-        plt.savefig(output_path, dpi=200, bbox_inches='tight')
-        plt.close()
-        
-        print(f"  - {plot_type} view: {output_path}")
-    
-    return output_path
 
 
-def plot_combined_pagerank_vs_victim_connection_log_scale(all_data: pd.DataFrame, output_dir: Path):
-    """Create log-scale scatter plot for better visualization of wide data ranges"""
-    
-    plt.figure(figsize=(14, 10))
-    
-    # Prepare data
-    pagerank = all_data['pagerank'].tolist()
-    victim_conn = all_data['victim_connection_weight'].tolist()
-    roles = all_data['role'].tolist()
-    
-    # Color by role
-    colors = []
-    sizes = []
-    for role in roles:
-        if role == 'Culprit':
-            colors.append('#2E8B57')  # Sea green for culprits
-            sizes.append(100)  # Larger dots for culprits
-        elif role == 'Victim':
-            colors.append('#DC143C')  # Crimson for victims
-            sizes.append(80)  # Medium dots for victims
-        else:
-            colors.append('#4682B4')  # Steel blue for others
-            sizes.append(30)  # Smaller dots for others
-    
-    # Create scatter plot
-    scatter = plt.scatter(pagerank, victim_conn, c=colors, alpha=0.7, s=sizes, edgecolors='black', linewidth=0.3)
-    
-    # Use log scale for both axes
-    plt.xscale('log')
-    plt.yscale('log')
-    
-    plt.xlabel('PageRank (log scale)', fontsize=14)
-    plt.ylabel('Victim Connection Weight (log scale)', fontsize=14)
-    plt.title('Combined Analysis: PageRank vs Victim Connection\n(Log Scale - All Characters from All Stories)', fontsize=16, fontweight='bold')
-    
-    # Add legend
-    from matplotlib.patches import Patch
-    legend_elements = [
-        Patch(facecolor='#2E8B57', label='Culprits'),
-        Patch(facecolor='#DC143C', label='Victims'),
-        Patch(facecolor='#4682B4', label='Other Characters')
-    ]
-    plt.legend(handles=legend_elements, loc='upper right', fontsize=12)
-    
-    # Add grid for better readability
-    plt.grid(True, alpha=0.3)
-    
-    # Add statistics text
-    total_chars = len(all_data)
-    culprits = len(all_data[all_data['role'] == 'Culprit'])
-    victims = len(all_data[all_data['role'] == 'Victim'])
-    others = len(all_data[all_data['role'] == 'Other'])
-    
-    stats_text = f'Total Characters: {total_chars}\nCulprits: {culprits}\nVictims: {victims}\nOthers: {others}'
-    plt.text(0.02, 0.98, stats_text, transform=plt.gca().transAxes, fontsize=10,
-             verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
-    
-    plt.tight_layout()
-    
-    # Save plot
-    output_path = output_dir / "combined_pagerank_vs_victim_connection_log_scale.png"
-    plt.savefig(output_path, dpi=200, bbox_inches='tight')
-    plt.close()
-    
-    return output_path
 
 
 def plot_combined_metric_distributions(all_data: pd.DataFrame, output_dir: Path):
@@ -431,120 +425,6 @@ def plot_combined_metric_distributions(all_data: pd.DataFrame, output_dir: Path)
     return output_path
 
 
-def create_improved_scaling_plots(all_data: pd.DataFrame, output_dir: Path):
-    """Create improved plots with better scaling to handle outliers"""
-    
-    # Prepare data
-    pagerank = all_data['pagerank'].tolist()
-    victim_conn = all_data['victim_connection_weight'].tolist()
-    roles = all_data['role'].tolist()
-    
-    # Color by role with different sizes
-    colors = []
-    sizes = []
-    for role in roles:
-        if role == 'Culprit':
-            colors.append('#2E8B57')  # Sea green for culprits
-            sizes.append(120)  # Larger dots for culprits
-        elif role == 'Victim':
-            colors.append('#DC143C')  # Crimson for victims
-            sizes.append(100)  # Medium dots for victims
-        else:
-            colors.append('#4682B4')  # Steel blue for others
-            sizes.append(40)  # Smaller dots for others
-    
-    # Create legend elements
-    from matplotlib.patches import Patch
-    legend_elements = [
-        Patch(facecolor='#2E8B57', label='Culprits'),
-        Patch(facecolor='#DC143C', label='Victims'),
-        Patch(facecolor='#4682B4', label='Other Characters')
-    ]
-    
-    # Statistics
-    total_chars = len(all_data)
-    culprits = len(all_data[all_data['role'] == 'Culprit'])
-    victims = len(all_data[all_data['role'] == 'Victim'])
-    others = len(all_data[all_data['role'] == 'Other'])
-    stats_text = f'Total Characters: {total_chars}\nCulprits: {culprits}\nVictims: {victims}\nOthers: {others}'
-    
-    # 1. Full scale plot
-    plt.figure(figsize=(14, 10))
-    scatter = plt.scatter(pagerank, victim_conn, c=colors, alpha=0.7, s=sizes, edgecolors='black', linewidth=0.3)
-    plt.xlabel('PageRank', fontsize=14)
-    plt.ylabel('Victim Connection Weight', fontsize=14)
-    plt.title('Combined Analysis: PageRank vs Victim Connection\n(All Characters from All Stories)', fontsize=16, fontweight='bold')
-    plt.legend(handles=legend_elements, loc='upper right', fontsize=12)
-    plt.grid(True, alpha=0.3)
-    plt.text(0.02, 0.98, stats_text, transform=plt.gca().transAxes, fontsize=10,
-             verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
-    plt.tight_layout()
-    plt.savefig(output_dir / "combined_pagerank_vs_victim_connection_full.png", dpi=200, bbox_inches='tight')
-    plt.close()
-    
-    # 2. Zoomed plot (focus on main data cluster)
-    plt.figure(figsize=(14, 10))
-    scatter = plt.scatter(pagerank, victim_conn, c=colors, alpha=0.7, s=sizes, edgecolors='black', linewidth=0.3)
-    plt.xlim(0, 0.15)  # Focus on PageRank 0-0.15
-    plt.ylim(0, 5)     # Focus on Victim Connection 0-5
-    plt.xlabel('PageRank', fontsize=14)
-    plt.ylabel('Victim Connection Weight', fontsize=14)
-    plt.title('Combined Analysis: PageRank vs Victim Connection\n(Zoomed View - Main Data Cluster)', fontsize=16, fontweight='bold')
-    plt.legend(handles=legend_elements, loc='upper right', fontsize=12)
-    plt.grid(True, alpha=0.3)
-    plt.text(0.02, 0.98, stats_text, transform=plt.gca().transAxes, fontsize=10,
-             verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
-    plt.tight_layout()
-    plt.savefig(output_dir / "combined_pagerank_vs_victim_connection_zoomed.png", dpi=200, bbox_inches='tight')
-    plt.close()
-    
-    # 3. Log scale plot
-    plt.figure(figsize=(14, 10))
-    scatter = plt.scatter(pagerank, victim_conn, c=colors, alpha=0.7, s=sizes, edgecolors='black', linewidth=0.3)
-    plt.xscale('log')
-    plt.yscale('log')
-    plt.xlabel('PageRank (log scale)', fontsize=14)
-    plt.ylabel('Victim Connection Weight (log scale)', fontsize=14)
-    plt.title('Combined Analysis: PageRank vs Victim Connection\n(Log Scale - All Characters from All Stories)', fontsize=16, fontweight='bold')
-    plt.legend(handles=legend_elements, loc='upper right', fontsize=12)
-    plt.grid(True, alpha=0.3)
-    plt.text(0.02, 0.98, stats_text, transform=plt.gca().transAxes, fontsize=10,
-             verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
-    plt.tight_layout()
-    plt.savefig(output_dir / "combined_pagerank_vs_victim_connection_log_scale.png", dpi=200, bbox_inches='tight')
-    plt.close()
-    
-    # 4. Percentile-based zoom (remove extreme outliers)
-    plt.figure(figsize=(14, 10))
-    pr_95 = np.percentile(pagerank, 95)
-    vc_95 = np.percentile(victim_conn, 95)
-    scatter = plt.scatter(pagerank, victim_conn, c=colors, alpha=0.7, s=sizes, edgecolors='black', linewidth=0.3)
-    plt.xlim(0, pr_95 * 1.1)  # 10% margin above 95th percentile
-    plt.ylim(0, vc_95 * 1.1)
-    plt.xlabel('PageRank', fontsize=14)
-    plt.ylabel('Victim Connection Weight', fontsize=14)
-    plt.title(f'Combined Analysis: PageRank vs Victim Connection\n(95th Percentile View - Removes Extreme Outliers)', fontsize=16, fontweight='bold')
-    plt.legend(handles=legend_elements, loc='upper right', fontsize=12)
-    plt.grid(True, alpha=0.3)
-    stats_text_with_percentiles = f'{stats_text}\n\n95th Percentile Limits:\nPageRank: {pr_95:.4f}\nVictim Conn: {vc_95:.1f}'
-    plt.text(0.02, 0.98, stats_text_with_percentiles, transform=plt.gca().transAxes, fontsize=10,
-             verticalalignment='top', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
-    plt.tight_layout()
-    plt.savefig(output_dir / "combined_pagerank_vs_victim_connection_95th_percentile.png", dpi=200, bbox_inches='tight')
-    plt.close()
-    
-    print("  ✅ Improved scaling plots created:")
-    print("    - Full scale: combined_pagerank_vs_victim_connection_full.png")
-    print("    - Zoomed view: combined_pagerank_vs_victim_connection_zoomed.png")
-    print("    - Log scale: combined_pagerank_vs_victim_connection_log_scale.png")
-    print("    - 95th percentile: combined_pagerank_vs_victim_connection_95th_percentile.png")
-    
-    # Print data range info
-    print(f"\n📊 Data Range Information:")
-    print(f"PageRank range: {min(pagerank):.6f} to {max(pagerank):.6f}")
-    print(f"Victim Connection range: {min(victim_conn):.1f} to {max(victim_conn):.1f}")
-    print(f"95th percentile PageRank: {pr_95:.6f}")
-    print(f"95th percentile Victim Connection: {vc_95:.1f}")
 
 
 def plot_evaluation(all_data: pd.DataFrame, output_dir: Path):
@@ -696,8 +576,26 @@ def plot_evaluation(all_data: pd.DataFrame, output_dir: Path):
         for role in roles:
             role_data = all_data[all_data['role'] == role][metric].dropna()
             if len(role_data) > 0:
-                box_data.append(role_data)
-                box_labels.append(f'{role}\n(n={len(role_data)})')
+                # Use different outlier removal strategies based on metric
+                if metric == 'victim_connection_weight':
+                    # For victim connection, use percentile-based filtering (keep 99th percentile)
+                    upper_bound = role_data.quantile(0.99)
+                    filtered_data = role_data[role_data <= upper_bound]
+                else:
+                    # For other metrics, use IQR method
+                    Q1 = role_data.quantile(0.25)
+                    Q3 = role_data.quantile(0.75)
+                    IQR = Q3 - Q1
+                    
+                    # Filter out extreme outliers (beyond 3*IQR)
+                    extreme_lower = Q1 - 3 * IQR
+                    extreme_upper = Q3 + 3 * IQR
+                    filtered_data = role_data[(role_data >= extreme_lower) & (role_data <= extreme_upper)]
+                
+                # Apply log transformation (add 1 to avoid log(0))
+                log_data = np.log1p(filtered_data)
+                box_data.append(log_data)
+                box_labels.append(f'{role}\n(n={len(filtered_data)})')
         
         # Create boxplot
         bp = ax.boxplot(box_data, labels=box_labels, patch_artist=True)
@@ -708,17 +606,32 @@ def plot_evaluation(all_data: pd.DataFrame, output_dir: Path):
             patch.set_facecolor(color)
             patch.set_alpha(0.7)
         
-        ax.set_title(f'{metric.replace("_", " ").title()}', fontsize=14, fontweight='bold')
-        ax.set_ylabel('Value', fontsize=12)
+        ax.set_title(f'{metric.replace("_", " ").title()} (Log Transformed)', fontsize=14, fontweight='bold')
+        ax.set_ylabel('Log(Value + 1)', fontsize=12)
         ax.grid(True, alpha=0.3)
         
-        # Add statistics text
+        # Add statistics text (for log-transformed, outlier-filtered data)
         stats_text = ""
         for j, role in enumerate(roles):
             role_data = all_data[all_data['role'] == role][metric].dropna()
             if len(role_data) > 0:
-                mean_val = role_data.mean()
-                median_val = role_data.median()
+                # Apply same outlier filtering as in box plot
+                if metric == 'victim_connection_weight':
+                    # For victim connection, use percentile-based filtering (keep 99th percentile)
+                    upper_bound = role_data.quantile(0.99)
+                    filtered_data = role_data[role_data <= upper_bound]
+                else:
+                    # For other metrics, use IQR method
+                    Q1 = role_data.quantile(0.25)
+                    Q3 = role_data.quantile(0.75)
+                    IQR = Q3 - Q1
+                    extreme_lower = Q1 - 3 * IQR
+                    extreme_upper = Q3 + 3 * IQR
+                    filtered_data = role_data[(role_data >= extreme_lower) & (role_data <= extreme_upper)]
+                
+                log_data = np.log1p(filtered_data)
+                mean_val = log_data.mean()
+                median_val = log_data.median()
                 stats_text += f"{role}: μ={mean_val:.3f}, med={median_val:.3f}\n"
         
         ax.text(0.02, 0.98, stats_text.strip(), transform=ax.transAxes, fontsize=9,
@@ -730,48 +643,10 @@ def plot_evaluation(all_data: pd.DataFrame, output_dir: Path):
     plt.savefig(output_dir / "role_based_distributions.png", dpi=200, bbox_inches='tight')
     plt.close()
     
-    # Create violin plots for better distribution visualization
-    fig, axes = plt.subplots(2, 2, figsize=(16, 12))
-    axes = axes.flatten()
-    
-    for i, metric in enumerate(metrics):
-        ax = axes[i]
-        
-        # Prepare data for violin plot
-        violin_data = []
-        violin_labels = []
-        
-        for role in roles:
-            role_data = all_data[all_data['role'] == role][metric].dropna()
-            if len(role_data) > 0:
-                violin_data.append(role_data)
-                violin_labels.append(f'{role}\n(n={len(role_data)})')
-        
-        # Create violin plot
-        parts = ax.violinplot(violin_data, positions=range(1, len(violin_data)+1), showmeans=True, showmedians=True)
-        
-        # Color the violins
-        colors = ['#2E8B57', '#DC143C', '#4682B4']
-        for pc, color in zip(parts['bodies'], colors):
-            pc.set_facecolor(color)
-            pc.set_alpha(0.7)
-        
-        ax.set_xticks(range(1, len(violin_labels)+1))
-        ax.set_xticklabels(violin_labels)
-        ax.set_title(f'{metric.replace("_", " ").title()} (Violin Plot)', fontsize=14, fontweight='bold')
-        ax.set_ylabel('Value', fontsize=12)
-        ax.grid(True, alpha=0.3)
-    
-    plt.suptitle('Role-Based Metric Distributions (Violin Plots)\nCulprits vs Victims vs Other Characters', 
-                 fontsize=16, fontweight='bold')
-    plt.tight_layout()
-    plt.savefig(output_dir / "role_based_distributions_violin.png", dpi=200, bbox_inches='tight')
-    plt.close()
     
     print("  ✅ Evaluation plots created:")
     print("    - Rank-based evaluation: rank_based_evaluation.png")
     print("    - Role-based distributions (boxplots): role_based_distributions.png")
-    print("    - Role-based distributions (violin plots): role_based_distributions_violin.png")
 
 
 def main():
@@ -857,19 +732,16 @@ def main():
         print(f"Others: {len(combined_data[combined_data['role'] == 'Other'])}")
     
     # Create combined plots
-    print("\nCreating combined plots...")
+    print("\nCreating metric distribution plots...")
     
-    scatter_path = plot_combined_pagerank_vs_victim_connection(combined_data, output_dir)
-    log_scale_path = plot_combined_pagerank_vs_victim_connection_log_scale(combined_data, output_dir)
     dist_path = plot_combined_metric_distributions(combined_data, output_dir)
-    
-    # Create improved scaling plots
-    print("Creating improved scaling plots...")
-    create_improved_scaling_plots(combined_data, output_dir)
     
     # Create evaluation plots
     print("Creating evaluation plots...")
     plot_evaluation(combined_data, output_dir)
+    
+    # Perform statistical tests
+    statistical_results = perform_statistical_tests(combined_data, output_dir)
     
     # Save combined data
     combined_csv = output_dir / "combined_character_data.csv"
@@ -877,8 +749,6 @@ def main():
     
     print(f"\n✅ Combined analysis complete!")
     print(f"📊 Plots saved:")
-    print(f"  - Combined scatter plot (full & zoomed): {scatter_path}")
-    print(f"  - Log-scale scatter plot: {log_scale_path}")
     print(f"  - Metric distributions: {dist_path}")
     print(f"  - Combined data: {combined_csv}")
     
@@ -889,9 +759,23 @@ def main():
         if len(role_data) > 0:
             print(f"\n{role}s ({len(role_data)} characters):")
             print(f"  - Avg PageRank: {role_data['pagerank'].mean():.4f}")
-            print(f"  - Avg Strength: {role_data['strength'].mean():.2f}")
-            print(f"  - Avg Victim Connection: {role_data['victim_connection_weight'].mean():.2f}")
-            print(f"  - Avg Degree: {role_data['degree'].mean():.2f}")
+    print(f"  - Avg Strength: {role_data['strength'].mean():.2f}")
+    print(f"  - Avg Victim Connection: {role_data['victim_connection_weight'].mean():.2f}")
+    print(f"  - Avg Degree: {role_data['degree'].mean():.2f}")
+    
+    # Print statistical test summary
+    print(f"\n📊 Statistical Test Summary:")
+    for metric, result in statistical_results.items():
+        if result is not None:
+            metric_name = metric.replace('_', ' ').title()
+            test_name = result['test_name']
+            p_val = result['p_value']
+            significant = result['significant']
+            
+            status = "✅ Significant" if significant else "❌ Not Significant"
+            print(f"  {metric_name}: {test_name} p={p_val:.4f} {status}")
+        else:
+            print(f"  {metric.replace('_', ' ').title()}: ⚠️  Insufficient data")
 
 
 if __name__ == "__main__":

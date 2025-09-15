@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Plot interaction graphs for a single WhoDunIt story using pipeline outputs.
+Plot connection graphs for a single WhoDunIt story using pipeline outputs.
 
 Features:
 - Builds a weighted graph from <title>_interactions.csv
@@ -283,7 +283,7 @@ def plot_graph(G: nx.Graph, victims: Set[str], pagerank: Dict[str, float], victi
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Plot interactions and victim-aware importance for a story")
+    ap = argparse.ArgumentParser(description="Plot connection graphs and victim-aware importance for a story")
     ap.add_argument("story_index", type=int, help="Story index in WhoDunIt (0-based)")
     ap.add_argument("--out", help="Output PNG path (default: store in story's out dir)")
     ap.add_argument("--victim-list", dest="victim_list", help="CSV with columns: Story, Murdered Victim(s), Alias list (overrides default)")
