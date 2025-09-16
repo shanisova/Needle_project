@@ -1,17 +1,17 @@
 character1,character2,count
 Dr. Jonathan Simon,Simon Gray,23
-Julius D'Arblay,Mr. Martha,13
+Mr. J. D'Arblay,Mr. Martha,13
 Dr. Jonathan Simon,Mr. Martha,11
 Dr. Jonathan Simon,Superintendent Hollands,11
-Julius D'Arblay,Miss D'Arblay,7
+Miss D'Arblay,Mr. J. D'Arblay,7
 John Pylorus,Simon Gray,6
 Miss Carolus,Miss Sarah,6
-Boler,Julius D'Arblay,5
+Boler,Mr. J. D'Arblay,5
 Dr. Chappie Artemus,Dr. Jonathan Simon,5
 Dr. Jonathan Simon,Dr. Woodford Freeman,5
-Julius D'Arblay,Miss Van,5
+Miss Van,Mr. J. D'Arblay,5
 Pepper Dewsnep,Simon Gray,5
-Dr. Jonathan Simon,Julius D'Arblay,4
+Dr. Jonathan Simon,Mr. J. D'Arblay,4
 Dr. Pepys Cropper,Pepper Dewsnep,4
 Miss Sarah,Simon Gray,4
 Dr. Jonathan Simon,Miss Sarah,3
@@ -59,17 +59,17 @@ Dr. Pepys Cropper,Dr. Woodford Freeman,1
 Dr. Pepys Cropper,Simon Gray,1
 Dr. Porter,Gawd,1
 Dr. Porter,act,1
-Dr. Woodford Freeman,Julius D'Arblay,1
+Dr. Woodford Freeman,Mr. J. D'Arblay,1
 Dr. Woodford Freeman,Superintendent Hollands,1
 Garroll,Pepper,1
 Garroll,Pepper Dewsnep,1
 Gawd,Simon Gray,1
-Julius D'Arblay,Pepper Dewsnep,1
-Julius D'Arblay,Superintendent Hollands,1
 Lewis,Miss Van,1
 Miss Carolus,Pepper Dewsnep,1
 Miss Carolus,Susan,1
 Miss Sarah,Susan,1
+Mr. J. D'Arblay,Pepper Dewsnep,1
+Mr. J. D'Arblay,Superintendent Hollands,1
 Mr. Martha,Slingsby Jove,1
 Pepper Dewsnep,Woodford,1
 Polton,Woodford,1

@@ -268,6 +268,18 @@ Be generous with partial name matches but strict about identifying the right cha
         author = story_data['author']
         text = story_data['text']
         actual_culprits = story_data['culprit_ids']
+        
+        # Ensure actual_culprits is always a list
+        if isinstance(actual_culprits, str):
+            # If it's a string representation of a list, try to parse it
+            try:
+                actual_culprits = ast.literal_eval(actual_culprits)
+            except (ValueError, SyntaxError):
+                # If parsing fails, treat it as a single item list
+                actual_culprits = [actual_culprits]
+        elif not isinstance(actual_culprits, list):
+            # If it's not a list or string, convert to list
+            actual_culprits = [str(actual_culprits)]
 
         # Truncate text if too long
         truncated_text = self.truncate_text(text)
@@ -625,16 +637,57 @@ def check_name_compatibility_with_alias_rules(victim_name: str, canonical_name: 
         alias_builder = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(alias_builder)
         
-        # Use the same compatibility check as alias_builder
-        return alias_builder.persons_compatible(victim_name, canonical_name)
-    except Exception:
-        # Fallback to simple substring matching if import fails
+        # Use the full grouping logic from alias_builder
+        # Check both directions for compatibility
+        if alias_builder.persons_compatible(victim_name, canonical_name):
+            return True
+        if alias_builder.persons_compatible(canonical_name, victim_name):
+            return True
+            
+        # Also check if they would be grouped using the content token containment logic
+        victim_tokens = alias_builder.content_tokens(victim_name)
+        canonical_tokens = alias_builder.content_tokens(canonical_name)
+        
+        # Check if content tokens would allow grouping
+        if victim_tokens and canonical_tokens:
+            # Check if one set of tokens is contained in the other
+            if (alias_builder.tokens_contained(victim_tokens, canonical_tokens) or 
+                alias_builder.tokens_contained(canonical_tokens, victim_tokens)):
+                # Also check if surnames match (if they exist)
+                if alias_builder.surnames_match(victim_name, canonical_name):
+                    return True
+        
+        return False
+    except Exception as e:
+        # Enhanced fallback with better matching
         def norm_alpha(s: str) -> str:
             return re.sub(r"[^A-Za-z]", "", (s or "")).lower()
         
+        def extract_surname(name: str) -> str:
+            """Extract likely surname (last word)"""
+            words = name.strip().split()
+            if not words:
+                return ""
+            # Skip common titles
+            titles = {"mr", "mrs", "miss", "dr", "doctor", "professor", "prof", "sir", "lady"}
+            filtered_words = [w for w in words if w.lower() not in titles]
+            return filtered_words[-1] if filtered_words else words[-1]
+        
         victim_norm = norm_alpha(victim_name)
         canonical_norm = norm_alpha(canonical_name)
-        return victim_norm in canonical_norm or canonical_norm in victim_norm
+        
+        # Check direct containment
+        if victim_norm in canonical_norm or canonical_norm in victim_norm:
+            return True
+            
+        # Check surname matching
+        victim_surname = norm_alpha(extract_surname(victim_name))
+        canonical_surname = norm_alpha(extract_surname(canonical_name))
+        
+        if victim_surname and canonical_surname and victim_surname == canonical_surname:
+            return True
+            
+        return False
 
 
 def find_victims_from_csv(story_title: str, alias_to_can: dict, story_index: int = None) -> set:
@@ -1426,11 +1479,11 @@ def main():
             **Custom Prompts:** {'Yes' if edit_prompts else 'No (Using defaults)'}
             """)
 
-            # Graph insights display (if enabled)
-            if use_graph_insights:
-                with st.expander("📊 Character Network Insights", expanded=False):
-                    graph_insights = analyze_character_metrics_for_culprits(story_index, st.session_state.dataset)
-                    st.markdown(graph_insights)
+        # Character Network Insights as dropdown menu (if enabled)
+        if use_graph_insights:
+            with st.expander("📊 Character Network Insights", expanded=False):
+                graph_insights = analyze_character_metrics_for_culprits(story_index, st.session_state.dataset)
+                st.markdown(graph_insights)
 
         # Generate button
         if st.button("🔍 Generate Analysis", type="primary", width="stretch"):

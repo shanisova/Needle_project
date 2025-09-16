@@ -45,7 +45,7 @@ def create_output_directory(story_name, story_index: int):
     """Create output directory for the story, suffixed with story index to avoid collisions."""
     # Clean story name for directory
     clean_name = story_name.replace(' ', '_').replace("'", '').replace('"', '').replace(':', '').replace(';', '')
-    output_dir = Path("character_data") / f"{clean_name}_{story_index}"
+    output_dir = Path("out") / f"{clean_name}_{story_index}"
     output_dir.mkdir(parents=True, exist_ok=True)
     return output_dir
 
